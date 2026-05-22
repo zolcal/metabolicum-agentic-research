@@ -35,7 +35,6 @@ The authoritative specification lives in the sibling `metabolicum-research/docs/
 | `input/` | Agent-visible inputs. |
 | `input/sm-ranges/` | SM range YAMLs: 5 pilot samples + waves 1 (108), 2 (109), 2b (90), 3 (674). Source for `sm_anchors` seeding and SM bulk ingestion. |
 | `input/registry/` | Marker identity registry (`marker-identity-registry.v1.yaml`, 1,110 markers). |
-| `input/reports/` | SM range generation reports (waves 1, 2, 2b, 3). |
 | `input/marker_glossary.json` | Stage 2 marker tagger glossary (5 pilot markers + aliases). |
 | `output/` | Approved per-marker SQL artifacts and other terminal exports. |
 | `prompts/` | Role-locked agent prompts (extractor, tagger, structurer, council decider, legal reviewer). |
