@@ -1,0 +1,87 @@
+# SM range input - Observation Urine (auto-generated from the wave-1 SM anchor package)
+marker_slug: observation-urine
+marker_name: Observation Urine
+sample_status: review_sample
+source_policy: frozen_standard_medical_anchor
+anchor_version: sm_wave_1_2026_05_05
+unit: mOsm/kg
+crosscheck_status: not_performed
+rows:
+- stratum: male_18_50
+  sex: male
+  age_min: 18
+  age_max: 50
+  min: 164.0
+  max: 1105.0
+  status: normal
+  use: internal_research_gate
+- stratum: female_18_50
+  sex: female
+  age_min: 18
+  age_max: 50
+  min: 114.0
+  max: 1101.0
+  status: normal
+  use: internal_research_gate
+- stratum: male_51_65
+  sex: male
+  age_min: 51
+  age_max: 65
+  min: 165.0
+  max: 1030.7
+  status: normal
+  use: internal_research_gate
+- stratum: female_51_65
+  sex: female
+  age_min: 51
+  age_max: 65
+  min: 120.0
+  max: 982.3
+  status: normal
+  use: internal_research_gate
+- stratum: male_66_79
+  sex: male
+  age_min: 66
+  age_max: 79
+  min: 219.7
+  max: 1002.5
+  status: normal
+  use: internal_research_gate
+- stratum: female_66_79
+  sex: female
+  age_min: 66
+  age_max: 79
+  min: 136.0
+  max: 873.0
+  status: normal
+  use: internal_research_gate
+- stratum: male_80plus
+  sex: male
+  age_min: 80
+  age_max: null
+  min: 265.3
+  max: 848.4
+  status: normal
+  use: internal_research_gate
+- stratum: female_80plus
+  sex: female
+  age_min: 80
+  age_max: null
+  min: 187.2
+  max: 770.7
+  status: normal
+  use: internal_research_gate
+anchor_provenance:
+  source_visibility: public_ids_only
+  hidden_derivation: true
+known_research_context:
+  source_visibility: public_ids_only
+  purpose: deduplication_and_context
+  pmids:
+    - "40317183"
+  pmcids: []
+  dois: []
+  note: Public IDs exposed for deduplication. Do not treat as proof of current claim unless independently revalidated.
+annotations: []
+reviewer_note: 'Auto-generated from the wave-1 SM anchor package. Doctrine: population-RI primary, guidelines annotation-only.
+  Internal derivation hidden from agent view. Annotations and known_research_context PMIDs to be curated in a subsequent pass.'

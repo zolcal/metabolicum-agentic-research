@@ -1,0 +1,88 @@
+# SM range input - Alkaline Phosphatase (auto-generated from the wave-1 SM anchor package)
+marker_slug: alp
+marker_name: Alkaline Phosphatase
+sample_status: review_sample
+source_policy: frozen_standard_medical_anchor
+anchor_version: sm_wave_1_2026_05_05
+unit: U/L
+crosscheck_status: passed
+rows:
+- stratum: male_20_79
+  sex: male
+  age_min: 20
+  age_max: 79
+  min: 45
+  max: 125
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC3772807
+    dois: []
+- stratum: female_20_49
+  sex: female
+  age_min: 20
+  age_max: 49
+  min: 35
+  max: 100
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC3772807
+    dois: []
+- stratum: female_50_79
+  sex: female
+  age_min: 50
+  age_max: 79
+  min: 50
+  max: 135
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC3772807
+    dois: []
+- stratum: male
+  sex: male
+  age_min: 18
+  age_max: null
+  min: 42.0
+  max: 129.0
+  status: normal
+  use: internal_research_gate
+- stratum: female_under45
+  sex: female
+  age_min: 18
+  age_max: 44
+  min: 35.0
+  max: 124.0
+  status: normal
+  use: internal_research_gate
+- stratum: female_45plus
+  sex: female
+  age_min: 45
+  age_max: null
+  min: 42.0
+  max: 139.0
+  status: normal
+  use: internal_research_gate
+anchor_provenance:
+  source_visibility: public_ids_only
+  hidden_derivation: true
+known_research_context:
+  source_visibility: public_ids_only
+  purpose: deduplication_and_context
+  pmids: []
+  pmcids: []
+  dois: []
+  note: Public IDs exposed for deduplication. Do not treat as proof of current claim unless independently revalidated.
+annotations: []
+reviewer_note: 'Auto-generated from the wave-1 SM anchor package. Doctrine: population-RI primary, guidelines annotation-only.
+  Internal derivation hidden from agent view. Annotations and known_research_context PMIDs to be curated in a subsequent pass.'

@@ -1,0 +1,53 @@
+# SM range input - Calcitonin (auto-generated from the wave-3 SM anchor candidate set)
+marker_slug: calcitonin
+canonical_slug: calcitonin
+marker_name: Calcitonin
+entity_type: raw_input_marker
+identity_binding_status: unreviewed_db_marker
+sample_status: review_sample
+source_policy: standard_medical_anchor_candidate
+anchor_version: sm_wave_3_2026_05_18
+unit: pg/mL
+rows:
+- stratum: female_age_17plus
+  sex: female
+  age_min: 17
+  age_max: null
+  min: null
+  max: 7.6
+  status: reference-cutoff
+  use: internal_research_gate
+- stratum: male
+  sex: male
+  age_min: null
+  age_max: null
+  min: 0.0
+  max: 8.4
+  status: normal
+  use: internal_research_gate
+- stratum: male_age_17plus
+  sex: male
+  age_min: 17
+  age_max: null
+  min: null
+  max: 14.3
+  status: reference-cutoff
+  use: internal_research_gate
+anchor_provenance:
+  source_visibility: public_ids_only
+  hidden_derivation: true
+known_research_context:
+  source_visibility: public_ids_only
+  purpose: deduplication_and_context
+  pmids:
+    - "37254023"
+    - "38711029"
+    - "41799688"
+  pmcids: []
+  dois: []
+  note: Public IDs exposed for deduplication. Do not treat as proof of current claim unless independently revalidated.
+annotations: []
+reviewer_note: 'Auto-generated from the wave-3 SM anchor candidate set. Doctrine: standard-medical rows are unreviewed legacy-db
+  inputs only while marker identity has not yet been reviewed. crosscheck_status is intentionally absent in wave-3; promotion
+  requires identity review plus a later crosscheck/promotion pass. Internal derivation and source collection details are hidden
+  from agent view.'

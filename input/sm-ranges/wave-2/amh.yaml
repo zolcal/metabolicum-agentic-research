@@ -1,0 +1,105 @@
+# SM range input - Mullerian inhibiting substance (auto-generated from the wave-2A SM anchor candidate set)
+marker_slug: amh
+canonical_slug: amh
+marker_name: Mullerian inhibiting substance
+entity_type: evaluator
+identity_binding_status: canonical_candidate
+sample_status: review_sample
+source_policy: standard_medical_anchor_candidate
+anchor_version: sm_wave_2a_2026_05_18
+unit: ng/mL
+rows:
+- stratum: all_adults
+  sex: all
+  age_min: null
+  age_max: null
+  min: 32.77
+  max: 262.69
+  status: normal
+  use: comparison_only
+- stratum: age_7_19
+  sex: all
+  age_min: 7
+  age_max: 19
+  min: 1.05
+  max: 12.86
+  status: normal
+  use: comparison_only
+- stratum: age_20_25
+  sex: all
+  age_min: 20
+  age_max: 25
+  min: 1.23
+  max: 11.51
+  status: normal
+  use: comparison_only
+- stratum: age_20_98
+  sex: all
+  age_min: 20
+  age_max: 98
+  min: 0.11
+  max: 13.07
+  status: normal
+  use: comparison_only
+- stratum: age_26_30
+  sex: all
+  age_min: 26
+  age_max: 30
+  min: 1.03
+  max: 11.1
+  status: normal
+  use: comparison_only
+- stratum: age_31_35
+  sex: all
+  age_min: 31
+  age_max: 35
+  min: 0.66
+  max: 8.75
+  status: normal
+  use: comparison_only
+- stratum: age_36_40
+  sex: all
+  age_min: 36
+  age_max: 40
+  min: 0.42
+  max: 8.34
+  status: normal
+  use: comparison_only
+- stratum: age_41_46
+  sex: all
+  age_min: 41
+  age_max: 46
+  min: 0.26
+  max: 5.81
+  status: normal
+  use: comparison_only
+- stratum: age_47_54
+  sex: all
+  age_min: 47
+  age_max: 54
+  min: null
+  max: 0.82
+  status: reference-cutoff
+  use: comparison_only
+- stratum: age_55_97
+  sex: all
+  age_min: 55
+  age_max: 97
+  min: null
+  max: 0.18
+  status: reference-cutoff
+  use: comparison_only
+anchor_provenance:
+  source_visibility: public_ids_only
+  hidden_derivation: true
+known_research_context:
+  source_visibility: public_ids_only
+  purpose: deduplication_and_context
+  pmids: []
+  pmcids: []
+  dois: []
+  note: Public IDs exposed for deduplication. Do not treat as proof of current claim unless independently revalidated.
+annotations: []
+reviewer_note: 'Auto-generated from the wave-2A SM anchor candidate set. Doctrine: standard-medical rows are comparison anchors
+  until human review promotes them. crosscheck_status is intentionally absent in wave-2A; promotion requires human review
+  plus a later crosscheck/promotion pass. Internal derivation and source collection details are hidden from agent view.'

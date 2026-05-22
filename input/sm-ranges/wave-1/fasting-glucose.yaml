@@ -1,0 +1,105 @@
+# SM range input - Fasting Glucose (auto-generated from the wave-1 SM anchor package)
+marker_slug: fasting-glucose
+marker_name: Fasting Glucose
+sample_status: review_sample
+source_policy: frozen_standard_medical_anchor
+anchor_version: sm_wave_1_2026_05_05
+unit: mg/dL
+crosscheck_status: not_performed
+rows:
+- stratum: male_18_50
+  sex: male
+  age_min: 18
+  age_max: 50
+  min: 80.0
+  max: 117.0
+  status: normal
+  use: internal_research_gate
+- stratum: female_18_50
+  sex: female
+  age_min: 18
+  age_max: 50
+  min: 78.0
+  max: 110.0
+  status: normal
+  use: internal_research_gate
+- stratum: male_51_65
+  sex: male
+  age_min: 51
+  age_max: 65
+  min: 86.0
+  max: 134.0
+  status: normal
+  use: internal_research_gate
+- stratum: female_51_65
+  sex: female
+  age_min: 51
+  age_max: 65
+  min: 81.0
+  max: 122.0
+  status: normal
+  use: internal_research_gate
+- stratum: male_66_79
+  sex: male
+  age_min: 66
+  age_max: 79
+  min: 86.0
+  max: 140.0
+  status: normal
+  use: internal_research_gate
+- stratum: female_66_79
+  sex: female
+  age_min: 66
+  age_max: 79
+  min: 83.0
+  max: 134.0
+  status: normal
+  use: internal_research_gate
+- stratum: male_80plus
+  sex: male
+  age_min: 80
+  age_max: null
+  min: 84.0
+  max: 150.0
+  status: normal
+  use: internal_research_gate
+- stratum: female_80plus
+  sex: female
+  age_min: 80
+  age_max: null
+  min: 85.0
+  max: 134.0
+  status: normal
+  use: internal_research_gate
+anchor_provenance:
+  source_visibility: public_ids_only
+  hidden_derivation: true
+known_research_context:
+  source_visibility: public_ids_only
+  purpose: deduplication_and_context
+  pmids:
+    - "3899825"
+    - "10333902"
+    - "10902745"
+    - "12089386"
+    - "15381654"
+    - "16046317"
+    - "16157765"
+    - "16371630"
+    - "18539916"
+    - "19805654"
+    - "23404299"
+    - "24131857"
+    - "31108989"
+    - "31497854"
+    - "31641012"
+    - "32669282"
+    - "33143083"
+    - "33376604"
+    - "37622663"
+  pmcids: []
+  dois: []
+  note: Public IDs exposed for deduplication. Do not treat as proof of current claim unless independently revalidated.
+annotations: []
+reviewer_note: 'Auto-generated from the wave-1 SM anchor package. Doctrine: population-RI primary, guidelines annotation-only.
+  Internal derivation hidden from agent view. Annotations and known_research_context PMIDs to be curated in a subsequent pass.'

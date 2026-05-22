@@ -1,0 +1,59 @@
+# SM range input - Heparin induced platelet IgG Ab in Serum or Plasma by Immunoassay (auto-generated from the wave-3 SM anchor candidate set)
+marker_slug: platelet-factor-4-heparin-complex-induced-ab-igg
+canonical_slug: platelet-factor-4-heparin-complex-induced-ab-igg
+marker_name: Heparin induced platelet IgG Ab in Serum or Plasma by Immunoassay
+entity_type: raw_input_marker
+identity_binding_status: unreviewed_db_marker
+sample_status: review_sample
+source_policy: standard_medical_anchor_candidate
+anchor_version: sm_wave_3_2026_05_18
+unit: mg/dL
+rows:
+- stratum: age_18_19
+  sex: all
+  age_min: 18
+  age_max: 19
+  min: 325.0
+  max: 846.0
+  status: normal
+  use: internal_research_gate
+- stratum: age_19
+  sex: all
+  age_min: 19
+  age_max: 19
+  min: 248.0
+  max: 810.0
+  status: normal
+  use: internal_research_gate
+- stratum: female_age_19
+  sex: female
+  age_min: 19
+  age_max: 19
+  min: 586.0
+  max: 1602.0
+  status: normal
+  use: internal_research_gate
+- stratum: male_age_19
+  sex: male
+  age_min: 19
+  age_max: 19
+  min: 603.0
+  max: 1613.0
+  status: normal
+  use: internal_research_gate
+anchor_provenance:
+  source_visibility: public_ids_only
+  hidden_derivation: true
+known_research_context:
+  source_visibility: public_ids_only
+  purpose: deduplication_and_context
+  pmids:
+    - "28677022"
+  pmcids: []
+  dois: []
+  note: Public IDs exposed for deduplication. Do not treat as proof of current claim unless independently revalidated.
+annotations: []
+reviewer_note: 'Auto-generated from the wave-3 SM anchor candidate set. Doctrine: standard-medical rows are unreviewed legacy-db
+  inputs only while marker identity has not yet been reviewed. crosscheck_status is intentionally absent in wave-3; promotion
+  requires identity review plus a later crosscheck/promotion pass. Internal derivation and source collection details are hidden
+  from agent view.'

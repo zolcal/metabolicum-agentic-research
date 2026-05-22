@@ -1,0 +1,33 @@
+# SM range input - Oxidized LDL (auto-generated from the wave-2A SM anchor candidate set)
+marker_slug: oxidized-ldl
+canonical_slug: oxidized-ldl
+marker_name: Oxidized LDL
+entity_type: evaluator
+identity_binding_status: canonical_candidate
+sample_status: review_sample
+source_policy: standard_medical_anchor_candidate
+anchor_version: sm_wave_2a_2026_05_18
+unit: IU/L
+rows:
+- stratum: all_adults
+  sex: all
+  age_min: null
+  age_max: null
+  min: null
+  max: 60.0
+  status: reference-cutoff
+  use: comparison_only
+anchor_provenance:
+  source_visibility: public_ids_only
+  hidden_derivation: true
+known_research_context:
+  source_visibility: public_ids_only
+  purpose: deduplication_and_context
+  pmids: []
+  pmcids: []
+  dois: []
+  note: Public IDs exposed for deduplication. Do not treat as proof of current claim unless independently revalidated.
+annotations: []
+reviewer_note: 'Auto-generated from the wave-2A SM anchor candidate set. Doctrine: standard-medical rows are comparison anchors
+  until human review promotes them. crosscheck_status is intentionally absent in wave-2A; promotion requires human review
+  plus a later crosscheck/promotion pass. Internal derivation and source collection details are hidden from agent view.'

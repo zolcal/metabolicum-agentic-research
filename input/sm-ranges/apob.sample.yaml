@@ -1,0 +1,135 @@
+# SM range input - ApoB
+# Hybrid anchor: international guideline (display-eligible) + population distribution (internal gate).
+
+marker_slug: apob
+marker_name: Apolipoprotein B
+sample_status: review_sample
+source_policy: frozen_standard_medical_anchor
+anchor_version: sm_wave_1_2026_05_05
+unit: mg/dL
+
+rows:
+  - stratum: all_adults
+    sex: all
+    age_min: 18
+    age_max: null
+    min: 80
+    max: 110
+    status: normal
+    use: display_eligible
+    primary_display: true
+    public_source_ids:
+      pmids: []
+      pmcids:
+        - "PMC10498001"
+      dois: []
+  - stratum: male_18_50
+    sex: male
+    age_min: 18
+    age_max: 50
+    min: 50
+    max: 150
+    status: normal
+    use: internal_research_gate
+  - stratum: female_18_50
+    sex: female
+    age_min: 18
+    age_max: 50
+    min: 47
+    max: 136
+    status: normal
+    use: internal_research_gate
+  - stratum: male_51_65
+    sex: male
+    age_min: 51
+    age_max: 65
+    min: 56
+    max: 155
+    status: normal
+    use: internal_research_gate
+  - stratum: female_51_65
+    sex: female
+    age_min: 51
+    age_max: 65
+    min: 57
+    max: 151
+    status: normal
+    use: internal_research_gate
+  - stratum: male_66_79
+    sex: male
+    age_min: 66
+    age_max: 79
+    min: 50
+    max: 142
+    status: normal
+    use: internal_research_gate
+  - stratum: female_66_79
+    sex: female
+    age_min: 66
+    age_max: 79
+    min: 54
+    max: 150
+    status: normal
+    use: internal_research_gate
+  - stratum: male_80plus
+    sex: male
+    age_min: 80
+    age_max: null
+    min: 46
+    max: 122
+    status: normal
+    use: internal_research_gate
+  - stratum: female_80plus
+    sex: female
+    age_min: 80
+    age_max: null
+    min: 53
+    max: 148
+    status: normal
+    use: internal_research_gate
+
+anchor_provenance:
+  source_visibility: public_ids_only
+  hidden_derivation: true
+  # Public IDs attach to rows individually; see rows[].public_source_ids.
+
+known_research_context:
+  source_visibility: public_ids_only
+  purpose: deduplication_and_context
+  pmids:
+    - "23584084"
+    - "33736827"
+  pmcids: []
+  dois: []
+  note: |
+    Public IDs exposed for deduplication. Do not treat as proof of current
+    claim unless independently revalidated.
+
+annotations:
+  - role: risk_treatment_threshold
+    summary: NLA Recommendations for Patient-Centered Management of Dyslipidemia (US convention)
+    thresholds:
+      - {value: 100, meaning: borderline_high_us}
+      - {value: 130, meaning: high_us}
+    public_reference:
+      url: https://www.lipidjournal.com/article/S1933-2874(15)00380-5/fulltext
+      pmids: []
+      dois: []
+  - role: risk_treatment_threshold
+    summary: ESC/EAS Guidelines 2019 - risk-stratified ApoB targets
+    thresholds:
+      - {value: 65,  meaning: very_high_cv_risk_target}
+      - {value: 80,  meaning: high_cv_risk_target}
+      - {value: 100, meaning: moderate_low_risk_target}
+    public_reference:
+      url: https://academic.oup.com/eurheartj/article/41/1/111/5556353
+      pmids: []
+      dois: []
+
+reviewer_note: |
+  Hybrid anchor: row 1 (all_adults 80-110 mg/dL) is the display-eligible
+  guideline reference interval; rows 2-9 are sex- and age-stratified
+  population distribution rows kept for internal council gating only.
+  Risk-stratified treatment targets from US, European, Indian, and Canadian
+  guidelines are annotations, not anchor rows. MO practitioners targeting
+  <80 mg/dL sit inside the lower end of the display row.

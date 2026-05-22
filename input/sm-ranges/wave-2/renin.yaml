@@ -1,0 +1,65 @@
+# SM range input - Renin (auto-generated from the wave-2A SM anchor candidate set)
+marker_slug: renin
+canonical_slug: renin
+marker_name: Renin
+entity_type: evaluator
+identity_binding_status: canonical_candidate
+sample_status: review_sample
+source_policy: standard_medical_anchor_candidate
+anchor_version: sm_wave_2a_2026_05_18
+unit: ng/mL/hr
+rows:
+- stratum: all_adults
+  sex: all
+  age_min: null
+  age_max: null
+  min: null
+  max: 25.0
+  status: reference-cutoff
+  use: comparison_only
+- stratum: age_15plus
+  sex: all
+  age_min: 15
+  age_max: null
+  min: 4.0
+  max: 31.0
+  status: normal
+  use: comparison_only
+- stratum: age_15
+  sex: all
+  age_min: 15
+  age_max: 15
+  min: 0.167
+  max: 5.38
+  status: normal
+  use: comparison_only
+- stratum: age_40plus
+  sex: all
+  age_min: 40
+  age_max: null
+  min: 3.6
+  max: 81.6
+  status: normal
+  use: comparison_only
+- stratum: age_upto_40
+  sex: all
+  age_min: null
+  age_max: 40
+  min: 4.2
+  max: 52.2
+  status: normal
+  use: comparison_only
+anchor_provenance:
+  source_visibility: public_ids_only
+  hidden_derivation: true
+known_research_context:
+  source_visibility: public_ids_only
+  purpose: deduplication_and_context
+  pmids: []
+  pmcids: []
+  dois: []
+  note: Public IDs exposed for deduplication. Do not treat as proof of current claim unless independently revalidated.
+annotations: []
+reviewer_note: 'Auto-generated from the wave-2A SM anchor candidate set. Doctrine: standard-medical rows are comparison anchors
+  until human review promotes them. crosscheck_status is intentionally absent in wave-2A; promotion requires human review
+  plus a later crosscheck/promotion pass. Internal derivation and source collection details are hidden from agent view.'

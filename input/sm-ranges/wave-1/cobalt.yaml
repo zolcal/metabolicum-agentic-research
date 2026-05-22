@@ -1,0 +1,40 @@
+# SM range input - Cobalt (auto-generated from the wave-1 SM anchor package)
+marker_slug: cobalt
+marker_name: Cobalt
+sample_status: review_sample
+source_policy: frozen_standard_medical_anchor
+anchor_version: sm_wave_1_2026_05_05
+unit: mcg/L
+crosscheck_status: not_performed
+rows:
+- stratum: male_18_79
+  sex: male
+  age_min: 18
+  age_max: 79
+  min: 0.04
+  max: 0.4
+  status: normal
+  use: comparison_only
+- stratum: female_18_79
+  sex: female
+  age_min: 18
+  age_max: 79
+  min: 0.04
+  max: 0.6
+  status: normal
+  use: comparison_only
+anchor_provenance:
+  source_visibility: public_ids_only
+  hidden_derivation: true
+known_research_context:
+  source_visibility: public_ids_only
+  purpose: deduplication_and_context
+  pmids:
+    - "40969594"
+    - "41567392"
+  pmcids: []
+  dois: []
+  note: Public IDs exposed for deduplication. Do not treat as proof of current claim unless independently revalidated.
+annotations: []
+reviewer_note: 'Auto-generated from the wave-1 SM anchor package. Doctrine: population-RI primary, guidelines annotation-only.
+  Internal derivation hidden from agent view. Annotations and known_research_context PMIDs to be curated in a subsequent pass.'

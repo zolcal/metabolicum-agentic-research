@@ -1,0 +1,37 @@
+# SM range input - Myoglobin (auto-generated from the wave-1 SM anchor package)
+marker_slug: myoglobin
+marker_name: Myoglobin
+sample_status: review_sample
+source_policy: frozen_standard_medical_anchor
+anchor_version: sm_wave_1_2026_05_05
+unit: ng/mL
+rows:
+- stratum: male
+  sex: male
+  age_min: 18
+  age_max: null
+  min: 2.8
+  max: 101.5
+  status: normal
+  use: internal_research_gate
+- stratum: female
+  sex: female
+  age_min: 18
+  age_max: null
+  min: 2.8
+  max: 42.2
+  status: normal
+  use: internal_research_gate
+anchor_provenance:
+  source_visibility: public_ids_only
+  hidden_derivation: true
+known_research_context:
+  source_visibility: public_ids_only
+  purpose: deduplication_and_context
+  pmids: []
+  pmcids: []
+  dois: []
+  note: Public IDs exposed for deduplication. Do not treat as proof of current claim unless independently revalidated.
+annotations: []
+reviewer_note: 'Auto-generated from the wave-1 SM anchor package. Doctrine: population-RI primary, guidelines annotation-only.
+  Internal derivation hidden from agent view. Annotations and known_research_context PMIDs to be curated in a subsequent pass.'

@@ -1,0 +1,90 @@
+# SM range input - Progesterone (auto-generated from the wave-1 SM anchor package)
+marker_slug: progesterone
+marker_name: Progesterone
+sample_status: review_sample
+source_policy: frozen_standard_medical_anchor
+anchor_version: sm_wave_1_2026_05_05
+unit: ng/mL
+crosscheck_status: not_applicable
+rows:
+- stratum: f_1_10
+  sex: female
+  age_min: 1
+  age_max: 10
+  min: 0.05
+  max: 0.52
+  status: normal
+  use: internal_research_gate
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC13072677
+    dois: []
+- stratum: f_11_12
+  sex: female
+  age_min: 11
+  age_max: 12
+  min: 0.1
+  max: 2.46
+  status: normal
+  use: internal_research_gate
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC13072677
+    dois: []
+- stratum: f_13_14
+  sex: female
+  age_min: 13
+  age_max: 14
+  min: 0.16
+  max: 11.83
+  status: normal
+  use: internal_research_gate
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC13072677
+    dois: []
+- stratum: m_1_12
+  sex: male
+  age_min: 1
+  age_max: 12
+  min: 0.04
+  max: 0.5
+  status: normal
+  use: internal_research_gate
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC13072677
+    dois: []
+- stratum: m_13_14
+  sex: male
+  age_min: 13
+  age_max: 14
+  min: 0.17
+  max: 0.85
+  status: normal
+  use: internal_research_gate
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC13072677
+    dois: []
+anchor_provenance:
+  source_visibility: public_ids_only
+  hidden_derivation: true
+known_research_context:
+  source_visibility: public_ids_only
+  purpose: deduplication_and_context
+  pmids:
+    - "34384594"
+    - "35921048"
+    - "36518987"
+  pmcids: []
+  dois: []
+  note: Public IDs exposed for deduplication. Do not treat as proof of current claim unless independently revalidated.
+annotations: []
+reviewer_note: 'Auto-generated from the wave-1 SM anchor package. Doctrine: population-RI primary, guidelines annotation-only.
+  Internal derivation hidden from agent view. Annotations and known_research_context PMIDs to be curated in a subsequent pass.'

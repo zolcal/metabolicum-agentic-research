@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://metabolicum-agentic-research/schemas/state.schema.json",
+  "title": "Stage handoff state.json",
+  "description": "Per-stage handoff record written by the Hermes worker at every stage boundary. Source of truth: docs/agentic-workflow/10-orchestration-and-filesystem.md. May record file paths, counts, endpoint IDs, timing, and terminal error summaries. Must NOT contain API keys, cookies, hidden envelope derivation notes, or full private source-bearing artifacts.",
+  "type": "object",
+  "required": [
+    "run_id",
+    "stage",
+    "status",
+    "input_files",
+    "output_files",
+    "started_at",
+    "model_endpoints",
+    "tool_manifest",
+    "metrics"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "1",
+      "description": "Pin the schema version; bump on breaking shape changes."
+    },
+    "run_id": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{6}Z(-[a-z0-9-]+)?$",
+      "description": "ISO timestamp with optional suffix; matches the runs/<run_id>/ directory name."
+    },
+    "stage": {
+      "type": "string",
+      "enum": [
+        "stage_1_discovery",
+        "stage_2_extraction",
+        "stage_2_tagging",
+        "stage_2_structuring",
+        "stage_3_council",
+        "stage_4_provenance",
+        "stage_5_legal",
+        "stage_6_assembly"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": ["pending", "running", "completed", "failed", "quarantined"]
+    },
+    "input_files": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Paths relative to runs/<run_id>/ root."
+    },
+    "output_files": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Paths relative to runs/<run_id>/ root."
+    },
+    "started_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "completed_at": {
+      "type": ["string", "null"],
+      "format": "date-time"
+    },
+    "model_endpoints": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Endpoint role names from config/llm-endpoints.yaml (e.g. extractor, council_decider)."
+    },
+    "tool_manifest": {
+      "type": "string",
+      "description": "Stage key from config/tools.yaml that lists the tools this stage may call."
+    },
+    "metrics": {
+      "type": "object",
+      "additionalProperties": { "type": "number" },
+      "description": "Counters relevant to this stage (sources_processed, claims_emitted, provider_calls, retries, etc.)."
+    },
+    "error": {
+      "type": ["object", "null"],
+      "description": "Terminal error summary on failure; null otherwise. Must not include keys, tokens, or full private artifacts.",
+      "additionalProperties": false,
+      "properties": {
+        "code": { "type": "string" },
+        "message": { "type": "string" },
+        "rejection_codes": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+# SM range input - Red Blood Cell Count (auto-generated from the wave-1 SM anchor package)
+marker_slug: rbc-count
+marker_name: Red Blood Cell Count
+sample_status: review_sample
+source_policy: frozen_standard_medical_anchor
+anchor_version: sm_wave_1_2026_05_05
+unit: 10^12/L
+crosscheck_status: not_applicable
+rows:
+- stratum: male_80_89
+  sex: male
+  age_min: 80
+  age_max: 89
+  min: 3.32
+  max: 5.73
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC9542839
+    dois: []
+- stratum: female_80_89
+  sex: female
+  age_min: 80
+  age_max: 89
+  min: 3.4
+  max: 5.1
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC9542839
+    dois: []
+anchor_provenance:
+  source_visibility: public_ids_only
+  hidden_derivation: true
+known_research_context:
+  source_visibility: public_ids_only
+  purpose: deduplication_and_context
+  pmids:
+    - "36574367"
+    - "41223417"
+  pmcids: []
+  dois: []
+  note: Public IDs exposed for deduplication. Do not treat as proof of current claim unless independently revalidated.
+annotations: []
+reviewer_note: 'Auto-generated from the wave-1 SM anchor package. Doctrine: population-RI primary, guidelines annotation-only.
+  Internal derivation hidden from agent view. Annotations and known_research_context PMIDs to be curated in a subsequent pass.'

@@ -1,0 +1,78 @@
+# SM range input - TG/HDL ratio
+# Calculated surface. No direct SM anchor; council derives from upstream evaluator markers.
+
+marker_slug: tg-hdl-ratio
+marker_name: TG/HDL ratio
+sample_status: review_sample
+source_policy: calculated_surface
+anchor_version: sm_wave_1_2026_05_05
+unit: ratio
+rows: []   # No direct SM anchor rows; surface is computed from upstream inputs.
+
+formula:
+  formula_id: triglyceride_hdl_ratio
+  formula_version: standard_ratio_v1
+  expression: triglycerides_mg_dl / hdl_cholesterol_mg_dl
+  inputs:
+    - marker_slug: triglycerides
+      anchor_version: sm_wave_1_2026_05_05
+    - marker_slug: hdl-cholesterol
+      anchor_version: sm_wave_1_2026_05_05
+
+sm_anchor_status:
+  has_direct_anchor: false
+  reason: derived_formula_surface_filled_by_upstream_evaluator_markers
+  council_handling: |
+    The council computes the implied ratio range from the upstream evaluator
+    marker anchors (triglycerides, hdl-cholesterol) and sanity-checks
+    discovered claims against that. No standalone SM RI is constructed for
+    the ratio itself.
+
+known_research_context:
+  source_visibility: public_ids_only
+  purpose: deduplication_and_context
+  pmids:
+    - "14623617"
+    - "16054467"
+  pmcids: []
+  dois: []
+  note: |
+    Public IDs exposed for deduplication. Do not treat as proof of current
+    claim unless independently revalidated.
+
+mo_research_context:
+  source_visibility: public_ids_only
+  purpose: paradigm_comparison_and_deduplication
+  pmids:
+    - "15246907"   # Hanak et al. 2004
+    - "14623617"   # McLaughlin et al. 2003
+    - "25667373"   # Armato/Reaven et al. 2015
+    - "23863983"   # Murguia-Romero et al. 2013
+    - "15983289"   # Sumner et al. 2005
+    - "26232164"   # VLDL-4 study 2015
+  pmcids: []
+  dois: []
+  population_caveat: |
+    Sumner 2005 (PMID 15983289) shows TG and TG/HDL-C ratio are not reliable
+    insulin-resistance markers in African American populations. Threshold
+    universal-application is not appropriate.
+  note: |
+    Public IDs exposed for deduplication and paradigm-comparison context.
+    Do not treat as proof of current claim unless independently revalidated.
+    The MO target range itself is hidden; the agent must derive its
+    expectation from open-source discovery, not from this file.
+
+anchor_provenance:
+  source_visibility: public_ids_only
+  hidden_derivation: true
+
+annotations: []
+
+reviewer_note: |
+  TG/HDL is a calculated surface; the agent does not receive a direct SM
+  anchor. The council computes the implied ratio range from the upstream
+  evaluator marker anchors (triglycerides, hdl-cholesterol). MO research
+  context exposes only the public PMIDs that the RC effort has already
+  surfaced, so the agent does not rediscover them. The actual MO target
+  range, threshold values, and source rationale stay inside the internal
+  provenance ledger and are not exposed in this file.

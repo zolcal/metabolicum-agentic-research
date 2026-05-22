@@ -1,0 +1,74 @@
+# SM range input - Triiodothyronine (T3) Free (auto-generated from the wave-3 SM anchor candidate set)
+marker_slug: triiodothyronine-free
+canonical_slug: triiodothyronine-free
+marker_name: Triiodothyronine (T3) Free
+entity_type: raw_input_marker
+identity_binding_status: unreviewed_db_marker
+sample_status: review_sample
+source_policy: standard_medical_anchor_candidate
+anchor_version: sm_wave_3_2026_05_18
+unit: pg/mL
+rows:
+- stratum: age_11_19
+  sex: all
+  age_min: 11
+  age_max: 19
+  min: 2.3
+  max: 5.0
+  status: normal
+  use: internal_research_gate
+- stratum: age_12_19
+  sex: all
+  age_min: 12
+  age_max: 19
+  min: 2.3
+  max: 5.0
+  status: normal
+  use: internal_research_gate
+- stratum: age_19plus
+  sex: all
+  age_min: 19
+  age_max: null
+  min: 2.0
+  max: 4.4
+  status: normal
+  use: internal_research_gate
+- stratum: age_20plus
+  sex: all
+  age_min: 20
+  age_max: null
+  min: 2.5
+  max: 4.3
+  status: normal
+  use: internal_research_gate
+- stratum: age_14_19
+  sex: all
+  age_min: 14
+  age_max: 19
+  min: 3.3
+  max: 5.3
+  status: normal
+  use: internal_research_gate
+- stratum: age_19
+  sex: all
+  age_min: 19
+  age_max: 19
+  min: 2.0
+  max: 4.4
+  status: normal
+  use: internal_research_gate
+anchor_provenance:
+  source_visibility: public_ids_only
+  hidden_derivation: true
+known_research_context:
+  source_visibility: public_ids_only
+  purpose: deduplication_and_context
+  pmids: []
+  pmcids: []
+  dois: []
+  note: Public IDs exposed for deduplication. Do not treat as proof of current claim unless independently revalidated.
+annotations: []
+reviewer_note: 'Auto-generated from the wave-3 SM anchor candidate set. Doctrine: standard-medical rows are unreviewed legacy-db
+  inputs only while marker identity has not yet been reviewed. crosscheck_status is intentionally absent in wave-3; promotion
+  requires identity review plus a later crosscheck/promotion pass. Internal derivation and source collection details are hidden
+  from agent view.'

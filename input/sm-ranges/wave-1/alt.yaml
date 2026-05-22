@@ -1,0 +1,77 @@
+# SM range input - Alanine Aminotransferase (auto-generated from the wave-1 SM anchor package)
+marker_slug: alt
+marker_name: Alanine Aminotransferase
+sample_status: review_sample
+source_policy: frozen_standard_medical_anchor
+anchor_version: sm_wave_1_2026_05_05
+unit: U/L
+crosscheck_status: passed
+rows:
+- stratum: male
+  sex: male
+  age_min: 20
+  age_max: 79
+  min: 9
+  max: 50
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC3772807
+    dois: []
+- stratum: female
+  sex: female
+  age_min: 20
+  age_max: 79
+  min: 7
+  max: 40
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC3772807
+    dois: []
+- stratum: male_supporting
+  sex: male
+  age_min: 18
+  age_max: null
+  min: 9.0
+  max: 48.0
+  status: normal
+  use: internal_research_gate
+- stratum: female_supporting
+  sex: female
+  age_min: 18
+  age_max: null
+  min: 7.0
+  max: 36.0
+  status: normal
+  use: internal_research_gate
+anchor_provenance:
+  source_visibility: public_ids_only
+  hidden_derivation: true
+known_research_context:
+  source_visibility: public_ids_only
+  purpose: deduplication_and_context
+  pmids:
+    - "18054554"
+    - "20162730"
+    - "20427778"
+    - "21280125"
+    - "21987480"
+    - "26707365"
+    - "28490552"
+    - "29567099"
+    - "31641012"
+    - "33143083"
+    - "35077243"
+  pmcids: []
+  dois: []
+  note: Public IDs exposed for deduplication. Do not treat as proof of current claim unless independently revalidated.
+annotations: []
+reviewer_note: 'Auto-generated from the wave-1 SM anchor package. Doctrine: population-RI primary, guidelines annotation-only.
+  Internal derivation hidden from agent view. Annotations and known_research_context PMIDs to be curated in a subsequent pass.'

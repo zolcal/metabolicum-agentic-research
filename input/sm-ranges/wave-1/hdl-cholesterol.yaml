@@ -1,0 +1,107 @@
+# SM range input - Hdl Cholesterol (auto-generated from the wave-1 SM anchor package)
+marker_slug: hdl-cholesterol
+marker_name: Hdl Cholesterol
+sample_status: review_sample
+source_policy: frozen_standard_medical_anchor
+anchor_version: sm_wave_1_2026_05_05
+unit: mg/dL
+crosscheck_status: not_performed
+rows:
+- stratum: male_18_50
+  sex: male
+  age_min: 18
+  age_max: 50
+  min: 30.0
+  max: 79.0
+  status: normal
+  use: internal_research_gate
+- stratum: female_18_50
+  sex: female
+  age_min: 18
+  age_max: 50
+  min: 36.0
+  max: 96.0
+  status: normal
+  use: internal_research_gate
+- stratum: male_51_65
+  sex: male
+  age_min: 51
+  age_max: 65
+  min: 31.0
+  max: 88.0
+  status: normal
+  use: internal_research_gate
+- stratum: female_51_65
+  sex: female
+  age_min: 51
+  age_max: 65
+  min: 38.0
+  max: 106.0
+  status: normal
+  use: internal_research_gate
+- stratum: male_66_79
+  sex: male
+  age_min: 66
+  age_max: 79
+  min: 30.0
+  max: 89.0
+  status: normal
+  use: internal_research_gate
+- stratum: female_66_79
+  sex: female
+  age_min: 66
+  age_max: 79
+  min: 35.0
+  max: 104.0
+  status: normal
+  use: internal_research_gate
+- stratum: male_80plus
+  sex: male
+  age_min: 80
+  age_max: null
+  min: 31.0
+  max: 88.0
+  status: normal
+  use: internal_research_gate
+- stratum: female_80plus
+  sex: female
+  age_min: 80
+  age_max: null
+  min: 34.0
+  max: 99.0
+  status: normal
+  use: internal_research_gate
+anchor_provenance:
+  source_visibility: public_ids_only
+  hidden_derivation: true
+known_research_context:
+  source_visibility: public_ids_only
+  purpose: deduplication_and_context
+  pmids:
+    - "2642759"
+    - "9603539"
+    - "9610529"
+    - "12514661"
+    - "15314690"
+    - "16157765"
+    - "19805654"
+    - "21343207"
+    - "22555213"
+    - "22607825"
+    - "23584084"
+    - "25131981"
+    - "25404125"
+    - "28419274"
+    - "28847206"
+    - "30423391"
+    - "31504418"
+    - "31641012"
+    - "33143083"
+    - "34120177"
+    - "34458905"
+  pmcids: []
+  dois: []
+  note: Public IDs exposed for deduplication. Do not treat as proof of current claim unless independently revalidated.
+annotations: []
+reviewer_note: 'Auto-generated from the wave-1 SM anchor package. Doctrine: population-RI primary, guidelines annotation-only.
+  Internal derivation hidden from agent view. Annotations and known_research_context PMIDs to be curated in a subsequent pass.'

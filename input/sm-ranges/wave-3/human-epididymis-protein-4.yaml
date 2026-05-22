@@ -1,0 +1,61 @@
+# SM range input - Human epididymis protein 4 (auto-generated from the wave-3 SM anchor candidate set)
+marker_slug: human-epididymis-protein-4
+canonical_slug: human-epididymis-protein-4
+marker_name: Human epididymis protein 4
+entity_type: raw_input_marker
+identity_binding_status: unreviewed_db_marker
+sample_status: review_sample
+source_policy: standard_medical_anchor_candidate
+anchor_version: sm_wave_3_2026_05_18
+unit: pmol/L
+rows:
+- stratum: all_adults
+  sex: all
+  age_min: null
+  age_max: null
+  min: null
+  max: 132.0
+  status: normal
+  use: internal_research_gate
+- stratum: all_adults_order2
+  sex: all
+  age_min: null
+  age_max: null
+  min: 132.0
+  max: null
+  status: high
+  use: internal_research_gate
+- stratum: female
+  sex: female
+  age_min: null
+  age_max: null
+  min: null
+  max: 140.0
+  status: normal
+  use: internal_research_gate
+- stratum: female_order4
+  sex: female
+  age_min: null
+  age_max: null
+  min: 140.0
+  max: null
+  status: high
+  use: internal_research_gate
+anchor_provenance:
+  source_visibility: public_ids_only
+  hidden_derivation: true
+known_research_context:
+  source_visibility: public_ids_only
+  purpose: deduplication_and_context
+  pmids:
+    - "34212386"
+    - "39698045"
+    - "40286377"
+  pmcids: []
+  dois: []
+  note: Public IDs exposed for deduplication. Do not treat as proof of current claim unless independently revalidated.
+annotations: []
+reviewer_note: 'Auto-generated from the wave-3 SM anchor candidate set. Doctrine: standard-medical rows are unreviewed legacy-db
+  inputs only while marker identity has not yet been reviewed. crosscheck_status is intentionally absent in wave-3; promotion
+  requires identity review plus a later crosscheck/promotion pass. Internal derivation and source collection details are hidden
+  from agent view.'

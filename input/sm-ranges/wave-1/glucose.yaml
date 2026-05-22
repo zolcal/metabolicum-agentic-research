@@ -1,0 +1,112 @@
+# SM range input - Glucose (auto-generated from the wave-1 SM anchor package)
+marker_slug: glucose
+marker_name: Glucose
+sample_status: review_sample
+source_policy: frozen_standard_medical_anchor
+anchor_version: sm_wave_1_2026_05_05
+unit: mg/dL
+crosscheck_status: not_performed
+rows:
+- stratum: male_18_50
+  sex: male
+  age_min: 18
+  age_max: 50
+  min: 80.0
+  max: 117.0
+  status: normal
+  use: internal_research_gate
+- stratum: female_18_50
+  sex: female
+  age_min: 18
+  age_max: 50
+  min: 78.0
+  max: 110.0
+  status: normal
+  use: internal_research_gate
+- stratum: male_51_65
+  sex: male
+  age_min: 51
+  age_max: 65
+  min: 85.0
+  max: 134.0
+  status: normal
+  use: internal_research_gate
+- stratum: female_51_65
+  sex: female
+  age_min: 51
+  age_max: 65
+  min: 81.0
+  max: 123.0
+  status: normal
+  use: internal_research_gate
+- stratum: male_66_79
+  sex: male
+  age_min: 66
+  age_max: 79
+  min: 86.0
+  max: 139.0
+  status: normal
+  use: internal_research_gate
+- stratum: female_66_79
+  sex: female
+  age_min: 66
+  age_max: 79
+  min: 83.0
+  max: 133.0
+  status: normal
+  use: internal_research_gate
+- stratum: male_80plus
+  sex: male
+  age_min: 80
+  age_max: null
+  min: 84.0
+  max: 150.0
+  status: normal
+  use: internal_research_gate
+- stratum: female_80plus
+  sex: female
+  age_min: 80
+  age_max: null
+  min: 85.0
+  max: 134.0
+  status: normal
+  use: internal_research_gate
+anchor_provenance:
+  source_visibility: public_ids_only
+  hidden_derivation: true
+known_research_context:
+  source_visibility: public_ids_only
+  purpose: deduplication_and_context
+  pmids:
+    - "1626961"
+    - "9408743"
+    - "12196384"
+    - "12637977"
+    - "15381514"
+    - "17988334"
+    - "18540046"
+    - "18695075"
+    - "19011317"
+    - "19082851"
+    - "20519377"
+    - "21617108"
+    - "23093685"
+    - "23275353"
+    - "23584084"
+    - "26322160"
+    - "27344544"
+    - "29417495"
+    - "29480368"
+    - "29754952"
+    - "29939616"
+    - "30067154"
+    - "33521540"
+    - "39061034"
+    - "41033739"
+    - "41054054"
+  pmcids: []
+  dois: []
+  note: Public IDs exposed for deduplication. Do not treat as proof of current claim unless independently revalidated.
+annotations: []
+reviewer_note: 'Auto-generated from the wave-1 SM anchor package. Doctrine: population-RI primary, guidelines annotation-only.
+  Internal derivation hidden from agent view. Annotations and known_research_context PMIDs to be curated in a subsequent pass.'

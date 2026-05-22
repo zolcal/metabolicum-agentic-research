@@ -1,0 +1,43 @@
+# SM range input - 1,25-Dihydroxyvitamin D (auto-generated from the wave-2A SM anchor candidate set)
+marker_slug: 1-25-dihydroxyvitamin-d
+canonical_slug: 1-25-dihydroxyvitamin-d
+marker_name: 1,25-Dihydroxyvitamin D
+entity_type: evaluator
+identity_binding_status: canonical_candidate
+sample_status: review_sample
+source_policy: standard_medical_anchor_candidate
+anchor_version: sm_wave_2a_2026_05_18
+unit: pg/mL
+rows:
+- stratum: female_age_16plus
+  sex: female
+  age_min: 16
+  age_max: null
+  min: 18.0
+  max: 78.0
+  status: normal
+  use: comparison_only
+- stratum: male_age_16plus
+  sex: male
+  age_min: 16
+  age_max: null
+  min: 18.0
+  max: 64.0
+  status: normal
+  use: comparison_only
+anchor_provenance:
+  source_visibility: public_ids_only
+  hidden_derivation: true
+known_research_context:
+  source_visibility: public_ids_only
+  purpose: deduplication_and_context
+  pmids:
+    - "35042976"
+    - "38722953"
+  pmcids: []
+  dois: []
+  note: Public IDs exposed for deduplication. Do not treat as proof of current claim unless independently revalidated.
+annotations: []
+reviewer_note: 'Auto-generated from the wave-2A SM anchor candidate set. Doctrine: standard-medical rows are comparison anchors
+  until human review promotes them. crosscheck_status is intentionally absent in wave-2A; promotion requires human review
+  plus a later crosscheck/promotion pass. Internal derivation and source collection details are hidden from agent view.'

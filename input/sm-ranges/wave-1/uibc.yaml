@@ -1,0 +1,86 @@
+# SM range input - Uibc (auto-generated from the wave-1 SM anchor package)
+marker_slug: uibc
+marker_name: Uibc
+sample_status: review_sample
+source_policy: frozen_standard_medical_anchor
+anchor_version: sm_wave_1_2026_05_05
+unit: μg/dL
+crosscheck_status: not_performed
+rows:
+- stratum: male_18_50
+  sex: male
+  age_min: 18
+  age_max: 50
+  min: 121.0
+  max: 324.0
+  status: normal
+  use: internal_research_gate
+- stratum: female_18_50
+  sex: female
+  age_min: 18
+  age_max: 50
+  min: 134.0
+  max: 417.0
+  status: normal
+  use: internal_research_gate
+- stratum: male_51_65
+  sex: male
+  age_min: 51
+  age_max: 65
+  min: 113.0
+  max: 335.0
+  status: normal
+  use: internal_research_gate
+- stratum: female_51_65
+  sex: female
+  age_min: 51
+  age_max: 65
+  min: 163.0
+  max: 365.0
+  status: normal
+  use: internal_research_gate
+- stratum: male_66_79
+  sex: male
+  age_min: 66
+  age_max: 79
+  min: 111.0
+  max: 336.0
+  status: normal
+  use: internal_research_gate
+- stratum: female_66_79
+  sex: female
+  age_min: 66
+  age_max: 79
+  min: 154.0
+  max: 381.0
+  status: normal
+  use: internal_research_gate
+- stratum: male_80plus
+  sex: male
+  age_min: 80
+  age_max: null
+  min: 129.0
+  max: 369.0
+  status: normal
+  use: internal_research_gate
+- stratum: female_80plus
+  sex: female
+  age_min: 80
+  age_max: null
+  min: 139.0
+  max: 368.0
+  status: normal
+  use: internal_research_gate
+anchor_provenance:
+  source_visibility: public_ids_only
+  hidden_derivation: true
+known_research_context:
+  source_visibility: public_ids_only
+  purpose: deduplication_and_context
+  pmids: []
+  pmcids: []
+  dois: []
+  note: Public IDs exposed for deduplication. Do not treat as proof of current claim unless independently revalidated.
+annotations: []
+reviewer_note: 'Auto-generated from the wave-1 SM anchor package. Doctrine: population-RI primary, guidelines annotation-only.
+  Internal derivation hidden from agent view. Annotations and known_research_context PMIDs to be curated in a subsequent pass.'

@@ -1,0 +1,66 @@
+# SM range input - Total Bilirubin (auto-generated from the wave-1 SM anchor package)
+marker_slug: total-bilirubin
+marker_name: Total Bilirubin
+sample_status: review_sample
+source_policy: frozen_standard_medical_anchor
+anchor_version: sm_wave_1_2026_05_05
+unit: mg/dL
+crosscheck_status: passed
+rows:
+- stratum: male_20_79
+  sex: male
+  age_min: 20
+  age_max: 79
+  min: 0.35
+  max: 1.75
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC3772807
+    dois: []
+- stratum: female_20_79
+  sex: female
+  age_min: 20
+  age_max: 79
+  min: 0.29
+  max: 1.4
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC3772807
+    dois: []
+- stratum: male
+  sex: male
+  age_min: 18
+  age_max: null
+  min: 0.2
+  max: 1.4
+  status: normal
+  use: internal_research_gate
+- stratum: female
+  sex: female
+  age_min: 18
+  age_max: null
+  min: 0.1
+  max: 1.0
+  status: normal
+  use: internal_research_gate
+anchor_provenance:
+  source_visibility: public_ids_only
+  hidden_derivation: true
+known_research_context:
+  source_visibility: public_ids_only
+  purpose: deduplication_and_context
+  pmids: []
+  pmcids: []
+  dois: []
+  note: Public IDs exposed for deduplication. Do not treat as proof of current claim unless independently revalidated.
+annotations: []
+reviewer_note: 'Auto-generated from the wave-1 SM anchor package. Doctrine: population-RI primary, guidelines annotation-only.
+  Internal derivation hidden from agent view. Annotations and known_research_context PMIDs to be curated in a subsequent pass.'

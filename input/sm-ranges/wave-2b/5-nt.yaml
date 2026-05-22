@@ -1,0 +1,114 @@
+# SM range input - 5'-Nucleotidase (auto-generated from the wave-2B SM anchor candidate set)
+marker_slug: 5-nt
+canonical_slug: 5-nt
+marker_name: 5'-Nucleotidase
+entity_type: evaluator
+identity_binding_status: needs_identity_review
+sample_status: review_sample
+source_policy: standard_medical_anchor_candidate
+anchor_version: sm_wave_2b_2026_05_18
+unit: IU/L
+rows:
+- stratum: all_adults
+  sex: all
+  age_min: null
+  age_max: null
+  min: null
+  max: 4.6
+  status: reference-cutoff
+  use: internal_research_gate
+- stratum: female_age_18_30
+  sex: female
+  age_min: 18
+  age_max: 30
+  min: 0.0
+  max: 7.0
+  status: normal
+  use: internal_research_gate
+- stratum: female_age_31_50
+  sex: female
+  age_min: 31
+  age_max: 50
+  min: 0.0
+  max: 10.0
+  status: normal
+  use: internal_research_gate
+- stratum: female_age_51_70
+  sex: female
+  age_min: 51
+  age_max: 70
+  min: 0.0
+  max: 11.0
+  status: normal
+  use: internal_research_gate
+- stratum: female_age_71_80
+  sex: female
+  age_min: 71
+  age_max: 80
+  min: 0.0
+  max: 13.0
+  status: normal
+  use: internal_research_gate
+- stratum: male_age_18_30
+  sex: male
+  age_min: 18
+  age_max: 30
+  min: 0.0
+  max: 5.0
+  status: normal
+  use: internal_research_gate
+- stratum: male_age_31_50
+  sex: male
+  age_min: 31
+  age_max: 50
+  min: 0.0
+  max: 10.0
+  status: normal
+  use: internal_research_gate
+- stratum: male_age_51_70
+  sex: male
+  age_min: 51
+  age_max: 70
+  min: 0.0
+  max: 11.0
+  status: normal
+  use: internal_research_gate
+- stratum: male_age_71_80
+  sex: male
+  age_min: 71
+  age_max: 80
+  min: 0.0
+  max: 13.0
+  status: normal
+  use: internal_research_gate
+- stratum: female_age_80
+  sex: female
+  age_min: 80
+  age_max: 80
+  min: 0.0
+  max: 15.0
+  status: normal
+  use: internal_research_gate
+- stratum: male_age_80
+  sex: male
+  age_min: 80
+  age_max: 80
+  min: 0.0
+  max: 18.0
+  status: normal
+  use: internal_research_gate
+anchor_provenance:
+  source_visibility: public_ids_only
+  hidden_derivation: true
+known_research_context:
+  source_visibility: public_ids_only
+  purpose: deduplication_and_context
+  pmids: []
+  pmcids: []
+  dois: []
+  note: Public IDs exposed for deduplication. Do not treat as proof of current claim unless independently revalidated.
+annotations: []
+reviewer_note: 'Auto-generated from the wave-2B SM anchor candidate set. Doctrine: standard-medical rows are identity-review
+  inputs only while marker identity remains unresolved. crosscheck_status is intentionally absent in wave-2B; promotion requires
+  identity arbitration plus a later crosscheck/promotion pass. Internal derivation and source collection details are hidden
+  from agent view.'

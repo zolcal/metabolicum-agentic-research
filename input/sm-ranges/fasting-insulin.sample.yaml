@@ -1,0 +1,116 @@
+# SM range input - Fasting insulin
+# No major society publishes a reference range; population-derived anchor only.
+
+marker_slug: fasting-insulin
+marker_name: Fasting Insulin
+sample_status: review_sample
+source_policy: frozen_standard_medical_anchor
+anchor_version: sm_wave_1_2026_05_05
+unit: μIU/mL
+crosscheck_status: not_performed
+
+rows:
+  - stratum: male_18_50
+    sex: male
+    age_min: 18
+    age_max: 50
+    min: 2.2
+    max: 24.1
+    status: normal
+    use: internal_research_gate
+  - stratum: female_18_50
+    sex: female
+    age_min: 18
+    age_max: 50
+    min: 2.1
+    max: 20.6
+    status: normal
+    use: internal_research_gate
+  - stratum: male_51_65
+    sex: male
+    age_min: 51
+    age_max: 65
+    min: 2.2
+    max: 24.4
+    status: normal
+    use: internal_research_gate
+  - stratum: female_51_65
+    sex: female
+    age_min: 51
+    age_max: 65
+    min: 2.0
+    max: 20.6
+    status: normal
+    use: internal_research_gate
+  - stratum: male_66_79
+    sex: male
+    age_min: 66
+    age_max: 79
+    min: 2.4
+    max: 24.1
+    status: normal
+    use: internal_research_gate
+  - stratum: female_66_79
+    sex: female
+    age_min: 66
+    age_max: 79
+    min: 3.1
+    max: 20.9
+    status: normal
+    use: internal_research_gate
+  - stratum: male_80plus
+    sex: male
+    age_min: 80
+    age_max: null
+    min: 2.2
+    max: 23.1
+    status: normal
+    use: internal_research_gate
+  - stratum: female_80plus
+    sex: female
+    age_min: 80
+    age_max: null
+    min: 2.1
+    max: 24.4
+    status: normal
+    use: internal_research_gate
+
+anchor_provenance:
+  source_visibility: public_ids_only
+  hidden_derivation: true
+  # Public IDs attach to rows individually; see rows[].public_source_ids when present.
+
+known_research_context:
+  source_visibility: public_ids_only
+  purpose: deduplication_and_context
+  pmids:
+    - "3899825"
+    - "10333943"
+    - "10824095"
+    - "10902745"
+    - "12089386"
+    - "14623617"
+    - "16046317"
+    - "24131857"
+    - "31108989"
+    - "31641012"
+    - "33143083"
+    - "33376604"
+    - "39529982"
+    - "39606490"
+  pmcids: []
+  dois: []
+  note: |
+    Public IDs exposed for deduplication. Do not treat as proof of current
+    claim unless independently revalidated.
+
+annotations: []   # No major society publishes a fasting insulin reference range.
+
+reviewer_note: |
+  Population-RI only; no guideline anchor exists. RI is wide (e.g., male
+  18-50: 2.2-24.1 μIU/mL) because the healthy-adult population includes
+  individuals across the insulin-resistance spectrum. MO frameworks (Kraft,
+  Bikman, Naiman) target <5-10 μIU/mL and sit inside the lower quartile of
+  the RI; this is paradigm divergence, not contradiction. crosscheck_status
+  is `not_performed`; independent revalidation is required before any row
+  is promoted to display.

@@ -1,0 +1,80 @@
+# SM range input - Triglycerides (auto-generated from the wave-1 SM anchor package)
+marker_slug: triglycerides
+marker_name: Triglycerides
+sample_status: review_sample
+source_policy: frozen_standard_medical_anchor
+anchor_version: sm_wave_1_2026_05_05
+unit: mg/dL
+crosscheck_status: not_covered
+rows:
+- stratum: male
+  sex: male
+  age_min: 18
+  age_max: null
+  min: 39.0
+  max: 400.0
+  status: normal
+  use: internal_research_gate
+- stratum: female
+  sex: female
+  age_min: 18
+  age_max: null
+  min: 41.0
+  max: 275.0
+  status: normal
+  use: internal_research_gate
+anchor_provenance:
+  source_visibility: public_ids_only
+  hidden_derivation: true
+known_research_context:
+  source_visibility: public_ids_only
+  purpose: deduplication_and_context
+  pmids:
+    - "3056758"
+    - "9355888"
+    - "11368702"
+    - "12485966"
+    - "12514661"
+    - "14623617"
+    - "14731791"
+    - "15165561"
+    - "15381654"
+    - "16054467"
+    - "16157765"
+    - "16698717"
+    - "17081293"
+    - "17190864"
+    - "17635890"
+    - "18695075"
+    - "19082851"
+    - "19805654"
+    - "20236645"
+    - "21327136"
+    - "21502576"
+    - "22555213"
+    - "23093685"
+    - "23248205"
+    - "23265341"
+    - "23584084"
+    - "24402298"
+    - "28289069"
+    - "29417495"
+    - "29480368"
+    - "30415628"
+    - "30423391"
+    - "30586774"
+    - "31504418"
+    - "31641012"
+    - "33143083"
+    - "33521540"
+    - "34458905"
+    - "35106434"
+    - "35629964"
+    - "37640407"
+    - "39372369"
+  pmcids: []
+  dois: []
+  note: Public IDs exposed for deduplication. Do not treat as proof of current claim unless independently revalidated.
+annotations: []
+reviewer_note: 'Auto-generated from the wave-1 SM anchor package. Doctrine: population-RI primary, guidelines annotation-only.
+  Internal derivation hidden from agent view. Annotations and known_research_context PMIDs to be curated in a subsequent pass.'

@@ -1,0 +1,58 @@
+# SM range input - Copper (auto-generated from the wave-2B SM anchor candidate set)
+marker_slug: cu
+canonical_slug: cu
+marker_name: Copper
+entity_type: evaluator
+identity_binding_status: needs_identity_review
+sample_status: review_sample
+source_policy: standard_medical_anchor_candidate
+anchor_version: sm_wave_2b_2026_05_18
+unit: μg/dL
+rows:
+- stratum: female_age_19plus
+  sex: female
+  age_min: 19
+  age_max: null
+  min: 80.0
+  max: 155.0
+  status: normal
+  use: internal_research_gate
+- stratum: male_age_19plus
+  sex: male
+  age_min: 19
+  age_max: null
+  min: 70.0
+  max: 140.0
+  status: normal
+  use: internal_research_gate
+- stratum: female_age_13_18
+  sex: female
+  age_min: 13
+  age_max: 18
+  min: 57.0
+  max: 129.0
+  status: normal
+  use: internal_research_gate
+- stratum: male_age_13_18
+  sex: male
+  age_min: 13
+  age_max: 18
+  min: 57.0
+  max: 129.0
+  status: normal
+  use: internal_research_gate
+anchor_provenance:
+  source_visibility: public_ids_only
+  hidden_derivation: true
+known_research_context:
+  source_visibility: public_ids_only
+  purpose: deduplication_and_context
+  pmids: []
+  pmcids: []
+  dois: []
+  note: Public IDs exposed for deduplication. Do not treat as proof of current claim unless independently revalidated.
+annotations: []
+reviewer_note: 'Auto-generated from the wave-2B SM anchor candidate set. Doctrine: standard-medical rows are identity-review
+  inputs only while marker identity remains unresolved. crosscheck_status is intentionally absent in wave-2B; promotion requires
+  identity arbitration plus a later crosscheck/promotion pass. Internal derivation and source collection details are hidden
+  from agent view.'

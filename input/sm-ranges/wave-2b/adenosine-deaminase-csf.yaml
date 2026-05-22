@@ -1,0 +1,48 @@
+# SM range input - Adenosine deaminase (auto-generated from the wave-2B SM anchor candidate set)
+marker_slug: adenosine-deaminase-csf
+canonical_slug: adenosine-deaminase-csf
+marker_name: Adenosine deaminase
+entity_type: raw_input_marker
+identity_binding_status: needs_identity_review
+sample_status: review_sample
+source_policy: standard_medical_anchor_candidate
+anchor_version: sm_wave_2b_2026_05_18
+unit: IU/L
+rows:
+- stratum: all_adults
+  sex: all
+  age_min: null
+  age_max: null
+  min: null
+  max: 8.11
+  status: normal
+  use: internal_research_gate
+- stratum: all_adults_order2
+  sex: all
+  age_min: null
+  age_max: null
+  min: 8.11
+  max: null
+  status: high
+  use: internal_research_gate
+anchor_provenance:
+  source_visibility: public_ids_only
+  hidden_derivation: true
+known_research_context:
+  source_visibility: public_ids_only
+  purpose: deduplication_and_context
+  pmids:
+    - "20001225"
+    - "30913213"
+    - "36591905"
+    - "39229733"
+    - "40771731"
+    - "41311563"
+  pmcids: []
+  dois: []
+  note: Public IDs exposed for deduplication. Do not treat as proof of current claim unless independently revalidated.
+annotations: []
+reviewer_note: 'Auto-generated from the wave-2B SM anchor candidate set. Doctrine: standard-medical rows are identity-review
+  inputs only while marker identity remains unresolved. crosscheck_status is intentionally absent in wave-2B; promotion requires
+  identity arbitration plus a later crosscheck/promotion pass. Internal derivation and source collection details are hidden
+  from agent view.'

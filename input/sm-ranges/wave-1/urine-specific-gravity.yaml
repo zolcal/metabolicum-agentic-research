@@ -1,0 +1,36 @@
+# SM range input - Urine Specific Gravity (auto-generated from the wave-1 SM anchor package)
+marker_slug: urine-specific-gravity
+marker_name: Urine Specific Gravity
+sample_status: review_sample
+source_policy: frozen_standard_medical_anchor
+anchor_version: sm_wave_1_2026_05_05
+unit: '-'
+crosscheck_status: not_performed
+rows:
+- stratum: all_adults
+  sex: all
+  age_min: 18
+  age_max: 99
+  min: 1.005
+  max: 1.03
+  status: normal
+  use: comparison_only
+anchor_provenance:
+  source_visibility: public_ids_only
+  hidden_derivation: true
+known_research_context:
+  source_visibility: public_ids_only
+  purpose: deduplication_and_context
+  pmids:
+    - "25963490"
+    - "29895023"
+    - "32542217"
+    - "34003332"
+    - "37318992"
+    - "37814395"
+  pmcids: []
+  dois: []
+  note: Public IDs exposed for deduplication. Do not treat as proof of current claim unless independently revalidated.
+annotations: []
+reviewer_note: 'Auto-generated from the wave-1 SM anchor package. Doctrine: population-RI primary, guidelines annotation-only.
+  Internal derivation hidden from agent view. Annotations and known_research_context PMIDs to be curated in a subsequent pass.'

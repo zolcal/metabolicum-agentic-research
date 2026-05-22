@@ -1,0 +1,386 @@
+# SM range input - IGF-1 (auto-generated from the wave-1 SM anchor package)
+marker_slug: igf-1
+marker_name: IGF-1
+sample_status: review_sample
+source_policy: frozen_standard_medical_anchor
+anchor_version: sm_wave_1_2026_05_05
+unit: ng/mL
+crosscheck_status: not_applicable
+rows:
+- stratum: male_18
+  sex: male
+  age_min: 18
+  age_max: 18
+  min: 235.5
+  max: 568.3
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC5627923
+    dois: []
+- stratum: male_19
+  sex: male
+  age_min: 19
+  age_max: 19
+  min: 178.8
+  max: 511.5
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC5627923
+    dois: []
+- stratum: male_20_24
+  sex: male
+  age_min: 20
+  age_max: 24
+  min: 140.8
+  max: 451.4
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC5627923
+    dois: []
+- stratum: male_25_29
+  sex: male
+  age_min: 25
+  age_max: 29
+  min: 115.4
+  max: 395.9
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC5627923
+    dois: []
+- stratum: male_30_34
+  sex: male
+  age_min: 30
+  age_max: 34
+  min: 98.6
+  max: 349.3
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC5627923
+    dois: []
+- stratum: male_35_39
+  sex: male
+  age_min: 35
+  age_max: 39
+  min: 87.9
+  max: 312.9
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC5627923
+    dois: []
+- stratum: male_40_44
+  sex: male
+  age_min: 40
+  age_max: 44
+  min: 81.1
+  max: 286.0
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC5627923
+    dois: []
+- stratum: male_45_49
+  sex: male
+  age_min: 45
+  age_max: 49
+  min: 76.9
+  max: 266.6
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC5627923
+    dois: []
+- stratum: male_50_54
+  sex: male
+  age_min: 50
+  age_max: 54
+  min: 73.8
+  max: 252.6
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC5627923
+    dois: []
+- stratum: male_55_59
+  sex: male
+  age_min: 55
+  age_max: 59
+  min: 70.4
+  max: 241.4
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC5627923
+    dois: []
+- stratum: male_60_64
+  sex: male
+  age_min: 60
+  age_max: 64
+  min: 65.4
+  max: 230.8
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC5627923
+    dois: []
+- stratum: male_65_69
+  sex: male
+  age_min: 65
+  age_max: 69
+  min: 58.0
+  max: 218.1
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC5627923
+    dois: []
+- stratum: male_70_plus
+  sex: male
+  age_min: 70
+  age_max: null
+  min: 47.6
+  max: 199.5
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC5627923
+    dois: []
+- stratum: female_18
+  sex: female
+  age_min: 18
+  age_max: 18
+  min: 205.9
+  max: 596.7
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC5627923
+    dois: []
+- stratum: female_19
+  sex: female
+  age_min: 19
+  age_max: 19
+  min: 169.0
+  max: 535.2
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC5627923
+    dois: []
+- stratum: female_20_24
+  sex: female
+  age_min: 20
+  age_max: 24
+  min: 141.2
+  max: 476.9
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC5627923
+    dois: []
+- stratum: female_25_29
+  sex: female
+  age_min: 25
+  age_max: 29
+  min: 119.6
+  max: 423.3
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC5627923
+    dois: []
+- stratum: female_30_34
+  sex: female
+  age_min: 30
+  age_max: 34
+  min: 102.7
+  max: 375.9
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC5627923
+    dois: []
+- stratum: female_35_39
+  sex: female
+  age_min: 35
+  age_max: 39
+  min: 89.3
+  max: 335.4
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC5627923
+    dois: []
+- stratum: female_40_44
+  sex: female
+  age_min: 40
+  age_max: 44
+  min: 78.5
+  max: 301.7
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC5627923
+    dois: []
+- stratum: female_45_49
+  sex: female
+  age_min: 45
+  age_max: 49
+  min: 69.4
+  max: 274.0
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC5627923
+    dois: []
+- stratum: female_50_54
+  sex: female
+  age_min: 50
+  age_max: 54
+  min: 61.5
+  max: 250.8
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC5627923
+    dois: []
+- stratum: female_55_59
+  sex: female
+  age_min: 55
+  age_max: 59
+  min: 54.0
+  max: 230.3
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC5627923
+    dois: []
+- stratum: female_60_64
+  sex: female
+  age_min: 60
+  age_max: 64
+  min: 46.5
+  max: 210.4
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC5627923
+    dois: []
+- stratum: female_65_69
+  sex: female
+  age_min: 65
+  age_max: 69
+  min: 38.7
+  max: 188.6
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC5627923
+    dois: []
+- stratum: female_70_plus
+  sex: female
+  age_min: 70
+  age_max: null
+  min: 30.3
+  max: 162.0
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC5627923
+    dois: []
+anchor_provenance:
+  source_visibility: public_ids_only
+  hidden_derivation: true
+known_research_context:
+  source_visibility: public_ids_only
+  purpose: deduplication_and_context
+  pmids: []
+  pmcids: []
+  dois: []
+  note: Public IDs exposed for deduplication. Do not treat as proof of current claim unless independently revalidated.
+annotations: []
+reviewer_note: 'Auto-generated from the wave-1 SM anchor package. Doctrine: population-RI primary, guidelines annotation-only.
+  Internal derivation hidden from agent view. Annotations and known_research_context PMIDs to be curated in a subsequent pass.'

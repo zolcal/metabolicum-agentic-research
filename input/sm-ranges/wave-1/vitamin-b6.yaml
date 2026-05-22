@@ -1,0 +1,78 @@
+# SM range input - Vitamin B6 (auto-generated from the wave-1 SM anchor package)
+marker_slug: vitamin-b6
+marker_name: Vitamin B6
+sample_status: review_sample
+source_policy: frozen_standard_medical_anchor
+anchor_version: sm_wave_1_2026_05_05
+unit: ng/mL
+crosscheck_status: not_applicable
+rows:
+- stratum: male_20_49
+  sex: male
+  age_min: 20
+  age_max: 49
+  min: 2.56
+  max: 36.05
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC12954621
+    dois: []
+- stratum: female_20_49
+  sex: female
+  age_min: 20
+  age_max: 49
+  min: 3.22
+  max: 25.57
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC12954621
+    dois: []
+- stratum: male_50_80
+  sex: male
+  age_min: 50
+  age_max: 80
+  min: 2.29
+  max: 35.33
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC12954621
+    dois: []
+- stratum: female_50_80
+  sex: female
+  age_min: 50
+  age_max: 80
+  min: 4.16
+  max: 42.77
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC12954621
+    dois: []
+anchor_provenance:
+  source_visibility: public_ids_only
+  hidden_derivation: true
+known_research_context:
+  source_visibility: public_ids_only
+  purpose: deduplication_and_context
+  pmids: []
+  pmcids: []
+  dois: []
+  note: Public IDs exposed for deduplication. Do not treat as proof of current claim unless independently revalidated.
+annotations: []
+reviewer_note: 'Auto-generated from the wave-1 SM anchor package. Doctrine: population-RI primary, guidelines annotation-only.
+  Internal derivation hidden from agent view. Annotations and known_research_context PMIDs to be curated in a subsequent pass.'

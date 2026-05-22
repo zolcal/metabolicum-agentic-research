@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+
+# Secrets
+secrets/.env
+secrets/*.key
+secrets/*.pem
+secrets/*.token
+.env
+
+# Per-run artifacts (preserve the runs/ directory, not its contents)
+runs/*/
+!runs/.gitkeep
+
+# Hermes runtime state
+hermes/gateway-home/
+hermes-home/
+
+# Local Supabase docker stack data (if self-hosted route is ever chosen)
+supabase/.docker-data/
+supabase/.branches/
+
+# OS
+.DS_Store
+Thumbs.db

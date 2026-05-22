@@ -1,0 +1,137 @@
+# SM range input - DHEA-Sulfate (auto-generated from the wave-2A SM anchor candidate set)
+marker_slug: dhea-s
+canonical_slug: dhea-s
+marker_name: DHEA-Sulfate
+entity_type: evaluator
+identity_binding_status: canonical_candidate
+sample_status: review_sample
+source_policy: standard_medical_anchor_candidate
+anchor_version: sm_wave_2a_2026_05_18
+unit: ug/dL
+rows:
+- stratum: female_age_20_24
+  sex: female
+  age_min: 20
+  age_max: 24
+  min: 110.0
+  max: 431.7
+  status: normal
+  use: comparison_only
+- stratum: female_age_25_34
+  sex: female
+  age_min: 25
+  age_max: 34
+  min: 84.8
+  max: 378.0
+  status: normal
+  use: comparison_only
+- stratum: female_age_35_44
+  sex: female
+  age_min: 35
+  age_max: 44
+  min: 57.3
+  max: 279.2
+  status: normal
+  use: comparison_only
+- stratum: female_age_45_54
+  sex: female
+  age_min: 45
+  age_max: 54
+  min: 41.2
+  max: 243.7
+  status: normal
+  use: comparison_only
+- stratum: female_age_55_64
+  sex: female
+  age_min: 55
+  age_max: 64
+  min: 29.4
+  max: 220.5
+  status: normal
+  use: comparison_only
+- stratum: female_age_65_74
+  sex: female
+  age_min: 65
+  age_max: 74
+  min: 20.4
+  max: 186.6
+  status: normal
+  use: comparison_only
+- stratum: male_age_20_24
+  sex: male
+  age_min: 20
+  age_max: 24
+  min: 164.3
+  max: 530.5
+  status: normal
+  use: comparison_only
+- stratum: male_age_25_34
+  sex: male
+  age_min: 25
+  age_max: 34
+  min: 138.5
+  max: 475.2
+  status: normal
+  use: comparison_only
+- stratum: male_age_35_44
+  sex: male
+  age_min: 35
+  age_max: 44
+  min: 102.6
+  max: 416.3
+  status: normal
+  use: comparison_only
+- stratum: male_age_45_54
+  sex: male
+  age_min: 45
+  age_max: 54
+  min: 71.6
+  max: 375.4
+  status: normal
+  use: comparison_only
+- stratum: male_age_55_64
+  sex: male
+  age_min: 55
+  age_max: 64
+  min: 48.9
+  max: 344.2
+  status: normal
+  use: comparison_only
+- stratum: male_age_65_74
+  sex: male
+  age_min: 65
+  age_max: 74
+  min: 30.9
+  max: 295.6
+  status: normal
+  use: comparison_only
+- stratum: female_age_75
+  sex: female
+  age_min: 75
+  age_max: 75
+  min: 13.9
+  max: 142.8
+  status: normal
+  use: comparison_only
+- stratum: male_age_75
+  sex: male
+  age_min: 75
+  age_max: 75
+  min: 20.8
+  max: 226.4
+  status: normal
+  use: comparison_only
+anchor_provenance:
+  source_visibility: public_ids_only
+  hidden_derivation: true
+known_research_context:
+  source_visibility: public_ids_only
+  purpose: deduplication_and_context
+  pmids: []
+  pmcids: []
+  dois: []
+  note: Public IDs exposed for deduplication. Do not treat as proof of current claim unless independently revalidated.
+annotations: []
+reviewer_note: 'Auto-generated from the wave-2A SM anchor candidate set. Doctrine: standard-medical rows are comparison anchors
+  until human review promotes them. crosscheck_status is intentionally absent in wave-2A; promotion requires human review
+  plus a later crosscheck/promotion pass. Internal derivation and source collection details are hidden from agent view.'

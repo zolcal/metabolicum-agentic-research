@@ -1,0 +1,70 @@
+# SM range input - Alpha-2-Macroglobulin (auto-generated from the wave-1 SM anchor package)
+marker_slug: alpha-2-macroglobulin-2
+marker_name: Alpha-2-Macroglobulin
+sample_status: review_sample
+source_policy: frozen_standard_medical_anchor
+anchor_version: sm_wave_1_2026_05_05
+unit: mg/dL
+crosscheck_status: not_performed
+rows:
+- stratum: male_18_30
+  sex: male
+  age_min: 18
+  age_max: 99
+  min: 200
+  max: 450
+  status: normal
+  use: comparison_only
+- stratum: male_31_45
+  sex: male
+  age_min: 18
+  age_max: 99
+  min: 160
+  max: 400
+  status: normal
+  use: comparison_only
+- stratum: male_46_99
+  sex: male
+  age_min: 18
+  age_max: 99
+  min: 130
+  max: 350
+  status: normal
+  use: comparison_only
+- stratum: female_18_30
+  sex: female
+  age_min: 18
+  age_max: 99
+  min: 220
+  max: 500
+  status: normal
+  use: comparison_only
+- stratum: female_31_45
+  sex: female
+  age_min: 18
+  age_max: 99
+  min: 180
+  max: 450
+  status: normal
+  use: comparison_only
+- stratum: female_46_99
+  sex: female
+  age_min: 18
+  age_max: 99
+  min: 140
+  max: 400
+  status: normal
+  use: comparison_only
+anchor_provenance:
+  source_visibility: public_ids_only
+  hidden_derivation: true
+known_research_context:
+  source_visibility: public_ids_only
+  purpose: deduplication_and_context
+  pmids: []
+  pmcids: []
+  dois: []
+  note: Public IDs exposed for deduplication. Do not treat as proof of current claim unless independently revalidated.
+annotations: []
+reviewer_note: 'Auto-generated from the wave-1 SM anchor package. Doctrine: population-RI primary, guidelines annotation-only.
+  Internal derivation hidden from agent view. Annotations and known_research_context PMIDs to be curated in a subsequent pass.'

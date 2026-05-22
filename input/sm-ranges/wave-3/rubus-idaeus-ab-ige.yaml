@@ -1,0 +1,50 @@
+# SM range input - Raspberry IgE Ab (auto-generated from the wave-3 SM anchor candidate set)
+marker_slug: rubus-idaeus-ab-ige
+canonical_slug: rubus-idaeus-ab-ige
+marker_name: Raspberry IgE Ab
+entity_type: raw_input_marker
+identity_binding_status: unreviewed_db_marker
+sample_status: review_sample
+source_policy: standard_medical_anchor_candidate
+anchor_version: sm_wave_3_2026_05_18
+unit: kU/L
+rows:
+- stratum: all_adults
+  sex: all
+  age_min: null
+  age_max: null
+  min: null
+  max: 0.1
+  status: low
+  use: internal_research_gate
+- stratum: all_adults_order2
+  sex: all
+  age_min: null
+  age_max: null
+  min: 0.1
+  max: 0.325
+  status: normal
+  use: internal_research_gate
+- stratum: all_adults_order3
+  sex: all
+  age_min: null
+  age_max: null
+  min: 0.325
+  max: null
+  status: high
+  use: internal_research_gate
+anchor_provenance:
+  source_visibility: public_ids_only
+  hidden_derivation: true
+known_research_context:
+  source_visibility: public_ids_only
+  purpose: deduplication_and_context
+  pmids: []
+  pmcids: []
+  dois: []
+  note: Public IDs exposed for deduplication. Do not treat as proof of current claim unless independently revalidated.
+annotations: []
+reviewer_note: 'Auto-generated from the wave-3 SM anchor candidate set. Doctrine: standard-medical rows are unreviewed legacy-db
+  inputs only while marker identity has not yet been reviewed. crosscheck_status is intentionally absent in wave-3; promotion
+  requires identity review plus a later crosscheck/promotion pass. Internal derivation and source collection details are hidden
+  from agent view.'

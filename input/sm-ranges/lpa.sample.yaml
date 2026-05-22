@@ -1,0 +1,47 @@
+# SM range input - Lipoprotein(a)
+# NOT IN FROZEN WAVE-1. Agent receives no anchor rows; pipeline routes to manual review.
+
+marker_slug: lpa
+marker_name: Lipoprotein(a)
+sample_status: review_sample
+source_policy: not_in_frozen_wave_1
+anchor_version: null
+unit: null
+
+rows: []
+
+decision_needed:
+  options:
+    - id: wave_2_freeze
+      description: |
+        Add Lp(a) to a wave-2 freeze run with sex × age stratification.
+        Adds the SM anchor for the pilot.
+    - id: document_exclusion
+      description: |
+        Add Lp(a) to exclusions with an explicit reason (assay heterogeneity
+        or apo(a) isoform size variability) and ingest an external
+        consensus-based anchor on a different track.
+    - id: downgrade_from_pilot
+      description: |
+        Remove Lp(a) from the five-marker pilot; run pilot on the four
+        markers present in frozen wave-1 plus TG/HDL as the calculated-surface
+        stress test.
+
+known_research_context:
+  source_visibility: public_ids_only
+  purpose: deduplication_and_context
+  pmids: []      # populate from RC research effort
+  pmcids: []
+  dois: []
+  note: |
+    Public IDs exposed for deduplication. Do not treat as proof of current
+    claim unless independently revalidated.
+
+annotations: []   # No annotations exposed until a decision_needed option is chosen.
+
+reviewer_note: |
+  Lp(a) is not present in the frozen wave-1 SM anchor package and not in
+  documented exclusions. The agent receives no SM anchor for Lp(a); the
+  pipeline must route discovered Lp(a) claims to manual review until one
+  of the decision_needed options is chosen. Do not synthesize an external
+  consensus anchor for Lp(a) inside the agent flow.

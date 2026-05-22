@@ -1,0 +1,214 @@
+# SM range input - Blood Urea Nitrogen (auto-generated from the wave-1 SM anchor package)
+marker_slug: bun
+marker_name: Blood Urea Nitrogen
+sample_status: review_sample
+source_policy: frozen_standard_medical_anchor
+anchor_version: sm_wave_1_2026_05_05
+unit: mg/dL
+crosscheck_status: passed
+rows:
+- stratum: male_20_29
+  sex: male
+  age_min: 20
+  age_max: 29
+  min: 8.1
+  max: 19.6
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC8115101
+    dois: []
+- stratum: female_20_29
+  sex: female
+  age_min: 20
+  age_max: 29
+  min: 6.4
+  max: 17.1
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC8115101
+    dois: []
+- stratum: male_30_39
+  sex: male
+  age_min: 30
+  age_max: 39
+  min: 8.2
+  max: 19.6
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC8115101
+    dois: []
+- stratum: female_30_39
+  sex: female
+  age_min: 30
+  age_max: 39
+  min: 6.7
+  max: 17.6
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC8115101
+    dois: []
+- stratum: male_40_49
+  sex: male
+  age_min: 40
+  age_max: 49
+  min: 8.4
+  max: 20.7
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC8115101
+    dois: []
+- stratum: female_40_49
+  sex: female
+  age_min: 40
+  age_max: 49
+  min: 7.3
+  max: 18.8
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC8115101
+    dois: []
+- stratum: male_50_59
+  sex: male
+  age_min: 50
+  age_max: 59
+  min: 8.7
+  max: 21.6
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC8115101
+    dois: []
+- stratum: female_50_59
+  sex: female
+  age_min: 50
+  age_max: 59
+  min: 7.8
+  max: 20.6
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC8115101
+    dois: []
+- stratum: male_60_69
+  sex: male
+  age_min: 60
+  age_max: 69
+  min: 9.5
+  max: 23.2
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC8115101
+    dois: []
+- stratum: female_60_69
+  sex: female
+  age_min: 60
+  age_max: 69
+  min: 8.7
+  max: 21.6
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC8115101
+    dois: []
+- stratum: male_70_85
+  sex: male
+  age_min: 70
+  age_max: 85
+  min: 10.4
+  max: 23.0
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC8115101
+    dois: []
+- stratum: female_70_85
+  sex: female
+  age_min: 70
+  age_max: 85
+  min: 8.6
+  max: 20.6
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC8115101
+    dois: []
+- stratum: male
+  sex: male
+  age_min: 18
+  age_max: null
+  min: 8.0
+  max: 24.0
+  status: normal
+  use: internal_research_gate
+- stratum: female_under45
+  sex: female
+  age_min: 18
+  age_max: 44
+  min: 6.0
+  max: 19.0
+  status: normal
+  use: internal_research_gate
+- stratum: female_45plus
+  sex: female
+  age_min: 45
+  age_max: null
+  min: 8.0
+  max: 25.0
+  status: normal
+  use: internal_research_gate
+anchor_provenance:
+  source_visibility: public_ids_only
+  hidden_derivation: true
+known_research_context:
+  source_visibility: public_ids_only
+  purpose: deduplication_and_context
+  pmids: []
+  pmcids: []
+  dois: []
+  note: Public IDs exposed for deduplication. Do not treat as proof of current claim unless independently revalidated.
+annotations: []
+reviewer_note: 'Auto-generated from the wave-1 SM anchor package. Doctrine: population-RI primary, guidelines annotation-only.
+  Internal derivation hidden from agent view. Annotations and known_research_context PMIDs to be curated in a subsequent pass.'

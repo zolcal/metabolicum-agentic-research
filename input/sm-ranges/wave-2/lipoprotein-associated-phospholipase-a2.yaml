@@ -1,0 +1,54 @@
+# SM range input - Lipoprotein associated phospholipase A2 (auto-generated from the wave-2A SM anchor candidate set)
+marker_slug: lipoprotein-associated-phospholipase-a2
+canonical_slug: lipoprotein-associated-phospholipase-a2
+marker_name: Lipoprotein associated phospholipase A2
+entity_type: evaluator
+identity_binding_status: canonical_candidate
+sample_status: review_sample
+source_policy: standard_medical_anchor_candidate
+anchor_version: sm_wave_2a_2026_05_18
+unit: nmol/min/mL
+rows:
+- stratum: all_adults
+  sex: all
+  age_min: null
+  age_max: null
+  min: null
+  max: 225.0
+  status: reference-cutoff
+  use: comparison_only
+- stratum: all_adults_order2
+  sex: all
+  age_min: null
+  age_max: null
+  min: 0.0
+  max: 224.0
+  status: normal
+  use: comparison_only
+  unit: U/mL
+- stratum: all_adults_order3
+  sex: all
+  age_min: null
+  age_max: null
+  min: 225.0
+  max: null
+  status: increased-risk
+  use: comparison_only
+anchor_provenance:
+  source_visibility: public_ids_only
+  hidden_derivation: true
+known_research_context:
+  source_visibility: public_ids_only
+  purpose: deduplication_and_context
+  pmids:
+    - "32056835"
+    - "35317900"
+    - "35726302"
+    - "41153714"
+  pmcids: []
+  dois: []
+  note: Public IDs exposed for deduplication. Do not treat as proof of current claim unless independently revalidated.
+annotations: []
+reviewer_note: 'Auto-generated from the wave-2A SM anchor candidate set. Doctrine: standard-medical rows are comparison anchors
+  until human review promotes them. crosscheck_status is intentionally absent in wave-2A; promotion requires human review
+  plus a later crosscheck/promotion pass. Internal derivation and source collection details are hidden from agent view.'

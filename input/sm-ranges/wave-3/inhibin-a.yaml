@@ -1,0 +1,52 @@
+# SM range input - Inhibin A (auto-generated from the wave-3 SM anchor candidate set)
+marker_slug: inhibin-a
+canonical_slug: inhibin-a
+marker_name: Inhibin A
+entity_type: raw_input_marker
+identity_binding_status: unreviewed_db_marker
+sample_status: review_sample
+source_policy: standard_medical_anchor_candidate
+anchor_version: sm_wave_3_2026_05_18
+unit: pg/mL
+rows:
+- stratum: male
+  sex: male
+  age_min: null
+  age_max: null
+  min: null
+  max: 5.0
+  status: reference-cutoff
+  use: internal_research_gate
+- stratum: female
+  sex: female
+  age_min: null
+  age_max: null
+  min: null
+  max: 5.0
+  status: reference-cutoff
+  use: internal_research_gate
+- stratum: female_order4
+  sex: female
+  age_min: null
+  age_max: null
+  min: null
+  max: 98.0
+  status: reference-cutoff
+  use: internal_research_gate
+anchor_provenance:
+  source_visibility: public_ids_only
+  hidden_derivation: true
+known_research_context:
+  source_visibility: public_ids_only
+  purpose: deduplication_and_context
+  pmids:
+    - "18680570"
+    - "32387268"
+  pmcids: []
+  dois: []
+  note: Public IDs exposed for deduplication. Do not treat as proof of current claim unless independently revalidated.
+annotations: []
+reviewer_note: 'Auto-generated from the wave-3 SM anchor candidate set. Doctrine: standard-medical rows are unreviewed legacy-db
+  inputs only while marker identity has not yet been reviewed. crosscheck_status is intentionally absent in wave-3; promotion
+  requires identity review plus a later crosscheck/promotion pass. Internal derivation and source collection details are hidden
+  from agent view.'

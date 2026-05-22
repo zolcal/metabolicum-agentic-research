@@ -1,0 +1,49 @@
+# SM range input - Adiponectin (auto-generated from the wave-2A SM anchor candidate set)
+marker_slug: adiponectin
+canonical_slug: adiponectin
+marker_name: Adiponectin
+entity_type: evaluator
+identity_binding_status: canonical_candidate
+sample_status: review_sample
+source_policy: standard_medical_anchor_candidate
+anchor_version: sm_wave_2a_2026_05_18
+unit: μg/mL
+rows:
+- stratum: age_19plus
+  sex: all
+  age_min: 19
+  age_max: null
+  min: 2.0
+  max: 13.9
+  status: normal
+  use: comparison_only
+- stratum: female_age_19plus
+  sex: female
+  age_min: 19
+  age_max: null
+  min: 4.0
+  max: 19.4
+  status: normal
+  use: comparison_only
+- stratum: male_age_19plus
+  sex: male
+  age_min: 19
+  age_max: null
+  min: 2.0
+  max: 13.9
+  status: normal
+  use: comparison_only
+anchor_provenance:
+  source_visibility: public_ids_only
+  hidden_derivation: true
+known_research_context:
+  source_visibility: public_ids_only
+  purpose: deduplication_and_context
+  pmids: []
+  pmcids: []
+  dois: []
+  note: Public IDs exposed for deduplication. Do not treat as proof of current claim unless independently revalidated.
+annotations: []
+reviewer_note: 'Auto-generated from the wave-2A SM anchor candidate set. Doctrine: standard-medical rows are comparison anchors
+  until human review promotes them. crosscheck_status is intentionally absent in wave-2A; promotion requires human review
+  plus a later crosscheck/promotion pass. Internal derivation and source collection details are hidden from agent view.'

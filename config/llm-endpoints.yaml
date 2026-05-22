@@ -1,0 +1,333 @@
+# LLM endpoint configuration for Hermes.
+#
+# Policy
+#   - Default to local Qwen 3.6 27B MTP. Free, deterministic, MTP-accelerated.
+#   - Cloud council uses OpenRouter (single API key, multiple families).
+#   - Council picks the minimum viable model in each family for the spike;
+#     promote to flagship tier only if quality issues surface during the pilot.
+#
+# Role taxonomy (post Codex/Kimi review 2026-05-21):
+#   Stage-2 work (one source → many claims per source):
+#     extractor              — verbatim claim extraction
+#     tagger                 — marker-tag attachment
+#     structurer             — population qualifier + units structuring
+#     paradigm_classifier    — SM/RC/MO labeling
+#   Stage-3 council (per spec §05 — three distinct families required):
+#     council_extractor      — re-extracts the claim from the source URL fresh
+#     council_reviewer       — checks verbatim quote, SM-anchor sanity
+#     council_decider        — assigns evidence sub-grade, consensus, paradigm
+#   Stage-5 legal:
+#     legal_reviewer         — applies §07 quote-length, license, ToS rules
+#   Stage-1 discovery:
+#     embedding              — semantic ranking of candidate sources
+#   Failover:
+#     extractor_backup       — used only when `extractor` endpoint fails
+#
+# Three-family council assignment (sign-off pass):
+#   council_extractor → qwen-local         (Alibaba family)
+#   council_reviewer  → openrouter-reviewer (Google family)
+#   council_decider   → openrouter-decider  (OpenAI family)
+#
+# Schema fields (each endpoint):
+#   base_url            OpenAI-compatible base URL
+#   api_key_env         env var name (empty for localhost endpoints)
+#   model               model id to send in request body
+#   family              qwen | google | openai | anthropic | deepseek | mistral | moonshot | zhipu
+#   api_style           openai_compatible (default) | gemini
+#   active              true if wired into a live role; false = reserve
+#   roles               list of roles this endpoint handles
+#   timeout_s           request timeout (adapter enforces via httpx.Timeout)
+#   default_max_tokens  sensible default if caller doesn't specify max_tokens.
+#                       Prevents the 32-token footgun where Qwen / gpt-5-mini
+#                       burn all tokens on internal reasoning and return empty.
+#   min_output_tokens   enforced minimum (gpt-5 family reserves capacity)
+#   max_context         target context window (tokens)
+#   supports_json_schema  true if endpoint enforces JSON Schema decoding
+#   cost_per_million_in/out  USD, verified against OpenRouter pricing where applicable
+#   failover_to         documentation only — the adapter does NOT auto-retry.
+#                       Orchestration layer decides retry per fail-fast doctrine.
+#   notes               human context
+
+default_endpoint: qwen-local
+
+endpoints:
+
+  # ─── Primary local ────────────────────────────────────────────────────
+
+  qwen-local:
+    base_url: http://127.0.0.1:8080/v1
+    api_key_env: ""
+    model: qwen
+    family: qwen
+    api_style: openai_compatible
+    active: true
+    roles:
+      - extractor               # Stage 2 — bulk verbatim claim extraction
+      - tagger                  # Stage 2
+      - structurer              # Stage 2
+      - paradigm_classifier     # Stage 2
+      - legal_reviewer          # Stage 5
+    timeout_s: 300
+    default_max_tokens: 4096
+    max_context: 8192
+    supports_json_schema: true
+    cost_per_million_in: 0
+    cost_per_million_out: 0
+    failover_to: qwen-mac
+    notes: |
+      Qwen 3.6 27B UD-Q4_K_XL with MTP draft heads. Single slot (-np 1).
+      Demoted from council_extractor 2026-05-21: that role is now held by
+      dashscope-qwen-max (cloud Qwen 3.7 Max — stronger Alibaba voice for
+      Stage 3 council). Local stays for Stage 2 high-volume free work and
+      Stage 5 legal checks.
+      For batch concurrency, run multiple llama-server processes on different
+      ports, or disable MTP and raise -np.
+
+  # ─── Local backup (Mac via tailnet) ───────────────────────────────────
+
+  qwen-mac:
+    base_url: http://100.119.217.94:8080/v1
+    api_key_env: ""
+    model: mlx-community/Qwen3.6-27B-OptiQ-4bit
+    family: qwen
+    api_style: openai_compatible
+    active: true
+    roles: [extractor_backup]
+    timeout_s: 300
+    default_max_tokens: 4096
+    max_context: 8192
+    supports_json_schema: true
+    cost_per_million_in: 0
+    cost_per_million_out: 0
+    notes: |
+      MacBook Pro MLX-LM. ~14 tok/s, no MTP. Tailnet 64ms RTT.
+      Activated only on extractor failover (orchestrator decides — adapter
+      does NOT auto-retry).
+
+      ⚠ SECURITY (Codex review 2026-05-21): MLX-LM currently binds to
+      0.0.0.0:8080 on the Mac, exposing it to anyone on the tailnet without
+      auth. Tailscale ACL provides peer-level auth but not per-service.
+      RECOMMENDED rebind on the Mac:
+          mlx_lm.server --host 100.119.217.94 --port 8080 ...
+      restricts to the tailnet interface only. See
+      /home/zoltan/Projects/metabolicum-research/docs/agentic-workflow/REVIEW-2026-05-21-llm-access.md
+      §11 for the rebind plan.
+
+  # ─── Cloud council — minimum viable, three families ──────────────────
+
+  dashscope-qwen-max:
+    base_url: https://dashscope-intl.aliyuncs.com/compatible-mode/v1
+    api_key_env: DASHSCOPE_API_KEY
+    model: qwen3.7-max
+    family: qwen
+    api_style: openai_compatible
+    active: true
+    roles: [council_extractor]   # Stage-3 council voice #1 (Alibaba family)
+    timeout_s: 240
+    default_max_tokens: 4096
+    max_context: 262144
+    supports_json_schema: true
+    cost_per_million_in: 1.60     # placeholder — verify on next billing snapshot
+    cost_per_million_out: 6.40    # placeholder — verify on next billing snapshot
+    notes: |
+      Alibaba Cloud Model Studio (DashScope-Intl, Singapore region).
+      OpenAI-compatible base path — adapter needs no special handling.
+      Holds the Alibaba-family voice in the Stage-3 three-family council, so
+      Stage 3 isn't bottlenecked by the local 27B-Q4 quant. qwen-local stays
+      for Stage 2 bulk extraction and Stage 5 legal review.
+      Pricing recorded here is a placeholder — confirm against the actual
+      Alibaba Cloud invoice the first time it bills.
+
+  openrouter-reviewer:
+    base_url: https://openrouter.ai/api/v1
+    api_key_env: OPENROUTER_API_KEY
+    model: google/gemini-2.5-flash
+    family: google
+    api_style: openai_compatible
+    active: true
+    roles: [council_reviewer]   # Stage-3 council voice #2 (Google family)
+    timeout_s: 120
+    default_max_tokens: 2048
+    max_context: 1000000
+    supports_json_schema: true
+    cost_per_million_in: 0.30   # corrected per Codex review (was 0.075)
+    cost_per_million_out: 2.50  # corrected per Codex review (was 0.30)
+    notes: |
+      Gemini 2.5 Flash via OpenRouter. Cheapest competent reviewer in the
+      Google family. Ample 1M context. Reasoning lite (CoT-on-demand).
+      Pricing verified against OpenRouter model page 2026-05-21.
+
+  openrouter-decider:
+    base_url: https://openrouter.ai/api/v1
+    api_key_env: OPENROUTER_API_KEY
+    model: openai/gpt-5-mini
+    family: openai
+    api_style: openai_compatible
+    active: true
+    roles: [council_decider]    # Stage-3 council voice #3 (OpenAI family)
+    timeout_s: 240
+    default_max_tokens: 4096
+    max_context: 400000
+    min_output_tokens: 16
+    supports_json_schema: true
+    cost_per_million_in: 0.25
+    cost_per_million_out: 2.00
+    notes: |
+      GPT-5 Mini via OpenRouter. Cheapest of the gpt-5 family with reasoning.
+      Requires max_output_tokens >= 16 (OpenAI reserves capacity for internal
+      reasoning). Promote to openai/gpt-5 (full) for contested markers, or
+      anthropic/claude-opus-4.5 if OpenAI family disappoints.
+
+  # ─── Reserve tier (active=false, no roles assigned) ──────────────────
+  # Promote to a role by setting active=true and adding it to `roles:`.
+  # No other code change needed.
+
+  openrouter-claude-cheap:
+    base_url: https://openrouter.ai/api/v1
+    api_key_env: OPENROUTER_API_KEY
+    model: anthropic/claude-haiku-4.5
+    family: anthropic
+    api_style: openai_compatible
+    active: false
+    roles: []
+    timeout_s: 120
+    default_max_tokens: 2048
+    cost_per_million_in: 1.00
+    cost_per_million_out: 5.00
+    notes: "Backup reviewer/decider — Anthropic family, fast tier."
+
+  openrouter-claude-strong:
+    base_url: https://openrouter.ai/api/v1
+    api_key_env: OPENROUTER_API_KEY
+    model: anthropic/claude-opus-4.5
+    family: anthropic
+    api_style: openai_compatible
+    active: false
+    roles: []
+    timeout_s: 300
+    default_max_tokens: 4096
+    cost_per_million_in: 15.00
+    cost_per_million_out: 75.00
+    notes: "Reserved for contested-marker re-adjudication. ~30x decider cost."
+
+  openrouter-deepseek-r1:
+    base_url: https://openrouter.ai/api/v1
+    api_key_env: OPENROUTER_API_KEY
+    model: deepseek/deepseek-r1
+    family: deepseek
+    api_style: openai_compatible
+    active: false
+    roles: []
+    timeout_s: 240
+    default_max_tokens: 4096
+    cost_per_million_in: 0.55
+    cost_per_million_out: 2.19
+    notes: "Fourth-family option for tiebreakers. Open-weight reasoning."
+
+  dashscope-deepseek-v4-pro:
+    base_url: https://dashscope-intl.aliyuncs.com/compatible-mode/v1
+    api_key_env: DASHSCOPE_API_KEY
+    model: deepseek-v4-pro
+    family: deepseek
+    api_style: openai_compatible
+    active: false
+    roles: []
+    timeout_s: 240
+    default_max_tokens: 4096
+    supports_json_schema: true
+    notes: |
+      DeepSeek V4 Pro via Alibaba ModelStudio (Singapore workspace).
+      Smoke-tested 2026-05-21 (returned the expected sentence, finish=stop).
+      Fourth-family option for council tiebreakers or as a stronger swap for
+      one of the current three voices if it underperforms. Pricing not yet
+      pinned — record once first invoice lands.
+
+  dashscope-deepseek-v4-flash:
+    base_url: https://dashscope-intl.aliyuncs.com/compatible-mode/v1
+    api_key_env: DASHSCOPE_API_KEY
+    model: deepseek-v4-flash
+    family: deepseek
+    api_style: openai_compatible
+    active: false
+    roles: []
+    timeout_s: 120
+    default_max_tokens: 2048
+    supports_json_schema: true
+    notes: |
+      DeepSeek V4 Flash via Alibaba ModelStudio (Singapore workspace).
+      Smoke-tested 2026-05-21 (returned the expected sentence, finish=stop).
+      Cheaper/faster sibling of -pro. Candidate replacement for
+      openrouter-reviewer if Gemini quota/cost becomes a problem, though that
+      would shift council family balance — promote with care.
+
+  openrouter-kimi:
+    base_url: https://openrouter.ai/api/v1
+    api_key_env: OPENROUTER_API_KEY
+    model: moonshotai/kimi-k2.6
+    family: moonshot
+    api_style: openai_compatible
+    active: false
+    roles: []
+    timeout_s: 240
+    default_max_tokens: 4096
+    max_context: 262144
+    cost_per_million_in: 0.60
+    cost_per_million_out: 2.50
+    notes: |
+      Kimi K2.6 — 256K native context. Use for long-source steps. Direct
+      moonshot.ai API key in env is invalid; route via OpenRouter only.
+
+  # ─── Embeddings ──────────────────────────────────────────────────────
+
+  bge-m3-local:
+    base_url: http://127.0.0.1:8081/v1
+    api_key_env: ""
+    model: bge-m3
+    family: bge
+    api_style: openai_compatible
+    active: false
+    roles: []
+    timeout_s: 60
+    cost_per_million_in: 0
+    cost_per_million_out: 0
+    notes: |
+      RESERVED — second llama-server on 5060 Ti, port 8081. Not yet running.
+      Wire before spike if Gemini free-tier quota is a concern (Kimi review).
+
+  gemini-embeddings:
+    base_url: https://generativelanguage.googleapis.com/v1beta
+    api_key_env: GOOGLE_AI_API_KEY
+    model: gemini-embedding-2          # verified 2026-05-21: current stable
+    family: google
+    api_style: gemini
+    active: true
+    roles: [embedding]
+    timeout_s: 60
+    output_dim: 3072                   # L2-normalized; safe for cosine similarity
+    max_input_tokens: 8192
+    cost_per_million_in: 0.00          # free tier eligible at pilot volume
+    notes: |
+      Verified call: 3072-dim, L2-normalized (norm=1.0), 8192-token input.
+      Newer alternatives: gemini-embedding-2-preview (same family, may have
+      improvements but unstable). Older fallback: gemini-embedding-001
+      (2048-token input, same 3072-dim output).
+      Swap to bge-m3-local once that's running on the 5060 Ti.
+
+# ─── Health check policy ─────────────────────────────────────────────────
+
+health_check:
+  endpoint_suffix: /models
+  expected_http: 200
+  cache_seconds: 60
+  on_failure: fail_stage_with_quarantine
+
+# ─── Cost guardrails (advisory, runtime-configurable) ────────────────────
+
+cost_guardrails:
+  per_marker_soft_limit_usd: 1.00
+  per_run_hard_limit_usd: 25.00
+  note: |
+    Spike scope of 5 pilot markers at minimum-viable tier should land
+    well under $1 per marker. Hard limit is generous safety only.
+    Gemini 2.5 Flash pricing corrected post-review (Codex 2026-05-21)
+    from $0.075/$0.30 to $0.30/$2.50.

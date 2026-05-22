@@ -1,0 +1,134 @@
+# SM range input - Platelet Count (auto-generated from the wave-1 SM anchor package)
+marker_slug: platelet-count
+marker_name: Platelet Count
+sample_status: review_sample
+source_policy: frozen_standard_medical_anchor
+anchor_version: sm_wave_1_2026_05_05
+unit: x10^9/L
+crosscheck_status: not_applicable
+rows:
+- stratum: male_guza_1400m
+  sex: male
+  age_min: 18
+  age_max: null
+  min: 127.37
+  max: 326.48
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC12134580
+    dois: []
+- stratum: male_lucheng_2500m
+  sex: male
+  age_min: 18
+  age_max: null
+  min: 141.21
+  max: 353.88
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC12134580
+    dois: []
+- stratum: male_luhuo_3200m
+  sex: male
+  age_min: 18
+  age_max: null
+  min: 179.33
+  max: 392.3
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC12134580
+    dois: []
+- stratum: male_litang_4100m
+  sex: male
+  age_min: 18
+  age_max: null
+  min: 173.68
+  max: 432.17
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC12134580
+    dois: []
+- stratum: female_guza_1400m
+  sex: female
+  age_min: 18
+  age_max: null
+  min: 112.38
+  max: 302.07
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC12134580
+    dois: []
+- stratum: female_lucheng_2500m
+  sex: female
+  age_min: 18
+  age_max: null
+  min: 116.34
+  max: 321.35
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC12134580
+    dois: []
+- stratum: female_luhuo_3200m
+  sex: female
+  age_min: 18
+  age_max: null
+  min: 115.8
+  max: 349.14
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC12134580
+    dois: []
+- stratum: female_litang_4100m
+  sex: female
+  age_min: 18
+  age_max: null
+  min: 163.71
+  max: 396.82
+  status: normal
+  use: display_eligible
+  primary_display: true
+  public_source_ids:
+    pmids: []
+    pmcids:
+    - PMC12134580
+    dois: []
+anchor_provenance:
+  source_visibility: public_ids_only
+  hidden_derivation: true
+known_research_context:
+  source_visibility: public_ids_only
+  purpose: deduplication_and_context
+  pmids: []
+  pmcids: []
+  dois: []
+  note: Public IDs exposed for deduplication. Do not treat as proof of current claim unless independently revalidated.
+annotations: []
+reviewer_note: 'Auto-generated from the wave-1 SM anchor package. Doctrine: population-RI primary, guidelines annotation-only.
+  Internal derivation hidden from agent view. Annotations and known_research_context PMIDs to be curated in a subsequent pass.'

@@ -1,0 +1,42 @@
+# SM range input - Aldosterone (auto-generated from the wave-2B SM anchor candidate set)
+marker_slug: aldosterone
+canonical_slug: aldosterone
+marker_name: Aldosterone
+entity_type: evaluator
+identity_binding_status: needs_identity_review
+sample_status: review_sample
+source_policy: standard_medical_anchor_candidate
+anchor_version: sm_wave_2b_2026_05_18
+unit: ng/dL
+rows:
+- stratum: age_11plus
+  sex: all
+  age_min: 11
+  age_max: null
+  min: null
+  max: 21.0
+  status: reference-cutoff
+  use: internal_research_gate
+- stratum: age_15plus
+  sex: all
+  age_min: 15
+  age_max: null
+  min: null
+  max: 31.0
+  status: reference-cutoff
+  use: internal_research_gate
+anchor_provenance:
+  source_visibility: public_ids_only
+  hidden_derivation: true
+known_research_context:
+  source_visibility: public_ids_only
+  purpose: deduplication_and_context
+  pmids: []
+  pmcids: []
+  dois: []
+  note: Public IDs exposed for deduplication. Do not treat as proof of current claim unless independently revalidated.
+annotations: []
+reviewer_note: 'Auto-generated from the wave-2B SM anchor candidate set. Doctrine: standard-medical rows are identity-review
+  inputs only while marker identity remains unresolved. crosscheck_status is intentionally absent in wave-2B; promotion requires
+  identity arbitration plus a later crosscheck/promotion pass. Internal derivation and source collection details are hidden
+  from agent view.'

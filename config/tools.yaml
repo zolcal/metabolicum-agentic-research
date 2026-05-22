@@ -1,0 +1,205 @@
+# Tool configuration for Hermes agents.
+#
+# Policy
+#   - No Brave (cost-prohibitive at our query volume).
+#   - General web search: self-hosted SearXNG (already running, port 8888).
+#   - Topic-specific search: MCP servers (academic papers, biomedical, video).
+#   - Browser automation: Playwright MCP for JS-rendered pages.
+#   - Memory MCP servers DISABLED — Hermes is stateless per spike doctrine.
+#
+# Per-stage manifests at the bottom limit which tools each agent can call.
+# Tool discovery is fixed, not dynamic (per hermes-spike-discussion.md §3).
+
+# ─── Web search ───────────────────────────────────────────────────────
+
+searxng-local:
+  type: search
+  url: http://127.0.0.1:8888/search        # Docker container metabolicum-searxng
+  query_param: q
+  format: json
+  roles: [web_search]
+  cost_per_query: 0
+  notes: |
+    Self-hosted SearXNG. Aggregates Google, Bing, DuckDuckGo, and others.
+    Free — already running as the metabolicum-searxng container.
+    Replaces Brave Search (intentionally omitted on cost grounds).
+
+# Brave Search is NOT configured. Do not add it back without a cost review.
+
+# ─── Academic search (via MCP) ────────────────────────────────────────
+
+paper-search-mcp:
+  type: mcp
+  mcp_server: paper-search-mcp
+  tools:
+    - search_pubmed
+    - search_arxiv
+    - search_biorxiv
+    - search_medrxiv
+    - search_google_scholar
+    - read_pubmed_paper
+    - read_arxiv_paper
+    - read_biorxiv_paper
+    - read_medrxiv_paper
+    - download_pubmed
+    - download_arxiv
+    - download_biorxiv
+    - download_medrxiv
+  roles: [academic_search, provenance_lookup]
+  cost_per_query: 0
+  notes: |
+    Free MCP. Stage 1 finds research papers; Stage 4 resolves cited_paper
+    references to PMID/DOI.
+
+# ─── Biomedical entity / regulatory (via MCP) ─────────────────────────
+
+biomcp:
+  type: mcp
+  mcp_server: biomcp
+  tools:
+    - article_searcher
+    - article_getter
+    - disease_getter
+    - drug_getter
+    - gene_getter
+    - variant_searcher
+    - variant_getter
+    - trial_searcher
+    - trial_protocol_getter
+    - nci_biomarker_searcher
+    - openfda_label_searcher
+    - openfda_adverse_searcher
+    - openfda_approval_searcher
+  roles: [biomedical_entity_lookup, regulatory_lookup]
+  cost_per_query: 0
+  notes: |
+    Free MCP for biomedical lookups. PubMed, ClinicalTrials.gov, NCI,
+    OpenFDA. Used in Stage 3 council evidence assessment and Stage 4
+    provenance.
+
+# ─── Video discovery (via MCP) ────────────────────────────────────────
+
+youtube-mcp:
+  type: mcp
+  mcp_server: youtube
+  tools:
+    - videos_searchVideos
+    - videos_getVideo
+    - channels_getChannel
+    - channels_listVideos
+    - transcripts_getTranscript
+  roles: [video_discovery, video_transcript]
+  cost_per_query: 0
+  notes: |
+    YouTube Data API v3 via MCP. 10,000-unit/day free quota.
+    Used by Stage 1 YouTube agent and as transcript fallback when Gemini
+    native URL ingestion is unavailable.
+
+# ─── Social discovery (via MCP) ───────────────────────────────────────
+
+twitter-mcp:
+  type: mcp
+  mcp_server: twitter
+  tools:
+    - search_tweets
+    - get_user_tweets
+    - get_tweet
+    - get_user
+    - get_mentions
+  roles: [social_discovery]
+  cost_per_query: 0
+  notes: |
+    X/Twitter MCP. Per spec §03, X is retained for maintenance + content
+    discovery only, NOT primary evidence. Rate-limited at the orchestration
+    layer.
+
+# ─── Browser automation (last resort) ─────────────────────────────────
+
+playwright-mcp:
+  type: mcp
+  mcp_server: plugin_playwright_playwright
+  tools:
+    - browser_navigate
+    - browser_snapshot
+    - browser_evaluate
+    - browser_console_messages
+    - browser_network_requests
+  roles: [page_fetch, page_render]
+  cost_per_query: 0
+  notes: |
+    For blog posts and JS-rendered pages where verbatim quote extraction
+    needs browser rendering. Stay narrow: per-source, per-run only.
+    Do NOT bulk-scrape — terms-of-service per spec §03 §07.
+
+# ─── Translation (deferred per spec) ──────────────────────────────────
+
+deepl-mcp:
+  type: mcp
+  mcp_server: deepl
+  tools:
+    - translate-text
+    - translate-document
+  roles: [translation]
+  cost_per_query: variable
+  notes: |
+    Paid DeepL via MCP. Per spec, multilingual discovery is deferred
+    beyond the pilot. Activate only when non-English source ingestion
+    starts.
+
+# ─── Podcasts: direct RSS, no MCP ─────────────────────────────────────
+
+podcast-rss:
+  type: direct_rss
+  tools:
+    - poll_feed
+    - download_episode
+    - extract_inline_transcript
+  roles: [podcast_discovery]
+  cost_per_query: 0
+  notes: |
+    RSS feeds from practitioner/source registry §16. Free.
+    Transcription fallback to local Whisper (5060 Ti) or AssemblyAI
+    only when the RSS doesn't include a transcript.
+
+# ─── Memory MCP servers: DISABLED ─────────────────────────────────────
+#
+# The memory and neurostack-metabolicum/segmentation MCP servers expose
+# persistent memory APIs. Hermes is stateless per the spike doctrine —
+# cross-run context lives in Supabase + state.json file handoffs, not in
+# agent-internal memory. These MCPs are NOT listed in any stage manifest.
+
+# ─── Per-stage tool manifests ─────────────────────────────────────────
+# Each Hermes task gets exactly the tools listed for its stage.
+# Tool discovery is fixed: no MCP server browsing at runtime.
+
+stage_1_discovery:
+  - searxng-local
+  - paper-search-mcp
+  - youtube-mcp
+  - twitter-mcp
+  - playwright-mcp
+
+stage_2_extraction:
+  []
+  # Stage 2 has NO external tools — it operates exclusively on cached source
+  # transcripts produced during Stage 1 discovery (and persisted to the
+  # source-cache directory referenced in state.json). This is the post-review
+  # discipline (Codex M6 + Kimi Q7, 2026-05-21):
+  #   - Avoids duplicate fetches and ToS risk (per spec §03 / §07).
+  #   - Makes Stage 2 deterministic and re-runnable from cached inputs.
+  #   - If a source needs JS rendering, Stage 1 fetches it once via Playwright
+  #     and the cached transcript is what Stage 2 sees.
+
+stage_3_council:
+  - paper-search-mcp                # provenance lookups during evidence assessment
+  - biomcp                          # entity context (drugs, genes, trials)
+
+stage_4_provenance:
+  - paper-search-mcp                # PMID/DOI resolution
+  - biomcp                          # cross-check via biomedical databases
+
+stage_5_legal:
+  - playwright-mcp                  # license re-verification on source URLs
+
+stage_6_assembly:
+  []                                # no external tools — SQL generation only

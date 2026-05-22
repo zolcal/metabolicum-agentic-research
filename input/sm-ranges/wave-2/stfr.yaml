@@ -1,0 +1,39 @@
+# SM range input - Transferrin receptor.soluble (auto-generated from the wave-2A SM anchor candidate set)
+marker_slug: stfr
+canonical_slug: stfr
+marker_name: Transferrin receptor.soluble
+entity_type: evaluator
+identity_binding_status: canonical_candidate
+sample_status: review_sample
+source_policy: standard_medical_anchor_candidate
+anchor_version: sm_wave_2a_2026_05_18
+unit: mg/L
+rows:
+- stratum: age_14_18
+  sex: all
+  age_min: 14
+  age_max: 18
+  min: 0.79
+  max: 1.68
+  status: normal
+  use: comparison_only
+anchor_provenance:
+  source_visibility: public_ids_only
+  hidden_derivation: true
+known_research_context:
+  source_visibility: public_ids_only
+  purpose: deduplication_and_context
+  pmids:
+    - "23715774"
+    - "35051624"
+    - "38104902"
+    - "38975011"
+    - "39742215"
+    - "40056940"
+  pmcids: []
+  dois: []
+  note: Public IDs exposed for deduplication. Do not treat as proof of current claim unless independently revalidated.
+annotations: []
+reviewer_note: 'Auto-generated from the wave-2A SM anchor candidate set. Doctrine: standard-medical rows are comparison anchors
+  until human review promotes them. crosscheck_status is intentionally absent in wave-2A; promotion requires human review
+  plus a later crosscheck/promotion pass. Internal derivation and source collection details are hidden from agent view.'

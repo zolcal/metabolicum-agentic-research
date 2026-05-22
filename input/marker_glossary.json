@@ -1,0 +1,47 @@
+{
+  "$comment": "Seed glossary for the 5 pilot markers. Loaded by the Stage 2 marker tagger. Each entry maps a (marker, language, term) triple to a term_type. Canonical marker slugs use kebab-case and match the marker identity registry. Aliases below cover common practitioner phrasings observed in the SM-range YAMLs and prior research output; extend as new sources surface new wording.",
+  "schema_version": "1",
+  "language_default": "en",
+  "entries": [
+    { "marker": "tg-hdl-ratio", "language": "en", "term": "TG/HDL ratio", "term_type": "primary" },
+    { "marker": "tg-hdl-ratio", "language": "en", "term": "TG/HDL", "term_type": "alias" },
+    { "marker": "tg-hdl-ratio", "language": "en", "term": "tg_hdl_ratio", "term_type": "alias" },
+    { "marker": "tg-hdl-ratio", "language": "en", "term": "tg-hdl", "term_type": "alias" },
+    { "marker": "tg-hdl-ratio", "language": "en", "term": "triglyceride to HDL ratio", "term_type": "colloquial" },
+    { "marker": "tg-hdl-ratio", "language": "en", "term": "triglyceride-HDL ratio", "term_type": "colloquial" },
+    { "marker": "tg-hdl-ratio", "language": "en", "term": "TG:HDL", "term_type": "alias" },
+
+    { "marker": "hba1c", "language": "en", "term": "HbA1c", "term_type": "primary" },
+    { "marker": "hba1c", "language": "en", "term": "A1C", "term_type": "abbreviation" },
+    { "marker": "hba1c", "language": "en", "term": "A1c", "term_type": "abbreviation" },
+    { "marker": "hba1c", "language": "en", "term": "hemoglobin A1c", "term_type": "alias" },
+    { "marker": "hba1c", "language": "en", "term": "haemoglobin A1c", "term_type": "alias" },
+    { "marker": "hba1c", "language": "en", "term": "glycated hemoglobin", "term_type": "colloquial" },
+    { "marker": "hba1c", "language": "en", "term": "glycohemoglobin", "term_type": "colloquial" },
+
+    { "marker": "apob", "language": "en", "term": "ApoB", "term_type": "primary" },
+    { "marker": "apob", "language": "en", "term": "apoB", "term_type": "alias" },
+    { "marker": "apob", "language": "en", "term": "Apo-B", "term_type": "alias" },
+    { "marker": "apob", "language": "en", "term": "apolipoprotein B", "term_type": "alias" },
+    { "marker": "apob", "language": "en", "term": "apolipoprotein-B", "term_type": "alias" },
+    { "marker": "apob", "language": "en", "term": "Apo B-100", "term_type": "colloquial" },
+
+    { "marker": "lpa", "language": "en", "term": "Lp(a)", "term_type": "primary" },
+    { "marker": "lpa", "language": "en", "term": "lipoprotein(a)", "term_type": "alias" },
+    { "marker": "lpa", "language": "en", "term": "lipoprotein a", "term_type": "alias" },
+    { "marker": "lpa", "language": "en", "term": "lp(a)", "term_type": "alias" },
+    { "marker": "lpa", "language": "en", "term": "lipoprotein little a", "term_type": "colloquial" },
+
+    { "marker": "fasting-insulin", "language": "en", "term": "fasting insulin", "term_type": "primary" },
+    { "marker": "fasting-insulin", "language": "en", "term": "FI", "term_type": "abbreviation" },
+    { "marker": "fasting-insulin", "language": "en", "term": "FINS", "term_type": "abbreviation" },
+    { "marker": "fasting-insulin", "language": "en", "term": "fasting serum insulin", "term_type": "alias" },
+    { "marker": "fasting-insulin", "language": "en", "term": "fasting plasma insulin", "term_type": "alias" },
+
+    { "marker": "homa-ir", "language": "en", "term": "HOMA-IR", "term_type": "primary" },
+    { "marker": "homa-ir", "language": "en", "term": "HOMA1-IR", "term_type": "alias" },
+    { "marker": "homa-ir", "language": "en", "term": "HOMA IR", "term_type": "alias" },
+    { "marker": "homa-ir", "language": "en", "term": "homeostatic model assessment", "term_type": "colloquial" },
+    { "marker": "homa-ir", "language": "en", "term": "insulin resistance index", "term_type": "colloquial" }
+  ]
+}

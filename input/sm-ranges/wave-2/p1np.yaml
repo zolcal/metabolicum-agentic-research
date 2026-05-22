@@ -1,0 +1,49 @@
+# SM range input - P1NP (auto-generated from the wave-2A SM anchor candidate set)
+marker_slug: p1np
+canonical_slug: p1np
+marker_name: P1NP
+entity_type: evaluator
+identity_binding_status: canonical_candidate
+sample_status: review_sample
+source_policy: standard_medical_anchor_candidate
+anchor_version: sm_wave_2a_2026_05_18
+unit: ng/mL
+rows:
+- stratum: age_20_45
+  sex: all
+  age_min: 20
+  age_max: 45
+  min: 22.0
+  max: 104.0
+  status: normal
+  use: comparison_only
+- stratum: age_23_60
+  sex: all
+  age_min: 23
+  age_max: 60
+  min: 30.0
+  max: 110.0
+  status: normal
+  use: comparison_only
+- stratum: age_46_60
+  sex: all
+  age_min: 46
+  age_max: 60
+  min: 20.0
+  max: 108.0
+  status: normal
+  use: comparison_only
+anchor_provenance:
+  source_visibility: public_ids_only
+  hidden_derivation: true
+known_research_context:
+  source_visibility: public_ids_only
+  purpose: deduplication_and_context
+  pmids: []
+  pmcids: []
+  dois: []
+  note: Public IDs exposed for deduplication. Do not treat as proof of current claim unless independently revalidated.
+annotations: []
+reviewer_note: 'Auto-generated from the wave-2A SM anchor candidate set. Doctrine: standard-medical rows are comparison anchors
+  until human review promotes them. crosscheck_status is intentionally absent in wave-2A; promotion requires human review
+  plus a later crosscheck/promotion pass. Internal derivation and source collection details are hidden from agent view.'
