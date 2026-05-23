@@ -29,8 +29,7 @@ The authoritative specification is `docs/agentic-workflow/` in this repo (migrat
 | `code/` | Hermes runtime code (`llm_client.py`, schemas, harness). |
 | `code/schemas/` | JSON Schemas: `state.schema.json` (stage handoff), `extracted_claim.schema.json` (Stage 2 constrained-decoding). |
 | `config/` | Endpoint registry (`llm-endpoints.yaml`), per-stage tool manifests (`tools.yaml`), pinned Hermes version (`hermes-version.txt`, once B1 is cleared). |
-| `docs/HERMES-RUNBOOK.md` | **Operational entry point for the Hermes runtime.** Post-install, this is what Hermes reads first: pre-conditions checklist, per-stage runbook, council orchestration, storage targets, definition-of-done per marker, failure modes. Everything else (specs, policies, prompts, schemas) is referenced from here. |
-| `docs/agentic-workflow/` | Authoritative specification: 18 numbered section files + `hermes-setup.md` + `README.md` + the dated `REVIEW-2026-05-21-llm-access.md`. Migrated from legacy `metabolicum-research/` on 2026-05-23. `docs/agentic-workflow/internal/` holds non-agent-visible audit history (SM-range generation reports, frozen-anchor review). |
+| `docs/agentic-workflow/` | Authoritative specification: 18 numbered section files + `hermes-setup.md` + `README.md` + the dated `REVIEW-2026-05-21-llm-access.md`. Migrated from legacy `metabolicum-research/` on 2026-05-23. `docs/agentic-workflow/internal/` holds non-agent-visible audit history (SM-range generation reports, frozen-anchor review). The operational guidance for each stage is in the corresponding section file (§02 architecture, §05 council, §06 provenance, §07 legal, §10 orchestration + state.json, §18 export shape, `hermes-setup.md` for acceptance tests). |
 | `docs/policies/` | Vendored policy docs the Hermes agent reads at runtime (e.g. `RANGE-STATUS-COLOR-POLICY.md`). Upstream sources cited inline in each file. |
 | `fixtures/` | Fixture sources for the Hermes acceptance pass. `fixtures/sources/<id>.json` holds one cached transcript per fixture. |
 | `hermes/` | Pinned Hermes persona + config (`SOUL.md`, `config.yaml`). Copied into each disposable `HERMES_HOME` at run start; SHA-256 must match across runs (acceptance test #7). The gateway's persistent `HERMES_HOME` lives at `hermes/gateway-home/` once the Telegram interface lands; it is gitignored. |
@@ -56,34 +55,29 @@ The authoritative specification is `docs/agentic-workflow/` in this repo (migrat
 
 This project's agents talk to `http://127.0.0.1:8080` (OpenAI-compatible). That endpoint is served by llama-server, configured at `/media/zoltan/4TSSD/ops/llama-server/`. See `ops/llama-server/README.md` for operator details.
 
-## Install-time gate
+## What's in this project
 
-One-pass setup checklist. Each item is detailed as a pre-condition in `docs/HERMES-RUNBOOK.md` §2 and asserted by `scripts/preflight.sh`. When everything below is green, Hermes is ready to enqueue tasks. After install, this checklist is not revisited — subsequent progress is pipeline output, not setup work.
+Everything Hermes needs at runtime — spec contracts, schemas, prompts, policies, inputs. Hermes never reaches outside this tree.
 
-**Scaffolding (done):**
+**Contracts the agent enforces** (all readable from project boundary):
 
-- [x] Project bootstrapped + git initialized
-- [x] LLM endpoint registry + adapter (`config/llm-endpoints.yaml`, `code/llm_client.py`) — smoke-tested 2026-05-21
-- [x] Per-stage tool manifests (`config/tools.yaml`)
-- [x] §04 schema captured as `supabase/migrations/0001_initial.sql`
-- [x] JSON Schemas for `state.json` and `MarkerRecommendation` (`code/schemas/`)
-- [x] 5 role-locked prompts (`prompts/`)
-- [x] `hermes/SOUL.md` persona drafted
-- [x] Spec set internalized at `docs/agentic-workflow/` (single source of truth)
-- [x] Color policy vendored at `docs/policies/RANGE-STATUS-COLOR-POLICY.md`
-- [x] Inputs in place: SM YAMLs, registry, marker glossary, wave-0 acceptance set
-- [x] `docs/HERMES-RUNBOOK.md` — operational entry point for the runtime
+- [docs/agentic-workflow/04-research-agents-spec.md](file:///home/zoltan/Projects/metabolicum-agentic-research/docs/agentic-workflow/04-research-agents-spec.md) — full §04 SQL schema + `MarkerRecommendation`
+- [docs/agentic-workflow/05-validation-council.md](file:///home/zoltan/Projects/metabolicum-agentic-research/docs/agentic-workflow/05-validation-council.md) — council process
+- [docs/agentic-workflow/06-provenance-and-chain-of-evidence.md](file:///home/zoltan/Projects/metabolicum-agentic-research/docs/agentic-workflow/06-provenance-and-chain-of-evidence.md) — PMID/DOI resolution
+- [docs/agentic-workflow/07-legal-and-ip-agent.md](file:///home/zoltan/Projects/metabolicum-agentic-research/docs/agentic-workflow/07-legal-and-ip-agent.md) — quote-length, license, ToS rules
+- [docs/agentic-workflow/10-orchestration-and-filesystem.md](file:///home/zoltan/Projects/metabolicum-agentic-research/docs/agentic-workflow/10-orchestration-and-filesystem.md) — file-system + `state.json`
+- [docs/agentic-workflow/15-evidence-rating-system.md](file:///home/zoltan/Projects/metabolicum-agentic-research/docs/agentic-workflow/15-evidence-rating-system.md) — A1–E3 + P1/P2
+- [docs/agentic-workflow/16-practitioner-directory-system.md](file:///home/zoltan/Projects/metabolicum-agentic-research/docs/agentic-workflow/16-practitioner-directory-system.md) — registry + COI
+- [docs/agentic-workflow/17-research-target-envelopes.md](file:///home/zoltan/Projects/metabolicum-agentic-research/docs/agentic-workflow/17-research-target-envelopes.md) — envelope firewall
+- [docs/agentic-workflow/18-research-output-ingestion-contract.md](file:///home/zoltan/Projects/metabolicum-agentic-research/docs/agentic-workflow/18-research-output-ingestion-contract.md) — §18 export shape
+- [docs/policies/RANGE-STATUS-COLOR-POLICY.md](file:///home/zoltan/Projects/metabolicum-agentic-research/docs/policies/RANGE-STATUS-COLOR-POLICY.md) — status alias + canonical palette + State A/B/C
 
-**Remaining install items:**
+**Operational entry point for the runtime:**
 
-- [ ] **B1** — pin Hermes version in `config/hermes-version.txt`
-- [ ] **B2** — verify disable mechanisms against pinned-version docs; fill `hermes/config.yaml`
-- [ ] Provision hosted Supabase project; apply `0001_initial.sql`; verify CHECK constraints (paradigm_affinity, canonical_color)
-- [ ] Drop ≥1 cached source transcript per pilot marker into `fixtures/sources/`
-- [ ] Install Hermes at pinned version
-- [ ] `scripts/preflight.sh` passes (asserts every pre-condition in RUNBOOK §2)
-- [ ] §4 acceptance tests in `docs/agentic-workflow/hermes-setup.md` — all 10 pass against a fixture source
+- [docs/agentic-workflow/hermes-setup.md](file:///home/zoltan/Projects/metabolicum-agentic-research/docs/agentic-workflow/hermes-setup.md) — Hermes restriction model, runtime topology (gateway vs worker), acceptance tests
 
-## After install: pipeline deliverables
+## Operator concerns (not in this tree)
 
-Once the install-time gate is green, Hermes starts producing output. Deliverables aren't a checklist — they're the pipeline doing its job. Progress shows up as approved `biomarker_claims` rows in Supabase and golden §18 exports at `fixtures/expected/wave-0/<slug>.expected.yaml`. The definition of "done" per marker is in `docs/HERMES-RUNBOOK.md` §4 Stage 6.
+Setup gate, install blockers, and the broader operator runbook live in the planning workspace at [/home/zoltan/Projects/metabolicum-research/docs/HERMES-RUNBOOK.md](file:///home/zoltan/Projects/metabolicum-research/docs/HERMES-RUNBOOK.md). Hermes never needs to read those — by the time Hermes is running, they're already resolved.
+
+Pipeline deliverables aren't a checklist — they're approved `biomarker_claims` rows in Supabase and golden §18 exports at [fixtures/expected/wave-0/](file:///home/zoltan/Projects/metabolicum-agentic-research/fixtures/expected/wave-0/). The definition of "done" per marker is the eight criteria in [docs/agentic-workflow/hermes-setup.md](file:///home/zoltan/Projects/metabolicum-agentic-research/docs/agentic-workflow/hermes-setup.md) (and the operator runbook).
