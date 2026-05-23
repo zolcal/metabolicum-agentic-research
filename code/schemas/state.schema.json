@@ -42,16 +42,26 @@
     },
     "status": {
       "type": "string",
-      "enum": ["pending", "running", "completed", "failed", "quarantined"]
+      "enum": [
+        "pending",
+        "running",
+        "completed",
+        "failed",
+        "quarantined"
+      ]
     },
     "input_files": {
       "type": "array",
-      "items": { "type": "string" },
+      "items": {
+        "type": "string"
+      },
       "description": "Paths relative to runs/<run_id>/ root."
     },
     "output_files": {
       "type": "array",
-      "items": { "type": "string" },
+      "items": {
+        "type": "string"
+      },
       "description": "Paths relative to runs/<run_id>/ root."
     },
     "started_at": {
@@ -59,33 +69,165 @@
       "format": "date-time"
     },
     "completed_at": {
-      "type": ["string", "null"],
+      "type": [
+        "string",
+        "null"
+      ],
       "format": "date-time"
     },
     "model_endpoints": {
       "type": "array",
-      "items": { "type": "string" },
+      "items": {
+        "type": "string"
+      },
       "description": "Endpoint role names from config/llm-endpoints.yaml (e.g. extractor, council_decider)."
     },
     "tool_manifest": {
       "type": "string",
       "description": "Stage key from config/tools.yaml that lists the tools this stage may call."
     },
+    "dry_run": {
+      "type": "boolean",
+      "default": false,
+      "description": "True when the stage is exercising the pipeline without durable database writes."
+    },
+    "retry_count": {
+      "type": "integer",
+      "minimum": 0,
+      "default": 0,
+      "description": "Number of retry attempts consumed for this stage boundary."
+    },
+    "provider_calls": {
+      "type": "array",
+      "description": "Per-provider call ledger for audit and cost tracking; no secrets or raw credentials.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "role",
+          "endpoint_id",
+          "model",
+          "started_at",
+          "status"
+        ],
+        "properties": {
+          "role": {
+            "type": "string"
+          },
+          "endpoint_id": {
+            "type": "string"
+          },
+          "model": {
+            "type": "string"
+          },
+          "started_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "completed_at": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date-time"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "completed",
+              "failed",
+              "quarantined"
+            ]
+          },
+          "input_tokens": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "output_tokens": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "cost_usd": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "error_code": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "council_metadata": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "description": "Stage 3 orchestration metadata such as participating roles, consensus score, and disagreement notes.",
+      "additionalProperties": false,
+      "properties": {
+        "roles": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "consensus_rule": {
+          "type": "string"
+        },
+        "consensus_score": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 1
+        },
+        "disagreement_reasons": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
     "metrics": {
       "type": "object",
-      "additionalProperties": { "type": "number" },
+      "additionalProperties": {
+        "type": "number"
+      },
       "description": "Counters relevant to this stage (sources_processed, claims_emitted, provider_calls, retries, etc.)."
     },
     "error": {
-      "type": ["object", "null"],
+      "type": [
+        "object",
+        "null"
+      ],
       "description": "Terminal error summary on failure; null otherwise. Must not include keys, tokens, or full private artifacts.",
       "additionalProperties": false,
       "properties": {
-        "code": { "type": "string" },
-        "message": { "type": "string" },
+        "code": {
+          "type": "string"
+        },
+        "message": {
+          "type": "string"
+        },
         "rejection_codes": {
           "type": "array",
-          "items": { "type": "string" }
+          "items": {
+            "type": "string"
+          }
         }
       }
     }

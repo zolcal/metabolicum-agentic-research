@@ -1,0 +1,21 @@
+{
+  "schema_version": "1",
+  "source_id": "8028a5ca-9003-5760-af4e-66bb155a77bd",
+  "source_url": "https://peterattiamd.com/early-and-aggressive-lowering-of-apob/",
+  "source_type": "blog",
+  "platform": "peterattiamd.com",
+  "title": "Peter on how early and aggressive lowering of apoB could change the course of ASCVD",
+  "retrieved_at": "2026-05-23T00:00:00Z",
+  "published_at": "2022-04-15T00:00:00Z",
+  "source_language": "en",
+  "speaker_or_author": "Peter Attia",
+  "speaker_registry_id": "person:peter-attia",
+  "license": "all_rights_reserved_public_web_excerpt",
+  "transcript_method": "public_page_excerpt",
+  "transcript_text": "This audio clip is from episode #202 - Peter on nutrition, disease prevention, sleep, and more, originally released on April 11, 2022.\nThe question becomes: \"When should you start ApoB reduction and how much should you lower it?\"\nSome numbers: The 20th percentile of ApoB is about 80 milligrams per deciliter.\nPractically what it means is basically by the time you're in your late 30s or early 40s, if you have any measure of ApoB that's even north of the 20th percentile, that should be completely lowered.\nPeter views the \"ceiling\" to be ~60 milligrams per deciliter.\nPeter wants everybody to be below the 5th percentile.\n\"I just don't see a reason to have an ApoB ever north of 60 milligrams per deciliter.\" - Peter Attia\n",
+  "transcript_sha256": "6097e594ac7cb0836ec4b896650aaa13a3439097c89d3643cb3146d99eab0bab",
+  "expected_markers": [
+    "apob"
+  ],
+  "notes": "Acceptance fixture excerpt verified from the public page on 2026-05-23. It is for Stage 2 schema/determinism testing, not broad source ingestion."
+}

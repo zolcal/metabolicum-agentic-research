@@ -182,8 +182,9 @@ stage_1_discovery:
 stage_2_extraction:
   []
   # Stage 2 has NO external tools — it operates exclusively on cached source
-  # transcripts produced during Stage 1 discovery (and persisted to the
-  # source-cache directory referenced in state.json). This is the post-review
+  # transcripts produced during Stage 1 discovery. The runner passes
+  # transcript paths through state.json input_files using the §10
+  # sources/<source_id>/transcript.txt layout. This is the post-review
   # discipline (Codex M6 + Kimi Q7, 2026-05-21):
   #   - Avoids duplicate fetches and ToS risk (per spec §03 / §07).
   #   - Makes Stage 2 deterministic and re-runnable from cached inputs.
@@ -193,6 +194,7 @@ stage_2_extraction:
 stage_3_council:
   - paper-search-mcp                # provenance lookups during evidence assessment
   - biomcp                          # entity context (drugs, genes, trials)
+  - playwright-mcp                  # fresh-fetch JS-rendered sources for quote verification
 
 stage_4_provenance:
   - paper-search-mcp                # PMID/DOI resolution

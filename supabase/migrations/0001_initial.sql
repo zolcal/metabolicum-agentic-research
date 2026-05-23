@@ -177,7 +177,9 @@ CREATE TABLE biomarker_claims (
     population jsonb,
     cited_paper jsonb,
     label text,
-    color text,
+    color text CHECK (color IS NULL OR color IN (
+        '#22c55e','#84cc16','#eab308','#f97316','#ef4444','#dc2626','#9ca3af'
+    )),
     display_role text CHECK (display_role IN (
         'primary_standard_medical_anchor',
         'primary_research_consensus_range',
@@ -354,6 +356,7 @@ CREATE TABLE legal_reviews (
     license_check boolean,
     tos_check boolean,
     feist_compilation_risk text CHECK (feist_compilation_risk IN ('none', 'low', 'medium', 'high')),
+    eu_database_flag boolean,
     reviewed_at timestamptz NOT NULL,
     reviewer_model text NOT NULL,
     updated_at timestamptz NOT NULL
@@ -410,6 +413,23 @@ CREATE INDEX idx_research_studies_pmid ON research_studies(pmid) WHERE pmid IS N
 CREATE INDEX idx_research_studies_doi ON research_studies(doi) WHERE doi IS NOT NULL;
 CREATE INDEX idx_research_studies_biomarkers ON research_studies USING gin(biomarkers);
 CREATE INDEX idx_research_studies_status ON research_studies(status);
+
+CREATE TABLE provenance (
+    id uuid PRIMARY KEY,
+    biomarker_claim_id uuid REFERENCES biomarker_claims(id),
+    edge_type text CHECK (edge_type IN ('surface_to_paper', 'paper_to_pmid', 'paper_to_doi')),
+    source_locator text,
+    target_locator text,
+    research_study_id uuid REFERENCES research_studies(id),
+    confidence float CHECK (confidence IS NULL OR (confidence >= 0 AND confidence <= 1)),
+    resolution_status text CHECK (resolution_status IN ('resolved', 'ambiguous', 'unresolvable')),
+    resolved_at timestamptz,
+    resolver_agent text
+);
+
+CREATE INDEX idx_provenance_claim ON provenance(biomarker_claim_id);
+CREATE INDEX idx_provenance_study ON provenance(research_study_id);
+CREATE INDEX idx_provenance_status ON provenance(resolution_status);
 
 CREATE TABLE research_study_translations (
     id uuid PRIMARY KEY,

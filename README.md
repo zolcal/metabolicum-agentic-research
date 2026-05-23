@@ -31,7 +31,7 @@ The authoritative specification is `docs/agentic-workflow/` in this repo (migrat
 | `config/` | Endpoint registry (`llm-endpoints.yaml`), per-stage tool manifests (`tools.yaml`), pinned Hermes version (`hermes-version.txt`, once B1 is cleared). |
 | `docs/agentic-workflow/` | Authoritative specification: 18 numbered section files + `hermes-setup.md` + `README.md` + the dated `REVIEW-2026-05-21-llm-access.md`. Migrated from legacy `metabolicum-research/` on 2026-05-23. `docs/agentic-workflow/internal/` holds non-agent-visible audit history (SM-range generation reports, frozen-anchor review). The operational guidance for each stage is in the corresponding section file (§02 architecture, §05 council, §06 provenance, §07 legal, §10 orchestration + state.json, §18 export shape, `hermes-setup.md` for acceptance tests). |
 | `docs/policies/` | Vendored policy docs the Hermes agent reads at runtime (e.g. `RANGE-STATUS-COLOR-POLICY.md`). Upstream sources cited inline in each file. |
-| `fixtures/` | Fixture sources for the Hermes acceptance pass. `fixtures/sources/<id>.json` holds one cached transcript per fixture. |
+| `fixtures/` | Fixture sources for the Hermes acceptance pass. `fixtures/sources/<id>.json` holds one cached transcript per fixture and must validate against `code/schemas/source_fixture.schema.json`. |
 | `hermes/` | Pinned Hermes persona + config (`SOUL.md`, `config.yaml`). Copied into each disposable `HERMES_HOME` at run start; SHA-256 must match across runs (acceptance test #7). The gateway's persistent `HERMES_HOME` lives at `hermes/gateway-home/` once the Telegram interface lands; it is gitignored. |
 | `input/` | Agent-visible inputs. |
 | `input/sm-ranges/` | SM range YAMLs: 5 pilot samples + waves 1 (108), 2 (109), 2b (90), 3 (674). Source for `sm_anchors` seeding and SM bulk ingestion. |
@@ -78,6 +78,6 @@ Everything Hermes needs at runtime — spec contracts, schemas, prompts, policie
 
 ## Operator concerns (not in this tree)
 
-Setup gate, install blockers, and the broader operator runbook live in the planning workspace at [/home/zoltan/Projects/metabolicum-research/docs/HERMES-RUNBOOK.md](file:///home/zoltan/Projects/metabolicum-research/docs/HERMES-RUNBOOK.md). Hermes never needs to read those — by the time Hermes is running, they're already resolved.
+Setup gate, install blockers, and the broader operator runbook live in [the planning workspace runbook](file:///home/zoltan/Projects/metabolicum-research/docs/HERMES-RUNBOOK.md). Hermes never needs to read those — by the time Hermes is running, they're already resolved.
 
 Pipeline deliverables aren't a checklist — they're approved `biomarker_claims` rows in Supabase and golden §18 exports at [fixtures/expected/wave-0/](file:///home/zoltan/Projects/metabolicum-agentic-research/fixtures/expected/wave-0/). The definition of "done" per marker is the eight criteria in [docs/agentic-workflow/hermes-setup.md](file:///home/zoltan/Projects/metabolicum-agentic-research/docs/agentic-workflow/hermes-setup.md) (and the operator runbook).

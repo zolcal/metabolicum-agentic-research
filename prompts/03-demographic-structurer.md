@@ -50,16 +50,7 @@ Emit one `MarkerRecommendation` per marker tag (if a claim applies to 2 markers,
   "retrieved_at": "2026-05-18T12:00:00Z",
   "speaker_or_author": "Dr. Peter Attia",
   "speaker_registry_id": "person:peter-attia",
-  "cited_paper": {
-    "raw_reference": null,
-    "pmid": null,
-    "doi": null,
-    "title": null,
-    "authors_short": null,
-    "year": null,
-    "journal": null,
-    "resolved": false
-  },
+  "cited_paper": null,
   "paradigm": "MO",
   "extraction_model": "<injected>",
   "extractor_confidence": 0.95
@@ -74,7 +65,7 @@ Emit one `MarkerRecommendation` per marker tag (if a claim applies to 2 markers,
 4. **Direction inference** — `below` / `above` / `between` / `at` must be grounded in the verbatim text. If the speaker says "under 80," direction is `below`.
 5. **Claim polarity** — `supports` (the source agrees with the claim), `refutes` (the source argues against it), or `qualifies` (the source adds nuance). Default is `supports`.
 6. **Paradigm assignment** — `SM` (standard medical), `RC` (research consensus), or `MO` (metabolic optimization). Use the source context and speaker identity. If ambiguous, quarantine rather than guess.
-7. **Citation extraction** — If the speaker cites a paper ("as shown in the JAMA 2024 study"), put the exact citation phrase in `cited_paper.raw_reference` and extract PMID, DOI, title, authors, year, or journal only if present in the source metadata or transcript. Set `resolved: false`; the provenance agent resolves citations later. Do not hallucinate PMIDs.
+7. **Citation extraction** — If the speaker cites a paper ("as shown in the JAMA 2024 study"), emit a `cited_paper` object, put the exact citation phrase in `cited_paper.raw_reference`, and extract PMID, DOI, title, authors, year, or journal only if present in the source metadata or transcript. Set `resolved: false`; the provenance agent resolves citations later. If no paper is cited, emit `cited_paper: null`. Do not hallucinate PMIDs.
 8. **Speaker attribution is claim-specific** — Populate `speaker_or_author` from the claim context. For multi-speaker sources, use the person who made the claim, not the episode host or channel owner. Populate `speaker_registry_id` only when the attribution resolves unambiguously to a section-sixteen practitioner id.
 9. **No web search** — You may not fetch papers or verify citations online.
 10. **No memory** — Each claim is structured independently.

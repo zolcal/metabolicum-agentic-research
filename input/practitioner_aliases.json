@@ -1,0 +1,290 @@
+{
+  "schema_version": "1",
+  "generated_at": "2026-05-23T00:00:00Z",
+  "aliases": [
+    {
+      "practitioner_id": "person:peter-attia",
+      "canonical_name": "Peter Attia",
+      "aliases": [
+        "Peter Attia"
+      ]
+    },
+    {
+      "practitioner_id": "person:ted-naiman",
+      "canonical_name": "Ted Naiman",
+      "aliases": [
+        "Ted Naiman"
+      ]
+    },
+    {
+      "practitioner_id": "person:dominic-dagostino",
+      "canonical_name": "Dominic D'Agostino",
+      "aliases": [
+        "Dominic D'Agostino"
+      ]
+    },
+    {
+      "practitioner_id": "person:robert-lustig",
+      "canonical_name": "Robert Lustig",
+      "aliases": [
+        "Robert Lustig"
+      ]
+    },
+    {
+      "practitioner_id": "person:jason-fung",
+      "canonical_name": "Jason Fung",
+      "aliases": [
+        "Jason Fung"
+      ]
+    },
+    {
+      "practitioner_id": "person:thomas-dayspring",
+      "canonical_name": "Thomas Dayspring",
+      "aliases": [
+        "Thomas Dayspring",
+        "DrLipid"
+      ]
+    },
+    {
+      "practitioner_id": "person:joseph-kraft",
+      "canonical_name": "Joseph Kraft",
+      "aliases": [
+        "Joseph Kraft"
+      ]
+    },
+    {
+      "practitioner_id": "person:benjamin-bikman",
+      "canonical_name": "Benjamin Bikman",
+      "aliases": [
+        "Benjamin Bikman"
+      ]
+    },
+    {
+      "practitioner_id": "person:stephen-phinney",
+      "canonical_name": "Stephen Phinney",
+      "aliases": [
+        "Stephen Phinney"
+      ]
+    },
+    {
+      "practitioner_id": "person:jeff-volek",
+      "canonical_name": "Jeff Volek",
+      "aliases": [
+        "Jeff Volek"
+      ]
+    },
+    {
+      "practitioner_id": "person:david-ludwig",
+      "canonical_name": "David Ludwig",
+      "aliases": [
+        "David Ludwig"
+      ]
+    },
+    {
+      "practitioner_id": "person:nick-norwitz",
+      "canonical_name": "Nick Norwitz",
+      "aliases": [
+        "Nick Norwitz"
+      ]
+    },
+    {
+      "practitioner_id": "person:allan-sniderman",
+      "canonical_name": "Allan Sniderman",
+      "aliases": [
+        "Allan Sniderman"
+      ]
+    },
+    {
+      "practitioner_id": "person:david-unwin",
+      "canonical_name": "David Unwin",
+      "aliases": [
+        "David Unwin"
+      ]
+    },
+    {
+      "practitioner_id": "person:paul-mason",
+      "canonical_name": "Paul Mason",
+      "aliases": [
+        "Paul Mason"
+      ]
+    },
+    {
+      "practitioner_id": "person:peter-brukner",
+      "canonical_name": "Peter Brukner",
+      "aliases": [
+        "Peter Brukner"
+      ]
+    },
+    {
+      "practitioner_id": "person:tim-noakes",
+      "canonical_name": "Tim Noakes",
+      "aliases": [
+        "Tim Noakes"
+      ]
+    },
+    {
+      "practitioner_id": "person:margaret-ashwell",
+      "canonical_name": "Margaret Ashwell",
+      "aliases": [
+        "Margaret Ashwell"
+      ]
+    },
+    {
+      "practitioner_id": "person:andreas-eenfeldt",
+      "canonical_name": "Andreas Eenfeldt",
+      "aliases": [
+        "Andreas Eenfeldt"
+      ]
+    },
+    {
+      "practitioner_id": "person:megan-ramos",
+      "canonical_name": "Megan Ramos",
+      "aliases": [
+        "Megan Ramos"
+      ]
+    },
+    {
+      "practitioner_id": "person:evelyne-bourdua-roy",
+      "canonical_name": "Evelyne Bourdua-Roy",
+      "aliases": [
+        "Evelyne Bourdua-Roy",
+        "Èvelyne Bourdua-Roy"
+      ]
+    },
+    {
+      "practitioner_id": "person:jonathan-little",
+      "canonical_name": "Jonathan Little",
+      "aliases": [
+        "Jonathan Little"
+      ]
+    },
+    {
+      "practitioner_id": "person:david-harper",
+      "canonical_name": "David Harper",
+      "aliases": [
+        "David Harper"
+      ]
+    },
+    {
+      "practitioner_id": "person:william-davis",
+      "canonical_name": "William Davis",
+      "aliases": [
+        "William Davis"
+      ]
+    },
+    {
+      "practitioner_id": "person:michael-holick",
+      "canonical_name": "Michael Holick",
+      "aliases": [
+        "Michael Holick"
+      ]
+    },
+    {
+      "practitioner_id": "person:richard-maurer",
+      "canonical_name": "Richard Maurer",
+      "aliases": [
+        "Richard Maurer"
+      ]
+    },
+    {
+      "practitioner_id": "person:brian-lamkin",
+      "canonical_name": "Brian Lamkin",
+      "aliases": [
+        "Brian Lamkin"
+      ]
+    },
+    {
+      "practitioner_id": "company:virta-health",
+      "canonical_name": "Virta Health",
+      "aliases": [
+        "Virta Health"
+      ]
+    },
+    {
+      "practitioner_id": "company:levels-health",
+      "canonical_name": "Levels Health",
+      "aliases": [
+        "Levels Health"
+      ]
+    },
+    {
+      "practitioner_id": "company:defeat-diabetes",
+      "canonical_name": "Defeat Diabetes",
+      "aliases": [
+        "Defeat Diabetes"
+      ]
+    },
+    {
+      "practitioner_id": "researchgroup:csiro",
+      "canonical_name": "CSIRO",
+      "aliases": [
+        "CSIRO"
+      ]
+    },
+    {
+      "practitioner_id": "network:public-health-collaboration",
+      "canonical_name": "Public Health Collaboration",
+      "aliases": [
+        "Public Health Collaboration"
+      ]
+    },
+    {
+      "practitioner_id": "company:low-carb-program",
+      "canonical_name": "Low Carb Program",
+      "aliases": [
+        "Low Carb Program"
+      ]
+    },
+    {
+      "practitioner_id": "media:diet-doctor",
+      "canonical_name": "Diet Doctor",
+      "aliases": [
+        "Diet Doctor"
+      ]
+    },
+    {
+      "practitioner_id": "conference:metabolic-health-summit",
+      "canonical_name": "Metabolic Health Summit",
+      "aliases": [
+        "Metabolic Health Summit"
+      ]
+    },
+    {
+      "practitioner_id": "media:metodichu-bengedi-robi",
+      "canonical_name": "Metodic.hu / Bengedi Robi",
+      "aliases": [
+        "Metodic.hu / Bengedi Robi",
+        "Metodic.hu",
+        "Bengedi Robi"
+      ]
+    },
+    {
+      "practitioner_id": "network:hungarian-diabetes-association",
+      "canonical_name": "Hungarian Diabetes Association",
+      "aliases": [
+        "Hungarian Diabetes Association"
+      ]
+    },
+    {
+      "practitioner_id": "researchgroup:semmelweis-metabolic-research-sources",
+      "canonical_name": "Semmelweis metabolic research sources",
+      "aliases": [
+        "Semmelweis metabolic research sources"
+      ]
+    },
+    {
+      "practitioner_id": "researchgroup:university-of-debrecen-metabolic-research-sources",
+      "canonical_name": "University of Debrecen metabolic research sources",
+      "aliases": [
+        "University of Debrecen metabolic research sources"
+      ]
+    },
+    {
+      "practitioner_id": "network:hungarian-low-carb-clinician-network",
+      "canonical_name": "Hungarian low-carb clinician network",
+      "aliases": [
+        "Hungarian low-carb clinician network"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://metabolicum-agentic-research/schemas/source_fixture.schema.json",
+  "title": "Cached source fixture",
+  "description": "Immutable cached-source fixture consumed by Hermes acceptance tests and Stage 2 extraction.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "source_id",
+    "source_url",
+    "source_type",
+    "platform",
+    "title",
+    "retrieved_at",
+    "source_language",
+    "speaker_or_author",
+    "transcript_text",
+    "transcript_sha256"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "1"
+    },
+    "source_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "source_url": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_type": {
+      "type": "string",
+      "enum": [
+        "post",
+        "video",
+        "podcast",
+        "blog",
+        "paper"
+      ]
+    },
+    "platform": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "retrieved_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "published_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "source_language": {
+      "type": "string"
+    },
+    "speaker_or_author": {
+      "type": "string",
+      "minLength": 1
+    },
+    "speaker_registry_id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^[a-z]+:[a-z0-9-]+$"
+    },
+    "license": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "transcript_method": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "transcript_text": {
+      "type": "string",
+      "minLength": 1
+    },
+    "transcript_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "expected_markers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

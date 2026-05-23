@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://metabolicum-agentic-research/schemas/extracted_raw_claim.schema.json",
+  "title": "ExtractedRawClaim (Stage 2 content extractor output)",
+  "description": "Intermediate constrained-decoding target for the Stage 2 content extractor before marker tagging and demographic structuring.",
+  "type": "object",
+  "required": [
+    "claim_id",
+    "verbatim_quote",
+    "claim_text",
+    "numeric_values",
+    "speaker_or_author",
+    "source_language",
+    "extraction_confidence",
+    "extraction_model"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "claim_id": {
+      "type": "string",
+      "pattern": "^ex_[A-Za-z0-9-]+$"
+    },
+    "verbatim_quote": {
+      "type": "string",
+      "minLength": 1
+    },
+    "claim_text": {
+      "type": "string",
+      "minLength": 1
+    },
+    "numeric_values": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "value",
+          "unit",
+          "context"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "value": {
+            "type": "number"
+          },
+          "unit": {
+            "type": "string"
+          },
+          "context": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "speaker_or_author": {
+      "type": "string",
+      "minLength": 1
+    },
+    "timestamp_offset_seconds": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "source_language": {
+      "type": "string",
+      "default": "en"
+    },
+    "extraction_confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "extraction_model": {
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}

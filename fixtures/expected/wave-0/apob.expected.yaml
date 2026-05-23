@@ -6,11 +6,10 @@
 #
 # IMPORTANT: this is a PLACEHOLDER template. No values inside are real research data.
 # Every <TBD> marker must be replaced with validated MO research before this file
-# can be treated as an actual gold standard. The legacy metabolicum-research/research
-# and output trees were intentionally NOT used as sources because:
+# can be treated as an actual gold standard. The retired legacy research and output trees were intentionally NOT used as sources because:
 #   - 64% of prior LLM-assigned PMIDs were fabricated (session-34 finding)
-#   - MO sections in research/detail/*-research.md have no verbatim quotes or fetchable URLs
-#   - The shipped output/markers/apob/import.sql has 0 paradigm_ranges (only narrative)
+#   - legacy MO sections have no verbatim quotes or fetchable URLs
+#   - legacy ApoB output has 0 MO range rows (only narrative)
 #
 # Scope: METABOLIC OPTIMIZATION (MO) only. SM and RC are produced by their own
 # non-agentic pipelines and do not appear here. The agentic pipeline researches MO.
@@ -57,7 +56,7 @@ batch:
 #
 # `color` is NOT emitted by the agent. The exporter resolves it via
 # canonical_color(status) per docs/policies/RANGE-STATUS-COLOR-POLICY.md
-# (vendored from metasync's docs/specs/). The 7-bucket canonical palette is
+# (vendored into this repository). The 7-bucket canonical palette is
 # paradigm-agnostic and CHECK-constrained at the DB:
 #   optimal       → #22c55e   (green-500)    optimal | normal | good | healthy | sufficient | negative | ideal | target | optimal_high | optimal_low | lmhr
 #   near_optimal  → #84cc16   (lime-500)     near_optimal | acceptable | adequate | low_normal | high_normal | below_optimal

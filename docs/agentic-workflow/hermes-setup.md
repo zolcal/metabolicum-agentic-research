@@ -6,40 +6,7 @@
 
 ---
 
-## 1. Recap: Where We Are
-
-### Completed
-- **SM anchor input infrastructure:** Waves 1 (108 frozen YAMLs), 2A (109 canonical candidates), 3 (674 unreviewed DB). Zero derivation leakage. No cross-wave overlap.
-- **Marker identity registry:** 1,110 markers, 4 superseded aliases resolved, 53 duplicate display-name groups adjudicated, 104 wave-1 approved.
-- **PMID backfill:** 272/986 files populated (844 PMIDs).
-- **Agent prompts:** 5 role prompts drafted (content extractor, marker tagger, demographic structurer, council decider, legal reviewer).
-- **Envelope framework validated:** §17 boundary rules are sufficient. No per-marker curation needed. Early hand-curated envelope-facts draft was superseded by §17 and removed; the active SM input set now lives at `metabolicum-agentic-research/input/sm-ranges/` (pilots + wave-1 + wave-2 + wave-2b + wave-3) and remains canonical.
-
-### Open Blockers
-1. Create `metabolicum-agentic-research` repo (clean history, isolated from `metasync`).
-2. Deploy Supabase schema (§04 tables with hard constraints).
-3. Install Hermes Agent and configure for stateless execution.
-4. Configure local inference stack (see §1.1).
-
-### 1.1 Local Inference Stack
-
-**Primary local inference target.** AI machine (RTX 3090 Ti 24GB + RTX 5060 Ti 16GB) running `llama.cpp llama-server` over a local-network OpenAI-compatible API. Replaces the prior Ollama-based plan; llama.cpp has native MTP speculative-decoding support and lower per-call overhead.
-
-**Initial model.** `unsloth/Qwen3.6-27B-MTP-GGUF:UD-Q4_K_XL` (or equivalent 4-bit Qwen3.6 MTP GGUF). Q8 quants exceed 24GB VRAM before KV cache and must not be used on the 3090 Ti. Project-specific benchmarks (decode throughput, MTP acceptance rate) required before committing; third-party numbers are indicative only.
-
-**Initial mode.** Single request slot (`-np 1`), text-only, MTP enabled (`--spec-type draft-mtp`), temperature 0, seed pinned. Deterministic byte-equivalence across 3 isolated runs is the gate; if MTP breaks determinism, disable MTP for the determinism acceptance test specifically and re-enable for production.
-
-**Known MTP constraints (load-bearing for batch scale).** Current llama.cpp MTP does **not** support `-np > 1` (multiple concurrent request slots) or `--mmproj` (vision). MTP is therefore single-slot text-only. Pilot + Stage 2/3 production are sequential by design and unaffected. Wave-3 batch (674 markers, parallel ingestion) requires one of: spawn N parallel `llama-server` processes (one MTP session each, multiplexed at the orchestration layer), disable MTP for batch and accept the throughput hit in exchange for `-np > 4` slots, or migrate batch workloads to vLLM/SGLang. This decision is deferred to the Wave-3 readiness pass.
-
-**Secondary GPU (RTX 5060 Ti 16GB).** Runs separate processes: embedding model (e.g., BGE-M3 or e5-multilingual-large), reranker, Whisper transcription, or a small classifier. Each as its own `llama-server` or service. Mixed-architecture multi-GPU serving is avoided because CUDA compute capabilities differ (3090 Ti is Ampere 8.6; 5060 Ti is Blackwell 12.0) and vLLM/PyTorch prebuilt wheels do not consistently support both — be ready to build llama.cpp from source if prebuilt binaries lack Blackwell kernels or PTX.
-
-**MacBook Pro (36GB unified memory).** Dev / fallback node only, not production. Use MLX-LM server with Qwen3.6-9B or 14B for typical use; 27B 4-bit is feasible but tight on long-context tasks. MLX is the right Apple Silicon path — third-party benchmarks indicate it outperforms llama.cpp on Metal for sub-14B models, but project-specific verification required before committing.
-
-**Fallback paths.** If deterministic byte-equivalence fails with MTP enabled, disable MTP for the determinism test. If single-slot throughput becomes a Wave-3 bottleneck, evaluate vLLM or SGLang as the batch engine. If Blackwell driver/CUDA compat blocks the 5060 Ti workloads, run them on CPU or migrate to a separate machine.
-
----
-
-## 2. Statelessness requirement
+## 1. Statelessness Requirement
 
 Hermes Agent's default behavior is **self-evolution**:
 - Auto-generates skills from completed tasks.
@@ -56,7 +23,7 @@ The remainder of this document defines the configuration that satisfies these re
 
 ---
 
-## 3. Hermes Restriction Model
+## 2. Hermes Restriction Model
 
 The following Hermes features must be disabled or overridden in the install configuration:
 
@@ -70,15 +37,9 @@ The following Hermes features must be disabled or overridden in the install conf
 | **Multi-Turn Autonomy** | Agent decides when task is "done" | Hard turn limits + deterministic exit | Max N turns; forced tool call to `submit_output` |
 | **Tool Discovery** | Agent discovers tools dynamically | Fixed tool list per stage | Explicit tool manifest; no MCP server browsing (MCP support out of scope — see §5) |
 
-### 3.1 Setup blockers (must clear before Hermes install)
+Setup blockers, installation sequence, and host provisioning live in the operator runbook outside this agent tree. This file keeps only the runtime contract Hermes workers must satisfy.
 
-| # | Blocker | Why |
-|---|---|---|
-| B1 | **Pin Hermes version** (release tag or commit hash) recorded in `config/hermes-version.txt` | Hermes is fast-evolving; configuration validated against one version may not hold against the next. SHA pinning of `SOUL.md` and `config.yaml` is only meaningful for the pinned version. |
-| B2 | **Verify the exact disable mechanism** for skill formation and persistent memory against the pinned version's official docs. Record the verified config block in `hermes/config.yaml` and a notes file. Cover every file named in the §3 table — `MEMORY.md`, `USER.md`, `memories/users/<id>/USER.md`, `state.db`, `skills/`, `SOUL.md`, `config.yaml`. Also locate and document the **Kanban backing store** (likely a table in `state.db` or a sibling SQLite under `~/.hermes/`); confirm it is separable from the memory schema (i.e., workers can keep Kanban writes enabled while memory writes stay disabled) and record the file path plus the table or schema name. | Earlier draft invented env-var names that don't exist in current Hermes. Don't install with unverified switches. The Kanban is the operational value that justifies Hermes for batch resilience (see §5); if the Kanban is welded to the memory features we're disabling, the configuration approach has to be revisited before install. |
-| B3 | **Decide local vs cloud model class** for the determinism acceptance test. ✅ Resolved: local llama.cpp + Qwen 3.6 MTP on the AI machine. Cloud models cannot guarantee bit-exact reproducibility and are out of scope for Acceptance Test #4. | Without this decision, the determinism criterion has indeterminate semantics. |
-
-### 3.2 Runtime topology — gateway vs worker
+### 2.1 Runtime Topology — Gateway vs Worker
 
 There are two distinct Hermes runtimes in this pipeline, and the §3 restrictions apply differently to each. The split exists because the user-facing **Telegram interface** requires a long-running daemon, while the **research execution** must remain stateless and deterministic per task.
 
@@ -113,7 +74,7 @@ There are two distinct Hermes runtimes in this pipeline, and the §3 restriction
 | `HERMES_HOME` | **Disposable**, recreated per task at e.g. `metabolicum-agentic-research/runs/<run_id>/hermes-home/`. Deleted (or retained as an audit artifact) at task end. Acceptance Tests #4, #5, #7 apply unchanged. |
 | `SOUL.md`, `config.yaml` | Pinned from the repo, copied into the disposable `HERMES_HOME` at task start. SHA-256 asserted. |
 | All other Hermes restriction rows (Skill Formation, Persistent Memory, Cross-Stage Visibility, Self-Improvement, Multi-Turn Autonomy, Tool Discovery) | Apply in full as defined in §3. |
-| Role | Execute exactly one stage of exactly one source × marker job per the agent-prompts (Stage 2 extractor, Stage 2 tagger, Stage 2 structurer, Stage 3 council, Stage 5 legal, etc.). |
+| Role | Execute exactly one stage of exactly one source × marker job per the prompts (Stage 2 extractor, Stage 2 tagger, Stage 2 structurer, Stage 3 council, Stage 5 legal, etc.). |
 | Kanban | Workers pull tasks from the same Kanban the gateway writes to. The Kanban's heartbeat / reclaim / zombie-detection / hallucination-recovery features (§5) apply at this layer. |
 
 **Telegram setup notes**:
@@ -133,7 +94,7 @@ There are two distinct Hermes runtimes in this pipeline, and the §3 restriction
 
 ---
 
-## 4. Acceptance tests
+## 3. Acceptance Tests
 
 These checks must hold after the Hermes install and before the pipeline runs real markers. They are pass/fail; any failure surfaces a configuration problem to be fixed before proceeding.
 
@@ -142,7 +103,7 @@ These checks must hold after the Hermes install and before the pipeline runs rea
 | Field | Value |
 |---|---|
 | **Hermes version pinned** | `[TODO: tag or commit hash]` (recorded in `config/hermes-version.txt` before install) |
-| **Acceptance code location** | `metabolicum-agentic-research/code/` |
+| **Acceptance code location** | `metabolicum-agentic-research/code/acceptance/` plus `code/canonicalizer.py` |
 | **Model class for determinism test** | Local llama.cpp + Qwen 3.6 MTP on AI machine only (see §1.1). Cloud models cannot guarantee bit-exact reproducibility and are out of scope for Acceptance Test #4. |
 | **External-provider boundary** | Acceptance tests use local inference only. Any cloud call is out of scope unless explicitly approved. |
 | **MCP support** | Out of scope. Our tools are fixed (read file, write file, Supabase query, submit output). |
@@ -152,10 +113,10 @@ These checks must hold after the Hermes install and before the pipeline runs rea
 Run the full Stage 2 chain on **one cached source transcript** (e.g., a practitioner blog post or podcast transcript from the `sources` table): content extractor → marker tagger → demographic structurer.
 
 **Input:**
-- `source.transcript.json` (immutable)
+- `fixtures/sources/<id>.json` expanded to `source.transcript.json` for the run (immutable; validates against `code/schemas/source_fixture.schema.json`)
 - `marker_glossary.json`
 - `practitioner_aliases.json`
-- Schema-locked prompts from `agent-prompts/01-content-extractor.md`, `02-marker-tagger.md`, and `03-demographic-structurer.md`
+- Schema-locked prompts from `prompts/01-content-extractor.md`, `prompts/02-marker-tagger.md`, and `prompts/03-demographic-structurer.md`
 
 **Expected Output:**
 - JSON array of `MarkerRecommendation` objects conforming to section four.
@@ -169,7 +130,7 @@ Run the full Stage 2 chain on **one cached source transcript** (e.g., a practiti
 | 1 | **Schema compliance** | 100% of output validates against the section-four `MarkerRecommendation`, `PopulationQualifier`, and `CitedPaper` contracts | Pydantic or JSON Schema validation; reject if any row fails |
 | 2 | **Verbatim fidelity** | Every numeric claim has a verbatim quote ≥1 sentence | Quote must appear as substring of fetched source after whitespace normalization |
 | 3 | **No hallucination** | Zero invented markers; zero inferred demographic qualifiers | Diff claim markers against `marker_glossary`; `PopulationQualifier` fields must be `null` if source is silent and `applies_to` must be `unspecified` unless the source states a population |
-| 4 | **Determinism (canonicalized)** | Across 3 isolated runs (local llama.cpp + Qwen 3.6 MTP on the AI machine, temp 0, seed pinned), outputs are **semantically equivalent** under: sort JSON keys, normalize array order where order is not semantically meaningful, ignore whitespace. Byte-identical preferred but not required. If MTP breaks byte-equivalence, disable MTP for this criterion and re-enable for production. | Run × 3 with disposable `HERMES_HOME` each time; pipe through canonicalizer; diff. Test artifact records model name, version, GGUF SHA-256, llama.cpp commit/tag, runtime, seed, and whether MTP was enabled. |
+| 4 | **Determinism (canonicalized)** | Across 3 isolated runs (local llama.cpp + Qwen 3.6 MTP on the AI machine, temp 0, seed pinned), outputs are **semantically equivalent** under: sort JSON keys, normalize array order where order is not semantically meaningful, ignore whitespace. Byte-identical preferred but not required. If MTP breaks byte-equivalence, disable MTP for this criterion and re-enable for production. | Run × 3 with disposable `HERMES_HOME` each time; pipe through `code/canonicalizer.py`; diff. Test artifact records model name, version, GGUF SHA-256, llama.cpp commit/tag, runtime, seed, and whether MTP was enabled. |
 | 5 | **State isolation across runs** | No state read or reused across isolated runs; all run artifacts confined to the run directory | Set `HERMES_HOME=<run_dir>/hermes-home/`; delete/recreate between each of the 3 runs; verify run N+1 cannot read or be influenced by run N's `memories/`, `state.db`, `skills/`, sync cache, or any other persisted surface |
 | 6 | **Observability** | Full tool-call log replayable from a single artifact | Structured log: timestamp, tool name, inputs, outputs, model identity, turn index. Replay must reproduce final output under the determinism rules in #4 |
 | 7 | **Restriction enforcement (per §3 row)** | Every row in §3 restriction table independently verified as enforced | For each row: a specific test that proves the restricted behavior cannot occur. Skill formation: assert `HERMES_HOME/skills/` is empty post-run. Memory: assert `memories/` and `state.db` empty. Self-improvement: assert prompt file SHA-256 unchanged across runs. Multi-turn autonomy: assert run terminates at exactly the configured max-turn or earlier via `submit_output`. Tool discovery: assert no tool was called that wasn't in the manifest. |
@@ -184,30 +145,3 @@ Financial conflict validation is not part of the Stage 2 acceptance pass because
 A failure on any criterion is a configuration defect to fix, not a reason to swap runners. Typical fixes: tighten the §3 disable config, fix the prompt/schema binding, fix the runner harness, adjust the deterministic-seed plumbing. The pipeline does not run real markers until all ten criteria pass.
 
 ---
-
-## 5. Durable Kanban — Wave-3 readiness
-
-The acceptance pass in §4 exercises one cached source through one Stage 2 chain. It **does not exercise** the durable multi-agent Kanban. Heartbeat, zombie detection, hallucination recovery, and batch resumability only matter at multi-task scale.
-
-**A batch-resilience test is required before Wave-3 (674 markers) can run on Hermes.** Scope:
-
-- Run 50 ingestion tasks in parallel, then SIGKILL 10 of them mid-run.
-- Verify the Kanban marks them as zombies, retries them cleanly, and produces complete output for all 50.
-- Verify no banned memory features (skill formation, MEMORY.md, cross-task context) re-enable themselves under the Kanban's retry semantics.
-- Inject schema-violation outputs on 5 random tasks; verify the hallucination-recovery loop catches and re-prompts, not silently passes through.
-
-If this test fails, Wave-3 is held back until the Kanban configuration is corrected. The Kanban readiness test is independent of the Stage 2 acceptance pass.
-
----
-
-## 6. Sequence
-
-1. Setup blockers B1–B2 cleared (B3 already resolved): pinned Hermes version recorded, disable mechanisms verified against pinned-version docs, Kanban store path documented.
-2. Create the `metabolicum-agentic-research` git repository, deploy the §04 Supabase schema, lay down the project secrets boundary.
-3. Pin `hermes/SOUL.md` and `hermes/config.yaml` in the repo with the verified disable block.
-4. Install Hermes at the pinned version.
-5. Run the §4 acceptance tests against one cached source fixture.
-6. Fix any failures, re-run until all ten criteria pass.
-7. Run the five-marker pilot.
-8. Run the §5 Kanban readiness test.
-9. Run the Wave-3 batch.

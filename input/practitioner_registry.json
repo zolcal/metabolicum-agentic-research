@@ -1,0 +1,1412 @@
+{
+  "schema_version": "1",
+  "generated_at": "2026-05-23T00:00:00Z",
+  "source": "docs/agentic-workflow/16-practitioner-directory-system.md",
+  "practitioners": [
+    {
+      "id": "person:peter-attia",
+      "canonical_name": "Peter Attia",
+      "aliases": [
+        "Peter Attia"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "source_tier": "A",
+      "source_grade": "B1-C2",
+      "marker_affinity": [
+        "apob",
+        "lpa",
+        "fasting-insulin",
+        "hba1c"
+      ],
+      "key_contribution": "longevity framework, insulin-centric risk, ApoB emphasis",
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://peterattiamd.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        }
+      ],
+      "commercial_interests": [
+        {
+          "domain": "clinic_services",
+          "product_or_service": "Early Medical / Medicine 3.0 clinical practice",
+          "related_markers": [
+            "apob",
+            "lpa",
+            "fasting-insulin"
+          ],
+          "disclosure_quality": "transparent",
+          "severity": "marker_specific"
+        }
+      ]
+    },
+    {
+      "id": "person:ted-naiman",
+      "canonical_name": "Ted Naiman",
+      "aliases": [
+        "Ted Naiman"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "source_tier": "A",
+      "source_grade": "D1-E2",
+      "marker_affinity": [
+        "tg-hdl-ratio",
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "key_contribution": "protein-energy framework, minimalist metabolic testing",
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://tednaiman.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        }
+      ],
+      "commercial_interests": []
+    },
+    {
+      "id": "person:dominic-dagostino",
+      "canonical_name": "Dominic D'Agostino",
+      "aliases": [
+        "Dominic D'Agostino"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "source_tier": "A",
+      "source_grade": "B1",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "key_contribution": "ketone physiology and metabolic therapy research",
+      "surfaces": [
+        {
+          "platform": "other",
+          "handle_or_url": "manual:person:dominic-dagostino",
+          "discovery_mode": "manual_seed",
+          "priority": "manual_only"
+        }
+      ],
+      "commercial_interests": []
+    },
+    {
+      "id": "person:robert-lustig",
+      "canonical_name": "Robert Lustig",
+      "aliases": [
+        "Robert Lustig"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "source_tier": "A",
+      "source_grade": "B2",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "key_contribution": "fructose, uric acid, metabolic disease framework",
+      "surfaces": [
+        {
+          "platform": "other",
+          "handle_or_url": "manual:person:robert-lustig",
+          "discovery_mode": "manual_seed",
+          "priority": "manual_only"
+        }
+      ],
+      "commercial_interests": []
+    },
+    {
+      "id": "person:jason-fung",
+      "canonical_name": "Jason Fung",
+      "aliases": [
+        "Jason Fung"
+      ],
+      "entity_type": "person",
+      "country": "Canada",
+      "region": "Canada",
+      "languages": [
+        "en"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "source_tier": "A",
+      "source_grade": "C1-D1",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "key_contribution": "fasting and T2DM reversal framework",
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://www.thefastingmethod.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        }
+      ],
+      "commercial_interests": []
+    },
+    {
+      "id": "person:thomas-dayspring",
+      "canonical_name": "Thomas Dayspring",
+      "aliases": [
+        "Thomas Dayspring",
+        "DrLipid"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "paradigm_affinity": [
+        "RC",
+        "MO"
+      ],
+      "source_tier": "A",
+      "source_grade": "B2-C1",
+      "marker_affinity": [
+        "apob",
+        "lpa"
+      ],
+      "key_contribution": "ApoB-centric lipidology and advanced lipid testing",
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://twitter.com/Drlipid",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        }
+      ],
+      "commercial_interests": [
+        {
+          "domain": "lab_testing",
+          "product_or_service": "advanced lipid testing education and interpretation",
+          "related_markers": [
+            "apob",
+            "lpa"
+          ],
+          "disclosure_quality": "transparent",
+          "severity": "marker_specific"
+        }
+      ]
+    },
+    {
+      "id": "person:joseph-kraft",
+      "canonical_name": "Joseph Kraft",
+      "aliases": [
+        "Joseph Kraft"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "source_tier": "A",
+      "source_grade": "D2",
+      "marker_affinity": [
+        "fasting-insulin",
+        "homa-ir"
+      ],
+      "key_contribution": "insulin-response patterns and post-prandial insulin framework",
+      "surfaces": [
+        {
+          "platform": "other",
+          "handle_or_url": "manual:person:joseph-kraft",
+          "discovery_mode": "manual_seed",
+          "priority": "manual_only"
+        }
+      ],
+      "commercial_interests": []
+    },
+    {
+      "id": "person:benjamin-bikman",
+      "canonical_name": "Benjamin Bikman",
+      "aliases": [
+        "Benjamin Bikman"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "source_tier": "A",
+      "source_grade": "B2",
+      "marker_affinity": [
+        "tg-hdl-ratio",
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "key_contribution": "insulin signaling, metabolic syndrome, ketone physiology",
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://www.benbikman.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        }
+      ],
+      "commercial_interests": []
+    },
+    {
+      "id": "person:stephen-phinney",
+      "canonical_name": "Stephen Phinney",
+      "aliases": [
+        "Stephen Phinney"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "source_tier": "A",
+      "source_grade": "B1",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "key_contribution": "ketogenic nutrition and metabolic adaptation",
+      "surfaces": [
+        {
+          "platform": "other",
+          "handle_or_url": "manual:person:stephen-phinney",
+          "discovery_mode": "manual_seed",
+          "priority": "manual_only"
+        }
+      ],
+      "commercial_interests": []
+    },
+    {
+      "id": "person:jeff-volek",
+      "canonical_name": "Jeff Volek",
+      "aliases": [
+        "Jeff Volek"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "source_tier": "A",
+      "source_grade": "B1",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "key_contribution": "carbohydrate restriction and performance physiology",
+      "surfaces": [
+        {
+          "platform": "other",
+          "handle_or_url": "manual:person:jeff-volek",
+          "discovery_mode": "manual_seed",
+          "priority": "manual_only"
+        }
+      ],
+      "commercial_interests": []
+    },
+    {
+      "id": "person:david-ludwig",
+      "canonical_name": "David Ludwig",
+      "aliases": [
+        "David Ludwig"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "paradigm_affinity": [
+        "RC",
+        "MO"
+      ],
+      "source_tier": "A",
+      "source_grade": "B2",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "key_contribution": "carbohydrate-insulin model",
+      "surfaces": [
+        {
+          "platform": "other",
+          "handle_or_url": "manual:person:david-ludwig",
+          "discovery_mode": "manual_seed",
+          "priority": "manual_only"
+        }
+      ],
+      "commercial_interests": []
+    },
+    {
+      "id": "person:nick-norwitz",
+      "canonical_name": "Nick Norwitz",
+      "aliases": [
+        "Nick Norwitz"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "source_tier": "B",
+      "source_grade": "B2-C1",
+      "marker_affinity": [
+        "apob",
+        "lpa"
+      ],
+      "key_contribution": "LMHR phenotype, ketogenic lipidology",
+      "surfaces": [
+        {
+          "platform": "other",
+          "handle_or_url": "manual:person:nick-norwitz",
+          "discovery_mode": "manual_seed",
+          "priority": "manual_only"
+        }
+      ],
+      "commercial_interests": []
+    },
+    {
+      "id": "person:allan-sniderman",
+      "canonical_name": "Allan Sniderman",
+      "aliases": [
+        "Allan Sniderman"
+      ],
+      "entity_type": "person",
+      "country": "Canada",
+      "region": "Canada",
+      "languages": [
+        "en"
+      ],
+      "paradigm_affinity": [
+        "RC",
+        "MO"
+      ],
+      "source_tier": "A",
+      "source_grade": "B1",
+      "marker_affinity": [
+        "apob",
+        "lpa"
+      ],
+      "key_contribution": "ApoB causal and clinical-risk interpretation",
+      "surfaces": [
+        {
+          "platform": "other",
+          "handle_or_url": "manual:person:allan-sniderman",
+          "discovery_mode": "manual_seed",
+          "priority": "manual_only"
+        }
+      ],
+      "commercial_interests": []
+    },
+    {
+      "id": "person:david-unwin",
+      "canonical_name": "David Unwin",
+      "aliases": [
+        "David Unwin"
+      ],
+      "entity_type": "person",
+      "country": "United Kingdom",
+      "region": "United Kingdom",
+      "languages": [
+        "en"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "source_tier": "A",
+      "source_grade": "C1",
+      "marker_affinity": [
+        "tg-hdl-ratio",
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "key_contribution": "low-carb primary-care implementation",
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://phcuk.org/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        }
+      ],
+      "commercial_interests": []
+    },
+    {
+      "id": "person:paul-mason",
+      "canonical_name": "Paul Mason",
+      "aliases": [
+        "Paul Mason"
+      ],
+      "entity_type": "person",
+      "country": "Australia",
+      "region": "Australia",
+      "languages": [
+        "en"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "source_tier": "A",
+      "source_grade": "D1",
+      "marker_affinity": [
+        "apob",
+        "lpa"
+      ],
+      "key_contribution": "LMHR and low-carb lipid interpretation",
+      "surfaces": [
+        {
+          "platform": "other",
+          "handle_or_url": "manual:person:paul-mason",
+          "discovery_mode": "manual_seed",
+          "priority": "manual_only"
+        }
+      ],
+      "commercial_interests": []
+    },
+    {
+      "id": "person:peter-brukner",
+      "canonical_name": "Peter Brukner",
+      "aliases": [
+        "Peter Brukner"
+      ],
+      "entity_type": "person",
+      "country": "Australia",
+      "region": "Australia",
+      "languages": [
+        "en"
+      ],
+      "paradigm_affinity": [
+        "RC",
+        "MO"
+      ],
+      "source_tier": "A",
+      "source_grade": "B1-C1",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "key_contribution": "public-health implementation and Defeat Diabetes",
+      "surfaces": [
+        {
+          "platform": "other",
+          "handle_or_url": "manual:person:peter-brukner",
+          "discovery_mode": "manual_seed",
+          "priority": "manual_only"
+        }
+      ],
+      "commercial_interests": []
+    },
+    {
+      "id": "person:tim-noakes",
+      "canonical_name": "Tim Noakes",
+      "aliases": [
+        "Tim Noakes"
+      ],
+      "entity_type": "person",
+      "country": "South Africa",
+      "region": "South Africa / UK influence",
+      "languages": [
+        "en"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "source_tier": "A",
+      "source_grade": "B2",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "key_contribution": "low-carb metabolic syndrome reversal",
+      "surfaces": [
+        {
+          "platform": "other",
+          "handle_or_url": "manual:person:tim-noakes",
+          "discovery_mode": "manual_seed",
+          "priority": "manual_only"
+        }
+      ],
+      "commercial_interests": []
+    },
+    {
+      "id": "person:margaret-ashwell",
+      "canonical_name": "Margaret Ashwell",
+      "aliases": [
+        "Margaret Ashwell"
+      ],
+      "entity_type": "person",
+      "country": "United Kingdom",
+      "region": "United Kingdom",
+      "languages": [
+        "en"
+      ],
+      "paradigm_affinity": [
+        "RC",
+        "MO"
+      ],
+      "source_tier": "A",
+      "source_grade": "B2",
+      "marker_affinity": [
+        "tg-hdl-ratio"
+      ],
+      "key_contribution": "waist-to-height ratio research",
+      "surfaces": [
+        {
+          "platform": "other",
+          "handle_or_url": "manual:person:margaret-ashwell",
+          "discovery_mode": "manual_seed",
+          "priority": "manual_only"
+        }
+      ],
+      "commercial_interests": []
+    },
+    {
+      "id": "person:andreas-eenfeldt",
+      "canonical_name": "Andreas Eenfeldt",
+      "aliases": [
+        "Andreas Eenfeldt"
+      ],
+      "entity_type": "person",
+      "country": "Sweden",
+      "region": "Sweden",
+      "languages": [
+        "en"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "source_tier": "B",
+      "source_grade": "C1",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "key_contribution": "Diet Doctor and global low-carb education",
+      "surfaces": [
+        {
+          "platform": "other",
+          "handle_or_url": "manual:person:andreas-eenfeldt",
+          "discovery_mode": "manual_seed",
+          "priority": "manual_only"
+        }
+      ],
+      "commercial_interests": []
+    },
+    {
+      "id": "person:megan-ramos",
+      "canonical_name": "Megan Ramos",
+      "aliases": [
+        "Megan Ramos"
+      ],
+      "entity_type": "person",
+      "country": "Canada",
+      "region": "Canada",
+      "languages": [
+        "en"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "source_tier": "B",
+      "source_grade": "C1",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "key_contribution": "fasting implementation and IDM/Fasting Method",
+      "surfaces": [
+        {
+          "platform": "other",
+          "handle_or_url": "manual:person:megan-ramos",
+          "discovery_mode": "manual_seed",
+          "priority": "manual_only"
+        }
+      ],
+      "commercial_interests": []
+    },
+    {
+      "id": "person:evelyne-bourdua-roy",
+      "canonical_name": "Evelyne Bourdua-Roy",
+      "aliases": [
+        "Evelyne Bourdua-Roy",
+        "Èvelyne Bourdua-Roy"
+      ],
+      "entity_type": "person",
+      "country": "Canada",
+      "region": "Canada",
+      "languages": [
+        "en"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "source_tier": "B",
+      "source_grade": "D1-E2",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "key_contribution": "low-carb clinical implementation in French Canada",
+      "surfaces": [
+        {
+          "platform": "other",
+          "handle_or_url": "manual:person:evelyne-bourdua-roy",
+          "discovery_mode": "manual_seed",
+          "priority": "manual_only"
+        }
+      ],
+      "commercial_interests": []
+    },
+    {
+      "id": "person:jonathan-little",
+      "canonical_name": "Jonathan Little",
+      "aliases": [
+        "Jonathan Little"
+      ],
+      "entity_type": "person",
+      "country": "Canada",
+      "region": "Canada",
+      "languages": [
+        "en"
+      ],
+      "paradigm_affinity": [
+        "RC",
+        "MO"
+      ],
+      "source_tier": "B",
+      "source_grade": "B2",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "key_contribution": "low-carb diets, T2DM, exercise metabolism",
+      "surfaces": [
+        {
+          "platform": "other",
+          "handle_or_url": "manual:person:jonathan-little",
+          "discovery_mode": "manual_seed",
+          "priority": "manual_only"
+        }
+      ],
+      "commercial_interests": []
+    },
+    {
+      "id": "person:david-harper",
+      "canonical_name": "David Harper",
+      "aliases": [
+        "David Harper"
+      ],
+      "entity_type": "person",
+      "country": "Canada",
+      "region": "Canada",
+      "languages": [
+        "en"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "source_tier": "B",
+      "source_grade": "D2",
+      "marker_affinity": [
+        "fasting-insulin"
+      ],
+      "key_contribution": "ketogenic diets in cancer metabolism",
+      "surfaces": [
+        {
+          "platform": "other",
+          "handle_or_url": "manual:person:david-harper",
+          "discovery_mode": "manual_seed",
+          "priority": "manual_only"
+        }
+      ],
+      "commercial_interests": []
+    },
+    {
+      "id": "person:william-davis",
+      "canonical_name": "William Davis",
+      "aliases": [
+        "William Davis"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "source_tier": "B",
+      "source_grade": "C1-D1",
+      "marker_affinity": [
+        "apob",
+        "tg-hdl-ratio"
+      ],
+      "key_contribution": "grain elimination, small LDL, gut-health protocols",
+      "surfaces": [
+        {
+          "platform": "other",
+          "handle_or_url": "manual:person:william-davis",
+          "discovery_mode": "manual_seed",
+          "priority": "manual_only"
+        }
+      ],
+      "commercial_interests": [
+        {
+          "domain": "books",
+          "product_or_service": "metabolic health books and programs",
+          "related_markers": [
+            "apob",
+            "tg-hdl-ratio"
+          ],
+          "disclosure_quality": "transparent",
+          "severity": "generic"
+        }
+      ]
+    },
+    {
+      "id": "person:michael-holick",
+      "canonical_name": "Michael Holick",
+      "aliases": [
+        "Michael Holick"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "source_tier": "B",
+      "source_grade": "B2",
+      "marker_affinity": [],
+      "key_contribution": "vitamin D physiology and 25(OH)D framework",
+      "surfaces": [
+        {
+          "platform": "other",
+          "handle_or_url": "manual:person:michael-holick",
+          "discovery_mode": "manual_seed",
+          "priority": "manual_only"
+        }
+      ],
+      "commercial_interests": []
+    },
+    {
+      "id": "person:richard-maurer",
+      "canonical_name": "Richard Maurer",
+      "aliases": [
+        "Richard Maurer"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "source_tier": "B",
+      "source_grade": "E2",
+      "marker_affinity": [
+        "fasting-insulin",
+        "homa-ir"
+      ],
+      "key_contribution": "HOMA-IR clinical interpretation framework",
+      "surfaces": [
+        {
+          "platform": "other",
+          "handle_or_url": "manual:person:richard-maurer",
+          "discovery_mode": "manual_seed",
+          "priority": "manual_only"
+        }
+      ],
+      "commercial_interests": [
+        {
+          "domain": "books",
+          "product_or_service": "HOMA-IR clinical interpretation material",
+          "related_markers": [
+            "fasting-insulin",
+            "homa-ir"
+          ],
+          "disclosure_quality": "partial",
+          "severity": "marker_specific"
+        }
+      ]
+    },
+    {
+      "id": "person:brian-lamkin",
+      "canonical_name": "Brian Lamkin",
+      "aliases": [
+        "Brian Lamkin"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "source_tier": "B",
+      "source_grade": "E2",
+      "marker_affinity": [
+        "fasting-insulin",
+        "homa-ir"
+      ],
+      "key_contribution": "HOMA-IR functional medicine interpretation tiers",
+      "surfaces": [
+        {
+          "platform": "other",
+          "handle_or_url": "manual:person:brian-lamkin",
+          "discovery_mode": "manual_seed",
+          "priority": "manual_only"
+        }
+      ],
+      "commercial_interests": [
+        {
+          "domain": "clinic_services",
+          "product_or_service": "functional medicine HOMA-IR interpretation",
+          "related_markers": [
+            "fasting-insulin",
+            "homa-ir"
+          ],
+          "disclosure_quality": "unknown",
+          "severity": "marker_specific"
+        }
+      ]
+    },
+    {
+      "id": "company:virta-health",
+      "canonical_name": "Virta Health",
+      "aliases": [
+        "Virta Health"
+      ],
+      "entity_type": "company",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "source_tier": "A",
+      "source_grade": "B1",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "key_contribution": "T2DM reversal at scale",
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://www.virtahealth.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        }
+      ],
+      "commercial_interests": [
+        {
+          "domain": "digital_health",
+          "product_or_service": "T2DM reversal care platform",
+          "related_markers": [
+            "hba1c",
+            "fasting-insulin"
+          ],
+          "disclosure_quality": "transparent",
+          "severity": "marker_specific"
+        }
+      ]
+    },
+    {
+      "id": "company:levels-health",
+      "canonical_name": "Levels Health",
+      "aliases": [
+        "Levels Health"
+      ],
+      "entity_type": "company",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "source_tier": "B",
+      "source_grade": "C1",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "key_contribution": "CGM-centric metabolic education",
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://www.levels.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        }
+      ],
+      "commercial_interests": [
+        {
+          "domain": "digital_health",
+          "product_or_service": "CGM metabolic health platform",
+          "related_markers": [
+            "hba1c",
+            "fasting-insulin"
+          ],
+          "disclosure_quality": "transparent",
+          "severity": "marker_specific"
+        }
+      ]
+    },
+    {
+      "id": "company:defeat-diabetes",
+      "canonical_name": "Defeat Diabetes",
+      "aliases": [
+        "Defeat Diabetes"
+      ],
+      "entity_type": "company",
+      "country": "Australia",
+      "region": "Australia",
+      "languages": [
+        "en"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "source_tier": "A",
+      "source_grade": "C1",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "key_contribution": "national virtual low-carb implementation",
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://www.defeatdiabetes.com.au/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        }
+      ],
+      "commercial_interests": [
+        {
+          "domain": "digital_health",
+          "product_or_service": "low-carb diabetes program",
+          "related_markers": [
+            "hba1c",
+            "fasting-insulin"
+          ],
+          "disclosure_quality": "transparent",
+          "severity": "marker_specific"
+        }
+      ]
+    },
+    {
+      "id": "researchgroup:csiro",
+      "canonical_name": "CSIRO",
+      "aliases": [
+        "CSIRO"
+      ],
+      "entity_type": "research_group",
+      "country": "Australia",
+      "region": "Australia",
+      "languages": [
+        "en"
+      ],
+      "paradigm_affinity": [
+        "RC",
+        "MO"
+      ],
+      "source_tier": "A",
+      "source_grade": "B1",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "key_contribution": "government-funded low-carb trials",
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://www.csiro.au/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        }
+      ],
+      "commercial_interests": []
+    },
+    {
+      "id": "network:public-health-collaboration",
+      "canonical_name": "Public Health Collaboration",
+      "aliases": [
+        "Public Health Collaboration"
+      ],
+      "entity_type": "professional_network",
+      "country": "United Kingdom",
+      "region": "United Kingdom",
+      "languages": [
+        "en"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "source_tier": "B",
+      "source_grade": "C1",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "key_contribution": "low-carb GP network",
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://phcuk.org/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        }
+      ],
+      "commercial_interests": []
+    },
+    {
+      "id": "company:low-carb-program",
+      "canonical_name": "Low Carb Program",
+      "aliases": [
+        "Low Carb Program"
+      ],
+      "entity_type": "company",
+      "country": "United Kingdom",
+      "region": "United Kingdom",
+      "languages": [
+        "en"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "source_tier": "B",
+      "source_grade": "C1",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "key_contribution": "NHS-approved digital T2DM program",
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://www.lowcarbprogram.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        }
+      ],
+      "commercial_interests": [
+        {
+          "domain": "digital_health",
+          "product_or_service": "digital T2DM program",
+          "related_markers": [
+            "hba1c",
+            "fasting-insulin"
+          ],
+          "disclosure_quality": "transparent",
+          "severity": "marker_specific"
+        }
+      ]
+    },
+    {
+      "id": "media:diet-doctor",
+      "canonical_name": "Diet Doctor",
+      "aliases": [
+        "Diet Doctor"
+      ],
+      "entity_type": "media_platform",
+      "country": "Sweden",
+      "region": "Sweden",
+      "languages": [
+        "en"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "source_tier": "B",
+      "source_grade": "C1",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "key_contribution": "low-carb education and practitioner network",
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://www.dietdoctor.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        }
+      ],
+      "commercial_interests": [
+        {
+          "domain": "courses",
+          "product_or_service": "low-carb membership and education",
+          "related_markers": [
+            "hba1c",
+            "fasting-insulin"
+          ],
+          "disclosure_quality": "transparent",
+          "severity": "generic"
+        }
+      ]
+    },
+    {
+      "id": "conference:metabolic-health-summit",
+      "canonical_name": "Metabolic Health Summit",
+      "aliases": [
+        "Metabolic Health Summit"
+      ],
+      "entity_type": "conference",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "source_tier": "B",
+      "source_grade": "C1",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "key_contribution": "metabolic health conference network",
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://metabolichealthsummit.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        }
+      ],
+      "commercial_interests": []
+    },
+    {
+      "id": "media:metodichu-bengedi-robi",
+      "canonical_name": "Metodic.hu / Bengedi Robi",
+      "aliases": [
+        "Metodic.hu / Bengedi Robi",
+        "Metodic.hu",
+        "Bengedi Robi"
+      ],
+      "entity_type": "media_platform",
+      "country": "Hungary",
+      "region": "Hungary",
+      "languages": [
+        "hu"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "source_tier": "B",
+      "source_grade": "C1",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "key_contribution": "Hungarian metabolic-health education and media surface",
+      "surfaces": [
+        {
+          "platform": "other",
+          "handle_or_url": "manual:media:metodichu-bengedi-robi",
+          "discovery_mode": "manual_seed",
+          "priority": "manual_only"
+        }
+      ],
+      "commercial_interests": []
+    },
+    {
+      "id": "network:hungarian-diabetes-association",
+      "canonical_name": "Hungarian Diabetes Association",
+      "aliases": [
+        "Hungarian Diabetes Association"
+      ],
+      "entity_type": "professional_network",
+      "country": "Hungary",
+      "region": "Hungary",
+      "languages": [
+        "hu"
+      ],
+      "paradigm_affinity": [
+        "SM",
+        "RC"
+      ],
+      "source_tier": "B",
+      "source_grade": "A1",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "key_contribution": "conservative diabetes guideline surface",
+      "surfaces": [
+        {
+          "platform": "other",
+          "handle_or_url": "manual:network:hungarian-diabetes-association",
+          "discovery_mode": "manual_seed",
+          "priority": "manual_only"
+        }
+      ],
+      "commercial_interests": []
+    },
+    {
+      "id": "researchgroup:semmelweis-metabolic-research-sources",
+      "canonical_name": "Semmelweis metabolic research sources",
+      "aliases": [
+        "Semmelweis metabolic research sources"
+      ],
+      "entity_type": "research_group",
+      "country": "Hungary",
+      "region": "Hungary",
+      "languages": [
+        "hu"
+      ],
+      "paradigm_affinity": [
+        "SM",
+        "RC"
+      ],
+      "source_tier": "B",
+      "source_grade": "B2-C2",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "key_contribution": "population studies and insulin-resistance context",
+      "surfaces": [
+        {
+          "platform": "other",
+          "handle_or_url": "manual:researchgroup:semmelweis-metabolic-research-sources",
+          "discovery_mode": "manual_seed",
+          "priority": "manual_only"
+        }
+      ],
+      "commercial_interests": []
+    },
+    {
+      "id": "researchgroup:university-of-debrecen-metabolic-research-sources",
+      "canonical_name": "University of Debrecen metabolic research sources",
+      "aliases": [
+        "University of Debrecen metabolic research sources"
+      ],
+      "entity_type": "research_group",
+      "country": "Hungary",
+      "region": "Hungary",
+      "languages": [
+        "hu"
+      ],
+      "paradigm_affinity": [
+        "SM",
+        "RC"
+      ],
+      "source_tier": "B",
+      "source_grade": "B2-C2",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "key_contribution": "NAFLD and metabolic-syndrome research",
+      "surfaces": [
+        {
+          "platform": "other",
+          "handle_or_url": "manual:researchgroup:university-of-debrecen-metabolic-research-sources",
+          "discovery_mode": "manual_seed",
+          "priority": "manual_only"
+        }
+      ],
+      "commercial_interests": []
+    },
+    {
+      "id": "network:hungarian-low-carb-clinician-network",
+      "canonical_name": "Hungarian low-carb clinician network",
+      "aliases": [
+        "Hungarian low-carb clinician network"
+      ],
+      "entity_type": "professional_network",
+      "country": "Hungary",
+      "region": "Hungary",
+      "languages": [
+        "hu"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "source_tier": "C",
+      "source_grade": "E2",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "key_contribution": "local practitioner discovery and manual seed source",
+      "surfaces": [
+        {
+          "platform": "other",
+          "handle_or_url": "manual:network:hungarian-low-carb-clinician-network",
+          "discovery_mode": "manual_seed",
+          "priority": "manual_only"
+        }
+      ],
+      "commercial_interests": []
+    }
+  ]
+}

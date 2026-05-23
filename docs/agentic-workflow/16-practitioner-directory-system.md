@@ -26,6 +26,21 @@ Each `entity_type` has exactly one allowed `id` prefix. New ids must use the mat
 | conference | `conference:` |
 | patient_organization | `patient:` |
 
+## Marker categorisation (marker · evaluator · calculator · index)
+
+In this project's vocabulary, **"marker"** is the umbrella term for any subject that has reference ranges in the system. The §04 `marker_type` / `entity_type` enum sub-categorises markers into four buckets:
+
+| Enum value | Meaning |
+| --- | --- |
+| `evaluator` | Directly-measured biomarkers with reference ranges. Default for lab analytes (ApoB, HbA1c, Lp(a), fasting insulin, magnesium, vitamin D, etc.). |
+| `calculator` | Formula-derived values whose inputs are other markers (HOMA-IR from fasting insulin + fasting glucose; TG/HDL ratio from triglycerides + HDL-C; WHtR from waist + height). |
+| `index` | Composite scores combining multiple weighted inputs (FLI, NAFLD score, NLR, AIP). |
+| `marker` | Fallback for entries that don't cleanly fit `evaluator`, `calculator`, or `index`. Use sparingly; prefer the specific sub-type. |
+
+The convention is intentional: in prose throughout this document set, "marker" usually means the umbrella category, and when the project assigns `entity_type` (or `marker_type`) to a row, the specific sub-type is used. The same word appearing as both an umbrella term and a fallback enum value is a known tension; it is preserved because clinical convention also uses "marker" loosely as an umbrella.
+
+ApoB, HbA1c, Lp(a), and fasting insulin are `evaluator` (directly-measured analytes). HOMA-IR and TG/HDL ratio are `calculator` (formula-derived). The marker identity registry follows this convention; consumers that expect ApoB to be `marker` should treat the registry's `evaluator` value as the authoritative sub-type and read "marker" as the umbrella in surrounding prose.
+
 ## Grade separation
 
 Practitioner grades are not claim evidence grades.

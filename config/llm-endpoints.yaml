@@ -11,7 +11,6 @@
 #     extractor              — verbatim claim extraction
 #     tagger                 — marker-tag attachment
 #     structurer             — population qualifier + units structuring
-#     paradigm_classifier    — SM/RC/MO labeling
 #   Stage-3 council (per spec §05 — three distinct families required):
 #     council_extractor      — re-extracts the claim from the source URL fresh
 #     council_reviewer       — checks verbatim quote, SM-anchor sanity
@@ -24,7 +23,7 @@
 #     extractor_backup       — used only when `extractor` endpoint fails
 #
 # Three-family council assignment (sign-off pass):
-#   council_extractor → qwen-local         (Alibaba family)
+#   council_extractor → dashscope-qwen-max (Alibaba family)
 #   council_reviewer  → openrouter-reviewer (Google family)
 #   council_decider   → openrouter-decider  (OpenAI family)
 #
@@ -65,7 +64,6 @@ endpoints:
       - extractor               # Stage 2 — bulk verbatim claim extraction
       - tagger                  # Stage 2
       - structurer              # Stage 2
-      - paradigm_classifier     # Stage 2
       - legal_reviewer          # Stage 5
     timeout_s: 300
     default_max_tokens: 4096
@@ -110,7 +108,7 @@ endpoints:
       RECOMMENDED rebind on the Mac:
           mlx_lm.server --host 100.119.217.94 --port 8080 ...
       restricts to the tailnet interface only. See
-      /home/zoltan/Projects/metabolicum-research/docs/agentic-workflow/REVIEW-2026-05-21-llm-access.md
+      docs/agentic-workflow/REVIEW-2026-05-21-llm-access.md
       §11 for the rebind plan.
 
   # ─── Cloud council — minimum viable, three families ──────────────────
