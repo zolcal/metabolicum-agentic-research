@@ -1,0 +1,75 @@
+# hermes/config.yaml — Metabolicum worker restriction profile
+#
+# Verified against Hermes Agent v0.14.0 "Foundation Release" docs
+# (hermes-agent.nousresearch.com, NousResearch/hermes-agent@main).
+# Pinned version: config/hermes-version.txt → v0.14.0
+#
+# This file is copied into each disposable HERMES_HOME at task start.
+# SHA-256 must match the repo copy on every run (acceptance test #7).
+#
+# See: docs/agentic-workflow/hermes-setup.md §2 (restriction table)
+#      hermes/SOUL.md §6 (persona-level echo of these restrictions)
+
+# ─── Memory: fully disabled ──────────────────────────────────────────────────
+# Workers must not persist anything across runs. Gateway sets the same flags
+# but keeps state.db alive for Telegram session routing (see gateway-home/).
+memory:
+  memory_enabled: false
+  user_profile_enabled: false
+  memory_char_limit: 0
+  user_char_limit: 0
+  provider: ""
+
+# ─── Agent: toolset restrictions + turn budget ───────────────────────────────
+agent:
+  disabled_toolsets:
+    - memory
+    - skills
+    - cronjob
+    - messaging
+    - web
+  max_turns: 15
+
+# ─── Skills: guard on (defense-in-depth, even though toolset is disabled) ────
+skills:
+  guard_agent_created: true
+
+# ─── Terminal: no persistent shell state between commands ────────────────────
+terminal:
+  backend: local
+  persistent_shell: false
+  timeout: 120
+
+# ─── Display: observability maximized, no streaming (batch worker) ───────────
+display:
+  tool_progress: all
+  show_cost: true
+  streaming: false
+
+# ─── Compression: disabled (single-task context, no conversation growth) ─────
+compression:
+  enabled: false
+
+# ─── Delegation: no subagents (each stage is a separate Hermes invocation) ───
+delegation:
+  max_concurrent_children: 0
+  max_spawn_depth: 0
+  orchestrator_enabled: false
+
+# ─── Worktree: disabled (runner manages isolation via disposable HERMES_HOME) ─
+worktree: false
+
+# ─── Security: approvals off (non-interactive batch worker) ──────────────────
+approvals:
+  mode: "off"
+
+# ─── Browser: disabled (workers don't browse; legal reviewer uses playwright
+#     via tool manifest, not Hermes browser toolset) ──────────────────────────
+browser:
+  inactivity_timeout: 0
+  command_timeout: 0
+
+# ─── Code execution: disabled (workers call tools, not arbitrary code) ───────
+code_execution:
+  max_tool_calls: 10
+  timeout: 60

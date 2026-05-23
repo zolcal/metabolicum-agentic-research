@@ -102,7 +102,7 @@ These checks must hold after the Hermes install and before the pipeline runs rea
 
 | Field | Value |
 |---|---|
-| **Hermes version pinned** | `[TODO: tag or commit hash]` (recorded in `config/hermes-version.txt` before install) |
+| **Hermes version pinned** | `v0.14.0` "Foundation Release" (2026-05-16). Recorded in `config/hermes-version.txt` (B1). Config flags verified against v0.14.0 docs and `hermes/config.yaml` written (B2). |
 | **Acceptance code location** | `metabolicum-agentic-research/code/acceptance/` plus `code/canonicalizer.py` |
 | **Model class for determinism test** | Local llama.cpp + Qwen 3.6 MTP on AI machine only (see §1.1). Cloud models cannot guarantee bit-exact reproducibility and are out of scope for Acceptance Test #4. |
 | **External-provider boundary** | Acceptance tests use local inference only. Any cloud call is out of scope unless explicitly approved. |

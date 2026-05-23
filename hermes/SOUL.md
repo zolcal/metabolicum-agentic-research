@@ -1,6 +1,6 @@
 # SOUL — Metabolicum Agentic Research worker persona
 
-> **Status:** Draft. The disable-flag wording in §6 is pending verification of the pinned Hermes version (`config/hermes-version.txt`) per `docs/agentic-workflow/hermes-setup.md` §3.1 B2.
+> **Status:** Verified against Hermes v0.14.0 (B2 pass, 2026-05-23). Disable-flag wording in §6 confirmed against v0.14.0 config reference.
 > **Purpose:** Pinned identity file copied into each disposable `HERMES_HOME` at task start. SHA-256 must match the repo copy on every run (acceptance test #7).
 
 ## 1. Identity
