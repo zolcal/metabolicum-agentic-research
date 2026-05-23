@@ -206,13 +206,37 @@ else
     fail "supabase/migrations/0001_initial.sql missing"
 fi
 
-# Check if Supabase is reachable (only if SUPABASE_URL is set)
-if [[ -n "${SUPABASE_URL:-}" ]]; then
-    SUPA_HTTP=$(curl -s -o /dev/null -w "%{http_code}" "$SUPABASE_URL" 2>/dev/null)
-    if [[ "$SUPA_HTTP" == "200" || "$SUPA_HTTP" == "301" || "$SUPA_HTTP" == "302" ]]; then
-        pass "Supabase project reachable at $SUPABASE_URL"
+# Check local DB has the expected tables (pipeline uses local Supabase)
+if [[ -n "${SUPABASE_DB_URL:-}" ]]; then
+    TABLE_COUNT=$(python3 -c "
+import psycopg2, sys
+try:
+    conn = psycopg2.connect('${SUPABASE_DB_URL}', connect_timeout=5)
+    cur = conn.cursor()
+    cur.execute(\"SELECT COUNT(*) FROM pg_tables WHERE schemaname='public'\")
+    print(cur.fetchone()[0])
+    conn.close()
+except Exception as e:
+    print(f'error: {e}', file=sys.stderr)
+    print('0')
+" 2>/dev/null)
+    if [[ "$TABLE_COUNT" -ge 20 ]]; then
+        pass "Local Supabase: $TABLE_COUNT tables in public schema (migration applied)"
+    elif [[ "$TABLE_COUNT" -gt 0 ]]; then
+        warn "Local Supabase: only $TABLE_COUNT tables (expected 20 — check migration)"
     else
-        warn "Supabase returned HTTP $SUPA_HTTP — may need migration applied"
+        fail "Local Supabase not reachable or has no tables"
+    fi
+fi
+
+# Check remote Supabase is reachable
+if [[ -n "${SUPABASE_URL:-}" ]]; then
+    SUPA_HTTP=$(curl -s -o /dev/null -w "%{http_code}" "${SUPABASE_URL}/rest/v1/" \
+        -H "apikey: ${SUPABASE_ANON_KEY:-}" 2>/dev/null)
+    if [[ "$SUPA_HTTP" == "200" ]]; then
+        pass "Remote Supabase reachable at $SUPABASE_URL"
+    else
+        warn "Remote Supabase returned HTTP $SUPA_HTTP"
     fi
 fi
 
