@@ -1,0 +1,21 @@
+# Philosophy and principles
+
+The pragmatic-but-visionary ethos that frames every other design choice in this document operationalizes as seven rules.
+
+The first rule is that setup time beats ambiguity time. Clear schema contracts, agent boundaries, and citation enforcement are better than producing outputs that cannot be reviewed or trusted.
+
+The second rule is that model diversity plus schema enforcement beats one model alone. The original multi-agent debate result from Du et al. (2023, arXiv:2305.14325) has been replicated by Liang et al. (2024) and Yang et al. (2025) in MDPI Applied Sciences, all cited together in Springer Nature 2025 (doi:10.1007/s44443-025-00353-3, retrieved 2026-05-13). The reliability frontier for our domain is at the intersection of model diversity and schema enforcement, not at the frontier of any single model's quality.
+
+The third rule is that we do not invent infrastructure that already exists. Supabase with pgvector is enough for the expected data volume, and file-system stage boundaries give us replayability without adding a workflow platform on day one. The bar to add Pinecone, Weaviate, Qdrant, Temporal, or a heavyweight orchestration framework is "what does this do that the standalone database, files, and selected runner cannot, at our scale?" In 2026, with our actual data volumes, the honest answer to that question is almost always "nothing."
+
+The fourth rule is that the schema contract is the gate. The runtime validator is not chosen yet, but the rule is non-negotiable: no claim enters the database without satisfying the BiomarkerClaim contract. This is the most important single principle in the document.
+
+The fifth rule is that we do not waste evidence. A source that mentions five markers produces claims about five markers in one pass — never one pass per marker. The pipeline is source-first by design because a Peter Attia podcast or an Ivor Cummins video rarely confines itself to a single biomarker, and re-fetching to extract each marker separately would multiply work and increase inconsistency.
+
+The sixth rule is that we are running three paradigms now, not four. SM is Standard Medical, the published guidelines from bodies like USPSTF, AHA, and ADA. RC is Research Consensus, drawing from meta-analyses and systematic reviews. MO is Metabolic Optimization, capturing named practitioner divergence from consensus. PM, the Precision Medicine paradigm, is referenced in the broader Metabolicum platform philosophy because it will integrate genetics and require a Genetic Profile dashboard surface, but it is out of scope for the first implementation. Nothing in the current contract prevents PM from being added later; the schema enum simply extends when the paradigm activates.
+
+The seventh rule is that documented influencer error rates are a calibration target, not a moral concern. The pipeline must beat the published baseline (see section three for the empirical sources) and must surface the financial conflicts that the influencers themselves omit. The schema gate and council handle the first; the practitioner registry's `commercial_interests` handles the second.
+
+The anti-hallucination posture follows directly from these principles. Hallucination is the default behavior of large language models, not a bug to patch with prompts. The pipeline is engineered so that hallucinated output cannot enter the database even if every agent hallucinates: every claim requires a verbatim quote retrievable from a fetchable URL at a recorded timestamp; the legal agent re-verifies the quote at the URL before persistence; a second model independently re-fetches a random sample and rejects the claim if the quote no longer matches. This is the dual-model OCR pattern already used elsewhere in Metabolicum, generalized to text extraction.
+
+The multi-paradigm framing also follows directly. Each BiomarkerClaim is tagged with one of three paradigms, and the evidence grade is interpreted within that paradigm. An MO claim with strong practitioner consensus but no randomized controlled trial is graded within the section-fifteen evidence scale appropriately for its paradigm context — not penalized for being MO. This preserves clinical-practice signal while flagging that the claim sits outside Research Consensus.

@@ -2,7 +2,7 @@
 
 **Scope rule:** this tree is Hermes-only. It holds the agentic research project's source code, inputs, outputs, runs, secrets, and pinned Hermes configuration. **Nothing else.**
 
-The authoritative specification lives in the sibling `metabolicum-research/docs/agentic-workflow/` doc set until a later migration. This repo must satisfy those contracts (§04 schema, §10 file-system layout, §17 envelope firewall, §18 export projection) regardless of where the spec is hosted.
+The authoritative specification is `docs/agentic-workflow/` in this repo (migrated from the legacy `metabolicum-research/` workspace on 2026-05-23). This repo must satisfy its own contracts (§04 schema, §10 file-system layout, §17 envelope firewall, §18 export projection).
 
 ## Host-level infrastructure (outside this tree)
 
@@ -29,7 +29,8 @@ The authoritative specification lives in the sibling `metabolicum-research/docs/
 | `code/` | Hermes runtime code (`llm_client.py`, schemas, harness). |
 | `code/schemas/` | JSON Schemas: `state.schema.json` (stage handoff), `extracted_claim.schema.json` (Stage 2 constrained-decoding). |
 | `config/` | Endpoint registry (`llm-endpoints.yaml`), per-stage tool manifests (`tools.yaml`), pinned Hermes version (`hermes-version.txt`, once B1 is cleared). |
-| `docs/` | Project-specific docs. Includes `docs/policies/` — vendored policy docs the Hermes agent needs at runtime (e.g. `RANGE-STATUS-COLOR-POLICY.md`). The agentic-workflow spec set still lives in legacy `metabolicum-research/docs/agentic-workflow/` until a later migration. |
+| `docs/agentic-workflow/` | Authoritative specification: 18 numbered section files + `hermes-setup.md` + `README.md` + the dated `REVIEW-2026-05-21-llm-access.md`. Migrated from legacy `metabolicum-research/` on 2026-05-23. `docs/agentic-workflow/internal/` holds non-agent-visible audit history (SM-range generation reports, frozen-anchor review). |
+| `docs/policies/` | Vendored policy docs the Hermes agent reads at runtime (e.g. `RANGE-STATUS-COLOR-POLICY.md`). Upstream sources cited inline in each file. |
 | `fixtures/` | Fixture sources for the Hermes acceptance pass. `fixtures/sources/<id>.json` holds one cached transcript per fixture. |
 | `hermes/` | Pinned Hermes persona + config (`SOUL.md`, `config.yaml`). Copied into each disposable `HERMES_HOME` at run start; SHA-256 must match across runs (acceptance test #7). The gateway's persistent `HERMES_HOME` lives at `hermes/gateway-home/` once the Telegram interface lands; it is gitignored. |
 | `input/` | Agent-visible inputs. |
@@ -48,7 +49,7 @@ The authoritative specification lives in the sibling `metabolicum-research/docs/
 - Host-machine migration scripts (fstab edits, Docker data-root moves, HF cache moves) → `../ops/host-setup/scripts/`
 - LLM backend service files (llama-server launch, logs, tuning notes) → `../ops/llama-server/`
 - General tooling shared across projects (llama.cpp source, GGUF models, HF cache, conda envs) → other top-level dirs under `/media/zoltan/4TSSD/`
-- The agentic-workflow specification doc set (lives in legacy `metabolicum-research/docs/agentic-workflow/`)
+- General tooling and unrelated docs from the legacy `metabolicum-research/` workspace
 
 ## LLM backend
 
@@ -70,4 +71,6 @@ This project's agents talk to `http://127.0.0.1:8080` (OpenAI-compatible). That 
 - [ ] Supabase project provisioning (hosted, separate from `metasync`).
 - [ ] One fixture source dropped into `fixtures/sources/`.
 - [ ] Install Hermes at pinned version.
-- [ ] Run the §4 acceptance tests from `metabolicum-research/docs/agentic-workflow/hermes-setup.md`.
+- [x] Spec set migrated into `docs/agentic-workflow/` (single source of truth).
+- [x] Color policy vendored at `docs/policies/RANGE-STATUS-COLOR-POLICY.md`.
+- [ ] Run the §4 acceptance tests from `docs/agentic-workflow/hermes-setup.md`.
