@@ -29,6 +29,7 @@ The authoritative specification is `docs/agentic-workflow/` in this repo (migrat
 | `code/` | Hermes runtime code (`llm_client.py`, schemas, harness). |
 | `code/schemas/` | JSON Schemas: `state.schema.json` (stage handoff), `extracted_claim.schema.json` (Stage 2 constrained-decoding). |
 | `config/` | Endpoint registry (`llm-endpoints.yaml`), per-stage tool manifests (`tools.yaml`), pinned Hermes version (`hermes-version.txt`, once B1 is cleared). |
+| `docs/HERMES-RUNBOOK.md` | **Operational entry point for the Hermes runtime.** Post-install, this is what Hermes reads first: pre-conditions checklist, per-stage runbook, council orchestration, storage targets, definition-of-done per marker, failure modes. Everything else (specs, policies, prompts, schemas) is referenced from here. |
 | `docs/agentic-workflow/` | Authoritative specification: 18 numbered section files + `hermes-setup.md` + `README.md` + the dated `REVIEW-2026-05-21-llm-access.md`. Migrated from legacy `metabolicum-research/` on 2026-05-23. `docs/agentic-workflow/internal/` holds non-agent-visible audit history (SM-range generation reports, frozen-anchor review). |
 | `docs/policies/` | Vendored policy docs the Hermes agent reads at runtime (e.g. `RANGE-STATUS-COLOR-POLICY.md`). Upstream sources cited inline in each file. |
 | `fixtures/` | Fixture sources for the Hermes acceptance pass. `fixtures/sources/<id>.json` holds one cached transcript per fixture. |
@@ -55,22 +56,34 @@ The authoritative specification is `docs/agentic-workflow/` in this repo (migrat
 
 This project's agents talk to `http://127.0.0.1:8080` (OpenAI-compatible). That endpoint is served by llama-server, configured at `/media/zoltan/4TSSD/ops/llama-server/`. See `ops/llama-server/README.md` for operator details.
 
-## Setup status
+## Install-time gate
 
-- [x] Endpoint registry + adapter (`config/llm-endpoints.yaml`, `code/llm_client.py`) smoke-tested 2026-05-21.
-- [x] Per-stage tool manifests (`config/tools.yaml`).
-- [x] SM range inputs migrated from legacy (986 YAMLs across pilots + 4 waves).
-- [x] Marker identity registry migrated.
-- [x] Agent prompts (5 role files) copied from legacy.
-- [x] §04 schema captured as `supabase/migrations/0001_initial.sql`.
-- [x] JSON Schemas for `state.json` and `MarkerRecommendation` drafted.
-- [x] `hermes/SOUL.md` persona drafted (config flag wording pending B2).
-- [x] `marker_glossary.json` seeded for 5 pilot markers.
-- [ ] **B1**: pin Hermes version in `config/hermes-version.txt`.
-- [ ] **B2**: verify disable mechanisms against the pinned version's docs; fill in `hermes/config.yaml`.
-- [ ] Supabase project provisioning (hosted, separate from `metasync`).
-- [ ] One fixture source dropped into `fixtures/sources/`.
-- [ ] Install Hermes at pinned version.
-- [x] Spec set migrated into `docs/agentic-workflow/` (single source of truth).
-- [x] Color policy vendored at `docs/policies/RANGE-STATUS-COLOR-POLICY.md`.
-- [ ] Run the §4 acceptance tests from `docs/agentic-workflow/hermes-setup.md`.
+One-pass setup checklist. Each item is detailed as a pre-condition in `docs/HERMES-RUNBOOK.md` §2 and asserted by `scripts/preflight.sh`. When everything below is green, Hermes is ready to enqueue tasks. After install, this checklist is not revisited — subsequent progress is pipeline output, not setup work.
+
+**Scaffolding (done):**
+
+- [x] Project bootstrapped + git initialized
+- [x] LLM endpoint registry + adapter (`config/llm-endpoints.yaml`, `code/llm_client.py`) — smoke-tested 2026-05-21
+- [x] Per-stage tool manifests (`config/tools.yaml`)
+- [x] §04 schema captured as `supabase/migrations/0001_initial.sql`
+- [x] JSON Schemas for `state.json` and `MarkerRecommendation` (`code/schemas/`)
+- [x] 5 role-locked prompts (`prompts/`)
+- [x] `hermes/SOUL.md` persona drafted
+- [x] Spec set internalized at `docs/agentic-workflow/` (single source of truth)
+- [x] Color policy vendored at `docs/policies/RANGE-STATUS-COLOR-POLICY.md`
+- [x] Inputs in place: SM YAMLs, registry, marker glossary, wave-0 acceptance set
+- [x] `docs/HERMES-RUNBOOK.md` — operational entry point for the runtime
+
+**Remaining install items:**
+
+- [ ] **B1** — pin Hermes version in `config/hermes-version.txt`
+- [ ] **B2** — verify disable mechanisms against pinned-version docs; fill `hermes/config.yaml`
+- [ ] Provision hosted Supabase project; apply `0001_initial.sql`; verify CHECK constraints (paradigm_affinity, canonical_color)
+- [ ] Drop ≥1 cached source transcript per pilot marker into `fixtures/sources/`
+- [ ] Install Hermes at pinned version
+- [ ] `scripts/preflight.sh` passes (asserts every pre-condition in RUNBOOK §2)
+- [ ] §4 acceptance tests in `docs/agentic-workflow/hermes-setup.md` — all 10 pass against a fixture source
+
+## After install: pipeline deliverables
+
+Once the install-time gate is green, Hermes starts producing output. Deliverables aren't a checklist — they're the pipeline doing its job. Progress shows up as approved `biomarker_claims` rows in Supabase and golden §18 exports at `fixtures/expected/wave-0/<slug>.expected.yaml`. The definition of "done" per marker is in `docs/HERMES-RUNBOOK.md` §4 Stage 6.
