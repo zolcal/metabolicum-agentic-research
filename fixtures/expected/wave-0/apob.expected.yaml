@@ -59,17 +59,24 @@ batch:
 # canonical_color(status) per docs/policies/RANGE-STATUS-COLOR-POLICY.md
 # (vendored from metasync's docs/specs/). The 7-bucket canonical palette is
 # paradigm-agnostic and CHECK-constrained at the DB:
-#   optimal       → #22c55e   (green-500)    optimal | normal | good | target | healthy | sufficient | adequate
-#   near_optimal  → #84cc16   (lime-500)     near_optimal | acceptable | low_normal | high_normal | above_optimal | below_optimal
-#   borderline    → #eab308   (yellow-500)   borderline | concerning | suboptimal | mildly_elevated | moderate | monitor | caution
-#   elevated      → #f97316   (orange-500)   elevated | elevated_risk | high | high_risk | low | low_risk | poor
-#   critical      → #ef4444   (red-500)      very_high | very_low | deficient | abnormal | excessive | insufficient
+#   optimal       → #22c55e   (green-500)    optimal | normal | good | healthy | sufficient | negative | ideal | target | optimal_high | optimal_low | lmhr
+#   near_optimal  → #84cc16   (lime-500)     near_optimal | acceptable | adequate | low_normal | high_normal | below_optimal
+#   borderline    → #eab308   (yellow-500)   borderline | borderline_high | borderline_low | moderate | concerning | suboptimal | mildly_elevated | monitor | caution
+#   elevated      → #f97316   (orange-500)   elevated | elevated_risk | high | above_optimal | above_optimal_high | low | low_risk | acute | trough | poor
+#   critical      → #ef4444   (red-500)      very_high | very_low | deficient | abnormal | excessive | insufficient | high_risk
 #   severe        → #dc2626   (red-600)      critical | critical_high | critical_low | severe
-#   indeterminate → #9ca3af   (gray-400)     indeterminate | not_applicable | unknown | insufficient_evidence
+#   indeterminate → #9ca3af   (gray-400)     indeterminate | not_applicable | insufficient_evidence | subtherapeutic | unknown
 # Status strings must come from the alias table in that spec. canonical_color()
 # raises on unmapped values, so the agent cannot invent free-form status.
 # Note: `low` always maps to elevated orange. For "low is good" markers
 # (HOMA-IR, TG/HDL, etc.), use `optimal_low` / `low_normal` / `near_optimal`.
+#
+# The export-shape renderer recognises three display states (policy §"Three
+# display states"): State A (defined_range — colored segment), State B
+# (no_range_defined — hatched zone, paradigm has data but not at this value),
+# State C (paradigm_unavailable — no bar rendered). Each wave-0 marker is in
+# State C for MO until the first MO range_fact lands; populating these
+# expected files is what trips State C → A at the renderer level.
 #
 # verified_present is set by the Stage 3 council reviewer after re-fetching
 # the source URL and confirming the verbatim quote is still present (§05).

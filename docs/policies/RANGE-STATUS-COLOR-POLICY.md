@@ -4,7 +4,11 @@
 > Vendored into `metabolicum-agentic-research/docs/policies/` so the Hermes agent runtime
 > (constrained to this project boundary) can read the canonical alias table and palette.
 > When the upstream version changes, re-vendor and bump the date/version line below.
-> Last sync: 2026-05-23 (v1.0).
+> Last sync: 2026-05-23 (v1.0, revised) — added the three-display-states section
+> (defined_range / no_range_defined / paradigm_unavailable), refined the alias
+> table (`lmhr` → optimal; `adequate` → near_optimal; `above_optimal` /
+> `above_optimal_high` → elevated; `high_risk` → critical), retired the legacy
+> `bg-gray-100` base pattern.
 
 **Status:** v1.0 (Draft for review)
 **Date:** 2026-05-23
@@ -43,19 +47,19 @@ These are the only colors that should appear in `paradigm_ranges.color` or `rang
 Every DB status string maps to exactly one bucket. This is the **authoritative table** — both the import helper and the renderer derive from it.
 
 ### → `optimal` (`#22c55e`)
-`optimal`, `normal`, `good`, `healthy`, `sufficient`, `negative`, `ideal`, `adequate`, `target`, `optimal_high`, `optimal_low`
+`optimal`, `normal`, `good`, `healthy`, `sufficient`, `negative`, `ideal`, `target`, `optimal_high`, `optimal_low`, `lmhr`
 
 ### → `near_optimal` (`#84cc16`)
-`near-optimal`, `near_optimal`, `acceptable`, `low_normal`, `high_normal`, `above_optimal`, `below_optimal`
+`near-optimal`, `near_optimal`, `acceptable`, `adequate`, `low_normal`, `high_normal`, `below_optimal`
 
 ### → `borderline` (`#eab308`)
 `borderline`, `borderline_high`, `borderline_low`, `borderline_elevated`, `moderate`, `attention`, `monitor`, `caution`, `verify`, `investigate`, `mildly_elevated`, `trace`, `supplement_possible`, `concerning`, `suboptimal`
 
 ### → `elevated` (`#f97316`)
-`elevated`, `elevated_risk`, `high`, `high_risk`, `high-risk`, `above-optimal`, `low`, `low_risk`, `acute`, `trough`, `poor`
+`elevated`, `elevated_risk`, `high`, `above_optimal`, `above_optimal_high`, `low`, `low_risk`, `acute`, `trough`, `poor`
 
 ### → `critical` (`#ef4444`)
-`very_high`, `very_low`, `deficient`, `abnormal`, `excessive`, `insufficient`
+`very_high`, `very_low`, `deficient`, `abnormal`, `excessive`, `insufficient`, `high_risk`
 
 ### → `severe` (`#dc2626`)
 `critical`, `critical_high`, `critical_low`, `severe`
@@ -141,6 +145,61 @@ Add the constraint AFTER the one-time cleanup pass below; otherwise existing dri
 
 - `ParadigmBar`, `VerticalParadigmBars`, mobile `getStatusColor()` — read the stored color directly. **Do not** call `canonical_color()` again at render time. The DB row is the source of truth post-import.
 - The `getStatusColor()` function in `apps/mobile/src/components/paradigm/utils.ts` is retained for legacy callers and the (rare) case of rendering a status with no stored color, but it MUST yield the same values as the canonical table above. Today it almost does; one cleanup item is to align it 1:1 with this policy.
+
+## Three display states (renderer-only)
+
+A paradigm bar can be in one of three states. The distinction matters because they mean different things about the data and must be visually distinguishable.
+
+### State A — `defined_range` (segment with color)
+
+The paradigm has a range_facts row that covers this value. Renderer draws a solid colored segment using the canonical hex from the row's `color` column. Opacity 1.0.
+
+**Data condition:** `range_facts` row exists where `subject_slug = X` AND `paradigm = P` AND `public_display_approved = true` AND `min_value ≤ value < max_value` (with NULL bounds interpreted as open-ended).
+
+### State B — `no_range_defined` (hatched zone)
+
+The paradigm has range_facts rows for this subject, but none of them cover this value range. Example: SM 108 publishes only a reference interval (`Adult Male Reference Interval 39–400 mg/dL`), so values above 400 or below 39 have no row defining a tier. Renderer draws **diagonal hatching** to mark the zone as intentionally empty — distinct from a missing paradigm or a broken render.
+
+**Data condition:** at least one `range_facts` row exists for `(subject_slug, paradigm, public_display_approved=true)`, but no row matches the specific value zone being drawn.
+
+**Visual treatment** (codified in `ParadigmBar`, `VerticalParadigmBars` web/calculator/evaluator):
+
+```css
+background-color: #ffffff;
+background-image: repeating-linear-gradient(
+  45deg,
+  transparent, transparent 6px,
+  rgba(0,0,0,0.05) 6px, rgba(0,0,0,0.05) 7px
+);
+border: 1px solid #e5e7eb; /* gray-200 for bar outline */
+```
+
+Hover tooltip: *"Hatched zones: no range defined for this paradigm at that value."*
+
+### State C — `paradigm_unavailable` (no bar rendered)
+
+The paradigm has zero range_facts rows for this subject. Renderer **does not render a bar at all** for this paradigm. The paradigm column may either be omitted from the layout or replaced by an explainer card (e.g., "Metabolic Optimization: research pending").
+
+**Data condition:** no `range_facts` row exists for `(subject_slug, paradigm, public_display_approved=true)`.
+
+This state must NOT be confused with State B. State B means "we know this paradigm's data for this subject; it doesn't cover this value zone." State C means "we have no data for this paradigm yet." The hatched bar in State B is data; the absent bar in State C is the absence of data.
+
+### Quick reference
+
+| State | Has range_facts for paradigm? | Value covered by a row? | Bar | Empty zones |
+|---|---|---|---|---|
+| A — `defined_range` | yes | yes | rendered | (no empty zone — full coverage) |
+| B — `no_range_defined` | yes | no | rendered | hatched white |
+| C — `paradigm_unavailable` | no | n/a | not rendered | n/a |
+
+**Concrete examples currently in the DB:**
+- `triglycerides` SM is State B for values outside 39–400 (the SM 108 freeze is reference-interval-only)
+- `hba1c` SM/RC/MO are State A across the entire bar range (all paradigms publish tier ladders)
+- Most evaluators are State C for MO until the MO research lands
+
+### Legacy `bg-gray-100` pattern (do not use)
+
+Before this revision the bar base was `bg-gray-100` (Tailwind), so State B and broken-render were visually identical (both gray). Removed 2026-05-23. New code uses the hatched-white pattern above.
 
 ## Marker-level color (separate concern)
 
