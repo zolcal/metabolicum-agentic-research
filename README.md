@@ -29,7 +29,7 @@ The authoritative specification lives in the sibling `metabolicum-research/docs/
 | `code/` | Hermes runtime code (`llm_client.py`, schemas, harness). |
 | `code/schemas/` | JSON Schemas: `state.schema.json` (stage handoff), `extracted_claim.schema.json` (Stage 2 constrained-decoding). |
 | `config/` | Endpoint registry (`llm-endpoints.yaml`), per-stage tool manifests (`tools.yaml`), pinned Hermes version (`hermes-version.txt`, once B1 is cleared). |
-| `docs/` | Project-specific docs. The agentic-workflow spec stays in legacy `metabolicum-research/docs/agentic-workflow/` until a later migration. |
+| `docs/` | Project-specific docs. Includes `docs/policies/` — vendored policy docs the Hermes agent needs at runtime (e.g. `RANGE-STATUS-COLOR-POLICY.md`). The agentic-workflow spec set still lives in legacy `metabolicum-research/docs/agentic-workflow/` until a later migration. |
 | `fixtures/` | Fixture sources for the Hermes acceptance pass. `fixtures/sources/<id>.json` holds one cached transcript per fixture. |
 | `hermes/` | Pinned Hermes persona + config (`SOUL.md`, `config.yaml`). Copied into each disposable `HERMES_HOME` at run start; SHA-256 must match across runs (acceptance test #7). The gateway's persistent `HERMES_HOME` lives at `hermes/gateway-home/` once the Telegram interface lands; it is gitignored. |
 | `input/` | Agent-visible inputs. |

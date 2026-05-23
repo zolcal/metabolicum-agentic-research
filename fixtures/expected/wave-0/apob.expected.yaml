@@ -56,9 +56,9 @@ batch:
 #                       (e.g. "applies during low-carb diet")
 #
 # `color` is NOT emitted by the agent. The exporter resolves it via
-# canonical_color(status) per metasync's RANGE-STATUS-COLOR-POLICY.md v1.0
-# (located at /home/zoltan/Projects/metasync/docs/specs/). The 7-bucket
-# canonical palette is paradigm-agnostic and CHECK-constrained at the DB:
+# canonical_color(status) per docs/policies/RANGE-STATUS-COLOR-POLICY.md
+# (vendored from metasync's docs/specs/). The 7-bucket canonical palette is
+# paradigm-agnostic and CHECK-constrained at the DB:
 #   optimal       → #22c55e   (green-500)    optimal | normal | good | target | healthy | sufficient | adequate
 #   near_optimal  → #84cc16   (lime-500)     near_optimal | acceptable | low_normal | high_normal | above_optimal | below_optimal
 #   borderline    → #eab308   (yellow-500)   borderline | concerning | suboptimal | mildly_elevated | moderate | monitor | caution
