@@ -1,5 +1,5 @@
 {
-  "schema_version": "1",
+  "schema_version": "1.0",
   "source_id": "8028a5ca-9003-5760-af4e-66bb155a77bd",
   "source_url": "https://peterattiamd.com/early-and-aggressive-lowering-of-apob/",
   "source_type": "blog",
@@ -17,5 +17,7 @@
   "expected_markers": [
     "apob"
   ],
-  "notes": "Acceptance fixture excerpt verified from the public page on 2026-05-23. It is for Stage 2 schema/determinism testing, not broad source ingestion."
+  "notes": "Acceptance fixture excerpt verified from the public page on 2026-05-23. It is for Stage 2 schema/determinism testing, not broad source ingestion.",
+  "synthetic": false,
+  "verification_status": "verified_real_source"
 }

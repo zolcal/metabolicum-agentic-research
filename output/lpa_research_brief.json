@@ -1,0 +1,91 @@
+{
+  "marker_slug": "lpa",
+  "marker_name": "Lipoprotein(a)",
+  "unit": "nmol/L",
+  "sm_anchor_summary": {
+    "row_count": 5,
+    "display_eligible_rows": 5,
+    "population_strata": ["all_adults", "all_adults_order2", "all_adults_order3", "all_adults_order4", "age_18plus"],
+    "overall_sm_range": "≤75 nmol/L (optimal/reference-cutoff); 75–125 nmol/L (normal); ≥125 nmol/L (high)"
+  },
+  "mo_research_gaps": [
+    {
+      "gap": "No sex-stratified MO targets exist for Lp(a). The SM anchor provides only all-sex data, but Lp(a) levels and cardiovascular risk contribution may differ between males and females. No practitioner-derived optimal targets are cited for either sex.",
+      "priority": "high",
+      "rationale": "Lp(a) is genetically determined and lifelong, making early identification and sex-specific guidance critical. The SM anchor has zero sex-stratified rows."
+    },
+    {
+      "gap": "No age-sub-stratified MO targets exist. The SM anchor only distinguishes age_18plus with no further granularity (e.g., 18–40, 41–60, 60+). Practitioners in the MO space often discuss earlier screening and more aggressive context-dependent interpretation for younger adults with elevated Lp(a).",
+      "priority": "medium",
+      "rationale": "Because Lp(a) is largely genetically determined and stable across the lifespan, MO guidance may differ in terms of intervention urgency by age and cumulative exposure, but the anchor provides no age sub-strata."
+    },
+    {
+      "gap": "No ethnicity-specific MO guidance is present. Lp(a) levels vary significantly across ethnic groups (e.g., higher median levels in individuals of African and South Asian descent), but the SM anchor does not stratify by ethnicity.",
+      "priority": "high",
+      "rationale": "Ethnic variation in Lp(a) is well-documented in the literature and directly affects interpretation of any single numeric threshold. Absence of ethnicity context in the SM anchor is a major gap for MO application."
+    },
+    {
+      "gap": "No known MO practitioner targets (e.g., Attia, Mason, Dayspring) are referenced or annotated in the SM anchor. The anchor provides tiered status labels (optimal, normal, high) but no link to practitioner-derived optimization frameworks.",
+      "priority": "high",
+      "rationale": "The MO paradigm relies heavily on practitioner opinion and optimization targets. Without any cited MO guidance, the bridge between the SM anchor and MO practice cannot be established."
+    },
+    {
+      "gap": "No isoform- or kringle-specific interpretation guidance. Lp(a) measurement is confounded by apolipoprotein(a) isoform size (kringle IV type 2 repeats), and different assays report in nmol/L vs mg/dL with imperfect conversion. The SM anchor does not address assay methodology.",
+      "priority": "medium",
+      "rationale": "Practitioners in the MO space often discuss assay selection (isoform-insensitive vs isoform-sensitive) as a prerequisite to interpreting Lp(a) values. The anchor's nmol/L unit implies a particle-counting assay but this is not stated."
+    }
+  ],
+  "rc_research_gaps": [
+    {
+      "gap": "Zero research citations in the SM anchor. No PMIDs, PMCIDs, or DOIs are provided, making it impossible to trace the evidence basis for the 75 nmol/L and 125 nmol/L thresholds.",
+      "priority": "high",
+      "rationale": "Without any cited literature, the RC evidence chain for the anchor thresholds is entirely opaque. This is the most critical gap."
+    },
+    {
+      "gap": "No citation of major consensus statements or guidelines on Lp(a) thresholds (e.g., European Atherosclerosis Society 2022 consensus, HEART UK, ACC/AHA guidelines mentioning Lp(a) screening).",
+      "priority": "high",
+      "rationale": "Multiple professional societies have published consensus recommendations on Lp(a) measurement and risk thresholds. None are referenced in the anchor."
+    },
+    {
+      "gap": "No prospective outcome study evidence cited linking the 75 nmol/L cutoff to cardiovascular event rates. The RC paradigm requires epidemiological or interventional evidence connecting specific thresholds to hard outcomes.",
+      "priority": "high",
+      "rationale": "The SM anchor labels ≤75 nmol/L as 'optimal' and 'reference-cutoff' but provides no outcome data or meta-analysis to validate this breakpoint."
+    },
+    {
+      "gap": "No evidence from Lp(a)-lowering clinical trials (e.g., HORIZON/pelacarsen, OCEAN(o)/olpasiran, lepodisiran trials) is cited. These trials will provide the strongest RC evidence for causality and threshold effects.",
+      "priority": "medium",
+      "rationale": "As of wave-2A generation date (2026-05-18), at least some Lp(a)-lowering trial results may be available or expected. Their absence from the anchor's known research context is a gap."
+    },
+    {
+      "gap": "No Mendelian randomization studies cited to establish causal thresholds for Lp(a) in relation to ASCVD, aortic stenosis, or other outcomes.",
+      "priority": "medium",
+      "rationale": "MR studies have been pivotal in establishing Lp(a) as a causal risk factor. They provide natural-experiment evidence for RC thresholds that the anchor does not reference."
+    }
+  ],
+  "recommended_search_queries": {
+    "mo": [
+      "Peter Attia Lipoprotein(a) optimal target nmol/L OR mg/dL podcast OR book",
+      "Lp(a) metabolic optimization practitioner guidelines cardiovascular longevity",
+      "Lipoprotein(a) isoform-insensitive assay interpretation optimal range clinical practice",
+      "Lp(a) optimization thresholds Attia Mason Dayspring cardiovascular risk management",
+      "lipoprotein(a) once-in-lifetime screening optimal level metabolic health"
+    ],
+    "rc": [
+      "Lipoprotein(a) cardiovascular outcomes threshold 75 nmol/L prospective cohort meta-analysis",
+      "European Atherosclerosis Society Lp(a) consensus statement 2022 threshold evidence",
+      "Lp(a) Mendelian randomization ASCVD aortic stenosis causal threshold nmol/L",
+      "pelacarsen HORIZON trial Lipoprotein(a) lowering cardiovascular events results",
+      "Lipoprotein(a) risk prediction integrated model 125 nmol/L high-risk threshold validation"
+    ]
+  },
+  "key_practitioners_to_check": [
+    "Peter Attia",
+    "Thomas Dayspring",
+    "Seth Martin",
+    "Michael Blaha",
+    "Allan Sniderman"
+  ],
+  "known_papers_to_review": [],
+  "confidence": "medium",
+  "model": "qwen3.7-max"
+}

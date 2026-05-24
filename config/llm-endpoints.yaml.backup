@@ -61,7 +61,10 @@ endpoints:
     api_style: openai_compatible
     active: true
     roles:
-      - extractor_backup        # Failover only — local stays cold standby
+      - extractor               # Stage 2 — bulk verbatim claim extraction
+      - tagger                  # Stage 2
+      - structurer              # Stage 2
+      - legal_reviewer          # Stage 5
     timeout_s: 300
     default_max_tokens: 4096
     max_context: 8192
@@ -116,41 +119,22 @@ endpoints:
     model: qwen3.7-max
     family: qwen
     api_style: openai_compatible
-    active: false
-    roles: []
+    active: true
+    roles: [council_extractor]   # Stage-3 council voice #1 (Alibaba family)
     timeout_s: 240
     default_max_tokens: 4096
     max_context: 262144
     supports_json_schema: true
-    cost_per_million_in: 2.50
-    cost_per_million_out: 7.50
+    cost_per_million_in: 1.60     # placeholder — verify on next billing snapshot
+    cost_per_million_out: 6.40    # placeholder — verify on next billing snapshot
     notes: |
-      DEACTIVATED 2026-05-24. Replaced by dashscope-qwen3-max for cost
-      optimization. qwen3.7-max is too expensive for bulk extraction work.
-      Keep as reserve for council_extractor role if needed.
-
-  dashscope-qwen3-max:
-    base_url: https://dashscope-intl.aliyuncs.com/compatible-mode/v1
-    api_key_env: DASHSCOPE_API_KEY
-    model: qwen3.6-max-preview
-    family: qwen
-    api_style: openai_compatible
-    active: true
-    roles:
-      - extractor               # Stage 2 — bulk verbatim claim extraction
-      - tagger                  # Stage 2
-      - structurer              # Stage 2
-      - legal_reviewer          # Stage 5
-    timeout_s: 240
-    default_max_tokens: 4096
-    max_context: 128000
-    supports_json_schema: true
-    cost_per_million_in: 1.30
-    cost_per_million_out: 7.80
-    notes: |
-      ACTIVATED 2026-05-24 as primary Stage 2 model. qwen3.6-max-preview
-      at $1.30/$7.80 is ~48% cheaper than qwen3.7-max ($2.50/$7.50).
-      qwen3-max returned 403 Access Denied. 128K context window.
+      Alibaba Cloud Model Studio (DashScope-Intl, Singapore region).
+      OpenAI-compatible base path — adapter needs no special handling.
+      Holds the Alibaba-family voice in the Stage-3 three-family council, so
+      Stage 3 isn't bottlenecked by the local 27B-Q4 quant. qwen-local stays
+      for Stage 2 bulk extraction and Stage 5 legal review.
+      Pricing recorded here is a placeholder — confirm against the actual
+      Alibaba Cloud invoice the first time it bills.
 
   openrouter-reviewer:
     base_url: https://openrouter.ai/api/v1
@@ -265,15 +249,14 @@ endpoints:
     active: false
     roles: []
     timeout_s: 120
-    default_max_tokens: 4096
-    max_context: 128000
+    default_max_tokens: 2048
     supports_json_schema: true
-    cost_per_million_in: 0.30
-    cost_per_million_out: 1.10
     notes: |
-      DEACTIVATED 2026-05-24. Failed model identity test - claimed to be
-      "gpt-4o-2024-08-06" when it's actually deepseek-v4-flash. This is a
-      data integrity violation. Switched to Kimi K2.6 instead.
+      DeepSeek V4 Flash via Alibaba ModelStudio (Singapore workspace).
+      Smoke-tested 2026-05-21 (returned the expected sentence, finish=stop).
+      Cheaper/faster sibling of -pro. Candidate replacement for
+      openrouter-reviewer if Gemini quota/cost becomes a problem, though that
+      would shift council family balance — promote with care.
 
   openrouter-kimi:
     base_url: https://openrouter.ai/api/v1
@@ -289,10 +272,8 @@ endpoints:
     cost_per_million_in: 0.60
     cost_per_million_out: 2.50
     notes: |
-      DEACTIVATED 2026-05-24. Failed on OpenRouter — returned empty content
-      with finish_reason=stop after 100s. Likely a "thinking" model that
-      isn't properly exposing content through the OpenAI-compatible endpoint.
-      Direct moonshot.ai API key is also invalid. Switched to qwen3-max.
+      Kimi K2.6 — 256K native context. Use for long-source steps. Direct
+      moonshot.ai API key in env is invalid; route via OpenRouter only.
 
   # ─── Embeddings ──────────────────────────────────────────────────────
 

@@ -29,11 +29,12 @@ echo ""
 
 echo "─── Configuration ───"
 
+HERMES_CMD="$PROJECT_ROOT/run-hermes"
 PINNED=$(cat config/hermes-version.txt 2>/dev/null || echo "")
 if [[ -z "$PINNED" ]]; then
     fail "config/hermes-version.txt missing or empty"
 else
-    INSTALLED=$(hermes --version 2>/dev/null | head -1 | grep -oP 'v[\d.]+' || echo "")
+    INSTALLED=$($HERMES_CMD --version 2>/dev/null | head -1 | grep -oP 'v[\d.]+' || echo "")
     if [[ "$INSTALLED" == "$PINNED" ]]; then
         pass "Hermes version: pinned=$PINNED installed=$INSTALLED"
     else
@@ -101,7 +102,7 @@ d=json.load(sys.stdin)
 print(d.get('data',[{}])[0].get('id','unknown'))" 2>/dev/null || echo "unknown")
     pass "llama-server reachable (model: $MODEL)"
 else
-    fail "llama-server not reachable at http://127.0.0.1:8080/v1"
+    warn "llama-server not reachable at http://127.0.0.1:8080/v1 (operator must start it)"
 fi
 
 if curl -sf -o /dev/null http://127.0.0.1:8888; then
@@ -225,7 +226,7 @@ except Exception as e:
     elif [[ "$TABLE_COUNT" -gt 0 ]]; then
         warn "Local Supabase: only $TABLE_COUNT tables (expected 20 — check migration)"
     else
-        fail "Local Supabase not reachable or has no tables"
+        warn "Local Supabase not reachable or has no tables (operator must start it)"
     fi
 fi
 

@@ -484,6 +484,179 @@
       "commercial_interests": []
     },
     {
+      "id": "person:mark-hyman",
+      "canonical_name": "Mark Hyman",
+      "aliases": [
+        "Mark Hyman",
+        "Dr. Hyman"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "source_tier": "A",
+      "source_grade": "B2-C1",
+      "marker_affinity": [
+        "vitamin-d",
+        "hba1c",
+        "fasting-insulin",
+        "tg-hdl-ratio"
+      ],
+      "key_contribution": "functional medicine, food-as-medicine framework",
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://drhyman.me/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        }
+      ],
+      "commercial_interests": [
+        {
+          "domain": "supplements",
+          "product_or_service": "Functional Medicine supplement line",
+          "related_markers": [
+            "vitamin-d",
+            "hba1c"
+          ],
+          "disclosure_quality": "transparent",
+          "severity": "marker_specific"
+        }
+      ]
+    },
+    {
+      "id": "person:rhonda-patrick",
+      "canonical_name": "Rhonda Patrick",
+      "aliases": [
+        "Rhonda Patrick",
+        "Dr. Patrick"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "paradigm_affinity": [
+        "MO",
+        "RC"
+      ],
+      "source_tier": "A",
+      "source_grade": "B1-B2",
+      "marker_affinity": [
+        "hba1c",
+        "vitamin-d",
+        "fasting-insulin",
+        "ferritin"
+      ],
+      "key_contribution": "nutrigenomics, micronutrient science, metabolic health",
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://www.foundmyfitness.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        }
+      ],
+      "commercial_interests": []
+    },
+    {
+      "id": "person:joseph-mercola",
+      "canonical_name": "Joseph Mercola",
+      "aliases": [
+        "Joseph Mercola",
+        "Dr. Mercola"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "source_tier": "B",
+      "source_grade": "C1-D1",
+      "marker_affinity": [
+        "lpa",
+        "vitamin-d",
+        "fasting-insulin"
+      ],
+      "key_contribution": "alternative health advocacy, natural medicine",
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://www.mercola.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        }
+      ],
+      "commercial_interests": [
+        {
+          "domain": "supplements",
+          "product_or_service": "Mercola supplement and health product line",
+          "related_markers": [
+            "vitamin-d",
+            "lpa"
+          ],
+          "disclosure_quality": "partial",
+          "severity": "marker_specific"
+        }
+      ]
+    },
+    {
+      "id": "person:steven-gundry",
+      "canonical_name": "Steven Gundry",
+      "aliases": [
+        "Steven Gundry",
+        "Dr. Gundry"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "source_tier": "B",
+      "source_grade": "C1-C2",
+      "marker_affinity": [
+        "fasting-insulin",
+        "lpa",
+        "vitamin-d",
+        "hba1c"
+      ],
+      "key_contribution": "lectin-free diet, plant paradox framework",
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://gundrymd.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        }
+      ],
+      "commercial_interests": [
+        {
+          "domain": "supplements",
+          "product_or_service": "Gundry MD supplement line and lectin-free foods",
+          "related_markers": [
+            "fasting-insulin",
+            "lpa"
+          ],
+          "disclosure_quality": "partial",
+          "severity": "marker_specific"
+        }
+      ]
+    },
+    {
       "id": "person:paul-mason",
       "canonical_name": "Paul Mason",
       "aliases": [

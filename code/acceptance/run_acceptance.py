@@ -13,15 +13,10 @@ Requires: openai, jsonschema (pip install openai jsonschema)
 from __future__ import annotations
 
 import argparse
-import copy
 import hashlib
 import json
-import os
-import re
 import shutil
 import sys
-import time
-import uuid
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -36,150 +31,32 @@ except ImportError:
     sys.exit("pip install jsonschema")
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
-SCHEMAS_DIR = PROJECT_ROOT / "code" / "schemas"
 FIXTURES_DIR = PROJECT_ROOT / "fixtures" / "sources"
-PROMPTS_DIR = PROJECT_ROOT / "prompts"
 HERMES_DIR = PROJECT_ROOT / "hermes"
-GLOSSARY_PATH = PROJECT_ROOT / "input" / "marker_glossary.json"
 
 sys.path.insert(0, str(PROJECT_ROOT / "code"))
 from canonicalizer import canonical_json, normalize_whitespace
+
+# Import shared Stage 2 chain from the pipeline module (single source of truth)
+from code.pipeline.stages import (
+    llm_call,
+    run_extractor,
+    run_tagger,
+    run_structurer,
+    load_schema,
+    load_prompt,
+    GLOSSARY_PATH,
+)
 
 
 def sha256_file(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
-def load_schema(name: str) -> dict:
-    return json.loads((SCHEMAS_DIR / name).read_text())
-
-
-def load_prompt(name: str) -> str:
-    return (PROMPTS_DIR / name).read_text()
-
-
 def make_run_dir(run_id: str) -> Path:
     d = PROJECT_ROOT / "runs" / run_id
     d.mkdir(parents=True, exist_ok=True)
     return d
-
-
-def llm_call(client: OpenAI, system: str, user: str, schema: dict | None = None,
-             model: str = "qwen", max_tokens: int = 4096, seed: int = 42) -> dict:
-    """Single LLM call with optional constrained decoding."""
-    kwargs = dict(
-        model=model,
-        messages=[
-            {"role": "system", "content": system},
-            {"role": "user", "content": user},
-        ],
-        temperature=0,
-        seed=seed,
-        max_tokens=max_tokens,
-    )
-    if schema:
-        kwargs["response_format"] = {
-            "type": "json_schema",
-            "json_schema": {"name": "output", "strict": True, "schema": schema},
-        }
-    else:
-        kwargs["response_format"] = {"type": "json_object"}
-
-    t0 = time.time()
-    resp = client.chat.completions.create(**kwargs)
-    elapsed = time.time() - t0
-    content = resp.choices[0].message.content or ""
-    usage = resp.usage
-
-    # Strip Qwen thinking tags if present
-    content = re.sub(r"<think>.*?</think>", "", content, flags=re.DOTALL).strip()
-    # Extract JSON from markdown fences if present
-    fence = re.search(r"```(?:json)?\s*\n(.*?)```", content, re.DOTALL)
-    if fence:
-        content = fence.group(1).strip()
-    if not content:
-        raise ValueError(f"LLM returned empty content after stripping think tags. "
-                         f"finish_reason={resp.choices[0].finish_reason}")
-
-    return {
-        "content": json.loads(content),
-        "raw": content,
-        "elapsed_s": round(elapsed, 2),
-        "input_tokens": usage.prompt_tokens if usage else None,
-        "output_tokens": usage.completion_tokens if usage else None,
-        "finish_reason": resp.choices[0].finish_reason,
-        "model": resp.model,
-    }
-
-
-# ─── Stage 2 sub-stages ──────────────────────────────────────────────────
-
-def run_extractor(client: OpenAI, fixture: dict, seed: int = 42) -> dict:
-    system = load_prompt("01-content-extractor.md")
-    user = json.dumps({
-        "source_transcript": fixture["transcript_text"],
-        "source_metadata": {
-            "source_id": fixture["source_id"],
-            "source_url": fixture["source_url"],
-            "source_type": fixture["source_type"],
-            "platform": fixture["platform"],
-            "speaker_or_author": fixture["speaker_or_author"],
-            "retrieved_at": fixture["retrieved_at"],
-            "source_language": fixture["source_language"],
-        }
-    }, indent=2)
-    raw_schema = load_schema("extracted_raw_claim.schema.json")
-    wrapper = {
-        "type": "object",
-        "properties": {"claims": {"type": "array", "items": raw_schema}},
-        "required": ["claims"],
-        "additionalProperties": False,
-    }
-    return llm_call(client, system, user, schema=wrapper, seed=seed)
-
-
-def run_tagger(client: OpenAI, claims: list, fixture: dict, seed: int = 42) -> list:
-    system = load_prompt("02-marker-tagger.md")
-    glossary = json.loads(GLOSSARY_PATH.read_text())
-    tagged = []
-    for claim in claims:
-        user = json.dumps({
-            "verbatim_claim": claim,
-            "marker_glossary": glossary,
-        }, indent=2)
-        resp = llm_call(client, system, user, seed=seed)
-        tagged.append(resp["content"])
-    return tagged
-
-
-def run_structurer(client: OpenAI, claims: list, tagged: list,
-                   fixture: dict, seed: int = 42) -> list:
-    system = load_prompt("03-demographic-structurer.md")
-    schema = load_schema("extracted_claim.schema.json")
-    wrapper = {
-        "type": "object",
-        "properties": {"recommendations": {"type": "array", "items": schema}},
-        "required": ["recommendations"],
-        "additionalProperties": False,
-    }
-    structured = []
-    for claim, tags in zip(claims, tagged):
-        user = json.dumps({
-            "verbatim_claim": claim,
-            "marker_tags": tags,
-            "source_metadata": {
-                "source_id": fixture["source_id"],
-                "source_url": fixture["source_url"],
-                "source_type": fixture["source_type"],
-                "retrieved_at": fixture["retrieved_at"],
-                "speaker_or_author": fixture["speaker_or_author"],
-                "source_language": fixture["source_language"],
-            }
-        }, indent=2)
-        resp = llm_call(client, system, user, schema=wrapper, seed=seed)
-        recs = resp["content"].get("recommendations", [])
-        structured.extend(recs)
-    return structured
 
 
 # ─── Acceptance criteria ──────────────────────────────────────────────────

@@ -12,10 +12,14 @@
     "platform",
     "title",
     "retrieved_at",
+    "published_at",
     "source_language",
-    "speaker_or_author",
+    "license",
+    "transcript_method",
     "transcript_text",
-    "transcript_sha256"
+    "transcript_sha256",
+    "synthetic",
+    "verification_status"
   ],
   "additionalProperties": false,
   "properties": {
@@ -105,6 +109,15 @@
         "string",
         "null"
       ]
+    },
+    "synthetic": {
+      "type": "boolean",
+      "description": "True if this fixture contains synthetic/fabricated data (not from a real source). Must be false for production use."
+    },
+    "verification_status": {
+      "type": "string",
+      "enum": ["verified_real_source", "synthetic_test_only", "unverified"],
+      "description": "Verification status of the source. Production ingestion requires 'verified_real_source'."
     }
   }
 }

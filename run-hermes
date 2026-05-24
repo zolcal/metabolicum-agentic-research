@@ -1,0 +1,56 @@
+#!/usr/bin/env bash
+# run-hermes — project-local Hermes launcher for metabolicum-agentic-research
+#
+# This is the ONLY hermes command you should use in this project.
+# It ensures the correct venv, correct HERMES_HOME, and correct config.
+#
+# Usage:
+#   ./run-hermes                    — start the Hermes TUI / CLI
+#   ./run-hermes --version          — show version
+#   ./run-hermes gateway start      — start the Telegram gateway
+#   ./run-hermes kanban list        — list Kanban boards
+#   ./run-hermes kanban work        — start a Kanban worker
+#   ./run-hermes doctor             — diagnose issues
+#   ./run-hermes model              — configure models
+#   ./run-hermes tools              — configure tools
+#
+# To prevent Cloud Code / VS Code / other agents from hijacking:
+#   - Always run from the project root
+#   - Always use ./run-hermes (not a system hermes)
+#   - The wrapper hardcodes the venv path — no PATH ambiguity
+
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_ROOT="$SCRIPT_DIR"
+VENDOR_DIR="$PROJECT_ROOT/vendor/hermes-agent-v2026.5.16"
+VENV_PYTHON="$VENDOR_DIR/.venv/bin/python"
+HERMES_HOME="$PROJECT_ROOT/hermes/gateway-home"
+
+if [[ ! -f "$VENV_PYTHON" ]]; then
+    echo "ERROR: Hermes venv not found at $VENDOR_DIR/.venv" >&2
+    echo "Run: cd $VENDOR_DIR && ./setup-hermes.sh" >&2
+    exit 1
+fi
+
+# Ensure gateway-home has the pinned config files
+if [[ ! -f "$HERMES_HOME/config.yaml" ]]; then
+    mkdir -p "$HERMES_HOME"
+    cp "$PROJECT_ROOT/hermes/config.yaml" "$HERMES_HOME/config.yaml"
+    echo "Initialized $HERMES_HOME/config.yaml from project template"
+fi
+
+if [[ ! -f "$HERMES_HOME/SOUL.md" ]]; then
+    cp "$PROJECT_ROOT/hermes/SOUL.md" "$HERMES_HOME/SOUL.md"
+    echo "Initialized $HERMES_HOME/SOUL.md from project template"
+fi
+
+# Export environment so Hermes finds our home
+export HERMES_HOME
+export UV_NO_CONFIG=1
+
+# Prevent any system hermes from interfering
+unset HERMES_CLI_PATH 2>/dev/null || true
+
+# Run Hermes through the venv Python
+exec "$VENV_PYTHON" -m hermes_cli.main "$@"
