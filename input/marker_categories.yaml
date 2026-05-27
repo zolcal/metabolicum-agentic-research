@@ -1,0 +1,156 @@
+# Marker category → practitioner mapping for discovery fallback.
+# When a marker has 0 direct practitioner affinities, discovery falls back
+# to practitioners in the same category.
+#
+# Categories are based on clinical domains that practitioners typically
+# cover as a cluster, even if they don't list every individual marker.
+
+schema_version: "1"
+
+categories:
+  lipid-panel:
+    description: |
+      Markers related to atherogenic lipoproteins and lipid transport.
+      Practitioners who discuss ApoB and Lp(a) almost always discuss
+      HDL, LDL, and triglycerides in the same breath.
+    markers:
+      - apob
+      - lpa
+      - hdl-cholesterol
+      - ldl-cholesterol
+      - tg-hdl-ratio
+      - total-cholesterol
+      - non-hdl-cholesterol
+    practitioners:
+      - person:peter-attia
+      - person:thomas-dayspring
+      - person:nick-norwitz
+      - person:allan-sniderman
+      - person:paul-mason
+      - person:william-davis
+      - person:anthony-chaffee
+
+  insulin-resistance:
+    description: |
+      Markers related to glucose regulation, pancreatic beta-cell function,
+      and insulin sensitivity. These cluster tightly in metabolic health
+      discourse — a practitioner discussing fasting insulin will also
+      discuss HbA1c, HOMA-IR, and fructosamine.
+    markers:
+      - fasting-insulin
+      - hba1c
+      - fructosamine
+      - homa-ir
+      - fasting-glucose
+      - glucose-tolerance-test
+      - adipo-ir
+    practitioners:
+      - person:benjamin-bikman
+      - person:jason-fung
+      - person:dominic-dagostino
+      - person:robert-lustig
+      - person:david-ludwig
+      - person:stephen-phinney
+      - person:jeff-volek
+      - person:david-unwin
+      - person:peter-brukner
+      - person:tim-noakes
+      - person:andreas-eenfeldt
+      - person:megan-ramos
+      - person:evelyne-bourdua-roy
+      - person:jonathan-little
+      - person:richard-maurer
+      - person:brian-lamkin
+      - person:anthony-chaffee
+      - org:virta-health
+      - org:levels-health
+      - org:defeat-diabetes
+      - org:public-health-collaboration
+      - org:diet-doctor
+
+  inflammation:
+    description: |
+      Markers of systemic and low-grade chronic inflammation.
+      Functional medicine practitioners (Hyman, Patrick) routinely
+      bundle CRP, uric acid, and ferritin into inflammation panels.
+    markers:
+      - crp-standard
+      - crp-hs
+      - uric-acid
+      - ferritin
+      - erythrocyte-sedimentation-rate
+      - il-6
+      - tnf-alpha
+    practitioners:
+      - person:mark-hyman
+      - person:rhonda-patrick
+      - person:benjamin-bikman
+      - person:robert-lustig
+      - person:joseph-mercola
+      - person:steven-gundry
+
+  longevity:
+    description: |
+      Markers used in longevity and anti-aging optimization.
+      These are hormone, growth factor, and micronutrient markers
+      that longevity-focused practitioners track beyond standard
+      metabolic panels.
+    markers:
+      - igf-1
+      - vitamin-d
+      - testosterone
+      - dhea-s
+      - estradiol
+      - progesterone
+      - thyroid-stimulating-hormone
+      - free-t3
+      - free-t4
+      - reverse-t3
+      - cortisol
+    practitioners:
+      - person:rhonda-patrick
+      - person:peter-attia
+      - person:mark-hyman
+      - person:joseph-mercola
+      - person:steven-gundry
+
+  glycemic-control:
+    description: |
+      Markers specifically for blood glucose monitoring and diabetes
+      management. Overlaps with insulin-resistance but focused on
+      glycemic metrics rather than insulin metrics.
+    markers:
+      - hba1c
+      - fructosamine
+      - fasting-glucose
+      - glucose-tolerance-test
+      - continuous-glucose-monitor
+    practitioners:
+      - person:benjamin-bikman
+      - person:jason-fung
+      - person:dominic-dagostino
+      - person:robert-lustig
+      - person:david-ludwig
+      - person:david-unwin
+      - person:andreas-eenfeldt
+      - person:anthony-chaffee
+      - org:virta-health
+      - org:levels-health
+      - org:defeat-diabetes
+      - org:low-carb-program
+
+  thyroid:
+    description: |
+      Thyroid function markers. Often discussed alongside metabolic
+      health because thyroid dysfunction drives insulin resistance
+      and dyslipidemia.
+    markers:
+      - thyroid-stimulating-hormone
+      - free-t3
+      - free-t4
+      - reverse-t3
+      - thyroid-peroxidase-antibodies
+    practitioners:
+      - person:mark-hyman
+      - person:rhonda-patrick
+      - person:steven-gundry

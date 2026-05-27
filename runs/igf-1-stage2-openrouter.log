@@ -1,0 +1,22 @@
+Fixture: Normal IGF-1 Levels by Age Chart and Reference Ranges
+Text length: 4223 chars
+
+=== Extractor ===
+Claims: 7
+  [ex_1] For children aged 1-5 years, levels may range from 1.6 to 32.9 nmol/L, depending on sex....
+      numeric_values: [{'value': 1.6, 'unit': 'nmol/L', 'context': 'IGF-1 levels for children aged 1-5 years'}, {'value': 32.9, 'unit': 'nmol/L', 'context': 'IGF-1 levels for children aged 1-5 years'}]
+  [ex_2] In later childhood (9-11 years), these levels rise further, potentially reaching 3.0 to 71.9 nmol/L....
+      numeric_values: [{'value': 3.0, 'unit': 'nmol/L', 'context': 'IGF-1 levels for children aged 9-11 years'}, {'value': 71.9, 'unit': 'nmol/L', 'context': 'IGF-1 levels for children aged 9-11 years'}]
+  [ex_3] Individuals aged 12-15 years may have ranges from 6.4 to 78.1 nmol/L....
+      numeric_values: [{'value': 6.4, 'unit': 'nmol/L', 'context': 'IGF-1 levels for individuals aged 12-15 years'}, {'value': 78.1, 'unit': 'nmol/L', 'context': 'IGF-1 levels for individuals aged 12-15 years'}]
+  [ex_4] While 16-20 year olds show 14.3 to 66.9 nmol/L....
+      numeric_values: [{'value': 14.3, 'unit': 'nmol/L', 'context': 'IGF-1 levels for individuals aged 16-20 years'}, {'value': 66.9, 'unit': 'nmol/L', 'context': 'IGF-1 levels for individuals aged 16-20 years'}]
+  [ex_5] For adults aged 25-39 years, ranges are typically 10.7 to 37.1 nmol/L....
+      numeric_values: [{'value': 10.7, 'unit': 'nmol/L', 'context': 'IGF-1 levels for adults aged 25-39 years'}, {'value': 37.1, 'unit': 'nmol/L', 'context': 'IGF-1 levels for adults aged 25-39 years'}]
+  [ex_6] For those aged 40-54 years, 8.1 to 31.0 nmol/L....
+      numeric_values: [{'value': 8.1, 'unit': 'nmol/L', 'context': 'IGF-1 levels for individuals aged 40-54 years'}, {'value': 31.0, 'unit': 'nmol/L', 'context': 'IGF-1 levels for individuals aged 40-54 years'}]
+  [ex_7] Individuals over 55 years may have levels in the range of 2.0 to 32.2 nmol/L....
+      numeric_values: [{'value': 2.0, 'unit': 'nmol/L', 'context': 'IGF-1 levels for individuals over 55 years'}, {'value': 32.2, 'unit': 'nmol/L', 'context': 'IGF-1 levels for individuals over 55 years'}]
+
+=== Tagger ===
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights:  74%|███████▎  | 288/391 [00:00<00:00, 2854.43it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 2702.56it/s]

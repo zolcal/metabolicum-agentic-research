@@ -1,0 +1,74 @@
+Using CLOUD qwen3.7-max (fast, paid)
+Run ID: 20260525-205428
+Output: /media/zoltan/4TSSD/metabolicum-agentic-research/runs/10-marker-validation/20260525-205428
+Loaded 5 fixtures
+
+Fixture coverage:
+  ✅ apob: 1 fixture(s)
+  ✅ hba1c: 1 fixture(s)
+  ✅ fasting-insulin: 3 fixture(s)
+  ✅ lpa: 1 fixture(s)
+  ❌ igf-1: 0 fixture(s)
+  ❌ vitamin-d: 0 fixture(s)
+  ❌ crp-standard: 0 fixture(s)
+  ❌ hdl-cholesterol: 0 fixture(s)
+  ❌ uric-acid: 0 fixture(s)
+  ❌ fructosamine: 0 fixture(s)
+
+🔬 [8028a5ca-9003-5760-af4e-66bb155a77bd] Peter on how early and aggressive lowering of apoB could cha...
+   Expected: ['apob']
+   → Extractor... 2 claims
+   → Tagger... rigid=2, fallback=0, unmatched=0
+   → Structurer... 2 recommendations
+
+🔬 [24987452-5a9b-5c95-8b22-e78bc5a42ef9] Why Neuropathy Isn’t Just a Blood Sugar Problem...
+   Expected: ['hba1c', 'fasting-insulin']
+   → Extractor... 0 claims
+   → Tagger... rigid=0, fallback=0, unmatched=0
+   → Structurer... 0 recommendations
+
+🔬 [37bea741-5383-585e-b27f-963870104431] Heart Disease Markers That Matter More Than LDL...
+   Expected: ['fasting-insulin', 'tg-hdl-ratio']
+   → Extractor... 4 claims
+   → Tagger...Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights:  79%|███████▉  | 309/391 [00:00<00:00, 3073.81it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 2924.05it/s]
+ rigid=1, fallback=2, unmatched=1
+   → Structurer... 3 recommendations
+
+🔬 [6cfa881f-92d3-5d76-9c9f-d53d705d444d] NAD⁺, NADH, and Insulin Resistance: A Cellular Energy Proble...
+   Expected: ['fasting-insulin']
+   → Extractor... 0 claims
+   → Tagger... rigid=0, fallback=0, unmatched=0
+   → Structurer... 0 recommendations
+
+🔬 [24987452-5a9b-5c95-8b22-e78bc5a42ef9] Why Neuropathy Isn’t Just a Blood Sugar Problem...
+   Expected: ['hba1c', 'fasting-insulin']
+   → Extractor... 0 claims
+   → Tagger... rigid=0, fallback=0, unmatched=0
+   → Structurer... 0 recommendations
+
+🔬 [6b1df8b3-0a98-5046-b686-e5115a0f3c30] High Lp(a) warrants intervention, even without other cardiov...
+   Expected: ['lpa']
+   → Extractor... 7 claims
+   → Tagger... rigid=4, fallback=2, unmatched=1
+   → Structurer... 6 recommendations
+
+⏭️  Skipping igf-1 — no fixtures
+
+⏭️  Skipping vitamin-d — no fixtures
+
+⏭️  Skipping crp-standard — no fixtures
+
+⏭️  Skipping hdl-cholesterol — no fixtures
+
+⏭️  Skipping uric-acid — no fixtures
+
+⏭️  Skipping fructosamine — no fixtures
+
+============================================================
+SUMMARY
+============================================================
+Fixtures processed: 6
+Errors: 0
+Skipped (no fixtures): 6
+Total recommendations: 11
+Output dir: /media/zoltan/4TSSD/metabolicum-agentic-research/runs/10-marker-validation/20260525-205428

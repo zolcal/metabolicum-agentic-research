@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://metabolicum-agentic-research/schemas/marker_tagger.schema.json",
+  "title": "MarkerTaggerOutput (Stage 2 marker tagger output)",
+  "type": "object",
+  "required": [
+    "claim_id",
+    "applies_to_markers",
+    "marker_matches",
+    "ambiguous_references",
+    "speaker_attribution",
+    "no_marker_match",
+    "unknown_markers",
+    "tagger_model"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "claim_id": {
+      "type": "string",
+      "pattern": "^ex_[A-Za-z0-9-]+$"
+    },
+    "applies_to_markers": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "marker_matches": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["marker_slug", "matched_text", "match_type", "confidence"],
+        "additionalProperties": false,
+        "properties": {
+          "marker_slug": {"type": "string", "minLength": 1},
+          "matched_text": {"type": "string", "minLength": 1},
+          "match_type": {
+            "type": "string",
+            "enum": ["primary", "alias", "abbreviation", "colloquial", "canonical_name", "normalized_alias", "unknown"]
+          },
+          "confidence": {"type": "number", "minimum": 0, "maximum": 1}
+        }
+      }
+    },
+    "ambiguous_references": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "speaker_attribution": {
+      "type": "object",
+      "required": ["name", "alias_match", "ambiguous"],
+      "additionalProperties": false,
+      "properties": {
+        "name": {"type": ["string", "null"]},
+        "alias_match": {"type": ["string", "null"]},
+        "ambiguous": {"type": "boolean"}
+      }
+    },
+    "no_marker_match": {
+      "type": "boolean",
+      "description": "True only when no glossary marker is explicitly present in the verbatim quote."
+    },
+    "unknown_markers": {
+      "type": "array",
+      "description": "Marker-like terms present in the quote but absent from the glossary. These are not canonical markers.",
+      "items": {"type": "string"}
+    },
+    "tagger_model": {
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}

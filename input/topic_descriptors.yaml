@@ -1,0 +1,82 @@
+# Topic descriptors for 10-marker validation — hybrid semantic fallback
+# Used by semantic relevance scoring when rigid glossary misses synonyms.
+# Phrased in clinical-natural language for multilingual-e5-large embedding.
+
+apob:
+  topic_descriptor: |
+    Discussion of apolipoprotein B (apoB) as a clinical marker of
+    atherogenic lipoprotein particle concentration and cardiovascular risk.
+    Covers its measurement, optimal target levels, relationship to LDL
+    cholesterol, role in lipid management, and use as a superior predictor
+    of heart disease risk compared to traditional cholesterol metrics.
+
+hba1c:
+  topic_descriptor: |
+    Discussion of hemoglobin A1c (HbA1c or glycated hemoglobin) as a marker
+    of average blood glucose over 2-3 months. Covers diagnostic thresholds
+    for prediabetes and diabetes, optimal target ranges, factors affecting
+    accuracy, and clinical use in monitoring glycemic control and metabolic
+    health.
+
+fasting-insulin:
+  topic_descriptor: |
+    Discussion of fasting insulin as a marker of insulin sensitivity and
+    pancreatic beta-cell function. Covers optimal reference ranges,
+    elevated levels indicating insulin resistance, relationship to metabolic
+    syndrome and type 2 diabetes risk, and use alongside fasting glucose
+    and HOMA-IR assessment.
+
+lpa:
+  topic_descriptor: |
+    Discussion of lipoprotein(a) or Lp(a) as a genetic cardiovascular risk
+    marker. Covers its structure, inherited elevation, threshold levels
+    indicating increased risk, limited therapeutic options, and clinical
+    significance as an independent predictor of atherosclerotic disease
+    and aortic stenosis.
+
+igf-1:
+  topic_descriptor: |
+    Discussion of insulin-like growth factor 1 (IGF-1) as a marker of growth
+    hormone activity, anabolic status, and aging. Covers optimal ranges by
+    age and sex, elevated levels in acromegaly, deficient levels in growth
+    hormone deficiency, and emerging evidence linking IGF-1 to longevity
+    and cancer risk.
+
+vitamin-d:
+  topic_descriptor: |
+    Discussion of 25-hydroxyvitamin D as a marker of vitamin D status.
+    Covers optimal serum levels, deficiency and insufficiency thresholds,
+    supplementation strategies, seasonal variation, relationship to bone
+    health, immune function, metabolic health, and cardiovascular outcomes.
+
+crp-standard:
+  topic_descriptor: |
+    Discussion of C-reactive protein (CRP) as a marker of systemic
+    inflammation. Covers reference ranges, mildly elevated levels indicating
+    low-grade chronic inflammation, strongly elevated levels in acute
+    infection, relationship to cardiovascular risk, metabolic syndrome,
+    and use as a prognostic indicator.
+
+hdl-cholesterol:
+  topic_descriptor: |
+    Discussion of HDL cholesterol as a marker of reverse cholesterol
+    transport and cardiovascular protection. Covers optimal levels,
+    low HDL as a risk factor, relationship to triglycerides and the
+    TG/HDL ratio, functional versus quantitative HDL assessment, and
+    limited benefit of pharmacological HDL raising.
+
+uric-acid:
+  topic_descriptor: |
+    Discussion of uric acid as a marker of purine metabolism and
+    cardiovascular-metabolic risk. Covers optimal serum levels,
+    hyperuricemia thresholds, association with gout, metabolic syndrome,
+    hypertension, and chronic kidney disease, and lifestyle and dietary
+    factors affecting uric acid levels.
+
+fructosamine:
+  topic_descriptor: |
+    Discussion of fructosamine as a marker of average blood glucose over
+    2-3 weeks. Covers its calculation from serum albumin glycation,
+    use when HbA1c is unreliable, optimal target ranges, shorter
+    half-life compared to HbA1c, and clinical utility in monitoring
+    rapid glycemic changes.

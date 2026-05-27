@@ -1,0 +1,23 @@
+{
+  "schema_version": "1",
+  "source_id": "06440012-0f03-5636-87a9-b88b4a99add0",
+  "source_url": "https://www.youtube.com/watch?v=rqH7Lr0fvSc",
+  "source_type": "video",
+  "platform": "youtube",
+  "title": "This Is What High Insulin Does to Your Body — And Nobody Talks About It",
+  "retrieved_at": "2026-05-26T19:06:44Z",
+  "published_at": "2025-04-07T21:55:42Z",
+  "source_language": "en",
+  "speaker_or_author": "Anthony Chaffee",
+  "speaker_registry_id": "person:anthony-chaffee",
+  "license": "youtube_public_caption_fair_use_quote_only",
+  "transcript_method": "third_party_caption_api",
+  "transcript_text": "When you fast, you just stop eating, but you also stop eating carbs and then your insulin comes down and then you start opening up your metabolism. So, the thing is is that insulin doesn't just affect sugar metabolism and your blood sugar levels. Even though the American Diabetes Association would like you to think that because they say your diabetes patients don't they don't have to restrict carbs, just make sure they take enough insulin to keep their blood sugar down because the blood sugar being high is actually directly damaging to you and it's it's really harmful to your body. That's why you need your blood sugar levels down. It's very important to your body to keep it down. That's why it raises your insulin. So basically, it's toxic to your body over a certain point. Your body responds to this toxin, the high blood sugar being a toxin, by trying to detoxify by raising your insulin to get it down. But the problem there is insulin affects over 100 different processes in your body like autophagy. So it's not the not eating that's doing it. It's just that high insulin suppresses autophagy and it suppresses all these other functions in your body and it suppresses the formation of ketones, forcing energy into cells. It doesn't allow them to come out of cells. So when your insulin levels up, you can't start using your fat as energy.",
+  "transcript_sha256": "aa420f2af61cd29493fae841fb93e0a2dcd57fc05d89815e086a3faa9bce6a06",
+  "expected_markers": [
+    "fasting-insulin"
+  ],
+  "notes": "Stage 1 YouTube transcript fixture. Transcript text is cached for source-first extraction; quote publication remains limited by legal review.",
+  "synthetic": false,
+  "verification_status": "verified_real_source"
+}

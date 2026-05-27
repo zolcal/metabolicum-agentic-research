@@ -1,0 +1,23 @@
+{
+  "schema_version": "1",
+  "source_id": "bce29551-b2c1-5cfc-a89b-13782075d8df",
+  "source_url": "https://peterattiamd.com/case-study-elevated-uric-acid-and-high-blood-pressure/",
+  "source_type": "blog",
+  "platform": "peterattiamd.com",
+  "title": "Patient Case Study: Elevated Uric Acid and High Blood Pressure - Peter Attia",
+  "retrieved_at": "2026-05-26T19:06:31.176774Z",
+  "published_at": null,
+  "source_language": "en",
+  "speaker_or_author": "Peter Attia",
+  "speaker_registry_id": "person:peter-attia",
+  "license": "all_rights_reserved_public_web_page",
+  "transcript_method": "public_page_html_to_text",
+  "transcript_text": "This audio clip is from “Ask Me Anything” (AMA) episode #15 — Real-world case studies—metabolic dysregulation, low testosterone, menopause, and more.\nIf you’re a member, you can now listen to this full episode on your private RSS feed or on our website. If you are not a member, learn more about the how to become a member and the benefits here.\nShow Notes\nCase study—Elevated uric acid and hypertension [1:10:55]\n“Patient H”\nBasics:\n- 46, Male\n- Body type: Normal BMI\n- Hx: Prior to onboarding, patient was diagnosed with essential HTN, blood pressure ranging from 140/90 to 160/90 mmHg.\n- He was treated with lisinopril (ACEi) bringing him into the 130/90 range (still higher than ideal for 46 year old, especially if he’s interested in longevity)\nMeds:\n- Uloric 40 mg QD\n- Lipitor 20 mg\n- 6/2020: Added Repatha.\nFam Hx: .\n- HTN: Father and Uncle\n- CVD: Maternal and Paternal Grandfather.\nMed Hx:\n- Essential HTN\n- Mixed hyperlipidemia\n- Atherosclerotic heart disease with evidence of calcification on CAC\nNutrition:\n- Low carb. No signs of metabolic syndrome or insulin resistance.\nExercise:\n- Weight training 3x/week\n- Zone2 training 3 hr a week.\nImaging:\n- CAC of 88 – Approximately 85th percentile for age. (even more reason to be aggressive in treating blood pressure)\n*To reiterate: This is a guy that on paper looked really good. He’s also very muscular and lean. He runs and exercises six days/week. He also eats well.\nLooking at his initial labs—\nFigure 21. Patient H – Initial Labs when presenting with essential hypertension.\nObservations:\n- His uric acid was 6.1\n- It was also quite stubborn—never went down with a dietary change (tweaking protein levels, reducing fructose, etc.)\n- Peter could not get his uric acid below 6, and the target was below 5\n- See Rick Johnson podcast to understand the importance of lowering uric acid\nLabs after ~18 months on Uloric—\nFigure 22. Labs after ~18 months on Uloric.\nObservations:\n- Uloric “fixed” uric acid\n- His HTN resolved even with a persistently high homocysteine\n- He no longer required ACE inhibitor (for blood pressure)\nConcluding thoughts:\n- This is a pretty unusual response to just lowering uric acid\n- But it’s also a great teaching point—\n- Do NOT go after blood pressure until you’ve got the uric acid below 5\n- Only then start playing with the blood pressure medication\n- *The broader point: Try to fix the insulin resistance and metabolic syndrome first (which in this case he didn’t have, but he did have the elevated uric acid) before you introduce drugs to treat blood pressure.\nWhat determines uric acid levels?\n- Things that can drive up uric acid levels include:\n- People who eat foods with lots of DNA and RNA (i.e., protein sources)\n- Yeast in the beer\n- Fructose\n- But the biggest part may be genetics, says Peter ⇒ “I don’t know why it is that in some patients you can remove all of the normal impediments to normal uric acid metabolism and it’s still elevated.”\n- For Peter personally—\n- Despite eating and exercising well, he can’t get his uric acid below 5.5 without using allopurinol\n- He has a family history of hypertension\n⇒ Make sure to check out Rick Johnson’s episode for more on the importance of managing uric acid levels\nPeter’s internal standard for blood pressure: Below 120/80 without producing any symptoms of lightheadedness\nSelected Links / Related Material\nSee episode of The Drive with Rick Johnson for the importance of managing uric acid: #87 – Rick Johnson, M.D.: Fructose—The common link in high blood pressure, insulin resistance, T2D, & obesity? | Peter Attia (peterattiamd.com) [40:00, 1:12:30]]",
+  "transcript_sha256": "667c6305f051f4761ce9348c314fee78222d6b67bf373ffbe57a48a4bc851d03",
+  "expected_markers": [
+    "uric-acid"
+  ],
+  "notes": "Peter Attia case study on elevated uric acid with specific numeric values and blood pressure correlation.",
+  "synthetic": false,
+  "verification_status": "verified_real_source"
+}

@@ -1,0 +1,20 @@
+=== Tagger (local Qwen) ===
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights:  85%|████████▍ | 331/391 [00:00<00:00, 3304.75it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 3166.69it/s]
+  ex_1: markers=[], no_match=True, fallback=False
+  ex_2: markers=[], no_match=True, fallback=False
+  ex_3: markers=['hba1c'], no_match=False, fallback=True
+  ex_4: markers=[], no_match=True, fallback=False
+  ex_5: markers=['hba1c'], no_match=False, fallback=True
+  ex_6: markers=['hba1c'], no_match=False, fallback=True
+  ex_7: markers=['hba1c'], no_match=False, fallback=True
+
+=== Structurer (local Qwen) ===
+Recommendations: 4
+  markers=['hba1c'] target=None units=nmol/L
+    quote=Individuals aged 12-15 years may have ranges from 6.4 to 78.1 nmol/L....
+  markers=['hba1c'] target=None units=nmol/L
+    quote=For adults aged 25-39 years, ranges are typically 10.7 to 37.1 nmol/L....
+  markers=['hba1c'] target=None units=nmol/L
+    quote=For those aged 40-54 years, 8.1 to 31.0 nmol/L....
+  markers=['hba1c'] target=None units=nmol/L
+    quote=Individuals over 55 years may have levels in the range of 2.0 to 32.2 nmol/L....

@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "<string>", line 16, in <module>
+  File "/media/zoltan/4TSSD/metabolicum-agentic-research/code/pipeline/stages.py", line 212, in run_extractor
+    result = llm_call(client, system, user, schema=wrapper, seed=seed, model=model)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/zoltan/4TSSD/metabolicum-agentic-research/code/pipeline/stages.py", line 149, in llm_call
+    resp = client.chat.completions.create(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zoltan/miniconda3/envs/hermes/lib/python3.11/site-packages/openai/_utils/_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zoltan/miniconda3/envs/hermes/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 1204, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/home/zoltan/miniconda3/envs/hermes/lib/python3.11/site-packages/openai/_base_client.py", line 1297, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zoltan/miniconda3/envs/hermes/lib/python3.11/site-packages/openai/_base_client.py", line 1070, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://www.alibabacloud.com/help/en/model-studio/error-code#apikey-error', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}, 'request_id': '45c9b07d-0672-9781-98be-99a3094d67b2'}
+Fixture: Normal IGF-1 Levels by Age Chart and Reference Ranges
+Text length: 4223 chars
+
+=== Extractor ===

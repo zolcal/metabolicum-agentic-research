@@ -1,0 +1,45 @@
+{
+  "schema_version": "1",
+  "channel": {
+    "practitioner_id": "person:anthony-chaffee",
+    "canonical_name": "Anthony Chaffee",
+    "channel_url": "https://www.youtube.com/@anthonychaffeemd",
+    "channel_handle": "@anthonychaffeemd",
+    "channel_id": "UCzoRyR_nlesKZuOlEjWRXQQ"
+  },
+  "videos": [
+    {
+      "video_id": "sample_apob_001",
+      "url": "https://www.youtube.com/watch?v=sample_apob_001",
+      "title": "Carnivore, Cholesterol, ApoB and Heart Disease Risk",
+      "description": "Dr Anthony Chaffee discusses LDL, ApoB, triglycerides, HDL and insulin resistance on a carnivore diet.",
+      "published_at": "2024-01-10T00:00:00Z",
+      "duration_seconds": 4200,
+      "view_count": 250000,
+      "channel_id": "UCzoRyR_nlesKZuOlEjWRXQQ",
+      "channel_title": "Anthony Chaffee MD"
+    },
+    {
+      "video_id": "sample_insulin_001",
+      "url": "https://www.youtube.com/watch?v=sample_insulin_001",
+      "title": "Insulin Resistance, HbA1c and Reversing Diabetes with a Carnivore Diet",
+      "description": "Fasting insulin, A1c, glucose and HOMA-IR are discussed as metabolic health markers.",
+      "published_at": "2023-11-02T00:00:00Z",
+      "duration_seconds": 3600,
+      "view_count": 190000,
+      "channel_id": "UCzoRyR_nlesKZuOlEjWRXQQ",
+      "channel_title": "Anthony Chaffee MD"
+    },
+    {
+      "video_id": "sample_general_001",
+      "url": "https://www.youtube.com/watch?v=sample_general_001",
+      "title": "Why Plants Do Not Want To Be Eaten",
+      "description": "A general plant-toxin discussion without numeric biomarker targets.",
+      "published_at": "2023-05-06T00:00:00Z",
+      "duration_seconds": 5400,
+      "view_count": 410000,
+      "channel_id": "UCzoRyR_nlesKZuOlEjWRXQQ",
+      "channel_title": "Anthony Chaffee MD"
+    }
+  ]
+}

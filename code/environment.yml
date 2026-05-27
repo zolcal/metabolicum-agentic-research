@@ -1,0 +1,45 @@
+name: hermes
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - tesseract
+  - poppler
+  - ghostscript
+  - pip:
+    # LLM / API clients
+    - openai>=2.24.0
+    - dashscope
+    - supabase>=2.30.0
+    # HTTP / parsing
+    - requests>=2.33.0
+    - httpx>=0.28.1
+    - beautifulsoup4>=4.14.3
+    - lxml>=6.1.1
+    - lxml-html-clean>=0.4.5
+    # Data / validation
+    - pandas>=3.0.3
+    - openpyxl>=3.1.5
+    - jsonschema>=4.26.0
+    # Table extraction (PDF)
+    - pdfplumber>=0.11.9
+    - pymupdf>=1.27.2
+    - camelot-py>=1.0.9
+    - tabula-py>=2.10.0
+    - tabulate>=0.10.0
+    # Table extraction (web)
+    - trafilatura>=2.0.0
+    # Browser fallback for JS-rendered pages
+    - playwright>=1.60.0
+    # OCR / image
+    - pytesseract>=0.3.13
+    - pdf2image>=1.17.0
+    - pillow>=12.2.0
+    - opencv-python-headless>=4.13.0
+    # Semantic embedding fallback (hybrid tagger)
+    - sentence-transformers>=5.5.0
+    - torch>=2.12.0
+    - numpy>=2.2.0
+    - pyyaml>=6.0
