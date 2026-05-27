@@ -94,3 +94,18 @@ From `runs/10-marker-validation/20260526-221106/summary.json`:
 - `docs/BATCH-SCALING-PLAN.md` - cost/routing strategy.
 - `docs/agentic-workflow/practitioner-registry-sync-report-2026-05-26.md` - registry expansion report.
 - `docs/agentic-workflow/youtube-transcript-discovery.md` - YouTube Stage 1 contract.
+
+## Update: 2026-05-27 Implementation Gap Audit
+- Crash-recovery commits now preserve the previously dirty work:
+  - `f6ff4eb` preserved tracked modifications.
+  - `25b39c2` preserved untracked source, docs, fixtures, inputs, and run logs.
+- Current dirty state after the audit: only `.claude-temp/youtube-seed-bad-surfaces.json` is untracked, plus this handover update and the new plan if not yet committed.
+- Created `docs/superpowers/plans/2026-05-27-hermes-implementation-gap-closure.md`.
+- Highest-risk audit findings:
+  - `docs/agentic-workflow/07-legal-and-ip-agent.md` was accidentally overwritten with YouTube transcript discovery content. Restore from commit `5a12164`; keep YouTube content in `docs/agentic-workflow/youtube-transcript-discovery.md`.
+  - Project temp-file rule is violated by `/tmp`, `mktemp`, and default `TemporaryDirectory()` usage in docs/tests/table extraction.
+  - `code/state.py` and `code/schemas/state.schema.json` disagree on run-id shape, `schema_version`, and stage names.
+  - `code/pipeline/ingest.py` quarantine fallback writes do not match the SQL enum/table shape.
+  - Stage 3-6 are not executable yet; prompts/schema/state exist, but council, provenance, legal review, and assembly/export need Python pipeline modules.
+  - `scripts/run-stage.sh` is generic and incorrect for Stage 3 council because it skips 04a/04b and validates all stages as extracted claims.
+  - 10-marker validation should become a quality gate before scaling; latest inspected run has `vitamin-d` JSON parse failure and `hba1c` zero-output.
