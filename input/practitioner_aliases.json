@@ -109,6 +109,17 @@
       ]
     },
     {
+      "practitioner_id": "person:anthony-chaffee",
+      "canonical_name": "Anthony Chaffee",
+      "aliases": [
+        "Anthony Chaffee",
+        "Anthony Chaffee MD",
+        "Dr Anthony Chaffee",
+        "Dr. Anthony Chaffee",
+        "Plant Free MD"
+      ]
+    },
+    {
       "practitioner_id": "person:peter-brukner",
       "canonical_name": "Peter Brukner",
       "aliases": [

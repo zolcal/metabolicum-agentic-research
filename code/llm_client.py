@@ -83,17 +83,48 @@ class LLMClient:
 
     # ── Chat ──────────────────────────────────────────────────────────
 
-    def chat_client(self, role: str) -> OpenAI:
-        """Return an openai.OpenAI client configured for the role's endpoint.
+    def chat_client(self, role: str) -> Any:
+        """Return a chat client configured for the role's endpoint.
 
-        For Gemini-style endpoints, we route through Google's OpenAI-compatible
-        path at .../v1beta/openai/ if base_url ends with /v1beta. For other
-        endpoints, base_url is used as-is.
+        Return type depends on the endpoint's `api_style`:
+          - openai_compatible (default): returns an `openai.OpenAI` instance.
+          - gemini: returns OpenAI client pointed at Google's OpenAI-compat
+            shim at .../v1beta/openai/.
+          - anthropic: returns a minimal `_AnthropicChatAdapter` that mimics
+            the OpenAI `.chat.completions.create()` surface used by callers;
+            translates request/response on the wire.
+
+        All three expose `.chat.completions.create(model=..., messages=...,
+        max_tokens=..., temperature=...)` returning an object with
+        `.choices[0].message.content` and `.choices[0].finish_reason`.
         """
-        ec = self.endpoint_for(role)
+        return self._build_chat_client(self.endpoint_for(role))
+
+    def chat_client_for_endpoint(self, endpoint_id: str) -> Any:
+        """Return a chat client for an endpoint by id, bypassing role lookup.
+
+        Useful for direct comparisons (e.g., quality-checking a demoted
+        endpoint against the active one without temporarily flipping
+        `active`/`roles` in the config).
+        """
+        ec = self.endpoints.get(endpoint_id)
+        if not ec:
+            raise LLMConfigError(
+                f"no endpoint with id={endpoint_id!r}; "
+                f"known: {sorted(self.endpoints)}"
+            )
+        return self._build_chat_client({"id": endpoint_id, **ec})
+
+    def _build_chat_client(self, ec: dict[str, Any]) -> Any:
         base_url = ec["base_url"]
-        if ec.get("api_style") == "gemini" and "/v1beta" in base_url and "/openai" not in base_url:
-            # Google's OpenAI-compat shim
+        api_style = ec.get("api_style")
+        if api_style == "anthropic":
+            return _AnthropicChatAdapter(
+                base_url=base_url,
+                api_key=self._api_key(ec),
+                timeout_s=int(ec.get("timeout_s", 60)),
+            )
+        if api_style == "gemini" and "/v1beta" in base_url and "/openai" not in base_url:
             base_url = base_url.rstrip("/") + "/openai"
         return OpenAI(
             base_url=base_url,
@@ -156,10 +187,36 @@ class LLMClient:
     # ── Health ────────────────────────────────────────────────────────
 
     def health_check(self, role: str) -> bool:
-        """Light probe — GET /models on the endpoint. Returns True on HTTP 200."""
+        """Light probe. For OpenAI/Gemini styles, GET /models. For Anthropic
+        style, POST a 1-token /v1/messages probe (more reliable than /models
+        on Anthropic-compat servers, and effectively free on MiniMax's flat
+        plan / sub-cent on Anthropic-proper). Returns True on HTTP 200.
+        """
         ec = self.endpoint_for(role)
         base_url = ec["base_url"]
-        if ec.get("api_style") == "gemini" and "/v1beta" in base_url and "/openai" not in base_url:
+        api_style = ec.get("api_style")
+
+        if api_style == "anthropic":
+            try:
+                with httpx.Client(timeout=5) as c:
+                    r = c.post(
+                        f"{base_url.rstrip('/')}/v1/messages",
+                        headers={
+                            "x-api-key": self._api_key(ec),
+                            "anthropic-version": "2023-06-01",
+                            "content-type": "application/json",
+                        },
+                        json={
+                            "model": ec["model"],
+                            "max_tokens": 1,
+                            "messages": [{"role": "user", "content": "."}],
+                        },
+                    )
+                    return r.status_code == 200
+            except httpx.HTTPError:
+                return False
+
+        if api_style == "gemini" and "/v1beta" in base_url and "/openai" not in base_url:
             base_url = base_url.rstrip("/") + "/openai"
         headers = {}
         if ec.get("api_key_env"):
@@ -170,6 +227,101 @@ class LLMClient:
                 return r.status_code == 200
         except httpx.HTTPError:
             return False
+
+
+# ── Anthropic Messages adapter ────────────────────────────────────────
+# Wraps the Anthropic /v1/messages surface (e.g., MiniMax's $80/mo plan
+# at https://api.minimax.io/anthropic) so callers can keep using the
+# OpenAI `.chat.completions.create()` shape without branching.
+
+class _AnthropicChatAdapter:
+    """Adapter exposing `.chat.completions.create()` over Anthropic Messages.
+
+    Supported request params: model, messages, max_tokens, temperature.
+    Unsupported OpenAI-only params (response_format, tools, tool_choice,
+    stream) are silently ignored — extend when needed. JSON-mode requires
+    Anthropic's tool-use pattern; that lives in the caller, not here.
+    """
+
+    def __init__(self, base_url: str, api_key: str, timeout_s: int) -> None:
+        self._base = base_url.rstrip("/")
+        self._api_key = api_key
+        self._timeout = timeout_s
+        self.chat = _AnthropicChatNamespace(self)
+
+
+class _AnthropicChatNamespace:
+    def __init__(self, parent: "_AnthropicChatAdapter") -> None:
+        self.completions = _AnthropicCompletions(parent)
+
+
+class _AnthropicCompletions:
+    _FINISH_MAP = {
+        "end_turn": "stop",
+        "max_tokens": "length",
+        "stop_sequence": "stop",
+        "tool_use": "tool_calls",
+    }
+
+    def __init__(self, parent: "_AnthropicChatAdapter") -> None:
+        self._parent = parent
+
+    def create(
+        self,
+        *,
+        model: str,
+        messages: list[dict[str, Any]],
+        max_tokens: int,
+        temperature: float = 0.0,
+        **_ignored: Any,
+    ) -> "_AnthropicResponse":
+        system_parts = [m["content"] for m in messages if m.get("role") == "system"]
+        anth_messages = [m for m in messages if m.get("role") != "system"]
+        body: dict[str, Any] = {
+            "model": model,
+            "max_tokens": max_tokens,
+            "messages": anth_messages,
+            "temperature": temperature,
+        }
+        if system_parts:
+            body["system"] = "\n\n".join(system_parts)
+
+        with httpx.Client(timeout=self._parent._timeout) as c:
+            r = c.post(
+                f"{self._parent._base}/v1/messages",
+                headers={
+                    "x-api-key": self._parent._api_key,
+                    "anthropic-version": "2023-06-01",
+                    "content-type": "application/json",
+                },
+                json=body,
+            )
+        r.raise_for_status()
+        data = r.json()
+        text = "".join(
+            b.get("text", "") for b in data.get("content", []) if b.get("type") == "text"
+        )
+        finish = self._FINISH_MAP.get(data.get("stop_reason") or "", "stop")
+        return _AnthropicResponse(text, finish, data)
+
+
+class _AnthropicResponse:
+    """Mimics the slice of OpenAI ChatCompletion that callers actually use."""
+
+    def __init__(self, content: str, finish_reason: str, raw: dict[str, Any]) -> None:
+        self.choices = [_AnthropicChoice(content, finish_reason)]
+        self.raw = raw
+
+
+class _AnthropicChoice:
+    def __init__(self, content: str, finish_reason: str) -> None:
+        self.message = _AnthropicMessage(content)
+        self.finish_reason = finish_reason
+
+
+class _AnthropicMessage:
+    def __init__(self, content: str) -> None:
+        self.content = content
 
 
 __all__ = ["LLMClient", "LLMConfigError", "NoEndpointForRole"]

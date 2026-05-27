@@ -94,6 +94,11 @@ youtube-mcp:
     YouTube Data API v3 via MCP. 10,000-unit/day free quota.
     Used by Stage 1 YouTube agent and as transcript fallback when Gemini
     native URL ingestion is unavailable.
+    Runtime integration rule: metadata inventory may run as a Python CLI with
+    YouTube Data API credentials; transcript retrieval should run through
+    youtube-mcp `transcripts_getTranscript`, targeted `youtube-transcript-api`
+    public captions, or another explicitly approved provider. Retrieved
+    transcripts are cached as source fixtures before Stage 2.
 
 # ─── Social discovery (via MCP) ───────────────────────────────────────
 

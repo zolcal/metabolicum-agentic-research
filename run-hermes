@@ -25,7 +25,12 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_ROOT="$SCRIPT_DIR"
 VENDOR_DIR="$PROJECT_ROOT/vendor/hermes-agent-v2026.5.16"
 VENV_PYTHON="$VENDOR_DIR/.venv/bin/python"
-HERMES_HOME="$PROJECT_ROOT/hermes/gateway-home"
+# Respect pre-set HERMES_HOME (e.g., scripts/run-stage.sh exports a disposable
+# worker home before invoking us). Default to the persistent gateway home for
+# direct interactive use. Fixed 2026-05-26 — previously this line unconditionally
+# overrode the parent's HERMES_HOME, silently breaking worker isolation
+# (Acceptance Tests #5 and #7).
+HERMES_HOME="${HERMES_HOME:-$PROJECT_ROOT/hermes/gateway-home}"
 
 if [[ ! -f "$VENV_PYTHON" ]]; then
     echo "ERROR: Hermes venv not found at $VENDOR_DIR/.venv" >&2

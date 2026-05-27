@@ -268,6 +268,7 @@ This is the minimum first implementation source roster. It is intentionally focu
 | Allan Sniderman | person | Canada | RC/MO | A | B1 | ApoB causal and clinical-risk interpretation |
 | David Unwin | person | United Kingdom | MO | A | C1 | low-carb primary-care implementation |
 | Paul Mason | person | Australia | MO | A | D1 | LMHR and low-carb lipid interpretation |
+| Anthony Chaffee | person | Australia / United States | MO | B | E2 | carnivore/plant-free clinical advocacy and dietary reversal claims |
 | Peter Brukner | person | Australia | RC/MO | A | B1-C1 | public-health implementation and Defeat Diabetes |
 | Tim Noakes | person | South Africa / UK influence | MO | A | B2 | low-carb metabolic syndrome reversal |
 | Margaret Ashwell | person | United Kingdom | RC/MO | A | B2 | waist-to-height ratio research |

@@ -183,11 +183,30 @@ def ingest_source(
             "speaker_registry_id": fixture.get("speaker_registry_id"),
         })
 
-        # ── Step 2: Stage 2a — Content Extractor ─────────────────────
+        # ── Step 2: Stage 2a — Content Extractor (hybrid routing) ────
+        # Small transcripts go to the primary (local Gemma, free, fast).
+        # Large transcripts go to the secondary (cloud DeepSeek) — Gemma's
+        # quality drops on long inputs (verbatim drift), and its 16K
+        # context window forces aggressive truncation. Threshold + secondary
+        # are read from the extractor endpoint's `failover_to` YAML field.
         run.log("Stage 2a: extractor starting", stage="sources")
-        ext_result = run_extractor(clients["extractor"], fixture, seed=seed, model=models["extractor"])
+        # Threshold is encoded in the models dict as a stringified int so we
+        # don't have to plumb a separate `thresholds` arg through ingest_source
+        # / ingest_batch. Default 8000 if absent.
+        _threshold_raw = models.get("extractor_hybrid_threshold", "8000") if models else "8000"
+        ext_result = run_extractor(
+            clients["extractor"],
+            fixture,
+            seed=seed,
+            model=models["extractor"],
+            secondary_client=clients.get("extractor_secondary"),
+            secondary_model=models.get("extractor_secondary"),
+            hybrid_size_threshold_chars=int(_threshold_raw),
+        )
         claims = ext_result["content"].get("claims", [])
         result["claims_count"] = len(claims)
+        result["extractor_routed_to"] = ext_result.get("routed_to")
+        result["extractor_routed_reason"] = ext_result.get("routed_reason")
 
         # Write stage artifact
         (source_dir / "stage_2a_extractor.json").write_text(
@@ -213,7 +232,12 @@ def ingest_source(
 
         # ── Step 3: Stage 2b — Marker Tagger ─────────────────────────
         run.log(f"Stage 2b: tagger starting ({len(claims)} claims)", stage="sources")
-        tagged = run_tagger(clients["tagger"], claims, fixture, seed=seed, model=models["tagger"])
+        tagged = run_tagger(
+            clients["tagger"], claims, fixture,
+            seed=seed, model=models["tagger"],
+            secondary_client=clients.get("tagger_secondary"),
+            secondary_model=models.get("tagger_secondary"),
+        )
 
         (source_dir / "stage_2b_tagger.json").write_text(
             json.dumps(tagged, indent=2)
@@ -234,7 +258,12 @@ def ingest_source(
 
         # ── Step 4: Stage 2c — Demographic Structurer ────────────────
         run.log("Stage 2c: structurer starting", stage="sources")
-        recommendations = run_structurer(clients["structurer"], claims, tagged, fixture, seed=seed, model=models["structurer"])
+        recommendations = run_structurer(
+            clients["structurer"], claims, tagged, fixture,
+            seed=seed, model=models["structurer"],
+            secondary_client=clients.get("structurer_secondary"),
+            secondary_model=models.get("structurer_secondary"),
+        )
         result["recommendations_count"] = len(recommendations)
 
         (source_dir / "stage_2c_structurer.json").write_text(
@@ -497,7 +526,18 @@ def main():
         models = {"extractor": "qwen", "tagger": "qwen", "structurer": "qwen"}
         llm_label = f"local ({base_url})"
     else:
-        # DashScope (production, role-based routing from config)
+        # Production: role-based routing from config/llm-endpoints.yaml.
+        #
+        # Two fallback patterns:
+        #
+        # (a) Extractor `failover_to`: primary endpoint declares its size-based
+        #     secondary, used by run_extractor for transcripts ≥ threshold AND
+        #     for parse-failure fallback on small inputs.
+        #
+        # (b) Per-role `failover_for` (reverse lookup): any endpoint declares
+        #     "I am the failover for these roles". Used by run_tagger /
+        #     run_structurer for parse-failure fallback when small structured
+        #     calls glitch.
         clients = {
             "extractor": llm_config.chat_client("extractor"),
             "tagger": llm_config.chat_client("tagger"),
@@ -508,8 +548,35 @@ def main():
             "tagger": llm_config.model_name_for("tagger"),
             "structurer": llm_config.model_name_for("structurer"),
         }
+        # (a) extractor failover_to
         extractor_ec = llm_config.endpoint_for("extractor")
-        llm_label = f"DashScope ({extractor_ec['model']})"
+        ext_secondary_id = extractor_ec.get("failover_to")
+        if ext_secondary_id and ext_secondary_id in llm_config.endpoints:
+            ext_sec_ec = llm_config.endpoints[ext_secondary_id]
+            clients["extractor_secondary"] = llm_config.chat_client_for_endpoint(ext_secondary_id)
+            models["extractor_secondary"] = ext_sec_ec["model"]
+            # Threshold from primary's YAML (default 8000 if unset). Stored as
+            # a string so the dict[str, str] type contract holds; ingest_source
+            # parses back to int.
+            threshold = int(extractor_ec.get("hybrid_size_threshold_chars", 8000))
+            models["extractor_hybrid_threshold"] = str(threshold)
+            llm_label = (
+                f"hybrid ({extractor_ec['model']} → {ext_sec_ec['model']}, "
+                f"threshold={threshold}ch)"
+            )
+        else:
+            llm_label = f"{extractor_ec['model']} (no secondary)"
+
+        # (b) reverse failover_for lookup for tagger / structurer
+        for role in ("tagger", "structurer"):
+            for eid, ec in llm_config.endpoints.items():
+                if not ec.get("active"):
+                    continue
+                fover_list = ec.get("failover_for") or []
+                if role in fover_list:
+                    clients[f"{role}_secondary"] = llm_config.chat_client_for_endpoint(eid)
+                    models[f"{role}_secondary"] = ec["model"]
+                    break
 
     # Create pipeline run
     run = PipelineRun.create(run_id=args.run_id)

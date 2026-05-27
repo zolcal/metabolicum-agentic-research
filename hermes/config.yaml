@@ -1,16 +1,48 @@
-# hermes/config.yaml — Metabolicum cloud-only worker profile
-# Default: DashScope Qwen 3.7 Max. Local Qwen disabled.
+# hermes/config.yaml — Metabolicum **worker** profile pin
+#
+# Role of this file
+# -----------------
+# This is the canonical worker-runtime Hermes config. It is the source-of-truth
+# for any disposable HERMES_HOME spawned by the kanban worker pool (see
+# docs/agentic-workflow/hermes-setup.md §2.1 "Runtime Topology"). Every key
+# below must match what the worker uses at runtime; SHA-256 over the
+# project-authoritative keys is checked by Acceptance Test #7.
+#
+# This file is NOT the gateway runtime's config. The gateway lives at
+# hermes/gateway-home/config.yaml and is allowed to drift — Hermes auto-
+# expands it on init, the dashboard rewrites model.default when the user runs
+# `hermes model`, and the gateway uses memory.* for Telegram session
+# continuity. Those features are gateway-only and out of scope for the
+# worker pin's invariants.
+#
+# Project-authoritative keys (must match between this pin and any worker home;
+# enforced by scripts/preflight at worker spawn time, task #6):
+#   memory.memory_enabled                 — must be false (statelessness)
+#   memory.user_profile_enabled           — must be false
+#   agent.disabled_toolsets               — must include memory, skills, cronjob, messaging
+#   agent.max_turns                       — bounds runaway loops
+#   compression.enabled                   — must be false (determinism)
+#   delegation.*                          — bounds worker spawning
+#   worktree                              — must be false
+#   approvals.mode                        — must be "off" (worker is autonomous)
+#   skills.guard_agent_created            — must be true (prevents auto-skill formation)
+#   terminal.backend, persistent_shell    — must be local + false
+#
+# User-tunable / Hermes-managed (drift on gateway is expected, irrelevant for worker):
+#   model.provider, model.default         — set by `hermes model` CLI
+#   display.*                             — cosmetic
+#   browser.*                             — gateway-only
+#   code_execution.*                      — bounds for worker but not statelessness-critical
 
 model:
-  provider: "alibaba"
-  default: "qwen3.7-max"
+  provider: "openrouter"
+  default: "google/gemini-2.5-flash"
   context_length: 1000000
 
-
-
-display:
-  inline_diffs: false
-  file_mutation_verifier: false
+providers:
+  openrouter:
+    base_url: "https://openrouter.ai/api/v1"
+    api_key: "${OPENROUTER_API_KEY}"
 
 memory:
   memory_enabled: false
@@ -35,7 +67,12 @@ terminal:
   persistent_shell: false
   timeout: 120
 
+# Merged from the previously-duplicated `display:` block at line 15
+# (YAML last-key-wins meant inline_diffs/file_mutation_verifier were
+# being silently ignored).
 display:
+  inline_diffs: false
+  file_mutation_verifier: false
   tool_progress: all
   show_cost: true
   streaming: false

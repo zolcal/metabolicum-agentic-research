@@ -3,45 +3,5501 @@
   "schema_version": "1",
   "language_default": "en",
   "entries": [
-    { "marker": "tg-hdl-ratio", "language": "en", "term": "TG/HDL ratio", "term_type": "primary" },
-    { "marker": "tg-hdl-ratio", "language": "en", "term": "TG/HDL", "term_type": "alias" },
-    { "marker": "tg-hdl-ratio", "language": "en", "term": "tg_hdl_ratio", "term_type": "alias" },
-    { "marker": "tg-hdl-ratio", "language": "en", "term": "tg-hdl", "term_type": "alias" },
-    { "marker": "tg-hdl-ratio", "language": "en", "term": "triglyceride to HDL ratio", "term_type": "colloquial" },
-    { "marker": "tg-hdl-ratio", "language": "en", "term": "triglyceride-HDL ratio", "term_type": "colloquial" },
-    { "marker": "tg-hdl-ratio", "language": "en", "term": "TG:HDL", "term_type": "alias" },
-
-    { "marker": "hba1c", "language": "en", "term": "HbA1c", "term_type": "primary" },
-    { "marker": "hba1c", "language": "en", "term": "A1C", "term_type": "abbreviation" },
-    { "marker": "hba1c", "language": "en", "term": "A1c", "term_type": "abbreviation" },
-    { "marker": "hba1c", "language": "en", "term": "hemoglobin A1c", "term_type": "alias" },
-    { "marker": "hba1c", "language": "en", "term": "haemoglobin A1c", "term_type": "alias" },
-    { "marker": "hba1c", "language": "en", "term": "glycated hemoglobin", "term_type": "colloquial" },
-    { "marker": "hba1c", "language": "en", "term": "glycohemoglobin", "term_type": "colloquial" },
-
-    { "marker": "apob", "language": "en", "term": "ApoB", "term_type": "primary" },
-    { "marker": "apob", "language": "en", "term": "apoB", "term_type": "alias" },
-    { "marker": "apob", "language": "en", "term": "Apo-B", "term_type": "alias" },
-    { "marker": "apob", "language": "en", "term": "apolipoprotein B", "term_type": "alias" },
-    { "marker": "apob", "language": "en", "term": "apolipoprotein-B", "term_type": "alias" },
-    { "marker": "apob", "language": "en", "term": "Apo B-100", "term_type": "colloquial" },
-
-    { "marker": "lpa", "language": "en", "term": "Lp(a)", "term_type": "primary" },
-    { "marker": "lpa", "language": "en", "term": "lipoprotein(a)", "term_type": "alias" },
-    { "marker": "lpa", "language": "en", "term": "lipoprotein a", "term_type": "alias" },
-    { "marker": "lpa", "language": "en", "term": "lp(a)", "term_type": "alias" },
-    { "marker": "lpa", "language": "en", "term": "lipoprotein little a", "term_type": "colloquial" },
-
-    { "marker": "fasting-insulin", "language": "en", "term": "fasting insulin", "term_type": "primary" },
-    { "marker": "fasting-insulin", "language": "en", "term": "FI", "term_type": "abbreviation" },
-    { "marker": "fasting-insulin", "language": "en", "term": "FINS", "term_type": "abbreviation" },
-    { "marker": "fasting-insulin", "language": "en", "term": "fasting serum insulin", "term_type": "alias" },
-    { "marker": "fasting-insulin", "language": "en", "term": "fasting plasma insulin", "term_type": "alias" },
-
-    { "marker": "homa-ir", "language": "en", "term": "HOMA-IR", "term_type": "primary" },
-    { "marker": "homa-ir", "language": "en", "term": "HOMA1-IR", "term_type": "alias" },
-    { "marker": "homa-ir", "language": "en", "term": "HOMA IR", "term_type": "alias" },
-    { "marker": "homa-ir", "language": "en", "term": "homeostatic model assessment", "term_type": "colloquial" },
-    { "marker": "homa-ir", "language": "en", "term": "insulin resistance index", "term_type": "colloquial" }
+    {
+      "marker": "tg-hdl-ratio",
+      "language": "en",
+      "term": "TG/HDL ratio",
+      "term_type": "primary"
+    },
+    {
+      "marker": "tg-hdl-ratio",
+      "language": "en",
+      "term": "TG/HDL",
+      "term_type": "alias"
+    },
+    {
+      "marker": "tg-hdl-ratio",
+      "language": "en",
+      "term": "tg_hdl_ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "tg-hdl-ratio",
+      "language": "en",
+      "term": "tg-hdl",
+      "term_type": "alias"
+    },
+    {
+      "marker": "tg-hdl-ratio",
+      "language": "en",
+      "term": "triglyceride to HDL ratio",
+      "term_type": "colloquial"
+    },
+    {
+      "marker": "tg-hdl-ratio",
+      "language": "en",
+      "term": "triglyceride-HDL ratio",
+      "term_type": "colloquial"
+    },
+    {
+      "marker": "tg-hdl-ratio",
+      "language": "en",
+      "term": "TG:HDL",
+      "term_type": "alias"
+    },
+    {
+      "marker": "hba1c",
+      "language": "en",
+      "term": "HbA1c",
+      "term_type": "primary"
+    },
+    {
+      "marker": "hba1c",
+      "language": "en",
+      "term": "A1C",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "hba1c",
+      "language": "en",
+      "term": "A1c",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "hba1c",
+      "language": "en",
+      "term": "hemoglobin A1c",
+      "term_type": "alias"
+    },
+    {
+      "marker": "hba1c",
+      "language": "en",
+      "term": "haemoglobin A1c",
+      "term_type": "alias"
+    },
+    {
+      "marker": "hba1c",
+      "language": "en",
+      "term": "glycated hemoglobin",
+      "term_type": "colloquial"
+    },
+    {
+      "marker": "hba1c",
+      "language": "en",
+      "term": "glycohemoglobin",
+      "term_type": "colloquial"
+    },
+    {
+      "marker": "apob",
+      "language": "en",
+      "term": "ApoB",
+      "term_type": "primary"
+    },
+    {
+      "marker": "apob",
+      "language": "en",
+      "term": "apoB",
+      "term_type": "alias"
+    },
+    {
+      "marker": "apob",
+      "language": "en",
+      "term": "Apo-B",
+      "term_type": "alias"
+    },
+    {
+      "marker": "apob",
+      "language": "en",
+      "term": "apolipoprotein B",
+      "term_type": "alias"
+    },
+    {
+      "marker": "apob",
+      "language": "en",
+      "term": "apolipoprotein-B",
+      "term_type": "alias"
+    },
+    {
+      "marker": "apob",
+      "language": "en",
+      "term": "Apo B-100",
+      "term_type": "colloquial"
+    },
+    {
+      "marker": "lpa",
+      "language": "en",
+      "term": "Lp(a)",
+      "term_type": "primary"
+    },
+    {
+      "marker": "lpa",
+      "language": "en",
+      "term": "lipoprotein(a)",
+      "term_type": "alias"
+    },
+    {
+      "marker": "lpa",
+      "language": "en",
+      "term": "lipoprotein a",
+      "term_type": "alias"
+    },
+    {
+      "marker": "lpa",
+      "language": "en",
+      "term": "lp(a)",
+      "term_type": "alias"
+    },
+    {
+      "marker": "lpa",
+      "language": "en",
+      "term": "lipoprotein little a",
+      "term_type": "colloquial"
+    },
+    {
+      "marker": "fasting-insulin",
+      "language": "en",
+      "term": "fasting insulin",
+      "term_type": "primary"
+    },
+    {
+      "marker": "fasting-insulin",
+      "language": "en",
+      "term": "FI",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "fasting-insulin",
+      "language": "en",
+      "term": "FINS",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "fasting-insulin",
+      "language": "en",
+      "term": "fasting serum insulin",
+      "term_type": "alias"
+    },
+    {
+      "marker": "fasting-insulin",
+      "language": "en",
+      "term": "fasting plasma insulin",
+      "term_type": "alias"
+    },
+    {
+      "marker": "homa-ir",
+      "language": "en",
+      "term": "HOMA-IR",
+      "term_type": "primary"
+    },
+    {
+      "marker": "homa-ir",
+      "language": "en",
+      "term": "HOMA1-IR",
+      "term_type": "alias"
+    },
+    {
+      "marker": "homa-ir",
+      "language": "en",
+      "term": "HOMA IR",
+      "term_type": "alias"
+    },
+    {
+      "marker": "homa-ir",
+      "language": "en",
+      "term": "homeostatic model assessment",
+      "term_type": "colloquial"
+    },
+    {
+      "marker": "homa-ir",
+      "language": "en",
+      "term": "insulin resistance index",
+      "term_type": "colloquial"
+    },
+    {
+      "marker": "igf-1",
+      "language": "en",
+      "term": "IGF-1",
+      "term_type": "primary"
+    },
+    {
+      "marker": "igf-1",
+      "language": "en",
+      "term": "IGF 1",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "igf-1",
+      "language": "en",
+      "term": "insulin-like growth factor 1",
+      "term_type": "alias"
+    },
+    {
+      "marker": "igf-1",
+      "language": "en",
+      "term": "insulin-like growth factor-1",
+      "term_type": "alias"
+    },
+    {
+      "marker": "igf-1",
+      "language": "en",
+      "term": "somatomedin C",
+      "term_type": "colloquial"
+    },
+    {
+      "marker": "vitamin-d",
+      "language": "en",
+      "term": "vitamin D",
+      "term_type": "primary"
+    },
+    {
+      "marker": "vitamin-d",
+      "language": "en",
+      "term": "vitamin-D",
+      "term_type": "primary"
+    },
+    {
+      "marker": "vitamin-d",
+      "language": "en",
+      "term": "25-hydroxyvitamin D",
+      "term_type": "alias"
+    },
+    {
+      "marker": "vitamin-d",
+      "language": "en",
+      "term": "25(OH)D",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "vitamin-d",
+      "language": "en",
+      "term": "cholecalciferol",
+      "term_type": "alias"
+    },
+    {
+      "marker": "crp-standard",
+      "language": "en",
+      "term": "CRP",
+      "term_type": "primary"
+    },
+    {
+      "marker": "crp-standard",
+      "language": "en",
+      "term": "C-reactive protein",
+      "term_type": "alias"
+    },
+    {
+      "marker": "crp-standard",
+      "language": "en",
+      "term": "C reactive protein",
+      "term_type": "alias"
+    },
+    {
+      "marker": "crp-standard",
+      "language": "en",
+      "term": "hs-CRP",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "crp-standard",
+      "language": "en",
+      "term": "high sensitivity CRP",
+      "term_type": "colloquial"
+    },
+    {
+      "marker": "hdl-cholesterol",
+      "language": "en",
+      "term": "HDL cholesterol",
+      "term_type": "primary"
+    },
+    {
+      "marker": "hdl-cholesterol",
+      "language": "en",
+      "term": "HDL-cholesterol",
+      "term_type": "primary"
+    },
+    {
+      "marker": "hdl-cholesterol",
+      "language": "en",
+      "term": "HDL-C",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "hdl-cholesterol",
+      "language": "en",
+      "term": "high density lipoprotein cholesterol",
+      "term_type": "alias"
+    },
+    {
+      "marker": "uric-acid",
+      "language": "en",
+      "term": "uric acid",
+      "term_type": "primary"
+    },
+    {
+      "marker": "uric-acid",
+      "language": "en",
+      "term": "uric-acid",
+      "term_type": "primary"
+    },
+    {
+      "marker": "uric-acid",
+      "language": "en",
+      "term": "urate",
+      "term_type": "alias"
+    },
+    {
+      "marker": "uric-acid",
+      "language": "en",
+      "term": "serum uric acid",
+      "term_type": "alias"
+    },
+    {
+      "marker": "fructosamine",
+      "language": "en",
+      "term": "fructosamine",
+      "term_type": "primary"
+    },
+    {
+      "marker": "fructosamine",
+      "language": "en",
+      "term": "serum fructosamine",
+      "term_type": "alias"
+    },
+    {
+      "marker": "fructosamine",
+      "language": "en",
+      "term": "glycated serum protein",
+      "term_type": "alias"
+    },
+    {
+      "marker": "15-ag",
+      "language": "en",
+      "term": "1,5-Anhydroglucitol",
+      "term_type": "primary"
+    },
+    {
+      "marker": "15-ag",
+      "language": "en",
+      "term": "15 ag",
+      "term_type": "alias"
+    },
+    {
+      "marker": "15-ag",
+      "language": "en",
+      "term": "15-AG",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "2h-pg",
+      "language": "en",
+      "term": "Postprandial Glucose (2-hour)",
+      "term_type": "primary"
+    },
+    {
+      "marker": "2h-pg",
+      "language": "en",
+      "term": "2-hour",
+      "term_type": "alias"
+    },
+    {
+      "marker": "2h-pg",
+      "language": "en",
+      "term": "Postprandial Glucose",
+      "term_type": "alias"
+    },
+    {
+      "marker": "2h-pg",
+      "language": "en",
+      "term": "2h pg",
+      "term_type": "alias"
+    },
+    {
+      "marker": "2h-pg",
+      "language": "en",
+      "term": "2H-PG",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "5-nt",
+      "language": "en",
+      "term": "5'-Nucleotidase",
+      "term_type": "primary"
+    },
+    {
+      "marker": "5-nt",
+      "language": "en",
+      "term": "5 nt",
+      "term_type": "alias"
+    },
+    {
+      "marker": "5-nt",
+      "language": "en",
+      "term": "5-NT",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "8-ohdg",
+      "language": "en",
+      "term": "8-OHdG",
+      "term_type": "primary"
+    },
+    {
+      "marker": "8-ohdg",
+      "language": "en",
+      "term": "8 ohdg",
+      "term_type": "alias"
+    },
+    {
+      "marker": "aaepa-ratio",
+      "language": "en",
+      "term": "AA/EPA Ratio",
+      "term_type": "primary"
+    },
+    {
+      "marker": "aaepa-ratio",
+      "language": "en",
+      "term": "aaepa ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "absolute-lymphocytes",
+      "language": "en",
+      "term": "Lymphocytes (Absolute)",
+      "term_type": "primary"
+    },
+    {
+      "marker": "absolute-lymphocytes",
+      "language": "en",
+      "term": "Absolute",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "absolute-lymphocytes",
+      "language": "en",
+      "term": "Lymphocytes",
+      "term_type": "alias"
+    },
+    {
+      "marker": "absolute-lymphocytes",
+      "language": "en",
+      "term": "absolute lymphocytes",
+      "term_type": "alias"
+    },
+    {
+      "marker": "absolute-neutrophils",
+      "language": "en",
+      "term": "Neutrophils (Absolute)",
+      "term_type": "primary"
+    },
+    {
+      "marker": "absolute-neutrophils",
+      "language": "en",
+      "term": "Absolute",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "absolute-neutrophils",
+      "language": "en",
+      "term": "Neutrophils",
+      "term_type": "alias"
+    },
+    {
+      "marker": "absolute-neutrophils",
+      "language": "en",
+      "term": "absolute neutrophils",
+      "term_type": "alias"
+    },
+    {
+      "marker": "acth",
+      "language": "en",
+      "term": "ACTH",
+      "term_type": "primary"
+    },
+    {
+      "marker": "adiponectin",
+      "language": "en",
+      "term": "Adiponectin",
+      "term_type": "primary"
+    },
+    {
+      "marker": "adiponectin-leptin-ratio",
+      "language": "en",
+      "term": "Adiponectin/Leptin Ratio",
+      "term_type": "primary"
+    },
+    {
+      "marker": "adiponectin-leptin-ratio",
+      "language": "en",
+      "term": "adiponectin leptin ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "adiponectin-leptin-ratio",
+      "language": "en",
+      "term": "Adiponectin to Leptin Ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "aip",
+      "language": "en",
+      "term": "AIP",
+      "term_type": "primary"
+    },
+    {
+      "marker": "aip",
+      "language": "en",
+      "term": "atherogenic index",
+      "term_type": "alias"
+    },
+    {
+      "marker": "aip",
+      "language": "en",
+      "term": "atherogenic index of plasma",
+      "term_type": "alias"
+    },
+    {
+      "marker": "albumin",
+      "language": "en",
+      "term": "albumin",
+      "term_type": "primary"
+    },
+    {
+      "marker": "albumin",
+      "language": "en",
+      "term": "serum albumin",
+      "term_type": "alias"
+    },
+    {
+      "marker": "albumin",
+      "language": "en",
+      "term": "liver protein",
+      "term_type": "alias"
+    },
+    {
+      "marker": "albuminglobulin-ratio",
+      "language": "en",
+      "term": "Albumin/Globulin Ratio",
+      "term_type": "primary"
+    },
+    {
+      "marker": "albuminglobulin-ratio",
+      "language": "en",
+      "term": "albuminglobulin ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "alc",
+      "language": "en",
+      "term": "Acetyl-L-Carnitine",
+      "term_type": "primary"
+    },
+    {
+      "marker": "alc",
+      "language": "en",
+      "term": "alc",
+      "term_type": "alias"
+    },
+    {
+      "marker": "aldosterone",
+      "language": "en",
+      "term": "Aldosterone",
+      "term_type": "primary"
+    },
+    {
+      "marker": "alp",
+      "language": "en",
+      "term": "ALP",
+      "term_type": "primary"
+    },
+    {
+      "marker": "alp",
+      "language": "en",
+      "term": "alkaline phosphatase",
+      "term_type": "alias"
+    },
+    {
+      "marker": "alp",
+      "language": "en",
+      "term": "alk phos",
+      "term_type": "alias"
+    },
+    {
+      "marker": "alt",
+      "language": "en",
+      "term": "ALT",
+      "term_type": "primary"
+    },
+    {
+      "marker": "alt",
+      "language": "en",
+      "term": "alanine aminotransferase",
+      "term_type": "alias"
+    },
+    {
+      "marker": "alt",
+      "language": "en",
+      "term": "SGPT",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "alt",
+      "language": "en",
+      "term": "liver enzyme",
+      "term_type": "alias"
+    },
+    {
+      "marker": "amh",
+      "language": "en",
+      "term": "Anti-Müllerian Hormone",
+      "term_type": "primary"
+    },
+    {
+      "marker": "amh",
+      "language": "en",
+      "term": "amh",
+      "term_type": "alias"
+    },
+    {
+      "marker": "amino-acid-profile-essential",
+      "language": "en",
+      "term": "Amino Acid Profile (Essential)",
+      "term_type": "primary"
+    },
+    {
+      "marker": "amino-acid-profile-essential",
+      "language": "en",
+      "term": "amino acid profile essential",
+      "term_type": "alias"
+    },
+    {
+      "marker": "amino-acid-profile-essential",
+      "language": "en",
+      "term": "Amino Acid Profile",
+      "term_type": "alias"
+    },
+    {
+      "marker": "amino-acid-profile-essential",
+      "language": "en",
+      "term": "Essential",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "ammonia",
+      "language": "en",
+      "term": "Ammonia",
+      "term_type": "primary"
+    },
+    {
+      "marker": "ana",
+      "language": "en",
+      "term": "Antinuclear Antibodies",
+      "term_type": "primary"
+    },
+    {
+      "marker": "ana",
+      "language": "en",
+      "term": "ana",
+      "term_type": "alias"
+    },
+    {
+      "marker": "anion-gap",
+      "language": "en",
+      "term": "Anion Gap",
+      "term_type": "primary"
+    },
+    {
+      "marker": "anti-ccp-2",
+      "language": "en",
+      "term": "Anti-CCP",
+      "term_type": "primary"
+    },
+    {
+      "marker": "anti-ccp-2",
+      "language": "en",
+      "term": "anti ccp 2",
+      "term_type": "alias"
+    },
+    {
+      "marker": "anti-ccp-2",
+      "language": "en",
+      "term": "ANTI-CCP-2",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "anti-dsdna",
+      "language": "en",
+      "term": "Anti-dsDNA",
+      "term_type": "primary"
+    },
+    {
+      "marker": "anti-dsdna",
+      "language": "en",
+      "term": "anti dsdna",
+      "term_type": "alias"
+    },
+    {
+      "marker": "antithrombin-iii",
+      "language": "en",
+      "term": "Antithrombin III",
+      "term_type": "primary"
+    },
+    {
+      "marker": "apoa1",
+      "language": "en",
+      "term": "ApoA1",
+      "term_type": "primary"
+    },
+    {
+      "marker": "apoa1",
+      "language": "en",
+      "term": "apolipoprotein A1",
+      "term_type": "alias"
+    },
+    {
+      "marker": "apoa1",
+      "language": "en",
+      "term": "apoA-I",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "apob-apoa1-ratio",
+      "language": "en",
+      "term": "ApoB/ApoA1 Ratio",
+      "term_type": "primary"
+    },
+    {
+      "marker": "apob-apoa1-ratio",
+      "language": "en",
+      "term": "apob apoa1 ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "apoc-iii",
+      "language": "en",
+      "term": "Apolipoprotein C-III",
+      "term_type": "primary"
+    },
+    {
+      "marker": "apoc-iii",
+      "language": "en",
+      "term": "apoc iii",
+      "term_type": "alias"
+    },
+    {
+      "marker": "apoc-iii",
+      "language": "en",
+      "term": "APOC-III",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "apoe",
+      "language": "en",
+      "term": "Apolipoprotein E",
+      "term_type": "primary"
+    },
+    {
+      "marker": "apoe",
+      "language": "en",
+      "term": "apoe",
+      "term_type": "alias"
+    },
+    {
+      "marker": "apri-score",
+      "language": "en",
+      "term": "APRI Score",
+      "term_type": "primary"
+    },
+    {
+      "marker": "aptt",
+      "language": "en",
+      "term": "Activated Partial Thromboplastin Time",
+      "term_type": "primary"
+    },
+    {
+      "marker": "aptt",
+      "language": "en",
+      "term": "aptt",
+      "term_type": "alias"
+    },
+    {
+      "marker": "arr-aldosterone-renin-ratio",
+      "language": "en",
+      "term": "ARR (Aldosterone/Renin Ratio)",
+      "term_type": "primary"
+    },
+    {
+      "marker": "arr-aldosterone-renin-ratio",
+      "language": "en",
+      "term": "arr aldosterone renin ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "arr-aldosterone-renin-ratio",
+      "language": "en",
+      "term": "ARR (Aldosterone to Renin Ratio)",
+      "term_type": "alias"
+    },
+    {
+      "marker": "arr-aldosterone-renin-ratio",
+      "language": "en",
+      "term": "ARR",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "arr-aldosterone-renin-ratio",
+      "language": "en",
+      "term": "Aldosterone/Renin Ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "arsenic-urine",
+      "language": "en",
+      "term": "Arsenic (Urine)",
+      "term_type": "primary"
+    },
+    {
+      "marker": "arsenic-urine",
+      "language": "en",
+      "term": "Urine",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "arsenic-urine",
+      "language": "en",
+      "term": "Arsenic",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "arsenic-urine",
+      "language": "en",
+      "term": "arsenic urine",
+      "term_type": "alias"
+    },
+    {
+      "marker": "ast",
+      "language": "en",
+      "term": "AST",
+      "term_type": "primary"
+    },
+    {
+      "marker": "ast",
+      "language": "en",
+      "term": "aspartate aminotransferase",
+      "term_type": "alias"
+    },
+    {
+      "marker": "ast",
+      "language": "en",
+      "term": "SGOT",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "ast",
+      "language": "en",
+      "term": "liver enzyme",
+      "term_type": "alias"
+    },
+    {
+      "marker": "astalt-ratio",
+      "language": "en",
+      "term": "AST/ALT Ratio",
+      "term_type": "primary"
+    },
+    {
+      "marker": "astalt-ratio",
+      "language": "en",
+      "term": "astalt ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "bard-score",
+      "language": "en",
+      "term": "BARD Score",
+      "term_type": "primary"
+    },
+    {
+      "marker": "basophils",
+      "language": "en",
+      "term": "Basophils (%)",
+      "term_type": "primary"
+    },
+    {
+      "marker": "basophils",
+      "language": "en",
+      "term": "%",
+      "term_type": "alias"
+    },
+    {
+      "marker": "basophils",
+      "language": "en",
+      "term": "Basophils",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "basophils-absolute",
+      "language": "en",
+      "term": "Basophils (Absolute)",
+      "term_type": "primary"
+    },
+    {
+      "marker": "basophils-absolute",
+      "language": "en",
+      "term": "Absolute",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "basophils-absolute",
+      "language": "en",
+      "term": "Basophils",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "basophils-absolute",
+      "language": "en",
+      "term": "basophils absolute",
+      "term_type": "alias"
+    },
+    {
+      "marker": "beta2m",
+      "language": "en",
+      "term": "Beta-2 Microglobulin",
+      "term_type": "primary"
+    },
+    {
+      "marker": "beta2m",
+      "language": "en",
+      "term": "beta2m",
+      "term_type": "alias"
+    },
+    {
+      "marker": "bicarbonate",
+      "language": "en",
+      "term": "Bicarbonate (Serum)",
+      "term_type": "primary"
+    },
+    {
+      "marker": "bicarbonate",
+      "language": "en",
+      "term": "Serum",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "bicarbonate",
+      "language": "en",
+      "term": "Bicarbonate",
+      "term_type": "alias"
+    },
+    {
+      "marker": "bilirubin-total",
+      "language": "en",
+      "term": "bilirubin",
+      "term_type": "primary"
+    },
+    {
+      "marker": "bilirubin-total",
+      "language": "en",
+      "term": "total bilirubin",
+      "term_type": "alias"
+    },
+    {
+      "marker": "bilirubin-total",
+      "language": "en",
+      "term": "serum bilirubin",
+      "term_type": "alias"
+    },
+    {
+      "marker": "bilirubin-total",
+      "language": "en",
+      "term": "bilirubin total",
+      "term_type": "alias"
+    },
+    {
+      "marker": "bio-t",
+      "language": "en",
+      "term": "Bioavailable Testosterone",
+      "term_type": "primary"
+    },
+    {
+      "marker": "bio-t",
+      "language": "en",
+      "term": "bio t",
+      "term_type": "alias"
+    },
+    {
+      "marker": "bio-t",
+      "language": "en",
+      "term": "BIO-T",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "bisphenol-a",
+      "language": "en",
+      "term": "Bisphenol A",
+      "term_type": "primary"
+    },
+    {
+      "marker": "bnp",
+      "language": "en",
+      "term": "BNP",
+      "term_type": "primary"
+    },
+    {
+      "marker": "bnp",
+      "language": "en",
+      "term": "B-type natriuretic peptide",
+      "term_type": "alias"
+    },
+    {
+      "marker": "bnp",
+      "language": "en",
+      "term": "brain natriuretic peptide",
+      "term_type": "alias"
+    },
+    {
+      "marker": "bnp",
+      "language": "en",
+      "term": "heart failure marker",
+      "term_type": "alias"
+    },
+    {
+      "marker": "body-adiposity-index",
+      "language": "en",
+      "term": "Body Adiposity Index",
+      "term_type": "primary"
+    },
+    {
+      "marker": "body-mass-index",
+      "language": "en",
+      "term": "BMI",
+      "term_type": "primary"
+    },
+    {
+      "marker": "body-mass-index",
+      "language": "en",
+      "term": "body mass index",
+      "term_type": "alias"
+    },
+    {
+      "marker": "bun",
+      "language": "en",
+      "term": "BUN",
+      "term_type": "primary"
+    },
+    {
+      "marker": "bun",
+      "language": "en",
+      "term": "blood urea nitrogen",
+      "term_type": "alias"
+    },
+    {
+      "marker": "bun",
+      "language": "en",
+      "term": "urea",
+      "term_type": "alias"
+    },
+    {
+      "marker": "bun",
+      "language": "en",
+      "term": "kidney function",
+      "term_type": "alias"
+    },
+    {
+      "marker": "buncreatinine-ratio",
+      "language": "en",
+      "term": "BUN/Creatinine Ratio",
+      "term_type": "primary"
+    },
+    {
+      "marker": "buncreatinine-ratio",
+      "language": "en",
+      "term": "buncreatinine ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "c-peptide-fasting",
+      "language": "en",
+      "term": "C-peptide",
+      "term_type": "primary"
+    },
+    {
+      "marker": "c-peptide-fasting",
+      "language": "en",
+      "term": "fasting C-peptide",
+      "term_type": "alias"
+    },
+    {
+      "marker": "c-peptide-fasting",
+      "language": "en",
+      "term": "insulin production",
+      "term_type": "alias"
+    },
+    {
+      "marker": "c-peptide-fasting",
+      "language": "en",
+      "term": "C-Peptide (Fasting)",
+      "term_type": "alias"
+    },
+    {
+      "marker": "c-peptide-fasting",
+      "language": "en",
+      "term": "Fasting",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "c-peptide-fasting",
+      "language": "en",
+      "term": "c peptide fasting",
+      "term_type": "alias"
+    },
+    {
+      "marker": "c-peptide-stimulated",
+      "language": "en",
+      "term": "C-Peptide (Stimulated)",
+      "term_type": "primary"
+    },
+    {
+      "marker": "c-peptide-stimulated",
+      "language": "en",
+      "term": "Stimulated",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "c-peptide-stimulated",
+      "language": "en",
+      "term": "C-Peptide",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "c-peptide-stimulated",
+      "language": "en",
+      "term": "c peptide stimulated",
+      "term_type": "alias"
+    },
+    {
+      "marker": "c3-complement",
+      "language": "en",
+      "term": "C3 Complement",
+      "term_type": "primary"
+    },
+    {
+      "marker": "c4-complement",
+      "language": "en",
+      "term": "C4 Complement",
+      "term_type": "primary"
+    },
+    {
+      "marker": "ca",
+      "language": "en",
+      "term": "Ionized Calcium",
+      "term_type": "primary"
+    },
+    {
+      "marker": "ca",
+      "language": "en",
+      "term": "ca",
+      "term_type": "alias"
+    },
+    {
+      "marker": "cadmium-blood",
+      "language": "en",
+      "term": "Cadmium (Blood)",
+      "term_type": "primary"
+    },
+    {
+      "marker": "cadmium-blood",
+      "language": "en",
+      "term": "Blood",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "cadmium-blood",
+      "language": "en",
+      "term": "Cadmium",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "cadmium-blood",
+      "language": "en",
+      "term": "cadmium blood",
+      "term_type": "alias"
+    },
+    {
+      "marker": "calcitriol",
+      "language": "en",
+      "term": "Vitamin D (1,25-OH)",
+      "term_type": "primary"
+    },
+    {
+      "marker": "calcitriol",
+      "language": "en",
+      "term": "1,25-OH",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "calcitriol",
+      "language": "en",
+      "term": "Vitamin D",
+      "term_type": "alias"
+    },
+    {
+      "marker": "calcitriol",
+      "language": "en",
+      "term": "calcitriol",
+      "term_type": "alias"
+    },
+    {
+      "marker": "calcitriol",
+      "language": "en",
+      "term": "vit D (1,25-OH)",
+      "term_type": "alias"
+    },
+    {
+      "marker": "calcium",
+      "language": "en",
+      "term": "Calcium (Serum)",
+      "term_type": "primary"
+    },
+    {
+      "marker": "calcium",
+      "language": "en",
+      "term": "Serum",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "calcium",
+      "language": "en",
+      "term": "Calcium",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "calcium-creatinine-ratio-urine",
+      "language": "en",
+      "term": "Calcium/Creatinine Ratio (urine)",
+      "term_type": "primary"
+    },
+    {
+      "marker": "calcium-creatinine-ratio-urine",
+      "language": "en",
+      "term": "calcium creatinine ratio urine",
+      "term_type": "alias"
+    },
+    {
+      "marker": "calcium-creatinine-ratio-urine",
+      "language": "en",
+      "term": "Calcium to Creatinine Ratio (urine)",
+      "term_type": "alias"
+    },
+    {
+      "marker": "calcium-creatinine-ratio-urine",
+      "language": "en",
+      "term": "Calcium/Creatinine Ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "calcium-creatinine-ratio-urine",
+      "language": "en",
+      "term": "urine",
+      "term_type": "alias"
+    },
+    {
+      "marker": "carnitine-total-and-free",
+      "language": "en",
+      "term": "Carnitine, Total & Free",
+      "term_type": "primary"
+    },
+    {
+      "marker": "carnitine-total-and-free",
+      "language": "en",
+      "term": "carnitine total and free",
+      "term_type": "alias"
+    },
+    {
+      "marker": "cat",
+      "language": "en",
+      "term": "Catalase",
+      "term_type": "primary"
+    },
+    {
+      "marker": "cat",
+      "language": "en",
+      "term": "cat",
+      "term_type": "alias"
+    },
+    {
+      "marker": "cec",
+      "language": "en",
+      "term": "Cholesterol Efflux Capacity",
+      "term_type": "primary"
+    },
+    {
+      "marker": "cec",
+      "language": "en",
+      "term": "cec",
+      "term_type": "alias"
+    },
+    {
+      "marker": "cetp-activity",
+      "language": "en",
+      "term": "CETP Activity",
+      "term_type": "primary"
+    },
+    {
+      "marker": "chloride",
+      "language": "en",
+      "term": "Chloride (Serum)",
+      "term_type": "primary"
+    },
+    {
+      "marker": "chloride",
+      "language": "en",
+      "term": "Serum",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "chloride",
+      "language": "en",
+      "term": "Chloride",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "ck",
+      "language": "en",
+      "term": "Creatine Kinase",
+      "term_type": "primary"
+    },
+    {
+      "marker": "ck",
+      "language": "en",
+      "term": "ck",
+      "term_type": "alias"
+    },
+    {
+      "marker": "ck-mb",
+      "language": "en",
+      "term": "CK-MB",
+      "term_type": "primary"
+    },
+    {
+      "marker": "ck-mb",
+      "language": "en",
+      "term": "ck mb",
+      "term_type": "alias"
+    },
+    {
+      "marker": "copper-zinc-ratio",
+      "language": "en",
+      "term": "Copper/Zinc Ratio",
+      "term_type": "primary"
+    },
+    {
+      "marker": "copper-zinc-ratio",
+      "language": "en",
+      "term": "copper zinc ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "copper-zinc-ratio",
+      "language": "en",
+      "term": "Copper to Zinc Ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "coq10",
+      "language": "en",
+      "term": "CoQ10",
+      "term_type": "primary"
+    },
+    {
+      "marker": "coq10",
+      "language": "en",
+      "term": "coenzyme Q10",
+      "term_type": "alias"
+    },
+    {
+      "marker": "coq10",
+      "language": "en",
+      "term": "ubiquinone",
+      "term_type": "alias"
+    },
+    {
+      "marker": "coq10",
+      "language": "en",
+      "term": "ubiquinol",
+      "term_type": "alias"
+    },
+    {
+      "marker": "corrected-calcium",
+      "language": "en",
+      "term": "Corrected Calcium",
+      "term_type": "primary"
+    },
+    {
+      "marker": "corrected-sodium-hyperglycemia",
+      "language": "en",
+      "term": "Corrected Sodium (hyperglycemia)",
+      "term_type": "primary"
+    },
+    {
+      "marker": "corrected-sodium-hyperglycemia",
+      "language": "en",
+      "term": "corrected sodium hyperglycemia",
+      "term_type": "alias"
+    },
+    {
+      "marker": "corrected-sodium-hyperglycemia",
+      "language": "en",
+      "term": "Corrected Sodium",
+      "term_type": "alias"
+    },
+    {
+      "marker": "corrected-sodium-hyperglycemia",
+      "language": "en",
+      "term": "hyperglycemia",
+      "term_type": "alias"
+    },
+    {
+      "marker": "cortisol-acth-ratio",
+      "language": "en",
+      "term": "Cortisol / ACTH Ratio",
+      "term_type": "primary"
+    },
+    {
+      "marker": "cortisol-acth-ratio",
+      "language": "en",
+      "term": "cortisol acth ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "cortisol-acth-ratio",
+      "language": "en",
+      "term": "Cortisol/ACTH Ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "cortisol-acth-ratio",
+      "language": "en",
+      "term": "Cortisol  to  ACTH Ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "cortisol-am",
+      "language": "en",
+      "term": "cortisol",
+      "term_type": "primary"
+    },
+    {
+      "marker": "cortisol-am",
+      "language": "en",
+      "term": "morning cortisol",
+      "term_type": "alias"
+    },
+    {
+      "marker": "cortisol-am",
+      "language": "en",
+      "term": "AM cortisol",
+      "term_type": "alias"
+    },
+    {
+      "marker": "cortisol-am",
+      "language": "en",
+      "term": "stress hormone",
+      "term_type": "alias"
+    },
+    {
+      "marker": "cortisol-am",
+      "language": "en",
+      "term": "Cortisol (AM)",
+      "term_type": "alias"
+    },
+    {
+      "marker": "cortisol-am",
+      "language": "en",
+      "term": "AM",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "cortisol-am",
+      "language": "en",
+      "term": "cortisol am",
+      "term_type": "alias"
+    },
+    {
+      "marker": "cortisol-awakening-response",
+      "language": "en",
+      "term": "Cortisol Awakening Response",
+      "term_type": "primary"
+    },
+    {
+      "marker": "cortisol-pm",
+      "language": "en",
+      "term": "Cortisol (PM)",
+      "term_type": "primary"
+    },
+    {
+      "marker": "cortisol-pm",
+      "language": "en",
+      "term": "PM",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "cortisol-pm",
+      "language": "en",
+      "term": "Cortisol",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "cortisol-pm",
+      "language": "en",
+      "term": "cortisol pm",
+      "term_type": "alias"
+    },
+    {
+      "marker": "cotinine",
+      "language": "en",
+      "term": "Cotinine",
+      "term_type": "primary"
+    },
+    {
+      "marker": "creatinine",
+      "language": "en",
+      "term": "creatinine",
+      "term_type": "primary"
+    },
+    {
+      "marker": "creatinine",
+      "language": "en",
+      "term": "serum creatinine",
+      "term_type": "alias"
+    },
+    {
+      "marker": "creatinine",
+      "language": "en",
+      "term": "SCr",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "creatinine",
+      "language": "en",
+      "term": "kidney function",
+      "term_type": "alias"
+    },
+    {
+      "marker": "ctni",
+      "language": "en",
+      "term": "troponin I",
+      "term_type": "primary"
+    },
+    {
+      "marker": "ctni",
+      "language": "en",
+      "term": "cTnI",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "ctni",
+      "language": "en",
+      "term": "cardiac troponin",
+      "term_type": "alias"
+    },
+    {
+      "marker": "ctni",
+      "language": "en",
+      "term": "heart attack marker",
+      "term_type": "alias"
+    },
+    {
+      "marker": "ctnt",
+      "language": "en",
+      "term": "troponin T",
+      "term_type": "primary"
+    },
+    {
+      "marker": "ctnt",
+      "language": "en",
+      "term": "cTnT",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "ctnt",
+      "language": "en",
+      "term": "cardiac troponin",
+      "term_type": "alias"
+    },
+    {
+      "marker": "ctx",
+      "language": "en",
+      "term": "C-Terminal Telopeptide",
+      "term_type": "primary"
+    },
+    {
+      "marker": "ctx",
+      "language": "en",
+      "term": "ctx",
+      "term_type": "alias"
+    },
+    {
+      "marker": "cu",
+      "language": "en",
+      "term": "Copper (Serum)",
+      "term_type": "primary"
+    },
+    {
+      "marker": "cu",
+      "language": "en",
+      "term": "Serum",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "cu",
+      "language": "en",
+      "term": "Copper",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "cu",
+      "language": "en",
+      "term": "cu",
+      "term_type": "alias"
+    },
+    {
+      "marker": "cystatin-c",
+      "language": "en",
+      "term": "cystatin C",
+      "term_type": "primary"
+    },
+    {
+      "marker": "cystatin-c",
+      "language": "en",
+      "term": "cystatin-C",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "cystatin-c",
+      "language": "en",
+      "term": "CysC",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "cystatin-c",
+      "language": "en",
+      "term": "kidney function marker",
+      "term_type": "alias"
+    },
+    {
+      "marker": "d-dimer",
+      "language": "en",
+      "term": "D-Dimer",
+      "term_type": "primary"
+    },
+    {
+      "marker": "d-dimer",
+      "language": "en",
+      "term": "d dimer",
+      "term_type": "alias"
+    },
+    {
+      "marker": "dhea",
+      "language": "en",
+      "term": "DHEA",
+      "term_type": "primary"
+    },
+    {
+      "marker": "dhea-s",
+      "language": "en",
+      "term": "DHEA-S",
+      "term_type": "primary"
+    },
+    {
+      "marker": "dhea-s",
+      "language": "en",
+      "term": "DHEA sulfate",
+      "term_type": "alias"
+    },
+    {
+      "marker": "dhea-s",
+      "language": "en",
+      "term": "dehydroepiandrosterone sulfate",
+      "term_type": "alias"
+    },
+    {
+      "marker": "dhea-s",
+      "language": "en",
+      "term": "adrenal hormone",
+      "term_type": "alias"
+    },
+    {
+      "marker": "dhea-s",
+      "language": "en",
+      "term": "dhea s",
+      "term_type": "alias"
+    },
+    {
+      "marker": "dheacortisol-ratio",
+      "language": "en",
+      "term": "DHEA/Cortisol Ratio",
+      "term_type": "primary"
+    },
+    {
+      "marker": "dheacortisol-ratio",
+      "language": "en",
+      "term": "dheacortisol ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "dht",
+      "language": "en",
+      "term": "Dihydrotestosterone",
+      "term_type": "primary"
+    },
+    {
+      "marker": "dht",
+      "language": "en",
+      "term": "dht",
+      "term_type": "alias"
+    },
+    {
+      "marker": "direct-bilirubin",
+      "language": "en",
+      "term": "Direct Bilirubin",
+      "term_type": "primary"
+    },
+    {
+      "marker": "disposition-index",
+      "language": "en",
+      "term": "disposition index",
+      "term_type": "primary"
+    },
+    {
+      "marker": "disposition-index",
+      "language": "en",
+      "term": "beta cell compensation",
+      "term_type": "alias"
+    },
+    {
+      "marker": "disposition-index",
+      "language": "en",
+      "term": "insulin secretion capacity",
+      "term_type": "alias"
+    },
+    {
+      "marker": "diurnal-cortisol-slope",
+      "language": "en",
+      "term": "Diurnal Cortisol Slope",
+      "term_type": "primary"
+    },
+    {
+      "marker": "e1",
+      "language": "en",
+      "term": "Estrone",
+      "term_type": "primary"
+    },
+    {
+      "marker": "e1",
+      "language": "en",
+      "term": "e1",
+      "term_type": "alias"
+    },
+    {
+      "marker": "e3",
+      "language": "en",
+      "term": "Estriol",
+      "term_type": "primary"
+    },
+    {
+      "marker": "e3",
+      "language": "en",
+      "term": "e3",
+      "term_type": "alias"
+    },
+    {
+      "marker": "eag",
+      "language": "en",
+      "term": "eAG",
+      "term_type": "primary"
+    },
+    {
+      "marker": "eag",
+      "language": "en",
+      "term": "estimated average glucose",
+      "term_type": "alias"
+    },
+    {
+      "marker": "eag",
+      "language": "en",
+      "term": "average blood sugar",
+      "term_type": "alias"
+    },
+    {
+      "marker": "eag",
+      "language": "en",
+      "term": "Estimated Average Glucose (eAG)",
+      "term_type": "alias"
+    },
+    {
+      "marker": "ecp",
+      "language": "en",
+      "term": "Eosinophil Cationic Protein",
+      "term_type": "primary"
+    },
+    {
+      "marker": "ecp",
+      "language": "en",
+      "term": "ecp",
+      "term_type": "alias"
+    },
+    {
+      "marker": "egfr",
+      "language": "en",
+      "term": "eGFR",
+      "term_type": "primary"
+    },
+    {
+      "marker": "egfr",
+      "language": "en",
+      "term": "GFR",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "egfr",
+      "language": "en",
+      "term": "glomerular filtration rate",
+      "term_type": "alias"
+    },
+    {
+      "marker": "egfr",
+      "language": "en",
+      "term": "kidney function",
+      "term_type": "alias"
+    },
+    {
+      "marker": "egfr",
+      "language": "en",
+      "term": "renal function",
+      "term_type": "alias"
+    },
+    {
+      "marker": "egfr",
+      "language": "en",
+      "term": "CKD-EPI",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "egfr",
+      "language": "en",
+      "term": "Estimated GFR (CKD-EPI)",
+      "term_type": "alias"
+    },
+    {
+      "marker": "egfr",
+      "language": "en",
+      "term": "Estimated GFR",
+      "term_type": "alias"
+    },
+    {
+      "marker": "eosinophils",
+      "language": "en",
+      "term": "Eosinophils (%)",
+      "term_type": "primary"
+    },
+    {
+      "marker": "eosinophils",
+      "language": "en",
+      "term": "%",
+      "term_type": "alias"
+    },
+    {
+      "marker": "eosinophils",
+      "language": "en",
+      "term": "Eosinophils",
+      "term_type": "alias"
+    },
+    {
+      "marker": "eosinophils-absolute",
+      "language": "en",
+      "term": "Eosinophils (Absolute)",
+      "term_type": "primary"
+    },
+    {
+      "marker": "eosinophils-absolute",
+      "language": "en",
+      "term": "Absolute",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "eosinophils-absolute",
+      "language": "en",
+      "term": "Eosinophils",
+      "term_type": "alias"
+    },
+    {
+      "marker": "eosinophils-absolute",
+      "language": "en",
+      "term": "eosinophils absolute",
+      "term_type": "alias"
+    },
+    {
+      "marker": "esr",
+      "language": "en",
+      "term": "ESR",
+      "term_type": "primary"
+    },
+    {
+      "marker": "esr",
+      "language": "en",
+      "term": "sed rate",
+      "term_type": "alias"
+    },
+    {
+      "marker": "esr",
+      "language": "en",
+      "term": "sedimentation rate",
+      "term_type": "alias"
+    },
+    {
+      "marker": "esr",
+      "language": "en",
+      "term": "erythrocyte sedimentation",
+      "term_type": "alias"
+    },
+    {
+      "marker": "esr",
+      "language": "en",
+      "term": "Erythrocyte Sedimentation Rate",
+      "term_type": "alias"
+    },
+    {
+      "marker": "estimated-gfr-cystatin-c",
+      "language": "en",
+      "term": "eGFR",
+      "term_type": "primary"
+    },
+    {
+      "marker": "estimated-gfr-cystatin-c",
+      "language": "en",
+      "term": "GFR cystatin",
+      "term_type": "alias"
+    },
+    {
+      "marker": "estimated-gfr-cystatin-c",
+      "language": "en",
+      "term": "cystatin C GFR",
+      "term_type": "alias"
+    },
+    {
+      "marker": "estimated-gfr-cystatin-c",
+      "language": "en",
+      "term": "kidney function",
+      "term_type": "alias"
+    },
+    {
+      "marker": "estimated-gfr-cystatin-c",
+      "language": "en",
+      "term": "Estimated GFR (Cystatin C)",
+      "term_type": "alias"
+    },
+    {
+      "marker": "estimated-gfr-cystatin-c",
+      "language": "en",
+      "term": "Cystatin C",
+      "term_type": "alias"
+    },
+    {
+      "marker": "estimated-gfr-cystatin-c",
+      "language": "en",
+      "term": "Estimated GFR",
+      "term_type": "alias"
+    },
+    {
+      "marker": "estimated-gfr-cystatin-c",
+      "language": "en",
+      "term": "estimated gfr cystatin c",
+      "term_type": "alias"
+    },
+    {
+      "marker": "estimated-gfr-mdrd",
+      "language": "en",
+      "term": "eGFR",
+      "term_type": "primary"
+    },
+    {
+      "marker": "estimated-gfr-mdrd",
+      "language": "en",
+      "term": "GFR",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "estimated-gfr-mdrd",
+      "language": "en",
+      "term": "MDRD",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "estimated-gfr-mdrd",
+      "language": "en",
+      "term": "kidney function",
+      "term_type": "alias"
+    },
+    {
+      "marker": "estimated-gfr-mdrd",
+      "language": "en",
+      "term": "Estimated GFR (MDRD)",
+      "term_type": "alias"
+    },
+    {
+      "marker": "estimated-gfr-mdrd",
+      "language": "en",
+      "term": "Estimated GFR",
+      "term_type": "alias"
+    },
+    {
+      "marker": "estimated-gfr-mdrd",
+      "language": "en",
+      "term": "estimated gfr mdrd",
+      "term_type": "alias"
+    },
+    {
+      "marker": "estimated-glucose-disposal-rate",
+      "language": "en",
+      "term": "Estimated Glucose Disposal Rate",
+      "term_type": "primary"
+    },
+    {
+      "marker": "estradiol",
+      "language": "en",
+      "term": "estradiol",
+      "term_type": "primary"
+    },
+    {
+      "marker": "estradiol",
+      "language": "en",
+      "term": "E2",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "estradiol",
+      "language": "en",
+      "term": "estrogen",
+      "term_type": "alias"
+    },
+    {
+      "marker": "f2-isoprostanes",
+      "language": "en",
+      "term": "F2-Isoprostanes",
+      "term_type": "primary"
+    },
+    {
+      "marker": "f2-isoprostanes",
+      "language": "en",
+      "term": "f2 isoprostanes",
+      "term_type": "alias"
+    },
+    {
+      "marker": "fasting-glucose",
+      "language": "en",
+      "term": "fasting glucose",
+      "term_type": "primary"
+    },
+    {
+      "marker": "fasting-glucose",
+      "language": "en",
+      "term": "blood sugar",
+      "term_type": "alias"
+    },
+    {
+      "marker": "fasting-glucose",
+      "language": "en",
+      "term": "fasting blood sugar",
+      "term_type": "alias"
+    },
+    {
+      "marker": "fasting-glucose",
+      "language": "en",
+      "term": "FBG",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "fasting-glucose",
+      "language": "en",
+      "term": "blood glucose",
+      "term_type": "alias"
+    },
+    {
+      "marker": "fecal-calprotectin",
+      "language": "en",
+      "term": "Fecal Calprotectin",
+      "term_type": "primary"
+    },
+    {
+      "marker": "ferritin",
+      "language": "en",
+      "term": "ferritin",
+      "term_type": "primary"
+    },
+    {
+      "marker": "ferritin",
+      "language": "en",
+      "term": "iron storage",
+      "term_type": "alias"
+    },
+    {
+      "marker": "ferritin",
+      "language": "en",
+      "term": "serum ferritin",
+      "term_type": "alias"
+    },
+    {
+      "marker": "ferritin",
+      "language": "en",
+      "term": "iron overload",
+      "term_type": "alias"
+    },
+    {
+      "marker": "fgf-21",
+      "language": "en",
+      "term": "Fibroblast Growth Factor-21",
+      "term_type": "primary"
+    },
+    {
+      "marker": "fgf-21",
+      "language": "en",
+      "term": "fgf 21",
+      "term_type": "alias"
+    },
+    {
+      "marker": "fgf-21",
+      "language": "en",
+      "term": "FGF-21",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "fib-4",
+      "language": "en",
+      "term": "FIB-4 Index",
+      "term_type": "primary"
+    },
+    {
+      "marker": "fib-4",
+      "language": "en",
+      "term": "fib 4",
+      "term_type": "alias"
+    },
+    {
+      "marker": "fib-4",
+      "language": "en",
+      "term": "FIB-4",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "fibrinogen",
+      "language": "en",
+      "term": "fibrinogen",
+      "term_type": "primary"
+    },
+    {
+      "marker": "fibrinogen",
+      "language": "en",
+      "term": "clotting factor",
+      "term_type": "alias"
+    },
+    {
+      "marker": "fibrinogen",
+      "language": "en",
+      "term": "coagulation marker",
+      "term_type": "alias"
+    },
+    {
+      "marker": "fli",
+      "language": "en",
+      "term": "Fatty Liver Index",
+      "term_type": "primary"
+    },
+    {
+      "marker": "fli",
+      "language": "en",
+      "term": "fli",
+      "term_type": "alias"
+    },
+    {
+      "marker": "folate-serum",
+      "language": "en",
+      "term": "folate",
+      "term_type": "primary"
+    },
+    {
+      "marker": "folate-serum",
+      "language": "en",
+      "term": "folic acid",
+      "term_type": "alias"
+    },
+    {
+      "marker": "folate-serum",
+      "language": "en",
+      "term": "vitamin B9",
+      "term_type": "alias"
+    },
+    {
+      "marker": "folate-serum",
+      "language": "en",
+      "term": "serum folate",
+      "term_type": "alias"
+    },
+    {
+      "marker": "folate-serum",
+      "language": "en",
+      "term": "Folate (Serum)",
+      "term_type": "alias"
+    },
+    {
+      "marker": "folate-serum",
+      "language": "en",
+      "term": "Serum",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "folate-serum",
+      "language": "en",
+      "term": "folate serum",
+      "term_type": "alias"
+    },
+    {
+      "marker": "free-carnitine",
+      "language": "en",
+      "term": "Carnitine (Free)",
+      "term_type": "primary"
+    },
+    {
+      "marker": "free-carnitine",
+      "language": "en",
+      "term": "Free",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "free-carnitine",
+      "language": "en",
+      "term": "Carnitine",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "free-carnitine",
+      "language": "en",
+      "term": "free carnitine",
+      "term_type": "alias"
+    },
+    {
+      "marker": "free-carnitineacetyl-carnitine-ratio",
+      "language": "en",
+      "term": "Free Carnitine/Acetyl-Carnitine Ratio",
+      "term_type": "primary"
+    },
+    {
+      "marker": "free-carnitineacetyl-carnitine-ratio",
+      "language": "en",
+      "term": "free carnitineacetyl carnitine ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "free-carnitineacetyl-carnitine-ratio",
+      "language": "en",
+      "term": "Carnitine/Acetyl-Carnitine Ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "free-t3",
+      "language": "en",
+      "term": "free T3",
+      "term_type": "primary"
+    },
+    {
+      "marker": "free-t3",
+      "language": "en",
+      "term": "FT3",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "free-t3",
+      "language": "en",
+      "term": "triiodothyronine",
+      "term_type": "alias"
+    },
+    {
+      "marker": "free-t3",
+      "language": "en",
+      "term": "active thyroid hormone",
+      "term_type": "alias"
+    },
+    {
+      "marker": "free-t3",
+      "language": "en",
+      "term": "FREE-T3",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "free-t3",
+      "language": "en",
+      "term": "T3",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "free-t3free-t4-ratio",
+      "language": "en",
+      "term": "Free T3/Free T4 Ratio",
+      "term_type": "primary"
+    },
+    {
+      "marker": "free-t3free-t4-ratio",
+      "language": "en",
+      "term": "free t3free t4 ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "free-t3free-t4-ratio",
+      "language": "en",
+      "term": "T3/T4 Ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "free-t4",
+      "language": "en",
+      "term": "free T4",
+      "term_type": "primary"
+    },
+    {
+      "marker": "free-t4",
+      "language": "en",
+      "term": "FT4",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "free-t4",
+      "language": "en",
+      "term": "thyroxine",
+      "term_type": "alias"
+    },
+    {
+      "marker": "free-t4",
+      "language": "en",
+      "term": "thyroid hormone",
+      "term_type": "alias"
+    },
+    {
+      "marker": "free-t4",
+      "language": "en",
+      "term": "FREE-T4",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "free-t4",
+      "language": "en",
+      "term": "T4",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "free-testosterone",
+      "language": "en",
+      "term": "free testosterone",
+      "term_type": "primary"
+    },
+    {
+      "marker": "free-testosterone",
+      "language": "en",
+      "term": "bioavailable T",
+      "term_type": "alias"
+    },
+    {
+      "marker": "free-testosterone",
+      "language": "en",
+      "term": "free T",
+      "term_type": "alias"
+    },
+    {
+      "marker": "free-testosterone",
+      "language": "en",
+      "term": "Testosterone",
+      "term_type": "alias"
+    },
+    {
+      "marker": "free-testosterone-index",
+      "language": "en",
+      "term": "Free Testosterone Index",
+      "term_type": "primary"
+    },
+    {
+      "marker": "fsh",
+      "language": "en",
+      "term": "Follicle Stimulating Hormone",
+      "term_type": "primary"
+    },
+    {
+      "marker": "fsh",
+      "language": "en",
+      "term": "fsh",
+      "term_type": "alias"
+    },
+    {
+      "marker": "ft4ft3-ratio",
+      "language": "en",
+      "term": "FT4/FT3 Ratio",
+      "term_type": "primary"
+    },
+    {
+      "marker": "ft4ft3-ratio",
+      "language": "en",
+      "term": "ft4ft3 ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "galectin-3",
+      "language": "en",
+      "term": "Galectin-3",
+      "term_type": "primary"
+    },
+    {
+      "marker": "galectin-3",
+      "language": "en",
+      "term": "galectin 3",
+      "term_type": "alias"
+    },
+    {
+      "marker": "gdf-15",
+      "language": "en",
+      "term": "Growth Differentiation Factor-15",
+      "term_type": "primary"
+    },
+    {
+      "marker": "gdf-15",
+      "language": "en",
+      "term": "gdf 15",
+      "term_type": "alias"
+    },
+    {
+      "marker": "gdf-15",
+      "language": "en",
+      "term": "GDF-15",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "ggt",
+      "language": "en",
+      "term": "GGT",
+      "term_type": "primary"
+    },
+    {
+      "marker": "ggt",
+      "language": "en",
+      "term": "gamma GT",
+      "term_type": "alias"
+    },
+    {
+      "marker": "ggt",
+      "language": "en",
+      "term": "gamma-glutamyl transferase",
+      "term_type": "alias"
+    },
+    {
+      "marker": "ggt",
+      "language": "en",
+      "term": "liver enzyme",
+      "term_type": "alias"
+    },
+    {
+      "marker": "globulin",
+      "language": "en",
+      "term": "Globulin",
+      "term_type": "primary"
+    },
+    {
+      "marker": "glutathione-oxidized-gssg",
+      "language": "en",
+      "term": "Glutathione (Oxidized)",
+      "term_type": "primary"
+    },
+    {
+      "marker": "glutathione-oxidized-gssg",
+      "language": "en",
+      "term": "Oxidized",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "glutathione-oxidized-gssg",
+      "language": "en",
+      "term": "Glutathione",
+      "term_type": "alias"
+    },
+    {
+      "marker": "glutathione-oxidized-gssg",
+      "language": "en",
+      "term": "glutathione oxidized gssg",
+      "term_type": "alias"
+    },
+    {
+      "marker": "glutathione-reduced-gsh",
+      "language": "en",
+      "term": "Glutathione (Reduced)",
+      "term_type": "primary"
+    },
+    {
+      "marker": "glutathione-reduced-gsh",
+      "language": "en",
+      "term": "Reduced",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "glutathione-reduced-gsh",
+      "language": "en",
+      "term": "Glutathione",
+      "term_type": "alias"
+    },
+    {
+      "marker": "glutathione-reduced-gsh",
+      "language": "en",
+      "term": "glutathione reduced gsh",
+      "term_type": "alias"
+    },
+    {
+      "marker": "glyphosate",
+      "language": "en",
+      "term": "Glyphosate",
+      "term_type": "primary"
+    },
+    {
+      "marker": "gpx",
+      "language": "en",
+      "term": "Glutathione Peroxidase",
+      "term_type": "primary"
+    },
+    {
+      "marker": "gpx",
+      "language": "en",
+      "term": "gpx",
+      "term_type": "alias"
+    },
+    {
+      "marker": "gsh-gssg-ratio",
+      "language": "en",
+      "term": "GSH/GSSG Ratio",
+      "term_type": "primary"
+    },
+    {
+      "marker": "gsh-gssg-ratio",
+      "language": "en",
+      "term": "gsh gssg ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "hdl-p",
+      "language": "en",
+      "term": "HDL Particle Number",
+      "term_type": "primary"
+    },
+    {
+      "marker": "hdl-p",
+      "language": "en",
+      "term": "hdl p",
+      "term_type": "alias"
+    },
+    {
+      "marker": "hdl-p",
+      "language": "en",
+      "term": "HDL-P",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "hematocrit",
+      "language": "en",
+      "term": "hematocrit",
+      "term_type": "primary"
+    },
+    {
+      "marker": "hematocrit",
+      "language": "en",
+      "term": "Hct",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "hematocrit",
+      "language": "en",
+      "term": "packed cell volume",
+      "term_type": "alias"
+    },
+    {
+      "marker": "hemoglobin",
+      "language": "en",
+      "term": "hemoglobin",
+      "term_type": "primary"
+    },
+    {
+      "marker": "hemoglobin",
+      "language": "en",
+      "term": "Hgb",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "hemoglobin",
+      "language": "en",
+      "term": "Hb",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "hepatic-steatosis-index",
+      "language": "en",
+      "term": "Hepatic Steatosis Index",
+      "term_type": "primary"
+    },
+    {
+      "marker": "hmgcr-antibody-igg",
+      "language": "en",
+      "term": "HMGCR Antibody (IgG)",
+      "term_type": "primary"
+    },
+    {
+      "marker": "hmgcr-antibody-igg",
+      "language": "en",
+      "term": "hmgcr antibody igg",
+      "term_type": "alias"
+    },
+    {
+      "marker": "hmgcr-antibody-igg",
+      "language": "en",
+      "term": "HMGCR Antibody",
+      "term_type": "alias"
+    },
+    {
+      "marker": "hmgcr-antibody-igg",
+      "language": "en",
+      "term": "IgG",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "holotranscobalamin",
+      "language": "en",
+      "term": "Holotranscobalamin",
+      "term_type": "primary"
+    },
+    {
+      "marker": "homa-b",
+      "language": "en",
+      "term": "HOMA-B",
+      "term_type": "primary"
+    },
+    {
+      "marker": "homa-b",
+      "language": "en",
+      "term": "HOMA-beta",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "homa-b",
+      "language": "en",
+      "term": "beta cell function",
+      "term_type": "alias"
+    },
+    {
+      "marker": "homa-b",
+      "language": "en",
+      "term": "insulin secretion",
+      "term_type": "alias"
+    },
+    {
+      "marker": "homa-b",
+      "language": "en",
+      "term": "homa b",
+      "term_type": "alias"
+    },
+    {
+      "marker": "homocysteine",
+      "language": "en",
+      "term": "homocysteine",
+      "term_type": "primary"
+    },
+    {
+      "marker": "homocysteine",
+      "language": "en",
+      "term": "Hcy",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "homocysteine",
+      "language": "en",
+      "term": "methylation marker",
+      "term_type": "alias"
+    },
+    {
+      "marker": "homocysteine-b12-ratio",
+      "language": "en",
+      "term": "Homocysteine/B12 Ratio",
+      "term_type": "primary"
+    },
+    {
+      "marker": "homocysteine-b12-ratio",
+      "language": "en",
+      "term": "homocysteine b12 ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "homocysteine-b12-ratio",
+      "language": "en",
+      "term": "Homocysteine to B12 Ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "homocysteine-folate-ratio",
+      "language": "en",
+      "term": "Homocysteine/Folate Ratio",
+      "term_type": "primary"
+    },
+    {
+      "marker": "homocysteine-folate-ratio",
+      "language": "en",
+      "term": "homocysteine folate ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "homocysteine-folate-ratio",
+      "language": "en",
+      "term": "Homocysteine to Folate Ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "hscrp",
+      "language": "en",
+      "term": "hsCRP",
+      "term_type": "primary"
+    },
+    {
+      "marker": "hscrp",
+      "language": "en",
+      "term": "CRP",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "hscrp",
+      "language": "en",
+      "term": "C-reactive protein",
+      "term_type": "alias"
+    },
+    {
+      "marker": "hscrp",
+      "language": "en",
+      "term": "high-sensitivity CRP",
+      "term_type": "alias"
+    },
+    {
+      "marker": "hscrp",
+      "language": "en",
+      "term": "inflammation marker",
+      "term_type": "alias"
+    },
+    {
+      "marker": "hscrp",
+      "language": "en",
+      "term": "High-Sensitivity C-Reactive Protein",
+      "term_type": "alias"
+    },
+    {
+      "marker": "i-fabp",
+      "language": "en",
+      "term": "Intestinal Fatty Acid Binding Protein",
+      "term_type": "primary"
+    },
+    {
+      "marker": "i-fabp",
+      "language": "en",
+      "term": "i fabp",
+      "term_type": "alias"
+    },
+    {
+      "marker": "i-fabp",
+      "language": "en",
+      "term": "I-FABP",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "ibil",
+      "language": "en",
+      "term": "Indirect Bilirubin",
+      "term_type": "primary"
+    },
+    {
+      "marker": "ibil",
+      "language": "en",
+      "term": "ibil",
+      "term_type": "alias"
+    },
+    {
+      "marker": "igfbp-3",
+      "language": "en",
+      "term": "IGF Binding Protein-3",
+      "term_type": "primary"
+    },
+    {
+      "marker": "igfbp-3",
+      "language": "en",
+      "term": "igfbp 3",
+      "term_type": "alias"
+    },
+    {
+      "marker": "il-10",
+      "language": "en",
+      "term": "Interleukin-10",
+      "term_type": "primary"
+    },
+    {
+      "marker": "il-10",
+      "language": "en",
+      "term": "il 10",
+      "term_type": "alias"
+    },
+    {
+      "marker": "il-10",
+      "language": "en",
+      "term": "IL-10",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "il-1beta",
+      "language": "en",
+      "term": "Interleukin-1 beta",
+      "term_type": "primary"
+    },
+    {
+      "marker": "il-1beta",
+      "language": "en",
+      "term": "il 1beta",
+      "term_type": "alias"
+    },
+    {
+      "marker": "il-6",
+      "language": "en",
+      "term": "IL-6",
+      "term_type": "primary"
+    },
+    {
+      "marker": "il-6",
+      "language": "en",
+      "term": "interleukin 6",
+      "term_type": "alias"
+    },
+    {
+      "marker": "il-6",
+      "language": "en",
+      "term": "interleukin-6",
+      "term_type": "alias"
+    },
+    {
+      "marker": "il-6",
+      "language": "en",
+      "term": "inflammatory cytokine",
+      "term_type": "alias"
+    },
+    {
+      "marker": "il-6",
+      "language": "en",
+      "term": "il 6",
+      "term_type": "alias"
+    },
+    {
+      "marker": "inr",
+      "language": "en",
+      "term": "International Normalized Ratio",
+      "term_type": "primary"
+    },
+    {
+      "marker": "inr",
+      "language": "en",
+      "term": "inr",
+      "term_type": "alias"
+    },
+    {
+      "marker": "insulinogenic-index",
+      "language": "en",
+      "term": "Insulinogenic Index",
+      "term_type": "primary"
+    },
+    {
+      "marker": "iron-tibc-ratio",
+      "language": "en",
+      "term": "Iron/TIBC Ratio",
+      "term_type": "primary"
+    },
+    {
+      "marker": "iron-tibc-ratio",
+      "language": "en",
+      "term": "iron tibc ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "iron-tibc-ratio",
+      "language": "en",
+      "term": "Iron to TIBC Ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "lactate",
+      "language": "en",
+      "term": "Lactate",
+      "term_type": "primary"
+    },
+    {
+      "marker": "lactatepyruvate-ratio",
+      "language": "en",
+      "term": "Lactate/Pyruvate Ratio",
+      "term_type": "primary"
+    },
+    {
+      "marker": "lactatepyruvate-ratio",
+      "language": "en",
+      "term": "lactatepyruvate ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "lbp",
+      "language": "en",
+      "term": "Lipopolysaccharide Binding Protein",
+      "term_type": "primary"
+    },
+    {
+      "marker": "lbp",
+      "language": "en",
+      "term": "lbp",
+      "term_type": "alias"
+    },
+    {
+      "marker": "ldh",
+      "language": "en",
+      "term": "Lactate Dehydrogenase",
+      "term_type": "primary"
+    },
+    {
+      "marker": "ldh",
+      "language": "en",
+      "term": "ldh",
+      "term_type": "alias"
+    },
+    {
+      "marker": "ldl-cholesterol",
+      "language": "en",
+      "term": "LDL",
+      "term_type": "primary"
+    },
+    {
+      "marker": "ldl-cholesterol",
+      "language": "en",
+      "term": "LDL cholesterol",
+      "term_type": "alias"
+    },
+    {
+      "marker": "ldl-cholesterol",
+      "language": "en",
+      "term": "LDL-C",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "ldl-cholesterol",
+      "language": "en",
+      "term": "bad cholesterol",
+      "term_type": "alias"
+    },
+    {
+      "marker": "ldl-hdl-ratio",
+      "language": "en",
+      "term": "LDL/HDL ratio",
+      "term_type": "primary"
+    },
+    {
+      "marker": "ldl-hdl-ratio",
+      "language": "en",
+      "term": "cholesterol ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "ldl-hdl-ratio",
+      "language": "en",
+      "term": "ldl hdl ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "ldl-p",
+      "language": "en",
+      "term": "LDL-P",
+      "term_type": "primary"
+    },
+    {
+      "marker": "ldl-p",
+      "language": "en",
+      "term": "LDL particle number",
+      "term_type": "alias"
+    },
+    {
+      "marker": "ldl-p",
+      "language": "en",
+      "term": "LDL particles",
+      "term_type": "alias"
+    },
+    {
+      "marker": "ldl-p",
+      "language": "en",
+      "term": "NMR LDL",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "ldl-p",
+      "language": "en",
+      "term": "ldl p",
+      "term_type": "alias"
+    },
+    {
+      "marker": "ldl-particle-size",
+      "language": "en",
+      "term": "LDL Particle Size",
+      "term_type": "primary"
+    },
+    {
+      "marker": "lead-blood",
+      "language": "en",
+      "term": "Lead (Blood)",
+      "term_type": "primary"
+    },
+    {
+      "marker": "lead-blood",
+      "language": "en",
+      "term": "Blood",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "lead-blood",
+      "language": "en",
+      "term": "Lead",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "lead-blood",
+      "language": "en",
+      "term": "lead blood",
+      "term_type": "alias"
+    },
+    {
+      "marker": "lean-mass-hyper-responder-score",
+      "language": "en",
+      "term": "Lean Mass Hyper-Responder Score",
+      "term_type": "primary"
+    },
+    {
+      "marker": "lean-mass-hyper-responder-score",
+      "language": "en",
+      "term": "lean mass hyper responder score",
+      "term_type": "alias"
+    },
+    {
+      "marker": "leptin",
+      "language": "en",
+      "term": "Leptin",
+      "term_type": "primary"
+    },
+    {
+      "marker": "leptin-bmi-ratio",
+      "language": "en",
+      "term": "Leptin/BMI Ratio",
+      "term_type": "primary"
+    },
+    {
+      "marker": "leptin-bmi-ratio",
+      "language": "en",
+      "term": "leptin bmi ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "leptin-bmi-ratio",
+      "language": "en",
+      "term": "Leptin to BMI Ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "lh",
+      "language": "en",
+      "term": "Luteinizing Hormone",
+      "term_type": "primary"
+    },
+    {
+      "marker": "lh",
+      "language": "en",
+      "term": "lh",
+      "term_type": "alias"
+    },
+    {
+      "marker": "lp-ir",
+      "language": "en",
+      "term": "Lipoprotein Insulin Resistance Index",
+      "term_type": "primary"
+    },
+    {
+      "marker": "lp-ir",
+      "language": "en",
+      "term": "lp ir",
+      "term_type": "alias"
+    },
+    {
+      "marker": "lp-ir",
+      "language": "en",
+      "term": "LP-IR",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "lp-pla2",
+      "language": "en",
+      "term": "Lp-PLA2",
+      "term_type": "primary"
+    },
+    {
+      "marker": "lp-pla2",
+      "language": "en",
+      "term": "PLAC test",
+      "term_type": "alias"
+    },
+    {
+      "marker": "lp-pla2",
+      "language": "en",
+      "term": "lipoprotein phospholipase",
+      "term_type": "alias"
+    },
+    {
+      "marker": "lp-pla2",
+      "language": "en",
+      "term": "vascular inflammation",
+      "term_type": "alias"
+    },
+    {
+      "marker": "lp-pla2",
+      "language": "en",
+      "term": "Lipoprotein-Associated Phospholipase A2",
+      "term_type": "alias"
+    },
+    {
+      "marker": "lp-pla2",
+      "language": "en",
+      "term": "lp pla2",
+      "term_type": "alias"
+    },
+    {
+      "marker": "lp-pla2-mass",
+      "language": "en",
+      "term": "Lipoprotein-associated Phospholipase A2 (mass)",
+      "term_type": "primary"
+    },
+    {
+      "marker": "lp-pla2-mass",
+      "language": "en",
+      "term": "mass",
+      "term_type": "alias"
+    },
+    {
+      "marker": "lp-pla2-mass",
+      "language": "en",
+      "term": "Lipoprotein-associated Phospholipase A2",
+      "term_type": "alias"
+    },
+    {
+      "marker": "lp-pla2-mass",
+      "language": "en",
+      "term": "lp pla2 mass",
+      "term_type": "alias"
+    },
+    {
+      "marker": "lp-pla2-mass",
+      "language": "en",
+      "term": "LP-PLA2-MASS",
+      "term_type": "alias"
+    },
+    {
+      "marker": "lymphocytes",
+      "language": "en",
+      "term": "Lymphocytes (%)",
+      "term_type": "primary"
+    },
+    {
+      "marker": "lymphocytes",
+      "language": "en",
+      "term": "%",
+      "term_type": "alias"
+    },
+    {
+      "marker": "lymphocytes",
+      "language": "en",
+      "term": "Lymphocytes",
+      "term_type": "alias"
+    },
+    {
+      "marker": "magnesium-calcium-ratio",
+      "language": "en",
+      "term": "Magnesium/Calcium Ratio",
+      "term_type": "primary"
+    },
+    {
+      "marker": "magnesium-calcium-ratio",
+      "language": "en",
+      "term": "magnesium calcium ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "magnesium-calcium-ratio",
+      "language": "en",
+      "term": "Magnesium to Calcium Ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "magnesium-phosphorus-ratio",
+      "language": "en",
+      "term": "Magnesium/Phosphorus Ratio",
+      "term_type": "primary"
+    },
+    {
+      "marker": "magnesium-phosphorus-ratio",
+      "language": "en",
+      "term": "magnesium phosphorus ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "magnesium-phosphorus-ratio",
+      "language": "en",
+      "term": "Magnesium to Phosphorus Ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "magnesium-serum",
+      "language": "en",
+      "term": "magnesium",
+      "term_type": "primary"
+    },
+    {
+      "marker": "magnesium-serum",
+      "language": "en",
+      "term": "serum magnesium",
+      "term_type": "alias"
+    },
+    {
+      "marker": "magnesium-serum",
+      "language": "en",
+      "term": "Mg",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "magnesium-serum",
+      "language": "en",
+      "term": "mag level",
+      "term_type": "alias"
+    },
+    {
+      "marker": "magnesium-serum",
+      "language": "en",
+      "term": "Magnesium (Serum)",
+      "term_type": "alias"
+    },
+    {
+      "marker": "magnesium-serum",
+      "language": "en",
+      "term": "Serum",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "magnesium-serum",
+      "language": "en",
+      "term": "magnesium serum",
+      "term_type": "alias"
+    },
+    {
+      "marker": "matsuda-index",
+      "language": "en",
+      "term": "Matsuda index",
+      "term_type": "primary"
+    },
+    {
+      "marker": "matsuda-index",
+      "language": "en",
+      "term": "insulin sensitivity index",
+      "term_type": "alias"
+    },
+    {
+      "marker": "matsuda-index",
+      "language": "en",
+      "term": "ISI",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "matsuda-index",
+      "language": "en",
+      "term": "OGTT insulin sensitivity",
+      "term_type": "alias"
+    },
+    {
+      "marker": "mcauley-index",
+      "language": "en",
+      "term": "McAuley Index",
+      "term_type": "primary"
+    },
+    {
+      "marker": "mch",
+      "language": "en",
+      "term": "Mean Corpuscular Hemoglobin",
+      "term_type": "primary"
+    },
+    {
+      "marker": "mch",
+      "language": "en",
+      "term": "mch",
+      "term_type": "alias"
+    },
+    {
+      "marker": "mchc",
+      "language": "en",
+      "term": "Mean Corpuscular Hemoglobin Concentration",
+      "term_type": "primary"
+    },
+    {
+      "marker": "mchc",
+      "language": "en",
+      "term": "mchc",
+      "term_type": "alias"
+    },
+    {
+      "marker": "mcv",
+      "language": "en",
+      "term": "MCV",
+      "term_type": "primary"
+    },
+    {
+      "marker": "mcv",
+      "language": "en",
+      "term": "mean corpuscular volume",
+      "term_type": "alias"
+    },
+    {
+      "marker": "mcv",
+      "language": "en",
+      "term": "red cell size",
+      "term_type": "alias"
+    },
+    {
+      "marker": "mda",
+      "language": "en",
+      "term": "Malondialdehyde",
+      "term_type": "primary"
+    },
+    {
+      "marker": "mda",
+      "language": "en",
+      "term": "mda",
+      "term_type": "alias"
+    },
+    {
+      "marker": "mercury-blood",
+      "language": "en",
+      "term": "Mercury (Blood)",
+      "term_type": "primary"
+    },
+    {
+      "marker": "mercury-blood",
+      "language": "en",
+      "term": "Blood",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "mercury-blood",
+      "language": "en",
+      "term": "Mercury",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "mercury-blood",
+      "language": "en",
+      "term": "mercury blood",
+      "term_type": "alias"
+    },
+    {
+      "marker": "microalbumin",
+      "language": "en",
+      "term": "Urine Albumin",
+      "term_type": "primary"
+    },
+    {
+      "marker": "microalbumin",
+      "language": "en",
+      "term": "microalbumin",
+      "term_type": "alias"
+    },
+    {
+      "marker": "mma",
+      "language": "en",
+      "term": "Methylmalonic Acid",
+      "term_type": "primary"
+    },
+    {
+      "marker": "mma",
+      "language": "en",
+      "term": "mma",
+      "term_type": "alias"
+    },
+    {
+      "marker": "monocyte-to-hdl-ratio",
+      "language": "en",
+      "term": "Monocyte-to-HDL Ratio",
+      "term_type": "primary"
+    },
+    {
+      "marker": "monocyte-to-hdl-ratio",
+      "language": "en",
+      "term": "monocyte to hdl ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "monocytes",
+      "language": "en",
+      "term": "Monocytes (%)",
+      "term_type": "primary"
+    },
+    {
+      "marker": "monocytes",
+      "language": "en",
+      "term": "%",
+      "term_type": "alias"
+    },
+    {
+      "marker": "monocytes",
+      "language": "en",
+      "term": "Monocytes",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "monocytes-absolute",
+      "language": "en",
+      "term": "Monocytes (Absolute)",
+      "term_type": "primary"
+    },
+    {
+      "marker": "monocytes-absolute",
+      "language": "en",
+      "term": "Absolute",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "monocytes-absolute",
+      "language": "en",
+      "term": "Monocytes",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "monocytes-absolute",
+      "language": "en",
+      "term": "monocytes absolute",
+      "term_type": "alias"
+    },
+    {
+      "marker": "mpv",
+      "language": "en",
+      "term": "Mean Platelet Volume",
+      "term_type": "primary"
+    },
+    {
+      "marker": "mpv",
+      "language": "en",
+      "term": "mpv",
+      "term_type": "alias"
+    },
+    {
+      "marker": "myeloperoxidase",
+      "language": "en",
+      "term": "MPO",
+      "term_type": "primary"
+    },
+    {
+      "marker": "myeloperoxidase",
+      "language": "en",
+      "term": "myeloperoxidase",
+      "term_type": "alias"
+    },
+    {
+      "marker": "myeloperoxidase",
+      "language": "en",
+      "term": "vascular inflammation",
+      "term_type": "alias"
+    },
+    {
+      "marker": "myoglobin",
+      "language": "en",
+      "term": "Myoglobin",
+      "term_type": "primary"
+    },
+    {
+      "marker": "nafld-fibrosis-score",
+      "language": "en",
+      "term": "NAFLD Fibrosis Score",
+      "term_type": "primary"
+    },
+    {
+      "marker": "neutrophils",
+      "language": "en",
+      "term": "Neutrophils (%)",
+      "term_type": "primary"
+    },
+    {
+      "marker": "neutrophils",
+      "language": "en",
+      "term": "%",
+      "term_type": "alias"
+    },
+    {
+      "marker": "neutrophils",
+      "language": "en",
+      "term": "Neutrophils",
+      "term_type": "alias"
+    },
+    {
+      "marker": "niacin",
+      "language": "en",
+      "term": "Vitamin B3",
+      "term_type": "primary"
+    },
+    {
+      "marker": "niacin",
+      "language": "en",
+      "term": "niacin",
+      "term_type": "alias"
+    },
+    {
+      "marker": "niacin",
+      "language": "en",
+      "term": "vit B3",
+      "term_type": "alias"
+    },
+    {
+      "marker": "nlr",
+      "language": "en",
+      "term": "NLR",
+      "term_type": "primary"
+    },
+    {
+      "marker": "nlr",
+      "language": "en",
+      "term": "neutrophil lymphocyte ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "nlr",
+      "language": "en",
+      "term": "inflammation ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "nlr",
+      "language": "en",
+      "term": "Neutrophil-to-Lymphocyte Ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "non-hdl-c",
+      "language": "en",
+      "term": "non-HDL",
+      "term_type": "primary"
+    },
+    {
+      "marker": "non-hdl-c",
+      "language": "en",
+      "term": "non-HDL cholesterol",
+      "term_type": "alias"
+    },
+    {
+      "marker": "non-hdl-c",
+      "language": "en",
+      "term": "non-HDL-C",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "non-hdl-c",
+      "language": "en",
+      "term": "atherogenic cholesterol",
+      "term_type": "alias"
+    },
+    {
+      "marker": "non-hdl-c",
+      "language": "en",
+      "term": "non hdl c",
+      "term_type": "alias"
+    },
+    {
+      "marker": "nt-probnp",
+      "language": "en",
+      "term": "NT-proBNP",
+      "term_type": "primary"
+    },
+    {
+      "marker": "nt-probnp",
+      "language": "en",
+      "term": "pro-BNP",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "nt-probnp",
+      "language": "en",
+      "term": "heart failure marker",
+      "term_type": "alias"
+    },
+    {
+      "marker": "nt-probnp",
+      "language": "en",
+      "term": "N-Terminal pro-BNP",
+      "term_type": "alias"
+    },
+    {
+      "marker": "nt-probnp",
+      "language": "en",
+      "term": "nt probnp",
+      "term_type": "alias"
+    },
+    {
+      "marker": "omega-3-index",
+      "language": "en",
+      "term": "omega-3 index",
+      "term_type": "primary"
+    },
+    {
+      "marker": "omega-3-index",
+      "language": "en",
+      "term": "omega 3",
+      "term_type": "alias"
+    },
+    {
+      "marker": "omega-3-index",
+      "language": "en",
+      "term": "EPA DHA index",
+      "term_type": "alias"
+    },
+    {
+      "marker": "omega-3-index",
+      "language": "en",
+      "term": "fish oil level",
+      "term_type": "alias"
+    },
+    {
+      "marker": "omega-3-index",
+      "language": "en",
+      "term": "omega 3 index",
+      "term_type": "alias"
+    },
+    {
+      "marker": "osmolar-gap",
+      "language": "en",
+      "term": "Osmolar Gap",
+      "term_type": "primary"
+    },
+    {
+      "marker": "osteocalcin",
+      "language": "en",
+      "term": "Osteocalcin",
+      "term_type": "primary"
+    },
+    {
+      "marker": "oxidized-ldl",
+      "language": "en",
+      "term": "oxidized LDL",
+      "term_type": "primary"
+    },
+    {
+      "marker": "oxidized-ldl",
+      "language": "en",
+      "term": "oxLDL",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "oxidized-ldl",
+      "language": "en",
+      "term": "Ox-LDL",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "p1np",
+      "language": "en",
+      "term": "N-Terminal Propeptide",
+      "term_type": "primary"
+    },
+    {
+      "marker": "p1np",
+      "language": "en",
+      "term": "p1np",
+      "term_type": "alias"
+    },
+    {
+      "marker": "pai-1",
+      "language": "en",
+      "term": "Plasminogen Activator Inhibitor-1",
+      "term_type": "primary"
+    },
+    {
+      "marker": "pai-1",
+      "language": "en",
+      "term": "pai 1",
+      "term_type": "alias"
+    },
+    {
+      "marker": "pai-1",
+      "language": "en",
+      "term": "PAI-1",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "pancreatic-elastase-1",
+      "language": "en",
+      "term": "Pancreatic Elastase-1",
+      "term_type": "primary"
+    },
+    {
+      "marker": "pancreatic-elastase-1",
+      "language": "en",
+      "term": "pancreatic elastase 1",
+      "term_type": "alias"
+    },
+    {
+      "marker": "pct",
+      "language": "en",
+      "term": "Plateletcrit",
+      "term_type": "primary"
+    },
+    {
+      "marker": "pct",
+      "language": "en",
+      "term": "pct",
+      "term_type": "alias"
+    },
+    {
+      "marker": "pdw",
+      "language": "en",
+      "term": "Platelet Distribution Width",
+      "term_type": "primary"
+    },
+    {
+      "marker": "pdw",
+      "language": "en",
+      "term": "pdw",
+      "term_type": "alias"
+    },
+    {
+      "marker": "phosphorus",
+      "language": "en",
+      "term": "Phosphorus (Serum)",
+      "term_type": "primary"
+    },
+    {
+      "marker": "phosphorus",
+      "language": "en",
+      "term": "Serum",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "phosphorus",
+      "language": "en",
+      "term": "Phosphorus",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "phosphorus-calcium-ratio",
+      "language": "en",
+      "term": "Phosphorus/Calcium Ratio",
+      "term_type": "primary"
+    },
+    {
+      "marker": "phosphorus-calcium-ratio",
+      "language": "en",
+      "term": "phosphorus calcium ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "phosphorus-calcium-ratio",
+      "language": "en",
+      "term": "Phosphorus to Calcium Ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "phthalate-metabolites",
+      "language": "en",
+      "term": "Phthalate Metabolites",
+      "term_type": "primary"
+    },
+    {
+      "marker": "platelet-count",
+      "language": "en",
+      "term": "platelet count",
+      "term_type": "primary"
+    },
+    {
+      "marker": "platelet-count",
+      "language": "en",
+      "term": "platelets",
+      "term_type": "alias"
+    },
+    {
+      "marker": "platelet-count",
+      "language": "en",
+      "term": "PLT",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "platelet-count",
+      "language": "en",
+      "term": "thrombocyte count",
+      "term_type": "alias"
+    },
+    {
+      "marker": "plr",
+      "language": "en",
+      "term": "Platelet-to-Lymphocyte Ratio",
+      "term_type": "primary"
+    },
+    {
+      "marker": "plr",
+      "language": "en",
+      "term": "plr",
+      "term_type": "alias"
+    },
+    {
+      "marker": "potassium",
+      "language": "en",
+      "term": "Potassium (Serum)",
+      "term_type": "primary"
+    },
+    {
+      "marker": "potassium",
+      "language": "en",
+      "term": "Serum",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "potassium",
+      "language": "en",
+      "term": "Potassium",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "prealbumin",
+      "language": "en",
+      "term": "Prealbumin",
+      "term_type": "primary"
+    },
+    {
+      "marker": "prealbumin-albumin-ratio",
+      "language": "en",
+      "term": "Prealbumin/Albumin Ratio",
+      "term_type": "primary"
+    },
+    {
+      "marker": "prealbumin-albumin-ratio",
+      "language": "en",
+      "term": "prealbumin albumin ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "prealbumin-albumin-ratio",
+      "language": "en",
+      "term": "Prealbumin to Albumin Ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "progesterone",
+      "language": "en",
+      "term": "Progesterone",
+      "term_type": "primary"
+    },
+    {
+      "marker": "proinsulin",
+      "language": "en",
+      "term": "Proinsulin",
+      "term_type": "primary"
+    },
+    {
+      "marker": "prolactin",
+      "language": "en",
+      "term": "Prolactin",
+      "term_type": "primary"
+    },
+    {
+      "marker": "protein-c",
+      "language": "en",
+      "term": "Protein C",
+      "term_type": "primary"
+    },
+    {
+      "marker": "protein-s",
+      "language": "en",
+      "term": "Protein S",
+      "term_type": "primary"
+    },
+    {
+      "marker": "pt",
+      "language": "en",
+      "term": "Prothrombin Time",
+      "term_type": "primary"
+    },
+    {
+      "marker": "pt",
+      "language": "en",
+      "term": "pt",
+      "term_type": "alias"
+    },
+    {
+      "marker": "pth",
+      "language": "en",
+      "term": "Parathyroid Hormone",
+      "term_type": "primary"
+    },
+    {
+      "marker": "pth",
+      "language": "en",
+      "term": "pth",
+      "term_type": "alias"
+    },
+    {
+      "marker": "ptx-3",
+      "language": "en",
+      "term": "Pentraxin-3",
+      "term_type": "primary"
+    },
+    {
+      "marker": "ptx-3",
+      "language": "en",
+      "term": "ptx 3",
+      "term_type": "alias"
+    },
+    {
+      "marker": "ptx-3",
+      "language": "en",
+      "term": "PTX-3",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "pyruvate",
+      "language": "en",
+      "term": "Pyruvate",
+      "term_type": "primary"
+    },
+    {
+      "marker": "quicki",
+      "language": "en",
+      "term": "QUICKI",
+      "term_type": "primary"
+    },
+    {
+      "marker": "quicki",
+      "language": "en",
+      "term": "quantitative insulin sensitivity check",
+      "term_type": "alias"
+    },
+    {
+      "marker": "quicki",
+      "language": "en",
+      "term": "insulin sensitivity",
+      "term_type": "alias"
+    },
+    {
+      "marker": "rbc-count",
+      "language": "en",
+      "term": "RBC",
+      "term_type": "primary"
+    },
+    {
+      "marker": "rbc-count",
+      "language": "en",
+      "term": "red blood cell count",
+      "term_type": "alias"
+    },
+    {
+      "marker": "rbc-count",
+      "language": "en",
+      "term": "erythrocyte count",
+      "term_type": "alias"
+    },
+    {
+      "marker": "rbc-count",
+      "language": "en",
+      "term": "red blood cells",
+      "term_type": "alias"
+    },
+    {
+      "marker": "rbc-count",
+      "language": "en",
+      "term": "rbc count",
+      "term_type": "alias"
+    },
+    {
+      "marker": "rbc-folate",
+      "language": "en",
+      "term": "RBC Folate",
+      "term_type": "primary"
+    },
+    {
+      "marker": "rbc-magnesium",
+      "language": "en",
+      "term": "RBC magnesium",
+      "term_type": "primary"
+    },
+    {
+      "marker": "rbc-magnesium",
+      "language": "en",
+      "term": "red blood cell magnesium",
+      "term_type": "alias"
+    },
+    {
+      "marker": "rbc-magnesium",
+      "language": "en",
+      "term": "intracellular magnesium",
+      "term_type": "alias"
+    },
+    {
+      "marker": "rdw",
+      "language": "en",
+      "term": "RDW",
+      "term_type": "primary"
+    },
+    {
+      "marker": "rdw",
+      "language": "en",
+      "term": "red cell distribution width",
+      "term_type": "alias"
+    },
+    {
+      "marker": "remnant-c",
+      "language": "en",
+      "term": "remnant cholesterol",
+      "term_type": "primary"
+    },
+    {
+      "marker": "remnant-c",
+      "language": "en",
+      "term": "remnant-C",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "remnant-c",
+      "language": "en",
+      "term": "remnant lipoproteins",
+      "term_type": "alias"
+    },
+    {
+      "marker": "remnant-c",
+      "language": "en",
+      "term": "remnant c",
+      "term_type": "alias"
+    },
+    {
+      "marker": "renin",
+      "language": "en",
+      "term": "Renin",
+      "term_type": "primary"
+    },
+    {
+      "marker": "resistin",
+      "language": "en",
+      "term": "Resistin",
+      "term_type": "primary"
+    },
+    {
+      "marker": "reticulocyte-count",
+      "language": "en",
+      "term": "Reticulocyte Count",
+      "term_type": "primary"
+    },
+    {
+      "marker": "reverse-t3",
+      "language": "en",
+      "term": "reverse T3",
+      "term_type": "primary"
+    },
+    {
+      "marker": "reverse-t3",
+      "language": "en",
+      "term": "rT3",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "reverse-t3",
+      "language": "en",
+      "term": "reverse triiodothyronine",
+      "term_type": "alias"
+    },
+    {
+      "marker": "rheumatoid-factor",
+      "language": "en",
+      "term": "Rheumatoid Factor",
+      "term_type": "primary"
+    },
+    {
+      "marker": "rlp-c",
+      "language": "en",
+      "term": "Remnant Lipoprotein Cholesterol",
+      "term_type": "primary"
+    },
+    {
+      "marker": "rlp-c",
+      "language": "en",
+      "term": "rlp c",
+      "term_type": "alias"
+    },
+    {
+      "marker": "rlp-c",
+      "language": "en",
+      "term": "RLP-C",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "sah",
+      "language": "en",
+      "term": "S-Adenosylhomocysteine",
+      "term_type": "primary"
+    },
+    {
+      "marker": "sah",
+      "language": "en",
+      "term": "sah",
+      "term_type": "alias"
+    },
+    {
+      "marker": "salivary-alpha-amylase",
+      "language": "en",
+      "term": "Salivary Alpha-Amylase",
+      "term_type": "primary"
+    },
+    {
+      "marker": "salivary-alpha-amylase",
+      "language": "en",
+      "term": "salivary alpha amylase",
+      "term_type": "alias"
+    },
+    {
+      "marker": "salivary-cortisol",
+      "language": "en",
+      "term": "Salivary Cortisol",
+      "term_type": "primary"
+    },
+    {
+      "marker": "salivary-dhea-s",
+      "language": "en",
+      "term": "Salivary DHEA-S",
+      "term_type": "primary"
+    },
+    {
+      "marker": "salivary-dhea-s",
+      "language": "en",
+      "term": "salivary dhea s",
+      "term_type": "alias"
+    },
+    {
+      "marker": "salivary-estradiol",
+      "language": "en",
+      "term": "Salivary Estradiol",
+      "term_type": "primary"
+    },
+    {
+      "marker": "salivary-iga",
+      "language": "en",
+      "term": "Salivary IgA",
+      "term_type": "primary"
+    },
+    {
+      "marker": "salivary-progesterone",
+      "language": "en",
+      "term": "Salivary Progesterone",
+      "term_type": "primary"
+    },
+    {
+      "marker": "salivary-testosterone",
+      "language": "en",
+      "term": "Salivary Testosterone",
+      "term_type": "primary"
+    },
+    {
+      "marker": "same",
+      "language": "en",
+      "term": "S-Adenosylmethionine",
+      "term_type": "primary"
+    },
+    {
+      "marker": "same",
+      "language": "en",
+      "term": "same",
+      "term_type": "alias"
+    },
+    {
+      "marker": "samsah-ratio",
+      "language": "en",
+      "term": "SAM/SAH Ratio",
+      "term_type": "primary"
+    },
+    {
+      "marker": "samsah-ratio",
+      "language": "en",
+      "term": "samsah ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "sdldl",
+      "language": "en",
+      "term": "small dense LDL",
+      "term_type": "primary"
+    },
+    {
+      "marker": "sdldl",
+      "language": "en",
+      "term": "sdLDL",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "sdldl",
+      "language": "en",
+      "term": "LDL pattern B",
+      "term_type": "alias"
+    },
+    {
+      "marker": "sdldl",
+      "language": "en",
+      "term": "small LDL",
+      "term_type": "alias"
+    },
+    {
+      "marker": "selenium",
+      "language": "en",
+      "term": "selenium",
+      "term_type": "primary"
+    },
+    {
+      "marker": "selenium",
+      "language": "en",
+      "term": "Se",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "selenium",
+      "language": "en",
+      "term": "selenomethionine",
+      "term_type": "alias"
+    },
+    {
+      "marker": "selenium",
+      "language": "en",
+      "term": "Selenium (Serum)",
+      "term_type": "alias"
+    },
+    {
+      "marker": "selenium",
+      "language": "en",
+      "term": "Serum",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "serum-iron",
+      "language": "en",
+      "term": "serum iron",
+      "term_type": "primary"
+    },
+    {
+      "marker": "serum-iron",
+      "language": "en",
+      "term": "iron level",
+      "term_type": "alias"
+    },
+    {
+      "marker": "serum-iron",
+      "language": "en",
+      "term": "Fe",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "serum-osmolality-calculated",
+      "language": "en",
+      "term": "Serum Osmolality (calculated)",
+      "term_type": "primary"
+    },
+    {
+      "marker": "serum-osmolality-calculated",
+      "language": "en",
+      "term": "serum osmolality calculated",
+      "term_type": "alias"
+    },
+    {
+      "marker": "serum-osmolality-calculated",
+      "language": "en",
+      "term": "Serum Osmolality",
+      "term_type": "alias"
+    },
+    {
+      "marker": "serum-osmolality-calculated",
+      "language": "en",
+      "term": "calculated",
+      "term_type": "alias"
+    },
+    {
+      "marker": "shbg",
+      "language": "en",
+      "term": "SHBG",
+      "term_type": "primary"
+    },
+    {
+      "marker": "shbg",
+      "language": "en",
+      "term": "sex hormone binding globulin",
+      "term_type": "alias"
+    },
+    {
+      "marker": "siga",
+      "language": "en",
+      "term": "Secretory IgA (Fecal)",
+      "term_type": "primary"
+    },
+    {
+      "marker": "siga",
+      "language": "en",
+      "term": "Fecal",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "siga",
+      "language": "en",
+      "term": "Secretory IgA",
+      "term_type": "alias"
+    },
+    {
+      "marker": "siga",
+      "language": "en",
+      "term": "siga",
+      "term_type": "alias"
+    },
+    {
+      "marker": "sii",
+      "language": "en",
+      "term": "Systemic Immune-Inflammation Index",
+      "term_type": "primary"
+    },
+    {
+      "marker": "sii",
+      "language": "en",
+      "term": "sii",
+      "term_type": "alias"
+    },
+    {
+      "marker": "sod",
+      "language": "en",
+      "term": "Superoxide Dismutase",
+      "term_type": "primary"
+    },
+    {
+      "marker": "sod",
+      "language": "en",
+      "term": "sod",
+      "term_type": "alias"
+    },
+    {
+      "marker": "sodium",
+      "language": "en",
+      "term": "Sodium (Serum)",
+      "term_type": "primary"
+    },
+    {
+      "marker": "sodium",
+      "language": "en",
+      "term": "Serum",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "sodium",
+      "language": "en",
+      "term": "Sodium",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "specific-ige",
+      "language": "en",
+      "term": "Specific IgE",
+      "term_type": "primary"
+    },
+    {
+      "marker": "sst2",
+      "language": "en",
+      "term": "Soluble ST2",
+      "term_type": "primary"
+    },
+    {
+      "marker": "sst2",
+      "language": "en",
+      "term": "sst2",
+      "term_type": "alias"
+    },
+    {
+      "marker": "stfr",
+      "language": "en",
+      "term": "Soluble Transferrin Receptor",
+      "term_type": "primary"
+    },
+    {
+      "marker": "stfr",
+      "language": "en",
+      "term": "stfr",
+      "term_type": "alias"
+    },
+    {
+      "marker": "t3t4-ratio",
+      "language": "en",
+      "term": "T3/T4 Ratio",
+      "term_type": "primary"
+    },
+    {
+      "marker": "t3t4-ratio",
+      "language": "en",
+      "term": "t3t4 ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "tbars",
+      "language": "en",
+      "term": "TBARS",
+      "term_type": "primary"
+    },
+    {
+      "marker": "tc-hdl-ratio",
+      "language": "en",
+      "term": "TC/HDL ratio",
+      "term_type": "primary"
+    },
+    {
+      "marker": "tc-hdl-ratio",
+      "language": "en",
+      "term": "cholesterol ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "tc-hdl-ratio",
+      "language": "en",
+      "term": "cardiac risk ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "tc-hdl-ratio",
+      "language": "en",
+      "term": "Total Cholesterol/HDL Ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "tc-hdl-ratio",
+      "language": "en",
+      "term": "tc hdl ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "thyroglobulin",
+      "language": "en",
+      "term": "Thyroglobulin",
+      "term_type": "primary"
+    },
+    {
+      "marker": "thyroglobulin-antibodies",
+      "language": "en",
+      "term": "Thyroglobulin Antibodies",
+      "term_type": "primary"
+    },
+    {
+      "marker": "tibc",
+      "language": "en",
+      "term": "TIBC",
+      "term_type": "primary"
+    },
+    {
+      "marker": "tibc",
+      "language": "en",
+      "term": "total iron binding capacity",
+      "term_type": "alias"
+    },
+    {
+      "marker": "tibc",
+      "language": "en",
+      "term": "iron binding",
+      "term_type": "alias"
+    },
+    {
+      "marker": "tmao",
+      "language": "en",
+      "term": "Trimethylamine N-oxide",
+      "term_type": "primary"
+    },
+    {
+      "marker": "tmao",
+      "language": "en",
+      "term": "tmao",
+      "term_type": "alias"
+    },
+    {
+      "marker": "tnf-alpha",
+      "language": "en",
+      "term": "TNF-alpha",
+      "term_type": "primary"
+    },
+    {
+      "marker": "tnf-alpha",
+      "language": "en",
+      "term": "TNF-α",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "tnf-alpha",
+      "language": "en",
+      "term": "tumor necrosis factor",
+      "term_type": "alias"
+    },
+    {
+      "marker": "tnf-alpha",
+      "language": "en",
+      "term": "Tumor Necrosis Factor-alpha",
+      "term_type": "alias"
+    },
+    {
+      "marker": "tnf-alpha",
+      "language": "en",
+      "term": "tnf alpha",
+      "term_type": "alias"
+    },
+    {
+      "marker": "total-cholesterol",
+      "language": "en",
+      "term": "total cholesterol",
+      "term_type": "primary"
+    },
+    {
+      "marker": "total-cholesterol",
+      "language": "en",
+      "term": "TC",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "total-cholesterol",
+      "language": "en",
+      "term": "cholesterol level",
+      "term_type": "alias"
+    },
+    {
+      "marker": "total-cholesterol",
+      "language": "en",
+      "term": "serum cholesterol",
+      "term_type": "alias"
+    },
+    {
+      "marker": "total-ige",
+      "language": "en",
+      "term": "Total IgE",
+      "term_type": "primary"
+    },
+    {
+      "marker": "total-t3",
+      "language": "en",
+      "term": "Total T3",
+      "term_type": "primary"
+    },
+    {
+      "marker": "total-t4",
+      "language": "en",
+      "term": "Total T4",
+      "term_type": "primary"
+    },
+    {
+      "marker": "total-testosterone",
+      "language": "en",
+      "term": "testosterone",
+      "term_type": "primary"
+    },
+    {
+      "marker": "total-testosterone",
+      "language": "en",
+      "term": "total testosterone",
+      "term_type": "alias"
+    },
+    {
+      "marker": "total-testosterone",
+      "language": "en",
+      "term": "serum testosterone",
+      "term_type": "alias"
+    },
+    {
+      "marker": "total-testosterone",
+      "language": "en",
+      "term": "T levels",
+      "term_type": "alias"
+    },
+    {
+      "marker": "tp",
+      "language": "en",
+      "term": "Total Protein",
+      "term_type": "primary"
+    },
+    {
+      "marker": "tp",
+      "language": "en",
+      "term": "tp",
+      "term_type": "alias"
+    },
+    {
+      "marker": "tpo-antibodies",
+      "language": "en",
+      "term": "TPO antibodies",
+      "term_type": "primary"
+    },
+    {
+      "marker": "tpo-antibodies",
+      "language": "en",
+      "term": "thyroid peroxidase",
+      "term_type": "alias"
+    },
+    {
+      "marker": "tpo-antibodies",
+      "language": "en",
+      "term": "anti-TPO",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "tpo-antibodies",
+      "language": "en",
+      "term": "Hashimoto's marker",
+      "term_type": "alias"
+    },
+    {
+      "marker": "tpo-antibodies",
+      "language": "en",
+      "term": "Thyroid Peroxidase Antibodies",
+      "term_type": "alias"
+    },
+    {
+      "marker": "transferrin",
+      "language": "en",
+      "term": "Transferrin",
+      "term_type": "primary"
+    },
+    {
+      "marker": "transferrin-saturation",
+      "language": "en",
+      "term": "transferrin saturation",
+      "term_type": "primary"
+    },
+    {
+      "marker": "transferrin-saturation",
+      "language": "en",
+      "term": "TSAT",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "transferrin-saturation",
+      "language": "en",
+      "term": "iron saturation",
+      "term_type": "alias"
+    },
+    {
+      "marker": "transferrin-saturation",
+      "language": "en",
+      "term": "% saturation",
+      "term_type": "alias"
+    },
+    {
+      "marker": "triglycerides",
+      "language": "en",
+      "term": "triglycerides",
+      "term_type": "primary"
+    },
+    {
+      "marker": "triglycerides",
+      "language": "en",
+      "term": "TG",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "triglycerides",
+      "language": "en",
+      "term": "trigs",
+      "term_type": "alias"
+    },
+    {
+      "marker": "triglycerides",
+      "language": "en",
+      "term": "blood triglycerides",
+      "term_type": "alias"
+    },
+    {
+      "marker": "triglycerides",
+      "language": "en",
+      "term": "serum triglycerides",
+      "term_type": "alias"
+    },
+    {
+      "marker": "tryptase",
+      "language": "en",
+      "term": "Tryptase",
+      "term_type": "primary"
+    },
+    {
+      "marker": "tsh",
+      "language": "en",
+      "term": "TSH",
+      "term_type": "primary"
+    },
+    {
+      "marker": "tsh",
+      "language": "en",
+      "term": "thyroid stimulating hormone",
+      "term_type": "alias"
+    },
+    {
+      "marker": "tsh",
+      "language": "en",
+      "term": "thyrotropin",
+      "term_type": "alias"
+    },
+    {
+      "marker": "tsh",
+      "language": "en",
+      "term": "thyroid function",
+      "term_type": "alias"
+    },
+    {
+      "marker": "tsh-ft4-product",
+      "language": "en",
+      "term": "TSH × FT4 Product",
+      "term_type": "primary"
+    },
+    {
+      "marker": "tsh-ft4-product",
+      "language": "en",
+      "term": "tsh ft4 product",
+      "term_type": "alias"
+    },
+    {
+      "marker": "tsi",
+      "language": "en",
+      "term": "Thyroid Stimulating Immunoglobulin",
+      "term_type": "primary"
+    },
+    {
+      "marker": "tsi",
+      "language": "en",
+      "term": "tsi",
+      "term_type": "alias"
+    },
+    {
+      "marker": "tyg-bmi",
+      "language": "en",
+      "term": "TyG-BMI",
+      "term_type": "primary"
+    },
+    {
+      "marker": "tyg-bmi",
+      "language": "en",
+      "term": "tyg bmi",
+      "term_type": "alias"
+    },
+    {
+      "marker": "tyg-index",
+      "language": "en",
+      "term": "TyG index",
+      "term_type": "primary"
+    },
+    {
+      "marker": "tyg-index",
+      "language": "en",
+      "term": "triglyceride glucose index",
+      "term_type": "alias"
+    },
+    {
+      "marker": "tyg-index",
+      "language": "en",
+      "term": "insulin resistance marker",
+      "term_type": "alias"
+    },
+    {
+      "marker": "tyg-wc",
+      "language": "en",
+      "term": "TyG-WC",
+      "term_type": "primary"
+    },
+    {
+      "marker": "tyg-wc",
+      "language": "en",
+      "term": "tyg wc",
+      "term_type": "alias"
+    },
+    {
+      "marker": "uacr",
+      "language": "en",
+      "term": "UACR",
+      "term_type": "primary"
+    },
+    {
+      "marker": "uacr",
+      "language": "en",
+      "term": "albumin creatinine ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "uacr",
+      "language": "en",
+      "term": "urine albumin",
+      "term_type": "alias"
+    },
+    {
+      "marker": "uacr",
+      "language": "en",
+      "term": "microalbuminuria",
+      "term_type": "alias"
+    },
+    {
+      "marker": "uacr",
+      "language": "en",
+      "term": "kidney damage",
+      "term_type": "alias"
+    },
+    {
+      "marker": "uacr",
+      "language": "en",
+      "term": "Albumin-to-Creatinine Ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "uca",
+      "language": "en",
+      "term": "Urine Calcium",
+      "term_type": "primary"
+    },
+    {
+      "marker": "uca",
+      "language": "en",
+      "term": "uca",
+      "term_type": "alias"
+    },
+    {
+      "marker": "ucl",
+      "language": "en",
+      "term": "Urine Chloride",
+      "term_type": "primary"
+    },
+    {
+      "marker": "ucl",
+      "language": "en",
+      "term": "ucl",
+      "term_type": "alias"
+    },
+    {
+      "marker": "ucr",
+      "language": "en",
+      "term": "Urine Creatinine",
+      "term_type": "primary"
+    },
+    {
+      "marker": "ucr",
+      "language": "en",
+      "term": "ucr",
+      "term_type": "alias"
+    },
+    {
+      "marker": "uibc",
+      "language": "en",
+      "term": "Unsaturated Iron Binding Capacity",
+      "term_type": "primary"
+    },
+    {
+      "marker": "uibc",
+      "language": "en",
+      "term": "uibc",
+      "term_type": "alias"
+    },
+    {
+      "marker": "uk",
+      "language": "en",
+      "term": "Urine Potassium",
+      "term_type": "primary"
+    },
+    {
+      "marker": "uk",
+      "language": "en",
+      "term": "uk",
+      "term_type": "alias"
+    },
+    {
+      "marker": "una",
+      "language": "en",
+      "term": "Urine Sodium",
+      "term_type": "primary"
+    },
+    {
+      "marker": "una",
+      "language": "en",
+      "term": "una",
+      "term_type": "alias"
+    },
+    {
+      "marker": "upcr",
+      "language": "en",
+      "term": "Protein-to-Creatinine Ratio",
+      "term_type": "primary"
+    },
+    {
+      "marker": "upcr",
+      "language": "en",
+      "term": "upcr",
+      "term_type": "alias"
+    },
+    {
+      "marker": "upo4",
+      "language": "en",
+      "term": "Urine Phosphorus",
+      "term_type": "primary"
+    },
+    {
+      "marker": "upo4",
+      "language": "en",
+      "term": "upo4",
+      "term_type": "alias"
+    },
+    {
+      "marker": "uric-acid-creatinine-ratio-serum",
+      "language": "en",
+      "term": "Uric Acid/Creatinine Ratio (serum)",
+      "term_type": "primary"
+    },
+    {
+      "marker": "uric-acid-creatinine-ratio-serum",
+      "language": "en",
+      "term": "uric acid creatinine ratio serum",
+      "term_type": "alias"
+    },
+    {
+      "marker": "uric-acid-creatinine-ratio-serum",
+      "language": "en",
+      "term": "Uric Acid to Creatinine Ratio (serum)",
+      "term_type": "alias"
+    },
+    {
+      "marker": "uric-acid-creatinine-ratio-serum",
+      "language": "en",
+      "term": "Uric Acid/Creatinine Ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "uric-acid-creatinine-ratio-serum",
+      "language": "en",
+      "term": "serum",
+      "term_type": "alias"
+    },
+    {
+      "marker": "uric-acid-creatinine-ratio-urine",
+      "language": "en",
+      "term": "Uric Acid/Creatinine Ratio (urine)",
+      "term_type": "primary"
+    },
+    {
+      "marker": "uric-acid-creatinine-ratio-urine",
+      "language": "en",
+      "term": "uric acid creatinine ratio urine",
+      "term_type": "alias"
+    },
+    {
+      "marker": "uric-acid-creatinine-ratio-urine",
+      "language": "en",
+      "term": "Uric Acid to Creatinine Ratio (urine)",
+      "term_type": "alias"
+    },
+    {
+      "marker": "uric-acid-creatinine-ratio-urine",
+      "language": "en",
+      "term": "Uric Acid/Creatinine Ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "uric-acid-creatinine-ratio-urine",
+      "language": "en",
+      "term": "urine",
+      "term_type": "alias"
+    },
+    {
+      "marker": "urine-citrate",
+      "language": "en",
+      "term": "Urine Citrate",
+      "term_type": "primary"
+    },
+    {
+      "marker": "urine-glucose",
+      "language": "en",
+      "term": "Urine Glucose",
+      "term_type": "primary"
+    },
+    {
+      "marker": "urine-iodine",
+      "language": "en",
+      "term": "Iodine (Urinary)",
+      "term_type": "primary"
+    },
+    {
+      "marker": "urine-iodine",
+      "language": "en",
+      "term": "Urinary",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "urine-iodine",
+      "language": "en",
+      "term": "Iodine",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "urine-iodine",
+      "language": "en",
+      "term": "urine iodine",
+      "term_type": "alias"
+    },
+    {
+      "marker": "urine-ketones",
+      "language": "en",
+      "term": "Urine Ketones",
+      "term_type": "primary"
+    },
+    {
+      "marker": "urine-microalbumin",
+      "language": "en",
+      "term": "Urine Microalbumin",
+      "term_type": "primary"
+    },
+    {
+      "marker": "urine-oxalate",
+      "language": "en",
+      "term": "Urine Oxalate",
+      "term_type": "primary"
+    },
+    {
+      "marker": "urine-ph",
+      "language": "en",
+      "term": "Urine pH",
+      "term_type": "primary"
+    },
+    {
+      "marker": "urine-protein",
+      "language": "en",
+      "term": "Urine Protein",
+      "term_type": "primary"
+    },
+    {
+      "marker": "urine-specific-gravity",
+      "language": "en",
+      "term": "Urine Specific Gravity",
+      "term_type": "primary"
+    },
+    {
+      "marker": "urine-total-protein",
+      "language": "en",
+      "term": "Urine Total Protein",
+      "term_type": "primary"
+    },
+    {
+      "marker": "urine-uric-acid",
+      "language": "en",
+      "term": "Urine Uric Acid",
+      "term_type": "primary"
+    },
+    {
+      "marker": "vitamin-a",
+      "language": "en",
+      "term": "Vitamin A",
+      "term_type": "primary"
+    },
+    {
+      "marker": "vitamin-a",
+      "language": "en",
+      "term": "vit A",
+      "term_type": "alias"
+    },
+    {
+      "marker": "vitamin-b1",
+      "language": "en",
+      "term": "Vitamin B1",
+      "term_type": "primary"
+    },
+    {
+      "marker": "vitamin-b1",
+      "language": "en",
+      "term": "vit B1",
+      "term_type": "alias"
+    },
+    {
+      "marker": "vitamin-b12",
+      "language": "en",
+      "term": "vitamin B12",
+      "term_type": "primary"
+    },
+    {
+      "marker": "vitamin-b12",
+      "language": "en",
+      "term": "B12",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "vitamin-b12",
+      "language": "en",
+      "term": "cobalamin",
+      "term_type": "alias"
+    },
+    {
+      "marker": "vitamin-b12",
+      "language": "en",
+      "term": "methylcobalamin",
+      "term_type": "alias"
+    },
+    {
+      "marker": "vitamin-b12",
+      "language": "en",
+      "term": "vit B12",
+      "term_type": "alias"
+    },
+    {
+      "marker": "vitamin-b12-folate-ratio",
+      "language": "en",
+      "term": "Vitamin B12/Folate Ratio",
+      "term_type": "primary"
+    },
+    {
+      "marker": "vitamin-b12-folate-ratio",
+      "language": "en",
+      "term": "vitamin b12 folate ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "vitamin-b12-folate-ratio",
+      "language": "en",
+      "term": "Vitamin B12 to Folate Ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "vitamin-b2",
+      "language": "en",
+      "term": "Vitamin B2",
+      "term_type": "primary"
+    },
+    {
+      "marker": "vitamin-b2",
+      "language": "en",
+      "term": "vit B2",
+      "term_type": "alias"
+    },
+    {
+      "marker": "vitamin-b6",
+      "language": "en",
+      "term": "Vitamin B6",
+      "term_type": "primary"
+    },
+    {
+      "marker": "vitamin-b6",
+      "language": "en",
+      "term": "vit B6",
+      "term_type": "alias"
+    },
+    {
+      "marker": "vitamin-b6-pyridoxal-5-phosphate",
+      "language": "en",
+      "term": "Vitamin B6 (Pyridoxal 5-Phosphate)",
+      "term_type": "primary"
+    },
+    {
+      "marker": "vitamin-b6-pyridoxal-5-phosphate",
+      "language": "en",
+      "term": "vitamin b6 pyridoxal 5 phosphate",
+      "term_type": "alias"
+    },
+    {
+      "marker": "vitamin-b6-pyridoxal-5-phosphate",
+      "language": "en",
+      "term": "Vitamin B6",
+      "term_type": "alias"
+    },
+    {
+      "marker": "vitamin-b6-pyridoxal-5-phosphate",
+      "language": "en",
+      "term": "Pyridoxal 5-Phosphate",
+      "term_type": "alias"
+    },
+    {
+      "marker": "vitamin-c",
+      "language": "en",
+      "term": "vitamin C",
+      "term_type": "primary"
+    },
+    {
+      "marker": "vitamin-c",
+      "language": "en",
+      "term": "ascorbic acid",
+      "term_type": "alias"
+    },
+    {
+      "marker": "vitamin-c",
+      "language": "en",
+      "term": "ascorbate",
+      "term_type": "alias"
+    },
+    {
+      "marker": "vitamin-c",
+      "language": "en",
+      "term": "vit C",
+      "term_type": "alias"
+    },
+    {
+      "marker": "vitamin-d-pth-ratio",
+      "language": "en",
+      "term": "Vitamin D / PTH Ratio",
+      "term_type": "primary"
+    },
+    {
+      "marker": "vitamin-d-pth-ratio",
+      "language": "en",
+      "term": "vitamin d pth ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "vitamin-d-pth-ratio",
+      "language": "en",
+      "term": "Vitamin D/PTH Ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "vitamin-d-pth-ratio",
+      "language": "en",
+      "term": "Vitamin D  to  PTH Ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "vitamin-e",
+      "language": "en",
+      "term": "vitamin E",
+      "term_type": "primary"
+    },
+    {
+      "marker": "vitamin-e",
+      "language": "en",
+      "term": "alpha-tocopherol",
+      "term_type": "alias"
+    },
+    {
+      "marker": "vitamin-e",
+      "language": "en",
+      "term": "tocopherol",
+      "term_type": "alias"
+    },
+    {
+      "marker": "vitamin-e",
+      "language": "en",
+      "term": "vit E",
+      "term_type": "alias"
+    },
+    {
+      "marker": "vitamin-k1",
+      "language": "en",
+      "term": "Vitamin K1",
+      "term_type": "primary"
+    },
+    {
+      "marker": "vitamin-k1",
+      "language": "en",
+      "term": "vit K1",
+      "term_type": "alias"
+    },
+    {
+      "marker": "vitamin-k2",
+      "language": "en",
+      "term": "Vitamin K2",
+      "term_type": "primary"
+    },
+    {
+      "marker": "vitamin-k2",
+      "language": "en",
+      "term": "vit K2",
+      "term_type": "alias"
+    },
+    {
+      "marker": "vldl-cholesterol",
+      "language": "en",
+      "term": "VLDL Cholesterol",
+      "term_type": "primary"
+    },
+    {
+      "marker": "vldl-p",
+      "language": "en",
+      "term": "VLDL Particle Number",
+      "term_type": "primary"
+    },
+    {
+      "marker": "vldl-p",
+      "language": "en",
+      "term": "vldl p",
+      "term_type": "alias"
+    },
+    {
+      "marker": "vldl-p",
+      "language": "en",
+      "term": "VLDL-P",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "waist-to-hip-ratio",
+      "language": "en",
+      "term": "waist hip ratio",
+      "term_type": "primary"
+    },
+    {
+      "marker": "waist-to-hip-ratio",
+      "language": "en",
+      "term": "WHR",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "waist-to-hip-ratio",
+      "language": "en",
+      "term": "waist-to-hip",
+      "term_type": "alias"
+    },
+    {
+      "marker": "waist-to-hip-ratio",
+      "language": "en",
+      "term": "Waist-to-Hip Ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "waist-to-hip-ratio",
+      "language": "en",
+      "term": "waist to hip ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "wbc-count",
+      "language": "en",
+      "term": "WBC",
+      "term_type": "primary"
+    },
+    {
+      "marker": "wbc-count",
+      "language": "en",
+      "term": "white blood cell count",
+      "term_type": "alias"
+    },
+    {
+      "marker": "wbc-count",
+      "language": "en",
+      "term": "leukocyte count",
+      "term_type": "alias"
+    },
+    {
+      "marker": "wbc-count",
+      "language": "en",
+      "term": "white blood cells",
+      "term_type": "alias"
+    },
+    {
+      "marker": "wbc-count",
+      "language": "en",
+      "term": "wbc count",
+      "term_type": "alias"
+    },
+    {
+      "marker": "whtr",
+      "language": "en",
+      "term": "waist height ratio",
+      "term_type": "primary"
+    },
+    {
+      "marker": "whtr",
+      "language": "en",
+      "term": "WHtR",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "whtr",
+      "language": "en",
+      "term": "waist-to-height",
+      "term_type": "alias"
+    },
+    {
+      "marker": "whtr",
+      "language": "en",
+      "term": "Waist-to-Height Ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "zinc-copper-ratio",
+      "language": "en",
+      "term": "Zinc / Copper Ratio",
+      "term_type": "primary"
+    },
+    {
+      "marker": "zinc-copper-ratio",
+      "language": "en",
+      "term": "zinc copper ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "zinc-copper-ratio",
+      "language": "en",
+      "term": "Zinc/Copper Ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "zinc-copper-ratio",
+      "language": "en",
+      "term": "Zinc  to  Copper Ratio",
+      "term_type": "alias"
+    },
+    {
+      "marker": "zn",
+      "language": "en",
+      "term": "zinc",
+      "term_type": "primary"
+    },
+    {
+      "marker": "zn",
+      "language": "en",
+      "term": "serum zinc",
+      "term_type": "alias"
+    },
+    {
+      "marker": "zn",
+      "language": "en",
+      "term": "Zn",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "zn",
+      "language": "en",
+      "term": "zinc level",
+      "term_type": "alias"
+    },
+    {
+      "marker": "zn",
+      "language": "en",
+      "term": "Zinc (Serum)",
+      "term_type": "alias"
+    },
+    {
+      "marker": "zn",
+      "language": "en",
+      "term": "Serum",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "zonulin",
+      "language": "en",
+      "term": "Zonulin (Serum)",
+      "term_type": "primary"
+    },
+    {
+      "marker": "zonulin",
+      "language": "en",
+      "term": "Serum",
+      "term_type": "abbreviation"
+    },
+    {
+      "marker": "zonulin",
+      "language": "en",
+      "term": "Zonulin",
+      "term_type": "abbreviation"
+    }
   ]
 }

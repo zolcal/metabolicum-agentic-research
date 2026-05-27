@@ -1,7 +1,7 @@
 # LLM endpoint configuration for Hermes.
 #
 # Policy
-#   - Default to local Qwen 3.6 27B MTP. Free, deterministic, MTP-accelerated.
+#   - Default to local Gemma 4 26B-A4B via Lucebox DFlash. Free, 120-220 tok/s.
 #   - Cloud council uses OpenRouter (single API key, multiple families).
 #   - Council picks the minimum viable model in each family for the spike;
 #     promote to flagship tier only if quality issues surface during the pilot.
@@ -47,11 +47,81 @@
 #                       Orchestration layer decides retry per fail-fast doctrine.
 #   notes               human context
 
-default_endpoint: qwen-local
+default_endpoint: gemma4-local
 
 endpoints:
 
   # ─── Primary local ────────────────────────────────────────────────────
+
+  gemma4-local:
+    base_url: http://127.0.0.1:8080/v1
+    api_key_env: ""
+    model: gemma4-dflash
+    family: google
+    api_style: openai_compatible
+    active: true
+    roles:
+      - extractor                # Stage 2 bulk extraction (free, 120-220 tok/s)
+      - tagger                   # Stage 2 marker-tag attachment
+      - structurer               # Stage 2 population qualifier + units
+      - legal_reviewer           # Stage 5
+    timeout_s: 300
+    default_max_tokens: 4096
+    max_context: 16384            # 2026-05-26: bumped from 4096 — DFlash now launched with --max-ctx 16384
+    supports_json_schema: true
+    cost_per_million_in: 0
+    cost_per_million_out: 0
+    failover_to: deepseek-direct-chat
+    hybrid_size_threshold_chars: 8000   # transcripts >= this go directly to failover_to (no Gemma attempt); tune after wave-0 data lands
+    notes: |
+      Gemma 4 26B-A4B (MoE, 128 experts, 8 active = 3.8B params/forward)
+      via Lucebox DFlash speculative decoding on RTX 3090 Ti.
+
+      Context window: 16384 tokens (DFlash --max-ctx 16384, set in
+      /media/zoltan/4TSSD/lucebox-hub/start-dflash.sh line 46). VRAM
+      ~21GB / 24GB available, ~3.5GB headroom. Sources >~14K input tokens
+      (rare) must failover to deepseek-direct-chat which has 128K context.
+
+      Target: /media/zoltan/4TSSD/lucebox-hub/dflash/models/gemma-4-26B-A4B-it-UD-Q4_K_M.gguf (16 GB)
+      Draft:  /media/zoltan/4TSSD/lucebox-hub/dflash/models/draft/gemma-4-26B-A4B-it-DFlash-q8_0.gguf (436 MB)
+      Launch: /media/zoltan/4TSSD/lucebox-hub/start-dflash.sh (needs update for Gemma 4)
+
+      Benchmarked 2026-05-26 on RTX 3090 Ti (with desktop compositor overhead):
+        - Code generation: 115-125 tok/s
+        - Structured extraction: 219 tok/s
+        - All 8/8 claims correct on multi-marker Bikman fixture
+      After Xorg moves to 5060 Ti (logout/login): expect ~30-50% more.
+
+      Slug normalization caveat: outputs HOMA-IR / TG_HDL_ratio vs
+      pipeline homa-ir / tg-hdl-ratio. Orchestrator must lowercase+hyphenate.
+
+      Single-slot (concurrency=1). DFlash server does not support
+      thinking/reasoning tokens — greedy decode only, which is correct
+      for extraction tasks.
+
+      Known quality limits at Q4_K_M (investigated 2026-05-26 against the
+      apob/lpa/fasting-insulin fixture set):
+        - Occasionally emits structurally invalid JSON for the Stage 2
+          extractor prompt: unterminated strings, missing braces, raw
+          newlines inside string values. ~5-15% failure rate on apob-class
+          fixtures. NOT a sanitization issue — JSON is malformed at the
+          token level, not just escape-level.
+        - Hallucinates extraction_model field as 'gpt-4o' or similar
+          (ignores the "<injected>" placeholder rule). Runner overwrites
+          this field anyway, so it's cosmetic.
+        - Verbatim quote drift on complex multi-clause content
+          ("classified as 'high Lp(a)'" → "classified as high Lp(a)" —
+          drops quotation marks, breaks byte-level grounding).
+        - Mitigation: the hybrid_size_threshold_chars routes large
+          transcripts directly to deepseek-direct-chat; run_extractor
+          also falls back to the secondary on JSONDecodeError /
+          jsonschema.ValidationError for small inputs. Net failure rate
+          to caller after both mitigations: ~0% on the test set.
+        - Possible future improvements (not in scope here):
+          (a) try Q5 or Q6 quant (~4-8GB more VRAM)
+          (b) explicit "JSON strings must be single-line; escape newlines"
+              prompt nudge — try this if fallback rate becomes painful
+          (c) different draft model for DFlash spec-decode
 
   qwen-local:
     base_url: http://127.0.0.1:8080/v1
@@ -59,9 +129,8 @@ endpoints:
     model: qwen
     family: qwen
     api_style: openai_compatible
-    active: true
-    roles:
-      - extractor_backup        # Failover only — local stays cold standby
+    active: false
+    roles: []
     timeout_s: 300
     default_max_tokens: 4096
     max_context: 8192
@@ -70,13 +139,18 @@ endpoints:
     cost_per_million_out: 0
     failover_to: qwen-mac
     notes: |
-      Qwen 3.6 27B UD-Q4_K_XL with MTP draft heads. Single slot (-np 1).
-      Demoted from council_extractor 2026-05-21: that role is now held by
-      dashscope-qwen-max (cloud Qwen 3.7 Max — stronger Alibaba voice for
-      Stage 3 council). Local stays for Stage 2 high-volume free work and
-      Stage 5 legal checks.
-      For batch concurrency, run multiple llama-server processes on different
-      ports, or disable MTP and raise -np.
+      DEMOTED 2026-05-26: replaced by gemma4-local (Lucebox DFlash).
+      Gemma 4 26B-A4B is 3-6x faster on the same GPU and extraction
+      quality is equivalent.
+
+      Was: Qwen 3.6 27B UD-Q4_K_XL with MTP draft heads, ~35 tok/s.
+      Also tested with Lucebox DFlash (80 tok/s headless) but Gemma 4
+      MoE architecture is inherently faster without spec-decode, and
+      DFlash on top pushes it to 120-220 tok/s.
+
+      Can be reactivated on a different port if Qwen-family voice is
+      needed for council diversity (currently not required — council
+      uses DeepSeek / Google / OpenAI families).
 
   # ─── Local backup (Mac via tailnet) ───────────────────────────────────
 
@@ -116,18 +190,28 @@ endpoints:
     model: qwen3.7-max
     family: qwen
     api_style: openai_compatible
-    active: false
-    roles: []
+    active: true
+    roles: []                   # Stage 2 roles (tagger/structurer/legal_reviewer) moved to gemma4-local 2026-05-26
     timeout_s: 240
     default_max_tokens: 4096
     max_context: 262144
     supports_json_schema: true
     cost_per_million_in: 2.50
     cost_per_million_out: 7.50
+    failover_for:
+      - tagger                  # if gemma4-local is down, these roles fall back here
+      - structurer
+      - legal_reviewer
     notes: |
-      DEACTIVATED 2026-05-24. Replaced by dashscope-qwen3-max for cost
-      optimization. qwen3.7-max is too expensive for bulk extraction work.
-      Keep as reserve for council_extractor role if needed.
+      Cloud fallback for Stage 2 roles now served by gemma4-local.
+
+      2026-05-26: tagger/structurer/legal_reviewer moved to gemma4-local
+      (Gemma 4 26B-A4B via Lucebox DFlash, 120-220 tok/s, $0/token).
+      qwen-max stays as cloud failover if the local GPU is unavailable.
+
+      History: REACTIVATED 2026-05-24. qwen3.7-max is the known-working
+      DashScope model for Stage 2. The qwen3.6/qwen3-max alternatives
+      returned 403 or failed content tests.
 
   dashscope-qwen3-max:
     base_url: https://dashscope-intl.aliyuncs.com/compatible-mode/v1
@@ -135,12 +219,8 @@ endpoints:
     model: qwen3.6-max-preview
     family: qwen
     api_style: openai_compatible
-    active: true
-    roles:
-      - extractor               # Stage 2 — bulk verbatim claim extraction
-      - tagger                  # Stage 2
-      - structurer              # Stage 2
-      - legal_reviewer          # Stage 5
+    active: false
+    roles: []
     timeout_s: 240
     default_max_tokens: 4096
     max_context: 128000
@@ -148,9 +228,72 @@ endpoints:
     cost_per_million_in: 1.30
     cost_per_million_out: 7.80
     notes: |
-      ACTIVATED 2026-05-24 as primary Stage 2 model. qwen3.6-max-preview
-      at $1.30/$7.80 is ~48% cheaper than qwen3.7-max ($2.50/$7.50).
-      qwen3-max returned 403 Access Denied. 128K context window.
+      DEACTIVATED 2026-05-24. qwen3.6-max-preview returned 403 Access Denied;
+      qwen3-max also returned 403. Keep only as documentation until access is
+      granted.
+
+  minimax-anthropic:
+    base_url: https://api.minimax.io/anthropic
+    api_key_env: MIMIMAX_TOKEN_PLAN   # note: env var name has a typo (MIMIMAX, not MINIMAX)
+    model: MiniMax-M2.7-highspeed
+    family: minimax                   # Chinese AI lab, independent of Alibaba/Moonshot/Zhipu
+    api_style: anthropic              # supported via _AnthropicChatAdapter in code/llm_client.py
+    active: false                     # DEMOTED 2026-05-25 — quality failures on lpa + non-determinism at temp=0
+    roles: []                         # was [council_extractor]; see notes for evidence trail
+    timeout_s: 240
+    default_max_tokens: 4096
+    max_context: 200000
+    supports_json_schema: false       # Anthropic uses tool-use for structured output, not native json_schema
+    cost_per_million_in: 0
+    cost_per_million_out: 0
+    cost_flat_monthly_usd: 80
+    notes: |
+      MiniMax flat-rate $80/mo "monthly plan" — Anthropic Messages API
+      surface at https://api.minimax.io/anthropic/v1/messages.
+
+      Verified live 2026-05-25:
+        - Auth: x-api-key OR Authorization: Bearer (both accepted)
+        - anthropic-version: 2023-06-01
+        - Response shape: canonical Anthropic Messages
+          (content: [{text, type}], usage with input_tokens /
+          output_tokens / cache_creation_input_tokens /
+          cache_read_input_tokens, stop_reason)
+        - Latency: ~300 ms
+
+      Plan quirk: every requested model is auto-routed to MiniMax-M2.7
+      (M2.7-highspeed when selected as default via hermes dashboard).
+      MiniMax-Text-01 and MiniMax-M1 return error 2061
+      "your current token plan not support model". Any other model id
+      (including claude-3-5-sonnet-20241022) is silently mapped to M2.7.
+      Use M2.7-highspeed as the canonical model name.
+
+      Intended role: council_extractor — replaces dashscope-qwen-max,
+      which hit DashScope per-token billing on day 1 (~$0.10/source
+      observed). Family balance becomes MiniMax (Chinese-independent) +
+      Gemini (Google) + gpt-5-mini (OpenAI). Still three independent
+      training pipelines, so §05 three-family consensus invariant
+      holds — but the specific Alibaba-Qwen voice is replaced.
+      Document the swap in docs/agentic-workflow/05-validation-council.md
+      before activation.
+
+      ⚠ BLOCKER for activation:
+      code/llm_client.py currently only dispatches api_style values
+      'openai_compatible' (default OpenAI SDK path) and 'gemini'
+      (custom branch). Anthropic dispatch needs a new branch using
+      either the `anthropic` Python SDK or raw httpx POST to
+      /v1/messages with x-api-key + anthropic-version headers, plus
+      response-shape adaptation. Until that adapter lands, this
+      endpoint stays active: false and dashscope-qwen-max retains
+      council_extractor role.
+
+      Acceptance for promotion to active: true:
+        1. llm_client.py extended to dispatch api_style: anthropic
+        2. Smoke test: python code/llm_client.py council_extractor
+           round-trips a Stage-2 fixture claim with temperature=0
+        3. Quality comparison vs qwen3.7-max on same fixture (Task #2)
+        4. Family-swap addendum committed to §05 spec (Task #3)
+      Then: set active: true, move roles: [council_extractor], set
+      dashscope-qwen-max active: false roles: [].
 
   openrouter-reviewer:
     base_url: https://openrouter.ai/api/v1
@@ -237,6 +380,90 @@ endpoints:
     cost_per_million_in: 0.55
     cost_per_million_out: 2.19
     notes: "Fourth-family option for tiebreakers. Open-weight reasoning."
+
+  deepseek-direct-chat:
+    base_url: https://api.deepseek.com/v1
+    api_key_env: DEEPSEEK_API_KEY     # sourced from ~/.secrets (must also be added to project secrets/.env for production Hermes runtime)
+    model: deepseek-chat              # legacy alias = non-thinking V4 Flash (per deepseek docs footnote 1); explicit guarantee of 0 reasoning tokens
+    family: deepseek
+    api_style: openai_compatible
+    active: true                      # cloud fallback for extractor role (gemma4-local is primary as of 2026-05-26)
+    roles: []                         # extractor role moved to gemma4-local 2026-05-26
+    failover_for: [extractor]         # if gemma4-local is down, extractor falls back here
+    timeout_s: 180
+    default_max_tokens: 4096          # non-thinking model, no reasoning token burn
+    max_context: 1000000              # 1M context per deepseek pricing page
+    supports_json_schema: true
+    cost_per_million_in: 0.14         # per deepseek pricing 2026-05-26 (cache miss)
+    cost_per_million_in_cache_hit: 0.0028  # 50x cheaper for cached prompt prefixes
+    cost_per_million_out: 0.28
+    notes: |
+      Direct DeepSeek API for Stage 2 bulk extraction.
+
+      Why this and not OpenRouter route (openrouter-deepseek-v4-flash):
+      OpenRouter's `deepseek/deepseek-v4-flash` alias defaults to thinking
+      mode and provides no flag to disable it. Burned 4041/4096 output
+      tokens on reasoning for lpa-size transcripts → empty visible output
+      → 0-claim cold-start failures. Direct API exposes `deepseek-chat`
+      as the explicit non-thinking V4 Flash, confirmed 0 reasoning tokens
+      in smoke test 2026-05-26.
+
+      Model alias mapping (per https://api-docs.deepseek.com pricing page):
+        deepseek-chat       → V4-Flash non-thinking mode (this entry)
+        deepseek-reasoner   → V4-Flash thinking mode
+        deepseek-v4-flash   → new name, thinking is the default
+        deepseek-v4-pro     → tier above, more reasoning, not used here
+
+      Cost:
+        - Cache miss: $0.14/M input + $0.28/M output
+        - Cache hit:  $0.0028/M input (50x cheaper for the reused extractor
+          system prompt — ~1.1K tokens per call × ~thousands of calls)
+        - Net Stage 2 cost projection: ~$3 for full inventory (~11K sources)
+          vs ~$450 on dashscope-qwen-max.
+
+      Max output: 384K (per pricing page), so no max_tokens starvation
+      concerns even on the largest transcripts.
+
+      Council slot stays on openrouter-deepseek-v4-flash because the
+      single-claim re-verify task is small and the thinking-mode behavior
+      is a feature there, not a bug.
+
+  openrouter-deepseek-v4-flash:
+    base_url: https://openrouter.ai/api/v1
+    api_key_env: OPENROUTER_API_KEY
+    model: deepseek/deepseek-v4-flash
+    family: deepseek
+    api_style: openai_compatible
+    active: true                                 # 2026-05-25 — 6/6 PASS on council fixtures (single-claim verify)
+    roles: [council_extractor]                   # Stage-3 council voice #1. `extractor` role moved to deepseek-direct-chat 2026-05-26 after OpenRouter's "flash" alias was found to be thinking-mode by default and produced 0-claim cold starts on lpa-size transcripts.
+    timeout_s: 180
+    default_max_tokens: 16384                    # raised 2026-05-26 — V4 Flash is a thinking model; 4096 starves reasoning + visible output on transcripts >10KB
+    max_context: 128000
+    supports_json_schema: true
+    cost_per_million_in: 0.20    # placeholder — verify on OpenRouter model page
+    cost_per_million_out: 0.40   # placeholder — verify on OpenRouter model page
+    notes: |
+      DeepSeek V4 Flash via OpenRouter — council_extractor as of 2026-05-25.
+      Replaced dashscope-qwen-max for this role; qwen-max retains
+      extractor/tagger/structurer/legal_reviewer (Stage 2 + Stage 5).
+
+      Why a candidate:
+        - 4th independent family (Chinese, separate from Alibaba/Moonshot/
+          MiniMax) — satisfies §05 three-family invariant without leaning
+          on Alibaba.
+        - OpenRouter-routed: uses existing OPENROUTER_API_KEY, no new
+          provider account to set up.
+        - Flash tier ≈ 10x cheaper per token than qwen3.7-max
+          ($0.20/$0.40 vs $2.50/$7.50 per M), and typically much faster.
+        - Non-reasoning (unlike Kimi K2.6 thinking) — no max_tokens
+          starvation risk.
+
+      Quality gate (same as MiniMax / qwen-max comparison):
+      Run code/acceptance/quality_check_council_extractor.py and confirm
+      3/3 fixtures PASS (apob simple, lpa large-transcript numeric,
+      fasting-insulin no-claim handling) with deterministic output at
+      temperature=0 across two runs. Then promote to roles:
+      [council_extractor] and demote dashscope-qwen-max.
 
   dashscope-deepseek-v4-pro:
     base_url: https://dashscope-intl.aliyuncs.com/compatible-mode/v1

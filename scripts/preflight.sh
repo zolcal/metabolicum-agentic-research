@@ -192,6 +192,82 @@ done
 
 echo ""
 
+# ─── Config drift (pinned hermes/config.yaml vs gateway-home/config.yaml) ─
+# Per hermes-setup.md §2.1, full-file SHA-256 is not enforced — Hermes auto-
+# expands the config on init and the dashboard rewrites model.default. The
+# project-authoritative key set defined in hermes/config.yaml's header
+# docstring is what must hold. This block validates that subset.
+
+echo "─── Config drift ───"
+
+if [[ -f hermes/gateway-home/config.yaml ]]; then
+    DRIFT_REPORT=$(python3 - <<'PY'
+import sys, yaml
+
+try:
+    live = yaml.safe_load(open("hermes/gateway-home/config.yaml").read())
+except Exception as e:
+    print(f"ERROR parsing live config: {e}")
+    sys.exit(1)
+
+# Authoritative scalar keys: (path, expected_value)
+authoritative = [
+    (("memory", "memory_enabled"), False),
+    (("memory", "user_profile_enabled"), False),
+    (("compression", "enabled"), False),
+    (("worktree",), False),
+    (("approvals", "mode"), "off"),
+    (("skills", "guard_agent_created"), True),
+    (("terminal", "backend"), "local"),
+]
+
+def getpath(d, path):
+    for k in path:
+        if not isinstance(d, dict) or k not in d:
+            return None
+        d = d[k]
+    return d
+
+mismatches = []
+for path, expected in authoritative:
+    live_val = getpath(live, path)
+    if live_val != expected:
+        mismatches.append((".".join(path), expected, live_val))
+
+required_disabled = {"memory", "skills", "cronjob", "messaging"}
+live_disabled = set(getpath(live, ("agent", "disabled_toolsets")) or [])
+missing = required_disabled - live_disabled
+if missing:
+    mismatches.append(("agent.disabled_toolsets",
+                       f"⊇ {sorted(required_disabled)}",
+                       f"missing {sorted(missing)}"))
+
+if mismatches:
+    print(f"DRIFT — {len(mismatches)} authoritative key(s) violated")
+    for key, exp, got in mismatches:
+        print(f"    {key}: expected={exp!r} got={got!r}")
+    sys.exit(1)
+else:
+    n = len(authoritative) + 1  # +1 for disabled_toolsets check
+    print(f"OK — all {n} authoritative keys match pinned spec")
+PY
+)
+    DRIFT_EXIT=$?
+    if [[ $DRIFT_EXIT -eq 0 ]]; then
+        pass "gateway-home/config.yaml: $DRIFT_REPORT"
+    else
+        # Currently a warn (not fail) per hermes-setup.md §2.1 transition note;
+        # promote to fail once #6 (worker home split) makes the dual-config
+        # story concrete and the gateway-only exceptions are formalized.
+        warn "gateway-home/config.yaml drift:"
+        echo "$DRIFT_REPORT" | tail -n +2 | sed 's/^/      /'
+    fi
+else
+    warn "hermes/gateway-home/config.yaml not initialized (expected on first ./run-hermes)"
+fi
+
+echo ""
+
 # ─── Persistence (Supabase) ──────────────────────────────────────────────
 
 echo "─── Persistence ───"

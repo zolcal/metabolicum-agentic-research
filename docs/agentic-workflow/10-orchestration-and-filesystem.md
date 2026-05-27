@@ -17,6 +17,9 @@ The proposed directory layout reflects the two-tier ingestion. Each run lives un
       /research_target_envelopes.sanitized.json
       /xcom.json
       /youtube.json
+      /youtube_inventory.jsonl    video metadata rows from registry YouTube surfaces
+      /youtube_ranked.jsonl       ranked video candidates with marker/category matches
+      /youtube_transcripts.jsonl  transcript cache-fill ledger with method and fixture path
       /podcasts.json
       /telegram.json
       /reddit.json

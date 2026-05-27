@@ -60,8 +60,9 @@ There are two distinct Hermes runtimes in this pipeline, and the §3 restriction
 | Process lifetime | Long-running. Survives across many Telegram messages. |
 | `HERMES_HOME` | Persistent, project-pinned (e.g., `metabolicum-agentic-research/hermes/gateway-home/`). NOT disposable. |
 | `state.db` | Used for Telegram session routing only. Sessions hold message history per Telegram thread so the gateway can resolve replies; no memory-feature writes (`memory.memory_enabled: false`, `memory.auto_write: false`). |
-| `SOUL.md`, `config.yaml` | Pinned from the repo, same SHA-256 enforcement as workers. |
-| `MEMORY.md`, `USER.md`, `memories/users/`, `skills/` | Must not exist or must be empty. Asserted at gateway start and via Acceptance Test #7. |
+| `SOUL.md` | Pinned from the repo. SHA-256 must match `metabolicum-agentic-research/hermes/SOUL.md` byte-for-byte. |
+| `config.yaml` | Pinned starting state from `metabolicum-agentic-research/hermes/config.yaml`. **Full-file SHA-256 is NOT enforced for the gateway** — Hermes auto-expands the file on init (adds dozens of defaults), and `hermes model` rewrites `model.default` when the user changes the Main model. Instead, the **project-authoritative key set** declared in the pinned file's header docstring is enforced: `memory.memory_enabled=false`, `memory.user_profile_enabled=false`, `compression.enabled=false`, `agent.disabled_toolsets ⊇ [memory, skills, cronjob, messaging]`, `worktree=false`, `approvals.mode=off`, `skills.guard_agent_created=true`, `terminal.backend=local`. Validated by `scripts/preflight` at gateway start. |
+| `MEMORY.md`, `USER.md`, `memories/users/`, `skills/` | Must not exist or must be empty post-preflight. The 2026-05-26 audit found `memories/` populated despite the pin specifying disabled — that's the kind of drift `scripts/preflight` must catch. Asserted at gateway start and via Acceptance Test #7. |
 | Role | Control plane: receive Telegram message → authorize sender → enqueue task on Kanban → return run id → surface status / result back to Telegram thread. **Never executes research work itself.** |
 | LLM calls | Only the small "router" calls needed to interpret an incoming Telegram message and decide which task to enqueue. No Stage-2/3 model calls. |
 
@@ -72,7 +73,8 @@ There are two distinct Hermes runtimes in this pipeline, and the §3 restriction
 | Started by | Kanban worker pool (`hermes kanban work` or equivalent) spawning a subprocess per pulled task. |
 | Process lifetime | One task, then exit. |
 | `HERMES_HOME` | **Disposable**, recreated per task at e.g. `metabolicum-agentic-research/runs/<run_id>/hermes-home/`. Deleted (or retained as an audit artifact) at task end. Acceptance Tests #4, #5, #7 apply unchanged. |
-| `SOUL.md`, `config.yaml` | Pinned from the repo, copied into the disposable `HERMES_HOME` at task start. SHA-256 asserted. |
+| `SOUL.md` | Pinned from the repo, copied into the disposable `HERMES_HOME` at task start. SHA-256 asserted byte-for-byte. |
+| `config.yaml` | Pinned starting state from `metabolicum-agentic-research/hermes/config.yaml`. Same project-authoritative key set as the gateway is enforced — but for workers, the file is copied fresh per task into a disposable home, so post-Hermes-init drift can't accumulate across tasks. The pinned file's header docstring is the canonical list of enforced keys. |
 | All other Hermes restriction rows (Skill Formation, Persistent Memory, Cross-Stage Visibility, Self-Improvement, Multi-Turn Autonomy, Tool Discovery) | Apply in full as defined in §3. |
 | Role | Execute exactly one stage of exactly one source × marker job per the prompts (Stage 2 extractor, Stage 2 tagger, Stage 2 structurer, Stage 3 council, Stage 5 legal, etc.). |
 | Kanban | Workers pull tasks from the same Kanban the gateway writes to. The Kanban's heartbeat / reclaim / zombie-detection / hallucination-recovery features (§5) apply at this layer. |

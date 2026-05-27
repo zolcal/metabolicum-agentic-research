@@ -8,9 +8,9 @@ The sequence diagram is straightforward:
 
 ```mermaid
 sequenceDiagram
-    participant Ext as Extractor (Claude Sonnet 4.6)
-    participant Rev as Reviewer (Gemini 3 Pro)
-    participant Dec as Decider (Claude Opus 4.7)
+    participant Ext as Extractor (DeepSeek V4 Flash)
+    participant Rev as Reviewer (Gemini 2.5 Flash)
+    participant Dec as Decider (gpt-5-mini)
     participant Anc as SM Anchor (lookup, per marker)
     participant Env as Target Envelope Facts (sanitized lookup)
     participant Conf as Conflict Check (lookup, per claim)
@@ -53,5 +53,16 @@ For hallucination detection more broadly, we have surveyed the 2025–2026 liter
 There are techniques we explicitly do not rely on. We do not use LLM-as-judge for free-form quality scoring, because calibration drifts, sycophancy is endemic, and models prefer their own outputs. We use LLMs as judges only for binary, schema-constrained checks of the form "does this string appear in this fetched page: yes or no." We do not implement Constitutional AI in the strict Anthropic sense, because it is too vague for our needs; the constraints are baked into the schema contract directly. We do not rely on self-grading confidence alone — confidence values are recorded for downstream calibration but are never the sole gate.
 
 Council testing uses a small golden set before a marker is trusted: known-good claims with fetchable quotes, known-bad hallucinated quotes, wrong-marker claims, wrong-paradigm claims, and conflict-heavy claims. The goal is not to prove the models are correct in general; it is to verify that the contract rejects predictable failure modes before production export.
+
+## Council family selection — evidence trail (2026-05-25)
+
+The three families currently wired are DeepSeek (extractor), Google (reviewer), and OpenAI (decider). The extractor slot evolved through three candidates before settling:
+
+- **Originally** `dashscope-qwen-max` (Alibaba family, model `qwen3.7-max`). Quality held, but per-token pricing at $2.50/M input + $7.50/M output produced day-one cost exhaustion when used in interactive sessions, and the role was sharing a key with Stage 2 bulk extraction. Demoted from council on 2026-05-25; retained for Stage 2 + Stage 5 where its quality is still required.
+- **Tried** `minimax-anthropic` (MiniMax M2.7-highspeed via the $80/mo Anthropic-compatible plan). Failed the council bar on two counts: non-deterministic output at `temperature=0` between identical runs (one run produced parseable JSON with wrong values, the next produced unparseable prose on the same input), and unicode normalization drift (replacing curly apostrophes with straight ones in `verbatim_quote`, breaking byte-level substring grounding). The non-determinism alone disqualifies it — the council 2-of-3 consensus rule presumes that the same input gives the same output. Kept as a documented endpoint with `active: false`.
+- **Tried** `openrouter-kimi` (Moonshot Kimi K2.6). Returned empty output on every fixture — token starvation from internal reasoning ("thinking mode") consuming the entire `max_tokens` budget before producing visible content. Fixable in principle with a much larger token budget, but not worth pursuing while a cleaner option exists.
+- **Settled on** `openrouter-deepseek-v4-flash` (DeepSeek V4 Flash, OpenRouter route). 6/6 PASS across the 3-fixture council quality harness × 2 deterministic runs. Output is semantically stable run-to-run (byte-level variance stays within the canonicalizer tolerance defined for Acceptance Test #4). Pricing approximately $0.20/M input + $0.40/M output — roughly 12× cheaper than `qwen3.7-max` for this role. DeepSeek is a fourth independent family (Chinese, but with no Alibaba/Moonshot/MiniMax overlap), so the three-family invariant still holds.
+
+The evidence harness lives at `code/acceptance/quality_check_council_extractor.py`. It is reusable for any future endpoint swap: parameterized by `TEST_CASES` (fixture + expected marker + expected numeric range) and a list of endpoint ids. Re-run before promoting any new model into a council role.
 
 The output is either a post-council `biomarker_claims` row, one per marker the underlying claim serves, or a `quarantine` row with reason codes. When sanitized envelope facts exist, the council also writes `claim_envelope_evaluations` rows for comparable claim-envelope pairs. Quarantine is part of the research record: it preserves what failed, where it failed, and whether a later reviewer or improved source fetch can re-open the item.
