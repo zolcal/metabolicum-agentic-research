@@ -1,0 +1,20 @@
+marker_slug: galectin-3-2
+marker_name: Galectin 3
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-2
+  marker_slug: galectin-3-2
+  visibility: council_only
+unit: ng/mL
+recommended_youtube_video_ids: []
+recommended_practitioner_ids: []
+recommended_pubmed_ids:
+- '38519721'
+- '41062943'
+- '41158187'
+- '41682810'
+recommended_dois: []
+recommended_source_urls: []
+recommended_search_queries:
+- Galectin 3 practitioner optimal range
+- Galectin 3 metabolic optimization

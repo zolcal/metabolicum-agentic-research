@@ -1,0 +1,124 @@
+marker_slug: ast
+marker_name: Aspartate Aminotransferase
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-1
+  marker_slug: ast
+  visibility: council_only
+unit: U/L
+recommended_youtube_video_ids:
+- 3FeVs-O70qo
+- SgKp5mm0ALI
+- bDaIhHbnuWk
+- qmer3LBYXiE
+- x7cPrE8-_Os
+- mHzQaLgSrxM
+- pQaQin8NO2I
+- Fi0YjY8HmYY
+recommended_practitioner_ids:
+- person:benjamin-bikman
+- researchgroup:csiro
+- person:david-ludwig
+- person:david-unwin
+- company:defeat-diabetes
+- person:dominic-dagostino
+- person:grant-brinkworth
+- person:jason-fung
+- person:jeff-volek
+- person:joseph-kraft
+- person:mark-hyman
+- person:peter-attia
+- person:peter-brukner
+- person:rhonda-patrick
+- person:robert-lustig
+- person:stephen-phinney
+- person:ted-naiman
+- person:tim-noakes
+- company:virta-health
+- person:andreas-eenfeldt
+- person:andrew-huberman
+- person:anthony-chaffee
+- person:brian-lamkin
+- person:casey-means
+- person:dale-bredesen
+- person:david-harper
+- person:david-perlmutter
+- media:diet-doctor
+- person:evelyne-bourdua-roy
+- network:hungarian-diabetes-association
+- person:jonathan-little
+- person:joseph-mercola
+- company:levels-health
+- company:low-carb-program
+- person:megan-ramos
+- conference:metabolic-health-summit
+- media:metodichu-bengedi-robi
+- person:michael-mosley
+- person:paul-saladino
+- network:public-health-collaboration
+- person:rangan-chatterjee
+- person:richard-maurer
+- person:sara-gottfried
+- researchgroup:semmelweis-metabolic-research-sources
+- person:sten-ekberg
+- person:steven-gundry
+- researchgroup:university-of-debrecen-metabolic-research-sources
+- person:zoltan-szabo
+- person:zoe-harcombe
+- network:hungarian-low-carb-clinician-network
+recommended_pubmed_ids:
+- '20427778'
+- '26707365'
+- '32335169'
+recommended_dois: []
+recommended_source_urls:
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC3772807/
+- https://www.benbikman.com/
+- https://benbikman.com/
+- https://feeds.acast.com/public/shows/602b13db8237836e54f27141
+- https://www.csiro.au/
+- https://phcuk.org/
+- https://www.defeatdiabetes.com.au/
+- https://ketonutrition.org/
+- https://www.thefastingmethod.com/
+- https://drjasonfung.com/
+- https://drhyman.me/
+- https://drhyman.com/
+- https://feeds.megaphone.fm/thedoctorsfarmacy
+- https://peterattiamd.com/
+- https://peterattiadrive.libsyn.com/rss
+- https://peterbrukner.com/
+- https://www.foundmyfitness.com/
+- https://foundmyfitness.com/
+- https://rss.libsyn.com/shows/51714/destinations/184296.xml
+- https://virtahealth.com/
+- https://tednaiman.com/
+- https://www.virtahealth.com/
+- https://dietdoctor.com/
+- https://hubermanlab.com/
+- https://feeds.megaphone.fm/hubermanlab
+- https://dranthonychaffee.com/
+- https://instagram.com/anthonychaffeemd
+- https://podcasts.apple.com/au/podcast/the-plant-free-md-podcast/id1614546790
+- https://open.spotify.com/show/0WQtoPLuPMWWm3ZT3DYXzp
+- https://dr-chaffee-s-90-day-carnivore-challenge.mn.co/landing
+- https://patreon.com/AnthonyChaffeeMD
+- https://metabolicinitiative.com/
+- https://anchor.fm/s/48092b10/podcast/rss
+- https://drbredesen.com/
+- https://drperlmutter.com/
+- https://anchor.fm/s/f102c71c/podcast/rss
+- https://www.dietdoctor.com/
+- https://www.mercola.com/
+- https://www.levels.com/
+- https://levelshealth.com/
+- https://www.lowcarbprogram.com/
+- https://thefastingmethod.com/
+- https://metabolichealthsummit.com/
+- https://carnivoremd.com/
+- https://saragottfriedmd.com/
+- https://drsten.com/
+- https://gundrymd.com/
+recommended_search_queries:
+- Aspartate Aminotransferase practitioner optimal range
+- Aspartate Aminotransferase metabolic optimization

@@ -1,0 +1,48 @@
+marker_slug: total-testosterone
+marker_name: Total Testosterone
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-1
+  marker_slug: total-testosterone
+  visibility: council_only
+unit: ng/dL
+recommended_youtube_video_ids:
+- xLqq14G8voc
+- 1oKru2X3AvU
+- wMrqJYt326E
+- 8qwvVWeDE-M
+- DUkEeNZWEaE
+- lz-GCxDbh1A
+- v4HRWgwjP_k
+- WxtxzRdJFTI
+- DtmwtjOoSYU
+- H3p4HoitpM4
+- WPEDiuLMQPg
+- _qyyh9Gp6Kk
+- wiVS9eOdHQ0
+- Mwz8JprPeMc
+- Nmi3hR9aA80
+- Y4uE2y-DLPI
+- bAWUYuygS_U
+- cjUVAf6INRs
+- t7afAdI88U4
+- 20VNbCdJp-w
+- 2KI15uKTJV0
+- K5KmAxnWX5o
+- PsBrQo9Oj14
+- U3cSnzdyyXU
+- Vpxu5bGOl9c
+- _P7ZBZI13B4
+- qJXKhu5UZwk
+- sgZobeP5yRA
+- uMxqZMJU1xI
+- J7SrAEacyf8
+recommended_practitioner_ids: []
+recommended_pubmed_ids:
+- '33838041'
+- '39801930'
+recommended_dois: []
+recommended_source_urls: []
+recommended_search_queries:
+- Total Testosterone practitioner optimal range
+- Total Testosterone metabolic optimization

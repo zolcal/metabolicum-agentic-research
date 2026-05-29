@@ -1,0 +1,56 @@
+marker_slug: total-cholesterol
+marker_name: Total Cholesterol
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-1
+  marker_slug: total-cholesterol
+  visibility: council_only
+unit: mg/dL
+recommended_youtube_video_ids:
+- Mxao_CePhI0
+- PP4-5KdhXEI
+- WcQX9MtQG4Q
+- SgKp5mm0ALI
+- fCa3myO02iQ
+- n3L1jtWk6q0
+- q6nJ8bZKs1Y
+- XbKqWWHE-zw
+- qSeIz_PWCmc
+- C3rsNCFNAw8
+- Jv6flHrh0NQ
+- eZ0eLgqZQUs
+- gH2oDjnatA4
+- nGifsbBHf0A
+- pXhZr-3Nr0U
+- 8ipbkwzyO_8
+- 93JaozgNfAA
+- RU8jn0kAmfk
+- XfJNUbJE_V0
+- kDOHw0qhT0A
+- f9w9oIU5FAA
+- rSn5j4OSggI
+- 0LuKwsz9Woc
+- 9HtxFzMbl3U
+- R0nS8yxQ90E
+- jZu52duIqno
+- y8pybQjVeiQ
+- 0OJltvn0mVM
+- ErSbsMF5Hho
+- TtD7O7CRNms
+recommended_practitioner_ids: []
+recommended_pubmed_ids:
+- '9603539'
+- '9610529'
+- '11386890'
+- '13751193'
+- '22555213'
+- '30586774'
+- '31504418'
+- '33143083'
+- '34120177'
+- '34458905'
+recommended_dois: []
+recommended_source_urls: []
+recommended_search_queries:
+- Total Cholesterol practitioner optimal range
+- Total Cholesterol metabolic optimization

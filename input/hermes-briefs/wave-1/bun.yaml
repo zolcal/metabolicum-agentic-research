@@ -1,0 +1,47 @@
+marker_slug: bun
+marker_name: Blood Urea Nitrogen
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-1
+  marker_slug: bun
+  visibility: council_only
+unit: mg/dL
+recommended_youtube_video_ids:
+- 63zDCfRTBa4
+- xqoCS9GZIjE
+- QadlpylF-tw
+- ZhA_8rIvN3c
+- AxTY6TqV2wM
+- _RCdtFPjzVM
+- kgFR3qTLl90
+- _otLuu061g8
+- s-EoJKCGvIo
+- 2cwY7mYdjvo
+- SgKp5mm0ALI
+- oK9Px3hlTpY
+- 4L3xHtI8eQA
+- fRKUqZai76E
+- iPX4FweScRE
+- kkZ_F_s07vI
+- tjZTNezQTSI
+- 1Im6I9gItjg
+- B69RS3cZJFk
+- C99sgi_Vx_M
+- GA6lmc_ex3o
+- JMXrS6A_yWc
+- KZLOm4QZsn0
+- NBLv3UrNAsw
+- TLOtcX_WB8U
+- bDaIhHbnuWk
+- cPyFIvCvh8U
+- hbxbeLxny-M
+- nxWzyh9VMBQ
+- qEvE9f4FYzE
+recommended_practitioner_ids: []
+recommended_pubmed_ids: []
+recommended_dois: []
+recommended_source_urls:
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC8115101/
+recommended_search_queries:
+- Blood Urea Nitrogen practitioner optimal range
+- Blood Urea Nitrogen metabolic optimization

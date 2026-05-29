@@ -1,0 +1,67 @@
+marker_slug: fasting-glucose
+marker_name: Fasting Glucose
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-1
+  marker_slug: fasting-glucose
+  visibility: council_only
+unit: mg/dL
+recommended_youtube_video_ids:
+- l7jW_5DOwQs
+- KJQKZdt43w8
+- LKZYZRA218M
+- mBiMJ7QhGm8
+- zWgSQzftedo
+- zBspLNQJziE
+- RmQzIRQqwK0
+- ydthbDdPMZE
+- OnHKFgu_1cI
+- KRrAigOWWy8
+- W-yST1wu0NI
+- 9Gzlmo0FGXU
+- 5VyFdIU6IGs
+- B3mA0OH5pvs
+- DIsMNXkE-1g
+- TdQhhVZnLxI
+- UAjZLzlj1t0
+- UEcMjx7xAK4
+- d1nj4_iHb8M
+- i1QkD8neXgo
+- mrlnNhxKNgY
+- 1demWeM-hY0
+- Fu0tZPFYwek
+- MyQ7jPrevFk
+- b-re4pBXySY
+- n5lShaJiBWU
+- p6YhiPLcqh4
+- u4SiFJ5lqWk
+- znFnEVb-eZ4
+- 62CyKoihZAY
+recommended_practitioner_ids:
+- person:paul-saladino
+recommended_pubmed_ids:
+- '3899825'
+- '10333902'
+- '10902745'
+- '12089386'
+- '15381654'
+- '16046317'
+- '16157765'
+- '16371630'
+- '18539916'
+- '19805654'
+- '23404299'
+- '24131857'
+- '31108989'
+- '31497854'
+- '31641012'
+- '32669282'
+- '33143083'
+- '33376604'
+- '37622663'
+recommended_dois: []
+recommended_source_urls:
+- https://carnivoremd.com/
+recommended_search_queries:
+- Fasting Glucose practitioner optimal range
+- Fasting Glucose metabolic optimization

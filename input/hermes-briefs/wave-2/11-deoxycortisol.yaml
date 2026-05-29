@@ -1,0 +1,17 @@
+marker_slug: 11-deoxycortisol
+marker_name: 11-Deoxycortisol
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-2
+  marker_slug: 11-deoxycortisol
+  visibility: council_only
+unit: ng/dL
+recommended_youtube_video_ids: []
+recommended_practitioner_ids: []
+recommended_pubmed_ids:
+- '19907141'
+recommended_dois: []
+recommended_source_urls: []
+recommended_search_queries:
+- 11-Deoxycortisol practitioner optimal range
+- 11-Deoxycortisol metabolic optimization

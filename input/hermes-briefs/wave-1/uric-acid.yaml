@@ -1,0 +1,47 @@
+marker_slug: uric-acid
+marker_name: Uric Acid
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-1
+  marker_slug: uric-acid
+  visibility: council_only
+unit: mg/dL
+recommended_youtube_video_ids:
+- IZhi4JXxy6Y
+- 5jBsWbDGtWU
+- 7nH-xCegcYk
+- JTxkAK82e0I
+- QZ6jPCcFNa8
+- sivgu813n_o
+- s82Ooad0AJQ
+- BYzu0BS7loU
+- 9D2VwqySGwA
+- BzwH-94vMis
+- nXGTFDVoTQM
+- ucXGCpLhomQ
+- 5gqyroyD3Hc
+- N8Ij25ZSt8s
+- Uo8_ikAdHs8
+- Y_pifLdwBKQ
+- ZU0rmr6vhlU
+- lc-qmG0DAXY
+- n28W4AmvMDE
+- 95mhn0ry2LY
+- CoMRcsejMGc
+- Tn3lHConEDw
+- ip4KAIqgBII
+- NKK-ycm5c-M
+- WuthVn5wZsk
+- lK7NsTJuEP0
+- R2BiVf25lhU
+- aVnEp5wYztw
+- eLj2EAutaLw
+- fRKUqZai76E
+recommended_practitioner_ids:
+- person:robert-lustig
+recommended_pubmed_ids: []
+recommended_dois: []
+recommended_source_urls: []
+recommended_search_queries:
+- Uric Acid practitioner optimal range
+- Uric Acid metabolic optimization

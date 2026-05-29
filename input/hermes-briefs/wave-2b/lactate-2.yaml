@@ -1,0 +1,19 @@
+marker_slug: lactate-2
+marker_name: Lactate
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-2b
+  marker_slug: lactate-2
+  visibility: council_only
+unit: mmol/L
+recommended_youtube_video_ids: []
+recommended_practitioner_ids: []
+recommended_pubmed_ids:
+- '35144985'
+- '39443695'
+- '40739501'
+recommended_dois: []
+recommended_source_urls: []
+recommended_search_queries:
+- Lactate practitioner optimal range
+- Lactate metabolic optimization

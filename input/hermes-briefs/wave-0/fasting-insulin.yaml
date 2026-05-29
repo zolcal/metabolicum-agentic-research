@@ -1,0 +1,62 @@
+marker_slug: fasting-insulin
+marker_name: Fasting Insulin
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-0
+  marker_slug: fasting-insulin
+  visibility: council_only
+unit: μIU/mL
+recommended_youtube_video_ids:
+- b-re4pBXySY
+- l7jW_5DOwQs
+- bn1U2Spl0-k
+- qR2Psa7RAfc
+- Ft59gWD64jc
+- aNzQ5jNrFSI
+- 2cwY7mYdjvo
+- m24rS5Xt9N8
+- vJFozt4pytg
+- 6P8HVIbdDc0
+- Cp2XWjb8l7E
+- CvBR-GoBvzk
+- K9n4PHiKlVI
+- SgKp5mm0ALI
+- gKVe4zkzK6Q
+- udzPX2beUj8
+- zxdm-Dd6J8o
+- 5nko-awKd8s
+- 0Cm-SDZXO5s
+- 0qF_VImbS28
+- AH1XInAAHaQ
+- C3rsNCFNAw8
+- Ku8VaEF82jg
+- c-4mnFERn4A
+- jaQaikXEEtw
+- rtl0H_6u11k
+- zf87WpMq9U0
+- JcsNqgu3F9U
+- KvjOhVgxxn4
+- ODmFi5wHVs4
+recommended_practitioner_ids:
+- person:paul-saladino
+recommended_pubmed_ids:
+- '3899825'
+- '10333943'
+- '10824095'
+- '10902745'
+- '12089386'
+- '14623617'
+- '16046317'
+- '24131857'
+- '31108989'
+- '31641012'
+- '33143083'
+- '33376604'
+- '39529982'
+- '39606490'
+recommended_dois: []
+recommended_source_urls:
+- https://carnivoremd.com/
+recommended_search_queries:
+- Fasting Insulin practitioner optimal range
+- Fasting Insulin metabolic optimization

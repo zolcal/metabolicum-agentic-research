@@ -1,0 +1,18 @@
+marker_slug: pancreastatin
+marker_name: Pancreastatin
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-2
+  marker_slug: pancreastatin
+  visibility: council_only
+unit: pg/mL
+recommended_youtube_video_ids: []
+recommended_practitioner_ids:
+- person:paul-saladino
+recommended_pubmed_ids: []
+recommended_dois: []
+recommended_source_urls:
+- https://carnivoremd.com/
+recommended_search_queries:
+- Pancreastatin practitioner optimal range
+- Pancreastatin metabolic optimization

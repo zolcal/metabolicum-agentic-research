@@ -1,0 +1,53 @@
+marker_slug: hemoglobin
+marker_name: Hemoglobin
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-1
+  marker_slug: hemoglobin
+  visibility: council_only
+unit: g/dL
+recommended_youtube_video_ids:
+- Oo8eVnXisTI
+- h_IiQS2AZIQ
+- DrFW5iMWs3c
+- GB9Ave07nWE
+- HIbM2V-bXaM
+- MtLfYmxVIzY
+- R2BiVf25lhU
+- Z8FDDrRg73Q
+- l4q5A7PgEjw
+- SgKp5mm0ALI
+- htCyNUvHxLA
+- 6RPRzN4kTWI
+- cjAvD-U5so0
+- f0g-n9Bn-KI
+- sIb8i5PqOPQ
+- 69eAWgXDGrs
+- TBSGhpG8yfE
+- 67sLlXeMg2I
+- X9EbJRuC5_Y
+- lYx0nT51vwY
+- ltskwX74oZ8
+- u54fMg6s2Fw
+- 0PQ-v2vaJ88
+- 3vjmmkeEdFY
+- 7RpMYKTDaPg
+- 8Ifu2BRdchI
+- H0bpMtMbZAE
+- c-4mnFERn4A
+- YHH6B1ZqsLU
+- qmxJRm82pHA
+recommended_practitioner_ids: []
+recommended_pubmed_ids:
+- '23613366'
+- '24778671'
+- '25946282'
+- '27099596'
+- '30783404'
+- '31413088'
+recommended_dois: []
+recommended_source_urls:
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12134580/
+recommended_search_queries:
+- Hemoglobin practitioner optimal range
+- Hemoglobin metabolic optimization

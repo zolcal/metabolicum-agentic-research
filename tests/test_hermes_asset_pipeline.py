@@ -152,8 +152,16 @@ def test_assemble_brief_projects_clean_pointer_fields(tmp_path, monkeypatch):
     ]
     assert "_meta" not in brief
     assert "reviewer_note" not in brief
-    assert "use" not in brief["rows"][0]
-    assert "primary_display" not in brief["rows"][0]
+    assert brief["sm_reference"] == {
+        "wave": "wave-test",
+        "marker_slug": "apob",
+        "visibility": "council_only",
+    }
+    assert "rows" not in brief
+    assert "min" not in yaml.safe_dump(brief)
+    assert "max" not in yaml.safe_dump(brief)
+    assert "anchor_provenance" not in brief
+    assert "known_research_context" not in brief
 
 
 def test_legacy_prepare_brief_does_not_embed_meta_scores():
@@ -175,14 +183,81 @@ def test_legacy_prepare_brief_does_not_embed_meta_scores():
 
     assert brief["recommended_youtube_video_ids"] == ["abc123"]
     assert "_meta" not in brief
-    assert "use" not in brief["rows"][0]
-    assert "primary_display" not in brief["rows"][0]
+    assert brief["sm_reference"] == {
+        "wave": "wave-test",
+        "marker_slug": "apob",
+        "visibility": "council_only",
+    }
+    assert "rows" not in brief
+    assert "anchor_provenance" not in brief
+    assert "known_research_context" not in brief
 
 
-def test_acceptance_check_rejects_meta_blocks():
+def test_acceptance_check_rejects_meta_blocks_and_sm_ranges(tmp_path, monkeypatch):
     from code.acceptance import check_hermes_briefs
 
+    sm_root = tmp_path / "input" / "sm-ranges"
+    sm_path = sm_root / "wave-test" / "apob.yaml"
+    sm_path.parent.mkdir(parents=True)
+    sm_path.write_text("marker_slug: apob\nrows: []\n", encoding="utf-8")
+    monkeypatch.setattr(check_hermes_briefs, "SM_RANGES_DIR", sm_root)
+
     errors = []
-    check_hermes_briefs.check_bloat({"_meta": {"video_scores": {"abc123": 10}}}, "apob", errors)
+    check_hermes_briefs.check_bloat(
+        {
+            "_meta": {"video_scores": {"abc123": 10}},
+            "rows": [{"min": 80, "max": 110}],
+            "anchor_provenance": {"source_visibility": "public_ids_only"},
+        },
+        "apob",
+        errors,
+    )
+    check_hermes_briefs.check_sm_reference(
+        {
+            "sm_reference": {
+                "wave": "wave-test",
+                "marker_slug": "apob",
+                "visibility": "council_only",
+            }
+        },
+        "apob",
+        errors,
+    )
 
     assert any("_meta" in error for error in errors)
+    assert any("forbidden SM field 'rows'" in error for error in errors)
+    assert any("forbidden SM field 'anchor_provenance'" in error for error in errors)
+    assert not any("sm_reference" in error for error in errors)
+
+
+def test_sm_reference_resolver_writes_council_alignment_reference(tmp_path, monkeypatch):
+    from code.loaders import sm_reference
+
+    sm_root = tmp_path / "input" / "sm-ranges"
+    sm_path = sm_root / "wave-test" / "apob.yaml"
+    sm_path.parent.mkdir(parents=True)
+    sm_path.write_text(
+        yaml.safe_dump(
+            {
+                "marker_slug": "apob",
+                "marker_name": "Apolipoprotein B",
+                "unit": "mg/dL",
+                "rows": [{"stratum": "all_adults", "min": 80, "max": 110}],
+            }
+        ),
+        encoding="utf-8",
+    )
+    run_dir = tmp_path / "runs" / "run-1"
+    (run_dir / "council").mkdir(parents=True)
+    monkeypatch.setattr(sm_reference, "SM_RANGES_DIR", sm_root)
+
+    out_path = sm_reference.write_council_alignment_reference(
+        {"wave": "wave-test", "marker_slug": "apob", "visibility": "council_only"},
+        run_dir,
+    )
+    resolved = yaml.safe_load(out_path.read_text(encoding="utf-8"))
+
+    assert out_path == run_dir / "council" / "sm_alignment_reference.json"
+    assert resolved["source_path"] == "input/sm-ranges/wave-test/apob.yaml"
+    assert resolved["marker_slug"] == "apob"
+    assert resolved["rows"] == [{"stratum": "all_adults", "min": 80, "max": 110}]

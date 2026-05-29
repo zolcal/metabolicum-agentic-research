@@ -1,0 +1,43 @@
+marker_slug: lpa-2
+marker_name: Lipoprotein a
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-3
+  marker_slug: lpa-2
+  visibility: council_only
+unit: nmol/L
+recommended_youtube_video_ids: []
+recommended_practitioner_ids:
+- person:allan-sniderman
+- person:aseem-malhotra
+- person:paul-mason
+- person:peter-attia
+- person:thomas-dayspring
+- person:bret-scher
+- person:dave-feldman
+- person:joseph-mercola
+- person:nick-norwitz
+- person:paul-saladino
+- person:rangan-chatterjee
+- person:sten-ekberg
+- person:steven-gundry
+- person:zoe-harcombe
+recommended_pubmed_ids:
+- '33115266'
+- '41231412'
+recommended_dois: []
+recommended_source_urls:
+- https://peterattiamd.com/
+- https://peterattiadrive.libsyn.com/rss
+- https://twitter.com/Drlipid
+- https://dietdoctor.com/
+- https://feed.podbean.com/dietdoctorpodcast/feed.xml
+- https://cholesterolcode.com/
+- https://www.mercola.com/
+- https://nicknorwitz.com/
+- https://carnivoremd.com/
+- https://drsten.com/
+- https://gundrymd.com/
+recommended_search_queries:
+- Lipoprotein a practitioner optimal range
+- Lipoprotein a metabolic optimization

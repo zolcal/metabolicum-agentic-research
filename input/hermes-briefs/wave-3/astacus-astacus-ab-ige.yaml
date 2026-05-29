@@ -1,0 +1,18 @@
+marker_slug: astacus-astacus-ab-ige
+marker_name: Crawfish IgE Ab
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-3
+  marker_slug: astacus-astacus-ab-ige
+  visibility: council_only
+unit: kU/L
+recommended_youtube_video_ids: []
+recommended_practitioner_ids:
+- person:paul-saladino
+recommended_pubmed_ids: []
+recommended_dois: []
+recommended_source_urls:
+- https://carnivoremd.com/
+recommended_search_queries:
+- Crawfish IgE Ab practitioner optimal range
+- Crawfish IgE Ab metabolic optimization

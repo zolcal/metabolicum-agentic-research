@@ -1,0 +1,17 @@
+marker_slug: protein-urine
+marker_name: Protein
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-2
+  marker_slug: protein-urine
+  visibility: council_only
+unit: mg/24 hours
+recommended_youtube_video_ids: []
+recommended_practitioner_ids: []
+recommended_pubmed_ids:
+- '35508320'
+recommended_dois: []
+recommended_source_urls: []
+recommended_search_queries:
+- Protein practitioner optimal range
+- Protein metabolic optimization

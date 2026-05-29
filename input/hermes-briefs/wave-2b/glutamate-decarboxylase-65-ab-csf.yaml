@@ -1,0 +1,18 @@
+marker_slug: glutamate-decarboxylase-65-ab-csf
+marker_name: Glutamate decarboxylase 65 Ab
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-2b
+  marker_slug: glutamate-decarboxylase-65-ab-csf
+  visibility: council_only
+unit: IU/mL
+recommended_youtube_video_ids: []
+recommended_practitioner_ids: []
+recommended_pubmed_ids:
+- '37114858'
+- '39985693'
+recommended_dois: []
+recommended_source_urls: []
+recommended_search_queries:
+- Glutamate decarboxylase 65 Ab practitioner optimal range
+- Glutamate decarboxylase 65 Ab metabolic optimization

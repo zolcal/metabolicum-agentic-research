@@ -1,0 +1,35 @@
+marker_slug: free-t3
+marker_name: Free T3
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-1
+  marker_slug: free-t3
+  visibility: council_only
+unit: pg/mL
+recommended_youtube_video_ids:
+- kzrpQK5iD0c
+- De0aEV3sIp0
+- 5s7wyBmlAgU
+- 2LpVGct-ij8
+- B3cfLaWCufo
+- g8SumocGOgw
+- v-ApGpz9FD4
+- 97a_5KCNHwI
+- OaFwMS8-K-A
+- PEOHp0oor-Q
+- iKB96z0onpQ
+- KF1qRo_e9s0
+recommended_practitioner_ids:
+- person:amy-myers
+- person:sara-gottfried
+- person:sten-ekberg
+recommended_pubmed_ids:
+- '24315768'
+recommended_dois: []
+recommended_source_urls:
+- https://amymyersmd.com/
+- https://saragottfriedmd.com/
+- https://drsten.com/
+recommended_search_queries:
+- Free T3 practitioner optimal range
+- Free T3 metabolic optimization

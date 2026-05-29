@@ -1,0 +1,34 @@
+marker_slug: globulin
+marker_name: Globulin
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-1
+  marker_slug: globulin
+  visibility: council_only
+unit: g/dL
+recommended_youtube_video_ids:
+- aRYXTpEOw1U
+- P0nM7DSKqqc
+- PsBrQo9Oj14
+- bDaIhHbnuWk
+- TjX5l5Vla2M
+- 2vXgAo-luQI
+- ncSoor2Iw8k
+- x7cPrE8-_Os
+- qJXKhu5UZwk
+- fXdiWW3aq80
+- jo4MvvUQC2k
+recommended_practitioner_ids: []
+recommended_pubmed_ids:
+- '26609491'
+- '33289935'
+- '34617572'
+- '35756671'
+- '36670150'
+- '38602312'
+- '39957864'
+recommended_dois: []
+recommended_source_urls: []
+recommended_search_queries:
+- Globulin practitioner optimal range
+- Globulin metabolic optimization

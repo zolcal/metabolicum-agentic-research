@@ -3,6 +3,8 @@
 
 Validates that generated briefs conform to the pointer framework contract:
 - Six pointer fields present and well-formed
+- Council-only sm_reference is present and resolvable
+- No SM numeric rows or range-bearing context is embedded
 - No bloat (transcript text, descriptions, titles, scores, rationale)
 - YouTube video IDs have matching inventory files
 - Source URLs are permissive/public only
@@ -40,6 +42,22 @@ POINTER_FIELDS = [
     "recommended_source_urls",
     "recommended_search_queries",
 ]
+
+FORBIDDEN_SM_FIELDS = {"rows", "anchor_provenance", "known_research_context"}
+FORBIDDEN_RANGE_KEYS = {
+    "min",
+    "max",
+    "low",
+    "high",
+    "lower",
+    "upper",
+    "age_min",
+    "age_max",
+    "reference_min",
+    "reference_max",
+    "target_range_low",
+    "target_range_high",
+}
 
 # Patterns that indicate bloat inside the brief
 BLOAT_PATTERNS = [
@@ -112,26 +130,54 @@ def check_source_urls(brief: dict, marker: str, errors: list[str]) -> None:
                 errors.append(f"{marker}: source URL appears gated/restricted: {url}")
 
 
+def _check_forbidden_sm_fields(value, marker: str, errors: list[str], path: str = "brief") -> None:
+    if isinstance(value, dict):
+        for key, child in value.items():
+            child_path = f"{path}.{key}"
+            if key in FORBIDDEN_SM_FIELDS:
+                errors.append(f"{marker}: forbidden SM field '{key}' in brief")
+            if key in FORBIDDEN_RANGE_KEYS:
+                errors.append(f"{marker}: forbidden SM numeric bound field '{child_path}' in brief")
+            _check_forbidden_sm_fields(child, marker, errors, child_path)
+    elif isinstance(value, list):
+        for index, child in enumerate(value):
+            _check_forbidden_sm_fields(child, marker, errors, f"{path}[{index}]")
+
+
 def check_bloat(brief: dict, marker: str, errors: list[str]) -> None:
-    """Check that no bloat fields exist in the brief."""
-    # Serialize to string for simple pattern checks
+    """Check that no bloat or embedded SM range fields exist in the brief."""
     text = json.dumps(brief, default=str)
     for pat in BLOAT_PATTERNS:
         if pat.search(text):
             errors.append(f"{marker}: brief contains potential bloat pattern: {pat.pattern}")
 
-    # Explicit field checks
     for forbidden in ("_meta", "transcript_text", "transcript_sha256", "description", "title",
                       "match_score", "selection_reason", "rationale"):
         if forbidden in brief:
             errors.append(f"{marker}: forbidden top-level field '{forbidden}' in brief")
 
-    # Deep check in rows
-    for row in brief.get("rows", []):
-        if isinstance(row, dict):
-            for forbidden in ("use", "primary_display"):
-                if forbidden in row:
-                    errors.append(f"{marker}: forbidden row field '{forbidden}' in brief (Metasync decides display)")
+    _check_forbidden_sm_fields(brief, marker, errors)
+
+
+def check_sm_reference(brief: dict, marker: str, errors: list[str]) -> None:
+    ref = brief.get("sm_reference")
+    if not isinstance(ref, dict):
+        errors.append(f"{marker}: missing or invalid sm_reference")
+        return
+
+    wave = ref.get("wave")
+    ref_marker = ref.get("marker_slug")
+    visibility = ref.get("visibility")
+    if not isinstance(wave, str) or not wave:
+        errors.append(f"{marker}: sm_reference.wave must be a non-empty string")
+    if ref_marker != marker:
+        errors.append(f"{marker}: sm_reference.marker_slug must match marker slug")
+    if visibility != "council_only":
+        errors.append(f"{marker}: sm_reference.visibility must be council_only")
+    if isinstance(wave, str) and isinstance(ref_marker, str):
+        sm_path = SM_RANGES_DIR / wave / f"{ref_marker}.yaml"
+        if not sm_path.exists():
+            errors.append(f"{marker}: sm_reference does not resolve to {sm_path}")
 
 
 def check_sm_unchanged(marker: str, wave: str) -> str | None:
@@ -177,6 +223,7 @@ def run_checks(markers: list[str], wave: str) -> dict:
         check_youtube_inventory(brief, marker, marker_errors)
         check_source_urls(brief, marker, marker_errors)
         check_bloat(brief, marker, marker_errors)
+        check_sm_reference(brief, marker, marker_errors)
 
         sm_err = check_sm_unchanged(marker, wave)
         if sm_err:

@@ -1,0 +1,20 @@
+marker_slug: squamous-cell-carcinoma-ag
+marker_name: Squamous cell carcinoma Ag
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-3
+  marker_slug: squamous-cell-carcinoma-ag
+  visibility: council_only
+unit: ng/mL
+recommended_youtube_video_ids: []
+recommended_practitioner_ids: []
+recommended_pubmed_ids:
+- '15735121'
+- '34119366'
+- '34996617'
+- '40615916'
+recommended_dois: []
+recommended_source_urls: []
+recommended_search_queries:
+- Squamous cell carcinoma Ag practitioner optimal range
+- Squamous cell carcinoma Ag metabolic optimization

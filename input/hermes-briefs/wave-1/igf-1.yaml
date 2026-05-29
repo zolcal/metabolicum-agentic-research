@@ -1,0 +1,47 @@
+marker_slug: igf-1
+marker_name: IGF-1
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-1
+  marker_slug: igf-1
+  visibility: council_only
+unit: ng/mL
+recommended_youtube_video_ids:
+- JXcej6GkFAY
+- O64j4uC8diA
+- tJwzKpVKuKc
+- 2bjjIPs3Es0
+- 6ZrlsVx85ek
+- 9vvVEvdctRA
+- x7qbJeRxWGw
+- zAn6am3uj34
+- r2wp8wVeZx0
+- fYhY-vC000A
+- xt0ukji3cXc
+- zU5EYw06wtw
+- FAuClbdfqrI
+- FfaGCFZ3tu0
+- LXbD_RaV2co
+- SgKp5mm0ALI
+- SrzxAE9cU2s
+- u3Grt-Mj61Q
+- LKlQm4Szqdw
+- Uyjg5S_ef9k
+- rCVJOGdA_Rs
+- 8momfHhO-2I
+- JF8FhfgGe2w
+- LNCtw7hHTTI
+- O640yAgq5f8
+- VhJa6F3fEy8
+- ncSoor2Iw8k
+- rwwXz4ygS7g
+- QgMksKGvI0Y
+- xyEx56hrhL8
+recommended_practitioner_ids: []
+recommended_pubmed_ids: []
+recommended_dois: []
+recommended_source_urls:
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC5627923/
+recommended_search_queries:
+- IGF-1 practitioner optimal range
+- IGF-1 metabolic optimization

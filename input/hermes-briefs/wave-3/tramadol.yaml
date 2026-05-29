@@ -1,0 +1,16 @@
+marker_slug: tramadol
+marker_name: traMADol
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-3
+  marker_slug: tramadol
+  visibility: council_only
+unit: ng/mL
+recommended_youtube_video_ids: []
+recommended_practitioner_ids: []
+recommended_pubmed_ids: []
+recommended_dois: []
+recommended_source_urls: []
+recommended_search_queries:
+- traMADol practitioner optimal range
+- traMADol metabolic optimization

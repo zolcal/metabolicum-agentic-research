@@ -1,0 +1,30 @@
+marker_slug: dhea-s
+marker_name: DHEA-Sulfate
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-2
+  marker_slug: dhea-s
+  visibility: council_only
+unit: ug/dL
+recommended_youtube_video_ids:
+- DvQQNr7dDNU
+- SgKp5mm0ALI
+- 950fbVKFwHM
+- HAUdHuApCG4
+- 1COqq37F82Q
+- OSwhSam_hLU
+- xBzFo9EvCmw
+- RR1f8bNQQNc
+- Z9FWsmmxO7c
+- mFozTOH5N0k
+- p8E32j-v0nI
+- uYQVVSu5YGw
+- vXdR8zeEf1Y
+- ElGcuU8-LAg
+recommended_practitioner_ids: []
+recommended_pubmed_ids: []
+recommended_dois: []
+recommended_source_urls: []
+recommended_search_queries:
+- DHEA-Sulfate practitioner optimal range
+- DHEA-Sulfate metabolic optimization

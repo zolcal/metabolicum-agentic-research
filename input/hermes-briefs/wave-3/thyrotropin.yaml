@@ -1,0 +1,19 @@
+marker_slug: thyrotropin
+marker_name: Thyrotropin
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-3
+  marker_slug: thyrotropin
+  visibility: council_only
+unit: mU/L
+recommended_youtube_video_ids: []
+recommended_practitioner_ids: []
+recommended_pubmed_ids:
+- '26010634'
+- '36637992'
+- '37696273'
+recommended_dois: []
+recommended_source_urls: []
+recommended_search_queries:
+- Thyrotropin practitioner optimal range
+- Thyrotropin metabolic optimization

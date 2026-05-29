@@ -1,0 +1,43 @@
+marker_slug: prolactin
+marker_name: Prolactin
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-1
+  marker_slug: prolactin
+  visibility: council_only
+unit: ng/mL
+recommended_youtube_video_ids:
+- vA50EK70whE
+- x7qbJeRxWGw
+- fYhY-vC000A
+- i-NY_N_zaX4
+- IvBQHDiCRqY
+- k8SBJzsIWAo
+- m3AfH-XlxxA
+- gXvuJu1kt48
+- ncSoor2Iw8k
+- 2vXgAo-luQI
+- QmOF0crdyRU
+- X4QE6t-MkYE
+- pkJi9Raxikg
+- slUCmZJDXrk
+- xxwqpMOMM34
+- AIbhXK2UJ6w
+- LNgId7Eqpek
+- qJXKhu5UZwk
+- serJmA0YFD0
+- 2nbdIrvwYEU
+- 9cffC58OTxc
+- hvhs40xmGTA
+- xVaXYh2hldw
+- pt0nvpHA3Ew
+- 1dnX-z-HJGA
+- LbSR0V7P3y0
+recommended_practitioner_ids: []
+recommended_pubmed_ids: []
+recommended_dois: []
+recommended_source_urls:
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC13072677/
+recommended_search_queries:
+- Prolactin practitioner optimal range
+- Prolactin metabolic optimization

@@ -1,0 +1,16 @@
+marker_slug: beta2m-2
+marker_name: Beta-2-Microglobulin
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-2b
+  marker_slug: beta2m-2
+  visibility: council_only
+unit: mg/L
+recommended_youtube_video_ids: []
+recommended_practitioner_ids: []
+recommended_pubmed_ids: []
+recommended_dois: []
+recommended_source_urls: []
+recommended_search_queries:
+- Beta-2-Microglobulin practitioner optimal range
+- Beta-2-Microglobulin metabolic optimization

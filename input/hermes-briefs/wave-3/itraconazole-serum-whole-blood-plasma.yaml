@@ -1,0 +1,17 @@
+marker_slug: itraconazole-serum-whole-blood-plasma
+marker_name: Itraconazole
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-3
+  marker_slug: itraconazole-serum-whole-blood-plasma
+  visibility: council_only
+unit: μg/mL
+recommended_youtube_video_ids: []
+recommended_practitioner_ids: []
+recommended_pubmed_ids:
+- '30197526'
+recommended_dois: []
+recommended_source_urls: []
+recommended_search_queries:
+- Itraconazole practitioner optimal range
+- Itraconazole metabolic optimization

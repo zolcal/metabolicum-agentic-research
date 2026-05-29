@@ -1,0 +1,71 @@
+marker_slug: tg-hdl-ratio
+marker_name: TG/HDL ratio
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-0
+  marker_slug: tg-hdl-ratio
+  visibility: council_only
+unit: ratio
+recommended_youtube_video_ids:
+- l0fnnQ6Qd3g
+- b1mWOvLcoHE
+- D5-r2HnZWVY
+- 0xaapu4lPEk
+- bzA7iihx6Bw
+- ucszKFwpfYE
+- -xCr3mvFCHM
+- ueiuFIHUZ0o
+- yiuGVXw7hvI
+- OBXOB3J3b6w
+- p4LoHH5UZAo
+- ybtyiMlTAW8
+- dUaOqiIJbyM
+recommended_practitioner_ids:
+- person:aseem-malhotra
+- person:benjamin-bikman
+- person:david-unwin
+- person:grant-brinkworth
+- person:margaret-ashwell
+- person:mark-hyman
+- person:ted-naiman
+- person:anthony-chaffee
+- person:bret-scher
+- person:casey-means
+- person:dave-feldman
+- person:michael-mosley
+- person:paul-saladino
+- person:rangan-chatterjee
+- person:sten-ekberg
+- person:william-davis
+- person:zoltan-szabo
+- person:zoe-harcombe
+recommended_pubmed_ids:
+- '14623617'
+- '16054467'
+recommended_dois: []
+recommended_source_urls:
+- https://www.benbikman.com/
+- https://benbikman.com/
+- https://feeds.acast.com/public/shows/602b13db8237836e54f27141
+- https://phcuk.org/
+- https://drhyman.me/
+- https://drhyman.com/
+- https://feeds.megaphone.fm/thedoctorsfarmacy
+- https://tednaiman.com/
+- https://dranthonychaffee.com/
+- https://instagram.com/anthonychaffeemd
+- https://podcasts.apple.com/au/podcast/the-plant-free-md-podcast/id1614546790
+- https://open.spotify.com/show/0WQtoPLuPMWWm3ZT3DYXzp
+- https://dr-chaffee-s-90-day-carnivore-challenge.mn.co/landing
+- https://patreon.com/AnthonyChaffeeMD
+- https://dietdoctor.com/
+- https://feed.podbean.com/dietdoctorpodcast/feed.xml
+- https://metabolicinitiative.com/
+- https://anchor.fm/s/48092b10/podcast/rss
+- https://cholesterolcode.com/
+- https://carnivoremd.com/
+- https://drsten.com/
+- https://drdavisinfinitehealth.com/
+recommended_search_queries:
+- TG/HDL ratio practitioner optimal range
+- TG/HDL ratio metabolic optimization

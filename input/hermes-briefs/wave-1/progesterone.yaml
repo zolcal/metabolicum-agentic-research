@@ -1,0 +1,50 @@
+marker_slug: progesterone
+marker_name: Progesterone
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-1
+  marker_slug: progesterone
+  visibility: council_only
+unit: ng/mL
+recommended_youtube_video_ids:
+- e5lGo8R1CdQ
+- t7afAdI88U4
+- t8etsgJVCwY
+- F_b4HOXs8ew
+- SMSE4BYoOv4
+- fTYKyPlU0IE
+- 1nAfTsObuwY
+- aINKYjSI2aQ
+- MweLkjvNimo
+- W8tWuhjZ4ls
+- cMEDTX3JqOs
+- dSVNb1nin1U
+- hMzfGZnaPN8
+- qMWk6ntvq9Q
+- 9NN6UfY8muA
+- 9j4AX9WxWHY
+- LFWspXbN8jY
+- SgKp5mm0ALI
+- YiDsaipNWxY
+- uxZFl4BDOGk
+- 2vXgAo-luQI
+- QlGJA-_a3uM
+- _CqXHYgKKtY
+- kUmXIXsMi0g
+- vJu7v9JtD-o
+- DTCmprPCDqc
+- EhlIkzJwPlk
+- MTDkExiOwZU
+- O1YRwWmue4Y
+- Y4uE2y-DLPI
+recommended_practitioner_ids: []
+recommended_pubmed_ids:
+- '34384594'
+- '35921048'
+- '36518987'
+recommended_dois: []
+recommended_source_urls:
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC13072677/
+recommended_search_queries:
+- Progesterone practitioner optimal range
+- Progesterone metabolic optimization

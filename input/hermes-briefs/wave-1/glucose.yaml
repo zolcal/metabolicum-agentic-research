@@ -1,0 +1,42 @@
+marker_slug: glucose
+marker_name: Glucose
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-1
+  marker_slug: glucose
+  visibility: council_only
+unit: mg/dL
+recommended_youtube_video_ids: []
+recommended_practitioner_ids: []
+recommended_pubmed_ids:
+- '1626961'
+- '9408743'
+- '12196384'
+- '12637977'
+- '15381514'
+- '17988334'
+- '18540046'
+- '18695075'
+- '19011317'
+- '19082851'
+- '20519377'
+- '21617108'
+- '23093685'
+- '23275353'
+- '23584084'
+- '26322160'
+- '27344544'
+- '29417495'
+- '29480368'
+- '29754952'
+- '29939616'
+- '30067154'
+- '33521540'
+- '39061034'
+- '41033739'
+- '41054054'
+recommended_dois: []
+recommended_source_urls: []
+recommended_search_queries:
+- Glucose practitioner optimal range
+- Glucose metabolic optimization

@@ -531,28 +531,29 @@ def get_marker_terms(marker_slug: str, glossary: dict) -> list[str]:
 
 # ── Brief assembly ──────────────────────────────────────────────────────────
 
-def strip_bloat(sm_data: dict) -> dict:
-    data = json.loads(json.dumps(sm_data, default=str))
-    for key in ("sample_status", "source_policy", "anchor_version", "reviewer_note",
-                "crosscheck_status", "identity_binding_status", "canonical_slug"):
-        data.pop(key, None)
-    if "anchor_provenance" in data:
-        ap = data["anchor_provenance"]
-        if isinstance(ap, dict):
-            ap.pop("hidden_derivation", None)
-            if not ap:
-                data.pop("anchor_provenance")
-    for row in data.get("rows", []):
-        if isinstance(row, dict):
-            row.pop("use", None)
-            row.pop("primary_display", None)
-    return data
+def build_pointer_brief_identity(marker_slug: str, wave: str, sm_data: dict) -> dict:
+    brief = {
+        "marker_slug": sm_data.get("marker_slug") or marker_slug,
+        "marker_name": sm_data.get("marker_name") or marker_slug,
+        "schema_version": "hermes-brief-1",
+        "sm_reference": {
+            "wave": wave,
+            "marker_slug": marker_slug,
+            "visibility": "council_only",
+        },
+    }
+    if sm_data.get("unit") is not None:
+        brief["unit"] = sm_data.get("unit")
+    for field in ("direction", "risk_direction"):
+        value = sm_data.get(field)
+        if isinstance(value, str) and value:
+            brief[field] = value
+    return brief
 
 
 def build_brief(marker_slug: str, wave: str, sm_data: dict, practitioners: list[dict],
                 ranked_videos: list[dict], glossary: dict) -> dict:
-    brief = strip_bloat(sm_data)
-    brief["schema_version"] = "hermes-brief-1"
+    brief = build_pointer_brief_identity(marker_slug, wave, sm_data)
 
     known = sm_data.get("known_research_context", {})
     pmids = [str(p) for p in known.get("pmids", []) if p]
@@ -560,7 +561,10 @@ def build_brief(marker_slug: str, wave: str, sm_data: dict, practitioners: list[
     source_urls = []
     for pmcid in known.get("pmcids", []):
         if pmcid:
-            source_urls.append(f"https://pmc.ncbi.nlm.nih.gov/articles/{pmcid}/")
+            pmcid_text = str(pmcid)
+            if not pmcid_text.upper().startswith("PMC"):
+                pmcid_text = f"PMC{pmcid_text}"
+            source_urls.append(f"https://pmc.ncbi.nlm.nih.gov/articles/{pmcid_text}/")
 
     marker_name = sm_data.get("marker_name", marker_slug)
     search_queries = [
@@ -640,7 +644,7 @@ def generate_briefs_for_wave(wave: str, markers: list[str] | None = None,
                 # (practitioners from semantic match are already above threshold)
                 rel_thesaurus = semantic_for_marker[:10]
 
-            brief = build_brief(marker_slug, wave, sm_data, rel_thesaurus, ranked_videos, glossary)
+            brief = build_brief(marker_slug, sm_path.parent.name, sm_data, rel_thesaurus, ranked_videos, glossary)
 
             out_path = BRIEFS_DIR / wave / f"{marker_slug}.yaml"
             save_yaml(out_path, brief)

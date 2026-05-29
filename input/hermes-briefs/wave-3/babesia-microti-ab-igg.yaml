@@ -1,0 +1,16 @@
+marker_slug: babesia-microti-ab-igg
+marker_name: Babesia microti IgG Ab
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-3
+  marker_slug: babesia-microti-ab-igg
+  visibility: council_only
+unit: titer (1:X)
+recommended_youtube_video_ids: []
+recommended_practitioner_ids: []
+recommended_pubmed_ids: []
+recommended_dois: []
+recommended_source_urls: []
+recommended_search_queries:
+- Babesia microti IgG Ab practitioner optimal range
+- Babesia microti IgG Ab metabolic optimization

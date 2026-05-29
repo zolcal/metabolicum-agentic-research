@@ -1,0 +1,47 @@
+marker_slug: wbc-count
+marker_name: White Blood Cell Count
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-1
+  marker_slug: wbc-count
+  visibility: council_only
+unit: x10^9/L
+recommended_youtube_video_ids:
+- k1XpdFGVx1o
+- ydFhTf_-Ddo
+- lmH3k1bFERU
+- cpwB4-_7o-w
+- C99sgi_Vx_M
+- MWtDYEMxzRc
+- N5DAW8mkJ6Y
+- SgKp5mm0ALI
+- 5t_MuFXKPTE
+- 8Ifu2BRdchI
+- N23dLLdxtiQ
+- qpb_tJN1wxs
+- rKOSf0BAzCg
+- FF4jZv8iJDI
+- GhGSLffZd0E
+- HAUdHuApCG4
+- R0kS26BA5BY
+- X9hOOqgbuNM
+- xF0OJh19Ubw
+- yy0Ki7z8Czs
+- z_G2uljzhGs
+- 3rFnlRtGDZs
+- 6IBdD_-wsjo
+- Q2P6Q76rfEA
+- VON01PTcu2g
+- mqd-MdtES4s
+- oB7xTiO1zUc
+- q9tgNrgYOPI
+- 3o7hfGXNAEU
+- 4b0gY_jPTI0
+recommended_practitioner_ids: []
+recommended_pubmed_ids: []
+recommended_dois: []
+recommended_source_urls:
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12134580/
+recommended_search_queries:
+- White Blood Cell Count practitioner optimal range
+- White Blood Cell Count metabolic optimization

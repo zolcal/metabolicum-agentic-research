@@ -1,0 +1,73 @@
+marker_slug: ldl-cholesterol
+marker_name: Ldl Cholesterol
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-1
+  marker_slug: ldl-cholesterol
+  visibility: council_only
+unit: mg/dL
+recommended_youtube_video_ids:
+- cyowfTbq3oY
+- rL9uabr-TeA
+- 4k2Ymio6w3o
+- rhhDHUnlFJs
+- 6rfiLvrlo2A
+- pq-va0SqJb4
+- 1t8rqfG1CMA
+- QvbbN_gilPA
+- R0RhWJh1U-U
+- lRp-V-qgjR4
+- 2TD3p6v5fdk
+- R89EDEJKFno
+- ZDdwHqiFjnI
+- -3vUq-Pw9RM
+- 2sPa4tL3Ui0
+- V8ns1j28vhc
+- a_zSIpUjfS4
+- eVALtn7atVk
+- mMmpeVY5KE8
+- u_BAzMSjIyA
+- 9boG01ZCTH0
+- C-WUb3mJEso
+- HpCY7OhWDJw
+- Q_v02gdf_bc
+- RJzLfCajIRI
+- RWDe7lVXIPQ
+- TC6SIm6Wzn8
+- UbFXqjABIvo
+- b1mWOvLcoHE
+- f9w9oIU5FAA
+recommended_practitioner_ids:
+- person:aseem-malhotra
+- person:bret-scher
+- person:dave-feldman
+- person:paul-saladino
+- person:rangan-chatterjee
+- person:sten-ekberg
+- person:zoe-harcombe
+recommended_pubmed_ids:
+- '7968073'
+- '9603539'
+- '22555213'
+- '23584084'
+- '26039521'
+- '30423391'
+- '30586774'
+- '31504418'
+- '31738483'
+- '33143083'
+- '33736827'
+- '34458905'
+- '37622663'
+- '37640407'
+- '38233012'
+recommended_dois: []
+recommended_source_urls:
+- https://dietdoctor.com/
+- https://feed.podbean.com/dietdoctorpodcast/feed.xml
+- https://cholesterolcode.com/
+- https://carnivoremd.com/
+- https://drsten.com/
+recommended_search_queries:
+- Ldl Cholesterol practitioner optimal range
+- Ldl Cholesterol metabolic optimization

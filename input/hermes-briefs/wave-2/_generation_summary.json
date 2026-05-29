@@ -1,0 +1,762 @@
+{
+  "wave": "wave-2",
+  "markers_processed": 108,
+  "markers": {
+    "1-25-dihydroxyvitamin-d": {
+      "videos": 0,
+      "practitioners": 6,
+      "pubmed_ids": 2,
+      "dois": 0,
+      "source_urls": 11
+    },
+    "11-deoxycortisol": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 1,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "5-hydroxyindoleacetate-creatinine-urine": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "5-hydroxyindoleacetate-urine": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "acth": {
+      "videos": 4,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "adiponectin": {
+      "videos": 1,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "alpha-galactosidase-a": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "alpha-melanocyte-stimulating-hormone": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "aluminum-creatinine-urine": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "amh": {
+      "videos": 6,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "anti-dsdna": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "aptt": {
+      "videos": 0,
+      "practitioners": 1,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 1
+    },
+    "arsenic-creatinine-urine": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 3,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "arsenic-inorganic-urine": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 2,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "bilirubin-glucuronidated-bilirubin-albumin-bound": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "bio-t": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "bnp": {
+      "videos": 2,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "buspirone": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "c-peptide-fasting": {
+      "videos": 20,
+      "practitioners": 1,
+      "pubmed_ids": 5,
+      "dois": 0,
+      "source_urls": 1
+    },
+    "c-peptide-urine": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 3,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "calcium-ionized": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 5,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "calprotectin": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 3,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "cat": {
+      "videos": 22,
+      "practitioners": 0,
+      "pubmed_ids": 1,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "cells-cd3-tcr-alpha-beta-cells": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "chloride-2": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 1,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "chromium-creatinine-urine": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "ck": {
+      "videos": 2,
+      "practitioners": 0,
+      "pubmed_ids": 1,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "cobalt-creatinine-urine": {
+      "videos": 0,
+      "practitioners": 1,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 1
+    },
+    "collagen-crosslinked-n-telopeptide-creatinine-urine": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "complement-alternate-pathway-ah50-actual-normal": {
+      "videos": 0,
+      "practitioners": 1,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 1
+    },
+    "cortisol-free-serum-whole-blood": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "ctni": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "ctnt": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "ctx": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "delta-aminolevulinate-urine": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "dhea-s": {
+      "videos": 14,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "dhea": {
+      "videos": 30,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "e1": {
+      "videos": 2,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "ecp": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 3,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "elastase-pancreatic": {
+      "videos": 0,
+      "practitioners": 1,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 1
+    },
+    "fatty-acids-nonesterified": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 1,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "fib-4": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "fibrin-fibrinogen-fragments": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "fibrinogen-ag": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "fibroblast-growth-factor-23-intact": {
+      "videos": 0,
+      "practitioners": 1,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 1
+    },
+    "free-carnitine": {
+      "videos": 23,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "galactose-1-phosphate": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 1,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "galectin-3-2": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 4,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "galectin-3": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "gastrin": {
+      "videos": 0,
+      "practitioners": 1,
+      "pubmed_ids": 1,
+      "dois": 0,
+      "source_urls": 1
+    },
+    "glucose-6-phosphate-dehydrogenase": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 2,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "hemoglobin-pattern": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "histoplasma-capsulatum-ag-urine": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "homovanillate-creatinine-urine": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 3,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "ibil": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "il-1beta": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "il-6": {
+      "videos": 7,
+      "practitioners": 0,
+      "pubmed_ids": 6,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "immunoglobulin-light-chains-lambda-free": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 1,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "insulin-like-growth-factor-binding-protein-1": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 1,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "insulin-like-growth-factor-binding-protein-3": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "iron": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 2,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "ldl-particle-size": {
+      "videos": 1,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "leptin": {
+      "videos": 30,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "lipoprotein-associated-phospholipase-a2": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 4,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "lp-ir": {
+      "videos": 1,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "mercury-blood": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 1,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "mma": {
+      "videos": 10,
+      "practitioners": 0,
+      "pubmed_ids": 3,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "niacin": {
+      "videos": 30,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "nickel-creatinine-urine": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "nt-probnp": {
+      "videos": 1,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "orotate-creatinine-urine": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "osteocalcin": {
+      "videos": 6,
+      "practitioners": 0,
+      "pubmed_ids": 1,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "oxidized-ldl": {
+      "videos": 15,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "p1np": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "pancreastatin": {
+      "videos": 0,
+      "practitioners": 1,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 1
+    },
+    "ph-urine": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 1,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "porphobilinogen-urine": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "proinsulin": {
+      "videos": 1,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "prostaglandin-d2-urine": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "protein-creatinine-urine": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 4,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "protein-urine": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 1,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "protoporphyrin-zinc-2": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 2,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "pt": {
+      "videos": 30,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "pth": {
+      "videos": 30,
+      "practitioners": 0,
+      "pubmed_ids": 1,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "remnant-c": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "renin": {
+      "videos": 3,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "reverse-t3": {
+      "videos": 14,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "rheumatoid-factor": {
+      "videos": 1,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "s100-calcium-binding-protein-b": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 1,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "stfr": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 6,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "sulfate-urine": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "t3-uptake": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "testosterone-free": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 1,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "thallium-creatinine-urine": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 1,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "thyroglobulin-antibodies": {
+      "videos": 1,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "thyroglobulin": {
+      "videos": 1,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "thyroxine-binding-globulin": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "tmao": {
+      "videos": 15,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "tpo-antibodies": {
+      "videos": 3,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "transferrin-carbohydrate-deficient-transferrin-total": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 1,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "transferrin-saturation": {
+      "videos": 2,
+      "practitioners": 0,
+      "pubmed_ids": 3,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "troponin-t-cardiac-2": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 3,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "tryptase": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 3,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "tumor-necrosis-factor-alpha": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 1,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "urea-nitrogen-urine": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "vanillylmandelate-creatinine-urine": {
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "vitamin-b2": {
+      "videos": 28,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "vitamin-e": {
+      "videos": 30,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    }
+  }
+}

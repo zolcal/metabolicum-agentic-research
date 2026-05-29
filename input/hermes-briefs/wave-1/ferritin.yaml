@@ -1,0 +1,63 @@
+marker_slug: ferritin
+marker_name: Ferritin
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-1
+  marker_slug: ferritin
+  visibility: council_only
+unit: ng/mL
+recommended_youtube_video_ids:
+- HEASD4CBKfs
+- T-b-wGZIRso
+- GIAgaaXueFw
+- 8_Zzha5WhC0
+- 9na-nVBKUWw
+- I2YlZEk_w_g
+- NmUtWue2QvY
+- XUyLw70AH1E
+- fGYa6emKNCw
+- mUs8JU3zCB4
+- o9SngD-nFlQ
+- 3in3377V5kI
+- 6PjcGKgckzM
+- RngQ-xmYRN8
+- SgKp5mm0ALI
+- UTw2nuWUovI
+- bDaIhHbnuWk
+- brCfMBQ9LPU
+- kKw4kl0QbjE
+- k_Mb7BIo6hA
+- yMizUQXgfqA
+- MD-3BTUJCNw
+- SVopUuLLgHo
+- jBCaEaTgeBE
+- nGifsbBHf0A
+- tv5GssSMEIs
+- Tqwvm5RsHRM
+- hnwWHQJcKFw
+- 62opt9vbj48
+- lJr0UJmOu4w
+recommended_practitioner_ids:
+- person:rhonda-patrick
+- person:andrew-huberman
+- person:dale-bredesen
+recommended_pubmed_ids:
+- '23613366'
+- '24778671'
+- '25946282'
+- '26239322'
+- '27099596'
+- '28978540'
+- '30783404'
+- '31413088'
+recommended_dois: []
+recommended_source_urls:
+- https://www.foundmyfitness.com/
+- https://foundmyfitness.com/
+- https://rss.libsyn.com/shows/51714/destinations/184296.xml
+- https://hubermanlab.com/
+- https://feeds.megaphone.fm/hubermanlab
+- https://drbredesen.com/
+recommended_search_queries:
+- Ferritin practitioner optimal range
+- Ferritin metabolic optimization

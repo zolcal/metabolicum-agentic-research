@@ -1,0 +1,19 @@
+marker_slug: gastrin
+marker_name: Gastrin
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-2
+  marker_slug: gastrin
+  visibility: council_only
+unit: pg/mL
+recommended_youtube_video_ids: []
+recommended_practitioner_ids:
+- person:paul-saladino
+recommended_pubmed_ids:
+- '35068320'
+recommended_dois: []
+recommended_source_urls:
+- https://carnivoremd.com/
+recommended_search_queries:
+- Gastrin practitioner optimal range
+- Gastrin metabolic optimization

@@ -1,0 +1,19 @@
+marker_slug: transferrin-carbohydrate-deficient-transferrin-total
+marker_name: Transferrin.carbohydrate deficient/Transferrin.total in Serum or Plasma
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-2
+  marker_slug: transferrin-carbohydrate-deficient-transferrin-total
+  visibility: council_only
+unit: '%'
+recommended_youtube_video_ids: []
+recommended_practitioner_ids: []
+recommended_pubmed_ids:
+- '25543202'
+recommended_dois: []
+recommended_source_urls: []
+recommended_search_queries:
+- Transferrin.carbohydrate deficient/Transferrin.total in Serum or Plasma practitioner
+  optimal range
+- Transferrin.carbohydrate deficient/Transferrin.total in Serum or Plasma metabolic
+  optimization

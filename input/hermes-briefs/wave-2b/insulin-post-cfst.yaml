@@ -1,0 +1,19 @@
+marker_slug: insulin-post-cfst
+marker_name: Insulin
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-2b
+  marker_slug: insulin-post-cfst
+  visibility: council_only
+unit: µIU/mL
+recommended_youtube_video_ids: []
+recommended_practitioner_ids: []
+recommended_pubmed_ids:
+- '40025584'
+- '40346671'
+- '40707996'
+recommended_dois: []
+recommended_source_urls: []
+recommended_search_queries:
+- Insulin practitioner optimal range
+- Insulin metabolic optimization

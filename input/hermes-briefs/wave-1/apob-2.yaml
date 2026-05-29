@@ -1,0 +1,49 @@
+marker_slug: apob-2
+marker_name: Apob 2
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-1
+  marker_slug: apob-2
+  visibility: council_only
+unit: mg/dL
+recommended_youtube_video_ids: []
+recommended_practitioner_ids:
+- person:allan-sniderman
+- person:aseem-malhotra
+- person:paul-mason
+- person:peter-attia
+- person:thomas-dayspring
+- person:anthony-chaffee
+- person:bret-scher
+- person:dave-feldman
+- person:nick-norwitz
+- person:paul-saladino
+- person:rangan-chatterjee
+- person:sten-ekberg
+- person:william-davis
+- person:zoe-harcombe
+recommended_pubmed_ids:
+- '32354380'
+- '39878176'
+- '41394444'
+recommended_dois: []
+recommended_source_urls:
+- https://peterattiamd.com/
+- https://peterattiadrive.libsyn.com/rss
+- https://twitter.com/Drlipid
+- https://dranthonychaffee.com/
+- https://instagram.com/anthonychaffeemd
+- https://podcasts.apple.com/au/podcast/the-plant-free-md-podcast/id1614546790
+- https://open.spotify.com/show/0WQtoPLuPMWWm3ZT3DYXzp
+- https://dr-chaffee-s-90-day-carnivore-challenge.mn.co/landing
+- https://patreon.com/AnthonyChaffeeMD
+- https://dietdoctor.com/
+- https://feed.podbean.com/dietdoctorpodcast/feed.xml
+- https://cholesterolcode.com/
+- https://nicknorwitz.com/
+- https://carnivoremd.com/
+- https://drsten.com/
+- https://drdavisinfinitehealth.com/
+recommended_search_queries:
+- Apob 2 practitioner optimal range
+- Apob 2 metabolic optimization

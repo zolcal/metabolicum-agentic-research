@@ -1,0 +1,17 @@
+marker_slug: dopamine-2
+marker_name: DOPamine
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-3
+  marker_slug: dopamine-2
+  visibility: council_only
+unit: pg/mL
+recommended_youtube_video_ids: []
+recommended_practitioner_ids: []
+recommended_pubmed_ids:
+- '37471567'
+recommended_dois: []
+recommended_source_urls: []
+recommended_search_queries:
+- DOPamine practitioner optimal range
+- DOPamine metabolic optimization

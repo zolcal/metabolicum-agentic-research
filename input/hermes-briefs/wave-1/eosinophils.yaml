@@ -1,0 +1,17 @@
+marker_slug: eosinophils
+marker_name: Eosinophils
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-1
+  marker_slug: eosinophils
+  visibility: council_only
+unit: '%'
+recommended_youtube_video_ids:
+- ydFhTf_-Ddo
+recommended_practitioner_ids: []
+recommended_pubmed_ids: []
+recommended_dois: []
+recommended_source_urls: []
+recommended_search_queries:
+- Eosinophils practitioner optimal range
+- Eosinophils metabolic optimization

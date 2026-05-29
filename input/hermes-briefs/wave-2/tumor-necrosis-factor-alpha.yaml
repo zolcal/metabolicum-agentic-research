@@ -1,0 +1,17 @@
+marker_slug: tumor-necrosis-factor-alpha
+marker_name: Tumor necrosis factor.alpha
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-2
+  marker_slug: tumor-necrosis-factor-alpha
+  visibility: council_only
+unit: pg/mL
+recommended_youtube_video_ids: []
+recommended_practitioner_ids: []
+recommended_pubmed_ids:
+- '36044827'
+recommended_dois: []
+recommended_source_urls: []
+recommended_search_queries:
+- Tumor necrosis factor.alpha practitioner optimal range
+- Tumor necrosis factor.alpha metabolic optimization

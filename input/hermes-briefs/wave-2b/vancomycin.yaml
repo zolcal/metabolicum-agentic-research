@@ -1,0 +1,19 @@
+marker_slug: vancomycin
+marker_name: Vancomycin
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-2b
+  marker_slug: vancomycin
+  visibility: council_only
+unit: mcg/mL
+recommended_youtube_video_ids: []
+recommended_practitioner_ids: []
+recommended_pubmed_ids:
+- '26497475'
+- '33549035'
+- '35862741'
+recommended_dois: []
+recommended_source_urls: []
+recommended_search_queries:
+- Vancomycin practitioner optimal range
+- Vancomycin metabolic optimization

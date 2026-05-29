@@ -1,0 +1,17 @@
+marker_slug: total-protein
+marker_name: Total Protein
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-1
+  marker_slug: total-protein
+  visibility: council_only
+unit: g/dL
+recommended_youtube_video_ids: []
+recommended_practitioner_ids: []
+recommended_pubmed_ids: []
+recommended_dois: []
+recommended_source_urls:
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC3772807/
+recommended_search_queries:
+- Total Protein practitioner optimal range
+- Total Protein metabolic optimization

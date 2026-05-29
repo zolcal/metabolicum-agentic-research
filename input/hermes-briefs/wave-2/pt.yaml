@@ -1,0 +1,46 @@
+marker_slug: pt
+marker_name: Prothrombin Time
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-2
+  marker_slug: pt
+  visibility: council_only
+unit: seconds
+recommended_youtube_video_ids:
+- 2kgQpT9pQws
+- Z4mHInH5BXc
+- gDIDDnhOKl4
+- ZoqlhnFFNF0
+- i8iZzMQk5XA
+- z0LknqYN71U
+- 0JGvrCe5H5M
+- QsGlJrtnXj8
+- VCq4jUKSHbo
+- VJ5DhuldByQ
+- 1G3mwvYE7YM
+- FGW9Jev0GuU
+- LhpNFvJLO9w
+- OIKmxMXWxjw
+- XRvOMrsaF70
+- oV_J-Oz0KL8
+- pu_E7Xks8uw
+- qDO4aq7CfDM
+- 3XRxYRn7X3g
+- mZKaX3q83Kk
+- 0MSssAJFfvM
+- 0PunnwFZ6jw
+- 0bcILEh7Yhg
+- 3XUigBmcmUc
+- 6h8C4tZsUHs
+- 7ollRtaPnOk
+- 862SL7JB_bg
+- AbOlkg-Tvns
+- DKucuoa2znA
+- GmsbXzu2pGU
+recommended_practitioner_ids: []
+recommended_pubmed_ids: []
+recommended_dois: []
+recommended_source_urls: []
+recommended_search_queries:
+- Prothrombin Time practitioner optimal range
+- Prothrombin Time metabolic optimization

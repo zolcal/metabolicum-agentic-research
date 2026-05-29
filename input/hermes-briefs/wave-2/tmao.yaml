@@ -1,0 +1,31 @@
+marker_slug: tmao
+marker_name: TMAO
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-2
+  marker_slug: tmao
+  visibility: council_only
+unit: μM
+recommended_youtube_video_ids:
+- WpMbvOE2dLE
+- iifuYkPjVWg
+- vVwud6D0I7M
+- jaLO5Jk8UgY
+- FAAwEvfQ5zU
+- qEvE9f4FYzE
+- KhBIXxaQ038
+- Wp8jvKjS-j8
+- o0L1eXBGGP4
+- J3YgmyAPclY
+- hrRZ1BjHmik
+- ncSoor2Iw8k
+- qNJks-48soQ
+- MZx0K_AInhc
+- 0plBTsu6PeM
+recommended_practitioner_ids: []
+recommended_pubmed_ids: []
+recommended_dois: []
+recommended_source_urls: []
+recommended_search_queries:
+- TMAO practitioner optimal range
+- TMAO metabolic optimization

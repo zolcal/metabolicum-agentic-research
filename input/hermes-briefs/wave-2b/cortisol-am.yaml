@@ -1,0 +1,46 @@
+marker_slug: cortisol-am
+marker_name: Cortisol
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-2b
+  marker_slug: cortisol-am
+  visibility: council_only
+unit: ug/dL
+recommended_youtube_video_ids:
+- RAeKp0lPSBA
+- XkBCnk7EM0I
+- aUxOqCDMFL0
+- 9U6C3kqBLZE
+- JPX8g8ibKFc
+- wFucddupQlk
+- _tqi3ABznwc
+- 3fO-0lfTfV8
+- A4DqCxtwJYw
+- DWnZciwyqqI
+- no_GxFC3mDA
+- Pm3GoDQUL3E
+- V-pktwBVeBw
+- 2VAxkXP_9c0
+- MFXtaGRWWsw
+- Un5UyddcPtQ
+- u1_UVuT9luk
+- xLqq14G8voc
+- fOyTafMlIDY
+- Ibj1k3IZTNU
+- _SNUm2EqXOs
+- _Zt1pUDbwB0
+- _t8ut7hIQSk
+- n28W4AmvMDE
+- odWvqxXW1Kk
+- wvXoVv6fbDU
+- x7qbJeRxWGw
+- ydthbDdPMZE
+- LWcsT1RDpSY
+- nJyUQmRc1q8
+recommended_practitioner_ids: []
+recommended_pubmed_ids: []
+recommended_dois: []
+recommended_source_urls: []
+recommended_search_queries:
+- Cortisol practitioner optimal range
+- Cortisol metabolic optimization

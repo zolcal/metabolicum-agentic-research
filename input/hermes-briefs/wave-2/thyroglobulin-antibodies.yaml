@@ -1,0 +1,17 @@
+marker_slug: thyroglobulin-antibodies
+marker_name: Thyroglobulin Antibodies
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-2
+  marker_slug: thyroglobulin-antibodies
+  visibility: council_only
+unit: IU/mL
+recommended_youtube_video_ids:
+- 6nZwa1qLvLs
+recommended_practitioner_ids: []
+recommended_pubmed_ids: []
+recommended_dois: []
+recommended_source_urls: []
+recommended_search_queries:
+- Thyroglobulin Antibodies practitioner optimal range
+- Thyroglobulin Antibodies metabolic optimization

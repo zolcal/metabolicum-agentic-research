@@ -1,0 +1,88 @@
+marker_slug: triglycerides
+marker_name: Triglycerides
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-1
+  marker_slug: triglycerides
+  visibility: council_only
+unit: mg/dL
+recommended_youtube_video_ids:
+- FJf4aSv65L8
+- Gs-5VqJSW0o
+- yqGoEm95n08
+- 5PobEa7PEho
+- 6-QravC6Qxw
+- 7ECpNxmTT_8
+- ALgydmdxaFo
+- MZF_X0s1b0A
+- R0RhWJh1U-U
+- TdQhhVZnLxI
+- b-re4pBXySY
+- sEa4iFPHJwo
+- IFQz5fR5LZg
+- UvJYwoFhJls
+- VRlUDZ8cpTw
+- YlFUUM_sufw
+- bn1U2Spl0-k
+- mo9WPbLiPus
+- p9XuPr0f21k
+- wvXoVv6fbDU
+- 0Er08-E2HnU
+- 6BDf6jZ_1w4
+- Nc0NQ15S6v0
+- U6IcMW5Khh4
+- b0Yzn3aI17U
+- sf02S7xZpVY
+- 1rUsspHnlmk
+- 7gSSePnWqqY
+- A6HTANqOExw
+- ZA-sbEFx5MU
+recommended_practitioner_ids: []
+recommended_pubmed_ids:
+- '3056758'
+- '9355888'
+- '11368702'
+- '12485966'
+- '12514661'
+- '14623617'
+- '14731791'
+- '15165561'
+- '15381654'
+- '16054467'
+- '16157765'
+- '16698717'
+- '17081293'
+- '17190864'
+- '17635890'
+- '18695075'
+- '19082851'
+- '19805654'
+- '20236645'
+- '21327136'
+- '21502576'
+- '22555213'
+- '23093685'
+- '23248205'
+- '23265341'
+- '23584084'
+- '24402298'
+- '28289069'
+- '29417495'
+- '29480368'
+- '30415628'
+- '30423391'
+- '30586774'
+- '31504418'
+- '31641012'
+- '33143083'
+- '33521540'
+- '34458905'
+- '35106434'
+- '35629964'
+- '37640407'
+- '39372369'
+recommended_dois: []
+recommended_source_urls: []
+recommended_search_queries:
+- Triglycerides practitioner optimal range
+- Triglycerides metabolic optimization

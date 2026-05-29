@@ -1,0 +1,79 @@
+marker_slug: apob
+marker_name: Apolipoprotein B
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-0
+  marker_slug: apob
+  visibility: council_only
+unit: mg/dL
+recommended_youtube_video_ids:
+- qpn5g-v26K4
+- UA2hfpaBmfA
+- iBpiTZLhVks
+- RWDe7lVXIPQ
+- eZ0eLgqZQUs
+- sPrSdqMuPwA
+- 5PobEa7PEho
+- 8ZiNfM7ViVs
+- CvOZsuoJ3-s
+- IEJO2W87hac
+- JXcej6GkFAY
+- Pexc7cze-Bk
+- dPM3g2N14fA
+- mWKmhn5jKiQ
+- N8Ij25ZSt8s
+- 0JGvrCe5H5M
+- cTIhss4t-Bk
+- D5-r2HnZWVY
+- M-jRyTpkMQI
+- WECp8VcjNzo
+- e3b3-DdJ9TQ
+- sIypsDuuxno
+- XdYu_JKb_Yo
+- 5KMxTb4Ekok
+- 6P8HVIbdDc0
+- A5bA85H-N_0
+- H6e_pvCuj-g
+- VUpFewydSwg
+- sS0orvd2TFs
+- 7QONBQCpRJ0
+recommended_practitioner_ids:
+- person:allan-sniderman
+- person:aseem-malhotra
+- person:paul-mason
+- person:peter-attia
+- person:thomas-dayspring
+- person:anthony-chaffee
+- person:bret-scher
+- person:dave-feldman
+- person:nick-norwitz
+- person:paul-saladino
+- person:rangan-chatterjee
+- person:sten-ekberg
+- person:william-davis
+- person:zoe-harcombe
+recommended_pubmed_ids:
+- '23584084'
+- '33736827'
+recommended_dois: []
+recommended_source_urls:
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC10498001/
+- https://peterattiamd.com/
+- https://peterattiadrive.libsyn.com/rss
+- https://twitter.com/Drlipid
+- https://dranthonychaffee.com/
+- https://instagram.com/anthonychaffeemd
+- https://podcasts.apple.com/au/podcast/the-plant-free-md-podcast/id1614546790
+- https://open.spotify.com/show/0WQtoPLuPMWWm3ZT3DYXzp
+- https://dr-chaffee-s-90-day-carnivore-challenge.mn.co/landing
+- https://patreon.com/AnthonyChaffeeMD
+- https://dietdoctor.com/
+- https://feed.podbean.com/dietdoctorpodcast/feed.xml
+- https://cholesterolcode.com/
+- https://nicknorwitz.com/
+- https://carnivoremd.com/
+- https://drsten.com/
+- https://drdavisinfinitehealth.com/
+recommended_search_queries:
+- Apolipoprotein B practitioner optimal range
+- Apolipoprotein B metabolic optimization

@@ -1,0 +1,17 @@
+marker_slug: complement-c3a
+marker_name: Complement C3a
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-3
+  marker_slug: complement-c3a
+  visibility: council_only
+unit: ng/mL
+recommended_youtube_video_ids: []
+recommended_practitioner_ids: []
+recommended_pubmed_ids:
+- '27492980'
+recommended_dois: []
+recommended_source_urls: []
+recommended_search_queries:
+- Complement C3a practitioner optimal range
+- Complement C3a metabolic optimization

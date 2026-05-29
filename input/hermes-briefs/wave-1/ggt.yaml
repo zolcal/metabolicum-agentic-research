@@ -1,0 +1,29 @@
+marker_slug: ggt
+marker_name: Gamma Glutamyl Transferase
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-1
+  marker_slug: ggt
+  visibility: council_only
+unit: U/L
+recommended_youtube_video_ids:
+- SgKp5mm0ALI
+- x7cPrE8-_Os
+- U_Gcq8bEUq8
+recommended_practitioner_ids:
+- person:paul-saladino
+recommended_pubmed_ids:
+- '17081293'
+- '26543300'
+- '28490552'
+- '29567099'
+- '31641012'
+- '37161588'
+- '38563386'
+recommended_dois: []
+recommended_source_urls:
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC3772807/
+- https://carnivoremd.com/
+recommended_search_queries:
+- Gamma Glutamyl Transferase practitioner optimal range
+- Gamma Glutamyl Transferase metabolic optimization

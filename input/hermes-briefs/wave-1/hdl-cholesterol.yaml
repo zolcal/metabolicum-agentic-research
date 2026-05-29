@@ -1,0 +1,73 @@
+marker_slug: hdl-cholesterol
+marker_name: Hdl Cholesterol
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-1
+  marker_slug: hdl-cholesterol
+  visibility: council_only
+unit: mg/dL
+recommended_youtube_video_ids:
+- mJLKTyKy-14
+- C6SVB99mJHA
+- t6thxv-ndu0
+- 6cGW87hNebY
+- 7QONBQCpRJ0
+- ItNGrGNvESY
+- SgKp5mm0ALI
+- UTw2nuWUovI
+- YDElatIhFeo
+- hq9Al6LR2O4
+- 8H7ZGIDmuIw
+- MW_D2Sdlr3k
+- i5O_m8w487E
+- JkZvFjW82Mk
+- eVALtn7atVk
+- 3akuVaezcSo
+- oRWqTNAHH-0
+- oerYACBHkuI
+- MEPnKgDpJAo
+- TSqHhy3LEKo
+- Pg8Qr8WsTU0
+- Pm5scBxJm7k
+- FAprJVXq1fE
+- MsJwSLMEG4E
+recommended_practitioner_ids:
+- person:aseem-malhotra
+- person:bret-scher
+- person:dave-feldman
+- person:paul-saladino
+- person:rangan-chatterjee
+- person:sten-ekberg
+- person:zoe-harcombe
+recommended_pubmed_ids:
+- '2642759'
+- '9603539'
+- '9610529'
+- '12514661'
+- '15314690'
+- '16157765'
+- '19805654'
+- '21343207'
+- '22555213'
+- '22607825'
+- '23584084'
+- '25131981'
+- '25404125'
+- '28419274'
+- '28847206'
+- '30423391'
+- '31504418'
+- '31641012'
+- '33143083'
+- '34120177'
+- '34458905'
+recommended_dois: []
+recommended_source_urls:
+- https://dietdoctor.com/
+- https://feed.podbean.com/dietdoctorpodcast/feed.xml
+- https://cholesterolcode.com/
+- https://carnivoremd.com/
+- https://drsten.com/
+recommended_search_queries:
+- Hdl Cholesterol practitioner optimal range
+- Hdl Cholesterol metabolic optimization

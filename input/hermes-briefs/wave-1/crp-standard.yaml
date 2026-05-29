@@ -1,0 +1,60 @@
+marker_slug: crp-standard
+marker_name: Crp Standard
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-1
+  marker_slug: crp-standard
+  visibility: council_only
+unit: mg/L
+recommended_youtube_video_ids:
+- ztQphqkwLNU
+- 5QUAXDIllc8
+- p9XuPr0f21k
+- HyM5intOgVc
+- jaLO5Jk8UgY
+- vcTm7opfgpA
+- 957V8X22xEM
+- Ho-yRC4Wmss
+- Ykvkg2Jz3X8
+- vJFozt4pytg
+- DFzoClYZlH8
+- tW3mkx0wdOY
+- -M9j0WPK_VQ
+- TU-GV4weYsg
+- YDElatIhFeo
+- 0aqyiQ83dQs
+- YE-L3wnzHdE
+- YxHGI5n8OkY
+- jEHHfyqqgTE
+- 0CA7Id3MHFg
+- BBgfDFZImf4
+- I8inijq-suw
+- eZ0eLgqZQUs
+- kBjBEjV0vqU
+- n9IxomBusuw
+- ncSoor2Iw8k
+- t9FrCTVOD8M
+- AgD4hrdAYzk
+- BGD29BfITAk
+- esh-TyKABkE
+recommended_practitioner_ids:
+- person:amy-myers
+- person:dale-bredesen
+- person:david-perlmutter
+- person:paul-saladino
+- person:terry-wahls
+recommended_pubmed_ids:
+- '37380016'
+- '39445833'
+- '41241110'
+recommended_dois: []
+recommended_source_urls:
+- https://amymyersmd.com/
+- https://drbredesen.com/
+- https://drperlmutter.com/
+- https://anchor.fm/s/f102c71c/podcast/rss
+- https://carnivoremd.com/
+- https://terrywahls.com/
+recommended_search_queries:
+- Crp Standard practitioner optimal range
+- Crp Standard metabolic optimization

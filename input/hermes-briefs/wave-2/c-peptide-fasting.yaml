@@ -1,0 +1,43 @@
+marker_slug: c-peptide-fasting
+marker_name: C-Peptide (Fasting)
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-2
+  marker_slug: c-peptide-fasting
+  visibility: council_only
+unit: ng/mL
+recommended_youtube_video_ids:
+- DMcL6KiglvM
+- zIBEVeBDCNo
+- -3E2ALGpAIs
+- Tr8t1KWQspc
+- dt1DOJXAXFg
+- 7YsIHM6xRBI
+- NtWsxQAhRkw
+- P1gB0RTqi-I
+- yhdzkOelQAw
+- DlO0jq1bnpc
+- 6dg1LfF0oCk
+- GJQaVRVdn_0
+- dkv1rW6JQcM
+- ozbNW8-ZLm4
+- pRb_itmYX70
+- rgQ1ffvr5W0
+- D7ZxSAGaW_4
+- QCOvSLWfjH0
+- SLFsbQNzqv0
+- eakNqJKt-_s
+recommended_practitioner_ids:
+- person:paul-saladino
+recommended_pubmed_ids:
+- '35973558'
+- '36192784'
+- '36928669'
+- '36930691'
+- '39734999'
+recommended_dois: []
+recommended_source_urls:
+- https://carnivoremd.com/
+recommended_search_queries:
+- C-Peptide (Fasting) practitioner optimal range
+- C-Peptide (Fasting) metabolic optimization

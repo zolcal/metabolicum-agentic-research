@@ -1,0 +1,45 @@
+marker_slug: hscrp
+marker_name: Hscrp
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-1
+  marker_slug: hscrp
+  visibility: council_only
+unit: mg/L
+recommended_youtube_video_ids:
+- 2ksPzKMJgXs
+- jaLO5Jk8UgY
+- vJFozt4pytg
+- SgKp5mm0ALI
+- WCYB2V2uFMk
+- cJV6a41NsXc
+- BCAr2u3XjlY
+- OiYTuM4ArHQ
+- QvR0f9jkscw
+- WZWKjzJOFUw
+- ZxGv97X9vKA
+- kcfExPjgYzY
+- gyB5bsw5dXs
+- kLQkmVtP8ts
+- 0nCofPbwa8A
+- dCJYV5RQPZk
+- iL7aMkY3ePU
+- sBdBqioELro
+- IlihuKw48r4
+- OSUg1J1oEuw
+- YQrwJudgCkw
+- Xm18mXIWWg0
+- rMWqI4jtHsk
+- 6E_uZsgfTHc
+recommended_practitioner_ids: []
+recommended_pubmed_ids:
+- '18695075'
+- '20031199'
+- '22254027'
+- '26140821'
+- '26228057'
+recommended_dois: []
+recommended_source_urls: []
+recommended_search_queries:
+- Hscrp practitioner optimal range
+- Hscrp metabolic optimization

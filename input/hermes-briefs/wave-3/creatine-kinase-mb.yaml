@@ -1,0 +1,18 @@
+marker_slug: creatine-kinase-mb
+marker_name: Creatine kinase.MB
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-3
+  marker_slug: creatine-kinase-mb
+  visibility: council_only
+unit: ng/mL
+recommended_youtube_video_ids: []
+recommended_practitioner_ids: []
+recommended_pubmed_ids:
+- '34256723'
+- '37835886'
+recommended_dois: []
+recommended_source_urls: []
+recommended_search_queries:
+- Creatine kinase.MB practitioner optimal range
+- Creatine kinase.MB metabolic optimization

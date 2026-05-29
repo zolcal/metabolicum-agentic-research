@@ -1,0 +1,18 @@
+marker_slug: creatine-kinase-mb-creatine-kinase-total
+marker_name: Creatine kinase.MB/Creatine kinase.total in Serum or Plasma by Electrophoresis
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-3
+  marker_slug: creatine-kinase-mb-creatine-kinase-total
+  visibility: council_only
+unit: '%'
+recommended_youtube_video_ids: []
+recommended_practitioner_ids: []
+recommended_pubmed_ids: []
+recommended_dois: []
+recommended_source_urls: []
+recommended_search_queries:
+- Creatine kinase.MB/Creatine kinase.total in Serum or Plasma by Electrophoresis practitioner
+  optimal range
+- Creatine kinase.MB/Creatine kinase.total in Serum or Plasma by Electrophoresis metabolic
+  optimization

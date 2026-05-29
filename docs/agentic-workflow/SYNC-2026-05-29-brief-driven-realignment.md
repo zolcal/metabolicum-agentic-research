@@ -62,6 +62,8 @@ Reviewed — thanks. **Brief firewall + §10 layout: correct and verified, don't
 
 All three `state.py` fixes are small. Ping if you'd rather Claude take them.
 
+**Closed by Codex:** state-contract fixes landed in `c182980` and cleanup landed in `ce7d664`. The live tree now validates generated `state.json` files against `state.schema.json`, uses schema-compliant `run_id` values, maps stage directory names to canonical stage enum keys, writes object-shaped errors, and ignores the project-local `.state-contract-check/` scratch directory.
+
 ---
 
 ## Proposed follow-up: make briefs pointer-only and resolve SM rows council-only

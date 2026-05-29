@@ -1,0 +1,16 @@
+marker_slug: cells-cd3-cd4
+marker_name: CD3+CD4+ (T4 helper) cells
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-3
+  marker_slug: cells-cd3-cd4
+  visibility: council_only
+unit: cells/µL
+recommended_youtube_video_ids: []
+recommended_practitioner_ids: []
+recommended_pubmed_ids: []
+recommended_dois: []
+recommended_source_urls: []
+recommended_search_queries:
+- CD3+CD4+ (T4 helper) cells practitioner optimal range
+- CD3+CD4+ (T4 helper) cells metabolic optimization

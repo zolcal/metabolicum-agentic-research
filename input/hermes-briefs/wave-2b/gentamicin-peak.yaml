@@ -1,0 +1,17 @@
+marker_slug: gentamicin-peak
+marker_name: Gentamicin
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-2b
+  marker_slug: gentamicin-peak
+  visibility: council_only
+unit: mcg/mL
+recommended_youtube_video_ids: []
+recommended_practitioner_ids: []
+recommended_pubmed_ids:
+- '33077364'
+recommended_dois: []
+recommended_source_urls: []
+recommended_search_queries:
+- Gentamicin practitioner optimal range
+- Gentamicin metabolic optimization

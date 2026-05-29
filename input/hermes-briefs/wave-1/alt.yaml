@@ -1,0 +1,44 @@
+marker_slug: alt
+marker_name: Alanine Aminotransferase
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-1
+  marker_slug: alt
+  visibility: council_only
+unit: U/L
+recommended_youtube_video_ids:
+- vU2KGyFatsI
+- 3FeVs-O70qo
+- kRtljOrDFpw
+- EWYFqqxu-tM
+- GXdcoSyI25I
+- SgKp5mm0ALI
+- bDaIhHbnuWk
+- qmer3LBYXiE
+- x7cPrE8-_Os
+- mHzQaLgSrxM
+- 5sX4O8bjyDA
+- OgWwvkro9P0
+- pQaQin8NO2I
+- Fi0YjY8HmYY
+recommended_practitioner_ids:
+- person:paul-saladino
+recommended_pubmed_ids:
+- '18054554'
+- '20162730'
+- '20427778'
+- '21280125'
+- '21987480'
+- '26707365'
+- '28490552'
+- '29567099'
+- '31641012'
+- '33143083'
+- '35077243'
+recommended_dois: []
+recommended_source_urls:
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC3772807/
+- https://carnivoremd.com/
+recommended_search_queries:
+- Alanine Aminotransferase practitioner optimal range
+- Alanine Aminotransferase metabolic optimization

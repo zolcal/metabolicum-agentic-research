@@ -1,0 +1,16 @@
+marker_slug: urine-microalbumin
+marker_name: Urine Microalbumin
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-1
+  marker_slug: urine-microalbumin
+  visibility: council_only
+unit: mg/L
+recommended_youtube_video_ids: []
+recommended_practitioner_ids: []
+recommended_pubmed_ids: []
+recommended_dois: []
+recommended_source_urls: []
+recommended_search_queries:
+- Urine Microalbumin practitioner optimal range
+- Urine Microalbumin metabolic optimization

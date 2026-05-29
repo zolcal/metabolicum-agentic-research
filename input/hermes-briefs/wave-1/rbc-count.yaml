@@ -1,0 +1,49 @@
+marker_slug: rbc-count
+marker_name: Red Blood Cell Count
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-1
+  marker_slug: rbc-count
+  visibility: council_only
+unit: 10^12/L
+recommended_youtube_video_ids:
+- tICJUNXfaO0
+- sRD2ax0hST4
+- DkIbqta-_MM
+- LSjB272ZFR4
+- SgKp5mm0ALI
+- cpwB4-_7o-w
+- liWi6AuQuUc
+- 69eAWgXDGrs
+- kQKQ7pa5_ug
+- k_Mb7BIo6hA
+- touPC69jMsg
+- 44JjnUWOm7g
+- 8Ifu2BRdchI
+- 3mVUO1LiqE8
+- CN5ekrfC4wY
+- ChntJVuErlg
+- DLwPMnFBwSA
+- H0bpMtMbZAE
+- HfknEr2ctRI
+- X9EbJRuC5_Y
+- apxk9RAEtAE
+- fQXyUqsHVJw
+- haVr3AAYC80
+- ik1AgqT_rms
+- jRger6l4rjc
+- pdMOxVRtCkc
+- _HmRSMINhiM
+- pl8Gdu2nZpY
+- 3QVPkrYO57g
+- 8yb6_8vrCtk
+recommended_practitioner_ids: []
+recommended_pubmed_ids:
+- '36574367'
+- '41223417'
+recommended_dois: []
+recommended_source_urls:
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC9542839/
+recommended_search_queries:
+- Red Blood Cell Count practitioner optimal range
+- Red Blood Cell Count metabolic optimization

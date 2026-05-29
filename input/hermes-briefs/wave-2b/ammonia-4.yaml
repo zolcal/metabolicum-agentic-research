@@ -1,0 +1,17 @@
+marker_slug: ammonia-4
+marker_name: Ammonia
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-2b
+  marker_slug: ammonia-4
+  visibility: council_only
+unit: ug/dL
+recommended_youtube_video_ids: []
+recommended_practitioner_ids: []
+recommended_pubmed_ids:
+- '39873559'
+recommended_dois: []
+recommended_source_urls: []
+recommended_search_queries:
+- Ammonia practitioner optimal range
+- Ammonia metabolic optimization
