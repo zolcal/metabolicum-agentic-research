@@ -8,7 +8,7 @@ Among the alternatives, database-driven state — using Supabase as the single s
 
 Duplicate ingestion is prevented by source identity, not by trusting the runner. The canonical source key is the normalized URL plus platform and, where relevant, episode or post identifier. Before ingestion, the runner checks the `sources.url` uniqueness constraint and acquires a source-level lock in the research project or local run state. If two runs discover the same source, one run owns extraction and the other references the existing source row.
 
-The proposed directory layout reflects the two-tier ingestion. A run is scoped to a wave and triggered by that wave's brief set (section 19): the orchestrator reads each marker's brief, routes the pointer fields to discovery, and withholds the stripped SM rows, releasing them only to the Stage 3 council (the visibility gate; sections 2, 17, 19). Each run lives under a timestamped folder. Within each run, the `discovery` folder holds the Stage 1 outputs from each active discovery agent (basic research: YouTube, podcasts, Reddit, web) plus a `ranked_sources.json` summary and `state.json` for handoff. The `sources` folder holds one subdirectory per ingested source, each containing the source metadata, the transcript, the extracted claims as JSON Lines, and a `state.json`. The `council` folder holds accepted and rejected claims and its own `state.json`. The `provenance` folder holds resolved and unresolvable entries. The `legal` folder holds approved, quarantined, and rejected entries. The `assembly` folder holds one subdirectory per marker, each containing the `artifact.sql`. A `run.log` at the root captures the full execution trace.
+The proposed directory layout reflects the two-tier ingestion. A run is scoped to a wave and triggered by that wave's brief set (section 19): the orchestrator reads each marker's brief and routes it to discovery — the brief carries no SM numbers, only a council-only `sm_reference`, which only the Stage-3 council dereferences (the visibility gate; sections 2, 17, 19). Each run lives under a timestamped folder. Within each run, the `discovery` folder holds the Stage 1 outputs from each active discovery agent (basic research: YouTube, podcasts, Reddit, web) plus a `ranked_sources.json` summary and `state.json` for handoff. The `sources` folder holds one subdirectory per ingested source, each containing the source metadata, the transcript, the extracted claims as JSON Lines, and a `state.json`. The `council` folder holds accepted and rejected claims and its own `state.json`. The `provenance` folder holds resolved and unresolvable entries. The `legal` folder holds approved, quarantined, and rejected entries. The `assembly` folder holds one subdirectory per marker, each containing the `artifact.sql`. A `run.log` at the root captures the full execution trace.
 
 Static inputs live outside `/runs/`:
 
@@ -21,7 +21,7 @@ Static inputs live outside `/runs/`:
       ...
   /hermes-briefs/
     /wave-0/
-      apob.yaml                 # generated Hermes trigger: pointer fields + stripped SM rows
+      apob.yaml                 # generated Hermes trigger: pointer fields + council-only sm_reference
       apob.index.json           # diagnostics sidecar (scores/match terms); not a Hermes input
     /wave-1/
       ...
@@ -55,6 +55,7 @@ Per-run artifacts:
       accepted_claims.jsonl
       rejected_claims.jsonl
       claim_envelope_evaluations.jsonl
+      sm_alignment_reference.json               # resolved from the brief's sm_reference; council-only
       state.json
     /provenance/
       resolved.jsonl
@@ -69,7 +70,7 @@ Per-run artifacts:
     /run.log
 ```
 
-Private source-bearing envelope derivation material does not live under `/runs/` and is not copied into agent input folders. The canonical envelope facts live in the `research_target_envelopes` table in the standalone research database. At run start, the runner queries ready rows and generates the transient `research_target_envelopes.sanitized.json` artifact for that run. The generated file contains only atomic envelope facts: marker, paradigm, unit, specimen, method, direction, population qualifiers, target bounds, tolerance bounds, readiness state, and use-policy flags. The sanitized file is not a source table and must not include source names, source URLs, proprietary notes, non-public provenance, or external project history. Because it carries target and tolerance bounds, the sanitized file is council-scoped: the orchestrator places it at the run root and injects it only into the Stage 3 council prompt, never into discovery or extraction (the visibility gate; sections 2, 17, 19). For basic research the council's alignment reference is the brief's stripped SM rows, supplied the same council-only way.
+Private source-bearing envelope derivation material does not live under `/runs/` and is not copied into agent input folders. The canonical envelope facts live in the `research_target_envelopes` table in the standalone research database. At run start, the runner queries ready rows and generates the transient `research_target_envelopes.sanitized.json` artifact for that run. The generated file contains only atomic envelope facts: marker, paradigm, unit, specimen, method, direction, population qualifiers, target bounds, tolerance bounds, readiness state, and use-policy flags. The sanitized file is not a source table and must not include source names, source URLs, proprietary notes, non-public provenance, or external project history. Because it carries target and tolerance bounds, the sanitized file is council-scoped: the orchestrator places it at the run root and injects it only into the Stage 3 council prompt, never into discovery or extraction (the visibility gate; sections 2, 17, 19). For basic research the council's alignment reference is the canonical SM range file the brief's `sm_reference` points to, resolved council-only into `council/sm_alignment_reference.json` (never embedded in the brief).
 
 The rules are append-only writes, per-stage replayability, `state.json` as canonical handoff, no private envelope derivation material in run folders, and terminal `.sql` artifacts living in their own Git repo separate from the architecture documents, one per marker-paradigm pair.
 

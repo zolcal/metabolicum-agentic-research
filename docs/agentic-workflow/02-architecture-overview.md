@@ -4,10 +4,10 @@ The pipeline has three stages, three cross-cutting agents (council, provenance, 
 
 ```mermaid
 flowchart TD
-    Brief[per-wave brief set<br/>section 19<br/>one per-marker brief each:<br/>pointers + stripped SM rows] --> Gate{orchestrator<br/>stage-scoped visibility}
-    Gate -.pointers + search intent only.-> Discovery
-    Gate -.SM numbers withheld.-x SourceFirst
-    Gate == SM rows revealed here ==> Council
+    Brief[per-wave brief set<br/>section 19<br/>one per-marker brief each:<br/>pointers + sm_reference council-only] --> Gate{orchestrator<br/>stage-scoped visibility}
+    Gate -.pointers numeric-free brief.-> Discovery
+    Gate -.pointers numeric-free brief.-> SourceFirst
+    Gate == resolves sm_reference council-only ==> Council
 
     subgraph Discovery[Discovery — Stage 1]
         D1[fetch recommended sources first<br/>youtube transcripts · PMIDs/DOIs · practitioner surfaces · source_urls]
@@ -56,7 +56,7 @@ flowchart TD
 
 ## Trigger and unit of work
 
-The pipeline is triggered per wave. A wave is a collection of markers — the brief set under `input/hermes-briefs/<wave>/`, one `<marker>.yaml` brief per marker (for example, wave-0 is the five pilot markers). Each brief is a search seed only: it carries compact pointer lists — recommended YouTube video IDs, practitioners, PMIDs, DOIs, source URLs, and search queries — plus stripped SM anchor rows reserved for later alignment. A brief is never evidence and is never modified by the run.
+The pipeline is triggered per wave. A wave is a collection of markers — the brief set under `input/hermes-briefs/<wave>/`, one `<marker>.yaml` brief per marker (for example, wave-0 is the five pilot markers). Each brief is a search seed only: it carries compact pointer lists — recommended YouTube video IDs, practitioners, PMIDs, DOIs, source URLs, and search queries — plus a council-only `sm_reference` pointer to the canonical SM range file (`input/sm-ranges/<wave>/<marker>.yaml`). A brief carries no SM numbers, is never evidence, and is never modified by the run.
 
 Three scopes coexist and must not be conflated:
 
@@ -68,9 +68,9 @@ The two-tier ingestion design addresses the wasted-evidence problem, and process
 
 ## SM ranges are an alignment reference, never an input
 
-The SM anchor rows travel inside the brief, but the orchestrator controls which stage may see them. Discovery and extraction never receive the SM numbers. Discovery is steered only by marker identity, units, risk direction, and the brief's search queries. Extraction is fully blind and must ground every value byte-for-byte in a fetched source. The SM rows are revealed only to the validation council, after extraction, where they are used solely to classify each already-extracted claim as `aligned`, `wider_than_envelope`, `narrower_than_envelope`, `contradictory`, or `not_comparable` (section 17). They carry `evidence_weight: 0`, are never an input range, never raise a grade or score, and never enter a claim's value. The comparison is stored as a separate `alignment_status` annotation, not merged into the claim.
+The brief carries only an `sm_reference` pointer (`{wave, marker_slug, visibility: council_only}`); the SM numbers live solely in `input/sm-ranges/`. Discovery and extraction read the brief safely — it contains no SM numbers. Discovery is steered only by marker identity, units, risk direction, and the brief's search queries; extraction is fully blind and must ground every value byte-for-byte in a fetched source. Only the validation council, after extraction, dereferences `sm_reference` — resolving it into a council-scoped `council/sm_alignment_reference.json` — to classify each already-extracted claim as `aligned`, `wider_than_envelope`, `narrower_than_envelope`, `contradictory`, or `not_comparable` (section 17). The resolved SM reference carries `evidence_weight: 0`, is never an input range, never raises a grade or score, and never enters a claim's value. The comparison is stored as a separate `alignment_status` annotation, not merged into the claim.
 
-This visibility firewall is structural, not advisory. A value the extractor never sees is a value it cannot anchor on or fabricate toward. The brief may physically contain the SM rows because it is the per-marker bundle; enforcement lives in the orchestrator, which injects the SM block only into the council prompt. [JUDGMENT] Withholding the numbers from extraction is the primary defense against SM-adjacent fabrication, given the project's zero-fabrication rule and prior citation-fabrication incidents.
+This firewall is structural by absence, not advisory. The SM numbers are not in the brief, so no prompt built from the brief can leak them to discovery or extraction; the council is the only stage that resolves the pointer. [JUDGMENT] Keeping the numbers out of the brief entirely is a stronger defense than gating an embedded copy, and it removes the duplication of carrying a stripped SM copy that could drift from the canonical `input/sm-ranges/` source.
 
 ## Discovery scope (basic research)
 
@@ -78,7 +78,7 @@ Basic research discovery covers YouTube, podcasts, and permissive public web and
 
 ## Research target envelopes
 
-Research target envelopes are optional inputs to validation, not evidence. They express internal marker-range goals that define what the pipeline is trying to discover, confirm, or falsify from public sources. For basic research the operational envelope is the brief's stripped SM rows, used as the alignment reference described above; section 17 defines the sanitized envelope-fact contract for any richer use. Only sanitized atomic envelope facts and their use-policy flags may enter the council prompt; they never enter discovery or extraction. The private derivation file that explains where an envelope came from is never passed to any stage. When open-source material exposes finer context than a broad internal seed, the pipeline preserves that finer context rather than collapsing it back to a general-adult envelope.
+Research target envelopes are optional inputs to validation, not evidence. They express internal marker-range goals that define what the pipeline is trying to discover, confirm, or falsify from public sources. For basic research the operational envelope is the canonical SM range file referenced by each brief's council-only `sm_reference`, resolved at the council as described above; section 17 defines the sanitized envelope-fact contract for any richer use. Only sanitized atomic envelope facts and their use-policy flags may enter the council prompt; they never enter discovery or extraction. The private derivation file that explains where an envelope came from is never passed to any stage. When open-source material exposes finer context than a broad internal seed, the pipeline preserves that finer context rather than collapsing it back to a general-adult envelope.
 
 ## Agent topology and data-flow rules
 

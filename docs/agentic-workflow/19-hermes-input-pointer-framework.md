@@ -2,7 +2,7 @@
 
 ## What this document records
 
-This document defines the Hermes trigger input contract. Hermes does not read the raw SM range YAMLs directly. Hermes reads generated **research briefs** that contain stripped SM anchor data plus compact pointer fields. The brief is the single trigger file per marker.
+This document defines the Hermes trigger input contract. Hermes does not read the raw SM range YAMLs directly. Hermes reads generated **research briefs** that contain compact pointer fields plus a council-only `sm_reference` pointer to the SM range file — never the SM numbers themselves. The brief is the single trigger file per marker.
 
 ## Final decision
 
@@ -14,11 +14,21 @@ input/hermes-briefs/<wave>/<marker>.yaml
 
 The brief is produced by `scripts/prepare_hermes_briefs.py`. It contains:
 
-1. **Stripped SM anchor data** — marker slug, name, units, reference rows, `known_research_context` public IDs, and `anchor_provenance`. Bloat fields (`sample_status`, `source_policy`, `anchor_version`, `reviewer_note`, display flags) are removed.
-2. **Six pointer fields** — compact lists that tell Hermes where to start research:
+1. **Marker identity** — `marker_slug`, `marker_name`, `unit` (no numeric ranges).
+2. **A council-only `sm_reference`** — a pointer to the canonical SM range file, not the SM numbers. Only the Stage-3 council may dereference it (sections 02, 05, 17).
+3. **Six pointer fields** — compact lists that tell Hermes where to start research.
+
+The brief carries **no SM numeric data** (`rows`, `min`, `max`, `anchor_provenance`). The SM numbers live solely in `input/sm-ranges/`; the brief points to them.
 
 ```yaml
+marker_slug: apob
+marker_name: Apolipoprotein B
+unit: mg/dL
 schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-1
+  marker_slug: apob
+  visibility: council_only
 recommended_youtube_video_ids:
 - mDeqg6i9CxQ
 recommended_practitioner_ids:
@@ -33,14 +43,14 @@ recommended_search_queries:
 - apolipoprotein B practitioner optimal range
 ```
 
-Empty lists are valid when no reliable pointer is available for that class. The fields are populated incrementally as evidence is available.
+Empty pointer lists are valid when no reliable pointer is available for that class. Public citation IDs from the SM anchor's `known_research_context` / `public_source_ids` are surfaced as `recommended_pubmed_ids` / `recommended_dois` — they are citation pointers, not range numbers, so they remain safe discovery inputs.
 
 ## Why the brief is the right trigger
 
 The brief separates two concerns:
 
 - **SM YAMLs** (`input/sm-ranges/`) remain canonical, untouched reference anchors. They provide sanity-check ranges, units, and public research IDs. They are not proof sources for MO claims.
-- **Briefs** (`input/hermes-briefs/`) are disposable, regenerable trigger files. They combine SM anchor context with dynamic pointers (practitioners, videos, papers) that change as the registry and inventory grow.
+- **Briefs** (`input/hermes-briefs/`) are disposable, regenerable trigger files. They carry a council-only `sm_reference` to the SM anchor plus dynamic pointers (practitioners, videos, papers) that change as the registry and inventory grow — but never the SM numbers themselves.
 
 If a brief's pointers are stale or noisy, delete it and rerun `prepare_hermes_briefs.py`. The SM YAMLs are unaffected.
 
@@ -181,11 +191,11 @@ When Hermes researches a marker (one of the markers in the wave being run), the 
 
 **Evaluation — SM rows revealed:**
 
-8. Only at the validation council, after extraction, are the brief's SM anchor rows revealed, and only to classify each already-extracted claim's alignment against them: `aligned`, `wider_than_envelope`, `narrower_than_envelope`, `contradictory`, or `not_comparable` (section 17).
+8. Only at the validation council, after extraction, is the brief's `sm_reference` dereferenced — resolving the canonical SM range file into a council-scoped `council/sm_alignment_reference.json` — and only to classify each already-extracted claim's alignment against it: `aligned`, `wider_than_envelope`, `narrower_than_envelope`, `contradictory`, or `not_comparable` (section 17).
 
-### SM rows are withheld until evaluation
+### SM is resolved only at the council
 
-The SM anchor rows ride inside the brief, but the orchestrator injects them only into the council prompt — never into discovery or extraction. They are an alignment reference, not an input range: `evidence_weight: 0`, never a proof source, never raising a grade or score, never entering a claim's value. The comparison is stored as a separate `alignment_status` annotation. The firewall is structural: a number the extractor never sees is a number it cannot anchor on or fabricate toward. This is the primary defense against SM-adjacent fabrication.
+The brief carries only `sm_reference`, never the SM numbers. Discovery and extraction can read the entire brief safely; only the Stage-3 council dereferences `sm_reference` to load the canonical SM range file. The resolved reference is an alignment reference, not an input range: `evidence_weight: 0`, never a proof source, never raising a grade or score, never entering a claim's value. The comparison is stored as a separate `alignment_status` annotation. The firewall is structural by absence: a number that is not in the brief cannot be leaked to — or anchored on by — discovery or extraction. This is the primary defense against SM-adjacent fabrication.
 
 ## Pointer field roles
 
@@ -443,6 +453,8 @@ A valid brief must satisfy:
 - `recommended_source_urls` contains only permissive/public URLs.
 - `recommended_search_queries` contains concise query strings, not paragraphs.
 - No transcript text, description, title, score, or rationale is stored inside the brief.
+- The brief contains **no SM numeric data** — no `rows`, `min`, `max`, or `anchor_provenance`.
+- `sm_reference` is present with `wave`, `marker_slug`, and `visibility: council_only`, and resolves to a real `input/sm-ranges/<wave>/<marker>.yaml`.
 - The original SM YAML is untouched (verified by SHA-256 or file timestamp).
 
 The acceptance check is `code/acceptance/check_hermes_briefs.py`.
@@ -457,6 +469,7 @@ This framework does not require:
 - storing descriptions or titles in briefs;
 - storing match scores, ranking rationale, or generator diagnostics in briefs;
 - using SM reference ranges as proof for MO claims;
+- embedding SM numeric rows in the brief (the brief points to them via `sm_reference`; only the council resolves it);
 - using gated lab pages as source pointers;
 - modifying SM YAMLs in place.
 

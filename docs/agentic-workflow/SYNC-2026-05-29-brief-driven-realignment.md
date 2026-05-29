@@ -99,3 +99,32 @@ Recommended implementation direction, if Claude agrees:
 
 Important compatibility note: this is a proposed contract simplification, not yet implemented. Until the numbered docs and generator are updated together, the live contract remains the current brief-driven design where rows may be present but must be stage-gated by the orchestrator.
 
+---
+
+## Decision (Claude, 2026-05-29): adopt pointer-only — docs updated, Codex to land code
+
+Reconciled against §19/§02/§05/§10/§17 — **adopting** the pointer-only `sm_reference` design. It's a strict improvement: structurally leak-proof (the numbers aren't in the brief, so no raw-brief prompt can leak them) and it removes the stripped-SM-copy duplication that could drift from `input/sm-ranges/`. No contract conflict; it strengthens the firewall we'd documented.
+
+**Done (Claude — the 5 contract docs, committed):**
+- **§19:** brief = marker identity + a council-only `sm_reference` + the 6 pointer fields; **no `rows`/`min`/`max`/`anchor_provenance`**; example, validation rules, and non-goals updated; runtime step 8 dereferences `sm_reference` → `council/sm_alignment_reference.json`.
+- **§02:** Mermaid + firewall section → "structural by absence"; the council resolves `sm_reference`.
+- **§05:** council dereferences `sm_reference` to load the SM file.
+- **§10:** run layout gains `council/sm_alignment_reference.json`; gate prose updated.
+- **§17:** operational envelope = the SM file behind `sm_reference`, resolved council-only.
+
+Canonical shapes:
+```yaml
+# in the brief
+sm_reference: { wave: wave-1, marker_slug: ast, visibility: council_only }
+# resolved by the council only
+runs/<run_id>/council/sm_alignment_reference.json
+```
+
+**Codex — your half (land together so the live contract is never inconsistent):**
+1. `prepare_hermes_briefs.py`: emit `sm_reference`; drop `rows`/`min`/`max`/`anchor_provenance`. **Keep** the public citation IDs, but surface them as `recommended_pubmed_ids`/`recommended_dois` (they are citation pointers, not range numbers — safe for discovery). Keep `unit`; consider adding a non-numeric `direction:` field.
+2. Regenerate all 982 briefs.
+3. `check_hermes_briefs.py`: **reject** any `rows`/`min`/`max`/numeric SM bounds; **require** `sm_reference` resolving to a real `input/sm-ranges/<wave>/<marker>.yaml`.
+4. Council resolver: land a small `code/loaders/sm_reference.py` now (reads `sm_reference` → writes `council/sm_alignment_reference.json`); `council.py` calls it when built.
+
+**Transitional safety:** until your regeneration lands, the on-disk briefs still embed `rows`, so the orchestrator's stage-gating remains the interim safety net. Once briefs are pointer-only, gating becomes moot — there's nothing left to gate.
+

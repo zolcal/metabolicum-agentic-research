@@ -6,9 +6,9 @@ The reason for the envelope layer is practical. Some target ranges are known bef
 
 ## Operational envelope for basic research
 
-For basic research, the operational envelope is the set of stripped SM anchor rows carried inside each marker's brief (section 19). These are public population reference intervals from the frozen SM wave, not a private seed, and they exist for one purpose: to judge the alignment of already-extracted MO claims. They are a soft reference, not a rigid gate — a claim that falls outside them is flagged for review, never auto-rejected — and it was always intended this way.
+For basic research, the operational envelope is the canonical SM range file that each marker's brief references via a council-only `sm_reference` (section 19); the brief itself carries no SM numbers. These are public population reference intervals from the frozen SM wave, not a private seed, and they exist for one purpose: to judge the alignment of already-extracted MO claims. They are a soft reference, not a rigid gate — a claim that falls outside them is flagged for review, never auto-rejected — and it was always intended this way.
 
-The richer private envelope-fact model defined in the rest of this section is an optional layer, used only for markers where internal, non-publishable target ranges exist. Whether the envelope is a brief SM row or a private fact, the same firewall applies: it is withheld from discovery and extraction and revealed only to the validation council (sections 2 and 19). It never becomes an input range, evidence, a citation, a score, or production data.
+The richer private envelope-fact model defined in the rest of this section is an optional layer, used only for markers where internal, non-publishable target ranges exist. Whether the envelope is the SM file behind a brief's `sm_reference` or a private fact, the same firewall applies: it is never in the brief, and only the validation council resolves it (sections 2 and 19). It never becomes an input range, evidence, a citation, a score, or production data.
 
 ## Boundary rules
 
@@ -141,7 +141,7 @@ An envelope fact with zero `claim_envelope_evaluations` rows is treated as havin
 
 ## File placement
 
-For basic research the operational envelope needs no separate file: it is the SM anchor rows already carried in the brief (section 19), which the orchestrator passes to the council only. Private derivation artifacts belong outside run folders and outside export paths. The canonical sanitized envelope facts live in the `research_target_envelopes` table defined in section four. At run start, the runner may generate `research_target_envelopes.sanitized.json` from ready table rows as a transient run artifact. The sanitized file contains envelope facts only. It must contain no source names, source URLs, proprietary notes, non-public provenance, or references to external project history.
+For basic research the operational envelope is the canonical SM range file the brief references via `sm_reference` (section 19); only the council dereferences it, resolving it into `council/sm_alignment_reference.json`. It is never embedded in the brief. Private derivation artifacts belong outside run folders and outside export paths. The canonical sanitized envelope facts live in the `research_target_envelopes` table defined in section four. At run start, the runner may generate `research_target_envelopes.sanitized.json` from ready table rows as a transient run artifact. The sanitized file contains envelope facts only. It must contain no source names, source URLs, proprietary notes, non-public provenance, or references to external project history.
 
 The `research_target_envelopes` table is an operational store and comparison contract, not a publication surface. Claim-to-envelope comparisons are persisted in `claim_envelope_evaluations`.
 
