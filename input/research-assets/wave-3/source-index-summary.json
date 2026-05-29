@@ -1,0 +1,2979 @@
+{
+  "wave": "wave-3",
+  "markers_processed": 674,
+  "total_sources": 321,
+  "markers": {
+    "1-3-beta-glucan": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "10-hydroxycarbazepine": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "11-deoxycorticosterone": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "17-hydroxypregnenolone": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "18-hydroxycorticosterone": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "6-methylmercaptopurine": {
+      "sources": 5,
+      "by_type": {
+        "pubmed": 5
+      }
+    },
+    "9-hydroxyrisperidone": {
+      "sources": 2,
+      "by_type": {
+        "pubmed": 2
+      }
+    },
+    "acacia-longifolia-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "acarboxyprothrombin": {
+      "sources": 3,
+      "by_type": {
+        "pubmed": 3
+      }
+    },
+    "acarus-siro-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "acer-negundo-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "acetaminophen": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "acetone": {
+      "sources": 2,
+      "by_type": {
+        "pubmed": 2
+      }
+    },
+    "acetylcholine-receptor-binding-ab": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "acid-phosphatase-prostatic": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "acremonium-sp-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "actin-smooth-muscle-ab-igg": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "actinidia-chinensis-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "adalimumab-ab": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "adalimumab": {
+      "sources": 4,
+      "by_type": {
+        "pubmed": 4
+      }
+    },
+    "aedes-communis-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "agaricus-hortensis-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "agrostis-stolonifera-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "aldolase": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "alkaline-phosphatase-bone": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "allium-cepa-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "allium-sativum-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "alnus-incana-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "alopercurus-pratensis-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "alpha-1-fetoprotein-tumor-marker": {
+      "sources": 2,
+      "by_type": {
+        "pubmed": 2
+      }
+    },
+    "alprazolam": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "alternaria-alternata-ab-ige": {
+      "sources": 1,
+      "by_type": {
+        "practitioner_website": 1
+      }
+    },
+    "amantadine": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "amaranthus-retroflexus-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "amaranthus-tuberculatus-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "ambrosia-elatior-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "ambrosia-psilostachya-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "ambrosia-trifida-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "amiodarone": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "amitriptyline": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "amobarbital": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "amoxicillin-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "amphetamine": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "ampicillin-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "anacardium-occidentale-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "anacardium-occidentale-recombinant-rana-o-3-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "ananas-comosus-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "anaplasma-phagocytophilum-ab-igg": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "anethum-graveolens-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "angiotensin-ii": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "anthemis-cotula-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "anthoxanthum-odoratum-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "antithrombin-ag-actual-normal": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "apis-mellifera-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "apis-mellifera-ab-igg": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "apium-graveolens-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "apixaban": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "aquaporin-4-water-channel-ab-igg": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "arachis-hypogaea-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "aripiprazole": {
+      "sources": 2,
+      "by_type": {
+        "pubmed": 2
+      }
+    },
+    "artemisia-absinthium-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "artemisia-vulgaris-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "ascaris-sp-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "asparagus-officinalis-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "aspergillus-flavus-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "aspergillus-fumigatus-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "aspergillus-fumigatus-ab-igg": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "aspergillus-niger-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "astacus-astacus-ab-ige": {
+      "sources": 1,
+      "by_type": {
+        "practitioner_website": 1
+      }
+    },
+    "atriplex-lentiformis-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "aureobasidium-pullulans-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "avena-sativa-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "avena-sativa-cultivated-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "babesia-microti-ab-igg": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "baclofen": {
+      "sources": 3,
+      "by_type": {
+        "pubmed": 3
+      }
+    },
+    "basement-membrane-ab-igg": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "bean-black-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "bean-green-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "bean-kidney-red-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "bean-white-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "beef-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "beet-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "benztropine": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "bertholletia-excelsa-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "bertholletia-excelsa-recombinant-rber-e-1-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "beta-hydroxybutyrate": {
+      "sources": 3,
+      "by_type": {
+        "pubmed": 3
+      }
+    },
+    "beta-lactoglobulin-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "betula-verrucosa-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "bile-acid": {
+      "sources": 3,
+      "by_type": {
+        "pubmed": 3
+      }
+    },
+    "biotinidase": {
+      "sources": 2,
+      "by_type": {
+        "pubmed": 2
+      }
+    },
+    "bismuth": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "bixa-orellana-seed-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "blastomyces-dermatitidis-ab": {
+      "sources": 1,
+      "by_type": {
+        "practitioner_website": 1
+      }
+    },
+    "blatella-germanica-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "blomia-tropicalis-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "bombus-terrestris-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "bordetella-pertussis-ab-igg": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "botrytis-cinerea-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "brassica-napus-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "brassica-oleracea-var-botrytis-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "brassica-oleracea-var-capitata-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "brassica-oleracea-var-italica-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "bromus-inermis-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "brucella-sp-ab": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "budgerigar-droppings-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "bupivacaine": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "bupropion": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "cadmium-blood-2": {
+      "sources": 3,
+      "by_type": {
+        "pubmed": 3
+      }
+    },
+    "caffeine": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "calcidiol-ercalcidiol": {
+      "sources": 5,
+      "by_type": {
+        "pubmed": 5
+      }
+    },
+    "calcidiol": {
+      "sources": 4,
+      "by_type": {
+        "pubmed": 4
+      }
+    },
+    "calcitonin": {
+      "sources": 3,
+      "by_type": {
+        "pubmed": 3
+      }
+    },
+    "camellia-sinensis-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "cancer-ag-125": {
+      "sources": 5,
+      "by_type": {
+        "pubmed": 5
+      }
+    },
+    "cancer-ag-15-3": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "cancer-ag-19-9": {
+      "sources": 5,
+      "by_type": {
+        "pubmed": 5
+      }
+    },
+    "cancer-ag-27-29": {
+      "sources": 2,
+      "by_type": {
+        "pubmed": 2
+      }
+    },
+    "cancer-pagurus-ab-ige": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "candida-albicans-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "capsicum-annuum-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "carbamazepine-free": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "carbamazepine-total": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "carbamazepine": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "carbon-dioxide": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "carcinoembryonic-ag": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "cardiolipin-ab-iga": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "cardiolipin-ab-igg": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "cardiolipin-ab-igm": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "carica-papaya-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "carotene": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "carum-carvi-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "carya-illinoinensis-nut-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "carya-illinoinensis-tree-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "carya-ovata-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "casein-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "castanea-sativa-ab-ige": {
+      "sources": 1,
+      "by_type": {
+        "practitioner_website": 1
+      }
+    },
+    "casuarina-equisetifolia-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "cells-cd3-cd4": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "cells-cd3-cd8": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "celtis-occidentalis-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "centromere-ab-igg": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "ceratonia-siliqua-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "ceruloplasmin": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "chaetomium-globosum-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "cheese-cheddar-type-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "cheese-mold-type-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "chenopodium-album-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "chenopodium-quinoa-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "chicken-feather-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "chicken-serum-proteins-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "chlorpromazine": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "cholinesterase": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "choriomammotropin": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "chromogranin-a": {
+      "sources": 3,
+      "by_type": {
+        "pubmed": 3
+      }
+    },
+    "chronic-urticaria-index": {
+      "sources": 2,
+      "by_type": {
+        "pubmed": 2
+      }
+    },
+    "chymotrypsin-stool": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "cicer-arientinum-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "cinnamomum-spp-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "citrate": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "citrullus-lanatus-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "citrus-aurantifolia-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "citrus-limon-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "citrus-paradisis-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "citrus-reticulata-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "citrus-sinensis-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "clinical-biochemist-review": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "clobazam": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "clomipramine": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "clonidine": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "clorazepate": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "clostridium-tetani-toxoid-ab-igg": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "clupea-harengus-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "coagulation-3": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "coagulation-actual-normal": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "coagulation-factor-ix-activity-actual-normal": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "coagulation-factor-ix-inhibitor": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "coagulation-factor-v-activity-actual-normal": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "coagulation-factor-vii-activity-actual-normal": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "coagulation-factor-viii-activity-actual-normal": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "coagulation-factor-x-activity-actual-normal": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "coagulation-factor-xi-activity-actual-normal": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "coagulation-factor-xii-activity-actual-normal": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "coagulation-factor-xiii-activity-actual-normal": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "cocos-nucifera-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "coffea-spp-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "cold-agglutinin": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "complement-c1-esterase-inhibitor-actual-normal": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "complement-c1-esterase-inhibitor": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "complement-c1q-ab": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "complement-c1q": {
+      "sources": 2,
+      "by_type": {
+        "pubmed": 2
+      }
+    },
+    "complement-c2": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "complement-c3a": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "complement-c5-functional": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "complement-c5": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "complement-sc5b-9": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "complement-total-hemolytic-ch50": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "coriandrum-sativum-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "corticosterone": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "corylus-avellana-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "corylus-avellana-recombinant-rcor-a-8-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "corynebacterium-diphtheriae-ab-igg": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "coryphaena-hippurus-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "cow-milk-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "cow-whey-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "creatine-kinase-mb-creatine-kinase-total": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "creatine-kinase-mb": {
+      "sources": 2,
+      "by_type": {
+        "pubmed": 2
+      }
+    },
+    "creatine": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "cryptomeria-japonica-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "cu-2": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "cucumis-melo-spp-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "cucumis-sativus-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "cucurbita-pepo-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "cucurbita-pepo-seed-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "curcuma-longa-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "curvularia-lunata-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "curvularia-specifera-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "cv2-ab-igg-csf": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "cyamopsis-tetragonoloba-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "cyclobenzaprine": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "cyclosporine": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "cynodon-dactylon-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "cytomegalovirus-ab-igg-avidity": {
+      "sources": 4,
+      "by_type": {
+        "pubmed": 4
+      }
+    },
+    "dactylis-glomerata-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "daucus-carota-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "dehydroepiandrosterone-sulfate": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "dermatophagoides-farinae-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "dermatophagoides-microceras-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "dermatophagoides-pteronyssinus-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "desipramine": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "dexamethasone": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "dextromethorphan": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "digitoxin": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "digoxin-3": {
+      "sources": 3,
+      "by_type": {
+        "pubmed": 3
+      }
+    },
+    "digoxin-free": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "diltiazem": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "diphenylmethane-diisocyanate-mdi-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "dna-double-strand-ab-igg": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "dnase-b-ab-streptococcal": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "dog-dander-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "dolichovespula-arenaria-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "dolichovespula-maculata-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "dolichovespula-maculata-ab-igg": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "dopamine-2": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "doxepin": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "duck-feather-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "duloxetine": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "egg-white-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "egg-whole-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "egg-yolk-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "ehrlichia-chaffeensis-ab-igg": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "engraulis-encrasicolus-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "ephedrine": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "epicoccum-purpurascens-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "epstein-barr-virus-capsid-ab-igg": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "epstein-barr-virus-capsid-ab-igm": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "epstein-barr-virus-early-diffuse-ab-igg": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "epstein-barr-virus-nuclear-ab-igg": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "erythropoietin": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "ethosuximide": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "ethylene-glycol": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "eucalyptus-spp-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "everolimus": {
+      "sources": 2,
+      "by_type": {
+        "pubmed": 2
+      }
+    },
+    "fagopyrum-esculentum-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "fagus-grandifolia-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "felbamate": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "festuca-elatior-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "finch-feather-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "flecainide": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "flounder-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "fluconazole": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "fluphenazine": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "flurazepam": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "fluvoxamine": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "formaldehyde-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "fragaria-vesca-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "franseria-acanthicarpa-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "fraxinus-americana-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "furosemide": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "fusarium-moniliforme-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "gabapentin": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "gadus-morhua-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "galactomannan-ag": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "galactose-alpha-1-3-galactose-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "ganglioside-gm1-ab-igg-igm": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "ganglioside-gm1-ab-igm": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "gelatin-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "gelatin-porcine-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "gerbil-epithelium-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "gliadin-peptide-ab-iga": {
+      "sources": 3,
+      "by_type": {
+        "pubmed": 3
+      }
+    },
+    "gliadin-peptide-ab-igg": {
+      "sources": 3,
+      "by_type": {
+        "pubmed": 3
+      }
+    },
+    "glial-fibrillary-acidic-protein": {
+      "sources": 4,
+      "by_type": {
+        "pubmed": 4
+      }
+    },
+    "glucagon": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "glutamine-csf": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "gluten-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "glycine-max-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "glycyphagus-domesticus-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "goat-epithelium-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "goat-milk-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "goose-feather-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "guinea-pig-epithelium-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "gum-arabic-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "haemophilus-influenzae-b-ab-igg": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "haloperidol": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "hamster-epithelium-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "haptoglobin": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "heavy-metals-panel": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "helianthus-annuus-pollen-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "helianthus-annuus-seed-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "heparin-unfractionated": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "hepatitis-b-virus-surface-ab": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "hepatitis-c-virus-rna": {
+      "sources": 3,
+      "by_type": {
+        "pubmed": 3
+      }
+    },
+    "her2-ag": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "hexamethylene-diisocyanate-hdi-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "hippoglossus-hippoglossus-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "histone-ab-igg": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "hiv-1-rna": {
+      "sources": 3,
+      "by_type": {
+        "pubmed": 3
+      }
+    },
+    "homarus-gammarus-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "hordeum-vulgare-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "horse-dander-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "house-dust-greer-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "house-dust-hollister-stier-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "human-antimouse-ab": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "human-epididymis-protein-4": {
+      "sources": 3,
+      "by_type": {
+        "pubmed": 3
+      }
+    },
+    "hydroxyzine": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "ibuprofen": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "ictalurus-punctatus-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "igd": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "ige": {
+      "sources": 4,
+      "by_type": {
+        "pubmed": 4
+      }
+    },
+    "igg-subclass-4": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "igg-synthesis-rate": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "immune-complex": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "inhibin-a": {
+      "sources": 2,
+      "by_type": {
+        "pubmed": 2
+      }
+    },
+    "inhibin-b": {
+      "sources": 2,
+      "by_type": {
+        "pubmed": 2
+      }
+    },
+    "insulin-ab": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "interferon-gamma": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "interleukin-2-receptor-soluble": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "interleukin-2": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "interleukin-4": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "interleukin-8": {
+      "sources": 3,
+      "by_type": {
+        "pubmed": 3
+      }
+    },
+    "ipomoea-batatas-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "islet-cell-512-ab": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "ispaghula-laxative-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "itraconazole-serum-whole-blood-plasma": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "iva-ciliata-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "jo-1-extractable-nuclear-ab": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "juglans-california-pollen-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "juglans-regia-recombinant-rjug-r-1-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "juglans-spp-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "juniperus-sabinoides-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "juniperus-virginiana-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "kochia-scoparia-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "lacosamide": {
+      "sources": 2,
+      "by_type": {
+        "pubmed": 2
+      }
+    },
+    "lactalbumin-alpha-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "lactic-acid": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "lactuca-sativa-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "lamb-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "lamotrigine": {
+      "sources": 2,
+      "by_type": {
+        "pubmed": 2
+      }
+    },
+    "latex-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "laurus-nobilis-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "lead-blood-2": {
+      "sources": 2,
+      "by_type": {
+        "pubmed": 2
+      }
+    },
+    "legionella-pneumophila-ab": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "lens-esculenta-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "lepidoglyphus-destructor-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "levetiracetam": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "lidocaine": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "ligustrum-vulgare-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "limulus-amebocyte-lysate-test-other": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "linum-usitatissimum-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "liquidambar-styraciflua-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "lithium": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "liver-kidney-microsomal-1-ab": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "loligo-sp-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "lolium-perenne-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "lorazepam": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "lpa-2": {
+      "sources": 13,
+      "by_type": {
+        "pubmed": 2,
+        "practitioner_website": 9,
+        "practitioner_podcast": 2
+      }
+    },
+    "lycopersicon-lycopersicum-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "lysozyme": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "macadamia-spp-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "malt-ab-ige": {
+      "sources": 1,
+      "by_type": {
+        "practitioner_website": 1
+      }
+    },
+    "malus-sylvestris-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "mangifera-indica-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "mannose-binding-protein": {
+      "sources": 3,
+      "by_type": {
+        "pubmed": 3
+      }
+    },
+    "medicago-sativa-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "melaleuca-leucadendron-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "melanogrammus-aeglefinus-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "mentha-piperita-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "mercury-blood-2": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "merluccius-merluccius-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "methadone": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "methotrexate": {
+      "sources": 2,
+      "by_type": {
+        "pubmed": 2
+      }
+    },
+    "methylphenidate": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "mexiletine": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "mi-2-ab": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "micropterus-salmoides-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "midazolam": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "mirtazapine": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "mitochondria-m2-ab": {
+      "sources": 2,
+      "by_type": {
+        "pubmed": 2
+      }
+    },
+    "mitotane": {
+      "sources": 2,
+      "by_type": {
+        "pubmed": 2
+      }
+    },
+    "morus-alba-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "moth-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "mouse-epithelium-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "mouse-serum-proteins-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "mouse-urine-proteins-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "mucor-racemosus-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "mumps-virus-ab-igg": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "mumps-virus-ab-igm": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "musa-spp-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "muscle-specific-receptor-tyrosine-kinase-ab": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "mustard-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "mutated-citrullinated-vimentin-ab": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "mycophenolate": {
+      "sources": 2,
+      "by_type": {
+        "pubmed": 2
+      }
+    },
+    "mycoplasma-pneumoniae-ab-igg": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "mycoplasma-pneumoniae-ab-igm": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "myelin-associated-glycoprotein-ab-igm": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "myelin-basic-protein-csf": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "myeloperoxidase-ab": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "myrica-spp-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "mytilus-edulis-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "n-acetylprocainamide": {
+      "sources": 3,
+      "by_type": {
+        "pubmed": 3
+      }
+    },
+    "neurofilament-light-chain": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "nickel": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "norclozapine": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "norfentanyl": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "norsertraline": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "nortriptyline": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "nuclear-ab-igg": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "nuclear-ab": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "nuclear-pore-protein-gp210-ab": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "nutmeg-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "observation": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "ocimum-basilicum-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "octopus-vulgaris-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "olanzapine": {
+      "sources": 2,
+      "by_type": {
+        "pubmed": 2
+      }
+    },
+    "olea-europaea-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "olea-europaea-pollen-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "oncorhynchus-mykiss-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "origanum-vulgare-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "oryza-sativa-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "ostrea-edulis-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "ovalbumin-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "ovomucoid-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "oxalate": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "oxazepam": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "oxycodone": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "pancreatic-polypeptide": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "pandalus-borealis-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "panicum-milliaceum-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "papaver-somniferum-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "parathyrin-intact": {
+      "sources": 5,
+      "by_type": {
+        "pubmed": 5
+      }
+    },
+    "parathyrin-related-protein": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "parietal-cell-ab-igg": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "parietaria-officinalis-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "paspalum-notatum-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "pathology-study": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "pecten-spp-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "penicillin-g-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "penicillin-v-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "penicillium-notatum-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "pentobarbital": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "pepper-green-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "periplaneta-americana-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "perphenazine": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "persea-americana-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "petroselinum-crispum-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "ph": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "phalaris-arundinacea-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "phaseolus-limensis-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "phencyclidine": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "phenobarbital": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "phenylalanine": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "phenytoin-free-total-panel": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "phenytoin-free": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "phenytoin": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "phleum-pratense-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "phoma-betae-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "phosphatidylserine-ab-igg": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "phosphatidylserine-prothrombin-complex-ab-igg": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "phospholipase-a2-receptor-ab-igg-2": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "phragmites-communis-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "phthalic-anhydride-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "pigeon-feather-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "pimpinella-anisum-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "pinus-edulis-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "pinus-strobus-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "pistacia-vera-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "pisum-sativum-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "plantago-lanceolata-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "plasmin-inhibitor-actual-normal": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "plasminogen-activator-tissue-type-ag": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "plasminogen-actual-normal": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "platelet-factor-4-heparin-complex-induced-ab-igg": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "pleuronectes-platessa-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "poa-pratensis-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "polistes-spp-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "pollachius-virens-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "populus-alba-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "populus-deltoides-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "populus-tremula-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "pork-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "porphyrins": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "posaconazole-serum-whole-blood-urine": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "pregabalin": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "pregnenolone": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "prekallikrein-activity-actual-normal": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "procollagen-type-i-n-terminal-propeptide": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "promethazine": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "propafenone": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "prosopis-juliflora-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "prostate-specific-ag-2": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "prostate-specific-ag-free": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "prostate-specific-ag-protein-bound": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "protein-c-actual-normal-2": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "protein-c-ag-actual-normal": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "protein-s-ag-actual-normal": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "protein-s-free-ag-actual-normal": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "protein-total": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "proteinase-3-ab": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "prothrombin-activity-actual-normal": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "protriptyline": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "provasopressin-c-terminal": {
+      "sources": 5,
+      "by_type": {
+        "pubmed": 5
+      }
+    },
+    "prunus-armeniaca-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "prunus-avium-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "prunus-domestica-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "prunus-dulcis-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "prunus-persica-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "prunus-persica-var-nucipersica-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "pt-2": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "pyrus-communis-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "quercus-alba-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "quercus-rubra-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "quercus-virginiana-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "quetiapine": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "quinidine": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "rabbit-epithelium-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "rabbit-meat-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "rat-epithelium-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "rat-serum-proteins-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "rat-urine-proteins-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "referral-lab-test-reference-range": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "retinol-binding-protein": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "rhizopus-nigricans-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "riboflavin": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "ribosomal-p-ab": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "rickettsia-typhi-ab-igg": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "risperidone-9-hydroxyrisperidone-panel": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "rna-polymerase-iii-ab-igg": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "rubella-virus-ab-igg": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "rubella-virus-ab-igm": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "rubus-fruticosus-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "rubus-idaeus-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "ruditapes-spp-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "rufinamide": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "rumex-acetosella-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "rumex-crispus-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "saccharomyces-cerevisiae-ab-iga": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "saccharomyces-cerevisiae-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "saccharomyces-cerevisiae-ab-igg-2": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "saccharum-officinarum-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "salicylates": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "salix-caprea-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "salmo-salar-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "salsola-kali-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "sardina-pilchardus-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "scl-70-extractable-nuclear-ab-igg": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "scomber-scombrus-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "secale-cereale-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "secale-cereale-pollen-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "secobarbital": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "seminal-fluid-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "serotonin-release-100-iu-ml-heparin-unfractionated": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "sesamum-indicum-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "setomelanomma-rostrata-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "sheep-epithelium-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "sirolimus": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "sjogrens-syndrome-b-extractable-nuclear-ab-igg": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "smith-extractable-nuclear-ab-igg": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "snapper-red-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "solanum-melongena-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "solanum-tuberosum-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "solea-solea-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "solenopsis-invicta-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "solidago-virgaurea-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "soluble-fms-like-tyrosine-kinase-1-placental-growth-factor": {
+      "sources": 4,
+      "by_type": {
+        "pubmed": 4
+      }
+    },
+    "soluble-liver-ab-igg": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "soluble-liver-ab": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "somatostatin": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "sorghum-halepense-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "sotalol": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "sp100-ab": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "spinacia-oleracea-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "squamous-cell-carcinoma-ag": {
+      "sources": 4,
+      "by_type": {
+        "pubmed": 4
+      }
+    },
+    "squash-zucchini-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "staphylococcus-aureus-enterotoxin-a-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "stemphylium-botryosum-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "stfr-3": {
+      "sources": 6,
+      "by_type": {
+        "pubmed": 6
+      }
+    },
+    "stizostedion-vitreum-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "streptolysin-o-ab": {
+      "sources": 6,
+      "by_type": {
+        "pubmed": 6
+      }
+    },
+    "swine-epithelium-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "syagrus-romanzoffianum-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "syzygium-aromaticum-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "tabanus-spp-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "taenia-solium-larva-ab-igg-csf": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "taraxacum-vulgare-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "taxodium-distichum-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "temazepam": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "teriflunomide": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "thallium": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "theobroma-cacao-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "theophylline": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "thiocyanate": {
+      "sources": 2,
+      "by_type": {
+        "pubmed": 2
+      }
+    },
+    "thiopurine-methyltransferase": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "thrombopoietin": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "thunnus-albacares-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "thymus-vulgaris-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "thyroglobulin-ab": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "thyroperoxidase-ab": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "thyrotropin-receptor-ab": {
+      "sources": 3,
+      "by_type": {
+        "pubmed": 3
+      }
+    },
+    "thyrotropin": {
+      "sources": 3,
+      "by_type": {
+        "pubmed": 3
+      }
+    },
+    "thyroxine-free-2": {
+      "sources": 2,
+      "by_type": {
+        "pubmed": 2
+      }
+    },
+    "tilapia-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "tin": {
+      "sources": 48,
+      "by_type": {
+        "practitioner_website": 36,
+        "practitioner_podcast": 9,
+        "practitioner_other": 3
+      }
+    },
+    "tissue-transglutaminase-ab-iga": {
+      "sources": 8,
+      "by_type": {
+        "pubmed": 8
+      }
+    },
+    "tissue-transglutaminase-ab-igg": {
+      "sources": 3,
+      "by_type": {
+        "pubmed": 3
+      }
+    },
+    "todarodes-pacificus-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "toluene-diisocyanate-tdi-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "topiramate": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "toxoplasma-gondii-ab-igg": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "toxoplasma-gondii-ab-igm": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "tramadol": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "trazodone": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "triacylglycerol-lipase": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "triazolam": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "trichoderma-viride-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "trichophyton-mentagrophytes-var-interdigitale-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "trichophyton-rubrum-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "triiodothyronine-free": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "trimipramine": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "triticum-aestivum-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "triticum-aestivum-pollen-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "turkey-feather-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "turkey-meat-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "tyrophagus-putrescentiae-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "ulmus-americana-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "urtica-dioica-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "ustekinumab": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "ustilago-maydis-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "vaccinium-myrtillus-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "vaccinium-oxycoccos-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "valproate-free": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "valproate": {
+      "sources": 2,
+      "by_type": {
+        "pubmed": 2
+      }
+    },
+    "valproic-acid": {
+      "sources": 2,
+      "by_type": {
+        "pubmed": 2
+      }
+    },
+    "vanilla-planifolia-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "varicella-zoster-virus-ab-igg": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "varicella-zoster-virus-ab-igm": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "vascular-endothelial-growth-factor": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "vasoactive-intestinal-peptide": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "vespula-spp-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "vigabatrin": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "viscosity": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "vitis-vinifera-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "von-willebrand-factor-ag-actual-normal": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "von-willebrand-factor-cleaving-protease-actual-normal": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "von-willebrand-factor-cleaving-protease-inhibitor-2": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "voriconazole": {
+      "sources": 3,
+      "by_type": {
+        "pubmed": 3
+      }
+    },
+    "whitefish-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "xanthium-commune-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "xiphias-gladius-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "zea-mays-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "zea-mays-pollen-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "zinc-transporter-8-ab": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "zingiber-officinale-ab-ige": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "ziprasidone": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "zn-3": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "zonisamide": {
+      "sources": 0,
+      "by_type": {}
+    }
+  }
+}

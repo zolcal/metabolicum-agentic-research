@@ -1,0 +1,535 @@
+{
+  "wave": "wave-2",
+  "markers_processed": 108,
+  "total_sources": 109,
+  "markers": {
+    "1-25-dihydroxyvitamin-d": {
+      "sources": 13,
+      "by_type": {
+        "pubmed": 2,
+        "practitioner_website": 8,
+        "practitioner_podcast": 3
+      }
+    },
+    "11-deoxycortisol": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "5-hydroxyindoleacetate-creatinine-urine": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "5-hydroxyindoleacetate-urine": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "acth": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "adiponectin": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "alpha-galactosidase-a": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "alpha-melanocyte-stimulating-hormone": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "aluminum-creatinine-urine": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "amh": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "anti-dsdna": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "aptt": {
+      "sources": 1,
+      "by_type": {
+        "practitioner_website": 1
+      }
+    },
+    "arsenic-creatinine-urine": {
+      "sources": 3,
+      "by_type": {
+        "pubmed": 3
+      }
+    },
+    "arsenic-inorganic-urine": {
+      "sources": 2,
+      "by_type": {
+        "pubmed": 2
+      }
+    },
+    "bilirubin-glucuronidated-bilirubin-albumin-bound": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "bio-t": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "bnp": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "buspirone": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "c-peptide-fasting": {
+      "sources": 6,
+      "by_type": {
+        "pubmed": 5,
+        "practitioner_website": 1
+      }
+    },
+    "c-peptide-urine": {
+      "sources": 3,
+      "by_type": {
+        "pubmed": 3
+      }
+    },
+    "calcium-ionized": {
+      "sources": 5,
+      "by_type": {
+        "pubmed": 5
+      }
+    },
+    "calprotectin": {
+      "sources": 3,
+      "by_type": {
+        "pubmed": 3
+      }
+    },
+    "cat": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "cells-cd3-tcr-alpha-beta-cells": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "chloride-2": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "chromium-creatinine-urine": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "ck": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "cobalt-creatinine-urine": {
+      "sources": 1,
+      "by_type": {
+        "practitioner_website": 1
+      }
+    },
+    "collagen-crosslinked-n-telopeptide-creatinine-urine": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "complement-alternate-pathway-ah50-actual-normal": {
+      "sources": 1,
+      "by_type": {
+        "practitioner_website": 1
+      }
+    },
+    "cortisol-free-serum-whole-blood": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "ctni": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "ctnt": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "ctx": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "delta-aminolevulinate-urine": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "dhea-s": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "dhea": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "e1": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "ecp": {
+      "sources": 3,
+      "by_type": {
+        "pubmed": 3
+      }
+    },
+    "elastase-pancreatic": {
+      "sources": 1,
+      "by_type": {
+        "practitioner_website": 1
+      }
+    },
+    "fatty-acids-nonesterified": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "fib-4": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "fibrin-fibrinogen-fragments": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "fibrinogen-ag": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "fibroblast-growth-factor-23-intact": {
+      "sources": 1,
+      "by_type": {
+        "practitioner_website": 1
+      }
+    },
+    "free-carnitine": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "galactose-1-phosphate": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "galectin-3-2": {
+      "sources": 4,
+      "by_type": {
+        "pubmed": 4
+      }
+    },
+    "galectin-3": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "gastrin": {
+      "sources": 2,
+      "by_type": {
+        "pubmed": 1,
+        "practitioner_website": 1
+      }
+    },
+    "glucose-6-phosphate-dehydrogenase": {
+      "sources": 2,
+      "by_type": {
+        "pubmed": 2
+      }
+    },
+    "hemoglobin-pattern": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "histoplasma-capsulatum-ag-urine": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "homovanillate-creatinine-urine": {
+      "sources": 3,
+      "by_type": {
+        "pubmed": 3
+      }
+    },
+    "ibil": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "il-1beta": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "il-6": {
+      "sources": 6,
+      "by_type": {
+        "pubmed": 6
+      }
+    },
+    "immunoglobulin-light-chains-lambda-free": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "insulin-like-growth-factor-binding-protein-1": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "insulin-like-growth-factor-binding-protein-3": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "iron": {
+      "sources": 2,
+      "by_type": {
+        "pubmed": 2
+      }
+    },
+    "ldl-particle-size": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "leptin": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "lipoprotein-associated-phospholipase-a2": {
+      "sources": 4,
+      "by_type": {
+        "pubmed": 4
+      }
+    },
+    "lp-ir": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "mercury-blood": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "mma": {
+      "sources": 3,
+      "by_type": {
+        "pubmed": 3
+      }
+    },
+    "niacin": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "nickel-creatinine-urine": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "nt-probnp": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "orotate-creatinine-urine": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "osteocalcin": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "oxidized-ldl": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "p1np": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "pancreastatin": {
+      "sources": 1,
+      "by_type": {
+        "practitioner_website": 1
+      }
+    },
+    "ph-urine": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "porphobilinogen-urine": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "proinsulin": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "prostaglandin-d2-urine": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "protein-creatinine-urine": {
+      "sources": 4,
+      "by_type": {
+        "pubmed": 4
+      }
+    },
+    "protein-urine": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "protoporphyrin-zinc-2": {
+      "sources": 2,
+      "by_type": {
+        "pubmed": 2
+      }
+    },
+    "pt": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "pth": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "remnant-c": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "renin": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "reverse-t3": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "rheumatoid-factor": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "s100-calcium-binding-protein-b": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "stfr": {
+      "sources": 6,
+      "by_type": {
+        "pubmed": 6
+      }
+    },
+    "sulfate-urine": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "t3-uptake": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "testosterone-free": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "thallium-creatinine-urine": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "thyroglobulin-antibodies": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "thyroglobulin": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "thyroxine-binding-globulin": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "tmao": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "tpo-antibodies": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "transferrin-carbohydrate-deficient-transferrin-total": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "transferrin-saturation": {
+      "sources": 3,
+      "by_type": {
+        "pubmed": 3
+      }
+    },
+    "troponin-t-cardiac-2": {
+      "sources": 3,
+      "by_type": {
+        "pubmed": 3
+      }
+    },
+    "tryptase": {
+      "sources": 3,
+      "by_type": {
+        "pubmed": 3
+      }
+    },
+    "tumor-necrosis-factor-alpha": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "urea-nitrogen-urine": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "vanillylmandelate-creatinine-urine": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "vitamin-b2": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "vitamin-e": {
+      "sources": 0,
+      "by_type": {}
+    }
+  }
+}

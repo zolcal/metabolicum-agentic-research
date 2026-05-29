@@ -1,0 +1,678 @@
+{
+  "apob": [
+    {
+      "type": "pubmed",
+      "id": "23584084",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23584084/"
+    },
+    {
+      "type": "pubmed",
+      "id": "33736827",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33736827/"
+    },
+    {
+      "type": "pmc_article",
+      "id": "PMC10498001",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10498001/"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://peterattiamd.com/",
+      "platform": "website",
+      "practitioner_id": "person:peter-attia"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://peterattiadrive.libsyn.com/rss",
+      "platform": "podcast",
+      "practitioner_id": "person:peter-attia"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://twitter.com/Drlipid",
+      "platform": "website",
+      "practitioner_id": "person:thomas-dayspring"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://dranthonychaffee.com/",
+      "platform": "website",
+      "practitioner_id": "person:anthony-chaffee"
+    },
+    {
+      "type": "practitioner_other",
+      "url": "https://instagram.com/anthonychaffeemd",
+      "platform": "other",
+      "practitioner_id": "person:anthony-chaffee"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://podcasts.apple.com/au/podcast/the-plant-free-md-podcast/id1614546790",
+      "platform": "podcast",
+      "practitioner_id": "person:anthony-chaffee"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://open.spotify.com/show/0WQtoPLuPMWWm3ZT3DYXzp",
+      "platform": "podcast",
+      "practitioner_id": "person:anthony-chaffee"
+    },
+    {
+      "type": "practitioner_other",
+      "url": "https://dr-chaffee-s-90-day-carnivore-challenge.mn.co/landing",
+      "platform": "other",
+      "practitioner_id": "person:anthony-chaffee"
+    },
+    {
+      "type": "practitioner_other",
+      "url": "https://patreon.com/AnthonyChaffeeMD",
+      "platform": "other",
+      "practitioner_id": "person:anthony-chaffee"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://dietdoctor.com/",
+      "platform": "website",
+      "practitioner_id": "person:bret-scher"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://feed.podbean.com/dietdoctorpodcast/feed.xml",
+      "platform": "podcast",
+      "practitioner_id": "person:bret-scher"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://cholesterolcode.com/",
+      "platform": "website",
+      "practitioner_id": "person:dave-feldman"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://nicknorwitz.com/",
+      "platform": "website",
+      "practitioner_id": "person:nick-norwitz"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://carnivoremd.com/",
+      "platform": "website",
+      "practitioner_id": "person:paul-saladino"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://drsten.com/",
+      "platform": "website",
+      "practitioner_id": "person:sten-ekberg"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://drdavisinfinitehealth.com/",
+      "platform": "website",
+      "practitioner_id": "person:william-davis"
+    }
+  ],
+  "fasting-insulin": [
+    {
+      "type": "pubmed",
+      "id": "3899825",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/3899825/"
+    },
+    {
+      "type": "pubmed",
+      "id": "10333943",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10333943/"
+    },
+    {
+      "type": "pubmed",
+      "id": "10824095",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10824095/"
+    },
+    {
+      "type": "pubmed",
+      "id": "10902745",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10902745/"
+    },
+    {
+      "type": "pubmed",
+      "id": "12089386",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12089386/"
+    },
+    {
+      "type": "pubmed",
+      "id": "14623617",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/14623617/"
+    },
+    {
+      "type": "pubmed",
+      "id": "16046317",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16046317/"
+    },
+    {
+      "type": "pubmed",
+      "id": "24131857",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24131857/"
+    },
+    {
+      "type": "pubmed",
+      "id": "31108989",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31108989/"
+    },
+    {
+      "type": "pubmed",
+      "id": "31641012",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31641012/"
+    },
+    {
+      "type": "pubmed",
+      "id": "33143083",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33143083/"
+    },
+    {
+      "type": "pubmed",
+      "id": "33376604",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33376604/"
+    },
+    {
+      "type": "pubmed",
+      "id": "39529982",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39529982/"
+    },
+    {
+      "type": "pubmed",
+      "id": "39606490",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39606490/"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://carnivoremd.com/",
+      "platform": "website",
+      "practitioner_id": "person:paul-saladino"
+    }
+  ],
+  "hba1c": [
+    {
+      "type": "pubmed",
+      "id": "8366922",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8366922/"
+    },
+    {
+      "type": "pubmed",
+      "id": "12196384",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12196384/"
+    },
+    {
+      "type": "pubmed",
+      "id": "15381514",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15381514/"
+    },
+    {
+      "type": "pubmed",
+      "id": "17988334",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17988334/"
+    },
+    {
+      "type": "pubmed",
+      "id": "18539916",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18539916/"
+    },
+    {
+      "type": "pubmed",
+      "id": "18539917",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18539917/"
+    },
+    {
+      "type": "pubmed",
+      "id": "18540046",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18540046/"
+    },
+    {
+      "type": "pubmed",
+      "id": "19011317",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19011317/"
+    },
+    {
+      "type": "pubmed",
+      "id": "20519377",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20519377/"
+    },
+    {
+      "type": "pubmed",
+      "id": "21617108",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21617108/"
+    },
+    {
+      "type": "pubmed",
+      "id": "22074110",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22074110/"
+    },
+    {
+      "type": "pubmed",
+      "id": "29417495",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29417495/"
+    },
+    {
+      "type": "pubmed",
+      "id": "32669282",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32669282/"
+    },
+    {
+      "type": "pubmed",
+      "id": "33521540",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33521540/"
+    },
+    {
+      "type": "pubmed",
+      "id": "34244332",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34244332/"
+    },
+    {
+      "type": "pubmed",
+      "id": "37622663",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37622663/"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://www.benbikman.com/",
+      "platform": "website",
+      "practitioner_id": "person:benjamin-bikman"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://benbikman.com/",
+      "platform": "website",
+      "practitioner_id": "person:benjamin-bikman"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://feeds.acast.com/public/shows/602b13db8237836e54f27141",
+      "platform": "podcast",
+      "practitioner_id": "person:benjamin-bikman"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://www.csiro.au/",
+      "platform": "website",
+      "practitioner_id": "researchgroup:csiro"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://phcuk.org/",
+      "platform": "website",
+      "practitioner_id": "person:david-unwin"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://www.defeatdiabetes.com.au/",
+      "platform": "website",
+      "practitioner_id": "company:defeat-diabetes"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://ketonutrition.org/",
+      "platform": "website",
+      "practitioner_id": "person:dominic-dagostino"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://www.thefastingmethod.com/",
+      "platform": "website",
+      "practitioner_id": "person:jason-fung"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://drjasonfung.com/",
+      "platform": "website",
+      "practitioner_id": "person:jason-fung"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://drhyman.me/",
+      "platform": "website",
+      "practitioner_id": "person:mark-hyman"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://drhyman.com/",
+      "platform": "website",
+      "practitioner_id": "person:mark-hyman"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://feeds.megaphone.fm/thedoctorsfarmacy",
+      "platform": "podcast",
+      "practitioner_id": "person:mark-hyman"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://peterattiamd.com/",
+      "platform": "website",
+      "practitioner_id": "person:peter-attia"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://peterattiadrive.libsyn.com/rss",
+      "platform": "podcast",
+      "practitioner_id": "person:peter-attia"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://peterbrukner.com/",
+      "platform": "website",
+      "practitioner_id": "person:peter-brukner"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://www.foundmyfitness.com/",
+      "platform": "website",
+      "practitioner_id": "person:rhonda-patrick"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://foundmyfitness.com/",
+      "platform": "website",
+      "practitioner_id": "person:rhonda-patrick"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://rss.libsyn.com/shows/51714/destinations/184296.xml",
+      "platform": "podcast",
+      "practitioner_id": "person:rhonda-patrick"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://virtahealth.com/",
+      "platform": "website",
+      "practitioner_id": "person:stephen-phinney"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://tednaiman.com/",
+      "platform": "website",
+      "practitioner_id": "person:ted-naiman"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://www.virtahealth.com/",
+      "platform": "website",
+      "practitioner_id": "company:virta-health"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://virtahealth.com/",
+      "platform": "website",
+      "practitioner_id": "company:virta-health"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://dietdoctor.com/",
+      "platform": "website",
+      "practitioner_id": "person:andreas-eenfeldt"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://dranthonychaffee.com/",
+      "platform": "website",
+      "practitioner_id": "person:anthony-chaffee"
+    },
+    {
+      "type": "practitioner_other",
+      "url": "https://instagram.com/anthonychaffeemd",
+      "platform": "other",
+      "practitioner_id": "person:anthony-chaffee"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://podcasts.apple.com/au/podcast/the-plant-free-md-podcast/id1614546790",
+      "platform": "podcast",
+      "practitioner_id": "person:anthony-chaffee"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://open.spotify.com/show/0WQtoPLuPMWWm3ZT3DYXzp",
+      "platform": "podcast",
+      "practitioner_id": "person:anthony-chaffee"
+    },
+    {
+      "type": "practitioner_other",
+      "url": "https://dr-chaffee-s-90-day-carnivore-challenge.mn.co/landing",
+      "platform": "other",
+      "practitioner_id": "person:anthony-chaffee"
+    },
+    {
+      "type": "practitioner_other",
+      "url": "https://patreon.com/AnthonyChaffeeMD",
+      "platform": "other",
+      "practitioner_id": "person:anthony-chaffee"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://metabolicinitiative.com/",
+      "platform": "website",
+      "practitioner_id": "person:casey-means"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://anchor.fm/s/48092b10/podcast/rss",
+      "platform": "podcast",
+      "practitioner_id": "person:casey-means"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://drperlmutter.com/",
+      "platform": "website",
+      "practitioner_id": "person:david-perlmutter"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://anchor.fm/s/f102c71c/podcast/rss",
+      "platform": "podcast",
+      "practitioner_id": "person:david-perlmutter"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://www.dietdoctor.com/",
+      "platform": "website",
+      "practitioner_id": "media:diet-doctor"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://dietdoctor.com/",
+      "platform": "website",
+      "practitioner_id": "media:diet-doctor"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://www.levels.com/",
+      "platform": "website",
+      "practitioner_id": "company:levels-health"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://levelshealth.com/",
+      "platform": "website",
+      "practitioner_id": "company:levels-health"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://www.lowcarbprogram.com/",
+      "platform": "website",
+      "practitioner_id": "company:low-carb-program"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://thefastingmethod.com/",
+      "platform": "website",
+      "practitioner_id": "person:megan-ramos"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://metabolichealthsummit.com/",
+      "platform": "website",
+      "practitioner_id": "conference:metabolic-health-summit"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://phcuk.org/",
+      "platform": "website",
+      "practitioner_id": "network:public-health-collaboration"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://drsten.com/",
+      "platform": "website",
+      "practitioner_id": "person:sten-ekberg"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://gundrymd.com/",
+      "platform": "website",
+      "practitioner_id": "person:steven-gundry"
+    }
+  ],
+  "lpa": [],
+  "tg-hdl-ratio": [
+    {
+      "type": "pubmed",
+      "id": "14623617",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/14623617/"
+    },
+    {
+      "type": "pubmed",
+      "id": "16054467",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16054467/"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://www.benbikman.com/",
+      "platform": "website",
+      "practitioner_id": "person:benjamin-bikman"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://benbikman.com/",
+      "platform": "website",
+      "practitioner_id": "person:benjamin-bikman"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://feeds.acast.com/public/shows/602b13db8237836e54f27141",
+      "platform": "podcast",
+      "practitioner_id": "person:benjamin-bikman"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://phcuk.org/",
+      "platform": "website",
+      "practitioner_id": "person:david-unwin"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://drhyman.me/",
+      "platform": "website",
+      "practitioner_id": "person:mark-hyman"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://drhyman.com/",
+      "platform": "website",
+      "practitioner_id": "person:mark-hyman"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://feeds.megaphone.fm/thedoctorsfarmacy",
+      "platform": "podcast",
+      "practitioner_id": "person:mark-hyman"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://tednaiman.com/",
+      "platform": "website",
+      "practitioner_id": "person:ted-naiman"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://dranthonychaffee.com/",
+      "platform": "website",
+      "practitioner_id": "person:anthony-chaffee"
+    },
+    {
+      "type": "practitioner_other",
+      "url": "https://instagram.com/anthonychaffeemd",
+      "platform": "other",
+      "practitioner_id": "person:anthony-chaffee"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://podcasts.apple.com/au/podcast/the-plant-free-md-podcast/id1614546790",
+      "platform": "podcast",
+      "practitioner_id": "person:anthony-chaffee"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://open.spotify.com/show/0WQtoPLuPMWWm3ZT3DYXzp",
+      "platform": "podcast",
+      "practitioner_id": "person:anthony-chaffee"
+    },
+    {
+      "type": "practitioner_other",
+      "url": "https://dr-chaffee-s-90-day-carnivore-challenge.mn.co/landing",
+      "platform": "other",
+      "practitioner_id": "person:anthony-chaffee"
+    },
+    {
+      "type": "practitioner_other",
+      "url": "https://patreon.com/AnthonyChaffeeMD",
+      "platform": "other",
+      "practitioner_id": "person:anthony-chaffee"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://dietdoctor.com/",
+      "platform": "website",
+      "practitioner_id": "person:bret-scher"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://feed.podbean.com/dietdoctorpodcast/feed.xml",
+      "platform": "podcast",
+      "practitioner_id": "person:bret-scher"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://metabolicinitiative.com/",
+      "platform": "website",
+      "practitioner_id": "person:casey-means"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://anchor.fm/s/48092b10/podcast/rss",
+      "platform": "podcast",
+      "practitioner_id": "person:casey-means"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://cholesterolcode.com/",
+      "platform": "website",
+      "practitioner_id": "person:dave-feldman"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://carnivoremd.com/",
+      "platform": "website",
+      "practitioner_id": "person:paul-saladino"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://drsten.com/",
+      "platform": "website",
+      "practitioner_id": "person:sten-ekberg"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://drdavisinfinitehealth.com/",
+      "platform": "website",
+      "practitioner_id": "person:william-davis"
+    }
+  ]
+}

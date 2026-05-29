@@ -1,0 +1,2718 @@
+{
+  "17-hydroxyprogesterone": [
+    {
+      "type": "pubmed",
+      "id": "28582566",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28582566/"
+    },
+    {
+      "type": "pubmed",
+      "id": "33527139",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33527139/"
+    }
+  ],
+  "absolute-lymphocytes": [
+    {
+      "type": "pmc_article",
+      "id": "PMC7817015",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7817015/"
+    }
+  ],
+  "absolute-neutrophils": [
+    {
+      "type": "pmc_article",
+      "id": "PMC7817015",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7817015/"
+    }
+  ],
+  "albumin": [
+    {
+      "type": "pmc_article",
+      "id": "PMC3772807",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3772807/"
+    }
+  ],
+  "alp": [
+    {
+      "type": "pmc_article",
+      "id": "PMC3772807",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3772807/"
+    }
+  ],
+  "alpha-1-acid-glycoprotein": [
+    {
+      "type": "pubmed",
+      "id": "34357395",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34357395/"
+    },
+    {
+      "type": "pubmed",
+      "id": "40760000",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40760000/"
+    },
+    {
+      "type": "pubmed",
+      "id": "40993765",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40993765/"
+    },
+    {
+      "type": "pubmed",
+      "id": "41465935",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41465935/"
+    }
+  ],
+  "alpha-1-antitrypsin": [],
+  "alpha-2-macroglobulin-2": [],
+  "alpha-tocopherol": [],
+  "alt": [
+    {
+      "type": "pubmed",
+      "id": "18054554",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18054554/"
+    },
+    {
+      "type": "pubmed",
+      "id": "20162730",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20162730/"
+    },
+    {
+      "type": "pubmed",
+      "id": "20427778",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20427778/"
+    },
+    {
+      "type": "pubmed",
+      "id": "21280125",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21280125/"
+    },
+    {
+      "type": "pubmed",
+      "id": "21987480",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21987480/"
+    },
+    {
+      "type": "pubmed",
+      "id": "26707365",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26707365/"
+    },
+    {
+      "type": "pubmed",
+      "id": "28490552",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28490552/"
+    },
+    {
+      "type": "pubmed",
+      "id": "29567099",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29567099/"
+    },
+    {
+      "type": "pubmed",
+      "id": "31641012",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31641012/"
+    },
+    {
+      "type": "pubmed",
+      "id": "33143083",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33143083/"
+    },
+    {
+      "type": "pubmed",
+      "id": "35077243",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35077243/"
+    },
+    {
+      "type": "pmc_article",
+      "id": "PMC3772807",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3772807/"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://carnivoremd.com/",
+      "platform": "website",
+      "practitioner_id": "person:paul-saladino"
+    }
+  ],
+  "apoa1": [
+    {
+      "type": "pubmed",
+      "id": "15314690",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15314690/"
+    },
+    {
+      "type": "pmc_article",
+      "id": "PMC10498001",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10498001/"
+    }
+  ],
+  "apob-2": [
+    {
+      "type": "pubmed",
+      "id": "32354380",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32354380/"
+    },
+    {
+      "type": "pubmed",
+      "id": "39878176",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39878176/"
+    },
+    {
+      "type": "pubmed",
+      "id": "41394444",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41394444/"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://peterattiamd.com/",
+      "platform": "website",
+      "practitioner_id": "person:peter-attia"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://peterattiadrive.libsyn.com/rss",
+      "platform": "podcast",
+      "practitioner_id": "person:peter-attia"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://twitter.com/Drlipid",
+      "platform": "website",
+      "practitioner_id": "person:thomas-dayspring"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://dranthonychaffee.com/",
+      "platform": "website",
+      "practitioner_id": "person:anthony-chaffee"
+    },
+    {
+      "type": "practitioner_other",
+      "url": "https://instagram.com/anthonychaffeemd",
+      "platform": "other",
+      "practitioner_id": "person:anthony-chaffee"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://podcasts.apple.com/au/podcast/the-plant-free-md-podcast/id1614546790",
+      "platform": "podcast",
+      "practitioner_id": "person:anthony-chaffee"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://open.spotify.com/show/0WQtoPLuPMWWm3ZT3DYXzp",
+      "platform": "podcast",
+      "practitioner_id": "person:anthony-chaffee"
+    },
+    {
+      "type": "practitioner_other",
+      "url": "https://dr-chaffee-s-90-day-carnivore-challenge.mn.co/landing",
+      "platform": "other",
+      "practitioner_id": "person:anthony-chaffee"
+    },
+    {
+      "type": "practitioner_other",
+      "url": "https://patreon.com/AnthonyChaffeeMD",
+      "platform": "other",
+      "practitioner_id": "person:anthony-chaffee"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://dietdoctor.com/",
+      "platform": "website",
+      "practitioner_id": "person:bret-scher"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://feed.podbean.com/dietdoctorpodcast/feed.xml",
+      "platform": "podcast",
+      "practitioner_id": "person:bret-scher"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://cholesterolcode.com/",
+      "platform": "website",
+      "practitioner_id": "person:dave-feldman"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://nicknorwitz.com/",
+      "platform": "website",
+      "practitioner_id": "person:nick-norwitz"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://carnivoremd.com/",
+      "platform": "website",
+      "practitioner_id": "person:paul-saladino"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://drsten.com/",
+      "platform": "website",
+      "practitioner_id": "person:sten-ekberg"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://drdavisinfinitehealth.com/",
+      "platform": "website",
+      "practitioner_id": "person:william-davis"
+    }
+  ],
+  "arsenic-urine": [],
+  "ast": [
+    {
+      "type": "pubmed",
+      "id": "20427778",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20427778/"
+    },
+    {
+      "type": "pubmed",
+      "id": "26707365",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26707365/"
+    },
+    {
+      "type": "pubmed",
+      "id": "32335169",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32335169/"
+    },
+    {
+      "type": "pmc_article",
+      "id": "PMC3772807",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3772807/"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://www.benbikman.com/",
+      "platform": "website",
+      "practitioner_id": "person:benjamin-bikman"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://benbikman.com/",
+      "platform": "website",
+      "practitioner_id": "person:benjamin-bikman"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://feeds.acast.com/public/shows/602b13db8237836e54f27141",
+      "platform": "podcast",
+      "practitioner_id": "person:benjamin-bikman"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://www.csiro.au/",
+      "platform": "website",
+      "practitioner_id": "researchgroup:csiro"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://phcuk.org/",
+      "platform": "website",
+      "practitioner_id": "person:david-unwin"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://www.defeatdiabetes.com.au/",
+      "platform": "website",
+      "practitioner_id": "company:defeat-diabetes"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://ketonutrition.org/",
+      "platform": "website",
+      "practitioner_id": "person:dominic-dagostino"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://www.thefastingmethod.com/",
+      "platform": "website",
+      "practitioner_id": "person:jason-fung"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://drjasonfung.com/",
+      "platform": "website",
+      "practitioner_id": "person:jason-fung"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://drhyman.me/",
+      "platform": "website",
+      "practitioner_id": "person:mark-hyman"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://drhyman.com/",
+      "platform": "website",
+      "practitioner_id": "person:mark-hyman"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://feeds.megaphone.fm/thedoctorsfarmacy",
+      "platform": "podcast",
+      "practitioner_id": "person:mark-hyman"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://peterattiamd.com/",
+      "platform": "website",
+      "practitioner_id": "person:peter-attia"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://peterattiadrive.libsyn.com/rss",
+      "platform": "podcast",
+      "practitioner_id": "person:peter-attia"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://peterbrukner.com/",
+      "platform": "website",
+      "practitioner_id": "person:peter-brukner"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://www.foundmyfitness.com/",
+      "platform": "website",
+      "practitioner_id": "person:rhonda-patrick"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://foundmyfitness.com/",
+      "platform": "website",
+      "practitioner_id": "person:rhonda-patrick"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://rss.libsyn.com/shows/51714/destinations/184296.xml",
+      "platform": "podcast",
+      "practitioner_id": "person:rhonda-patrick"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://virtahealth.com/",
+      "platform": "website",
+      "practitioner_id": "person:stephen-phinney"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://tednaiman.com/",
+      "platform": "website",
+      "practitioner_id": "person:ted-naiman"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://www.virtahealth.com/",
+      "platform": "website",
+      "practitioner_id": "company:virta-health"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://virtahealth.com/",
+      "platform": "website",
+      "practitioner_id": "company:virta-health"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://dietdoctor.com/",
+      "platform": "website",
+      "practitioner_id": "person:andreas-eenfeldt"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://hubermanlab.com/",
+      "platform": "website",
+      "practitioner_id": "person:andrew-huberman"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://feeds.megaphone.fm/hubermanlab",
+      "platform": "podcast",
+      "practitioner_id": "person:andrew-huberman"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://dranthonychaffee.com/",
+      "platform": "website",
+      "practitioner_id": "person:anthony-chaffee"
+    },
+    {
+      "type": "practitioner_other",
+      "url": "https://instagram.com/anthonychaffeemd",
+      "platform": "other",
+      "practitioner_id": "person:anthony-chaffee"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://podcasts.apple.com/au/podcast/the-plant-free-md-podcast/id1614546790",
+      "platform": "podcast",
+      "practitioner_id": "person:anthony-chaffee"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://open.spotify.com/show/0WQtoPLuPMWWm3ZT3DYXzp",
+      "platform": "podcast",
+      "practitioner_id": "person:anthony-chaffee"
+    },
+    {
+      "type": "practitioner_other",
+      "url": "https://dr-chaffee-s-90-day-carnivore-challenge.mn.co/landing",
+      "platform": "other",
+      "practitioner_id": "person:anthony-chaffee"
+    },
+    {
+      "type": "practitioner_other",
+      "url": "https://patreon.com/AnthonyChaffeeMD",
+      "platform": "other",
+      "practitioner_id": "person:anthony-chaffee"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://metabolicinitiative.com/",
+      "platform": "website",
+      "practitioner_id": "person:casey-means"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://anchor.fm/s/48092b10/podcast/rss",
+      "platform": "podcast",
+      "practitioner_id": "person:casey-means"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://drbredesen.com/",
+      "platform": "website",
+      "practitioner_id": "person:dale-bredesen"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://drperlmutter.com/",
+      "platform": "website",
+      "practitioner_id": "person:david-perlmutter"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://anchor.fm/s/f102c71c/podcast/rss",
+      "platform": "podcast",
+      "practitioner_id": "person:david-perlmutter"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://www.dietdoctor.com/",
+      "platform": "website",
+      "practitioner_id": "media:diet-doctor"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://dietdoctor.com/",
+      "platform": "website",
+      "practitioner_id": "media:diet-doctor"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://www.mercola.com/",
+      "platform": "website",
+      "practitioner_id": "person:joseph-mercola"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://www.levels.com/",
+      "platform": "website",
+      "practitioner_id": "company:levels-health"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://levelshealth.com/",
+      "platform": "website",
+      "practitioner_id": "company:levels-health"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://www.lowcarbprogram.com/",
+      "platform": "website",
+      "practitioner_id": "company:low-carb-program"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://thefastingmethod.com/",
+      "platform": "website",
+      "practitioner_id": "person:megan-ramos"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://metabolichealthsummit.com/",
+      "platform": "website",
+      "practitioner_id": "conference:metabolic-health-summit"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://carnivoremd.com/",
+      "platform": "website",
+      "practitioner_id": "person:paul-saladino"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://phcuk.org/",
+      "platform": "website",
+      "practitioner_id": "network:public-health-collaboration"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://saragottfriedmd.com/",
+      "platform": "website",
+      "practitioner_id": "person:sara-gottfried"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://drsten.com/",
+      "platform": "website",
+      "practitioner_id": "person:sten-ekberg"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://gundrymd.com/",
+      "platform": "website",
+      "practitioner_id": "person:steven-gundry"
+    }
+  ],
+  "basophils-absolute": [
+    {
+      "type": "pmc_article",
+      "id": "PMC7817015",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7817015/"
+    }
+  ],
+  "basophils": [],
+  "beryllium-urine": [],
+  "bicarbonate": [],
+  "bilirubin-total": [
+    {
+      "type": "pmc_article",
+      "id": "PMC3772807",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3772807/"
+    }
+  ],
+  "bun": [
+    {
+      "type": "pmc_article",
+      "id": "PMC8115101",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8115101/"
+    }
+  ],
+  "calcium": [
+    {
+      "type": "pubmed",
+      "id": "18329892",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18329892/"
+    },
+    {
+      "type": "pubmed",
+      "id": "21118827",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21118827/"
+    },
+    {
+      "type": "pubmed",
+      "id": "35276011",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35276011/"
+    },
+    {
+      "type": "pubmed",
+      "id": "41639742",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41639742/"
+    }
+  ],
+  "chloride": [],
+  "cholesterol-in-ldl": [
+    {
+      "type": "pubmed",
+      "id": "35635038",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35635038/"
+    }
+  ],
+  "cholesterol": [
+    {
+      "type": "pubmed",
+      "id": "35508320",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35508320/"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://dietdoctor.com/",
+      "platform": "website",
+      "practitioner_id": "person:bret-scher"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://feed.podbean.com/dietdoctorpodcast/feed.xml",
+      "platform": "podcast",
+      "practitioner_id": "person:bret-scher"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://cholesterolcode.com/",
+      "platform": "website",
+      "practitioner_id": "person:dave-feldman"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://carnivoremd.com/",
+      "platform": "website",
+      "practitioner_id": "person:paul-saladino"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://drsten.com/",
+      "platform": "website",
+      "practitioner_id": "person:sten-ekberg"
+    }
+  ],
+  "chromium": [
+    {
+      "type": "pubmed",
+      "id": "35807870",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35807870/"
+    }
+  ],
+  "ck-mb": [],
+  "cobalt": [
+    {
+      "type": "pubmed",
+      "id": "40969594",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40969594/"
+    },
+    {
+      "type": "pubmed",
+      "id": "41567392",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41567392/"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://carnivoremd.com/",
+      "platform": "website",
+      "practitioner_id": "person:paul-saladino"
+    }
+  ],
+  "creatinine-3": [
+    {
+      "type": "pubmed",
+      "id": "20483451",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20483451/"
+    },
+    {
+      "type": "pubmed",
+      "id": "41023853",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41023853/"
+    }
+  ],
+  "creatinine": [
+    {
+      "type": "pubmed",
+      "id": "18539916",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18539916/"
+    }
+  ],
+  "crp-standard": [
+    {
+      "type": "pubmed",
+      "id": "37380016",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37380016/"
+    },
+    {
+      "type": "pubmed",
+      "id": "39445833",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39445833/"
+    },
+    {
+      "type": "pubmed",
+      "id": "41241110",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41241110/"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://amymyersmd.com/",
+      "platform": "website",
+      "practitioner_id": "person:amy-myers"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://drbredesen.com/",
+      "platform": "website",
+      "practitioner_id": "person:dale-bredesen"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://drperlmutter.com/",
+      "platform": "website",
+      "practitioner_id": "person:david-perlmutter"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://anchor.fm/s/f102c71c/podcast/rss",
+      "platform": "podcast",
+      "practitioner_id": "person:david-perlmutter"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://carnivoremd.com/",
+      "platform": "website",
+      "practitioner_id": "person:paul-saladino"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://terrywahls.com/",
+      "platform": "website",
+      "practitioner_id": "person:terry-wahls"
+    }
+  ],
+  "cystatin-c": [],
+  "direct-bilirubin": [
+    {
+      "type": "pmc_article",
+      "id": "PMC12000507",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12000507/"
+    }
+  ],
+  "eosinophils-absolute": [
+    {
+      "type": "pmc_article",
+      "id": "PMC7817015",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7817015/"
+    }
+  ],
+  "eosinophils": [],
+  "estradiol": [],
+  "fasting-glucose": [
+    {
+      "type": "pubmed",
+      "id": "3899825",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/3899825/"
+    },
+    {
+      "type": "pubmed",
+      "id": "10333902",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10333902/"
+    },
+    {
+      "type": "pubmed",
+      "id": "10902745",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10902745/"
+    },
+    {
+      "type": "pubmed",
+      "id": "12089386",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12089386/"
+    },
+    {
+      "type": "pubmed",
+      "id": "15381654",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15381654/"
+    },
+    {
+      "type": "pubmed",
+      "id": "16046317",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16046317/"
+    },
+    {
+      "type": "pubmed",
+      "id": "16157765",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16157765/"
+    },
+    {
+      "type": "pubmed",
+      "id": "16371630",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16371630/"
+    },
+    {
+      "type": "pubmed",
+      "id": "18539916",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18539916/"
+    },
+    {
+      "type": "pubmed",
+      "id": "19805654",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19805654/"
+    },
+    {
+      "type": "pubmed",
+      "id": "23404299",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23404299/"
+    },
+    {
+      "type": "pubmed",
+      "id": "24131857",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24131857/"
+    },
+    {
+      "type": "pubmed",
+      "id": "31108989",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31108989/"
+    },
+    {
+      "type": "pubmed",
+      "id": "31497854",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31497854/"
+    },
+    {
+      "type": "pubmed",
+      "id": "31641012",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31641012/"
+    },
+    {
+      "type": "pubmed",
+      "id": "32669282",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32669282/"
+    },
+    {
+      "type": "pubmed",
+      "id": "33143083",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33143083/"
+    },
+    {
+      "type": "pubmed",
+      "id": "33376604",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33376604/"
+    },
+    {
+      "type": "pubmed",
+      "id": "37622663",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37622663/"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://carnivoremd.com/",
+      "platform": "website",
+      "practitioner_id": "person:paul-saladino"
+    }
+  ],
+  "ferritin": [
+    {
+      "type": "pubmed",
+      "id": "23613366",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23613366/"
+    },
+    {
+      "type": "pubmed",
+      "id": "24778671",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24778671/"
+    },
+    {
+      "type": "pubmed",
+      "id": "25946282",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25946282/"
+    },
+    {
+      "type": "pubmed",
+      "id": "26239322",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26239322/"
+    },
+    {
+      "type": "pubmed",
+      "id": "27099596",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27099596/"
+    },
+    {
+      "type": "pubmed",
+      "id": "28978540",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28978540/"
+    },
+    {
+      "type": "pubmed",
+      "id": "30783404",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30783404/"
+    },
+    {
+      "type": "pubmed",
+      "id": "31413088",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31413088/"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://www.foundmyfitness.com/",
+      "platform": "website",
+      "practitioner_id": "person:rhonda-patrick"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://foundmyfitness.com/",
+      "platform": "website",
+      "practitioner_id": "person:rhonda-patrick"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://rss.libsyn.com/shows/51714/destinations/184296.xml",
+      "platform": "podcast",
+      "practitioner_id": "person:rhonda-patrick"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://hubermanlab.com/",
+      "platform": "website",
+      "practitioner_id": "person:andrew-huberman"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://feeds.megaphone.fm/hubermanlab",
+      "platform": "podcast",
+      "practitioner_id": "person:andrew-huberman"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://drbredesen.com/",
+      "platform": "website",
+      "practitioner_id": "person:dale-bredesen"
+    }
+  ],
+  "fibrinogen": [],
+  "folate-serum": [],
+  "free-t3": [
+    {
+      "type": "pubmed",
+      "id": "24315768",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24315768/"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://amymyersmd.com/",
+      "platform": "website",
+      "practitioner_id": "person:amy-myers"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://saragottfriedmd.com/",
+      "platform": "website",
+      "practitioner_id": "person:sara-gottfried"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://drsten.com/",
+      "platform": "website",
+      "practitioner_id": "person:sten-ekberg"
+    }
+  ],
+  "free-t4": [
+    {
+      "type": "pubmed",
+      "id": "24315768",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24315768/"
+    },
+    {
+      "type": "pubmed",
+      "id": "37696273",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37696273/"
+    }
+  ],
+  "fructosamine": [],
+  "fsh": [
+    {
+      "type": "pubmed",
+      "id": "37713654",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37713654/"
+    },
+    {
+      "type": "pubmed",
+      "id": "38342136",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38342136/"
+    }
+  ],
+  "ggt": [
+    {
+      "type": "pubmed",
+      "id": "17081293",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17081293/"
+    },
+    {
+      "type": "pubmed",
+      "id": "26543300",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26543300/"
+    },
+    {
+      "type": "pubmed",
+      "id": "28490552",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28490552/"
+    },
+    {
+      "type": "pubmed",
+      "id": "29567099",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29567099/"
+    },
+    {
+      "type": "pubmed",
+      "id": "31641012",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31641012/"
+    },
+    {
+      "type": "pubmed",
+      "id": "37161588",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37161588/"
+    },
+    {
+      "type": "pubmed",
+      "id": "38563386",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38563386/"
+    },
+    {
+      "type": "pmc_article",
+      "id": "PMC3772807",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3772807/"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://carnivoremd.com/",
+      "platform": "website",
+      "practitioner_id": "person:paul-saladino"
+    }
+  ],
+  "globulin": [
+    {
+      "type": "pubmed",
+      "id": "26609491",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26609491/"
+    },
+    {
+      "type": "pubmed",
+      "id": "33289935",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33289935/"
+    },
+    {
+      "type": "pubmed",
+      "id": "34617572",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34617572/"
+    },
+    {
+      "type": "pubmed",
+      "id": "35756671",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35756671/"
+    },
+    {
+      "type": "pubmed",
+      "id": "36670150",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36670150/"
+    },
+    {
+      "type": "pubmed",
+      "id": "38602312",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38602312/"
+    },
+    {
+      "type": "pubmed",
+      "id": "39957864",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39957864/"
+    }
+  ],
+  "glucose": [
+    {
+      "type": "pubmed",
+      "id": "1626961",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/1626961/"
+    },
+    {
+      "type": "pubmed",
+      "id": "9408743",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9408743/"
+    },
+    {
+      "type": "pubmed",
+      "id": "12196384",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12196384/"
+    },
+    {
+      "type": "pubmed",
+      "id": "12637977",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12637977/"
+    },
+    {
+      "type": "pubmed",
+      "id": "15381514",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15381514/"
+    },
+    {
+      "type": "pubmed",
+      "id": "17988334",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17988334/"
+    },
+    {
+      "type": "pubmed",
+      "id": "18540046",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18540046/"
+    },
+    {
+      "type": "pubmed",
+      "id": "18695075",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18695075/"
+    },
+    {
+      "type": "pubmed",
+      "id": "19011317",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19011317/"
+    },
+    {
+      "type": "pubmed",
+      "id": "19082851",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19082851/"
+    },
+    {
+      "type": "pubmed",
+      "id": "20519377",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20519377/"
+    },
+    {
+      "type": "pubmed",
+      "id": "21617108",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21617108/"
+    },
+    {
+      "type": "pubmed",
+      "id": "23093685",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23093685/"
+    },
+    {
+      "type": "pubmed",
+      "id": "23275353",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23275353/"
+    },
+    {
+      "type": "pubmed",
+      "id": "23584084",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23584084/"
+    },
+    {
+      "type": "pubmed",
+      "id": "26322160",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26322160/"
+    },
+    {
+      "type": "pubmed",
+      "id": "27344544",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27344544/"
+    },
+    {
+      "type": "pubmed",
+      "id": "29417495",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29417495/"
+    },
+    {
+      "type": "pubmed",
+      "id": "29480368",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29480368/"
+    },
+    {
+      "type": "pubmed",
+      "id": "29754952",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29754952/"
+    },
+    {
+      "type": "pubmed",
+      "id": "29939616",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29939616/"
+    },
+    {
+      "type": "pubmed",
+      "id": "30067154",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30067154/"
+    },
+    {
+      "type": "pubmed",
+      "id": "33521540",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33521540/"
+    },
+    {
+      "type": "pubmed",
+      "id": "39061034",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39061034/"
+    },
+    {
+      "type": "pubmed",
+      "id": "41033739",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41033739/"
+    },
+    {
+      "type": "pubmed",
+      "id": "41054054",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41054054/"
+    }
+  ],
+  "hdl-cholesterol": [
+    {
+      "type": "pubmed",
+      "id": "2642759",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2642759/"
+    },
+    {
+      "type": "pubmed",
+      "id": "9603539",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9603539/"
+    },
+    {
+      "type": "pubmed",
+      "id": "9610529",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9610529/"
+    },
+    {
+      "type": "pubmed",
+      "id": "12514661",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12514661/"
+    },
+    {
+      "type": "pubmed",
+      "id": "15314690",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15314690/"
+    },
+    {
+      "type": "pubmed",
+      "id": "16157765",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16157765/"
+    },
+    {
+      "type": "pubmed",
+      "id": "19805654",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19805654/"
+    },
+    {
+      "type": "pubmed",
+      "id": "21343207",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21343207/"
+    },
+    {
+      "type": "pubmed",
+      "id": "22555213",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22555213/"
+    },
+    {
+      "type": "pubmed",
+      "id": "22607825",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22607825/"
+    },
+    {
+      "type": "pubmed",
+      "id": "23584084",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23584084/"
+    },
+    {
+      "type": "pubmed",
+      "id": "25131981",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25131981/"
+    },
+    {
+      "type": "pubmed",
+      "id": "25404125",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25404125/"
+    },
+    {
+      "type": "pubmed",
+      "id": "28419274",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28419274/"
+    },
+    {
+      "type": "pubmed",
+      "id": "28847206",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28847206/"
+    },
+    {
+      "type": "pubmed",
+      "id": "30423391",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30423391/"
+    },
+    {
+      "type": "pubmed",
+      "id": "31504418",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31504418/"
+    },
+    {
+      "type": "pubmed",
+      "id": "31641012",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31641012/"
+    },
+    {
+      "type": "pubmed",
+      "id": "33143083",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33143083/"
+    },
+    {
+      "type": "pubmed",
+      "id": "34120177",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34120177/"
+    },
+    {
+      "type": "pubmed",
+      "id": "34458905",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34458905/"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://dietdoctor.com/",
+      "platform": "website",
+      "practitioner_id": "person:bret-scher"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://feed.podbean.com/dietdoctorpodcast/feed.xml",
+      "platform": "podcast",
+      "practitioner_id": "person:bret-scher"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://cholesterolcode.com/",
+      "platform": "website",
+      "practitioner_id": "person:dave-feldman"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://carnivoremd.com/",
+      "platform": "website",
+      "practitioner_id": "person:paul-saladino"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://drsten.com/",
+      "platform": "website",
+      "practitioner_id": "person:sten-ekberg"
+    }
+  ],
+  "hematocrit": [],
+  "hemoglobin": [
+    {
+      "type": "pubmed",
+      "id": "23613366",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23613366/"
+    },
+    {
+      "type": "pubmed",
+      "id": "24778671",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24778671/"
+    },
+    {
+      "type": "pubmed",
+      "id": "25946282",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25946282/"
+    },
+    {
+      "type": "pubmed",
+      "id": "27099596",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27099596/"
+    },
+    {
+      "type": "pubmed",
+      "id": "30783404",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30783404/"
+    },
+    {
+      "type": "pubmed",
+      "id": "31413088",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31413088/"
+    },
+    {
+      "type": "pmc_article",
+      "id": "PMC12134580",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12134580/"
+    }
+  ],
+  "homocysteine": [
+    {
+      "type": "pubmed",
+      "id": "16814909",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16814909/"
+    },
+    {
+      "type": "pubmed",
+      "id": "20488910",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20488910/"
+    },
+    {
+      "type": "pubmed",
+      "id": "21593511",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21593511/"
+    },
+    {
+      "type": "pubmed",
+      "id": "23301732",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23301732/"
+    },
+    {
+      "type": "pubmed",
+      "id": "30032223",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30032223/"
+    },
+    {
+      "type": "pmc_article",
+      "id": "PMC12917553",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12917553/"
+    }
+  ],
+  "hscrp": [
+    {
+      "type": "pubmed",
+      "id": "18695075",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18695075/"
+    },
+    {
+      "type": "pubmed",
+      "id": "20031199",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20031199/"
+    },
+    {
+      "type": "pubmed",
+      "id": "22254027",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22254027/"
+    },
+    {
+      "type": "pubmed",
+      "id": "26140821",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26140821/"
+    },
+    {
+      "type": "pubmed",
+      "id": "26228057",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26228057/"
+    }
+  ],
+  "igf-1": [
+    {
+      "type": "pmc_article",
+      "id": "PMC5627923",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5627923/"
+    }
+  ],
+  "insulin-like-growth-factor-i": [
+    {
+      "type": "pubmed",
+      "id": "35048526",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35048526/"
+    },
+    {
+      "type": "pmc_article",
+      "id": "PMC5627923",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5627923/"
+    }
+  ],
+  "insulin": [
+    {
+      "type": "pubmed",
+      "id": "1626961",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/1626961/"
+    },
+    {
+      "type": "pubmed",
+      "id": "3056758",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/3056758/"
+    },
+    {
+      "type": "pubmed",
+      "id": "9408743",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9408743/"
+    },
+    {
+      "type": "pubmed",
+      "id": "9555093",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9555093/"
+    },
+    {
+      "type": "pubmed",
+      "id": "12637977",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12637977/"
+    },
+    {
+      "type": "pubmed",
+      "id": "18054554",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18054554/"
+    },
+    {
+      "type": "pubmed",
+      "id": "18695074",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18695074/"
+    },
+    {
+      "type": "pubmed",
+      "id": "19082851",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19082851/"
+    },
+    {
+      "type": "pubmed",
+      "id": "23275353",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23275353/"
+    },
+    {
+      "type": "pubmed",
+      "id": "23584084",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23584084/"
+    },
+    {
+      "type": "pubmed",
+      "id": "26322160",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26322160/"
+    },
+    {
+      "type": "pubmed",
+      "id": "27344544",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27344544/"
+    },
+    {
+      "type": "pubmed",
+      "id": "29417495",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29417495/"
+    },
+    {
+      "type": "pubmed",
+      "id": "29754952",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29754952/"
+    },
+    {
+      "type": "pubmed",
+      "id": "29939616",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29939616/"
+    },
+    {
+      "type": "pubmed",
+      "id": "30067154",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30067154/"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://www.benbikman.com/",
+      "platform": "website",
+      "practitioner_id": "person:benjamin-bikman"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://benbikman.com/",
+      "platform": "website",
+      "practitioner_id": "person:benjamin-bikman"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://feeds.acast.com/public/shows/602b13db8237836e54f27141",
+      "platform": "podcast",
+      "practitioner_id": "person:benjamin-bikman"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://www.csiro.au/",
+      "platform": "website",
+      "practitioner_id": "researchgroup:csiro"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://phcuk.org/",
+      "platform": "website",
+      "practitioner_id": "person:david-unwin"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://www.defeatdiabetes.com.au/",
+      "platform": "website",
+      "practitioner_id": "company:defeat-diabetes"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://ketonutrition.org/",
+      "platform": "website",
+      "practitioner_id": "person:dominic-dagostino"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://www.thefastingmethod.com/",
+      "platform": "website",
+      "practitioner_id": "person:jason-fung"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://drjasonfung.com/",
+      "platform": "website",
+      "practitioner_id": "person:jason-fung"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://drhyman.me/",
+      "platform": "website",
+      "practitioner_id": "person:mark-hyman"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://drhyman.com/",
+      "platform": "website",
+      "practitioner_id": "person:mark-hyman"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://feeds.megaphone.fm/thedoctorsfarmacy",
+      "platform": "podcast",
+      "practitioner_id": "person:mark-hyman"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://peterattiamd.com/",
+      "platform": "website",
+      "practitioner_id": "person:peter-attia"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://peterattiadrive.libsyn.com/rss",
+      "platform": "podcast",
+      "practitioner_id": "person:peter-attia"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://peterbrukner.com/",
+      "platform": "website",
+      "practitioner_id": "person:peter-brukner"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://www.foundmyfitness.com/",
+      "platform": "website",
+      "practitioner_id": "person:rhonda-patrick"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://foundmyfitness.com/",
+      "platform": "website",
+      "practitioner_id": "person:rhonda-patrick"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://rss.libsyn.com/shows/51714/destinations/184296.xml",
+      "platform": "podcast",
+      "practitioner_id": "person:rhonda-patrick"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://virtahealth.com/",
+      "platform": "website",
+      "practitioner_id": "person:stephen-phinney"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://tednaiman.com/",
+      "platform": "website",
+      "practitioner_id": "person:ted-naiman"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://www.virtahealth.com/",
+      "platform": "website",
+      "practitioner_id": "company:virta-health"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://virtahealth.com/",
+      "platform": "website",
+      "practitioner_id": "company:virta-health"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://dietdoctor.com/",
+      "platform": "website",
+      "practitioner_id": "person:andreas-eenfeldt"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://hubermanlab.com/",
+      "platform": "website",
+      "practitioner_id": "person:andrew-huberman"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://feeds.megaphone.fm/hubermanlab",
+      "platform": "podcast",
+      "practitioner_id": "person:andrew-huberman"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://dranthonychaffee.com/",
+      "platform": "website",
+      "practitioner_id": "person:anthony-chaffee"
+    },
+    {
+      "type": "practitioner_other",
+      "url": "https://instagram.com/anthonychaffeemd",
+      "platform": "other",
+      "practitioner_id": "person:anthony-chaffee"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://podcasts.apple.com/au/podcast/the-plant-free-md-podcast/id1614546790",
+      "platform": "podcast",
+      "practitioner_id": "person:anthony-chaffee"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://open.spotify.com/show/0WQtoPLuPMWWm3ZT3DYXzp",
+      "platform": "podcast",
+      "practitioner_id": "person:anthony-chaffee"
+    },
+    {
+      "type": "practitioner_other",
+      "url": "https://dr-chaffee-s-90-day-carnivore-challenge.mn.co/landing",
+      "platform": "other",
+      "practitioner_id": "person:anthony-chaffee"
+    },
+    {
+      "type": "practitioner_other",
+      "url": "https://patreon.com/AnthonyChaffeeMD",
+      "platform": "other",
+      "practitioner_id": "person:anthony-chaffee"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://metabolicinitiative.com/",
+      "platform": "website",
+      "practitioner_id": "person:casey-means"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://anchor.fm/s/48092b10/podcast/rss",
+      "platform": "podcast",
+      "practitioner_id": "person:casey-means"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://drbredesen.com/",
+      "platform": "website",
+      "practitioner_id": "person:dale-bredesen"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://drperlmutter.com/",
+      "platform": "website",
+      "practitioner_id": "person:david-perlmutter"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://anchor.fm/s/f102c71c/podcast/rss",
+      "platform": "podcast",
+      "practitioner_id": "person:david-perlmutter"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://www.dietdoctor.com/",
+      "platform": "website",
+      "practitioner_id": "media:diet-doctor"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://dietdoctor.com/",
+      "platform": "website",
+      "practitioner_id": "media:diet-doctor"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://www.mercola.com/",
+      "platform": "website",
+      "practitioner_id": "person:joseph-mercola"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://www.levels.com/",
+      "platform": "website",
+      "practitioner_id": "company:levels-health"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://levelshealth.com/",
+      "platform": "website",
+      "practitioner_id": "company:levels-health"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://www.lowcarbprogram.com/",
+      "platform": "website",
+      "practitioner_id": "company:low-carb-program"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://thefastingmethod.com/",
+      "platform": "website",
+      "practitioner_id": "person:megan-ramos"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://metabolichealthsummit.com/",
+      "platform": "website",
+      "practitioner_id": "conference:metabolic-health-summit"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://phcuk.org/",
+      "platform": "website",
+      "practitioner_id": "network:public-health-collaboration"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://saragottfriedmd.com/",
+      "platform": "website",
+      "practitioner_id": "person:sara-gottfried"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://drsten.com/",
+      "platform": "website",
+      "practitioner_id": "person:sten-ekberg"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://gundrymd.com/",
+      "platform": "website",
+      "practitioner_id": "person:steven-gundry"
+    }
+  ],
+  "ldh": [],
+  "ldl-cholesterol": [
+    {
+      "type": "pubmed",
+      "id": "7968073",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7968073/"
+    },
+    {
+      "type": "pubmed",
+      "id": "9603539",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9603539/"
+    },
+    {
+      "type": "pubmed",
+      "id": "22555213",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22555213/"
+    },
+    {
+      "type": "pubmed",
+      "id": "23584084",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23584084/"
+    },
+    {
+      "type": "pubmed",
+      "id": "26039521",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26039521/"
+    },
+    {
+      "type": "pubmed",
+      "id": "30423391",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30423391/"
+    },
+    {
+      "type": "pubmed",
+      "id": "30586774",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30586774/"
+    },
+    {
+      "type": "pubmed",
+      "id": "31504418",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31504418/"
+    },
+    {
+      "type": "pubmed",
+      "id": "31738483",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31738483/"
+    },
+    {
+      "type": "pubmed",
+      "id": "33143083",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33143083/"
+    },
+    {
+      "type": "pubmed",
+      "id": "33736827",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33736827/"
+    },
+    {
+      "type": "pubmed",
+      "id": "34458905",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34458905/"
+    },
+    {
+      "type": "pubmed",
+      "id": "37622663",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37622663/"
+    },
+    {
+      "type": "pubmed",
+      "id": "37640407",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37640407/"
+    },
+    {
+      "type": "pubmed",
+      "id": "38233012",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38233012/"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://dietdoctor.com/",
+      "platform": "website",
+      "practitioner_id": "person:bret-scher"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://feed.podbean.com/dietdoctorpodcast/feed.xml",
+      "platform": "podcast",
+      "practitioner_id": "person:bret-scher"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://cholesterolcode.com/",
+      "platform": "website",
+      "practitioner_id": "person:dave-feldman"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://carnivoremd.com/",
+      "platform": "website",
+      "practitioner_id": "person:paul-saladino"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://drsten.com/",
+      "platform": "website",
+      "practitioner_id": "person:sten-ekberg"
+    }
+  ],
+  "lh": [
+    {
+      "type": "pubmed",
+      "id": "41183334",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41183334/"
+    }
+  ],
+  "magnesium-serum": [],
+  "manganese": [
+    {
+      "type": "pubmed",
+      "id": "39977843",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39977843/"
+    },
+    {
+      "type": "pubmed",
+      "id": "40612319",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40612319/"
+    },
+    {
+      "type": "pubmed",
+      "id": "41367030",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41367030/"
+    }
+  ],
+  "mch": [
+    {
+      "type": "pmc_article",
+      "id": "PMC11513302",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11513302/"
+    }
+  ],
+  "mchc": [],
+  "mcv": [
+    {
+      "type": "pubmed",
+      "id": "37469107",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37469107/"
+    },
+    {
+      "type": "pubmed",
+      "id": "40258011",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40258011/"
+    },
+    {
+      "type": "pmc_article",
+      "id": "PMC11513302",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11513302/"
+    }
+  ],
+  "monocytes-absolute": [
+    {
+      "type": "pmc_article",
+      "id": "PMC7817015",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7817015/"
+    }
+  ],
+  "monocytes": [
+    {
+      "type": "pmc_article",
+      "id": "PMC7817015",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7817015/"
+    }
+  ],
+  "mpv": [
+    {
+      "type": "pmc_article",
+      "id": "PMC11513302",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11513302/"
+    }
+  ],
+  "myoglobin": [],
+  "neutrophils": [],
+  "observation-urine": [
+    {
+      "type": "pubmed",
+      "id": "40317183",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40317183/"
+    }
+  ],
+  "phosphorus": [],
+  "platelet-count": [
+    {
+      "type": "pmc_article",
+      "id": "PMC12134580",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12134580/"
+    }
+  ],
+  "potassium": [],
+  "prealbumin": [],
+  "progesterone": [
+    {
+      "type": "pubmed",
+      "id": "34384594",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34384594/"
+    },
+    {
+      "type": "pubmed",
+      "id": "35921048",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35921048/"
+    },
+    {
+      "type": "pubmed",
+      "id": "36518987",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36518987/"
+    },
+    {
+      "type": "pmc_article",
+      "id": "PMC13072677",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13072677/"
+    }
+  ],
+  "prolactin": [
+    {
+      "type": "pmc_article",
+      "id": "PMC13072677",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13072677/"
+    }
+  ],
+  "rbc-count": [
+    {
+      "type": "pubmed",
+      "id": "36574367",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36574367/"
+    },
+    {
+      "type": "pubmed",
+      "id": "41223417",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41223417/"
+    },
+    {
+      "type": "pmc_article",
+      "id": "PMC9542839",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9542839/"
+    }
+  ],
+  "rbc-folate": [],
+  "rdw": [
+    {
+      "type": "pmc_article",
+      "id": "PMC11513302",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11513302/"
+    }
+  ],
+  "selenium": [],
+  "serum-iron": [
+    {
+      "type": "pubmed",
+      "id": "38546383",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38546383/"
+    },
+    {
+      "type": "pubmed",
+      "id": "38809141",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38809141/"
+    }
+  ],
+  "shbg": [],
+  "sodium": [
+    {
+      "type": "pubmed",
+      "id": "22820314",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22820314/"
+    },
+    {
+      "type": "pubmed",
+      "id": "25370908",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25370908/"
+    },
+    {
+      "type": "pubmed",
+      "id": "39038444",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39038444/"
+    },
+    {
+      "type": "pubmed",
+      "id": "40406152",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40406152/"
+    },
+    {
+      "type": "pubmed",
+      "id": "41390503",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41390503/"
+    }
+  ],
+  "testosterone": [
+    {
+      "type": "pubmed",
+      "id": "9408743",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9408743/"
+    },
+    {
+      "type": "pubmed",
+      "id": "40050519",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40050519/"
+    }
+  ],
+  "total-cholesterol": [
+    {
+      "type": "pubmed",
+      "id": "9603539",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9603539/"
+    },
+    {
+      "type": "pubmed",
+      "id": "9610529",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9610529/"
+    },
+    {
+      "type": "pubmed",
+      "id": "11386890",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11386890/"
+    },
+    {
+      "type": "pubmed",
+      "id": "13751193",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/13751193/"
+    },
+    {
+      "type": "pubmed",
+      "id": "22555213",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22555213/"
+    },
+    {
+      "type": "pubmed",
+      "id": "30586774",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30586774/"
+    },
+    {
+      "type": "pubmed",
+      "id": "31504418",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31504418/"
+    },
+    {
+      "type": "pubmed",
+      "id": "33143083",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33143083/"
+    },
+    {
+      "type": "pubmed",
+      "id": "34120177",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34120177/"
+    },
+    {
+      "type": "pubmed",
+      "id": "34458905",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34458905/"
+    }
+  ],
+  "total-protein": [
+    {
+      "type": "pmc_article",
+      "id": "PMC3772807",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3772807/"
+    }
+  ],
+  "total-t3": [],
+  "total-t4": [],
+  "total-testosterone": [
+    {
+      "type": "pubmed",
+      "id": "33838041",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33838041/"
+    },
+    {
+      "type": "pubmed",
+      "id": "39801930",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39801930/"
+    }
+  ],
+  "transferrin": [
+    {
+      "type": "pubmed",
+      "id": "25946282",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25946282/"
+    }
+  ],
+  "triglycerides": [
+    {
+      "type": "pubmed",
+      "id": "3056758",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/3056758/"
+    },
+    {
+      "type": "pubmed",
+      "id": "9355888",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9355888/"
+    },
+    {
+      "type": "pubmed",
+      "id": "11368702",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11368702/"
+    },
+    {
+      "type": "pubmed",
+      "id": "12485966",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12485966/"
+    },
+    {
+      "type": "pubmed",
+      "id": "12514661",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12514661/"
+    },
+    {
+      "type": "pubmed",
+      "id": "14623617",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/14623617/"
+    },
+    {
+      "type": "pubmed",
+      "id": "14731791",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/14731791/"
+    },
+    {
+      "type": "pubmed",
+      "id": "15165561",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15165561/"
+    },
+    {
+      "type": "pubmed",
+      "id": "15381654",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15381654/"
+    },
+    {
+      "type": "pubmed",
+      "id": "16054467",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16054467/"
+    },
+    {
+      "type": "pubmed",
+      "id": "16157765",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16157765/"
+    },
+    {
+      "type": "pubmed",
+      "id": "16698717",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16698717/"
+    },
+    {
+      "type": "pubmed",
+      "id": "17081293",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17081293/"
+    },
+    {
+      "type": "pubmed",
+      "id": "17190864",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17190864/"
+    },
+    {
+      "type": "pubmed",
+      "id": "17635890",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17635890/"
+    },
+    {
+      "type": "pubmed",
+      "id": "18695075",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18695075/"
+    },
+    {
+      "type": "pubmed",
+      "id": "19082851",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19082851/"
+    },
+    {
+      "type": "pubmed",
+      "id": "19805654",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19805654/"
+    },
+    {
+      "type": "pubmed",
+      "id": "20236645",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20236645/"
+    },
+    {
+      "type": "pubmed",
+      "id": "21327136",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21327136/"
+    },
+    {
+      "type": "pubmed",
+      "id": "21502576",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21502576/"
+    },
+    {
+      "type": "pubmed",
+      "id": "22555213",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22555213/"
+    },
+    {
+      "type": "pubmed",
+      "id": "23093685",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23093685/"
+    },
+    {
+      "type": "pubmed",
+      "id": "23248205",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23248205/"
+    },
+    {
+      "type": "pubmed",
+      "id": "23265341",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23265341/"
+    },
+    {
+      "type": "pubmed",
+      "id": "23584084",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23584084/"
+    },
+    {
+      "type": "pubmed",
+      "id": "24402298",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24402298/"
+    },
+    {
+      "type": "pubmed",
+      "id": "28289069",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28289069/"
+    },
+    {
+      "type": "pubmed",
+      "id": "29417495",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29417495/"
+    },
+    {
+      "type": "pubmed",
+      "id": "29480368",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29480368/"
+    },
+    {
+      "type": "pubmed",
+      "id": "30415628",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30415628/"
+    },
+    {
+      "type": "pubmed",
+      "id": "30423391",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30423391/"
+    },
+    {
+      "type": "pubmed",
+      "id": "30586774",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30586774/"
+    },
+    {
+      "type": "pubmed",
+      "id": "31504418",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31504418/"
+    },
+    {
+      "type": "pubmed",
+      "id": "31641012",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31641012/"
+    },
+    {
+      "type": "pubmed",
+      "id": "33143083",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33143083/"
+    },
+    {
+      "type": "pubmed",
+      "id": "33521540",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33521540/"
+    },
+    {
+      "type": "pubmed",
+      "id": "34458905",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34458905/"
+    },
+    {
+      "type": "pubmed",
+      "id": "35106434",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35106434/"
+    },
+    {
+      "type": "pubmed",
+      "id": "35629964",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35629964/"
+    },
+    {
+      "type": "pubmed",
+      "id": "37640407",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37640407/"
+    },
+    {
+      "type": "pubmed",
+      "id": "39372369",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39372369/"
+    }
+  ],
+  "tsh": [
+    {
+      "type": "practitioner_website",
+      "url": "https://amymyersmd.com/",
+      "platform": "website",
+      "practitioner_id": "person:amy-myers"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://saragottfriedmd.com/",
+      "platform": "website",
+      "practitioner_id": "person:sara-gottfried"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://drsten.com/",
+      "platform": "website",
+      "practitioner_id": "person:sten-ekberg"
+    }
+  ],
+  "uibc": [],
+  "uric-acid": [],
+  "urine-iodine": [],
+  "urine-microalbumin": [],
+  "urine-ph": [
+    {
+      "type": "pubmed",
+      "id": "30142166",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30142166/"
+    },
+    {
+      "type": "pubmed",
+      "id": "31165633",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31165633/"
+    },
+    {
+      "type": "pubmed",
+      "id": "31656751",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31656751/"
+    },
+    {
+      "type": "pubmed",
+      "id": "40412536",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40412536/"
+    }
+  ],
+  "urine-specific-gravity": [
+    {
+      "type": "pubmed",
+      "id": "25963490",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25963490/"
+    },
+    {
+      "type": "pubmed",
+      "id": "29895023",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29895023/"
+    },
+    {
+      "type": "pubmed",
+      "id": "32542217",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32542217/"
+    },
+    {
+      "type": "pubmed",
+      "id": "34003332",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34003332/"
+    },
+    {
+      "type": "pubmed",
+      "id": "37318992",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37318992/"
+    },
+    {
+      "type": "pubmed",
+      "id": "37814395",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37814395/"
+    }
+  ],
+  "vitamin-a": [],
+  "vitamin-b12": [
+    {
+      "type": "pubmed",
+      "id": "3374544",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/3374544/"
+    },
+    {
+      "type": "pubmed",
+      "id": "10648266",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10648266/"
+    },
+    {
+      "type": "pubmed",
+      "id": "16814909",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16814909/"
+    },
+    {
+      "type": "pubmed",
+      "id": "19116323",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19116323/"
+    },
+    {
+      "type": "pubmed",
+      "id": "20488910",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20488910/"
+    },
+    {
+      "type": "pubmed",
+      "id": "21593511",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21593511/"
+    },
+    {
+      "type": "pubmed",
+      "id": "23301732",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23301732/"
+    },
+    {
+      "type": "pubmed",
+      "id": "23356638",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23356638/"
+    },
+    {
+      "type": "pubmed",
+      "id": "28925645",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28925645/"
+    },
+    {
+      "type": "pubmed",
+      "id": "30032223",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30032223/"
+    }
+  ],
+  "vitamin-b6-pyridoxal-5-phosphate": [
+    {
+      "type": "pmc_article",
+      "id": "PMC12954621",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12954621/"
+    }
+  ],
+  "vitamin-b6": [
+    {
+      "type": "pmc_article",
+      "id": "PMC12954621",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12954621/"
+    }
+  ],
+  "vitamin-c": [],
+  "vitamin-d": [
+    {
+      "type": "pubmed",
+      "id": "17634462",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17634462/"
+    },
+    {
+      "type": "pubmed",
+      "id": "18180395",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18180395/"
+    },
+    {
+      "type": "pubmed",
+      "id": "24622671",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24622671/"
+    },
+    {
+      "type": "pubmed",
+      "id": "28216084",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28216084/"
+    },
+    {
+      "type": "pubmed",
+      "id": "36208176",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36208176/"
+    },
+    {
+      "type": "pubmed",
+      "id": "40278393",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40278393/"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://drhyman.me/",
+      "platform": "website",
+      "practitioner_id": "person:mark-hyman"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://drhyman.com/",
+      "platform": "website",
+      "practitioner_id": "person:mark-hyman"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://feeds.megaphone.fm/thedoctorsfarmacy",
+      "platform": "podcast",
+      "practitioner_id": "person:mark-hyman"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://www.foundmyfitness.com/",
+      "platform": "website",
+      "practitioner_id": "person:rhonda-patrick"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://foundmyfitness.com/",
+      "platform": "website",
+      "practitioner_id": "person:rhonda-patrick"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://rss.libsyn.com/shows/51714/destinations/184296.xml",
+      "platform": "podcast",
+      "practitioner_id": "person:rhonda-patrick"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://hubermanlab.com/",
+      "platform": "website",
+      "practitioner_id": "person:andrew-huberman"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://feeds.megaphone.fm/hubermanlab",
+      "platform": "podcast",
+      "practitioner_id": "person:andrew-huberman"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://drbredesen.com/",
+      "platform": "website",
+      "practitioner_id": "person:dale-bredesen"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://www.mercola.com/",
+      "platform": "website",
+      "practitioner_id": "person:joseph-mercola"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://gundrymd.com/",
+      "platform": "website",
+      "practitioner_id": "person:steven-gundry"
+    }
+  ],
+  "vitamin-k1": [
+    {
+      "type": "pmc_article",
+      "id": "PMC11811856",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11811856/"
+    }
+  ],
+  "vitamin-k2": [
+    {
+      "type": "pmc_article",
+      "id": "PMC11811856",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11811856/"
+    }
+  ],
+  "wbc-count": [
+    {
+      "type": "pmc_article",
+      "id": "PMC12134580",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12134580/"
+    }
+  ]
+}

@@ -17,6 +17,9 @@ secrets/*.token
 runs/*/
 !runs/.gitkeep
 
+# Project-local test scratch
+.pytest-tmp/
+
 # State contract acceptance scratch
 .state-contract-check/
 

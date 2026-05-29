@@ -1,0 +1,32 @@
+{
+  "wave": "wave-0",
+  "markers_processed": 5,
+  "total_matches": 74,
+  "markers": {
+    "apob": {
+      "matches": 14,
+      "thesaurus": 14,
+      "semantic": 0
+    },
+    "fasting-insulin": {
+      "matches": 1,
+      "thesaurus": 1,
+      "semantic": 0
+    },
+    "hba1c": {
+      "matches": 41,
+      "thesaurus": 41,
+      "semantic": 0
+    },
+    "lpa": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "tg-hdl-ratio": {
+      "matches": 18,
+      "thesaurus": 18,
+      "semantic": 0
+    }
+  }
+}

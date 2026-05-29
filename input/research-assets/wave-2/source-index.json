@@ -1,0 +1,720 @@
+{
+  "1-25-dihydroxyvitamin-d": [
+    {
+      "type": "pubmed",
+      "id": "35042976",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35042976/"
+    },
+    {
+      "type": "pubmed",
+      "id": "38722953",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38722953/"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://drhyman.me/",
+      "platform": "website",
+      "practitioner_id": "person:mark-hyman"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://drhyman.com/",
+      "platform": "website",
+      "practitioner_id": "person:mark-hyman"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://feeds.megaphone.fm/thedoctorsfarmacy",
+      "platform": "podcast",
+      "practitioner_id": "person:mark-hyman"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://www.foundmyfitness.com/",
+      "platform": "website",
+      "practitioner_id": "person:rhonda-patrick"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://foundmyfitness.com/",
+      "platform": "website",
+      "practitioner_id": "person:rhonda-patrick"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://rss.libsyn.com/shows/51714/destinations/184296.xml",
+      "platform": "podcast",
+      "practitioner_id": "person:rhonda-patrick"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://hubermanlab.com/",
+      "platform": "website",
+      "practitioner_id": "person:andrew-huberman"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://feeds.megaphone.fm/hubermanlab",
+      "platform": "podcast",
+      "practitioner_id": "person:andrew-huberman"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://drbredesen.com/",
+      "platform": "website",
+      "practitioner_id": "person:dale-bredesen"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://www.mercola.com/",
+      "platform": "website",
+      "practitioner_id": "person:joseph-mercola"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://gundrymd.com/",
+      "platform": "website",
+      "practitioner_id": "person:steven-gundry"
+    }
+  ],
+  "11-deoxycortisol": [
+    {
+      "type": "pubmed",
+      "id": "19907141",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19907141/"
+    }
+  ],
+  "5-hydroxyindoleacetate-creatinine-urine": [],
+  "5-hydroxyindoleacetate-urine": [],
+  "acth": [],
+  "adiponectin": [],
+  "alpha-galactosidase-a": [],
+  "alpha-melanocyte-stimulating-hormone": [],
+  "aluminum-creatinine-urine": [],
+  "amh": [],
+  "anti-dsdna": [],
+  "aptt": [
+    {
+      "type": "practitioner_website",
+      "url": "https://carnivoremd.com/",
+      "platform": "website",
+      "practitioner_id": "person:paul-saladino"
+    }
+  ],
+  "arsenic-creatinine-urine": [
+    {
+      "type": "pubmed",
+      "id": "21872294",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21872294/"
+    },
+    {
+      "type": "pubmed",
+      "id": "24061511",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24061511/"
+    },
+    {
+      "type": "pubmed",
+      "id": "41247717",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41247717/"
+    }
+  ],
+  "arsenic-inorganic-urine": [
+    {
+      "type": "pubmed",
+      "id": "21147604",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21147604/"
+    },
+    {
+      "type": "pubmed",
+      "id": "30873793",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30873793/"
+    }
+  ],
+  "bilirubin-glucuronidated-bilirubin-albumin-bound": [],
+  "bio-t": [],
+  "bnp": [],
+  "buspirone": [],
+  "c-peptide-fasting": [
+    {
+      "type": "pubmed",
+      "id": "35973558",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35973558/"
+    },
+    {
+      "type": "pubmed",
+      "id": "36192784",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36192784/"
+    },
+    {
+      "type": "pubmed",
+      "id": "36928669",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36928669/"
+    },
+    {
+      "type": "pubmed",
+      "id": "36930691",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36930691/"
+    },
+    {
+      "type": "pubmed",
+      "id": "39734999",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39734999/"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://carnivoremd.com/",
+      "platform": "website",
+      "practitioner_id": "person:paul-saladino"
+    }
+  ],
+  "c-peptide-urine": [
+    {
+      "type": "pubmed",
+      "id": "36928669",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36928669/"
+    },
+    {
+      "type": "pubmed",
+      "id": "36930691",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36930691/"
+    },
+    {
+      "type": "pubmed",
+      "id": "39734999",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39734999/"
+    }
+  ],
+  "calcium-ionized": [
+    {
+      "type": "pubmed",
+      "id": "33706109",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33706109/"
+    },
+    {
+      "type": "pubmed",
+      "id": "35276011",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35276011/"
+    },
+    {
+      "type": "pubmed",
+      "id": "37158680",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37158680/"
+    },
+    {
+      "type": "pubmed",
+      "id": "39973298",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39973298/"
+    },
+    {
+      "type": "pubmed",
+      "id": "41799711",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41799711/"
+    }
+  ],
+  "calprotectin": [
+    {
+      "type": "pubmed",
+      "id": "24983982",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24983982/"
+    },
+    {
+      "type": "pubmed",
+      "id": "30034529",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30034529/"
+    },
+    {
+      "type": "pubmed",
+      "id": "30240474",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30240474/"
+    }
+  ],
+  "cat": [
+    {
+      "type": "pubmed",
+      "id": "27430609",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27430609/"
+    }
+  ],
+  "cells-cd3-tcr-alpha-beta-cells": [],
+  "chloride-2": [
+    {
+      "type": "pubmed",
+      "id": "39118428",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39118428/"
+    }
+  ],
+  "chromium-creatinine-urine": [],
+  "ck": [
+    {
+      "type": "pubmed",
+      "id": "38088110",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38088110/"
+    }
+  ],
+  "cobalt-creatinine-urine": [
+    {
+      "type": "practitioner_website",
+      "url": "https://carnivoremd.com/",
+      "platform": "website",
+      "practitioner_id": "person:paul-saladino"
+    }
+  ],
+  "collagen-crosslinked-n-telopeptide-creatinine-urine": [],
+  "complement-alternate-pathway-ah50-actual-normal": [
+    {
+      "type": "practitioner_website",
+      "url": "https://carnivoremd.com/",
+      "platform": "website",
+      "practitioner_id": "person:paul-saladino"
+    }
+  ],
+  "cortisol-free-serum-whole-blood": [],
+  "ctni": [],
+  "ctnt": [],
+  "ctx": [],
+  "delta-aminolevulinate-urine": [],
+  "dhea-s": [],
+  "dhea": [],
+  "e1": [],
+  "ecp": [
+    {
+      "type": "pubmed",
+      "id": "21183182",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21183182/"
+    },
+    {
+      "type": "pubmed",
+      "id": "32761877",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32761877/"
+    },
+    {
+      "type": "pubmed",
+      "id": "37865935",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37865935/"
+    }
+  ],
+  "elastase-pancreatic": [
+    {
+      "type": "practitioner_website",
+      "url": "https://carnivoremd.com/",
+      "platform": "website",
+      "practitioner_id": "person:paul-saladino"
+    }
+  ],
+  "fatty-acids-nonesterified": [
+    {
+      "type": "pubmed",
+      "id": "39438940",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39438940/"
+    }
+  ],
+  "fib-4": [],
+  "fibrin-fibrinogen-fragments": [],
+  "fibrinogen-ag": [],
+  "fibroblast-growth-factor-23-intact": [
+    {
+      "type": "practitioner_website",
+      "url": "https://carnivoremd.com/",
+      "platform": "website",
+      "practitioner_id": "person:paul-saladino"
+    }
+  ],
+  "free-carnitine": [],
+  "galactose-1-phosphate": [
+    {
+      "type": "pubmed",
+      "id": "12595586",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12595586/"
+    }
+  ],
+  "galectin-3-2": [
+    {
+      "type": "pubmed",
+      "id": "38519721",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38519721/"
+    },
+    {
+      "type": "pubmed",
+      "id": "41062943",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41062943/"
+    },
+    {
+      "type": "pubmed",
+      "id": "41158187",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41158187/"
+    },
+    {
+      "type": "pubmed",
+      "id": "41682810",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41682810/"
+    }
+  ],
+  "galectin-3": [],
+  "gastrin": [
+    {
+      "type": "pubmed",
+      "id": "35068320",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35068320/"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://carnivoremd.com/",
+      "platform": "website",
+      "practitioner_id": "person:paul-saladino"
+    }
+  ],
+  "glucose-6-phosphate-dehydrogenase": [
+    {
+      "type": "pubmed",
+      "id": "32407380",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32407380/"
+    },
+    {
+      "type": "pubmed",
+      "id": "41261454",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41261454/"
+    }
+  ],
+  "hemoglobin-pattern": [],
+  "histoplasma-capsulatum-ag-urine": [],
+  "homovanillate-creatinine-urine": [
+    {
+      "type": "pubmed",
+      "id": "1303649",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/1303649/"
+    },
+    {
+      "type": "pubmed",
+      "id": "1456399",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/1456399/"
+    },
+    {
+      "type": "pubmed",
+      "id": "15390301",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15390301/"
+    }
+  ],
+  "ibil": [],
+  "il-1beta": [],
+  "il-6": [
+    {
+      "type": "pubmed",
+      "id": "22254027",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22254027/"
+    },
+    {
+      "type": "pubmed",
+      "id": "26135695",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26135695/"
+    },
+    {
+      "type": "pubmed",
+      "id": "26140821",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26140821/"
+    },
+    {
+      "type": "pubmed",
+      "id": "26228057",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26228057/"
+    },
+    {
+      "type": "pubmed",
+      "id": "33143083",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33143083/"
+    },
+    {
+      "type": "pubmed",
+      "id": "34431970",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34431970/"
+    }
+  ],
+  "immunoglobulin-light-chains-lambda-free": [
+    {
+      "type": "pubmed",
+      "id": "40440024",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40440024/"
+    }
+  ],
+  "insulin-like-growth-factor-binding-protein-1": [
+    {
+      "type": "pubmed",
+      "id": "18513511",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18513511/"
+    }
+  ],
+  "insulin-like-growth-factor-binding-protein-3": [],
+  "iron": [
+    {
+      "type": "pubmed",
+      "id": "38546383",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38546383/"
+    },
+    {
+      "type": "pubmed",
+      "id": "38809141",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38809141/"
+    }
+  ],
+  "ldl-particle-size": [],
+  "leptin": [],
+  "lipoprotein-associated-phospholipase-a2": [
+    {
+      "type": "pubmed",
+      "id": "32056835",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32056835/"
+    },
+    {
+      "type": "pubmed",
+      "id": "35317900",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35317900/"
+    },
+    {
+      "type": "pubmed",
+      "id": "35726302",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35726302/"
+    },
+    {
+      "type": "pubmed",
+      "id": "41153714",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41153714/"
+    }
+  ],
+  "lp-ir": [],
+  "mercury-blood": [
+    {
+      "type": "pubmed",
+      "id": "27121705",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27121705/"
+    }
+  ],
+  "mma": [
+    {
+      "type": "pubmed",
+      "id": "16814909",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16814909/"
+    },
+    {
+      "type": "pubmed",
+      "id": "23301732",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23301732/"
+    },
+    {
+      "type": "pubmed",
+      "id": "28925645",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28925645/"
+    }
+  ],
+  "niacin": [],
+  "nickel-creatinine-urine": [],
+  "nt-probnp": [],
+  "orotate-creatinine-urine": [],
+  "osteocalcin": [
+    {
+      "type": "pubmed",
+      "id": "29138634",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29138634/"
+    }
+  ],
+  "oxidized-ldl": [],
+  "p1np": [],
+  "pancreastatin": [
+    {
+      "type": "practitioner_website",
+      "url": "https://carnivoremd.com/",
+      "platform": "website",
+      "practitioner_id": "person:paul-saladino"
+    }
+  ],
+  "ph-urine": [
+    {
+      "type": "pubmed",
+      "id": "20483451",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20483451/"
+    }
+  ],
+  "porphobilinogen-urine": [],
+  "proinsulin": [],
+  "prostaglandin-d2-urine": [],
+  "protein-creatinine-urine": [
+    {
+      "type": "pubmed",
+      "id": "20483451",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20483451/"
+    },
+    {
+      "type": "pubmed",
+      "id": "36940799",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36940799/"
+    },
+    {
+      "type": "pubmed",
+      "id": "37787795",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37787795/"
+    },
+    {
+      "type": "pubmed",
+      "id": "38113044",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38113044/"
+    }
+  ],
+  "protein-urine": [
+    {
+      "type": "pubmed",
+      "id": "35508320",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35508320/"
+    }
+  ],
+  "protoporphyrin-zinc-2": [
+    {
+      "type": "pubmed",
+      "id": "8919726",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8919726/"
+    },
+    {
+      "type": "pubmed",
+      "id": "11452696",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11452696/"
+    }
+  ],
+  "pt": [],
+  "pth": [
+    {
+      "type": "pubmed",
+      "id": "18329892",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18329892/"
+    }
+  ],
+  "remnant-c": [],
+  "renin": [],
+  "reverse-t3": [],
+  "rheumatoid-factor": [],
+  "s100-calcium-binding-protein-b": [
+    {
+      "type": "pubmed",
+      "id": "40432557",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40432557/"
+    }
+  ],
+  "stfr": [
+    {
+      "type": "pubmed",
+      "id": "23715774",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23715774/"
+    },
+    {
+      "type": "pubmed",
+      "id": "35051624",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35051624/"
+    },
+    {
+      "type": "pubmed",
+      "id": "38104902",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38104902/"
+    },
+    {
+      "type": "pubmed",
+      "id": "38975011",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38975011/"
+    },
+    {
+      "type": "pubmed",
+      "id": "39742215",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39742215/"
+    },
+    {
+      "type": "pubmed",
+      "id": "40056940",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40056940/"
+    }
+  ],
+  "sulfate-urine": [],
+  "t3-uptake": [],
+  "testosterone-free": [
+    {
+      "type": "pubmed",
+      "id": "40935785",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40935785/"
+    }
+  ],
+  "thallium-creatinine-urine": [
+    {
+      "type": "pubmed",
+      "id": "35220538",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35220538/"
+    }
+  ],
+  "thyroglobulin-antibodies": [],
+  "thyroglobulin": [],
+  "thyroxine-binding-globulin": [],
+  "tmao": [],
+  "tpo-antibodies": [],
+  "transferrin-carbohydrate-deficient-transferrin-total": [
+    {
+      "type": "pubmed",
+      "id": "25543202",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25543202/"
+    }
+  ],
+  "transferrin-saturation": [
+    {
+      "type": "pubmed",
+      "id": "23613366",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23613366/"
+    },
+    {
+      "type": "pubmed",
+      "id": "24778671",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24778671/"
+    },
+    {
+      "type": "pubmed",
+      "id": "27099596",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27099596/"
+    }
+  ],
+  "troponin-t-cardiac-2": [
+    {
+      "type": "pubmed",
+      "id": "30618277",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30618277/"
+    },
+    {
+      "type": "pubmed",
+      "id": "35842920",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35842920/"
+    },
+    {
+      "type": "pubmed",
+      "id": "41272633",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41272633/"
+    }
+  ],
+  "tryptase": [
+    {
+      "type": "pubmed",
+      "id": "29679215",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29679215/"
+    },
+    {
+      "type": "pubmed",
+      "id": "39052760",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39052760/"
+    },
+    {
+      "type": "pubmed",
+      "id": "39476805",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39476805/"
+    }
+  ],
+  "tumor-necrosis-factor-alpha": [
+    {
+      "type": "pubmed",
+      "id": "36044827",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36044827/"
+    }
+  ],
+  "urea-nitrogen-urine": [],
+  "vanillylmandelate-creatinine-urine": [],
+  "vitamin-b2": [],
+  "vitamin-e": []
+}

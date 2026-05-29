@@ -1,0 +1,532 @@
+{
+  "wave": "wave-1",
+  "markers_processed": 105,
+  "total_matches": 160,
+  "markers": {
+    "17-hydroxyprogesterone": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "absolute-lymphocytes": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "absolute-neutrophils": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "albumin": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "alp": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "alpha-1-acid-glycoprotein": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "alpha-1-antitrypsin": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "alpha-2-macroglobulin-2": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "alpha-tocopherol": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "alt": {
+      "matches": 1,
+      "thesaurus": 1,
+      "semantic": 0
+    },
+    "apoa1": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "apob-2": {
+      "matches": 14,
+      "thesaurus": 14,
+      "semantic": 0
+    },
+    "arsenic-urine": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "ast": {
+      "matches": 50,
+      "thesaurus": 50,
+      "semantic": 0
+    },
+    "basophils-absolute": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "basophils": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "beryllium-urine": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "bicarbonate": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "bilirubin-total": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "bun": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "calcium": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "chloride": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "cholesterol-in-ldl": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "cholesterol": {
+      "matches": 7,
+      "thesaurus": 7,
+      "semantic": 0
+    },
+    "chromium": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "ck-mb": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "cobalt": {
+      "matches": 1,
+      "thesaurus": 1,
+      "semantic": 0
+    },
+    "creatinine-3": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "creatinine": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "crp-standard": {
+      "matches": 5,
+      "thesaurus": 5,
+      "semantic": 0
+    },
+    "cystatin-c": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "direct-bilirubin": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "eosinophils-absolute": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "eosinophils": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "estradiol": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "fasting-glucose": {
+      "matches": 1,
+      "thesaurus": 1,
+      "semantic": 0
+    },
+    "ferritin": {
+      "matches": 3,
+      "thesaurus": 3,
+      "semantic": 0
+    },
+    "fibrinogen": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "folate-serum": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "free-t3": {
+      "matches": 3,
+      "thesaurus": 3,
+      "semantic": 0
+    },
+    "free-t4": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "fructosamine": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "fsh": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "ggt": {
+      "matches": 1,
+      "thesaurus": 1,
+      "semantic": 0
+    },
+    "globulin": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "glucose": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "hdl-cholesterol": {
+      "matches": 7,
+      "thesaurus": 7,
+      "semantic": 0
+    },
+    "hematocrit": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "hemoglobin": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "homocysteine": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "hscrp": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "igf-1": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "insulin-like-growth-factor-i": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "insulin": {
+      "matches": 49,
+      "thesaurus": 49,
+      "semantic": 0
+    },
+    "ldh": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "ldl-cholesterol": {
+      "matches": 7,
+      "thesaurus": 7,
+      "semantic": 0
+    },
+    "lh": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "magnesium-serum": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "manganese": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "mch": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "mchc": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "mcv": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "monocytes-absolute": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "monocytes": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "mpv": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "myoglobin": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "neutrophils": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "observation-urine": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "phosphorus": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "platelet-count": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "potassium": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "prealbumin": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "progesterone": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "prolactin": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "rbc-count": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "rbc-folate": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "rdw": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "selenium": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "serum-iron": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "shbg": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "sodium": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "testosterone": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "total-cholesterol": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "total-protein": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "total-t3": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "total-t4": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "total-testosterone": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "transferrin": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "triglycerides": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "tsh": {
+      "matches": 3,
+      "thesaurus": 3,
+      "semantic": 0
+    },
+    "uibc": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "uric-acid": {
+      "matches": 1,
+      "thesaurus": 1,
+      "semantic": 0
+    },
+    "urine-iodine": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "urine-microalbumin": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "urine-ph": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "urine-specific-gravity": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "vitamin-a": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "vitamin-b12": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "vitamin-b6-pyridoxal-5-phosphate": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "vitamin-b6": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "vitamin-c": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "vitamin-d": {
+      "matches": 7,
+      "thesaurus": 7,
+      "semantic": 0
+    },
+    "vitamin-k1": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "vitamin-k2": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "wbc-count": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    }
+  }
+}

@@ -1,0 +1,603 @@
+{
+  "wave": "wave-1",
+  "markers_processed": 105,
+  "total_sources": 476,
+  "markers": {
+    "17-hydroxyprogesterone": {
+      "sources": 2,
+      "by_type": {
+        "pubmed": 2
+      }
+    },
+    "absolute-lymphocytes": {
+      "sources": 1,
+      "by_type": {
+        "pmc_article": 1
+      }
+    },
+    "absolute-neutrophils": {
+      "sources": 1,
+      "by_type": {
+        "pmc_article": 1
+      }
+    },
+    "albumin": {
+      "sources": 1,
+      "by_type": {
+        "pmc_article": 1
+      }
+    },
+    "alp": {
+      "sources": 1,
+      "by_type": {
+        "pmc_article": 1
+      }
+    },
+    "alpha-1-acid-glycoprotein": {
+      "sources": 4,
+      "by_type": {
+        "pubmed": 4
+      }
+    },
+    "alpha-1-antitrypsin": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "alpha-2-macroglobulin-2": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "alpha-tocopherol": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "alt": {
+      "sources": 13,
+      "by_type": {
+        "pubmed": 11,
+        "pmc_article": 1,
+        "practitioner_website": 1
+      }
+    },
+    "apoa1": {
+      "sources": 2,
+      "by_type": {
+        "pubmed": 1,
+        "pmc_article": 1
+      }
+    },
+    "apob-2": {
+      "sources": 19,
+      "by_type": {
+        "pubmed": 3,
+        "practitioner_website": 9,
+        "practitioner_podcast": 4,
+        "practitioner_other": 3
+      }
+    },
+    "arsenic-urine": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "ast": {
+      "sources": 53,
+      "by_type": {
+        "pubmed": 3,
+        "pmc_article": 1,
+        "practitioner_website": 37,
+        "practitioner_podcast": 9,
+        "practitioner_other": 3
+      }
+    },
+    "basophils-absolute": {
+      "sources": 1,
+      "by_type": {
+        "pmc_article": 1
+      }
+    },
+    "basophils": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "beryllium-urine": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "bicarbonate": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "bilirubin-total": {
+      "sources": 1,
+      "by_type": {
+        "pmc_article": 1
+      }
+    },
+    "bun": {
+      "sources": 1,
+      "by_type": {
+        "pmc_article": 1
+      }
+    },
+    "calcium": {
+      "sources": 4,
+      "by_type": {
+        "pubmed": 4
+      }
+    },
+    "chloride": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "cholesterol-in-ldl": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "cholesterol": {
+      "sources": 6,
+      "by_type": {
+        "pubmed": 1,
+        "practitioner_website": 4,
+        "practitioner_podcast": 1
+      }
+    },
+    "chromium": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "ck-mb": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "cobalt": {
+      "sources": 3,
+      "by_type": {
+        "pubmed": 2,
+        "practitioner_website": 1
+      }
+    },
+    "creatinine-3": {
+      "sources": 2,
+      "by_type": {
+        "pubmed": 2
+      }
+    },
+    "creatinine": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "crp-standard": {
+      "sources": 9,
+      "by_type": {
+        "pubmed": 3,
+        "practitioner_website": 5,
+        "practitioner_podcast": 1
+      }
+    },
+    "cystatin-c": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "direct-bilirubin": {
+      "sources": 1,
+      "by_type": {
+        "pmc_article": 1
+      }
+    },
+    "eosinophils-absolute": {
+      "sources": 1,
+      "by_type": {
+        "pmc_article": 1
+      }
+    },
+    "eosinophils": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "estradiol": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "fasting-glucose": {
+      "sources": 20,
+      "by_type": {
+        "pubmed": 19,
+        "practitioner_website": 1
+      }
+    },
+    "ferritin": {
+      "sources": 14,
+      "by_type": {
+        "pubmed": 8,
+        "practitioner_website": 4,
+        "practitioner_podcast": 2
+      }
+    },
+    "fibrinogen": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "folate-serum": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "free-t3": {
+      "sources": 4,
+      "by_type": {
+        "pubmed": 1,
+        "practitioner_website": 3
+      }
+    },
+    "free-t4": {
+      "sources": 2,
+      "by_type": {
+        "pubmed": 2
+      }
+    },
+    "fructosamine": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "fsh": {
+      "sources": 2,
+      "by_type": {
+        "pubmed": 2
+      }
+    },
+    "ggt": {
+      "sources": 9,
+      "by_type": {
+        "pubmed": 7,
+        "pmc_article": 1,
+        "practitioner_website": 1
+      }
+    },
+    "globulin": {
+      "sources": 7,
+      "by_type": {
+        "pubmed": 7
+      }
+    },
+    "glucose": {
+      "sources": 26,
+      "by_type": {
+        "pubmed": 26
+      }
+    },
+    "hdl-cholesterol": {
+      "sources": 26,
+      "by_type": {
+        "pubmed": 21,
+        "practitioner_website": 4,
+        "practitioner_podcast": 1
+      }
+    },
+    "hematocrit": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "hemoglobin": {
+      "sources": 7,
+      "by_type": {
+        "pubmed": 6,
+        "pmc_article": 1
+      }
+    },
+    "homocysteine": {
+      "sources": 6,
+      "by_type": {
+        "pubmed": 5,
+        "pmc_article": 1
+      }
+    },
+    "hscrp": {
+      "sources": 5,
+      "by_type": {
+        "pubmed": 5
+      }
+    },
+    "igf-1": {
+      "sources": 1,
+      "by_type": {
+        "pmc_article": 1
+      }
+    },
+    "insulin-like-growth-factor-i": {
+      "sources": 2,
+      "by_type": {
+        "pubmed": 1,
+        "pmc_article": 1
+      }
+    },
+    "insulin": {
+      "sources": 64,
+      "by_type": {
+        "pubmed": 16,
+        "practitioner_website": 36,
+        "practitioner_podcast": 9,
+        "practitioner_other": 3
+      }
+    },
+    "ldh": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "ldl-cholesterol": {
+      "sources": 20,
+      "by_type": {
+        "pubmed": 15,
+        "practitioner_website": 4,
+        "practitioner_podcast": 1
+      }
+    },
+    "lh": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "magnesium-serum": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "manganese": {
+      "sources": 3,
+      "by_type": {
+        "pubmed": 3
+      }
+    },
+    "mch": {
+      "sources": 1,
+      "by_type": {
+        "pmc_article": 1
+      }
+    },
+    "mchc": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "mcv": {
+      "sources": 3,
+      "by_type": {
+        "pubmed": 2,
+        "pmc_article": 1
+      }
+    },
+    "monocytes-absolute": {
+      "sources": 1,
+      "by_type": {
+        "pmc_article": 1
+      }
+    },
+    "monocytes": {
+      "sources": 1,
+      "by_type": {
+        "pmc_article": 1
+      }
+    },
+    "mpv": {
+      "sources": 1,
+      "by_type": {
+        "pmc_article": 1
+      }
+    },
+    "myoglobin": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "neutrophils": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "observation-urine": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "phosphorus": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "platelet-count": {
+      "sources": 1,
+      "by_type": {
+        "pmc_article": 1
+      }
+    },
+    "potassium": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "prealbumin": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "progesterone": {
+      "sources": 4,
+      "by_type": {
+        "pubmed": 3,
+        "pmc_article": 1
+      }
+    },
+    "prolactin": {
+      "sources": 1,
+      "by_type": {
+        "pmc_article": 1
+      }
+    },
+    "rbc-count": {
+      "sources": 3,
+      "by_type": {
+        "pubmed": 2,
+        "pmc_article": 1
+      }
+    },
+    "rbc-folate": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "rdw": {
+      "sources": 1,
+      "by_type": {
+        "pmc_article": 1
+      }
+    },
+    "selenium": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "serum-iron": {
+      "sources": 2,
+      "by_type": {
+        "pubmed": 2
+      }
+    },
+    "shbg": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "sodium": {
+      "sources": 5,
+      "by_type": {
+        "pubmed": 5
+      }
+    },
+    "testosterone": {
+      "sources": 2,
+      "by_type": {
+        "pubmed": 2
+      }
+    },
+    "total-cholesterol": {
+      "sources": 10,
+      "by_type": {
+        "pubmed": 10
+      }
+    },
+    "total-protein": {
+      "sources": 1,
+      "by_type": {
+        "pmc_article": 1
+      }
+    },
+    "total-t3": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "total-t4": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "total-testosterone": {
+      "sources": 2,
+      "by_type": {
+        "pubmed": 2
+      }
+    },
+    "transferrin": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "triglycerides": {
+      "sources": 42,
+      "by_type": {
+        "pubmed": 42
+      }
+    },
+    "tsh": {
+      "sources": 3,
+      "by_type": {
+        "practitioner_website": 3
+      }
+    },
+    "uibc": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "uric-acid": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "urine-iodine": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "urine-microalbumin": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "urine-ph": {
+      "sources": 4,
+      "by_type": {
+        "pubmed": 4
+      }
+    },
+    "urine-specific-gravity": {
+      "sources": 6,
+      "by_type": {
+        "pubmed": 6
+      }
+    },
+    "vitamin-a": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "vitamin-b12": {
+      "sources": 10,
+      "by_type": {
+        "pubmed": 10
+      }
+    },
+    "vitamin-b6-pyridoxal-5-phosphate": {
+      "sources": 1,
+      "by_type": {
+        "pmc_article": 1
+      }
+    },
+    "vitamin-b6": {
+      "sources": 1,
+      "by_type": {
+        "pmc_article": 1
+      }
+    },
+    "vitamin-c": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "vitamin-d": {
+      "sources": 17,
+      "by_type": {
+        "pubmed": 6,
+        "practitioner_website": 8,
+        "practitioner_podcast": 3
+      }
+    },
+    "vitamin-k1": {
+      "sources": 1,
+      "by_type": {
+        "pmc_article": 1
+      }
+    },
+    "vitamin-k2": {
+      "sources": 1,
+      "by_type": {
+        "pmc_article": 1
+      }
+    },
+    "wbc-count": {
+      "sources": 1,
+      "by_type": {
+        "pmc_article": 1
+      }
+    }
+  }
+}

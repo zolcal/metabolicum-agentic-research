@@ -43,6 +43,13 @@ TOPIC_DESCRIPTORS = PROJECT_ROOT / "input" / "topic_descriptors.yaml"
 YOUTUBE_INVENTORY_DIR = PROJECT_ROOT / "input" / "youtube-video-inventory" / "videos"
 BRIEFS_DIR = PROJECT_ROOT / "input" / "hermes-briefs"
 
+DEPRECATED_CLI_MESSAGE = (
+    "scripts/prepare_hermes_briefs.py is deprecated for brief generation. "
+    "Use scripts/collect_practitioners.py, scripts/collect_sources.py, "
+    "and scripts/assemble_hermes_briefs.py so generated briefs are reproducible "
+    "from committed research asset indices.\n"
+)
+
 QUALIFICATION_MARKERS = [
     "apob", "hba1c", "fasting-insulin", "lpa", "igf-1",
     "vitamin-d", "crp-standard", "hdl-cholesterol", "uric-acid", "fructosamine",
@@ -664,39 +671,16 @@ def generate_briefs_for_wave(wave: str, markers: list[str] | None = None,
     return summary
 
 
-def main():
-    parser = argparse.ArgumentParser(description="Generate Hermes research briefs from SM ranges")
-    parser.add_argument("--wave", default="wave-0", help="Wave directory under input/sm-ranges/")
-    parser.add_argument("--markers", nargs="+", help="Limit to specific marker slugs")
-    parser.add_argument("--qualification", action="store_true",
-                        help="Generate for all 10 qualification markers")
-    parser.add_argument("--no-semantic", action="store_true",
-                        help="Disable semantic embedding matching (thesaurus only)")
-    parser.add_argument("--semantic-threshold", type=float, default=0.72,
-                        help="Cosine similarity threshold for semantic matching")
-    parser.add_argument("--video-cap", type=int, default=DEFAULT_VIDEO_CAP,
-                        help="Maximum YouTube videos per brief (default: 30)")
-    args = parser.parse_args()
-
-    markers = args.markers
-    if args.qualification:
-        markers = QUALIFICATION_MARKERS
-
-    summary = generate_briefs_for_wave(
-        args.wave, markers,
-        use_semantic=not args.no_semantic,
-        semantic_threshold=args.semantic_threshold,
-        video_cap=args.video_cap,
-    )
-
-    summary_path = BRIEFS_DIR / args.wave / "_generation_summary.json"
-    summary_path.parent.mkdir(parents=True, exist_ok=True)
-    with open(summary_path, "w", encoding="utf-8") as f:
-        json.dump(summary, f, indent=2)
-    print(f"\nSummary written to: {summary_path}")
-
-    if summary["errors"]:
-        sys.exit(1)
+def main(argv: list[str] | None = None):
+    parser = argparse.ArgumentParser(description="Deprecated Hermes brief generator")
+    parser.add_argument("--wave", default="wave-0", help=argparse.SUPPRESS)
+    parser.add_argument("--markers", nargs="+", help=argparse.SUPPRESS)
+    parser.add_argument("--qualification", action="store_true", help=argparse.SUPPRESS)
+    parser.add_argument("--no-semantic", action="store_true", help=argparse.SUPPRESS)
+    parser.add_argument("--semantic-threshold", type=float, default=0.72, help=argparse.SUPPRESS)
+    parser.add_argument("--video-cap", type=int, default=DEFAULT_VIDEO_CAP, help=argparse.SUPPRESS)
+    parser.parse_args(argv)
+    parser.exit(2, DEPRECATED_CLI_MESSAGE)
 
 
 if __name__ == "__main__":

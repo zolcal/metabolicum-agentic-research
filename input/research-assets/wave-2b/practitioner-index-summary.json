@@ -1,0 +1,457 @@
+{
+  "wave": "wave-2b",
+  "markers_processed": 90,
+  "total_matches": 3,
+  "markers": {
+    "1-5-anhydroglucitol": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "5-nt": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "5-nucleotidase": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "adenosine-deaminase-csf": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "adenosine-deaminase-pericardial-fluid": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "adenosine-deaminase-peritoneal-fluid": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "adenosine-deaminase-pleural-fluid": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "adenosine-deaminase": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "albumin-2": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "albumin-3": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "aldosterone-2": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "aldosterone": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "alpha-1-fetoprotein-csf": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "alpha-1-fetoprotein": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "amikacin-peak": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "amikacin-trough": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "amikacin": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "ammonia-4": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "amylase-2": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "amylase": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "angiotensin-converting-enzyme-csf": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "angiotensin-converting-enzyme": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "beryllium-2": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "beta-2-microglobulin-urine": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "beta2m-2": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "beta2m": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "bk-virus-dna-urine": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "bk-virus-dna": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "ca": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "calcium-urine": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "chloride-3": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "choriogonadotropin-beta-subunit-csf": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "chromium-2": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "cobalt-2": {
+      "matches": 1,
+      "thesaurus": 1,
+      "semantic": 0
+    },
+    "coq10": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "cortisol-am": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "cortisol-saliva": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "cu-3": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "cu": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "eastern-equine-encephalitis-virus-ab-igg-csf": {
+      "matches": 1,
+      "thesaurus": 1,
+      "semantic": 0
+    },
+    "eastern-equine-encephalitis-virus-ab-igg": {
+      "matches": 1,
+      "thesaurus": 1,
+      "semantic": 0
+    },
+    "enolase-neuron-specific-csf": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "enolase-neuron-specific": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "gentamicin-peak": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "gentamicin-trough": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "gentamicin": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "glucose-2": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "glucose-csf": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "glucose-post-cfst": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "glutamate-decarboxylase-65-ab-csf": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "hemoglobin-4": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "histamine-2": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "histamine-3": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "iga-csf": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "iga": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "igg-csf": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "igg": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "igm-csf": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "igm": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "insulin-post-cfst": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "interleukin-10-csf": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "lactate-2": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "lactate": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "magnesium-serum-2": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "magnesium": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "manganese-2": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "measles-virus-ab-igg-csf": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "measles-virus-ab-igg": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "mma-2": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "molybdenum-2": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "molybdenum": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "plasminogen-activator-inhibitor-1-ag-2": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "plasminogen-activator-inhibitor-1-ag": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "procalcitonin": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "pyruvate-3": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "pyruvate": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "selenium-2": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "serotonin-2": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "serotonin": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "somatotropin-baseline": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "somatotropin": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "tobramycin-peak": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "tobramycin-trough": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "tobramycin": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "ubiquinone-10": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "vancomycin-peak": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "vancomycin-trough": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "vancomycin": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "zn-2": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "zn": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    }
+  }
+}

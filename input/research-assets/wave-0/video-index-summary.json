@@ -1,0 +1,37 @@
+{
+  "wave": "wave-0",
+  "markers_processed": 5,
+  "total_matches": 203,
+  "markers": {
+    "apob": {
+      "matches": 55,
+      "top_score": 29,
+      "top_term": "apob",
+      "top_tier": "T1"
+    },
+    "fasting-insulin": {
+      "matches": 56,
+      "top_score": 21,
+      "top_term": "fasting insulin",
+      "top_tier": "T1"
+    },
+    "hba1c": {
+      "matches": 77,
+      "top_score": 28,
+      "top_term": "hba1c",
+      "top_tier": "T1"
+    },
+    "lpa": {
+      "matches": 2,
+      "top_score": 4,
+      "top_term": "lipoprotein a",
+      "top_tier": "T2"
+    },
+    "tg-hdl-ratio": {
+      "matches": 13,
+      "top_score": 17,
+      "top_term": "tg/hdl",
+      "top_tier": "T2"
+    }
+  }
+}

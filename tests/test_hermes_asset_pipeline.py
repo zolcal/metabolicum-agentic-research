@@ -1,5 +1,6 @@
 from pathlib import Path
 
+import pytest
 import yaml
 
 
@@ -192,6 +193,14 @@ def test_legacy_prepare_brief_does_not_embed_meta_scores():
     assert "anchor_provenance" not in brief
     assert "known_research_context" not in brief
 
+
+def test_legacy_prepare_cli_is_deprecated():
+    from scripts import prepare_hermes_briefs
+
+    with pytest.raises(SystemExit) as exc:
+        prepare_hermes_briefs.main([])
+
+    assert exc.value.code == 2
 
 def test_acceptance_check_rejects_meta_blocks_and_sm_ranges(tmp_path, monkeypatch):
     from code.acceptance import check_hermes_briefs

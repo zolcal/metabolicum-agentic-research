@@ -1,0 +1,3377 @@
+{
+  "wave": "wave-3",
+  "markers_processed": 674,
+  "total_matches": 68,
+  "markers": {
+    "1-3-beta-glucan": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "10-hydroxycarbazepine": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "11-deoxycorticosterone": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "17-hydroxypregnenolone": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "18-hydroxycorticosterone": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "6-methylmercaptopurine": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "9-hydroxyrisperidone": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "acacia-longifolia-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "acarboxyprothrombin": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "acarus-siro-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "acer-negundo-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "acetaminophen": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "acetone": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "acetylcholine-receptor-binding-ab": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "acid-phosphatase-prostatic": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "acremonium-sp-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "actin-smooth-muscle-ab-igg": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "actinidia-chinensis-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "adalimumab-ab": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "adalimumab": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "aedes-communis-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "agaricus-hortensis-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "agrostis-stolonifera-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "aldolase": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "alkaline-phosphatase-bone": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "allium-cepa-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "allium-sativum-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "alnus-incana-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "alopercurus-pratensis-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "alpha-1-fetoprotein-tumor-marker": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "alprazolam": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "alternaria-alternata-ab-ige": {
+      "matches": 1,
+      "thesaurus": 1,
+      "semantic": 0
+    },
+    "amantadine": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "amaranthus-retroflexus-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "amaranthus-tuberculatus-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "ambrosia-elatior-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "ambrosia-psilostachya-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "ambrosia-trifida-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "amiodarone": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "amitriptyline": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "amobarbital": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "amoxicillin-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "amphetamine": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "ampicillin-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "anacardium-occidentale-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "anacardium-occidentale-recombinant-rana-o-3-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "ananas-comosus-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "anaplasma-phagocytophilum-ab-igg": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "anethum-graveolens-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "angiotensin-ii": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "anthemis-cotula-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "anthoxanthum-odoratum-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "antithrombin-ag-actual-normal": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "apis-mellifera-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "apis-mellifera-ab-igg": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "apium-graveolens-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "apixaban": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "aquaporin-4-water-channel-ab-igg": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "arachis-hypogaea-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "aripiprazole": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "artemisia-absinthium-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "artemisia-vulgaris-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "ascaris-sp-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "asparagus-officinalis-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "aspergillus-flavus-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "aspergillus-fumigatus-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "aspergillus-fumigatus-ab-igg": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "aspergillus-niger-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "astacus-astacus-ab-ige": {
+      "matches": 1,
+      "thesaurus": 1,
+      "semantic": 0
+    },
+    "atriplex-lentiformis-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "aureobasidium-pullulans-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "avena-sativa-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "avena-sativa-cultivated-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "babesia-microti-ab-igg": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "baclofen": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "basement-membrane-ab-igg": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "bean-black-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "bean-green-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "bean-kidney-red-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "bean-white-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "beef-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "beet-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "benztropine": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "bertholletia-excelsa-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "bertholletia-excelsa-recombinant-rber-e-1-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "beta-hydroxybutyrate": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "beta-lactoglobulin-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "betula-verrucosa-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "bile-acid": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "biotinidase": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "bismuth": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "bixa-orellana-seed-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "blastomyces-dermatitidis-ab": {
+      "matches": 1,
+      "thesaurus": 1,
+      "semantic": 0
+    },
+    "blatella-germanica-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "blomia-tropicalis-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "bombus-terrestris-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "bordetella-pertussis-ab-igg": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "botrytis-cinerea-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "brassica-napus-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "brassica-oleracea-var-botrytis-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "brassica-oleracea-var-capitata-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "brassica-oleracea-var-italica-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "bromus-inermis-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "brucella-sp-ab": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "budgerigar-droppings-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "bupivacaine": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "bupropion": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "cadmium-blood-2": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "caffeine": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "calcidiol-ercalcidiol": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "calcidiol": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "calcitonin": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "camellia-sinensis-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "cancer-ag-125": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "cancer-ag-15-3": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "cancer-ag-19-9": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "cancer-ag-27-29": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "cancer-pagurus-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "candida-albicans-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "capsicum-annuum-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "carbamazepine-free": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "carbamazepine-total": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "carbamazepine": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "carbon-dioxide": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "carcinoembryonic-ag": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "cardiolipin-ab-iga": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "cardiolipin-ab-igg": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "cardiolipin-ab-igm": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "carica-papaya-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "carotene": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "carum-carvi-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "carya-illinoinensis-nut-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "carya-illinoinensis-tree-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "carya-ovata-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "casein-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "castanea-sativa-ab-ige": {
+      "matches": 1,
+      "thesaurus": 1,
+      "semantic": 0
+    },
+    "casuarina-equisetifolia-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "cells-cd3-cd4": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "cells-cd3-cd8": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "celtis-occidentalis-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "centromere-ab-igg": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "ceratonia-siliqua-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "ceruloplasmin": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "chaetomium-globosum-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "cheese-cheddar-type-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "cheese-mold-type-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "chenopodium-album-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "chenopodium-quinoa-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "chicken-feather-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "chicken-serum-proteins-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "chlorpromazine": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "cholinesterase": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "choriomammotropin": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "chromogranin-a": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "chronic-urticaria-index": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "chymotrypsin-stool": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "cicer-arientinum-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "cinnamomum-spp-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "citrate": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "citrullus-lanatus-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "citrus-aurantifolia-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "citrus-limon-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "citrus-paradisis-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "citrus-reticulata-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "citrus-sinensis-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "clinical-biochemist-review": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "clobazam": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "clomipramine": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "clonidine": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "clorazepate": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "clostridium-tetani-toxoid-ab-igg": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "clupea-harengus-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "coagulation-3": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "coagulation-actual-normal": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "coagulation-factor-ix-activity-actual-normal": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "coagulation-factor-ix-inhibitor": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "coagulation-factor-v-activity-actual-normal": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "coagulation-factor-vii-activity-actual-normal": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "coagulation-factor-viii-activity-actual-normal": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "coagulation-factor-x-activity-actual-normal": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "coagulation-factor-xi-activity-actual-normal": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "coagulation-factor-xii-activity-actual-normal": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "coagulation-factor-xiii-activity-actual-normal": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "cocos-nucifera-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "coffea-spp-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "cold-agglutinin": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "complement-c1-esterase-inhibitor-actual-normal": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "complement-c1-esterase-inhibitor": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "complement-c1q-ab": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "complement-c1q": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "complement-c2": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "complement-c3a": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "complement-c5-functional": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "complement-c5": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "complement-sc5b-9": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "complement-total-hemolytic-ch50": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "coriandrum-sativum-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "corticosterone": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "corylus-avellana-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "corylus-avellana-recombinant-rcor-a-8-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "corynebacterium-diphtheriae-ab-igg": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "coryphaena-hippurus-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "cow-milk-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "cow-whey-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "creatine-kinase-mb-creatine-kinase-total": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "creatine-kinase-mb": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "creatine": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "cryptomeria-japonica-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "cu-2": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "cucumis-melo-spp-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "cucumis-sativus-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "cucurbita-pepo-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "cucurbita-pepo-seed-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "curcuma-longa-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "curvularia-lunata-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "curvularia-specifera-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "cv2-ab-igg-csf": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "cyamopsis-tetragonoloba-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "cyclobenzaprine": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "cyclosporine": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "cynodon-dactylon-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "cytomegalovirus-ab-igg-avidity": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "dactylis-glomerata-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "daucus-carota-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "dehydroepiandrosterone-sulfate": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "dermatophagoides-farinae-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "dermatophagoides-microceras-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "dermatophagoides-pteronyssinus-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "desipramine": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "dexamethasone": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "dextromethorphan": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "digitoxin": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "digoxin-3": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "digoxin-free": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "diltiazem": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "diphenylmethane-diisocyanate-mdi-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "dna-double-strand-ab-igg": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "dnase-b-ab-streptococcal": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "dog-dander-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "dolichovespula-arenaria-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "dolichovespula-maculata-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "dolichovespula-maculata-ab-igg": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "dopamine-2": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "doxepin": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "duck-feather-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "duloxetine": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "egg-white-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "egg-whole-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "egg-yolk-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "ehrlichia-chaffeensis-ab-igg": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "engraulis-encrasicolus-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "ephedrine": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "epicoccum-purpurascens-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "epstein-barr-virus-capsid-ab-igg": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "epstein-barr-virus-capsid-ab-igm": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "epstein-barr-virus-early-diffuse-ab-igg": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "epstein-barr-virus-nuclear-ab-igg": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "erythropoietin": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "ethosuximide": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "ethylene-glycol": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "eucalyptus-spp-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "everolimus": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "fagopyrum-esculentum-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "fagus-grandifolia-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "felbamate": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "festuca-elatior-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "finch-feather-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "flecainide": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "flounder-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "fluconazole": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "fluphenazine": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "flurazepam": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "fluvoxamine": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "formaldehyde-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "fragaria-vesca-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "franseria-acanthicarpa-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "fraxinus-americana-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "furosemide": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "fusarium-moniliforme-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "gabapentin": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "gadus-morhua-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "galactomannan-ag": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "galactose-alpha-1-3-galactose-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "ganglioside-gm1-ab-igg-igm": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "ganglioside-gm1-ab-igm": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "gelatin-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "gelatin-porcine-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "gerbil-epithelium-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "gliadin-peptide-ab-iga": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "gliadin-peptide-ab-igg": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "glial-fibrillary-acidic-protein": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "glucagon": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "glutamine-csf": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "gluten-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "glycine-max-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "glycyphagus-domesticus-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "goat-epithelium-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "goat-milk-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "goose-feather-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "guinea-pig-epithelium-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "gum-arabic-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "haemophilus-influenzae-b-ab-igg": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "haloperidol": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "hamster-epithelium-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "haptoglobin": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "heavy-metals-panel": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "helianthus-annuus-pollen-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "helianthus-annuus-seed-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "heparin-unfractionated": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "hepatitis-b-virus-surface-ab": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "hepatitis-c-virus-rna": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "her2-ag": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "hexamethylene-diisocyanate-hdi-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "hippoglossus-hippoglossus-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "histone-ab-igg": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "hiv-1-rna": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "homarus-gammarus-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "hordeum-vulgare-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "horse-dander-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "house-dust-greer-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "house-dust-hollister-stier-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "human-antimouse-ab": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "human-epididymis-protein-4": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "hydroxyzine": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "ibuprofen": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "ictalurus-punctatus-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "igd": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "igg-subclass-4": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "igg-synthesis-rate": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "immune-complex": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "inhibin-a": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "inhibin-b": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "insulin-ab": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "interferon-gamma": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "interleukin-2-receptor-soluble": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "interleukin-2": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "interleukin-4": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "interleukin-8": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "ipomoea-batatas-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "islet-cell-512-ab": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "ispaghula-laxative-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "itraconazole-serum-whole-blood-plasma": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "iva-ciliata-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "jo-1-extractable-nuclear-ab": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "juglans-california-pollen-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "juglans-regia-recombinant-rjug-r-1-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "juglans-spp-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "juniperus-sabinoides-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "juniperus-virginiana-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "kochia-scoparia-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "lacosamide": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "lactalbumin-alpha-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "lactic-acid": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "lactuca-sativa-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "lamb-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "lamotrigine": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "latex-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "laurus-nobilis-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "lead-blood-2": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "legionella-pneumophila-ab": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "lens-esculenta-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "lepidoglyphus-destructor-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "levetiracetam": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "lidocaine": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "ligustrum-vulgare-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "limulus-amebocyte-lysate-test-other": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "linum-usitatissimum-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "liquidambar-styraciflua-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "lithium": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "liver-kidney-microsomal-1-ab": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "loligo-sp-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "lolium-perenne-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "lorazepam": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "lpa-2": {
+      "matches": 14,
+      "thesaurus": 14,
+      "semantic": 0
+    },
+    "lycopersicon-lycopersicum-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "lysozyme": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "macadamia-spp-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "malt-ab-ige": {
+      "matches": 1,
+      "thesaurus": 1,
+      "semantic": 0
+    },
+    "malus-sylvestris-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "mangifera-indica-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "mannose-binding-protein": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "medicago-sativa-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "melaleuca-leucadendron-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "melanogrammus-aeglefinus-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "mentha-piperita-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "mercury-blood-2": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "merluccius-merluccius-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "methadone": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "methotrexate": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "methylphenidate": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "mexiletine": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "mi-2-ab": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "micropterus-salmoides-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "midazolam": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "mirtazapine": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "mitochondria-m2-ab": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "mitotane": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "morus-alba-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "moth-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "mouse-epithelium-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "mouse-serum-proteins-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "mouse-urine-proteins-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "mucor-racemosus-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "mumps-virus-ab-igg": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "mumps-virus-ab-igm": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "musa-spp-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "muscle-specific-receptor-tyrosine-kinase-ab": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "mustard-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "mutated-citrullinated-vimentin-ab": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "mycophenolate": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "mycoplasma-pneumoniae-ab-igg": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "mycoplasma-pneumoniae-ab-igm": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "myelin-associated-glycoprotein-ab-igm": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "myelin-basic-protein-csf": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "myeloperoxidase-ab": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "myrica-spp-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "mytilus-edulis-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "n-acetylprocainamide": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "neurofilament-light-chain": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "nickel": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "norclozapine": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "norfentanyl": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "norsertraline": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "nortriptyline": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "nuclear-ab-igg": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "nuclear-ab": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "nuclear-pore-protein-gp210-ab": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "nutmeg-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "observation": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "ocimum-basilicum-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "octopus-vulgaris-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "olanzapine": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "olea-europaea-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "olea-europaea-pollen-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "oncorhynchus-mykiss-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "origanum-vulgare-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "oryza-sativa-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "ostrea-edulis-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "ovalbumin-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "ovomucoid-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "oxalate": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "oxazepam": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "oxycodone": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "pancreatic-polypeptide": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "pandalus-borealis-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "panicum-milliaceum-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "papaver-somniferum-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "parathyrin-intact": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "parathyrin-related-protein": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "parietal-cell-ab-igg": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "parietaria-officinalis-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "paspalum-notatum-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "pathology-study": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "pecten-spp-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "penicillin-g-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "penicillin-v-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "penicillium-notatum-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "pentobarbital": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "pepper-green-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "periplaneta-americana-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "perphenazine": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "persea-americana-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "petroselinum-crispum-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "ph": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "phalaris-arundinacea-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "phaseolus-limensis-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "phencyclidine": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "phenobarbital": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "phenylalanine": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "phenytoin-free-total-panel": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "phenytoin-free": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "phenytoin": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "phleum-pratense-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "phoma-betae-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "phosphatidylserine-ab-igg": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "phosphatidylserine-prothrombin-complex-ab-igg": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "phospholipase-a2-receptor-ab-igg-2": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "phragmites-communis-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "phthalic-anhydride-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "pigeon-feather-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "pimpinella-anisum-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "pinus-edulis-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "pinus-strobus-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "pistacia-vera-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "pisum-sativum-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "plantago-lanceolata-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "plasmin-inhibitor-actual-normal": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "plasminogen-activator-tissue-type-ag": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "plasminogen-actual-normal": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "platelet-factor-4-heparin-complex-induced-ab-igg": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "pleuronectes-platessa-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "poa-pratensis-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "polistes-spp-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "pollachius-virens-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "populus-alba-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "populus-deltoides-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "populus-tremula-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "pork-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "porphyrins": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "posaconazole-serum-whole-blood-urine": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "pregabalin": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "pregnenolone": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "prekallikrein-activity-actual-normal": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "procollagen-type-i-n-terminal-propeptide": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "promethazine": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "propafenone": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "prosopis-juliflora-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "prostate-specific-ag-2": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "prostate-specific-ag-free": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "prostate-specific-ag-protein-bound": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "protein-c-actual-normal-2": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "protein-c-ag-actual-normal": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "protein-s-ag-actual-normal": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "protein-s-free-ag-actual-normal": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "protein-total": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "proteinase-3-ab": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "prothrombin-activity-actual-normal": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "protriptyline": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "provasopressin-c-terminal": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "prunus-armeniaca-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "prunus-avium-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "prunus-domestica-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "prunus-dulcis-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "prunus-persica-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "prunus-persica-var-nucipersica-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "pt-2": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "pyrus-communis-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "quercus-alba-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "quercus-rubra-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "quercus-virginiana-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "quetiapine": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "quinidine": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "rabbit-epithelium-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "rabbit-meat-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "rat-epithelium-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "rat-serum-proteins-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "rat-urine-proteins-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "referral-lab-test-reference-range": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "retinol-binding-protein": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "rhizopus-nigricans-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "riboflavin": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "ribosomal-p-ab": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "rickettsia-typhi-ab-igg": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "risperidone-9-hydroxyrisperidone-panel": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "rna-polymerase-iii-ab-igg": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "rubella-virus-ab-igg": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "rubella-virus-ab-igm": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "rubus-fruticosus-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "rubus-idaeus-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "ruditapes-spp-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "rufinamide": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "rumex-acetosella-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "rumex-crispus-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "saccharomyces-cerevisiae-ab-iga": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "saccharomyces-cerevisiae-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "saccharomyces-cerevisiae-ab-igg-2": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "saccharum-officinarum-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "salicylates": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "salix-caprea-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "salmo-salar-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "salsola-kali-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "sardina-pilchardus-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "scl-70-extractable-nuclear-ab-igg": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "scomber-scombrus-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "secale-cereale-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "secale-cereale-pollen-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "secobarbital": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "seminal-fluid-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "serotonin-release-100-iu-ml-heparin-unfractionated": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "sesamum-indicum-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "setomelanomma-rostrata-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "sheep-epithelium-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "sirolimus": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "sjogrens-syndrome-b-extractable-nuclear-ab-igg": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "smith-extractable-nuclear-ab-igg": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "snapper-red-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "solanum-melongena-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "solanum-tuberosum-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "solea-solea-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "solenopsis-invicta-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "solidago-virgaurea-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "soluble-fms-like-tyrosine-kinase-1-placental-growth-factor": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "soluble-liver-ab-igg": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "soluble-liver-ab": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "somatostatin": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "sorghum-halepense-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "sotalol": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "sp100-ab": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "spinacia-oleracea-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "squamous-cell-carcinoma-ag": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "squash-zucchini-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "staphylococcus-aureus-enterotoxin-a-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "stemphylium-botryosum-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "stfr-3": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "stizostedion-vitreum-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "streptolysin-o-ab": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "swine-epithelium-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "syagrus-romanzoffianum-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "syzygium-aromaticum-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "tabanus-spp-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "taenia-solium-larva-ab-igg-csf": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "taraxacum-vulgare-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "taxodium-distichum-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "temazepam": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "teriflunomide": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "thallium": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "theobroma-cacao-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "theophylline": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "thiocyanate": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "thiopurine-methyltransferase": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "thrombopoietin": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "thunnus-albacares-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "thymus-vulgaris-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "thyroglobulin-ab": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "thyroperoxidase-ab": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "thyrotropin-receptor-ab": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "thyrotropin": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "thyroxine-free-2": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "tilapia-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "tin": {
+      "matches": 49,
+      "thesaurus": 49,
+      "semantic": 0
+    },
+    "tissue-transglutaminase-ab-iga": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "tissue-transglutaminase-ab-igg": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "todarodes-pacificus-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "toluene-diisocyanate-tdi-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "topiramate": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "toxoplasma-gondii-ab-igg": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "toxoplasma-gondii-ab-igm": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "tramadol": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "trazodone": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "triacylglycerol-lipase": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "triazolam": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "trichoderma-viride-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "trichophyton-mentagrophytes-var-interdigitale-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "trichophyton-rubrum-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "triiodothyronine-free": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "trimipramine": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "triticum-aestivum-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "triticum-aestivum-pollen-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "turkey-feather-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "turkey-meat-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "tyrophagus-putrescentiae-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "ulmus-americana-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "urtica-dioica-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "ustekinumab": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "ustilago-maydis-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "vaccinium-myrtillus-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "vaccinium-oxycoccos-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "valproate-free": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "valproate": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "valproic-acid": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "vanilla-planifolia-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "varicella-zoster-virus-ab-igg": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "varicella-zoster-virus-ab-igm": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "vascular-endothelial-growth-factor": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "vasoactive-intestinal-peptide": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "vespula-spp-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "vigabatrin": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "viscosity": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "vitis-vinifera-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "von-willebrand-factor-ag-actual-normal": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "von-willebrand-factor-cleaving-protease-actual-normal": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "von-willebrand-factor-cleaving-protease-inhibitor-2": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "voriconazole": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "whitefish-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "xanthium-commune-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "xiphias-gladius-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "zea-mays-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "zea-mays-pollen-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "zinc-transporter-8-ab": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "zingiber-officinale-ab-ige": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "ziprasidone": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "zn-3": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    },
+    "zonisamide": {
+      "matches": 0,
+      "thesaurus": 0,
+      "semantic": 0
+    }
+  }
+}

@@ -110,11 +110,17 @@ These checks must hold after the Hermes install and before the pipeline runs rea
 | **External-provider boundary** | Acceptance tests use local inference only. Any cloud call is out of scope unless explicitly approved. |
 | **MCP support** | Out of scope. Our tools are fixed (read file, write file, Supabase query, submit output). |
 
+### Test environment
+
+Use `code/environment.yml` to create or update the `hermes` conda environment; it includes `pytest` for the acceptance and regression suites. Run tests with a project-local `TMPDIR` such as `.pytest-tmp/`, not `/tmp`.
+
 ### Test Task
 
 Run the full Stage 2 chain on **one cached source transcript** (e.g., a practitioner blog post or podcast transcript from the `sources` table): content extractor → marker tagger → demographic structurer.
 
 **Input:**
+- `input/hermes-briefs/<wave>/<marker>.yaml` — Hermes trigger input: council-only `sm_reference` + pointer fields (video IDs, practitioners, PMIDs, DOIs, source URLs, search queries). Generated deterministically by `scripts/assemble_hermes_briefs.py` from committed `input/research-assets/<wave>/` indices; never modified in-place.
+- `input/sm-ranges/<wave>/<marker>.yaml` — untouched SM reference anchor (sanity check only).
 - `fixtures/sources/<id>.json` expanded to `source.transcript.json` for the run (immutable; validates against `code/schemas/source_fixture.schema.json`)
 - `marker_glossary.json`
 - `practitioner_aliases.json`

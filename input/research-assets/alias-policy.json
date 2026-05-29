@@ -1,0 +1,5252 @@
+{
+  "tg-hdl-ratio": {
+    "tiers": {
+      "T1": [],
+      "T2": [
+        "tg-hdl",
+        "tg/hdl",
+        "tg/hdl ratio",
+        "triglyceride to hdl ratio",
+        "triglyceride-hdl ratio"
+      ],
+      "T3": [],
+      "T4": [
+        "tg:hdl",
+        "tg_hdl_ratio"
+      ]
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "hba1c": {
+    "tiers": {
+      "T1": [
+        "a1c",
+        "hba1c"
+      ],
+      "T2": [
+        "glycated hemoglobin",
+        "haemoglobin a1c",
+        "hemoglobin a1c"
+      ],
+      "T3": [],
+      "T4": [
+        "glycohemoglobin"
+      ]
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "apob": {
+    "tiers": {
+      "T1": [
+        "apob"
+      ],
+      "T2": [
+        "apo b-100",
+        "apo-b",
+        "apolipoprotein b",
+        "apolipoprotein-b"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "lpa": {
+    "tiers": {
+      "T1": [],
+      "T2": [
+        "lipoprotein a",
+        "lipoprotein little a",
+        "lipoprotein(a)",
+        "lp(a)"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "fasting-insulin": {
+    "tiers": {
+      "T1": [
+        "fasting insulin"
+      ],
+      "T2": [
+        "fasting plasma insulin",
+        "fasting serum insulin"
+      ],
+      "T3": [],
+      "T4": [
+        "fi",
+        "fins"
+      ]
+    },
+    "excluded_terms": [
+      "fi"
+    ],
+    "collision_warnings": []
+  },
+  "homa-ir": {
+    "tiers": {
+      "T1": [
+        "homa ir",
+        "homa-ir"
+      ],
+      "T2": [
+        "homa1-ir",
+        "homeostatic model assessment",
+        "insulin resistance index"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "igf-1": {
+    "tiers": {
+      "T1": [
+        "igf 1",
+        "igf-1"
+      ],
+      "T2": [
+        "insulin-like growth factor 1",
+        "insulin-like growth factor-1",
+        "somatomedin c"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "vitamin-d": {
+    "tiers": {
+      "T1": [
+        "25-hydroxyvitamin d",
+        "vitamin d",
+        "vitamin-d"
+      ],
+      "T2": [
+        "25(oh)d"
+      ],
+      "T3": [],
+      "T4": [
+        "cholecalciferol"
+      ]
+    },
+    "excluded_terms": [],
+    "collision_warnings": [
+      {
+        "term": "vitamin d",
+        "shared_with": [
+          "calcitriol"
+        ],
+        "recommendation": "demote_to_T4_or_add_disambiguator"
+      }
+    ]
+  },
+  "crp-standard": {
+    "tiers": {
+      "T1": [],
+      "T2": [
+        "c reactive protein",
+        "c-reactive protein",
+        "high sensitivity crp",
+        "hs-crp"
+      ],
+      "T3": [
+        "crp"
+      ],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": [
+      {
+        "term": "c-reactive protein",
+        "shared_with": [
+          "hscrp"
+        ],
+        "recommendation": "demote_to_T4_or_add_disambiguator"
+      },
+      {
+        "term": "crp",
+        "shared_with": [
+          "hscrp"
+        ],
+        "recommendation": "demote_to_T4_or_add_disambiguator"
+      }
+    ]
+  },
+  "hdl-cholesterol": {
+    "tiers": {
+      "T1": [
+        "hdl cholesterol",
+        "hdl-cholesterol"
+      ],
+      "T2": [
+        "hdl-c",
+        "high density lipoprotein cholesterol"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "uric-acid": {
+    "tiers": {
+      "T1": [
+        "serum uric acid",
+        "uric acid",
+        "uric-acid"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": [
+        "urate"
+      ]
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "fructosamine": {
+    "tiers": {
+      "T1": [
+        "fructosamine"
+      ],
+      "T2": [
+        "glycated serum protein",
+        "serum fructosamine"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "15-ag": {
+    "tiers": {
+      "T1": [
+        "15 ag",
+        "15-ag"
+      ],
+      "T2": [
+        "1,5-anhydroglucitol"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "2h-pg": {
+    "tiers": {
+      "T1": [
+        "2h pg",
+        "2h-pg"
+      ],
+      "T2": [
+        "2-hour",
+        "postprandial glucose",
+        "postprandial glucose (2-hour)"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "5-nt": {
+    "tiers": {
+      "T1": [
+        "5 nt",
+        "5-nt"
+      ],
+      "T2": [
+        "5'-nucleotidase"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "8-ohdg": {
+    "tiers": {
+      "T1": [
+        "8 ohdg",
+        "8-ohdg"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "aaepa-ratio": {
+    "tiers": {
+      "T1": [
+        "aaepa ratio"
+      ],
+      "T2": [
+        "aa/epa ratio"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "absolute-lymphocytes": {
+    "tiers": {
+      "T1": [
+        "absolute lymphocytes"
+      ],
+      "T2": [
+        "lymphocytes (absolute)"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "absolute-neutrophils": {
+    "tiers": {
+      "T1": [
+        "absolute neutrophils"
+      ],
+      "T2": [
+        "neutrophils (absolute)"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "acth": {
+    "tiers": {
+      "T1": [
+        "acth"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "adiponectin": {
+    "tiers": {
+      "T1": [
+        "adiponectin"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "adiponectin-leptin-ratio": {
+    "tiers": {
+      "T1": [
+        "adiponectin leptin ratio"
+      ],
+      "T2": [
+        "adiponectin to leptin ratio",
+        "adiponectin/leptin ratio"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "aip": {
+    "tiers": {
+      "T1": [
+        "aip"
+      ],
+      "T2": [
+        "atherogenic index",
+        "atherogenic index of plasma"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "albumin": {
+    "tiers": {
+      "T1": [
+        "albumin",
+        "serum albumin"
+      ],
+      "T2": [
+        "liver protein"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "albuminglobulin-ratio": {
+    "tiers": {
+      "T1": [
+        "albuminglobulin ratio"
+      ],
+      "T2": [
+        "albumin/globulin ratio"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "alc": {
+    "tiers": {
+      "T1": [
+        "alc"
+      ],
+      "T2": [
+        "acetyl-l-carnitine"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "aldosterone": {
+    "tiers": {
+      "T1": [
+        "aldosterone"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "alp": {
+    "tiers": {
+      "T1": [
+        "alp"
+      ],
+      "T2": [
+        "alk phos",
+        "alkaline phosphatase"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "alt": {
+    "tiers": {
+      "T1": [
+        "alt"
+      ],
+      "T2": [
+        "alanine aminotransferase",
+        "liver enzyme"
+      ],
+      "T3": [],
+      "T4": [
+        "sgpt"
+      ]
+    },
+    "excluded_terms": [],
+    "collision_warnings": [
+      {
+        "term": "liver enzyme",
+        "shared_with": [
+          "ast",
+          "ggt"
+        ],
+        "recommendation": "demote_to_T4_or_add_disambiguator"
+      }
+    ]
+  },
+  "amh": {
+    "tiers": {
+      "T1": [
+        "amh"
+      ],
+      "T2": [
+        "anti-müllerian hormone"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "amino-acid-profile-essential": {
+    "tiers": {
+      "T1": [
+        "amino acid profile essential"
+      ],
+      "T2": [
+        "amino acid profile",
+        "amino acid profile (essential)"
+      ],
+      "T3": [],
+      "T4": [
+        "essential"
+      ]
+    },
+    "excluded_terms": [
+      "essential"
+    ],
+    "collision_warnings": []
+  },
+  "ammonia": {
+    "tiers": {
+      "T1": [
+        "ammonia"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "ana": {
+    "tiers": {
+      "T1": [
+        "ana"
+      ],
+      "T2": [
+        "antinuclear antibodies"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "anion-gap": {
+    "tiers": {
+      "T1": [
+        "anion gap"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "anti-ccp-2": {
+    "tiers": {
+      "T1": [
+        "anti ccp 2",
+        "anti-ccp",
+        "anti-ccp-2"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "anti-dsdna": {
+    "tiers": {
+      "T1": [
+        "anti dsdna",
+        "anti-dsdna"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "antithrombin-iii": {
+    "tiers": {
+      "T1": [
+        "antithrombin iii"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "apoa1": {
+    "tiers": {
+      "T1": [
+        "apoa1"
+      ],
+      "T2": [
+        "apoa-i",
+        "apolipoprotein a1"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "apob-apoa1-ratio": {
+    "tiers": {
+      "T1": [
+        "apob apoa1 ratio"
+      ],
+      "T2": [
+        "apob/apoa1 ratio"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "apoc-iii": {
+    "tiers": {
+      "T1": [
+        "apoc iii",
+        "apoc-iii"
+      ],
+      "T2": [
+        "apolipoprotein c-iii"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "apoe": {
+    "tiers": {
+      "T1": [
+        "apoe"
+      ],
+      "T2": [
+        "apolipoprotein e"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "apri-score": {
+    "tiers": {
+      "T1": [
+        "apri score"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "aptt": {
+    "tiers": {
+      "T1": [
+        "aptt"
+      ],
+      "T2": [
+        "activated partial thromboplastin time"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "arr-aldosterone-renin-ratio": {
+    "tiers": {
+      "T1": [
+        "arr aldosterone renin ratio"
+      ],
+      "T2": [
+        "aldosterone/renin ratio",
+        "arr (aldosterone to renin ratio)",
+        "arr (aldosterone/renin ratio)"
+      ],
+      "T3": [],
+      "T4": [
+        "arr"
+      ]
+    },
+    "excluded_terms": [
+      "arr"
+    ],
+    "collision_warnings": []
+  },
+  "arsenic-urine": {
+    "tiers": {
+      "T1": [
+        "arsenic urine"
+      ],
+      "T2": [
+        "arsenic (urine)"
+      ],
+      "T3": [],
+      "T4": [
+        "arsenic"
+      ]
+    },
+    "excluded_terms": [
+      "arsenic"
+    ],
+    "collision_warnings": []
+  },
+  "ast": {
+    "tiers": {
+      "T1": [
+        "ast"
+      ],
+      "T2": [
+        "aspartate aminotransferase"
+      ],
+      "T3": [],
+      "T4": [
+        "liver enzyme",
+        "sgot"
+      ]
+    },
+    "excluded_terms": [
+      "liver enzyme"
+    ],
+    "collision_warnings": [
+      {
+        "term": "liver enzyme",
+        "shared_with": [
+          "alt",
+          "ggt"
+        ],
+        "recommendation": "demote_to_T4_or_add_disambiguator"
+      }
+    ]
+  },
+  "astalt-ratio": {
+    "tiers": {
+      "T1": [
+        "astalt ratio"
+      ],
+      "T2": [
+        "ast/alt ratio"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "bard-score": {
+    "tiers": {
+      "T1": [
+        "bard score"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "basophils": {
+    "tiers": {
+      "T1": [
+        "basophils",
+        "basophils (%)"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "basophils-absolute": {
+    "tiers": {
+      "T1": [
+        "basophils absolute"
+      ],
+      "T2": [
+        "basophils (absolute)"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "beta2m": {
+    "tiers": {
+      "T1": [
+        "beta2m"
+      ],
+      "T2": [
+        "beta-2 microglobulin"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "bicarbonate": {
+    "tiers": {
+      "T1": [
+        "bicarbonate",
+        "bicarbonate (serum)"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "bilirubin-total": {
+    "tiers": {
+      "T1": [
+        "bilirubin total"
+      ],
+      "T2": [
+        "serum bilirubin",
+        "total bilirubin"
+      ],
+      "T3": [
+        "bilirubin"
+      ],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "bio-t": {
+    "tiers": {
+      "T1": [
+        "bio t",
+        "bio-t"
+      ],
+      "T2": [
+        "bioavailable testosterone"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "bisphenol-a": {
+    "tiers": {
+      "T1": [
+        "bisphenol a"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "bnp": {
+    "tiers": {
+      "T1": [
+        "bnp"
+      ],
+      "T2": [
+        "b-type natriuretic peptide",
+        "brain natriuretic peptide",
+        "heart failure marker"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": [
+      {
+        "term": "heart failure marker",
+        "shared_with": [
+          "nt-probnp"
+        ],
+        "recommendation": "demote_to_T4_or_add_disambiguator"
+      }
+    ]
+  },
+  "body-adiposity-index": {
+    "tiers": {
+      "T1": [
+        "body adiposity index"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "body-mass-index": {
+    "tiers": {
+      "T1": [
+        "body mass index"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": [
+        "bmi"
+      ]
+    },
+    "excluded_terms": [
+      "bmi"
+    ],
+    "collision_warnings": []
+  },
+  "bun": {
+    "tiers": {
+      "T1": [
+        "bun"
+      ],
+      "T2": [
+        "blood urea nitrogen",
+        "kidney function"
+      ],
+      "T3": [
+        "urea"
+      ],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": [
+      {
+        "term": "kidney function",
+        "shared_with": [
+          "creatinine",
+          "egfr",
+          "estimated-gfr-cystatin-c",
+          "estimated-gfr-mdrd"
+        ],
+        "recommendation": "demote_to_T4_or_add_disambiguator"
+      }
+    ]
+  },
+  "buncreatinine-ratio": {
+    "tiers": {
+      "T1": [
+        "buncreatinine ratio"
+      ],
+      "T2": [
+        "bun/creatinine ratio"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "c-peptide-fasting": {
+    "tiers": {
+      "T1": [
+        "c peptide fasting"
+      ],
+      "T2": [
+        "c-peptide (fasting)",
+        "fasting c-peptide",
+        "insulin production"
+      ],
+      "T3": [],
+      "T4": [
+        "c-peptide",
+        "fasting"
+      ]
+    },
+    "excluded_terms": [
+      "c-peptide",
+      "fasting"
+    ],
+    "collision_warnings": [
+      {
+        "term": "c-peptide",
+        "shared_with": [
+          "c-peptide-stimulated"
+        ],
+        "recommendation": "demote_to_T4_or_add_disambiguator"
+      }
+    ]
+  },
+  "c-peptide-stimulated": {
+    "tiers": {
+      "T1": [
+        "c peptide stimulated"
+      ],
+      "T2": [
+        "c-peptide",
+        "c-peptide (stimulated)"
+      ],
+      "T3": [],
+      "T4": [
+        "stimulated"
+      ]
+    },
+    "excluded_terms": [],
+    "collision_warnings": [
+      {
+        "term": "c-peptide",
+        "shared_with": [
+          "c-peptide-fasting"
+        ],
+        "recommendation": "demote_to_T4_or_add_disambiguator"
+      }
+    ]
+  },
+  "c3-complement": {
+    "tiers": {
+      "T1": [
+        "c3 complement"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "c4-complement": {
+    "tiers": {
+      "T1": [
+        "c4 complement"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "ca": {
+    "tiers": {
+      "T1": [],
+      "T2": [
+        "ionized calcium"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "cadmium-blood": {
+    "tiers": {
+      "T1": [
+        "cadmium blood"
+      ],
+      "T2": [
+        "cadmium (blood)"
+      ],
+      "T3": [],
+      "T4": [
+        "cadmium"
+      ]
+    },
+    "excluded_terms": [
+      "cadmium"
+    ],
+    "collision_warnings": []
+  },
+  "calcitriol": {
+    "tiers": {
+      "T1": [
+        "calcitriol"
+      ],
+      "T2": [
+        "1,25-oh",
+        "vit d (1,25-oh)",
+        "vitamin d (1,25-oh)"
+      ],
+      "T3": [],
+      "T4": [
+        "vitamin d"
+      ]
+    },
+    "excluded_terms": [
+      "vitamin d"
+    ],
+    "collision_warnings": [
+      {
+        "term": "vitamin d",
+        "shared_with": [
+          "vitamin-d"
+        ],
+        "recommendation": "demote_to_T4_or_add_disambiguator"
+      }
+    ]
+  },
+  "calcium": {
+    "tiers": {
+      "T1": [
+        "calcium",
+        "calcium (serum)"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "calcium-creatinine-ratio-urine": {
+    "tiers": {
+      "T1": [
+        "calcium creatinine ratio urine"
+      ],
+      "T2": [
+        "calcium to creatinine ratio (urine)",
+        "calcium/creatinine ratio",
+        "calcium/creatinine ratio (urine)"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "carnitine-total-and-free": {
+    "tiers": {
+      "T1": [
+        "carnitine total and free"
+      ],
+      "T2": [
+        "carnitine, total & free"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "cat": {
+    "tiers": {
+      "T1": [
+        "cat"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": [
+        "catalase"
+      ]
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "cec": {
+    "tiers": {
+      "T1": [
+        "cec"
+      ],
+      "T2": [
+        "cholesterol efflux capacity"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "cetp-activity": {
+    "tiers": {
+      "T1": [
+        "cetp activity"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "chloride": {
+    "tiers": {
+      "T1": [
+        "chloride",
+        "chloride (serum)"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "ck": {
+    "tiers": {
+      "T1": [
+        "ck"
+      ],
+      "T2": [
+        "creatine kinase"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "ck-mb": {
+    "tiers": {
+      "T1": [
+        "ck mb",
+        "ck-mb"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "copper-zinc-ratio": {
+    "tiers": {
+      "T1": [
+        "copper zinc ratio"
+      ],
+      "T2": [
+        "copper to zinc ratio",
+        "copper/zinc ratio"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "coq10": {
+    "tiers": {
+      "T1": [
+        "coq10"
+      ],
+      "T2": [
+        "coenzyme q10"
+      ],
+      "T3": [],
+      "T4": [
+        "ubiquinol",
+        "ubiquinone"
+      ]
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "corrected-calcium": {
+    "tiers": {
+      "T1": [
+        "corrected calcium"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "corrected-sodium-hyperglycemia": {
+    "tiers": {
+      "T1": [
+        "corrected sodium hyperglycemia"
+      ],
+      "T2": [
+        "corrected sodium",
+        "corrected sodium (hyperglycemia)"
+      ],
+      "T3": [],
+      "T4": [
+        "hyperglycemia"
+      ]
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "cortisol-acth-ratio": {
+    "tiers": {
+      "T1": [
+        "cortisol acth ratio"
+      ],
+      "T2": [
+        "cortisol  to  acth ratio",
+        "cortisol / acth ratio",
+        "cortisol/acth ratio"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "cortisol-am": {
+    "tiers": {
+      "T1": [
+        "cortisol am"
+      ],
+      "T2": [
+        "am cortisol",
+        "cortisol (am)",
+        "morning cortisol",
+        "stress hormone"
+      ],
+      "T3": [
+        "cortisol"
+      ],
+      "T4": [
+        "am"
+      ]
+    },
+    "excluded_terms": [
+      "am"
+    ],
+    "collision_warnings": [
+      {
+        "term": "cortisol",
+        "shared_with": [
+          "cortisol-pm"
+        ],
+        "recommendation": "demote_to_T4_or_add_disambiguator"
+      }
+    ]
+  },
+  "cortisol-awakening-response": {
+    "tiers": {
+      "T1": [
+        "cortisol awakening response"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "cortisol-pm": {
+    "tiers": {
+      "T1": [
+        "cortisol pm"
+      ],
+      "T2": [
+        "cortisol (pm)"
+      ],
+      "T3": [],
+      "T4": [
+        "cortisol",
+        "pm"
+      ]
+    },
+    "excluded_terms": [
+      "cortisol",
+      "pm"
+    ],
+    "collision_warnings": [
+      {
+        "term": "cortisol",
+        "shared_with": [
+          "cortisol-am"
+        ],
+        "recommendation": "demote_to_T4_or_add_disambiguator"
+      }
+    ]
+  },
+  "cotinine": {
+    "tiers": {
+      "T1": [
+        "cotinine"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "creatinine": {
+    "tiers": {
+      "T1": [
+        "creatinine",
+        "serum creatinine"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": [
+        "kidney function",
+        "scr"
+      ]
+    },
+    "excluded_terms": [
+      "kidney function",
+      "scr"
+    ],
+    "collision_warnings": [
+      {
+        "term": "kidney function",
+        "shared_with": [
+          "bun",
+          "egfr",
+          "estimated-gfr-cystatin-c",
+          "estimated-gfr-mdrd"
+        ],
+        "recommendation": "demote_to_T4_or_add_disambiguator"
+      }
+    ]
+  },
+  "ctni": {
+    "tiers": {
+      "T1": [
+        "ctni"
+      ],
+      "T2": [
+        "cardiac troponin",
+        "heart attack marker",
+        "troponin i"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": [
+      {
+        "term": "cardiac troponin",
+        "shared_with": [
+          "ctnt"
+        ],
+        "recommendation": "demote_to_T4_or_add_disambiguator"
+      }
+    ]
+  },
+  "ctnt": {
+    "tiers": {
+      "T1": [
+        "ctnt"
+      ],
+      "T2": [
+        "troponin t"
+      ],
+      "T3": [],
+      "T4": [
+        "cardiac troponin"
+      ]
+    },
+    "excluded_terms": [
+      "cardiac troponin"
+    ],
+    "collision_warnings": [
+      {
+        "term": "cardiac troponin",
+        "shared_with": [
+          "ctni"
+        ],
+        "recommendation": "demote_to_T4_or_add_disambiguator"
+      }
+    ]
+  },
+  "ctx": {
+    "tiers": {
+      "T1": [
+        "ctx"
+      ],
+      "T2": [
+        "c-terminal telopeptide"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "cu": {
+    "tiers": {
+      "T1": [],
+      "T2": [
+        "copper (serum)"
+      ],
+      "T3": [
+        "copper"
+      ],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "cystatin-c": {
+    "tiers": {
+      "T1": [
+        "cystatin c",
+        "cystatin-c"
+      ],
+      "T2": [
+        "kidney function marker"
+      ],
+      "T3": [],
+      "T4": [
+        "cysc"
+      ]
+    },
+    "excluded_terms": [],
+    "collision_warnings": [
+      {
+        "term": "cystatin c",
+        "shared_with": [
+          "estimated-gfr-cystatin-c"
+        ],
+        "recommendation": "demote_to_T4_or_add_disambiguator"
+      }
+    ]
+  },
+  "d-dimer": {
+    "tiers": {
+      "T1": [
+        "d dimer",
+        "d-dimer"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "dhea": {
+    "tiers": {
+      "T1": [
+        "dhea"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "dhea-s": {
+    "tiers": {
+      "T1": [
+        "dhea s",
+        "dhea sulfate",
+        "dhea-s"
+      ],
+      "T2": [
+        "adrenal hormone",
+        "dehydroepiandrosterone sulfate"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "dheacortisol-ratio": {
+    "tiers": {
+      "T1": [
+        "dheacortisol ratio"
+      ],
+      "T2": [
+        "dhea/cortisol ratio"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "dht": {
+    "tiers": {
+      "T1": [
+        "dht"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": [
+        "dihydrotestosterone"
+      ]
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "direct-bilirubin": {
+    "tiers": {
+      "T1": [
+        "direct bilirubin"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "disposition-index": {
+    "tiers": {
+      "T1": [
+        "disposition index"
+      ],
+      "T2": [
+        "beta cell compensation",
+        "insulin secretion capacity"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "diurnal-cortisol-slope": {
+    "tiers": {
+      "T1": [
+        "diurnal cortisol slope"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "e1": {
+    "tiers": {
+      "T1": [
+        "e1"
+      ],
+      "T2": [],
+      "T3": [
+        "estrone"
+      ],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "e3": {
+    "tiers": {
+      "T1": [
+        "e3"
+      ],
+      "T2": [],
+      "T3": [
+        "estriol"
+      ],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "eag": {
+    "tiers": {
+      "T1": [
+        "eag"
+      ],
+      "T2": [
+        "average blood sugar",
+        "estimated average glucose",
+        "estimated average glucose (eag)"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "ecp": {
+    "tiers": {
+      "T1": [
+        "ecp"
+      ],
+      "T2": [
+        "eosinophil cationic protein"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "egfr": {
+    "tiers": {
+      "T1": [
+        "egfr"
+      ],
+      "T2": [
+        "ckd-epi",
+        "estimated gfr (ckd-epi)",
+        "glomerular filtration rate",
+        "renal function"
+      ],
+      "T3": [],
+      "T4": [
+        "estimated gfr",
+        "gfr",
+        "kidney function"
+      ]
+    },
+    "excluded_terms": [
+      "estimated gfr",
+      "gfr",
+      "kidney function"
+    ],
+    "collision_warnings": [
+      {
+        "term": "kidney function",
+        "shared_with": [
+          "bun",
+          "creatinine",
+          "estimated-gfr-cystatin-c",
+          "estimated-gfr-mdrd"
+        ],
+        "recommendation": "demote_to_T4_or_add_disambiguator"
+      },
+      {
+        "term": "egfr",
+        "shared_with": [
+          "estimated-gfr-cystatin-c",
+          "estimated-gfr-mdrd"
+        ],
+        "recommendation": "demote_to_T4_or_add_disambiguator"
+      },
+      {
+        "term": "estimated gfr",
+        "shared_with": [
+          "estimated-gfr-cystatin-c",
+          "estimated-gfr-mdrd"
+        ],
+        "recommendation": "demote_to_T4_or_add_disambiguator"
+      },
+      {
+        "term": "gfr",
+        "shared_with": [
+          "estimated-gfr-mdrd"
+        ],
+        "recommendation": "demote_to_T4_or_add_disambiguator"
+      }
+    ]
+  },
+  "eosinophils": {
+    "tiers": {
+      "T1": [
+        "eosinophils",
+        "eosinophils (%)"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "eosinophils-absolute": {
+    "tiers": {
+      "T1": [
+        "eosinophils absolute"
+      ],
+      "T2": [
+        "eosinophils (absolute)"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "esr": {
+    "tiers": {
+      "T1": [
+        "esr"
+      ],
+      "T2": [
+        "erythrocyte sedimentation",
+        "erythrocyte sedimentation rate",
+        "sed rate",
+        "sedimentation rate"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "estimated-gfr-cystatin-c": {
+    "tiers": {
+      "T1": [
+        "estimated gfr",
+        "estimated gfr cystatin c",
+        "gfr cystatin"
+      ],
+      "T2": [
+        "cystatin c gfr",
+        "estimated gfr (cystatin c)"
+      ],
+      "T3": [],
+      "T4": [
+        "cystatin c",
+        "egfr",
+        "kidney function"
+      ]
+    },
+    "excluded_terms": [
+      "cystatin c",
+      "egfr",
+      "kidney function"
+    ],
+    "collision_warnings": [
+      {
+        "term": "kidney function",
+        "shared_with": [
+          "bun",
+          "creatinine",
+          "egfr",
+          "estimated-gfr-mdrd"
+        ],
+        "recommendation": "demote_to_T4_or_add_disambiguator"
+      },
+      {
+        "term": "cystatin c",
+        "shared_with": [
+          "cystatin-c"
+        ],
+        "recommendation": "demote_to_T4_or_add_disambiguator"
+      },
+      {
+        "term": "egfr",
+        "shared_with": [
+          "egfr",
+          "estimated-gfr-mdrd"
+        ],
+        "recommendation": "demote_to_T4_or_add_disambiguator"
+      },
+      {
+        "term": "estimated gfr",
+        "shared_with": [
+          "egfr",
+          "estimated-gfr-mdrd"
+        ],
+        "recommendation": "demote_to_T4_or_add_disambiguator"
+      }
+    ]
+  },
+  "estimated-gfr-mdrd": {
+    "tiers": {
+      "T1": [
+        "estimated gfr mdrd"
+      ],
+      "T2": [
+        "estimated gfr (mdrd)"
+      ],
+      "T3": [
+        "gfr",
+        "mdrd"
+      ],
+      "T4": [
+        "egfr",
+        "estimated gfr",
+        "kidney function"
+      ]
+    },
+    "excluded_terms": [
+      "egfr",
+      "estimated gfr",
+      "kidney function"
+    ],
+    "collision_warnings": [
+      {
+        "term": "kidney function",
+        "shared_with": [
+          "bun",
+          "creatinine",
+          "egfr",
+          "estimated-gfr-cystatin-c"
+        ],
+        "recommendation": "demote_to_T4_or_add_disambiguator"
+      },
+      {
+        "term": "egfr",
+        "shared_with": [
+          "egfr",
+          "estimated-gfr-cystatin-c"
+        ],
+        "recommendation": "demote_to_T4_or_add_disambiguator"
+      },
+      {
+        "term": "estimated gfr",
+        "shared_with": [
+          "egfr",
+          "estimated-gfr-cystatin-c"
+        ],
+        "recommendation": "demote_to_T4_or_add_disambiguator"
+      },
+      {
+        "term": "gfr",
+        "shared_with": [
+          "egfr"
+        ],
+        "recommendation": "demote_to_T4_or_add_disambiguator"
+      }
+    ]
+  },
+  "estimated-glucose-disposal-rate": {
+    "tiers": {
+      "T1": [
+        "estimated glucose disposal rate"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "estradiol": {
+    "tiers": {
+      "T1": [
+        "estradiol"
+      ],
+      "T2": [],
+      "T3": [
+        "estrogen"
+      ],
+      "T4": [
+        "e2"
+      ]
+    },
+    "excluded_terms": [
+      "e2"
+    ],
+    "collision_warnings": []
+  },
+  "f2-isoprostanes": {
+    "tiers": {
+      "T1": [
+        "f2 isoprostanes",
+        "f2-isoprostanes"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "fasting-glucose": {
+    "tiers": {
+      "T1": [
+        "fasting glucose"
+      ],
+      "T2": [
+        "blood glucose",
+        "blood sugar",
+        "fasting blood sugar"
+      ],
+      "T3": [],
+      "T4": [
+        "fbg"
+      ]
+    },
+    "excluded_terms": [
+      "fbg"
+    ],
+    "collision_warnings": []
+  },
+  "fecal-calprotectin": {
+    "tiers": {
+      "T1": [
+        "fecal calprotectin"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "ferritin": {
+    "tiers": {
+      "T1": [
+        "ferritin",
+        "serum ferritin"
+      ],
+      "T2": [
+        "iron overload",
+        "iron storage"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "fgf-21": {
+    "tiers": {
+      "T1": [
+        "fgf 21",
+        "fgf-21"
+      ],
+      "T2": [
+        "fibroblast growth factor-21"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "fib-4": {
+    "tiers": {
+      "T1": [
+        "fib 4",
+        "fib-4",
+        "fib-4 index"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "fibrinogen": {
+    "tiers": {
+      "T1": [
+        "fibrinogen"
+      ],
+      "T2": [
+        "clotting factor",
+        "coagulation marker"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "fli": {
+    "tiers": {
+      "T1": [
+        "fli"
+      ],
+      "T2": [
+        "fatty liver index"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "folate-serum": {
+    "tiers": {
+      "T1": [
+        "folate serum"
+      ],
+      "T2": [
+        "folate (serum)",
+        "folic acid",
+        "serum folate",
+        "vitamin b9"
+      ],
+      "T3": [
+        "folate"
+      ],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "free-carnitine": {
+    "tiers": {
+      "T1": [
+        "free carnitine"
+      ],
+      "T2": [
+        "carnitine (free)"
+      ],
+      "T3": [
+        "carnitine"
+      ],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "free-carnitineacetyl-carnitine-ratio": {
+    "tiers": {
+      "T1": [
+        "free carnitineacetyl carnitine ratio"
+      ],
+      "T2": [
+        "carnitine/acetyl-carnitine ratio",
+        "free carnitine/acetyl-carnitine ratio"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "free-t3": {
+    "tiers": {
+      "T1": [
+        "free t3",
+        "free-t3"
+      ],
+      "T2": [
+        "active thyroid hormone"
+      ],
+      "T3": [
+        "ft3"
+      ],
+      "T4": [
+        "t3",
+        "triiodothyronine"
+      ]
+    },
+    "excluded_terms": [
+      "t3"
+    ],
+    "collision_warnings": []
+  },
+  "free-t3free-t4-ratio": {
+    "tiers": {
+      "T1": [
+        "free t3free t4 ratio"
+      ],
+      "T2": [
+        "free t3/free t4 ratio",
+        "t3/t4 ratio"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": [
+      {
+        "term": "t3/t4 ratio",
+        "shared_with": [
+          "t3t4-ratio"
+        ],
+        "recommendation": "demote_to_T4_or_add_disambiguator"
+      }
+    ]
+  },
+  "free-t4": {
+    "tiers": {
+      "T1": [
+        "free t4",
+        "free-t4"
+      ],
+      "T2": [
+        "thyroid hormone"
+      ],
+      "T3": [
+        "ft4"
+      ],
+      "T4": [
+        "t4",
+        "thyroxine"
+      ]
+    },
+    "excluded_terms": [
+      "t4"
+    ],
+    "collision_warnings": []
+  },
+  "free-testosterone": {
+    "tiers": {
+      "T1": [
+        "free testosterone"
+      ],
+      "T2": [
+        "bioavailable t",
+        "free t"
+      ],
+      "T3": [],
+      "T4": [
+        "testosterone"
+      ]
+    },
+    "excluded_terms": [
+      "testosterone"
+    ],
+    "collision_warnings": [
+      {
+        "term": "testosterone",
+        "shared_with": [
+          "total-testosterone"
+        ],
+        "recommendation": "demote_to_T4_or_add_disambiguator"
+      }
+    ]
+  },
+  "free-testosterone-index": {
+    "tiers": {
+      "T1": [
+        "free testosterone index"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "fsh": {
+    "tiers": {
+      "T1": [
+        "fsh"
+      ],
+      "T2": [
+        "follicle stimulating hormone"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "ft4ft3-ratio": {
+    "tiers": {
+      "T1": [
+        "ft4ft3 ratio"
+      ],
+      "T2": [
+        "ft4/ft3 ratio"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "galectin-3": {
+    "tiers": {
+      "T1": [
+        "galectin 3",
+        "galectin-3"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "gdf-15": {
+    "tiers": {
+      "T1": [
+        "gdf 15",
+        "gdf-15"
+      ],
+      "T2": [
+        "growth differentiation factor-15"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "ggt": {
+    "tiers": {
+      "T1": [
+        "ggt"
+      ],
+      "T2": [
+        "gamma gt",
+        "gamma-glutamyl transferase"
+      ],
+      "T3": [],
+      "T4": [
+        "liver enzyme"
+      ]
+    },
+    "excluded_terms": [
+      "liver enzyme"
+    ],
+    "collision_warnings": [
+      {
+        "term": "liver enzyme",
+        "shared_with": [
+          "alt",
+          "ast"
+        ],
+        "recommendation": "demote_to_T4_or_add_disambiguator"
+      }
+    ]
+  },
+  "globulin": {
+    "tiers": {
+      "T1": [
+        "globulin"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "glutathione-oxidized-gssg": {
+    "tiers": {
+      "T1": [
+        "glutathione oxidized gssg"
+      ],
+      "T2": [
+        "glutathione (oxidized)"
+      ],
+      "T3": [],
+      "T4": [
+        "glutathione",
+        "oxidized"
+      ]
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "glutathione-reduced-gsh": {
+    "tiers": {
+      "T1": [
+        "glutathione reduced gsh"
+      ],
+      "T2": [
+        "glutathione (reduced)"
+      ],
+      "T3": [],
+      "T4": [
+        "glutathione",
+        "reduced"
+      ]
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "glyphosate": {
+    "tiers": {
+      "T1": [
+        "glyphosate"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "gpx": {
+    "tiers": {
+      "T1": [
+        "gpx"
+      ],
+      "T2": [
+        "glutathione peroxidase"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "gsh-gssg-ratio": {
+    "tiers": {
+      "T1": [
+        "gsh gssg ratio"
+      ],
+      "T2": [
+        "gsh/gssg ratio"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "hdl-p": {
+    "tiers": {
+      "T1": [
+        "hdl p",
+        "hdl particle number",
+        "hdl-p"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "hematocrit": {
+    "tiers": {
+      "T1": [
+        "hematocrit"
+      ],
+      "T2": [
+        "packed cell volume"
+      ],
+      "T3": [],
+      "T4": [
+        "hct"
+      ]
+    },
+    "excluded_terms": [
+      "hct"
+    ],
+    "collision_warnings": []
+  },
+  "hemoglobin": {
+    "tiers": {
+      "T1": [
+        "hemoglobin"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": [
+        "hb",
+        "hgb"
+      ]
+    },
+    "excluded_terms": [
+      "hb",
+      "hgb"
+    ],
+    "collision_warnings": []
+  },
+  "hepatic-steatosis-index": {
+    "tiers": {
+      "T1": [
+        "hepatic steatosis index"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "hmgcr-antibody-igg": {
+    "tiers": {
+      "T1": [
+        "hmgcr antibody igg"
+      ],
+      "T2": [
+        "hmgcr antibody",
+        "hmgcr antibody (igg)"
+      ],
+      "T3": [
+        "igg"
+      ],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "holotranscobalamin": {
+    "tiers": {
+      "T1": [
+        "holotranscobalamin"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "homa-b": {
+    "tiers": {
+      "T1": [
+        "homa b",
+        "homa-b",
+        "homa-beta"
+      ],
+      "T2": [
+        "beta cell function",
+        "insulin secretion"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "homocysteine": {
+    "tiers": {
+      "T1": [
+        "homocysteine"
+      ],
+      "T2": [
+        "methylation marker"
+      ],
+      "T3": [],
+      "T4": [
+        "hcy"
+      ]
+    },
+    "excluded_terms": [
+      "hcy"
+    ],
+    "collision_warnings": []
+  },
+  "homocysteine-b12-ratio": {
+    "tiers": {
+      "T1": [
+        "homocysteine b12 ratio"
+      ],
+      "T2": [
+        "homocysteine to b12 ratio",
+        "homocysteine/b12 ratio"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "homocysteine-folate-ratio": {
+    "tiers": {
+      "T1": [
+        "homocysteine folate ratio"
+      ],
+      "T2": [
+        "homocysteine to folate ratio",
+        "homocysteine/folate ratio"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "hscrp": {
+    "tiers": {
+      "T1": [
+        "hscrp"
+      ],
+      "T2": [
+        "high-sensitivity c-reactive protein",
+        "high-sensitivity crp",
+        "inflammation marker"
+      ],
+      "T3": [],
+      "T4": [
+        "c-reactive protein",
+        "crp"
+      ]
+    },
+    "excluded_terms": [
+      "c-reactive protein",
+      "crp"
+    ],
+    "collision_warnings": [
+      {
+        "term": "c-reactive protein",
+        "shared_with": [
+          "crp-standard"
+        ],
+        "recommendation": "demote_to_T4_or_add_disambiguator"
+      },
+      {
+        "term": "crp",
+        "shared_with": [
+          "crp-standard"
+        ],
+        "recommendation": "demote_to_T4_or_add_disambiguator"
+      }
+    ]
+  },
+  "i-fabp": {
+    "tiers": {
+      "T1": [
+        "i fabp",
+        "i-fabp"
+      ],
+      "T2": [
+        "intestinal fatty acid binding protein"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "ibil": {
+    "tiers": {
+      "T1": [
+        "ibil"
+      ],
+      "T2": [
+        "indirect bilirubin"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "igfbp-3": {
+    "tiers": {
+      "T1": [
+        "igfbp 3"
+      ],
+      "T2": [
+        "igf binding protein-3"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "il-10": {
+    "tiers": {
+      "T1": [
+        "il 10",
+        "il-10"
+      ],
+      "T2": [
+        "interleukin-10"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "il-1beta": {
+    "tiers": {
+      "T1": [
+        "il 1beta"
+      ],
+      "T2": [
+        "interleukin-1 beta"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "il-6": {
+    "tiers": {
+      "T1": [
+        "il 6",
+        "il-6"
+      ],
+      "T2": [
+        "inflammatory cytokine",
+        "interleukin 6",
+        "interleukin-6"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "inr": {
+    "tiers": {
+      "T1": [
+        "inr"
+      ],
+      "T2": [
+        "international normalized ratio"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "insulinogenic-index": {
+    "tiers": {
+      "T1": [
+        "insulinogenic index"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "iron-tibc-ratio": {
+    "tiers": {
+      "T1": [
+        "iron tibc ratio"
+      ],
+      "T2": [
+        "iron to tibc ratio",
+        "iron/tibc ratio"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "lactate": {
+    "tiers": {
+      "T1": [
+        "lactate"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "lactatepyruvate-ratio": {
+    "tiers": {
+      "T1": [
+        "lactatepyruvate ratio"
+      ],
+      "T2": [
+        "lactate/pyruvate ratio"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "lbp": {
+    "tiers": {
+      "T1": [
+        "lbp"
+      ],
+      "T2": [
+        "lipopolysaccharide binding protein"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "ldh": {
+    "tiers": {
+      "T1": [
+        "ldh"
+      ],
+      "T2": [
+        "lactate dehydrogenase"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "ldl-cholesterol": {
+    "tiers": {
+      "T1": [
+        "ldl cholesterol"
+      ],
+      "T2": [
+        "bad cholesterol",
+        "ldl-c"
+      ],
+      "T3": [],
+      "T4": [
+        "ldl"
+      ]
+    },
+    "excluded_terms": [
+      "ldl"
+    ],
+    "collision_warnings": []
+  },
+  "ldl-hdl-ratio": {
+    "tiers": {
+      "T1": [
+        "ldl hdl ratio"
+      ],
+      "T2": [
+        "cholesterol ratio",
+        "ldl/hdl ratio"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": [
+      {
+        "term": "cholesterol ratio",
+        "shared_with": [
+          "tc-hdl-ratio"
+        ],
+        "recommendation": "demote_to_T4_or_add_disambiguator"
+      }
+    ]
+  },
+  "ldl-p": {
+    "tiers": {
+      "T1": [
+        "ldl p",
+        "ldl-p"
+      ],
+      "T2": [
+        "ldl particle number",
+        "ldl particles",
+        "nmr ldl"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "ldl-particle-size": {
+    "tiers": {
+      "T1": [
+        "ldl particle size"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "lead-blood": {
+    "tiers": {
+      "T1": [
+        "lead blood"
+      ],
+      "T2": [
+        "lead (blood)"
+      ],
+      "T3": [],
+      "T4": [
+        "lead"
+      ]
+    },
+    "excluded_terms": [
+      "lead"
+    ],
+    "collision_warnings": []
+  },
+  "lean-mass-hyper-responder-score": {
+    "tiers": {
+      "T1": [
+        "lean mass hyper responder score"
+      ],
+      "T2": [
+        "lean mass hyper-responder score"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "leptin": {
+    "tiers": {
+      "T1": [
+        "leptin"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "leptin-bmi-ratio": {
+    "tiers": {
+      "T1": [
+        "leptin bmi ratio"
+      ],
+      "T2": [
+        "leptin to bmi ratio",
+        "leptin/bmi ratio"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "lh": {
+    "tiers": {
+      "T1": [
+        "lh"
+      ],
+      "T2": [
+        "luteinizing hormone"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "lp-ir": {
+    "tiers": {
+      "T1": [
+        "lp ir",
+        "lp-ir"
+      ],
+      "T2": [
+        "lipoprotein insulin resistance index"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "lp-pla2": {
+    "tiers": {
+      "T1": [
+        "lp pla2",
+        "lp-pla2"
+      ],
+      "T2": [
+        "lipoprotein phospholipase",
+        "lipoprotein-associated phospholipase a2",
+        "plac test",
+        "vascular inflammation"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": [
+      {
+        "term": "lipoprotein-associated phospholipase a2",
+        "shared_with": [
+          "lp-pla2-mass"
+        ],
+        "recommendation": "demote_to_T4_or_add_disambiguator"
+      },
+      {
+        "term": "vascular inflammation",
+        "shared_with": [
+          "myeloperoxidase"
+        ],
+        "recommendation": "demote_to_T4_or_add_disambiguator"
+      }
+    ]
+  },
+  "lp-pla2-mass": {
+    "tiers": {
+      "T1": [
+        "lp pla2 mass",
+        "lp-pla2-mass"
+      ],
+      "T2": [
+        "lipoprotein-associated phospholipase a2 (mass)"
+      ],
+      "T3": [],
+      "T4": [
+        "lipoprotein-associated phospholipase a2",
+        "mass"
+      ]
+    },
+    "excluded_terms": [
+      "lipoprotein-associated phospholipase a2"
+    ],
+    "collision_warnings": [
+      {
+        "term": "lipoprotein-associated phospholipase a2",
+        "shared_with": [
+          "lp-pla2"
+        ],
+        "recommendation": "demote_to_T4_or_add_disambiguator"
+      }
+    ]
+  },
+  "lymphocytes": {
+    "tiers": {
+      "T1": [
+        "lymphocytes"
+      ],
+      "T2": [
+        "lymphocytes (%)"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "magnesium-calcium-ratio": {
+    "tiers": {
+      "T1": [
+        "magnesium calcium ratio"
+      ],
+      "T2": [
+        "magnesium to calcium ratio",
+        "magnesium/calcium ratio"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "magnesium-phosphorus-ratio": {
+    "tiers": {
+      "T1": [
+        "magnesium phosphorus ratio"
+      ],
+      "T2": [
+        "magnesium to phosphorus ratio",
+        "magnesium/phosphorus ratio"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "magnesium-serum": {
+    "tiers": {
+      "T1": [
+        "magnesium serum"
+      ],
+      "T2": [
+        "mag level",
+        "magnesium (serum)",
+        "serum magnesium"
+      ],
+      "T3": [
+        "magnesium"
+      ],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "matsuda-index": {
+    "tiers": {
+      "T1": [
+        "matsuda index"
+      ],
+      "T2": [
+        "insulin sensitivity index",
+        "ogtt insulin sensitivity"
+      ],
+      "T3": [],
+      "T4": [
+        "isi"
+      ]
+    },
+    "excluded_terms": [
+      "isi"
+    ],
+    "collision_warnings": []
+  },
+  "mcauley-index": {
+    "tiers": {
+      "T1": [
+        "mcauley index"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "mch": {
+    "tiers": {
+      "T1": [
+        "mch"
+      ],
+      "T2": [
+        "mean corpuscular hemoglobin"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "mchc": {
+    "tiers": {
+      "T1": [
+        "mchc"
+      ],
+      "T2": [
+        "mean corpuscular hemoglobin concentration"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "mcv": {
+    "tiers": {
+      "T1": [
+        "mcv"
+      ],
+      "T2": [
+        "mean corpuscular volume",
+        "red cell size"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "mda": {
+    "tiers": {
+      "T1": [
+        "mda"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": [
+        "malondialdehyde"
+      ]
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "mercury-blood": {
+    "tiers": {
+      "T1": [
+        "mercury blood"
+      ],
+      "T2": [
+        "mercury (blood)"
+      ],
+      "T3": [],
+      "T4": [
+        "mercury"
+      ]
+    },
+    "excluded_terms": [
+      "mercury"
+    ],
+    "collision_warnings": []
+  },
+  "microalbumin": {
+    "tiers": {
+      "T1": [
+        "microalbumin"
+      ],
+      "T2": [
+        "urine albumin"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": [
+      {
+        "term": "urine albumin",
+        "shared_with": [
+          "uacr"
+        ],
+        "recommendation": "demote_to_T4_or_add_disambiguator"
+      }
+    ]
+  },
+  "mma": {
+    "tiers": {
+      "T1": [
+        "mma"
+      ],
+      "T2": [
+        "methylmalonic acid"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "monocyte-to-hdl-ratio": {
+    "tiers": {
+      "T1": [
+        "monocyte to hdl ratio"
+      ],
+      "T2": [
+        "monocyte-to-hdl ratio"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "monocytes": {
+    "tiers": {
+      "T1": [
+        "monocytes",
+        "monocytes (%)"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "monocytes-absolute": {
+    "tiers": {
+      "T1": [
+        "monocytes absolute"
+      ],
+      "T2": [
+        "monocytes (absolute)"
+      ],
+      "T3": [],
+      "T4": [
+        "monocytes"
+      ]
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "mpv": {
+    "tiers": {
+      "T1": [
+        "mpv"
+      ],
+      "T2": [
+        "mean platelet volume"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "myeloperoxidase": {
+    "tiers": {
+      "T1": [
+        "myeloperoxidase"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": [
+        "mpo",
+        "vascular inflammation"
+      ]
+    },
+    "excluded_terms": [
+      "mpo",
+      "vascular inflammation"
+    ],
+    "collision_warnings": [
+      {
+        "term": "vascular inflammation",
+        "shared_with": [
+          "lp-pla2"
+        ],
+        "recommendation": "demote_to_T4_or_add_disambiguator"
+      }
+    ]
+  },
+  "myoglobin": {
+    "tiers": {
+      "T1": [
+        "myoglobin"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "nafld-fibrosis-score": {
+    "tiers": {
+      "T1": [
+        "nafld fibrosis score"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "neutrophils": {
+    "tiers": {
+      "T1": [
+        "neutrophils",
+        "neutrophils (%)"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "niacin": {
+    "tiers": {
+      "T1": [
+        "niacin"
+      ],
+      "T2": [
+        "vit b3",
+        "vitamin b3"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "nlr": {
+    "tiers": {
+      "T1": [
+        "nlr"
+      ],
+      "T2": [
+        "inflammation ratio",
+        "neutrophil lymphocyte ratio",
+        "neutrophil-to-lymphocyte ratio"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "non-hdl-c": {
+    "tiers": {
+      "T1": [
+        "non hdl c",
+        "non-hdl",
+        "non-hdl-c"
+      ],
+      "T2": [
+        "atherogenic cholesterol",
+        "non-hdl cholesterol"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "nt-probnp": {
+    "tiers": {
+      "T1": [
+        "nt probnp",
+        "nt-probnp"
+      ],
+      "T2": [
+        "n-terminal pro-bnp",
+        "pro-bnp"
+      ],
+      "T3": [],
+      "T4": [
+        "heart failure marker"
+      ]
+    },
+    "excluded_terms": [
+      "heart failure marker"
+    ],
+    "collision_warnings": [
+      {
+        "term": "heart failure marker",
+        "shared_with": [
+          "bnp"
+        ],
+        "recommendation": "demote_to_T4_or_add_disambiguator"
+      }
+    ]
+  },
+  "omega-3-index": {
+    "tiers": {
+      "T1": [
+        "omega 3 index"
+      ],
+      "T2": [
+        "epa dha index",
+        "fish oil level",
+        "omega 3",
+        "omega-3 index"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "osmolar-gap": {
+    "tiers": {
+      "T1": [
+        "osmolar gap"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "osteocalcin": {
+    "tiers": {
+      "T1": [
+        "osteocalcin"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "oxidized-ldl": {
+    "tiers": {
+      "T1": [
+        "oxidized ldl"
+      ],
+      "T2": [
+        "ox-ldl"
+      ],
+      "T3": [],
+      "T4": [
+        "oxldl"
+      ]
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "p1np": {
+    "tiers": {
+      "T1": [
+        "p1np"
+      ],
+      "T2": [
+        "n-terminal propeptide"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "pai-1": {
+    "tiers": {
+      "T1": [
+        "pai 1",
+        "pai-1"
+      ],
+      "T2": [
+        "plasminogen activator inhibitor-1"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "pancreatic-elastase-1": {
+    "tiers": {
+      "T1": [
+        "pancreatic elastase 1"
+      ],
+      "T2": [
+        "pancreatic elastase-1"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "pct": {
+    "tiers": {
+      "T1": [
+        "pct"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": [
+        "plateletcrit"
+      ]
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "pdw": {
+    "tiers": {
+      "T1": [
+        "pdw"
+      ],
+      "T2": [
+        "platelet distribution width"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "phosphorus": {
+    "tiers": {
+      "T1": [
+        "phosphorus",
+        "phosphorus (serum)"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "phosphorus-calcium-ratio": {
+    "tiers": {
+      "T1": [
+        "phosphorus calcium ratio"
+      ],
+      "T2": [
+        "phosphorus to calcium ratio",
+        "phosphorus/calcium ratio"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "phthalate-metabolites": {
+    "tiers": {
+      "T1": [
+        "phthalate metabolites"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "platelet-count": {
+    "tiers": {
+      "T1": [
+        "platelet count"
+      ],
+      "T2": [
+        "thrombocyte count"
+      ],
+      "T3": [],
+      "T4": [
+        "platelets",
+        "plt"
+      ]
+    },
+    "excluded_terms": [
+      "plt"
+    ],
+    "collision_warnings": []
+  },
+  "plr": {
+    "tiers": {
+      "T1": [
+        "plr"
+      ],
+      "T2": [
+        "platelet-to-lymphocyte ratio"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "potassium": {
+    "tiers": {
+      "T1": [
+        "potassium",
+        "potassium (serum)"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "prealbumin": {
+    "tiers": {
+      "T1": [
+        "prealbumin"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "prealbumin-albumin-ratio": {
+    "tiers": {
+      "T1": [
+        "prealbumin albumin ratio"
+      ],
+      "T2": [
+        "prealbumin to albumin ratio",
+        "prealbumin/albumin ratio"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "progesterone": {
+    "tiers": {
+      "T1": [
+        "progesterone"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "proinsulin": {
+    "tiers": {
+      "T1": [
+        "proinsulin"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "prolactin": {
+    "tiers": {
+      "T1": [
+        "prolactin"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "protein-c": {
+    "tiers": {
+      "T1": [
+        "protein c"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "protein-s": {
+    "tiers": {
+      "T1": [
+        "protein s"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "pt": {
+    "tiers": {
+      "T1": [
+        "pt"
+      ],
+      "T2": [
+        "prothrombin time"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "pth": {
+    "tiers": {
+      "T1": [
+        "pth"
+      ],
+      "T2": [
+        "parathyroid hormone"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "ptx-3": {
+    "tiers": {
+      "T1": [
+        "ptx 3",
+        "ptx-3"
+      ],
+      "T2": [
+        "pentraxin-3"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "pyruvate": {
+    "tiers": {
+      "T1": [
+        "pyruvate"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "quicki": {
+    "tiers": {
+      "T1": [
+        "quicki"
+      ],
+      "T2": [
+        "insulin sensitivity",
+        "quantitative insulin sensitivity check"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "rbc-count": {
+    "tiers": {
+      "T1": [
+        "rbc count"
+      ],
+      "T2": [
+        "erythrocyte count",
+        "red blood cell count",
+        "red blood cells"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "rbc-folate": {
+    "tiers": {
+      "T1": [
+        "rbc folate"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "rbc-magnesium": {
+    "tiers": {
+      "T1": [
+        "rbc magnesium"
+      ],
+      "T2": [
+        "intracellular magnesium",
+        "red blood cell magnesium"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "rdw": {
+    "tiers": {
+      "T1": [
+        "rdw"
+      ],
+      "T2": [
+        "red cell distribution width"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "remnant-c": {
+    "tiers": {
+      "T1": [
+        "remnant c",
+        "remnant cholesterol",
+        "remnant-c"
+      ],
+      "T2": [
+        "remnant lipoproteins"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "renin": {
+    "tiers": {
+      "T1": [
+        "renin"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "resistin": {
+    "tiers": {
+      "T1": [
+        "resistin"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "reticulocyte-count": {
+    "tiers": {
+      "T1": [
+        "reticulocyte count"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "reverse-t3": {
+    "tiers": {
+      "T1": [
+        "reverse t3"
+      ],
+      "T2": [
+        "reverse triiodothyronine"
+      ],
+      "T3": [],
+      "T4": [
+        "rt3"
+      ]
+    },
+    "excluded_terms": [
+      "rt3"
+    ],
+    "collision_warnings": []
+  },
+  "rheumatoid-factor": {
+    "tiers": {
+      "T1": [
+        "rheumatoid factor"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "rlp-c": {
+    "tiers": {
+      "T1": [
+        "rlp c",
+        "rlp-c"
+      ],
+      "T2": [
+        "remnant lipoprotein cholesterol"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "sah": {
+    "tiers": {
+      "T1": [
+        "sah"
+      ],
+      "T2": [
+        "s-adenosylhomocysteine"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "salivary-alpha-amylase": {
+    "tiers": {
+      "T1": [
+        "salivary alpha amylase"
+      ],
+      "T2": [
+        "salivary alpha-amylase"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "salivary-cortisol": {
+    "tiers": {
+      "T1": [
+        "salivary cortisol"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "salivary-dhea-s": {
+    "tiers": {
+      "T1": [
+        "salivary dhea s"
+      ],
+      "T2": [
+        "salivary dhea-s"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "salivary-estradiol": {
+    "tiers": {
+      "T1": [
+        "salivary estradiol"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "salivary-iga": {
+    "tiers": {
+      "T1": [
+        "salivary iga"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "salivary-progesterone": {
+    "tiers": {
+      "T1": [
+        "salivary progesterone"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "salivary-testosterone": {
+    "tiers": {
+      "T1": [
+        "salivary testosterone"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "same": {
+    "tiers": {
+      "T1": [
+        "same"
+      ],
+      "T2": [
+        "s-adenosylmethionine"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "samsah-ratio": {
+    "tiers": {
+      "T1": [
+        "samsah ratio"
+      ],
+      "T2": [
+        "sam/sah ratio"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "sdldl": {
+    "tiers": {
+      "T1": [
+        "sdldl"
+      ],
+      "T2": [
+        "ldl pattern b",
+        "small dense ldl",
+        "small ldl"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "selenium": {
+    "tiers": {
+      "T1": [
+        "selenium",
+        "selenium (serum)"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": [
+        "selenomethionine"
+      ]
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "serum-iron": {
+    "tiers": {
+      "T1": [
+        "serum iron"
+      ],
+      "T2": [
+        "iron level"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "serum-osmolality-calculated": {
+    "tiers": {
+      "T1": [
+        "serum osmolality calculated"
+      ],
+      "T2": [
+        "serum osmolality",
+        "serum osmolality (calculated)"
+      ],
+      "T3": [],
+      "T4": [
+        "calculated"
+      ]
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "shbg": {
+    "tiers": {
+      "T1": [
+        "shbg"
+      ],
+      "T2": [
+        "sex hormone binding globulin"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "siga": {
+    "tiers": {
+      "T1": [
+        "siga"
+      ],
+      "T2": [
+        "secretory iga",
+        "secretory iga (fecal)"
+      ],
+      "T3": [],
+      "T4": [
+        "fecal"
+      ]
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "sii": {
+    "tiers": {
+      "T1": [
+        "sii"
+      ],
+      "T2": [
+        "systemic immune-inflammation index"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "sod": {
+    "tiers": {
+      "T1": [
+        "sod"
+      ],
+      "T2": [
+        "superoxide dismutase"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "sodium": {
+    "tiers": {
+      "T1": [
+        "sodium",
+        "sodium (serum)"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "specific-ige": {
+    "tiers": {
+      "T1": [
+        "specific ige"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "sst2": {
+    "tiers": {
+      "T1": [
+        "sst2"
+      ],
+      "T2": [
+        "soluble st2"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "stfr": {
+    "tiers": {
+      "T1": [
+        "stfr"
+      ],
+      "T2": [
+        "soluble transferrin receptor"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "t3t4-ratio": {
+    "tiers": {
+      "T1": [
+        "t3t4 ratio"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": [
+        "t3/t4 ratio"
+      ]
+    },
+    "excluded_terms": [
+      "t3/t4 ratio"
+    ],
+    "collision_warnings": [
+      {
+        "term": "t3/t4 ratio",
+        "shared_with": [
+          "free-t3free-t4-ratio"
+        ],
+        "recommendation": "demote_to_T4_or_add_disambiguator"
+      }
+    ]
+  },
+  "tbars": {
+    "tiers": {
+      "T1": [
+        "tbars"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "tc-hdl-ratio": {
+    "tiers": {
+      "T1": [
+        "tc hdl ratio"
+      ],
+      "T2": [
+        "cardiac risk ratio",
+        "tc/hdl ratio",
+        "total cholesterol/hdl ratio"
+      ],
+      "T3": [],
+      "T4": [
+        "cholesterol ratio"
+      ]
+    },
+    "excluded_terms": [
+      "cholesterol ratio"
+    ],
+    "collision_warnings": [
+      {
+        "term": "cholesterol ratio",
+        "shared_with": [
+          "ldl-hdl-ratio"
+        ],
+        "recommendation": "demote_to_T4_or_add_disambiguator"
+      }
+    ]
+  },
+  "thyroglobulin": {
+    "tiers": {
+      "T1": [
+        "thyroglobulin"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "thyroglobulin-antibodies": {
+    "tiers": {
+      "T1": [
+        "thyroglobulin antibodies"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "tibc": {
+    "tiers": {
+      "T1": [
+        "tibc"
+      ],
+      "T2": [
+        "iron binding",
+        "total iron binding capacity"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "tmao": {
+    "tiers": {
+      "T1": [
+        "tmao"
+      ],
+      "T2": [
+        "trimethylamine n-oxide"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "tnf-alpha": {
+    "tiers": {
+      "T1": [
+        "tnf alpha",
+        "tnf-alpha"
+      ],
+      "T2": [
+        "tnf-α",
+        "tumor necrosis factor",
+        "tumor necrosis factor-alpha"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "total-cholesterol": {
+    "tiers": {
+      "T1": [
+        "total cholesterol"
+      ],
+      "T2": [
+        "cholesterol level",
+        "serum cholesterol"
+      ],
+      "T3": [],
+      "T4": [
+        "tc"
+      ]
+    },
+    "excluded_terms": [
+      "tc"
+    ],
+    "collision_warnings": []
+  },
+  "total-ige": {
+    "tiers": {
+      "T1": [
+        "total ige"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "total-t3": {
+    "tiers": {
+      "T1": [
+        "total t3"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "total-t4": {
+    "tiers": {
+      "T1": [
+        "total t4"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "total-testosterone": {
+    "tiers": {
+      "T1": [
+        "total testosterone"
+      ],
+      "T2": [
+        "serum testosterone",
+        "t levels"
+      ],
+      "T3": [
+        "testosterone"
+      ],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": [
+      {
+        "term": "testosterone",
+        "shared_with": [
+          "free-testosterone"
+        ],
+        "recommendation": "demote_to_T4_or_add_disambiguator"
+      }
+    ]
+  },
+  "tp": {
+    "tiers": {
+      "T1": [
+        "tp"
+      ],
+      "T2": [
+        "total protein"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "tpo-antibodies": {
+    "tiers": {
+      "T1": [
+        "tpo antibodies"
+      ],
+      "T2": [
+        "anti-tpo",
+        "hashimoto's marker",
+        "thyroid peroxidase",
+        "thyroid peroxidase antibodies"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "transferrin": {
+    "tiers": {
+      "T1": [
+        "transferrin"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "transferrin-saturation": {
+    "tiers": {
+      "T1": [
+        "transferrin saturation"
+      ],
+      "T2": [
+        "% saturation",
+        "iron saturation"
+      ],
+      "T3": [],
+      "T4": [
+        "tsat"
+      ]
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "triglycerides": {
+    "tiers": {
+      "T1": [
+        "blood triglycerides",
+        "serum triglycerides",
+        "triglycerides"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": [
+        "tg",
+        "trigs"
+      ]
+    },
+    "excluded_terms": [
+      "tg"
+    ],
+    "collision_warnings": []
+  },
+  "tryptase": {
+    "tiers": {
+      "T1": [
+        "tryptase"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "tsh": {
+    "tiers": {
+      "T1": [
+        "tsh"
+      ],
+      "T2": [
+        "thyroid function",
+        "thyroid stimulating hormone"
+      ],
+      "T3": [],
+      "T4": [
+        "thyrotropin"
+      ]
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "tsh-ft4-product": {
+    "tiers": {
+      "T1": [
+        "tsh ft4 product"
+      ],
+      "T2": [
+        "tsh × ft4 product"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "tsi": {
+    "tiers": {
+      "T1": [
+        "tsi"
+      ],
+      "T2": [
+        "thyroid stimulating immunoglobulin"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "tyg-bmi": {
+    "tiers": {
+      "T1": [
+        "tyg bmi",
+        "tyg-bmi"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "tyg-index": {
+    "tiers": {
+      "T1": [
+        "tyg index"
+      ],
+      "T2": [
+        "insulin resistance marker",
+        "triglyceride glucose index"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "tyg-wc": {
+    "tiers": {
+      "T1": [
+        "tyg wc",
+        "tyg-wc"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "uacr": {
+    "tiers": {
+      "T1": [
+        "uacr"
+      ],
+      "T2": [
+        "albumin creatinine ratio",
+        "albumin-to-creatinine ratio",
+        "kidney damage"
+      ],
+      "T3": [],
+      "T4": [
+        "microalbuminuria",
+        "urine albumin"
+      ]
+    },
+    "excluded_terms": [
+      "urine albumin"
+    ],
+    "collision_warnings": [
+      {
+        "term": "urine albumin",
+        "shared_with": [
+          "microalbumin"
+        ],
+        "recommendation": "demote_to_T4_or_add_disambiguator"
+      }
+    ]
+  },
+  "uca": {
+    "tiers": {
+      "T1": [
+        "uca"
+      ],
+      "T2": [
+        "urine calcium"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "ucl": {
+    "tiers": {
+      "T1": [
+        "ucl"
+      ],
+      "T2": [
+        "urine chloride"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "ucr": {
+    "tiers": {
+      "T1": [
+        "ucr"
+      ],
+      "T2": [
+        "urine creatinine"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "uibc": {
+    "tiers": {
+      "T1": [
+        "uibc"
+      ],
+      "T2": [
+        "unsaturated iron binding capacity"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "uk": {
+    "tiers": {
+      "T1": [
+        "uk"
+      ],
+      "T2": [
+        "urine potassium"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "una": {
+    "tiers": {
+      "T1": [
+        "una"
+      ],
+      "T2": [
+        "urine sodium"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "upcr": {
+    "tiers": {
+      "T1": [
+        "upcr"
+      ],
+      "T2": [
+        "protein-to-creatinine ratio"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "upo4": {
+    "tiers": {
+      "T1": [
+        "upo4"
+      ],
+      "T2": [
+        "urine phosphorus"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "uric-acid-creatinine-ratio-serum": {
+    "tiers": {
+      "T1": [
+        "uric acid creatinine ratio serum"
+      ],
+      "T2": [
+        "uric acid to creatinine ratio (serum)",
+        "uric acid/creatinine ratio",
+        "uric acid/creatinine ratio (serum)"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": [
+      {
+        "term": "uric acid/creatinine ratio",
+        "shared_with": [
+          "uric-acid-creatinine-ratio-urine"
+        ],
+        "recommendation": "demote_to_T4_or_add_disambiguator"
+      }
+    ]
+  },
+  "uric-acid-creatinine-ratio-urine": {
+    "tiers": {
+      "T1": [
+        "uric acid creatinine ratio urine"
+      ],
+      "T2": [
+        "uric acid to creatinine ratio (urine)",
+        "uric acid/creatinine ratio (urine)"
+      ],
+      "T3": [],
+      "T4": [
+        "uric acid/creatinine ratio"
+      ]
+    },
+    "excluded_terms": [
+      "uric acid/creatinine ratio"
+    ],
+    "collision_warnings": [
+      {
+        "term": "uric acid/creatinine ratio",
+        "shared_with": [
+          "uric-acid-creatinine-ratio-serum"
+        ],
+        "recommendation": "demote_to_T4_or_add_disambiguator"
+      }
+    ]
+  },
+  "urine-citrate": {
+    "tiers": {
+      "T1": [
+        "urine citrate"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "urine-glucose": {
+    "tiers": {
+      "T1": [
+        "urine glucose"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "urine-iodine": {
+    "tiers": {
+      "T1": [
+        "urine iodine"
+      ],
+      "T2": [
+        "iodine (urinary)"
+      ],
+      "T3": [
+        "iodine"
+      ],
+      "T4": [
+        "urinary"
+      ]
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "urine-ketones": {
+    "tiers": {
+      "T1": [
+        "urine ketones"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "urine-microalbumin": {
+    "tiers": {
+      "T1": [
+        "urine microalbumin"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "urine-oxalate": {
+    "tiers": {
+      "T1": [
+        "urine oxalate"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "urine-ph": {
+    "tiers": {
+      "T1": [
+        "urine ph"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "urine-protein": {
+    "tiers": {
+      "T1": [
+        "urine protein"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "urine-specific-gravity": {
+    "tiers": {
+      "T1": [
+        "urine specific gravity"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "urine-total-protein": {
+    "tiers": {
+      "T1": [
+        "urine total protein"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "urine-uric-acid": {
+    "tiers": {
+      "T1": [
+        "urine uric acid"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "vitamin-a": {
+    "tiers": {
+      "T1": [
+        "vitamin a"
+      ],
+      "T2": [
+        "vit a"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "vitamin-b1": {
+    "tiers": {
+      "T1": [
+        "vitamin b1"
+      ],
+      "T2": [
+        "vit b1"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "vitamin-b12": {
+    "tiers": {
+      "T1": [
+        "vitamin b12"
+      ],
+      "T2": [
+        "vit b12"
+      ],
+      "T3": [
+        "b12"
+      ],
+      "T4": [
+        "cobalamin",
+        "methylcobalamin"
+      ]
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "vitamin-b12-folate-ratio": {
+    "tiers": {
+      "T1": [
+        "vitamin b12 folate ratio"
+      ],
+      "T2": [
+        "vitamin b12 to folate ratio",
+        "vitamin b12/folate ratio"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "vitamin-b2": {
+    "tiers": {
+      "T1": [
+        "vitamin b2"
+      ],
+      "T2": [
+        "vit b2"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "vitamin-b6": {
+    "tiers": {
+      "T1": [
+        "vitamin b6"
+      ],
+      "T2": [
+        "vit b6"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": [
+      {
+        "term": "vitamin b6",
+        "shared_with": [
+          "vitamin-b6-pyridoxal-5-phosphate"
+        ],
+        "recommendation": "demote_to_T4_or_add_disambiguator"
+      }
+    ]
+  },
+  "vitamin-b6-pyridoxal-5-phosphate": {
+    "tiers": {
+      "T1": [
+        "vitamin b6 pyridoxal 5 phosphate"
+      ],
+      "T2": [
+        "pyridoxal 5-phosphate",
+        "vitamin b6 (pyridoxal 5-phosphate)"
+      ],
+      "T3": [],
+      "T4": [
+        "vitamin b6"
+      ]
+    },
+    "excluded_terms": [
+      "vitamin b6"
+    ],
+    "collision_warnings": [
+      {
+        "term": "vitamin b6",
+        "shared_with": [
+          "vitamin-b6"
+        ],
+        "recommendation": "demote_to_T4_or_add_disambiguator"
+      }
+    ]
+  },
+  "vitamin-c": {
+    "tiers": {
+      "T1": [
+        "vitamin c"
+      ],
+      "T2": [
+        "ascorbic acid",
+        "vit c"
+      ],
+      "T3": [],
+      "T4": [
+        "ascorbate"
+      ]
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "vitamin-d-pth-ratio": {
+    "tiers": {
+      "T1": [
+        "vitamin d pth ratio"
+      ],
+      "T2": [
+        "vitamin d  to  pth ratio",
+        "vitamin d / pth ratio",
+        "vitamin d/pth ratio"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "vitamin-e": {
+    "tiers": {
+      "T1": [
+        "vitamin e"
+      ],
+      "T2": [
+        "alpha-tocopherol",
+        "vit e"
+      ],
+      "T3": [],
+      "T4": [
+        "tocopherol"
+      ]
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "vitamin-k1": {
+    "tiers": {
+      "T1": [
+        "vitamin k1"
+      ],
+      "T2": [
+        "vit k1"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "vitamin-k2": {
+    "tiers": {
+      "T1": [
+        "vitamin k2"
+      ],
+      "T2": [
+        "vit k2"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "vldl-cholesterol": {
+    "tiers": {
+      "T1": [
+        "vldl cholesterol"
+      ],
+      "T2": [],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "vldl-p": {
+    "tiers": {
+      "T1": [
+        "vldl p",
+        "vldl-p"
+      ],
+      "T2": [
+        "vldl particle number"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "waist-to-hip-ratio": {
+    "tiers": {
+      "T1": [
+        "waist to hip ratio",
+        "waist-to-hip"
+      ],
+      "T2": [
+        "waist hip ratio",
+        "waist-to-hip ratio"
+      ],
+      "T3": [],
+      "T4": [
+        "whr"
+      ]
+    },
+    "excluded_terms": [
+      "whr"
+    ],
+    "collision_warnings": []
+  },
+  "wbc-count": {
+    "tiers": {
+      "T1": [
+        "wbc count"
+      ],
+      "T2": [
+        "leukocyte count",
+        "white blood cell count",
+        "white blood cells"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "whtr": {
+    "tiers": {
+      "T1": [
+        "whtr"
+      ],
+      "T2": [
+        "waist height ratio",
+        "waist-to-height",
+        "waist-to-height ratio"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "zinc-copper-ratio": {
+    "tiers": {
+      "T1": [
+        "zinc copper ratio"
+      ],
+      "T2": [
+        "zinc  to  copper ratio",
+        "zinc / copper ratio",
+        "zinc/copper ratio"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "zn": {
+    "tiers": {
+      "T1": [],
+      "T2": [
+        "serum zinc",
+        "zinc (serum)",
+        "zinc level"
+      ],
+      "T3": [
+        "zinc"
+      ],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  },
+  "zonulin": {
+    "tiers": {
+      "T1": [
+        "zonulin"
+      ],
+      "T2": [
+        "zonulin (serum)"
+      ],
+      "T3": [],
+      "T4": []
+    },
+    "excluded_terms": [],
+    "collision_warnings": []
+  }
+}

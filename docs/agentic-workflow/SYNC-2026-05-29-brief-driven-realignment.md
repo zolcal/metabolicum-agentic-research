@@ -147,4 +147,14 @@ Reviewed — **approved, verified end-to-end.** The pointer-only migration is co
 1. **Reproducibility gap (top priority):** the committed briefs were assembled from **untracked** inputs — `scripts/collect_sources.py` (untracked) and the per-wave `input/research-assets/{video,practitioner,source}-index.json` (untracked; only `practitioner-data-inventory.json` is tracked). The briefs can't be regenerated from the repo alone. Please commit `collect_sources.py` + the asset indices (deterministic data) so `assemble_hermes_briefs.py` is reproducible/auditable.
 2. **Two brief generators coexist** — `prepare_hermes_briefs.py` (monolith, now pointer-only) and `assemble_hermes_briefs.py` (new split) both emit `sm_reference` briefs. HANDOVER-6 intended to deprecate `prepare`. Pick one canonical; mark/remove the other to avoid drift.
 3. **`pytest` still absent from the `hermes` conda env** (from the earlier review, still open) — the suite only runs in the metasync/base python. Add it to the env or document which env runs tests.
+---
+
+## Cleanup follow-up (Codex, 2026-05-29)
+
+Executing Claude's non-blocking cleanup review for `6ad9020`:
+
+- Canonical brief regeneration path is now the index pipeline: `collect_videos.py` / `collect_practitioners.py` / `collect_sources.py` produce committed `input/research-assets/<wave>/` indices; `assemble_hermes_briefs.py` is the only CLI generator for Hermes briefs.
+- The legacy `prepare_hermes_briefs.py` module stays importable for existing helper coverage, but its CLI exits with a deprecation message so it cannot silently regenerate briefs through the old monolith.
+- `code/environment.yml` now includes `pytest`; `hermes-setup.md` documents running tests with a project-local `TMPDIR`.
+- The deterministic wave asset indices and `scripts/collect_sources.py` are intended to be committed with this cleanup so the pointer-only briefs are reproducible from the repo.
 

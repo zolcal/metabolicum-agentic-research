@@ -1,0 +1,647 @@
+{
+  "1-25-dihydroxyvitamin-d": [
+    {
+      "id": "person:mark-hyman",
+      "name": "Mark Hyman",
+      "aliases": [
+        "Mark Hyman",
+        "Dr. Hyman",
+        "D. Hyman",
+        "Dr Hyman",
+        "Dr Mark Hyman",
+        "drhyman"
+      ],
+      "tier": "A",
+      "grade": "B2-C1",
+      "marker_affinity": [
+        "vitamin-d",
+        "hba1c",
+        "fasting-insulin",
+        "tg-hdl-ratio"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://drhyman.me/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        },
+        {
+          "platform": "website",
+          "handle_or_url": "https://drhyman.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        },
+        {
+          "platform": "podcast",
+          "handle_or_url": "https://feeds.megaphone.fm/thedoctorsfarmacy",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:rhonda-patrick",
+      "name": "Rhonda Patrick",
+      "aliases": [
+        "Rhonda Patrick",
+        "Dr. Patrick",
+        "D. Patrick",
+        "Dr Patrick",
+        "Dr Rhonda Patrick",
+        "drpatrick"
+      ],
+      "tier": "A",
+      "grade": "B1-B2",
+      "marker_affinity": [
+        "hba1c",
+        "vitamin-d",
+        "fasting-insulin",
+        "ferritin"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://www.foundmyfitness.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        },
+        {
+          "platform": "website",
+          "handle_or_url": "https://foundmyfitness.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        },
+        {
+          "platform": "podcast",
+          "handle_or_url": "https://rss.libsyn.com/shows/51714/destinations/184296.xml",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:andrew-huberman",
+      "name": "Andrew Huberman",
+      "aliases": [
+        "Andrew Huberman",
+        "D. Huberman",
+        "Dr Andrew Huberman",
+        "Dr Huberman",
+        "Huberman",
+        "drhuberman"
+      ],
+      "tier": "B",
+      "grade": "D1",
+      "marker_affinity": [
+        "fasting-insulin",
+        "vitamin-d",
+        "ferritin"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://hubermanlab.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        },
+        {
+          "platform": "podcast",
+          "handle_or_url": "https://feeds.megaphone.fm/hubermanlab",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:dale-bredesen",
+      "name": "Dale Bredesen",
+      "aliases": [
+        "Dale Bredesen",
+        "Bredesen",
+        "D. Bredesen",
+        "Dr Bredesen",
+        "Dr Dale Bredesen",
+        "drbredesen"
+      ],
+      "tier": "B",
+      "grade": "C1",
+      "marker_affinity": [
+        "fasting-insulin",
+        "hs-crp",
+        "vitamin-d",
+        "ferritin"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://drbredesen.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:joseph-mercola",
+      "name": "Joseph Mercola",
+      "aliases": [
+        "Joseph Mercola",
+        "Dr. Mercola"
+      ],
+      "tier": "B",
+      "grade": "C1-D1",
+      "marker_affinity": [
+        "lpa",
+        "vitamin-d",
+        "fasting-insulin"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://www.mercola.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:steven-gundry",
+      "name": "Steven Gundry",
+      "aliases": [
+        "Steven Gundry",
+        "Dr. Gundry"
+      ],
+      "tier": "B",
+      "grade": "C1-C2",
+      "marker_affinity": [
+        "fasting-insulin",
+        "lpa",
+        "vitamin-d",
+        "hba1c"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://gundrymd.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    }
+  ],
+  "11-deoxycortisol": [],
+  "5-hydroxyindoleacetate-creatinine-urine": [],
+  "5-hydroxyindoleacetate-urine": [],
+  "acth": [],
+  "adiponectin": [],
+  "alpha-galactosidase-a": [],
+  "alpha-melanocyte-stimulating-hormone": [],
+  "aluminum-creatinine-urine": [],
+  "amh": [],
+  "anti-dsdna": [],
+  "aptt": [
+    {
+      "id": "person:paul-saladino",
+      "name": "Paul Saladino",
+      "aliases": [
+        "Paul Saladino",
+        "D. Saladino",
+        "Dr Paul Saladino",
+        "Dr Saladino",
+        "Saladino",
+        "drsaladino"
+      ],
+      "tier": "B",
+      "grade": "D1",
+      "marker_affinity": [
+        "alt",
+        "ast",
+        "ggt",
+        "apob",
+        "lpa",
+        "tg-hdl-ratio",
+        "hdl-cholesterol",
+        "ldl-cholesterol",
+        "hs-crp"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://carnivoremd.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        },
+        {
+          "platform": "twitter",
+          "handle_or_url": "@paulsaladinomd",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    }
+  ],
+  "arsenic-creatinine-urine": [],
+  "arsenic-inorganic-urine": [],
+  "bilirubin-glucuronidated-bilirubin-albumin-bound": [],
+  "bio-t": [],
+  "bnp": [],
+  "buspirone": [],
+  "c-peptide-fasting": [
+    {
+      "id": "person:paul-saladino",
+      "name": "Paul Saladino",
+      "aliases": [
+        "Paul Saladino",
+        "D. Saladino",
+        "Dr Paul Saladino",
+        "Dr Saladino",
+        "Saladino",
+        "drsaladino"
+      ],
+      "tier": "B",
+      "grade": "D1",
+      "marker_affinity": [
+        "alt",
+        "ast",
+        "ggt",
+        "apob",
+        "lpa",
+        "tg-hdl-ratio",
+        "hdl-cholesterol",
+        "ldl-cholesterol",
+        "hs-crp"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://carnivoremd.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        },
+        {
+          "platform": "twitter",
+          "handle_or_url": "@paulsaladinomd",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    }
+  ],
+  "c-peptide-urine": [],
+  "calcium-ionized": [],
+  "calprotectin": [],
+  "cat": [],
+  "cells-cd3-tcr-alpha-beta-cells": [],
+  "chloride-2": [],
+  "chromium-creatinine-urine": [],
+  "ck": [],
+  "cobalt-creatinine-urine": [
+    {
+      "id": "person:paul-saladino",
+      "name": "Paul Saladino",
+      "aliases": [
+        "Paul Saladino",
+        "D. Saladino",
+        "Dr Paul Saladino",
+        "Dr Saladino",
+        "Saladino",
+        "drsaladino"
+      ],
+      "tier": "B",
+      "grade": "D1",
+      "marker_affinity": [
+        "alt",
+        "ast",
+        "ggt",
+        "apob",
+        "lpa",
+        "tg-hdl-ratio",
+        "hdl-cholesterol",
+        "ldl-cholesterol",
+        "hs-crp"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://carnivoremd.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        },
+        {
+          "platform": "twitter",
+          "handle_or_url": "@paulsaladinomd",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    }
+  ],
+  "collagen-crosslinked-n-telopeptide-creatinine-urine": [],
+  "complement-alternate-pathway-ah50-actual-normal": [
+    {
+      "id": "person:paul-saladino",
+      "name": "Paul Saladino",
+      "aliases": [
+        "Paul Saladino",
+        "D. Saladino",
+        "Dr Paul Saladino",
+        "Dr Saladino",
+        "Saladino",
+        "drsaladino"
+      ],
+      "tier": "B",
+      "grade": "D1",
+      "marker_affinity": [
+        "alt",
+        "ast",
+        "ggt",
+        "apob",
+        "lpa",
+        "tg-hdl-ratio",
+        "hdl-cholesterol",
+        "ldl-cholesterol",
+        "hs-crp"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://carnivoremd.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        },
+        {
+          "platform": "twitter",
+          "handle_or_url": "@paulsaladinomd",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    }
+  ],
+  "cortisol-free-serum-whole-blood": [],
+  "ctni": [],
+  "ctnt": [],
+  "ctx": [],
+  "delta-aminolevulinate-urine": [],
+  "dhea-s": [],
+  "dhea": [],
+  "e1": [],
+  "ecp": [],
+  "elastase-pancreatic": [
+    {
+      "id": "person:paul-saladino",
+      "name": "Paul Saladino",
+      "aliases": [
+        "Paul Saladino",
+        "D. Saladino",
+        "Dr Paul Saladino",
+        "Dr Saladino",
+        "Saladino",
+        "drsaladino"
+      ],
+      "tier": "B",
+      "grade": "D1",
+      "marker_affinity": [
+        "alt",
+        "ast",
+        "ggt",
+        "apob",
+        "lpa",
+        "tg-hdl-ratio",
+        "hdl-cholesterol",
+        "ldl-cholesterol",
+        "hs-crp"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://carnivoremd.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        },
+        {
+          "platform": "twitter",
+          "handle_or_url": "@paulsaladinomd",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    }
+  ],
+  "fatty-acids-nonesterified": [],
+  "fib-4": [],
+  "fibrin-fibrinogen-fragments": [],
+  "fibrinogen-ag": [],
+  "fibroblast-growth-factor-23-intact": [
+    {
+      "id": "person:paul-saladino",
+      "name": "Paul Saladino",
+      "aliases": [
+        "Paul Saladino",
+        "D. Saladino",
+        "Dr Paul Saladino",
+        "Dr Saladino",
+        "Saladino",
+        "drsaladino"
+      ],
+      "tier": "B",
+      "grade": "D1",
+      "marker_affinity": [
+        "alt",
+        "ast",
+        "ggt",
+        "apob",
+        "lpa",
+        "tg-hdl-ratio",
+        "hdl-cholesterol",
+        "ldl-cholesterol",
+        "hs-crp"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://carnivoremd.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        },
+        {
+          "platform": "twitter",
+          "handle_or_url": "@paulsaladinomd",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    }
+  ],
+  "free-carnitine": [],
+  "galactose-1-phosphate": [],
+  "galectin-3-2": [],
+  "galectin-3": [],
+  "gastrin": [
+    {
+      "id": "person:paul-saladino",
+      "name": "Paul Saladino",
+      "aliases": [
+        "Paul Saladino",
+        "D. Saladino",
+        "Dr Paul Saladino",
+        "Dr Saladino",
+        "Saladino",
+        "drsaladino"
+      ],
+      "tier": "B",
+      "grade": "D1",
+      "marker_affinity": [
+        "alt",
+        "ast",
+        "ggt",
+        "apob",
+        "lpa",
+        "tg-hdl-ratio",
+        "hdl-cholesterol",
+        "ldl-cholesterol",
+        "hs-crp"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://carnivoremd.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        },
+        {
+          "platform": "twitter",
+          "handle_or_url": "@paulsaladinomd",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    }
+  ],
+  "glucose-6-phosphate-dehydrogenase": [],
+  "hemoglobin-pattern": [],
+  "histoplasma-capsulatum-ag-urine": [],
+  "homovanillate-creatinine-urine": [],
+  "ibil": [],
+  "il-1beta": [],
+  "il-6": [],
+  "immunoglobulin-light-chains-lambda-free": [],
+  "insulin-like-growth-factor-binding-protein-1": [],
+  "insulin-like-growth-factor-binding-protein-3": [],
+  "iron": [],
+  "ldl-particle-size": [],
+  "leptin": [],
+  "lipoprotein-associated-phospholipase-a2": [],
+  "lp-ir": [],
+  "mercury-blood": [],
+  "mma": [],
+  "niacin": [],
+  "nickel-creatinine-urine": [],
+  "nt-probnp": [],
+  "orotate-creatinine-urine": [],
+  "osteocalcin": [],
+  "oxidized-ldl": [],
+  "p1np": [],
+  "pancreastatin": [
+    {
+      "id": "person:paul-saladino",
+      "name": "Paul Saladino",
+      "aliases": [
+        "Paul Saladino",
+        "D. Saladino",
+        "Dr Paul Saladino",
+        "Dr Saladino",
+        "Saladino",
+        "drsaladino"
+      ],
+      "tier": "B",
+      "grade": "D1",
+      "marker_affinity": [
+        "alt",
+        "ast",
+        "ggt",
+        "apob",
+        "lpa",
+        "tg-hdl-ratio",
+        "hdl-cholesterol",
+        "ldl-cholesterol",
+        "hs-crp"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://carnivoremd.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        },
+        {
+          "platform": "twitter",
+          "handle_or_url": "@paulsaladinomd",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    }
+  ],
+  "ph-urine": [],
+  "porphobilinogen-urine": [],
+  "proinsulin": [],
+  "prostaglandin-d2-urine": [],
+  "protein-creatinine-urine": [],
+  "protein-urine": [],
+  "protoporphyrin-zinc-2": [],
+  "pt": [],
+  "pth": [],
+  "remnant-c": [],
+  "renin": [],
+  "reverse-t3": [],
+  "rheumatoid-factor": [],
+  "s100-calcium-binding-protein-b": [],
+  "stfr": [],
+  "sulfate-urine": [],
+  "t3-uptake": [],
+  "testosterone-free": [],
+  "thallium-creatinine-urine": [],
+  "thyroglobulin-antibodies": [],
+  "thyroglobulin": [],
+  "thyroxine-binding-globulin": [],
+  "tmao": [],
+  "tpo-antibodies": [],
+  "transferrin-carbohydrate-deficient-transferrin-total": [],
+  "transferrin-saturation": [],
+  "troponin-t-cardiac-2": [],
+  "tryptase": [],
+  "tumor-necrosis-factor-alpha": [],
+  "urea-nitrogen-urine": [],
+  "vanillylmandelate-creatinine-urine": [],
+  "vitamin-b2": [],
+  "vitamin-e": []
+}

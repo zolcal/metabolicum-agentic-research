@@ -1,0 +1,2481 @@
+{
+  "1-3-beta-glucan": [
+    {
+      "type": "pubmed",
+      "id": "27558179",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27558179/"
+    }
+  ],
+  "10-hydroxycarbazepine": [],
+  "11-deoxycorticosterone": [],
+  "17-hydroxypregnenolone": [
+    {
+      "type": "pubmed",
+      "id": "37060931",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37060931/"
+    }
+  ],
+  "18-hydroxycorticosterone": [
+    {
+      "type": "pubmed",
+      "id": "37060931",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37060931/"
+    }
+  ],
+  "6-methylmercaptopurine": [
+    {
+      "type": "pubmed",
+      "id": "24918978",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24918978/"
+    },
+    {
+      "type": "pubmed",
+      "id": "27943397",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27943397/"
+    },
+    {
+      "type": "pubmed",
+      "id": "32925411",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32925411/"
+    },
+    {
+      "type": "pubmed",
+      "id": "39183492",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39183492/"
+    },
+    {
+      "type": "pubmed",
+      "id": "41738669",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41738669/"
+    }
+  ],
+  "9-hydroxyrisperidone": [
+    {
+      "type": "pubmed",
+      "id": "16513859",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16513859/"
+    },
+    {
+      "type": "pubmed",
+      "id": "35303169",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35303169/"
+    }
+  ],
+  "acacia-longifolia-ab-ige": [],
+  "acarboxyprothrombin": [
+    {
+      "type": "pubmed",
+      "id": "39749372",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39749372/"
+    },
+    {
+      "type": "pubmed",
+      "id": "40157713",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40157713/"
+    },
+    {
+      "type": "pubmed",
+      "id": "40247208",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40247208/"
+    }
+  ],
+  "acarus-siro-ab-ige": [],
+  "acer-negundo-ab-ige": [],
+  "acetaminophen": [],
+  "acetone": [
+    {
+      "type": "pubmed",
+      "id": "32383349",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32383349/"
+    },
+    {
+      "type": "pubmed",
+      "id": "40260699",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40260699/"
+    }
+  ],
+  "acetylcholine-receptor-binding-ab": [],
+  "acid-phosphatase-prostatic": [],
+  "acremonium-sp-ab-ige": [],
+  "actin-smooth-muscle-ab-igg": [
+    {
+      "type": "pubmed",
+      "id": "17621360",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17621360/"
+    }
+  ],
+  "actinidia-chinensis-ab-ige": [],
+  "adalimumab-ab": [],
+  "adalimumab": [
+    {
+      "type": "pubmed",
+      "id": "30824404",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30824404/"
+    },
+    {
+      "type": "pubmed",
+      "id": "31961001",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31961001/"
+    },
+    {
+      "type": "pubmed",
+      "id": "37773994",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37773994/"
+    },
+    {
+      "type": "pubmed",
+      "id": "39537558",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39537558/"
+    }
+  ],
+  "aedes-communis-ab-ige": [],
+  "agaricus-hortensis-ab-ige": [],
+  "agrostis-stolonifera-ab-ige": [],
+  "aldolase": [],
+  "alkaline-phosphatase-bone": [],
+  "allium-cepa-ab-ige": [],
+  "allium-sativum-ab-ige": [],
+  "alnus-incana-ab-ige": [],
+  "alopercurus-pratensis-ab-ige": [],
+  "alpha-1-fetoprotein-tumor-marker": [
+    {
+      "type": "pubmed",
+      "id": "32053643",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32053643/"
+    },
+    {
+      "type": "pubmed",
+      "id": "34999555",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34999555/"
+    }
+  ],
+  "alprazolam": [],
+  "alternaria-alternata-ab-ige": [
+    {
+      "type": "practitioner_website",
+      "url": "https://carnivoremd.com/",
+      "platform": "website",
+      "practitioner_id": "person:paul-saladino"
+    }
+  ],
+  "amantadine": [
+    {
+      "type": "pubmed",
+      "id": "15180732",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15180732/"
+    }
+  ],
+  "amaranthus-retroflexus-ab-ige": [],
+  "amaranthus-tuberculatus-ab-ige": [],
+  "ambrosia-elatior-ab-ige": [],
+  "ambrosia-psilostachya-ab-ige": [],
+  "ambrosia-trifida-ab-ige": [],
+  "amiodarone": [],
+  "amitriptyline": [],
+  "amobarbital": [],
+  "amoxicillin-ab-ige": [],
+  "amphetamine": [
+    {
+      "type": "pubmed",
+      "id": "41183543",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41183543/"
+    }
+  ],
+  "ampicillin-ab-ige": [],
+  "anacardium-occidentale-ab-ige": [],
+  "anacardium-occidentale-recombinant-rana-o-3-ab-ige": [],
+  "ananas-comosus-ab-ige": [],
+  "anaplasma-phagocytophilum-ab-igg": [],
+  "anethum-graveolens-ab-ige": [],
+  "angiotensin-ii": [
+    {
+      "type": "pubmed",
+      "id": "40589451",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40589451/"
+    }
+  ],
+  "anthemis-cotula-ab-ige": [],
+  "anthoxanthum-odoratum-ab-ige": [],
+  "antithrombin-ag-actual-normal": [],
+  "apis-mellifera-ab-ige": [],
+  "apis-mellifera-ab-igg": [],
+  "apium-graveolens-ab-ige": [],
+  "apixaban": [
+    {
+      "type": "pubmed",
+      "id": "36009548",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36009548/"
+    }
+  ],
+  "aquaporin-4-water-channel-ab-igg": [],
+  "arachis-hypogaea-ab-ige": [],
+  "aripiprazole": [
+    {
+      "type": "pubmed",
+      "id": "20584524",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20584524/"
+    },
+    {
+      "type": "pubmed",
+      "id": "35923249",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35923249/"
+    }
+  ],
+  "artemisia-absinthium-ab-ige": [],
+  "artemisia-vulgaris-ab-ige": [],
+  "ascaris-sp-ab-ige": [],
+  "asparagus-officinalis-ab-ige": [],
+  "aspergillus-flavus-ab-ige": [],
+  "aspergillus-fumigatus-ab-ige": [],
+  "aspergillus-fumigatus-ab-igg": [
+    {
+      "type": "pubmed",
+      "id": "32677131",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32677131/"
+    }
+  ],
+  "aspergillus-niger-ab-ige": [],
+  "astacus-astacus-ab-ige": [
+    {
+      "type": "practitioner_website",
+      "url": "https://carnivoremd.com/",
+      "platform": "website",
+      "practitioner_id": "person:paul-saladino"
+    }
+  ],
+  "atriplex-lentiformis-ab-ige": [],
+  "aureobasidium-pullulans-ab-ige": [],
+  "avena-sativa-ab-ige": [],
+  "avena-sativa-cultivated-ab-ige": [],
+  "babesia-microti-ab-igg": [],
+  "baclofen": [
+    {
+      "type": "pubmed",
+      "id": "37589096",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37589096/"
+    },
+    {
+      "type": "pubmed",
+      "id": "40347309",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40347309/"
+    },
+    {
+      "type": "pubmed",
+      "id": "41555041",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41555041/"
+    }
+  ],
+  "basement-membrane-ab-igg": [],
+  "bean-black-ab-ige": [],
+  "bean-green-ab-ige": [],
+  "bean-kidney-red-ab-ige": [],
+  "bean-white-ab-ige": [],
+  "beef-ab-ige": [],
+  "beet-ab-ige": [],
+  "benztropine": [
+    {
+      "type": "pubmed",
+      "id": "2199431",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2199431/"
+    }
+  ],
+  "bertholletia-excelsa-ab-ige": [],
+  "bertholletia-excelsa-recombinant-rber-e-1-ab-ige": [],
+  "beta-hydroxybutyrate": [
+    {
+      "type": "pubmed",
+      "id": "37575001",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37575001/"
+    },
+    {
+      "type": "pubmed",
+      "id": "40482682",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40482682/"
+    },
+    {
+      "type": "pubmed",
+      "id": "40793083",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40793083/"
+    }
+  ],
+  "beta-lactoglobulin-ab-ige": [],
+  "betula-verrucosa-ab-ige": [],
+  "bile-acid": [
+    {
+      "type": "pubmed",
+      "id": "30773280",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30773280/"
+    },
+    {
+      "type": "pubmed",
+      "id": "32971564",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32971564/"
+    },
+    {
+      "type": "pubmed",
+      "id": "40860779",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40860779/"
+    }
+  ],
+  "biotinidase": [
+    {
+      "type": "pubmed",
+      "id": "28281033",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28281033/"
+    },
+    {
+      "type": "pubmed",
+      "id": "37119528",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37119528/"
+    }
+  ],
+  "bismuth": [],
+  "bixa-orellana-seed-ab-ige": [],
+  "blastomyces-dermatitidis-ab": [
+    {
+      "type": "practitioner_website",
+      "url": "https://carnivoremd.com/",
+      "platform": "website",
+      "practitioner_id": "person:paul-saladino"
+    }
+  ],
+  "blatella-germanica-ab-ige": [],
+  "blomia-tropicalis-ab-ige": [],
+  "bombus-terrestris-ab-ige": [],
+  "bordetella-pertussis-ab-igg": [
+    {
+      "type": "pubmed",
+      "id": "30534033",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30534033/"
+    }
+  ],
+  "botrytis-cinerea-ab-ige": [],
+  "brassica-napus-ab-ige": [],
+  "brassica-oleracea-var-botrytis-ab-ige": [],
+  "brassica-oleracea-var-capitata-ab-ige": [],
+  "brassica-oleracea-var-italica-ab-ige": [],
+  "bromus-inermis-ab-ige": [],
+  "brucella-sp-ab": [],
+  "budgerigar-droppings-ab-ige": [],
+  "bupivacaine": [],
+  "bupropion": [],
+  "cadmium-blood-2": [
+    {
+      "type": "pubmed",
+      "id": "34628255",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34628255/"
+    },
+    {
+      "type": "pubmed",
+      "id": "41211180",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41211180/"
+    },
+    {
+      "type": "pubmed",
+      "id": "41367030",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41367030/"
+    }
+  ],
+  "caffeine": [],
+  "calcidiol-ercalcidiol": [
+    {
+      "type": "pubmed",
+      "id": "22319037",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22319037/"
+    },
+    {
+      "type": "pubmed",
+      "id": "24106288",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24106288/"
+    },
+    {
+      "type": "pubmed",
+      "id": "26447153",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26447153/"
+    },
+    {
+      "type": "pubmed",
+      "id": "28829285",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28829285/"
+    },
+    {
+      "type": "pubmed",
+      "id": "35551015",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35551015/"
+    }
+  ],
+  "calcidiol": [
+    {
+      "type": "pubmed",
+      "id": "25475621",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25475621/"
+    },
+    {
+      "type": "pubmed",
+      "id": "28192445",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28192445/"
+    },
+    {
+      "type": "pubmed",
+      "id": "38171815",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38171815/"
+    },
+    {
+      "type": "pubmed",
+      "id": "39131738",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39131738/"
+    }
+  ],
+  "calcitonin": [
+    {
+      "type": "pubmed",
+      "id": "37254023",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37254023/"
+    },
+    {
+      "type": "pubmed",
+      "id": "38711029",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38711029/"
+    },
+    {
+      "type": "pubmed",
+      "id": "41799688",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41799688/"
+    }
+  ],
+  "camellia-sinensis-ab-ige": [],
+  "cancer-ag-125": [
+    {
+      "type": "pubmed",
+      "id": "20025071",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20025071/"
+    },
+    {
+      "type": "pubmed",
+      "id": "27132058",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27132058/"
+    },
+    {
+      "type": "pubmed",
+      "id": "34212386",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34212386/"
+    },
+    {
+      "type": "pubmed",
+      "id": "37732995",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37732995/"
+    },
+    {
+      "type": "pubmed",
+      "id": "40877791",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40877791/"
+    }
+  ],
+  "cancer-ag-15-3": [],
+  "cancer-ag-19-9": [
+    {
+      "type": "pubmed",
+      "id": "27132058",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27132058/"
+    },
+    {
+      "type": "pubmed",
+      "id": "27405583",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27405583/"
+    },
+    {
+      "type": "pubmed",
+      "id": "33122524",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33122524/"
+    },
+    {
+      "type": "pubmed",
+      "id": "35970013",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35970013/"
+    },
+    {
+      "type": "pubmed",
+      "id": "38383207",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38383207/"
+    }
+  ],
+  "cancer-ag-27-29": [
+    {
+      "type": "pubmed",
+      "id": "11326676",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11326676/"
+    },
+    {
+      "type": "pubmed",
+      "id": "27481512",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27481512/"
+    }
+  ],
+  "cancer-pagurus-ab-ige": [
+    {
+      "type": "pubmed",
+      "id": "39895607",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39895607/"
+    }
+  ],
+  "candida-albicans-ab-ige": [],
+  "capsicum-annuum-ab-ige": [],
+  "carbamazepine-free": [],
+  "carbamazepine-total": [],
+  "carbamazepine": [],
+  "carbon-dioxide": [],
+  "carcinoembryonic-ag": [],
+  "cardiolipin-ab-iga": [],
+  "cardiolipin-ab-igg": [
+    {
+      "type": "pubmed",
+      "id": "7611714",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7611714/"
+    }
+  ],
+  "cardiolipin-ab-igm": [
+    {
+      "type": "pubmed",
+      "id": "16856974",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16856974/"
+    }
+  ],
+  "carica-papaya-ab-ige": [],
+  "carotene": [
+    {
+      "type": "pubmed",
+      "id": "36752230",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36752230/"
+    }
+  ],
+  "carum-carvi-ab-ige": [],
+  "carya-illinoinensis-nut-ab-ige": [],
+  "carya-illinoinensis-tree-ab-ige": [],
+  "carya-ovata-ab-ige": [],
+  "casein-ab-ige": [],
+  "castanea-sativa-ab-ige": [
+    {
+      "type": "practitioner_website",
+      "url": "https://carnivoremd.com/",
+      "platform": "website",
+      "practitioner_id": "person:paul-saladino"
+    }
+  ],
+  "casuarina-equisetifolia-ab-ige": [],
+  "cells-cd3-cd4": [],
+  "cells-cd3-cd8": [],
+  "celtis-occidentalis-ab-ige": [],
+  "centromere-ab-igg": [],
+  "ceratonia-siliqua-ab-ige": [],
+  "ceruloplasmin": [
+    {
+      "type": "pubmed",
+      "id": "31947878",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31947878/"
+    }
+  ],
+  "chaetomium-globosum-ab-ige": [],
+  "cheese-cheddar-type-ab-ige": [],
+  "cheese-mold-type-ab-ige": [],
+  "chenopodium-album-ab-ige": [],
+  "chenopodium-quinoa-ab-ige": [],
+  "chicken-feather-ab-ige": [],
+  "chicken-serum-proteins-ab-ige": [],
+  "chlorpromazine": [],
+  "cholinesterase": [
+    {
+      "type": "pubmed",
+      "id": "39049017",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39049017/"
+    }
+  ],
+  "choriomammotropin": [],
+  "chromogranin-a": [
+    {
+      "type": "pubmed",
+      "id": "31266019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31266019/"
+    },
+    {
+      "type": "pubmed",
+      "id": "32109626",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32109626/"
+    },
+    {
+      "type": "pubmed",
+      "id": "37075445",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37075445/"
+    }
+  ],
+  "chronic-urticaria-index": [
+    {
+      "type": "pubmed",
+      "id": "41005705",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41005705/"
+    },
+    {
+      "type": "pubmed",
+      "id": "41186128",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41186128/"
+    }
+  ],
+  "chymotrypsin-stool": [],
+  "cicer-arientinum-ab-ige": [],
+  "cinnamomum-spp-ab-ige": [],
+  "citrate": [],
+  "citrullus-lanatus-ab-ige": [],
+  "citrus-aurantifolia-ab-ige": [],
+  "citrus-limon-ab-ige": [],
+  "citrus-paradisis-ab-ige": [],
+  "citrus-reticulata-ab-ige": [],
+  "citrus-sinensis-ab-ige": [],
+  "clinical-biochemist-review": [],
+  "clobazam": [],
+  "clomipramine": [],
+  "clonidine": [],
+  "clorazepate": [],
+  "clostridium-tetani-toxoid-ab-igg": [],
+  "clupea-harengus-ab-ige": [],
+  "coagulation-3": [],
+  "coagulation-actual-normal": [],
+  "coagulation-factor-ix-activity-actual-normal": [],
+  "coagulation-factor-ix-inhibitor": [],
+  "coagulation-factor-v-activity-actual-normal": [],
+  "coagulation-factor-vii-activity-actual-normal": [],
+  "coagulation-factor-viii-activity-actual-normal": [],
+  "coagulation-factor-x-activity-actual-normal": [],
+  "coagulation-factor-xi-activity-actual-normal": [],
+  "coagulation-factor-xii-activity-actual-normal": [],
+  "coagulation-factor-xiii-activity-actual-normal": [],
+  "cocos-nucifera-ab-ige": [],
+  "coffea-spp-ab-ige": [],
+  "cold-agglutinin": [],
+  "complement-c1-esterase-inhibitor-actual-normal": [],
+  "complement-c1-esterase-inhibitor": [],
+  "complement-c1q-ab": [],
+  "complement-c1q": [
+    {
+      "type": "pubmed",
+      "id": "35237032",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35237032/"
+    },
+    {
+      "type": "pubmed",
+      "id": "35812425",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35812425/"
+    }
+  ],
+  "complement-c2": [],
+  "complement-c3a": [
+    {
+      "type": "pubmed",
+      "id": "27492980",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27492980/"
+    }
+  ],
+  "complement-c5-functional": [],
+  "complement-c5": [],
+  "complement-sc5b-9": [
+    {
+      "type": "pubmed",
+      "id": "33193878",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33193878/"
+    }
+  ],
+  "complement-total-hemolytic-ch50": [],
+  "coriandrum-sativum-ab-ige": [],
+  "corticosterone": [],
+  "corylus-avellana-ab-ige": [],
+  "corylus-avellana-recombinant-rcor-a-8-ab-ige": [],
+  "corynebacterium-diphtheriae-ab-igg": [],
+  "coryphaena-hippurus-ab-ige": [],
+  "cow-milk-ab-ige": [],
+  "cow-whey-ab-ige": [],
+  "creatine-kinase-mb-creatine-kinase-total": [],
+  "creatine-kinase-mb": [
+    {
+      "type": "pubmed",
+      "id": "34256723",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34256723/"
+    },
+    {
+      "type": "pubmed",
+      "id": "37835886",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37835886/"
+    }
+  ],
+  "creatine": [
+    {
+      "type": "pubmed",
+      "id": "38088110",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38088110/"
+    }
+  ],
+  "cryptomeria-japonica-ab-ige": [],
+  "cu-2": [],
+  "cucumis-melo-spp-ab-ige": [],
+  "cucumis-sativus-ab-ige": [],
+  "cucurbita-pepo-ab-ige": [],
+  "cucurbita-pepo-seed-ab-ige": [],
+  "curcuma-longa-ab-ige": [],
+  "curvularia-lunata-ab-ige": [],
+  "curvularia-specifera-ab-ige": [],
+  "cv2-ab-igg-csf": [],
+  "cyamopsis-tetragonoloba-ab-ige": [],
+  "cyclobenzaprine": [],
+  "cyclosporine": [],
+  "cynodon-dactylon-ab-ige": [],
+  "cytomegalovirus-ab-igg-avidity": [
+    {
+      "type": "pubmed",
+      "id": "11238233",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11238233/"
+    },
+    {
+      "type": "pubmed",
+      "id": "24663226",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24663226/"
+    },
+    {
+      "type": "pubmed",
+      "id": "32798662",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32798662/"
+    },
+    {
+      "type": "pubmed",
+      "id": "37112942",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37112942/"
+    }
+  ],
+  "dactylis-glomerata-ab-ige": [],
+  "daucus-carota-ab-ige": [],
+  "dehydroepiandrosterone-sulfate": [
+    {
+      "type": "pubmed",
+      "id": "40909019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40909019/"
+    }
+  ],
+  "dermatophagoides-farinae-ab-ige": [],
+  "dermatophagoides-microceras-ab-ige": [],
+  "dermatophagoides-pteronyssinus-ab-ige": [],
+  "desipramine": [],
+  "dexamethasone": [],
+  "dextromethorphan": [],
+  "digitoxin": [],
+  "digoxin-3": [
+    {
+      "type": "pubmed",
+      "id": "38839728",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38839728/"
+    },
+    {
+      "type": "pubmed",
+      "id": "39531271",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39531271/"
+    },
+    {
+      "type": "pubmed",
+      "id": "41463106",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41463106/"
+    }
+  ],
+  "digoxin-free": [],
+  "diltiazem": [],
+  "diphenylmethane-diisocyanate-mdi-ab-ige": [],
+  "dna-double-strand-ab-igg": [],
+  "dnase-b-ab-streptococcal": [],
+  "dog-dander-ab-ige": [],
+  "dolichovespula-arenaria-ab-ige": [],
+  "dolichovespula-maculata-ab-ige": [],
+  "dolichovespula-maculata-ab-igg": [
+    {
+      "type": "pubmed",
+      "id": "6852947",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/6852947/"
+    }
+  ],
+  "dopamine-2": [
+    {
+      "type": "pubmed",
+      "id": "37471567",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37471567/"
+    }
+  ],
+  "doxepin": [],
+  "duck-feather-ab-ige": [],
+  "duloxetine": [
+    {
+      "type": "pubmed",
+      "id": "40656060",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40656060/"
+    }
+  ],
+  "egg-white-ab-ige": [],
+  "egg-whole-ab-ige": [],
+  "egg-yolk-ab-ige": [],
+  "ehrlichia-chaffeensis-ab-igg": [],
+  "engraulis-encrasicolus-ab-ige": [],
+  "ephedrine": [],
+  "epicoccum-purpurascens-ab-ige": [],
+  "epstein-barr-virus-capsid-ab-igg": [
+    {
+      "type": "pubmed",
+      "id": "41270350",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41270350/"
+    }
+  ],
+  "epstein-barr-virus-capsid-ab-igm": [],
+  "epstein-barr-virus-early-diffuse-ab-igg": [],
+  "epstein-barr-virus-nuclear-ab-igg": [],
+  "erythropoietin": [],
+  "ethosuximide": [
+    {
+      "type": "pubmed",
+      "id": "23110840",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23110840/"
+    }
+  ],
+  "ethylene-glycol": [],
+  "eucalyptus-spp-ab-ige": [],
+  "everolimus": [
+    {
+      "type": "pubmed",
+      "id": "27393466",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27393466/"
+    },
+    {
+      "type": "pubmed",
+      "id": "41201871",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41201871/"
+    }
+  ],
+  "fagopyrum-esculentum-ab-ige": [],
+  "fagus-grandifolia-ab-ige": [],
+  "felbamate": [],
+  "festuca-elatior-ab-ige": [],
+  "finch-feather-ab-ige": [],
+  "flecainide": [],
+  "flounder-ab-ige": [],
+  "fluconazole": [],
+  "fluphenazine": [
+    {
+      "type": "pubmed",
+      "id": "7726317",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7726317/"
+    }
+  ],
+  "flurazepam": [],
+  "fluvoxamine": [],
+  "formaldehyde-ab-ige": [],
+  "fragaria-vesca-ab-ige": [],
+  "franseria-acanthicarpa-ab-ige": [],
+  "fraxinus-americana-ab-ige": [],
+  "furosemide": [],
+  "fusarium-moniliforme-ab-ige": [],
+  "gabapentin": [],
+  "gadus-morhua-ab-ige": [],
+  "galactomannan-ag": [],
+  "galactose-alpha-1-3-galactose-ab-ige": [],
+  "ganglioside-gm1-ab-igg-igm": [],
+  "ganglioside-gm1-ab-igm": [
+    {
+      "type": "pubmed",
+      "id": "10833617",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10833617/"
+    }
+  ],
+  "gelatin-ab-ige": [],
+  "gelatin-porcine-ab-ige": [],
+  "gerbil-epithelium-ab-ige": [],
+  "gliadin-peptide-ab-iga": [
+    {
+      "type": "pubmed",
+      "id": "32558687",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32558687/"
+    },
+    {
+      "type": "pubmed",
+      "id": "35437007",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35437007/"
+    },
+    {
+      "type": "pubmed",
+      "id": "40056457",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40056457/"
+    }
+  ],
+  "gliadin-peptide-ab-igg": [
+    {
+      "type": "pubmed",
+      "id": "32558687",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32558687/"
+    },
+    {
+      "type": "pubmed",
+      "id": "35437007",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35437007/"
+    },
+    {
+      "type": "pubmed",
+      "id": "40056457",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40056457/"
+    }
+  ],
+  "glial-fibrillary-acidic-protein": [
+    {
+      "type": "pubmed",
+      "id": "36620734",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36620734/"
+    },
+    {
+      "type": "pubmed",
+      "id": "39167371",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39167371/"
+    },
+    {
+      "type": "pubmed",
+      "id": "39587121",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39587121/"
+    },
+    {
+      "type": "pubmed",
+      "id": "40432557",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40432557/"
+    }
+  ],
+  "glucagon": [],
+  "glutamine-csf": [],
+  "gluten-ab-ige": [],
+  "glycine-max-ab-ige": [],
+  "glycyphagus-domesticus-ab-ige": [],
+  "goat-epithelium-ab-ige": [],
+  "goat-milk-ab-ige": [],
+  "goose-feather-ab-ige": [],
+  "guinea-pig-epithelium-ab-ige": [],
+  "gum-arabic-ab-ige": [],
+  "haemophilus-influenzae-b-ab-igg": [
+    {
+      "type": "pubmed",
+      "id": "34376350",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34376350/"
+    }
+  ],
+  "haloperidol": [],
+  "hamster-epithelium-ab-ige": [],
+  "haptoglobin": [],
+  "heavy-metals-panel": [
+    {
+      "type": "pubmed",
+      "id": "39645005",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39645005/"
+    }
+  ],
+  "helianthus-annuus-pollen-ab-ige": [],
+  "helianthus-annuus-seed-ab-ige": [],
+  "heparin-unfractionated": [],
+  "hepatitis-b-virus-surface-ab": [],
+  "hepatitis-c-virus-rna": [
+    {
+      "type": "pubmed",
+      "id": "24569819",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24569819/"
+    },
+    {
+      "type": "pubmed",
+      "id": "25684966",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25684966/"
+    },
+    {
+      "type": "pubmed",
+      "id": "28765697",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28765697/"
+    }
+  ],
+  "her2-ag": [],
+  "hexamethylene-diisocyanate-hdi-ab-ige": [],
+  "hippoglossus-hippoglossus-ab-ige": [],
+  "histone-ab-igg": [
+    {
+      "type": "pubmed",
+      "id": "19567622",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19567622/"
+    }
+  ],
+  "hiv-1-rna": [
+    {
+      "type": "pubmed",
+      "id": "9637577",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9637577/"
+    },
+    {
+      "type": "pubmed",
+      "id": "23362296",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23362296/"
+    },
+    {
+      "type": "pubmed",
+      "id": "23459863",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23459863/"
+    }
+  ],
+  "homarus-gammarus-ab-ige": [],
+  "hordeum-vulgare-ab-ige": [],
+  "horse-dander-ab-ige": [],
+  "house-dust-greer-ab-ige": [],
+  "house-dust-hollister-stier-ab-ige": [],
+  "human-antimouse-ab": [],
+  "human-epididymis-protein-4": [
+    {
+      "type": "pubmed",
+      "id": "34212386",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34212386/"
+    },
+    {
+      "type": "pubmed",
+      "id": "39698045",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39698045/"
+    },
+    {
+      "type": "pubmed",
+      "id": "40286377",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40286377/"
+    }
+  ],
+  "hydroxyzine": [],
+  "ibuprofen": [],
+  "ictalurus-punctatus-ab-ige": [],
+  "igd": [],
+  "ige": [
+    {
+      "type": "pubmed",
+      "id": "35835293",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35835293/"
+    },
+    {
+      "type": "pubmed",
+      "id": "37653511",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37653511/"
+    },
+    {
+      "type": "pubmed",
+      "id": "40098454",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40098454/"
+    },
+    {
+      "type": "pubmed",
+      "id": "40103206",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40103206/"
+    }
+  ],
+  "igg-subclass-4": [],
+  "igg-synthesis-rate": [
+    {
+      "type": "pubmed",
+      "id": "7234400",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7234400/"
+    }
+  ],
+  "immune-complex": [],
+  "inhibin-a": [
+    {
+      "type": "pubmed",
+      "id": "18680570",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18680570/"
+    },
+    {
+      "type": "pubmed",
+      "id": "32387268",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32387268/"
+    }
+  ],
+  "inhibin-b": [
+    {
+      "type": "pubmed",
+      "id": "20695924",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20695924/"
+    },
+    {
+      "type": "pubmed",
+      "id": "31793003",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31793003/"
+    }
+  ],
+  "insulin-ab": [],
+  "interferon-gamma": [
+    {
+      "type": "pubmed",
+      "id": "39447386",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39447386/"
+    }
+  ],
+  "interleukin-2-receptor-soluble": [],
+  "interleukin-2": [],
+  "interleukin-4": [],
+  "interleukin-8": [
+    {
+      "type": "pubmed",
+      "id": "38531618",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38531618/"
+    },
+    {
+      "type": "pubmed",
+      "id": "41003560",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41003560/"
+    },
+    {
+      "type": "pubmed",
+      "id": "41695859",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41695859/"
+    }
+  ],
+  "ipomoea-batatas-ab-ige": [],
+  "islet-cell-512-ab": [],
+  "ispaghula-laxative-ab-ige": [],
+  "itraconazole-serum-whole-blood-plasma": [
+    {
+      "type": "pubmed",
+      "id": "30197526",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30197526/"
+    }
+  ],
+  "iva-ciliata-ab-ige": [],
+  "jo-1-extractable-nuclear-ab": [],
+  "juglans-california-pollen-ab-ige": [],
+  "juglans-regia-recombinant-rjug-r-1-ab-ige": [],
+  "juglans-spp-ab-ige": [],
+  "juniperus-sabinoides-ab-ige": [],
+  "juniperus-virginiana-ab-ige": [],
+  "kochia-scoparia-ab-ige": [],
+  "lacosamide": [
+    {
+      "type": "pubmed",
+      "id": "28349359",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28349359/"
+    },
+    {
+      "type": "pubmed",
+      "id": "40450138",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40450138/"
+    }
+  ],
+  "lactalbumin-alpha-ab-ige": [],
+  "lactic-acid": [
+    {
+      "type": "pubmed",
+      "id": "39806665",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39806665/"
+    }
+  ],
+  "lactuca-sativa-ab-ige": [],
+  "lamb-ab-ige": [],
+  "lamotrigine": [
+    {
+      "type": "pubmed",
+      "id": "34459434",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34459434/"
+    },
+    {
+      "type": "pubmed",
+      "id": "37906300",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37906300/"
+    }
+  ],
+  "latex-ab-ige": [],
+  "laurus-nobilis-ab-ige": [],
+  "lead-blood-2": [
+    {
+      "type": "pubmed",
+      "id": "38990179",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38990179/"
+    },
+    {
+      "type": "pubmed",
+      "id": "41367030",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41367030/"
+    }
+  ],
+  "legionella-pneumophila-ab": [],
+  "lens-esculenta-ab-ige": [],
+  "lepidoglyphus-destructor-ab-ige": [],
+  "levetiracetam": [
+    {
+      "type": "pubmed",
+      "id": "40013239",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40013239/"
+    }
+  ],
+  "lidocaine": [],
+  "ligustrum-vulgare-ab-ige": [],
+  "limulus-amebocyte-lysate-test-other": [],
+  "linum-usitatissimum-ab-ige": [],
+  "liquidambar-styraciflua-ab-ige": [],
+  "lithium": [
+    {
+      "type": "pubmed",
+      "id": "29189921",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29189921/"
+    }
+  ],
+  "liver-kidney-microsomal-1-ab": [
+    {
+      "type": "pubmed",
+      "id": "15670483",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15670483/"
+    }
+  ],
+  "loligo-sp-ab-ige": [],
+  "lolium-perenne-ab-ige": [],
+  "lorazepam": [
+    {
+      "type": "pubmed",
+      "id": "29363356",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29363356/"
+    }
+  ],
+  "lpa-2": [
+    {
+      "type": "pubmed",
+      "id": "33115266",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33115266/"
+    },
+    {
+      "type": "pubmed",
+      "id": "41231412",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41231412/"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://peterattiamd.com/",
+      "platform": "website",
+      "practitioner_id": "person:peter-attia"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://peterattiadrive.libsyn.com/rss",
+      "platform": "podcast",
+      "practitioner_id": "person:peter-attia"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://twitter.com/Drlipid",
+      "platform": "website",
+      "practitioner_id": "person:thomas-dayspring"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://dietdoctor.com/",
+      "platform": "website",
+      "practitioner_id": "person:bret-scher"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://feed.podbean.com/dietdoctorpodcast/feed.xml",
+      "platform": "podcast",
+      "practitioner_id": "person:bret-scher"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://cholesterolcode.com/",
+      "platform": "website",
+      "practitioner_id": "person:dave-feldman"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://www.mercola.com/",
+      "platform": "website",
+      "practitioner_id": "person:joseph-mercola"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://nicknorwitz.com/",
+      "platform": "website",
+      "practitioner_id": "person:nick-norwitz"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://carnivoremd.com/",
+      "platform": "website",
+      "practitioner_id": "person:paul-saladino"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://drsten.com/",
+      "platform": "website",
+      "practitioner_id": "person:sten-ekberg"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://gundrymd.com/",
+      "platform": "website",
+      "practitioner_id": "person:steven-gundry"
+    }
+  ],
+  "lycopersicon-lycopersicum-ab-ige": [],
+  "lysozyme": [],
+  "macadamia-spp-ab-ige": [],
+  "malt-ab-ige": [
+    {
+      "type": "practitioner_website",
+      "url": "https://carnivoremd.com/",
+      "platform": "website",
+      "practitioner_id": "person:paul-saladino"
+    }
+  ],
+  "malus-sylvestris-ab-ige": [],
+  "mangifera-indica-ab-ige": [],
+  "mannose-binding-protein": [
+    {
+      "type": "pubmed",
+      "id": "26382056",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26382056/"
+    },
+    {
+      "type": "pubmed",
+      "id": "26826565",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26826565/"
+    },
+    {
+      "type": "pubmed",
+      "id": "32111865",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32111865/"
+    }
+  ],
+  "medicago-sativa-ab-ige": [],
+  "melaleuca-leucadendron-ab-ige": [],
+  "melanogrammus-aeglefinus-ab-ige": [],
+  "mentha-piperita-ab-ige": [],
+  "mercury-blood-2": [
+    {
+      "type": "pubmed",
+      "id": "41367030",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41367030/"
+    }
+  ],
+  "merluccius-merluccius-ab-ige": [],
+  "methadone": [
+    {
+      "type": "pubmed",
+      "id": "29393208",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29393208/"
+    }
+  ],
+  "methotrexate": [
+    {
+      "type": "pubmed",
+      "id": "30824404",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30824404/"
+    },
+    {
+      "type": "pubmed",
+      "id": "39537558",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39537558/"
+    }
+  ],
+  "methylphenidate": [
+    {
+      "type": "pubmed",
+      "id": "41183543",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41183543/"
+    }
+  ],
+  "mexiletine": [
+    {
+      "type": "pubmed",
+      "id": "27708780",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27708780/"
+    }
+  ],
+  "mi-2-ab": [],
+  "micropterus-salmoides-ab-ige": [],
+  "midazolam": [],
+  "mirtazapine": [],
+  "mitochondria-m2-ab": [
+    {
+      "type": "pubmed",
+      "id": "10967909",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10967909/"
+    },
+    {
+      "type": "pubmed",
+      "id": "15670483",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15670483/"
+    }
+  ],
+  "mitotane": [
+    {
+      "type": "pubmed",
+      "id": "29452402",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29452402/"
+    },
+    {
+      "type": "pubmed",
+      "id": "30349596",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30349596/"
+    }
+  ],
+  "morus-alba-ab-ige": [],
+  "moth-ab-ige": [],
+  "mouse-epithelium-ab-ige": [],
+  "mouse-serum-proteins-ab-ige": [],
+  "mouse-urine-proteins-ab-ige": [],
+  "mucor-racemosus-ab-ige": [],
+  "mumps-virus-ab-igg": [],
+  "mumps-virus-ab-igm": [],
+  "musa-spp-ab-ige": [],
+  "muscle-specific-receptor-tyrosine-kinase-ab": [],
+  "mustard-ab-ige": [],
+  "mutated-citrullinated-vimentin-ab": [],
+  "mycophenolate": [
+    {
+      "type": "pubmed",
+      "id": "41201871",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41201871/"
+    },
+    {
+      "type": "pubmed",
+      "id": "41801058",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41801058/"
+    }
+  ],
+  "mycoplasma-pneumoniae-ab-igg": [
+    {
+      "type": "pubmed",
+      "id": "36084539",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36084539/"
+    }
+  ],
+  "mycoplasma-pneumoniae-ab-igm": [],
+  "myelin-associated-glycoprotein-ab-igm": [],
+  "myelin-basic-protein-csf": [],
+  "myeloperoxidase-ab": [],
+  "myrica-spp-ab-ige": [],
+  "mytilus-edulis-ab-ige": [],
+  "n-acetylprocainamide": [
+    {
+      "type": "pubmed",
+      "id": "2422935",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2422935/"
+    },
+    {
+      "type": "pubmed",
+      "id": "6161534",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/6161534/"
+    },
+    {
+      "type": "pubmed",
+      "id": "6188570",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/6188570/"
+    }
+  ],
+  "neurofilament-light-chain": [
+    {
+      "type": "pubmed",
+      "id": "40770665",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40770665/"
+    }
+  ],
+  "nickel": [],
+  "norclozapine": [],
+  "norfentanyl": [],
+  "norsertraline": [],
+  "nortriptyline": [
+    {
+      "type": "pubmed",
+      "id": "9450712",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9450712/"
+    }
+  ],
+  "nuclear-ab-igg": [
+    {
+      "type": "pubmed",
+      "id": "26376434",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26376434/"
+    }
+  ],
+  "nuclear-ab": [],
+  "nuclear-pore-protein-gp210-ab": [],
+  "nutmeg-ab-ige": [],
+  "observation": [
+    {
+      "type": "pubmed",
+      "id": "40190402",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40190402/"
+    }
+  ],
+  "ocimum-basilicum-ab-ige": [],
+  "octopus-vulgaris-ab-ige": [],
+  "olanzapine": [
+    {
+      "type": "pubmed",
+      "id": "37471567",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37471567/"
+    },
+    {
+      "type": "pubmed",
+      "id": "38325263",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38325263/"
+    }
+  ],
+  "olea-europaea-ab-ige": [],
+  "olea-europaea-pollen-ab-ige": [],
+  "oncorhynchus-mykiss-ab-ige": [],
+  "origanum-vulgare-ab-ige": [],
+  "oryza-sativa-ab-ige": [],
+  "ostrea-edulis-ab-ige": [],
+  "ovalbumin-ab-ige": [],
+  "ovomucoid-ab-ige": [],
+  "oxalate": [
+    {
+      "type": "pubmed",
+      "id": "37899362",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37899362/"
+    }
+  ],
+  "oxazepam": [],
+  "oxycodone": [
+    {
+      "type": "pubmed",
+      "id": "27558774",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27558774/"
+    }
+  ],
+  "pancreatic-polypeptide": [
+    {
+      "type": "pubmed",
+      "id": "38003897",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38003897/"
+    }
+  ],
+  "pandalus-borealis-ab-ige": [],
+  "panicum-milliaceum-ab-ige": [],
+  "papaver-somniferum-ab-ige": [],
+  "parathyrin-intact": [
+    {
+      "type": "pubmed",
+      "id": "26814375",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26814375/"
+    },
+    {
+      "type": "pubmed",
+      "id": "31648433",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31648433/"
+    },
+    {
+      "type": "pubmed",
+      "id": "36125184",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36125184/"
+    },
+    {
+      "type": "pubmed",
+      "id": "36286286",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36286286/"
+    },
+    {
+      "type": "pubmed",
+      "id": "40451790",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40451790/"
+    }
+  ],
+  "parathyrin-related-protein": [],
+  "parietal-cell-ab-igg": [],
+  "parietaria-officinalis-ab-ige": [],
+  "paspalum-notatum-ab-ige": [],
+  "pathology-study": [],
+  "pecten-spp-ab-ige": [],
+  "penicillin-g-ab-ige": [],
+  "penicillin-v-ab-ige": [],
+  "penicillium-notatum-ab-ige": [],
+  "pentobarbital": [],
+  "pepper-green-ab-ige": [],
+  "periplaneta-americana-ab-ige": [],
+  "perphenazine": [
+    {
+      "type": "pubmed",
+      "id": "2199431",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2199431/"
+    }
+  ],
+  "persea-americana-ab-ige": [],
+  "petroselinum-crispum-ab-ige": [],
+  "ph": [
+    {
+      "type": "pubmed",
+      "id": "39277564",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39277564/"
+    }
+  ],
+  "phalaris-arundinacea-ab-ige": [],
+  "phaseolus-limensis-ab-ige": [],
+  "phencyclidine": [],
+  "phenobarbital": [],
+  "phenylalanine": [],
+  "phenytoin-free-total-panel": [],
+  "phenytoin-free": [],
+  "phenytoin": [],
+  "phleum-pratense-ab-ige": [],
+  "phoma-betae-ab-ige": [],
+  "phosphatidylserine-ab-igg": [],
+  "phosphatidylserine-prothrombin-complex-ab-igg": [],
+  "phospholipase-a2-receptor-ab-igg-2": [
+    {
+      "type": "pubmed",
+      "id": "39611282",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39611282/"
+    }
+  ],
+  "phragmites-communis-ab-ige": [],
+  "phthalic-anhydride-ab-ige": [],
+  "pigeon-feather-ab-ige": [],
+  "pimpinella-anisum-ab-ige": [],
+  "pinus-edulis-ab-ige": [],
+  "pinus-strobus-ab-ige": [],
+  "pistacia-vera-ab-ige": [],
+  "pisum-sativum-ab-ige": [],
+  "plantago-lanceolata-ab-ige": [],
+  "plasmin-inhibitor-actual-normal": [],
+  "plasminogen-activator-tissue-type-ag": [],
+  "plasminogen-actual-normal": [],
+  "platelet-factor-4-heparin-complex-induced-ab-igg": [
+    {
+      "type": "pubmed",
+      "id": "28677022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28677022/"
+    }
+  ],
+  "pleuronectes-platessa-ab-ige": [],
+  "poa-pratensis-ab-ige": [],
+  "polistes-spp-ab-ige": [],
+  "pollachius-virens-ab-ige": [],
+  "populus-alba-ab-ige": [],
+  "populus-deltoides-ab-ige": [],
+  "populus-tremula-ab-ige": [],
+  "pork-ab-ige": [],
+  "porphyrins": [],
+  "posaconazole-serum-whole-blood-urine": [],
+  "pregabalin": [],
+  "pregnenolone": [],
+  "prekallikrein-activity-actual-normal": [],
+  "procollagen-type-i-n-terminal-propeptide": [],
+  "promethazine": [],
+  "propafenone": [],
+  "prosopis-juliflora-ab-ige": [],
+  "prostate-specific-ag-2": [],
+  "prostate-specific-ag-free": [
+    {
+      "type": "pubmed",
+      "id": "16926855",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16926855/"
+    }
+  ],
+  "prostate-specific-ag-protein-bound": [],
+  "protein-c-actual-normal-2": [],
+  "protein-c-ag-actual-normal": [],
+  "protein-s-ag-actual-normal": [],
+  "protein-s-free-ag-actual-normal": [],
+  "protein-total": [
+    {
+      "type": "pubmed",
+      "id": "40373242",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40373242/"
+    }
+  ],
+  "proteinase-3-ab": [],
+  "prothrombin-activity-actual-normal": [],
+  "protriptyline": [],
+  "provasopressin-c-terminal": [
+    {
+      "type": "pubmed",
+      "id": "17420344",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17420344/"
+    },
+    {
+      "type": "pubmed",
+      "id": "35794488",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35794488/"
+    },
+    {
+      "type": "pubmed",
+      "id": "38243094",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38243094/"
+    },
+    {
+      "type": "pubmed",
+      "id": "39056779",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39056779/"
+    },
+    {
+      "type": "pubmed",
+      "id": "40317183",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40317183/"
+    }
+  ],
+  "prunus-armeniaca-ab-ige": [],
+  "prunus-avium-ab-ige": [],
+  "prunus-domestica-ab-ige": [],
+  "prunus-dulcis-ab-ige": [],
+  "prunus-persica-ab-ige": [],
+  "prunus-persica-var-nucipersica-ab-ige": [],
+  "pt-2": [],
+  "pyrus-communis-ab-ige": [],
+  "quercus-alba-ab-ige": [],
+  "quercus-rubra-ab-ige": [],
+  "quercus-virginiana-ab-ige": [],
+  "quetiapine": [
+    {
+      "type": "pubmed",
+      "id": "38108086",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38108086/"
+    }
+  ],
+  "quinidine": [
+    {
+      "type": "pubmed",
+      "id": "30782581",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30782581/"
+    }
+  ],
+  "rabbit-epithelium-ab-ige": [],
+  "rabbit-meat-ab-ige": [],
+  "rat-epithelium-ab-ige": [],
+  "rat-serum-proteins-ab-ige": [],
+  "rat-urine-proteins-ab-ige": [],
+  "referral-lab-test-reference-range": [],
+  "retinol-binding-protein": [],
+  "rhizopus-nigricans-ab-ige": [],
+  "riboflavin": [
+    {
+      "type": "pubmed",
+      "id": "41582436",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41582436/"
+    }
+  ],
+  "ribosomal-p-ab": [],
+  "rickettsia-typhi-ab-igg": [],
+  "risperidone-9-hydroxyrisperidone-panel": [],
+  "rna-polymerase-iii-ab-igg": [],
+  "rubella-virus-ab-igg": [],
+  "rubella-virus-ab-igm": [],
+  "rubus-fruticosus-ab-ige": [],
+  "rubus-idaeus-ab-ige": [],
+  "ruditapes-spp-ab-ige": [],
+  "rufinamide": [],
+  "rumex-acetosella-ab-ige": [],
+  "rumex-crispus-ab-ige": [],
+  "saccharomyces-cerevisiae-ab-iga": [
+    {
+      "type": "pubmed",
+      "id": "25895876",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25895876/"
+    }
+  ],
+  "saccharomyces-cerevisiae-ab-ige": [],
+  "saccharomyces-cerevisiae-ab-igg-2": [
+    {
+      "type": "pubmed",
+      "id": "25895876",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25895876/"
+    }
+  ],
+  "saccharum-officinarum-ab-ige": [],
+  "salicylates": [],
+  "salix-caprea-ab-ige": [],
+  "salmo-salar-ab-ige": [],
+  "salsola-kali-ab-ige": [],
+  "sardina-pilchardus-ab-ige": [],
+  "scl-70-extractable-nuclear-ab-igg": [],
+  "scomber-scombrus-ab-ige": [],
+  "secale-cereale-ab-ige": [],
+  "secale-cereale-pollen-ab-ige": [],
+  "secobarbital": [],
+  "seminal-fluid-ab-ige": [],
+  "serotonin-release-100-iu-ml-heparin-unfractionated": [],
+  "sesamum-indicum-ab-ige": [],
+  "setomelanomma-rostrata-ab-ige": [],
+  "sheep-epithelium-ab-ige": [],
+  "sirolimus": [],
+  "sjogrens-syndrome-b-extractable-nuclear-ab-igg": [],
+  "smith-extractable-nuclear-ab-igg": [],
+  "snapper-red-ab-ige": [],
+  "solanum-melongena-ab-ige": [],
+  "solanum-tuberosum-ab-ige": [],
+  "solea-solea-ab-ige": [],
+  "solenopsis-invicta-ab-ige": [],
+  "solidago-virgaurea-ab-ige": [],
+  "soluble-fms-like-tyrosine-kinase-1-placental-growth-factor": [
+    {
+      "type": "pubmed",
+      "id": "34384075",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34384075/"
+    },
+    {
+      "type": "pubmed",
+      "id": "34459248",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34459248/"
+    },
+    {
+      "type": "pubmed",
+      "id": "34497833",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34497833/"
+    },
+    {
+      "type": "pubmed",
+      "id": "41780626",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41780626/"
+    }
+  ],
+  "soluble-liver-ab-igg": [],
+  "soluble-liver-ab": [],
+  "somatostatin": [],
+  "sorghum-halepense-ab-ige": [],
+  "sotalol": [],
+  "sp100-ab": [],
+  "spinacia-oleracea-ab-ige": [],
+  "squamous-cell-carcinoma-ag": [
+    {
+      "type": "pubmed",
+      "id": "15735121",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15735121/"
+    },
+    {
+      "type": "pubmed",
+      "id": "34119366",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34119366/"
+    },
+    {
+      "type": "pubmed",
+      "id": "34996617",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34996617/"
+    },
+    {
+      "type": "pubmed",
+      "id": "40615916",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40615916/"
+    }
+  ],
+  "squash-zucchini-ab-ige": [],
+  "staphylococcus-aureus-enterotoxin-a-ab-ige": [],
+  "stemphylium-botryosum-ab-ige": [],
+  "stfr-3": [
+    {
+      "type": "pubmed",
+      "id": "33111457",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33111457/"
+    },
+    {
+      "type": "pubmed",
+      "id": "35051624",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35051624/"
+    },
+    {
+      "type": "pubmed",
+      "id": "38975011",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38975011/"
+    },
+    {
+      "type": "pubmed",
+      "id": "39742215",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39742215/"
+    },
+    {
+      "type": "pubmed",
+      "id": "40056940",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40056940/"
+    },
+    {
+      "type": "pubmed",
+      "id": "41239525",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41239525/"
+    }
+  ],
+  "stizostedion-vitreum-ab-ige": [],
+  "streptolysin-o-ab": [
+    {
+      "type": "pubmed",
+      "id": "4363557",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/4363557/"
+    },
+    {
+      "type": "pubmed",
+      "id": "25136388",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25136388/"
+    },
+    {
+      "type": "pubmed",
+      "id": "31516274",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31516274/"
+    },
+    {
+      "type": "pubmed",
+      "id": "32601082",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32601082/"
+    },
+    {
+      "type": "pubmed",
+      "id": "35784665",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35784665/"
+    },
+    {
+      "type": "pubmed",
+      "id": "40476715",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40476715/"
+    }
+  ],
+  "swine-epithelium-ab-ige": [],
+  "syagrus-romanzoffianum-ab-ige": [],
+  "syzygium-aromaticum-ab-ige": [],
+  "tabanus-spp-ab-ige": [],
+  "taenia-solium-larva-ab-igg-csf": [],
+  "taraxacum-vulgare-ab-ige": [],
+  "taxodium-distichum-ab-ige": [],
+  "temazepam": [],
+  "teriflunomide": [],
+  "thallium": [],
+  "theobroma-cacao-ab-ige": [],
+  "theophylline": [],
+  "thiocyanate": [
+    {
+      "type": "pubmed",
+      "id": "36194328",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36194328/"
+    },
+    {
+      "type": "pubmed",
+      "id": "40254821",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40254821/"
+    }
+  ],
+  "thiopurine-methyltransferase": [],
+  "thrombopoietin": [
+    {
+      "type": "pubmed",
+      "id": "40052310",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40052310/"
+    }
+  ],
+  "thunnus-albacares-ab-ige": [],
+  "thymus-vulgaris-ab-ige": [],
+  "thyroglobulin-ab": [],
+  "thyroperoxidase-ab": [],
+  "thyrotropin-receptor-ab": [
+    {
+      "type": "pubmed",
+      "id": "21521291",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21521291/"
+    },
+    {
+      "type": "pubmed",
+      "id": "40620798",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40620798/"
+    },
+    {
+      "type": "pubmed",
+      "id": "40955128",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40955128/"
+    }
+  ],
+  "thyrotropin": [
+    {
+      "type": "pubmed",
+      "id": "26010634",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26010634/"
+    },
+    {
+      "type": "pubmed",
+      "id": "36637992",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36637992/"
+    },
+    {
+      "type": "pubmed",
+      "id": "37696273",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37696273/"
+    }
+  ],
+  "thyroxine-free-2": [
+    {
+      "type": "pubmed",
+      "id": "37661671",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37661671/"
+    },
+    {
+      "type": "pubmed",
+      "id": "37696273",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37696273/"
+    }
+  ],
+  "tilapia-ab-ige": [],
+  "tin": [
+    {
+      "type": "practitioner_website",
+      "url": "https://www.benbikman.com/",
+      "platform": "website",
+      "practitioner_id": "person:benjamin-bikman"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://benbikman.com/",
+      "platform": "website",
+      "practitioner_id": "person:benjamin-bikman"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://feeds.acast.com/public/shows/602b13db8237836e54f27141",
+      "platform": "podcast",
+      "practitioner_id": "person:benjamin-bikman"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://www.csiro.au/",
+      "platform": "website",
+      "practitioner_id": "researchgroup:csiro"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://phcuk.org/",
+      "platform": "website",
+      "practitioner_id": "person:david-unwin"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://www.defeatdiabetes.com.au/",
+      "platform": "website",
+      "practitioner_id": "company:defeat-diabetes"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://ketonutrition.org/",
+      "platform": "website",
+      "practitioner_id": "person:dominic-dagostino"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://www.thefastingmethod.com/",
+      "platform": "website",
+      "practitioner_id": "person:jason-fung"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://drjasonfung.com/",
+      "platform": "website",
+      "practitioner_id": "person:jason-fung"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://drhyman.me/",
+      "platform": "website",
+      "practitioner_id": "person:mark-hyman"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://drhyman.com/",
+      "platform": "website",
+      "practitioner_id": "person:mark-hyman"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://feeds.megaphone.fm/thedoctorsfarmacy",
+      "platform": "podcast",
+      "practitioner_id": "person:mark-hyman"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://peterattiamd.com/",
+      "platform": "website",
+      "practitioner_id": "person:peter-attia"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://peterattiadrive.libsyn.com/rss",
+      "platform": "podcast",
+      "practitioner_id": "person:peter-attia"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://peterbrukner.com/",
+      "platform": "website",
+      "practitioner_id": "person:peter-brukner"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://www.foundmyfitness.com/",
+      "platform": "website",
+      "practitioner_id": "person:rhonda-patrick"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://foundmyfitness.com/",
+      "platform": "website",
+      "practitioner_id": "person:rhonda-patrick"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://rss.libsyn.com/shows/51714/destinations/184296.xml",
+      "platform": "podcast",
+      "practitioner_id": "person:rhonda-patrick"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://virtahealth.com/",
+      "platform": "website",
+      "practitioner_id": "person:stephen-phinney"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://tednaiman.com/",
+      "platform": "website",
+      "practitioner_id": "person:ted-naiman"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://www.virtahealth.com/",
+      "platform": "website",
+      "practitioner_id": "company:virta-health"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://virtahealth.com/",
+      "platform": "website",
+      "practitioner_id": "company:virta-health"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://dietdoctor.com/",
+      "platform": "website",
+      "practitioner_id": "person:andreas-eenfeldt"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://hubermanlab.com/",
+      "platform": "website",
+      "practitioner_id": "person:andrew-huberman"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://feeds.megaphone.fm/hubermanlab",
+      "platform": "podcast",
+      "practitioner_id": "person:andrew-huberman"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://dranthonychaffee.com/",
+      "platform": "website",
+      "practitioner_id": "person:anthony-chaffee"
+    },
+    {
+      "type": "practitioner_other",
+      "url": "https://instagram.com/anthonychaffeemd",
+      "platform": "other",
+      "practitioner_id": "person:anthony-chaffee"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://podcasts.apple.com/au/podcast/the-plant-free-md-podcast/id1614546790",
+      "platform": "podcast",
+      "practitioner_id": "person:anthony-chaffee"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://open.spotify.com/show/0WQtoPLuPMWWm3ZT3DYXzp",
+      "platform": "podcast",
+      "practitioner_id": "person:anthony-chaffee"
+    },
+    {
+      "type": "practitioner_other",
+      "url": "https://dr-chaffee-s-90-day-carnivore-challenge.mn.co/landing",
+      "platform": "other",
+      "practitioner_id": "person:anthony-chaffee"
+    },
+    {
+      "type": "practitioner_other",
+      "url": "https://patreon.com/AnthonyChaffeeMD",
+      "platform": "other",
+      "practitioner_id": "person:anthony-chaffee"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://metabolicinitiative.com/",
+      "platform": "website",
+      "practitioner_id": "person:casey-means"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://anchor.fm/s/48092b10/podcast/rss",
+      "platform": "podcast",
+      "practitioner_id": "person:casey-means"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://drbredesen.com/",
+      "platform": "website",
+      "practitioner_id": "person:dale-bredesen"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://drperlmutter.com/",
+      "platform": "website",
+      "practitioner_id": "person:david-perlmutter"
+    },
+    {
+      "type": "practitioner_podcast",
+      "url": "https://anchor.fm/s/f102c71c/podcast/rss",
+      "platform": "podcast",
+      "practitioner_id": "person:david-perlmutter"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://www.dietdoctor.com/",
+      "platform": "website",
+      "practitioner_id": "media:diet-doctor"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://dietdoctor.com/",
+      "platform": "website",
+      "practitioner_id": "media:diet-doctor"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://www.mercola.com/",
+      "platform": "website",
+      "practitioner_id": "person:joseph-mercola"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://www.levels.com/",
+      "platform": "website",
+      "practitioner_id": "company:levels-health"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://levelshealth.com/",
+      "platform": "website",
+      "practitioner_id": "company:levels-health"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://www.lowcarbprogram.com/",
+      "platform": "website",
+      "practitioner_id": "company:low-carb-program"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://thefastingmethod.com/",
+      "platform": "website",
+      "practitioner_id": "person:megan-ramos"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://metabolichealthsummit.com/",
+      "platform": "website",
+      "practitioner_id": "conference:metabolic-health-summit"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://phcuk.org/",
+      "platform": "website",
+      "practitioner_id": "network:public-health-collaboration"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://saragottfriedmd.com/",
+      "platform": "website",
+      "practitioner_id": "person:sara-gottfried"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://drsten.com/",
+      "platform": "website",
+      "practitioner_id": "person:sten-ekberg"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://gundrymd.com/",
+      "platform": "website",
+      "practitioner_id": "person:steven-gundry"
+    }
+  ],
+  "tissue-transglutaminase-ab-iga": [
+    {
+      "type": "pubmed",
+      "id": "22969205",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22969205/"
+    },
+    {
+      "type": "pubmed",
+      "id": "27472272",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27472272/"
+    },
+    {
+      "type": "pubmed",
+      "id": "32558687",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32558687/"
+    },
+    {
+      "type": "pubmed",
+      "id": "35437007",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35437007/"
+    },
+    {
+      "type": "pubmed",
+      "id": "37798643",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37798643/"
+    },
+    {
+      "type": "pubmed",
+      "id": "38176661",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38176661/"
+    },
+    {
+      "type": "pubmed",
+      "id": "39815158",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39815158/"
+    },
+    {
+      "type": "pubmed",
+      "id": "40056457",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40056457/"
+    }
+  ],
+  "tissue-transglutaminase-ab-igg": [
+    {
+      "type": "pubmed",
+      "id": "32558687",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32558687/"
+    },
+    {
+      "type": "pubmed",
+      "id": "35437007",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35437007/"
+    },
+    {
+      "type": "pubmed",
+      "id": "40056457",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40056457/"
+    }
+  ],
+  "todarodes-pacificus-ab-ige": [],
+  "toluene-diisocyanate-tdi-ab-ige": [],
+  "topiramate": [],
+  "toxoplasma-gondii-ab-igg": [],
+  "toxoplasma-gondii-ab-igm": [],
+  "tramadol": [],
+  "trazodone": [],
+  "triacylglycerol-lipase": [
+    {
+      "type": "pubmed",
+      "id": "38817657",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38817657/"
+    }
+  ],
+  "triazolam": [],
+  "trichoderma-viride-ab-ige": [],
+  "trichophyton-mentagrophytes-var-interdigitale-ab-ige": [],
+  "trichophyton-rubrum-ab-ige": [],
+  "triiodothyronine-free": [],
+  "trimipramine": [],
+  "triticum-aestivum-ab-ige": [],
+  "triticum-aestivum-pollen-ab-ige": [],
+  "turkey-feather-ab-ige": [],
+  "turkey-meat-ab-ige": [],
+  "tyrophagus-putrescentiae-ab-ige": [],
+  "ulmus-americana-ab-ige": [],
+  "urtica-dioica-ab-ige": [],
+  "ustekinumab": [],
+  "ustilago-maydis-ab-ige": [],
+  "vaccinium-myrtillus-ab-ige": [],
+  "vaccinium-oxycoccos-ab-ige": [],
+  "valproate-free": [],
+  "valproate": [
+    {
+      "type": "pubmed",
+      "id": "33835518",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33835518/"
+    },
+    {
+      "type": "pubmed",
+      "id": "37906300",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37906300/"
+    }
+  ],
+  "valproic-acid": [
+    {
+      "type": "pubmed",
+      "id": "36040614",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36040614/"
+    },
+    {
+      "type": "pubmed",
+      "id": "37906300",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37906300/"
+    }
+  ],
+  "vanilla-planifolia-ab-ige": [],
+  "varicella-zoster-virus-ab-igg": [
+    {
+      "type": "pubmed",
+      "id": "41225196",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41225196/"
+    }
+  ],
+  "varicella-zoster-virus-ab-igm": [],
+  "vascular-endothelial-growth-factor": [],
+  "vasoactive-intestinal-peptide": [],
+  "vespula-spp-ab-ige": [],
+  "vigabatrin": [],
+  "viscosity": [],
+  "vitis-vinifera-ab-ige": [],
+  "von-willebrand-factor-ag-actual-normal": [
+    {
+      "type": "pubmed",
+      "id": "33893632",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33893632/"
+    }
+  ],
+  "von-willebrand-factor-cleaving-protease-actual-normal": [
+    {
+      "type": "pubmed",
+      "id": "33893632",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33893632/"
+    }
+  ],
+  "von-willebrand-factor-cleaving-protease-inhibitor-2": [
+    {
+      "type": "pubmed",
+      "id": "20032506",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20032506/"
+    }
+  ],
+  "voriconazole": [
+    {
+      "type": "pubmed",
+      "id": "26968880",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26968880/"
+    },
+    {
+      "type": "pubmed",
+      "id": "33923727",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33923727/"
+    },
+    {
+      "type": "pubmed",
+      "id": "36424314",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36424314/"
+    }
+  ],
+  "whitefish-ab-ige": [],
+  "xanthium-commune-ab-ige": [],
+  "xiphias-gladius-ab-ige": [],
+  "zea-mays-ab-ige": [],
+  "zea-mays-pollen-ab-ige": [],
+  "zinc-transporter-8-ab": [],
+  "zingiber-officinale-ab-ige": [],
+  "ziprasidone": [
+    {
+      "type": "pubmed",
+      "id": "22452529",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22452529/"
+    }
+  ],
+  "zn-3": [],
+  "zonisamide": []
+}

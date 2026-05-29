@@ -1,0 +1,218 @@
+{
+  "1-5-anhydroglucitol": [],
+  "5-nt": [],
+  "5-nucleotidase": [],
+  "adenosine-deaminase-csf": [],
+  "adenosine-deaminase-pericardial-fluid": [],
+  "adenosine-deaminase-peritoneal-fluid": [],
+  "adenosine-deaminase-pleural-fluid": [],
+  "adenosine-deaminase": [],
+  "albumin-2": [],
+  "albumin-3": [],
+  "aldosterone-2": [],
+  "aldosterone": [],
+  "alpha-1-fetoprotein-csf": [],
+  "alpha-1-fetoprotein": [],
+  "amikacin-peak": [],
+  "amikacin-trough": [],
+  "amikacin": [],
+  "ammonia-4": [],
+  "amylase-2": [],
+  "amylase": [],
+  "angiotensin-converting-enzyme-csf": [],
+  "angiotensin-converting-enzyme": [],
+  "beryllium-2": [],
+  "beta-2-microglobulin-urine": [],
+  "beta2m-2": [],
+  "beta2m": [],
+  "bk-virus-dna-urine": [],
+  "bk-virus-dna": [],
+  "ca": [],
+  "calcium-urine": [],
+  "chloride-3": [],
+  "choriogonadotropin-beta-subunit-csf": [],
+  "chromium-2": [],
+  "cobalt-2": [
+    {
+      "id": "person:paul-saladino",
+      "name": "Paul Saladino",
+      "aliases": [
+        "Paul Saladino",
+        "D. Saladino",
+        "Dr Paul Saladino",
+        "Dr Saladino",
+        "Saladino",
+        "drsaladino"
+      ],
+      "tier": "B",
+      "grade": "D1",
+      "marker_affinity": [
+        "alt",
+        "ast",
+        "ggt",
+        "apob",
+        "lpa",
+        "tg-hdl-ratio",
+        "hdl-cholesterol",
+        "ldl-cholesterol",
+        "hs-crp"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://carnivoremd.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        },
+        {
+          "platform": "twitter",
+          "handle_or_url": "@paulsaladinomd",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    }
+  ],
+  "coq10": [],
+  "cortisol-am": [],
+  "cortisol-saliva": [],
+  "cu-3": [],
+  "cu": [],
+  "eastern-equine-encephalitis-virus-ab-igg-csf": [
+    {
+      "id": "person:paul-saladino",
+      "name": "Paul Saladino",
+      "aliases": [
+        "Paul Saladino",
+        "D. Saladino",
+        "Dr Paul Saladino",
+        "Dr Saladino",
+        "Saladino",
+        "drsaladino"
+      ],
+      "tier": "B",
+      "grade": "D1",
+      "marker_affinity": [
+        "alt",
+        "ast",
+        "ggt",
+        "apob",
+        "lpa",
+        "tg-hdl-ratio",
+        "hdl-cholesterol",
+        "ldl-cholesterol",
+        "hs-crp"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://carnivoremd.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        },
+        {
+          "platform": "twitter",
+          "handle_or_url": "@paulsaladinomd",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    }
+  ],
+  "eastern-equine-encephalitis-virus-ab-igg": [
+    {
+      "id": "person:paul-saladino",
+      "name": "Paul Saladino",
+      "aliases": [
+        "Paul Saladino",
+        "D. Saladino",
+        "Dr Paul Saladino",
+        "Dr Saladino",
+        "Saladino",
+        "drsaladino"
+      ],
+      "tier": "B",
+      "grade": "D1",
+      "marker_affinity": [
+        "alt",
+        "ast",
+        "ggt",
+        "apob",
+        "lpa",
+        "tg-hdl-ratio",
+        "hdl-cholesterol",
+        "ldl-cholesterol",
+        "hs-crp"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://carnivoremd.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        },
+        {
+          "platform": "twitter",
+          "handle_or_url": "@paulsaladinomd",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    }
+  ],
+  "enolase-neuron-specific-csf": [],
+  "enolase-neuron-specific": [],
+  "gentamicin-peak": [],
+  "gentamicin-trough": [],
+  "gentamicin": [],
+  "glucose-2": [],
+  "glucose-csf": [],
+  "glucose-post-cfst": [],
+  "glutamate-decarboxylase-65-ab-csf": [],
+  "hemoglobin-4": [],
+  "histamine-2": [],
+  "histamine-3": [],
+  "iga-csf": [],
+  "iga": [],
+  "igg-csf": [],
+  "igg": [],
+  "igm-csf": [],
+  "igm": [],
+  "insulin-post-cfst": [],
+  "interleukin-10-csf": [],
+  "lactate-2": [],
+  "lactate": [],
+  "magnesium-serum-2": [],
+  "magnesium": [],
+  "manganese-2": [],
+  "measles-virus-ab-igg-csf": [],
+  "measles-virus-ab-igg": [],
+  "mma-2": [],
+  "molybdenum-2": [],
+  "molybdenum": [],
+  "plasminogen-activator-inhibitor-1-ag-2": [],
+  "plasminogen-activator-inhibitor-1-ag": [],
+  "procalcitonin": [],
+  "pyruvate-3": [],
+  "pyruvate": [],
+  "selenium-2": [],
+  "serotonin-2": [],
+  "serotonin": [],
+  "somatotropin-baseline": [],
+  "somatotropin": [],
+  "tobramycin-peak": [],
+  "tobramycin-trough": [],
+  "tobramycin": [],
+  "ubiquinone-10": [],
+  "vancomycin-peak": [],
+  "vancomycin-trough": [],
+  "vancomycin": [],
+  "zn-2": [],
+  "zn": []
+}

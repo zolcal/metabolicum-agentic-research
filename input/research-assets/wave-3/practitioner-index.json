@@ -1,0 +1,2861 @@
+{
+  "1-3-beta-glucan": [],
+  "10-hydroxycarbazepine": [],
+  "11-deoxycorticosterone": [],
+  "17-hydroxypregnenolone": [],
+  "18-hydroxycorticosterone": [],
+  "6-methylmercaptopurine": [],
+  "9-hydroxyrisperidone": [],
+  "acacia-longifolia-ab-ige": [],
+  "acarboxyprothrombin": [],
+  "acarus-siro-ab-ige": [],
+  "acer-negundo-ab-ige": [],
+  "acetaminophen": [],
+  "acetone": [],
+  "acetylcholine-receptor-binding-ab": [],
+  "acid-phosphatase-prostatic": [],
+  "acremonium-sp-ab-ige": [],
+  "actin-smooth-muscle-ab-igg": [],
+  "actinidia-chinensis-ab-ige": [],
+  "adalimumab-ab": [],
+  "adalimumab": [],
+  "aedes-communis-ab-ige": [],
+  "agaricus-hortensis-ab-ige": [],
+  "agrostis-stolonifera-ab-ige": [],
+  "aldolase": [],
+  "alkaline-phosphatase-bone": [],
+  "allium-cepa-ab-ige": [],
+  "allium-sativum-ab-ige": [],
+  "alnus-incana-ab-ige": [],
+  "alopercurus-pratensis-ab-ige": [],
+  "alpha-1-fetoprotein-tumor-marker": [],
+  "alprazolam": [],
+  "alternaria-alternata-ab-ige": [
+    {
+      "id": "person:paul-saladino",
+      "name": "Paul Saladino",
+      "aliases": [
+        "Paul Saladino",
+        "D. Saladino",
+        "Dr Paul Saladino",
+        "Dr Saladino",
+        "Saladino",
+        "drsaladino"
+      ],
+      "tier": "B",
+      "grade": "D1",
+      "marker_affinity": [
+        "alt",
+        "ast",
+        "ggt",
+        "apob",
+        "lpa",
+        "tg-hdl-ratio",
+        "hdl-cholesterol",
+        "ldl-cholesterol",
+        "hs-crp"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://carnivoremd.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        },
+        {
+          "platform": "twitter",
+          "handle_or_url": "@paulsaladinomd",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    }
+  ],
+  "amantadine": [],
+  "amaranthus-retroflexus-ab-ige": [],
+  "amaranthus-tuberculatus-ab-ige": [],
+  "ambrosia-elatior-ab-ige": [],
+  "ambrosia-psilostachya-ab-ige": [],
+  "ambrosia-trifida-ab-ige": [],
+  "amiodarone": [],
+  "amitriptyline": [],
+  "amobarbital": [],
+  "amoxicillin-ab-ige": [],
+  "amphetamine": [],
+  "ampicillin-ab-ige": [],
+  "anacardium-occidentale-ab-ige": [],
+  "anacardium-occidentale-recombinant-rana-o-3-ab-ige": [],
+  "ananas-comosus-ab-ige": [],
+  "anaplasma-phagocytophilum-ab-igg": [],
+  "anethum-graveolens-ab-ige": [],
+  "angiotensin-ii": [],
+  "anthemis-cotula-ab-ige": [],
+  "anthoxanthum-odoratum-ab-ige": [],
+  "antithrombin-ag-actual-normal": [],
+  "apis-mellifera-ab-ige": [],
+  "apis-mellifera-ab-igg": [],
+  "apium-graveolens-ab-ige": [],
+  "apixaban": [],
+  "aquaporin-4-water-channel-ab-igg": [],
+  "arachis-hypogaea-ab-ige": [],
+  "aripiprazole": [],
+  "artemisia-absinthium-ab-ige": [],
+  "artemisia-vulgaris-ab-ige": [],
+  "ascaris-sp-ab-ige": [],
+  "asparagus-officinalis-ab-ige": [],
+  "aspergillus-flavus-ab-ige": [],
+  "aspergillus-fumigatus-ab-ige": [],
+  "aspergillus-fumigatus-ab-igg": [],
+  "aspergillus-niger-ab-ige": [],
+  "astacus-astacus-ab-ige": [
+    {
+      "id": "person:paul-saladino",
+      "name": "Paul Saladino",
+      "aliases": [
+        "Paul Saladino",
+        "D. Saladino",
+        "Dr Paul Saladino",
+        "Dr Saladino",
+        "Saladino",
+        "drsaladino"
+      ],
+      "tier": "B",
+      "grade": "D1",
+      "marker_affinity": [
+        "alt",
+        "ast",
+        "ggt",
+        "apob",
+        "lpa",
+        "tg-hdl-ratio",
+        "hdl-cholesterol",
+        "ldl-cholesterol",
+        "hs-crp"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://carnivoremd.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        },
+        {
+          "platform": "twitter",
+          "handle_or_url": "@paulsaladinomd",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    }
+  ],
+  "atriplex-lentiformis-ab-ige": [],
+  "aureobasidium-pullulans-ab-ige": [],
+  "avena-sativa-ab-ige": [],
+  "avena-sativa-cultivated-ab-ige": [],
+  "babesia-microti-ab-igg": [],
+  "baclofen": [],
+  "basement-membrane-ab-igg": [],
+  "bean-black-ab-ige": [],
+  "bean-green-ab-ige": [],
+  "bean-kidney-red-ab-ige": [],
+  "bean-white-ab-ige": [],
+  "beef-ab-ige": [],
+  "beet-ab-ige": [],
+  "benztropine": [],
+  "bertholletia-excelsa-ab-ige": [],
+  "bertholletia-excelsa-recombinant-rber-e-1-ab-ige": [],
+  "beta-hydroxybutyrate": [],
+  "beta-lactoglobulin-ab-ige": [],
+  "betula-verrucosa-ab-ige": [],
+  "bile-acid": [],
+  "biotinidase": [],
+  "bismuth": [],
+  "bixa-orellana-seed-ab-ige": [],
+  "blastomyces-dermatitidis-ab": [
+    {
+      "id": "person:paul-saladino",
+      "name": "Paul Saladino",
+      "aliases": [
+        "Paul Saladino",
+        "D. Saladino",
+        "Dr Paul Saladino",
+        "Dr Saladino",
+        "Saladino",
+        "drsaladino"
+      ],
+      "tier": "B",
+      "grade": "D1",
+      "marker_affinity": [
+        "alt",
+        "ast",
+        "ggt",
+        "apob",
+        "lpa",
+        "tg-hdl-ratio",
+        "hdl-cholesterol",
+        "ldl-cholesterol",
+        "hs-crp"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://carnivoremd.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        },
+        {
+          "platform": "twitter",
+          "handle_or_url": "@paulsaladinomd",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    }
+  ],
+  "blatella-germanica-ab-ige": [],
+  "blomia-tropicalis-ab-ige": [],
+  "bombus-terrestris-ab-ige": [],
+  "bordetella-pertussis-ab-igg": [],
+  "botrytis-cinerea-ab-ige": [],
+  "brassica-napus-ab-ige": [],
+  "brassica-oleracea-var-botrytis-ab-ige": [],
+  "brassica-oleracea-var-capitata-ab-ige": [],
+  "brassica-oleracea-var-italica-ab-ige": [],
+  "bromus-inermis-ab-ige": [],
+  "brucella-sp-ab": [],
+  "budgerigar-droppings-ab-ige": [],
+  "bupivacaine": [],
+  "bupropion": [],
+  "cadmium-blood-2": [],
+  "caffeine": [],
+  "calcidiol-ercalcidiol": [],
+  "calcidiol": [],
+  "calcitonin": [],
+  "camellia-sinensis-ab-ige": [],
+  "cancer-ag-125": [],
+  "cancer-ag-15-3": [],
+  "cancer-ag-19-9": [],
+  "cancer-ag-27-29": [],
+  "cancer-pagurus-ab-ige": [],
+  "candida-albicans-ab-ige": [],
+  "capsicum-annuum-ab-ige": [],
+  "carbamazepine-free": [],
+  "carbamazepine-total": [],
+  "carbamazepine": [],
+  "carbon-dioxide": [],
+  "carcinoembryonic-ag": [],
+  "cardiolipin-ab-iga": [],
+  "cardiolipin-ab-igg": [],
+  "cardiolipin-ab-igm": [],
+  "carica-papaya-ab-ige": [],
+  "carotene": [],
+  "carum-carvi-ab-ige": [],
+  "carya-illinoinensis-nut-ab-ige": [],
+  "carya-illinoinensis-tree-ab-ige": [],
+  "carya-ovata-ab-ige": [],
+  "casein-ab-ige": [],
+  "castanea-sativa-ab-ige": [
+    {
+      "id": "person:paul-saladino",
+      "name": "Paul Saladino",
+      "aliases": [
+        "Paul Saladino",
+        "D. Saladino",
+        "Dr Paul Saladino",
+        "Dr Saladino",
+        "Saladino",
+        "drsaladino"
+      ],
+      "tier": "B",
+      "grade": "D1",
+      "marker_affinity": [
+        "alt",
+        "ast",
+        "ggt",
+        "apob",
+        "lpa",
+        "tg-hdl-ratio",
+        "hdl-cholesterol",
+        "ldl-cholesterol",
+        "hs-crp"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://carnivoremd.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        },
+        {
+          "platform": "twitter",
+          "handle_or_url": "@paulsaladinomd",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    }
+  ],
+  "casuarina-equisetifolia-ab-ige": [],
+  "cells-cd3-cd4": [],
+  "cells-cd3-cd8": [],
+  "celtis-occidentalis-ab-ige": [],
+  "centromere-ab-igg": [],
+  "ceratonia-siliqua-ab-ige": [],
+  "ceruloplasmin": [],
+  "chaetomium-globosum-ab-ige": [],
+  "cheese-cheddar-type-ab-ige": [],
+  "cheese-mold-type-ab-ige": [],
+  "chenopodium-album-ab-ige": [],
+  "chenopodium-quinoa-ab-ige": [],
+  "chicken-feather-ab-ige": [],
+  "chicken-serum-proteins-ab-ige": [],
+  "chlorpromazine": [],
+  "cholinesterase": [],
+  "choriomammotropin": [],
+  "chromogranin-a": [],
+  "chronic-urticaria-index": [],
+  "chymotrypsin-stool": [],
+  "cicer-arientinum-ab-ige": [],
+  "cinnamomum-spp-ab-ige": [],
+  "citrate": [],
+  "citrullus-lanatus-ab-ige": [],
+  "citrus-aurantifolia-ab-ige": [],
+  "citrus-limon-ab-ige": [],
+  "citrus-paradisis-ab-ige": [],
+  "citrus-reticulata-ab-ige": [],
+  "citrus-sinensis-ab-ige": [],
+  "clinical-biochemist-review": [],
+  "clobazam": [],
+  "clomipramine": [],
+  "clonidine": [],
+  "clorazepate": [],
+  "clostridium-tetani-toxoid-ab-igg": [],
+  "clupea-harengus-ab-ige": [],
+  "coagulation-3": [],
+  "coagulation-actual-normal": [],
+  "coagulation-factor-ix-activity-actual-normal": [],
+  "coagulation-factor-ix-inhibitor": [],
+  "coagulation-factor-v-activity-actual-normal": [],
+  "coagulation-factor-vii-activity-actual-normal": [],
+  "coagulation-factor-viii-activity-actual-normal": [],
+  "coagulation-factor-x-activity-actual-normal": [],
+  "coagulation-factor-xi-activity-actual-normal": [],
+  "coagulation-factor-xii-activity-actual-normal": [],
+  "coagulation-factor-xiii-activity-actual-normal": [],
+  "cocos-nucifera-ab-ige": [],
+  "coffea-spp-ab-ige": [],
+  "cold-agglutinin": [],
+  "complement-c1-esterase-inhibitor-actual-normal": [],
+  "complement-c1-esterase-inhibitor": [],
+  "complement-c1q-ab": [],
+  "complement-c1q": [],
+  "complement-c2": [],
+  "complement-c3a": [],
+  "complement-c5-functional": [],
+  "complement-c5": [],
+  "complement-sc5b-9": [],
+  "complement-total-hemolytic-ch50": [],
+  "coriandrum-sativum-ab-ige": [],
+  "corticosterone": [],
+  "corylus-avellana-ab-ige": [],
+  "corylus-avellana-recombinant-rcor-a-8-ab-ige": [],
+  "corynebacterium-diphtheriae-ab-igg": [],
+  "coryphaena-hippurus-ab-ige": [],
+  "cow-milk-ab-ige": [],
+  "cow-whey-ab-ige": [],
+  "creatine-kinase-mb-creatine-kinase-total": [],
+  "creatine-kinase-mb": [],
+  "creatine": [],
+  "cryptomeria-japonica-ab-ige": [],
+  "cu-2": [],
+  "cucumis-melo-spp-ab-ige": [],
+  "cucumis-sativus-ab-ige": [],
+  "cucurbita-pepo-ab-ige": [],
+  "cucurbita-pepo-seed-ab-ige": [],
+  "curcuma-longa-ab-ige": [],
+  "curvularia-lunata-ab-ige": [],
+  "curvularia-specifera-ab-ige": [],
+  "cv2-ab-igg-csf": [],
+  "cyamopsis-tetragonoloba-ab-ige": [],
+  "cyclobenzaprine": [],
+  "cyclosporine": [],
+  "cynodon-dactylon-ab-ige": [],
+  "cytomegalovirus-ab-igg-avidity": [],
+  "dactylis-glomerata-ab-ige": [],
+  "daucus-carota-ab-ige": [],
+  "dehydroepiandrosterone-sulfate": [],
+  "dermatophagoides-farinae-ab-ige": [],
+  "dermatophagoides-microceras-ab-ige": [],
+  "dermatophagoides-pteronyssinus-ab-ige": [],
+  "desipramine": [],
+  "dexamethasone": [],
+  "dextromethorphan": [],
+  "digitoxin": [],
+  "digoxin-3": [],
+  "digoxin-free": [],
+  "diltiazem": [],
+  "diphenylmethane-diisocyanate-mdi-ab-ige": [],
+  "dna-double-strand-ab-igg": [],
+  "dnase-b-ab-streptococcal": [],
+  "dog-dander-ab-ige": [],
+  "dolichovespula-arenaria-ab-ige": [],
+  "dolichovespula-maculata-ab-ige": [],
+  "dolichovespula-maculata-ab-igg": [],
+  "dopamine-2": [],
+  "doxepin": [],
+  "duck-feather-ab-ige": [],
+  "duloxetine": [],
+  "egg-white-ab-ige": [],
+  "egg-whole-ab-ige": [],
+  "egg-yolk-ab-ige": [],
+  "ehrlichia-chaffeensis-ab-igg": [],
+  "engraulis-encrasicolus-ab-ige": [],
+  "ephedrine": [],
+  "epicoccum-purpurascens-ab-ige": [],
+  "epstein-barr-virus-capsid-ab-igg": [],
+  "epstein-barr-virus-capsid-ab-igm": [],
+  "epstein-barr-virus-early-diffuse-ab-igg": [],
+  "epstein-barr-virus-nuclear-ab-igg": [],
+  "erythropoietin": [],
+  "ethosuximide": [],
+  "ethylene-glycol": [],
+  "eucalyptus-spp-ab-ige": [],
+  "everolimus": [],
+  "fagopyrum-esculentum-ab-ige": [],
+  "fagus-grandifolia-ab-ige": [],
+  "felbamate": [],
+  "festuca-elatior-ab-ige": [],
+  "finch-feather-ab-ige": [],
+  "flecainide": [],
+  "flounder-ab-ige": [],
+  "fluconazole": [],
+  "fluphenazine": [],
+  "flurazepam": [],
+  "fluvoxamine": [],
+  "formaldehyde-ab-ige": [],
+  "fragaria-vesca-ab-ige": [],
+  "franseria-acanthicarpa-ab-ige": [],
+  "fraxinus-americana-ab-ige": [],
+  "furosemide": [],
+  "fusarium-moniliforme-ab-ige": [],
+  "gabapentin": [],
+  "gadus-morhua-ab-ige": [],
+  "galactomannan-ag": [],
+  "galactose-alpha-1-3-galactose-ab-ige": [],
+  "ganglioside-gm1-ab-igg-igm": [],
+  "ganglioside-gm1-ab-igm": [],
+  "gelatin-ab-ige": [],
+  "gelatin-porcine-ab-ige": [],
+  "gerbil-epithelium-ab-ige": [],
+  "gliadin-peptide-ab-iga": [],
+  "gliadin-peptide-ab-igg": [],
+  "glial-fibrillary-acidic-protein": [],
+  "glucagon": [],
+  "glutamine-csf": [],
+  "gluten-ab-ige": [],
+  "glycine-max-ab-ige": [],
+  "glycyphagus-domesticus-ab-ige": [],
+  "goat-epithelium-ab-ige": [],
+  "goat-milk-ab-ige": [],
+  "goose-feather-ab-ige": [],
+  "guinea-pig-epithelium-ab-ige": [],
+  "gum-arabic-ab-ige": [],
+  "haemophilus-influenzae-b-ab-igg": [],
+  "haloperidol": [],
+  "hamster-epithelium-ab-ige": [],
+  "haptoglobin": [],
+  "heavy-metals-panel": [],
+  "helianthus-annuus-pollen-ab-ige": [],
+  "helianthus-annuus-seed-ab-ige": [],
+  "heparin-unfractionated": [],
+  "hepatitis-b-virus-surface-ab": [],
+  "hepatitis-c-virus-rna": [],
+  "her2-ag": [],
+  "hexamethylene-diisocyanate-hdi-ab-ige": [],
+  "hippoglossus-hippoglossus-ab-ige": [],
+  "histone-ab-igg": [],
+  "hiv-1-rna": [],
+  "homarus-gammarus-ab-ige": [],
+  "hordeum-vulgare-ab-ige": [],
+  "horse-dander-ab-ige": [],
+  "house-dust-greer-ab-ige": [],
+  "house-dust-hollister-stier-ab-ige": [],
+  "human-antimouse-ab": [],
+  "human-epididymis-protein-4": [],
+  "hydroxyzine": [],
+  "ibuprofen": [],
+  "ictalurus-punctatus-ab-ige": [],
+  "igd": [],
+  "ige": [],
+  "igg-subclass-4": [],
+  "igg-synthesis-rate": [],
+  "immune-complex": [],
+  "inhibin-a": [],
+  "inhibin-b": [],
+  "insulin-ab": [],
+  "interferon-gamma": [],
+  "interleukin-2-receptor-soluble": [],
+  "interleukin-2": [],
+  "interleukin-4": [],
+  "interleukin-8": [],
+  "ipomoea-batatas-ab-ige": [],
+  "islet-cell-512-ab": [],
+  "ispaghula-laxative-ab-ige": [],
+  "itraconazole-serum-whole-blood-plasma": [],
+  "iva-ciliata-ab-ige": [],
+  "jo-1-extractable-nuclear-ab": [],
+  "juglans-california-pollen-ab-ige": [],
+  "juglans-regia-recombinant-rjug-r-1-ab-ige": [],
+  "juglans-spp-ab-ige": [],
+  "juniperus-sabinoides-ab-ige": [],
+  "juniperus-virginiana-ab-ige": [],
+  "kochia-scoparia-ab-ige": [],
+  "lacosamide": [],
+  "lactalbumin-alpha-ab-ige": [],
+  "lactic-acid": [],
+  "lactuca-sativa-ab-ige": [],
+  "lamb-ab-ige": [],
+  "lamotrigine": [],
+  "latex-ab-ige": [],
+  "laurus-nobilis-ab-ige": [],
+  "lead-blood-2": [],
+  "legionella-pneumophila-ab": [],
+  "lens-esculenta-ab-ige": [],
+  "lepidoglyphus-destructor-ab-ige": [],
+  "levetiracetam": [],
+  "lidocaine": [],
+  "ligustrum-vulgare-ab-ige": [],
+  "limulus-amebocyte-lysate-test-other": [],
+  "linum-usitatissimum-ab-ige": [],
+  "liquidambar-styraciflua-ab-ige": [],
+  "lithium": [],
+  "liver-kidney-microsomal-1-ab": [],
+  "loligo-sp-ab-ige": [],
+  "lolium-perenne-ab-ige": [],
+  "lorazepam": [],
+  "lpa-2": [
+    {
+      "id": "person:allan-sniderman",
+      "name": "Allan Sniderman",
+      "aliases": [
+        "Allan Sniderman",
+        "D. Sniderman",
+        "Dr Allan Sniderman",
+        "Dr Sniderman",
+        "Sniderman",
+        "drsniderman"
+      ],
+      "tier": "A",
+      "grade": "B1",
+      "marker_affinity": [
+        "apob",
+        "lpa"
+      ],
+      "surfaces": [
+        {
+          "platform": "other",
+          "handle_or_url": "manual:person:allan-sniderman",
+          "discovery_mode": "manual_seed",
+          "priority": "manual_only"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:aseem-malhotra",
+      "name": "Aseem Malhotra",
+      "aliases": [
+        "Aseem Malhotra",
+        "D. Malhotra",
+        "Dr Aseem Malhotra",
+        "Dr Malhotra",
+        "Malhotra",
+        "drmalhotra"
+      ],
+      "tier": "A",
+      "grade": "B2",
+      "marker_affinity": [
+        "apob",
+        "lpa",
+        "tg-hdl-ratio",
+        "hdl-cholesterol",
+        "ldl-cholesterol"
+      ],
+      "surfaces": [
+        {
+          "platform": "twitter",
+          "handle_or_url": "@DrAseemMalhotra",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:paul-mason",
+      "name": "Paul Mason",
+      "aliases": [
+        "Paul Mason",
+        "D. Mason",
+        "Dr Mason",
+        "Dr Paul Mason",
+        "Mason",
+        "drmason"
+      ],
+      "tier": "A",
+      "grade": "D1",
+      "marker_affinity": [
+        "apob",
+        "lpa"
+      ],
+      "surfaces": [
+        {
+          "platform": "twitter",
+          "handle_or_url": "@DrPaulMason",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:peter-attia",
+      "name": "Peter Attia",
+      "aliases": [
+        "Peter Attia",
+        "Attia",
+        "D. Attia",
+        "Dr Attia",
+        "Dr Peter Attia",
+        "drattia"
+      ],
+      "tier": "A",
+      "grade": "B1-C2",
+      "marker_affinity": [
+        "apob",
+        "lpa",
+        "fasting-insulin",
+        "hba1c"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://peterattiamd.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        },
+        {
+          "platform": "twitter",
+          "handle_or_url": "@PeterAttiaMD",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        },
+        {
+          "platform": "podcast",
+          "handle_or_url": "https://peterattiadrive.libsyn.com/rss",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:thomas-dayspring",
+      "name": "Thomas Dayspring",
+      "aliases": [
+        "Thomas Dayspring",
+        "DrLipid",
+        "D. Dayspring",
+        "Dayspring",
+        "Dr Dayspring",
+        "Dr Thomas Dayspring",
+        "drdayspring"
+      ],
+      "tier": "A",
+      "grade": "B2-C1",
+      "marker_affinity": [
+        "apob",
+        "lpa"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://twitter.com/Drlipid",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        },
+        {
+          "platform": "twitter",
+          "handle_or_url": "@drlipid",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:bret-scher",
+      "name": "Bret Scher",
+      "aliases": [
+        "Bret Scher",
+        "D. Scher",
+        "Dr Bret Scher",
+        "Dr Scher",
+        "Scher",
+        "drscher"
+      ],
+      "tier": "B",
+      "grade": "D1",
+      "marker_affinity": [
+        "apob",
+        "lpa",
+        "tg-hdl-ratio",
+        "hdl-cholesterol",
+        "ldl-cholesterol"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://dietdoctor.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        },
+        {
+          "platform": "podcast",
+          "handle_or_url": "https://feed.podbean.com/dietdoctorpodcast/feed.xml",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:dave-feldman",
+      "name": "Dave Feldman",
+      "aliases": [
+        "Dave Feldman",
+        "Feldman",
+        "drdavefeldman",
+        "drfeldman"
+      ],
+      "tier": "B",
+      "grade": "D1",
+      "marker_affinity": [
+        "apob",
+        "lpa",
+        "tg-hdl-ratio",
+        "hdl-cholesterol",
+        "ldl-cholesterol"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://cholesterolcode.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:joseph-mercola",
+      "name": "Joseph Mercola",
+      "aliases": [
+        "Joseph Mercola",
+        "Dr. Mercola"
+      ],
+      "tier": "B",
+      "grade": "C1-D1",
+      "marker_affinity": [
+        "lpa",
+        "vitamin-d",
+        "fasting-insulin"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://www.mercola.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:nick-norwitz",
+      "name": "Nick Norwitz",
+      "aliases": [
+        "Nick Norwitz",
+        "D. Norwitz",
+        "Dr Nick Norwitz",
+        "Dr Norwitz",
+        "Norwitz",
+        "drnorwitz"
+      ],
+      "tier": "B",
+      "grade": "B2-C1",
+      "marker_affinity": [
+        "apob",
+        "lpa"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://nicknorwitz.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:paul-saladino",
+      "name": "Paul Saladino",
+      "aliases": [
+        "Paul Saladino",
+        "D. Saladino",
+        "Dr Paul Saladino",
+        "Dr Saladino",
+        "Saladino",
+        "drsaladino"
+      ],
+      "tier": "B",
+      "grade": "D1",
+      "marker_affinity": [
+        "alt",
+        "ast",
+        "ggt",
+        "apob",
+        "lpa",
+        "tg-hdl-ratio",
+        "hdl-cholesterol",
+        "ldl-cholesterol",
+        "hs-crp"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://carnivoremd.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        },
+        {
+          "platform": "twitter",
+          "handle_or_url": "@paulsaladinomd",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:rangan-chatterjee",
+      "name": "Rangan Chatterjee",
+      "aliases": [
+        "Rangan Chatterjee",
+        "Chatterjee",
+        "D. Chatterjee",
+        "Dr Chatterjee",
+        "Dr Rangan Chatterjee",
+        "drchatterjee"
+      ],
+      "tier": "B",
+      "grade": "C1",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin",
+        "homa-ir",
+        "apob",
+        "lpa",
+        "tg-hdl-ratio",
+        "hdl-cholesterol",
+        "ldl-cholesterol"
+      ],
+      "surfaces": [
+        {
+          "platform": "twitter",
+          "handle_or_url": "@DrRangan",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:sten-ekberg",
+      "name": "Sten Ekberg",
+      "aliases": [
+        "Sten Ekberg",
+        "D. Ekberg",
+        "Dr Ekberg",
+        "Dr Sten Ekberg",
+        "Ekberg",
+        "drekberg"
+      ],
+      "tier": "B",
+      "grade": "D1",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin",
+        "homa-ir",
+        "apob",
+        "lpa",
+        "tg-hdl-ratio",
+        "hdl-cholesterol",
+        "ldl-cholesterol",
+        "tsh",
+        "free-t3"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://drsten.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:steven-gundry",
+      "name": "Steven Gundry",
+      "aliases": [
+        "Steven Gundry",
+        "Dr. Gundry"
+      ],
+      "tier": "B",
+      "grade": "C1-C2",
+      "marker_affinity": [
+        "fasting-insulin",
+        "lpa",
+        "vitamin-d",
+        "hba1c"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://gundrymd.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:zoe-harcombe",
+      "name": "Zoë Harcombe",
+      "aliases": [
+        "Zoë Harcombe",
+        "D. Harcombe",
+        "Dr Harcombe",
+        "Dr Zoë Harcombe",
+        "Harcombe",
+        "drharcombe"
+      ],
+      "tier": "B",
+      "grade": "C1",
+      "marker_affinity": [
+        "apob",
+        "lpa",
+        "tg-hdl-ratio",
+        "hdl-cholesterol",
+        "ldl-cholesterol",
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "surfaces": [],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    }
+  ],
+  "lycopersicon-lycopersicum-ab-ige": [],
+  "lysozyme": [],
+  "macadamia-spp-ab-ige": [],
+  "malt-ab-ige": [
+    {
+      "id": "person:paul-saladino",
+      "name": "Paul Saladino",
+      "aliases": [
+        "Paul Saladino",
+        "D. Saladino",
+        "Dr Paul Saladino",
+        "Dr Saladino",
+        "Saladino",
+        "drsaladino"
+      ],
+      "tier": "B",
+      "grade": "D1",
+      "marker_affinity": [
+        "alt",
+        "ast",
+        "ggt",
+        "apob",
+        "lpa",
+        "tg-hdl-ratio",
+        "hdl-cholesterol",
+        "ldl-cholesterol",
+        "hs-crp"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://carnivoremd.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        },
+        {
+          "platform": "twitter",
+          "handle_or_url": "@paulsaladinomd",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    }
+  ],
+  "malus-sylvestris-ab-ige": [],
+  "mangifera-indica-ab-ige": [],
+  "mannose-binding-protein": [],
+  "medicago-sativa-ab-ige": [],
+  "melaleuca-leucadendron-ab-ige": [],
+  "melanogrammus-aeglefinus-ab-ige": [],
+  "mentha-piperita-ab-ige": [],
+  "mercury-blood-2": [],
+  "merluccius-merluccius-ab-ige": [],
+  "methadone": [],
+  "methotrexate": [],
+  "methylphenidate": [],
+  "mexiletine": [],
+  "mi-2-ab": [],
+  "micropterus-salmoides-ab-ige": [],
+  "midazolam": [],
+  "mirtazapine": [],
+  "mitochondria-m2-ab": [],
+  "mitotane": [],
+  "morus-alba-ab-ige": [],
+  "moth-ab-ige": [],
+  "mouse-epithelium-ab-ige": [],
+  "mouse-serum-proteins-ab-ige": [],
+  "mouse-urine-proteins-ab-ige": [],
+  "mucor-racemosus-ab-ige": [],
+  "mumps-virus-ab-igg": [],
+  "mumps-virus-ab-igm": [],
+  "musa-spp-ab-ige": [],
+  "muscle-specific-receptor-tyrosine-kinase-ab": [],
+  "mustard-ab-ige": [],
+  "mutated-citrullinated-vimentin-ab": [],
+  "mycophenolate": [],
+  "mycoplasma-pneumoniae-ab-igg": [],
+  "mycoplasma-pneumoniae-ab-igm": [],
+  "myelin-associated-glycoprotein-ab-igm": [],
+  "myelin-basic-protein-csf": [],
+  "myeloperoxidase-ab": [],
+  "myrica-spp-ab-ige": [],
+  "mytilus-edulis-ab-ige": [],
+  "n-acetylprocainamide": [],
+  "neurofilament-light-chain": [],
+  "nickel": [],
+  "norclozapine": [],
+  "norfentanyl": [],
+  "norsertraline": [],
+  "nortriptyline": [],
+  "nuclear-ab-igg": [],
+  "nuclear-ab": [],
+  "nuclear-pore-protein-gp210-ab": [],
+  "nutmeg-ab-ige": [],
+  "observation": [],
+  "ocimum-basilicum-ab-ige": [],
+  "octopus-vulgaris-ab-ige": [],
+  "olanzapine": [],
+  "olea-europaea-ab-ige": [],
+  "olea-europaea-pollen-ab-ige": [],
+  "oncorhynchus-mykiss-ab-ige": [],
+  "origanum-vulgare-ab-ige": [],
+  "oryza-sativa-ab-ige": [],
+  "ostrea-edulis-ab-ige": [],
+  "ovalbumin-ab-ige": [],
+  "ovomucoid-ab-ige": [],
+  "oxalate": [],
+  "oxazepam": [],
+  "oxycodone": [],
+  "pancreatic-polypeptide": [],
+  "pandalus-borealis-ab-ige": [],
+  "panicum-milliaceum-ab-ige": [],
+  "papaver-somniferum-ab-ige": [],
+  "parathyrin-intact": [],
+  "parathyrin-related-protein": [],
+  "parietal-cell-ab-igg": [],
+  "parietaria-officinalis-ab-ige": [],
+  "paspalum-notatum-ab-ige": [],
+  "pathology-study": [],
+  "pecten-spp-ab-ige": [],
+  "penicillin-g-ab-ige": [],
+  "penicillin-v-ab-ige": [],
+  "penicillium-notatum-ab-ige": [],
+  "pentobarbital": [],
+  "pepper-green-ab-ige": [],
+  "periplaneta-americana-ab-ige": [],
+  "perphenazine": [],
+  "persea-americana-ab-ige": [],
+  "petroselinum-crispum-ab-ige": [],
+  "ph": [],
+  "phalaris-arundinacea-ab-ige": [],
+  "phaseolus-limensis-ab-ige": [],
+  "phencyclidine": [],
+  "phenobarbital": [],
+  "phenylalanine": [],
+  "phenytoin-free-total-panel": [],
+  "phenytoin-free": [],
+  "phenytoin": [],
+  "phleum-pratense-ab-ige": [],
+  "phoma-betae-ab-ige": [],
+  "phosphatidylserine-ab-igg": [],
+  "phosphatidylserine-prothrombin-complex-ab-igg": [],
+  "phospholipase-a2-receptor-ab-igg-2": [],
+  "phragmites-communis-ab-ige": [],
+  "phthalic-anhydride-ab-ige": [],
+  "pigeon-feather-ab-ige": [],
+  "pimpinella-anisum-ab-ige": [],
+  "pinus-edulis-ab-ige": [],
+  "pinus-strobus-ab-ige": [],
+  "pistacia-vera-ab-ige": [],
+  "pisum-sativum-ab-ige": [],
+  "plantago-lanceolata-ab-ige": [],
+  "plasmin-inhibitor-actual-normal": [],
+  "plasminogen-activator-tissue-type-ag": [],
+  "plasminogen-actual-normal": [],
+  "platelet-factor-4-heparin-complex-induced-ab-igg": [],
+  "pleuronectes-platessa-ab-ige": [],
+  "poa-pratensis-ab-ige": [],
+  "polistes-spp-ab-ige": [],
+  "pollachius-virens-ab-ige": [],
+  "populus-alba-ab-ige": [],
+  "populus-deltoides-ab-ige": [],
+  "populus-tremula-ab-ige": [],
+  "pork-ab-ige": [],
+  "porphyrins": [],
+  "posaconazole-serum-whole-blood-urine": [],
+  "pregabalin": [],
+  "pregnenolone": [],
+  "prekallikrein-activity-actual-normal": [],
+  "procollagen-type-i-n-terminal-propeptide": [],
+  "promethazine": [],
+  "propafenone": [],
+  "prosopis-juliflora-ab-ige": [],
+  "prostate-specific-ag-2": [],
+  "prostate-specific-ag-free": [],
+  "prostate-specific-ag-protein-bound": [],
+  "protein-c-actual-normal-2": [],
+  "protein-c-ag-actual-normal": [],
+  "protein-s-ag-actual-normal": [],
+  "protein-s-free-ag-actual-normal": [],
+  "protein-total": [],
+  "proteinase-3-ab": [],
+  "prothrombin-activity-actual-normal": [],
+  "protriptyline": [],
+  "provasopressin-c-terminal": [],
+  "prunus-armeniaca-ab-ige": [],
+  "prunus-avium-ab-ige": [],
+  "prunus-domestica-ab-ige": [],
+  "prunus-dulcis-ab-ige": [],
+  "prunus-persica-ab-ige": [],
+  "prunus-persica-var-nucipersica-ab-ige": [],
+  "pt-2": [],
+  "pyrus-communis-ab-ige": [],
+  "quercus-alba-ab-ige": [],
+  "quercus-rubra-ab-ige": [],
+  "quercus-virginiana-ab-ige": [],
+  "quetiapine": [],
+  "quinidine": [],
+  "rabbit-epithelium-ab-ige": [],
+  "rabbit-meat-ab-ige": [],
+  "rat-epithelium-ab-ige": [],
+  "rat-serum-proteins-ab-ige": [],
+  "rat-urine-proteins-ab-ige": [],
+  "referral-lab-test-reference-range": [],
+  "retinol-binding-protein": [],
+  "rhizopus-nigricans-ab-ige": [],
+  "riboflavin": [],
+  "ribosomal-p-ab": [],
+  "rickettsia-typhi-ab-igg": [],
+  "risperidone-9-hydroxyrisperidone-panel": [],
+  "rna-polymerase-iii-ab-igg": [],
+  "rubella-virus-ab-igg": [],
+  "rubella-virus-ab-igm": [],
+  "rubus-fruticosus-ab-ige": [],
+  "rubus-idaeus-ab-ige": [],
+  "ruditapes-spp-ab-ige": [],
+  "rufinamide": [],
+  "rumex-acetosella-ab-ige": [],
+  "rumex-crispus-ab-ige": [],
+  "saccharomyces-cerevisiae-ab-iga": [],
+  "saccharomyces-cerevisiae-ab-ige": [],
+  "saccharomyces-cerevisiae-ab-igg-2": [],
+  "saccharum-officinarum-ab-ige": [],
+  "salicylates": [],
+  "salix-caprea-ab-ige": [],
+  "salmo-salar-ab-ige": [],
+  "salsola-kali-ab-ige": [],
+  "sardina-pilchardus-ab-ige": [],
+  "scl-70-extractable-nuclear-ab-igg": [],
+  "scomber-scombrus-ab-ige": [],
+  "secale-cereale-ab-ige": [],
+  "secale-cereale-pollen-ab-ige": [],
+  "secobarbital": [],
+  "seminal-fluid-ab-ige": [],
+  "serotonin-release-100-iu-ml-heparin-unfractionated": [],
+  "sesamum-indicum-ab-ige": [],
+  "setomelanomma-rostrata-ab-ige": [],
+  "sheep-epithelium-ab-ige": [],
+  "sirolimus": [],
+  "sjogrens-syndrome-b-extractable-nuclear-ab-igg": [],
+  "smith-extractable-nuclear-ab-igg": [],
+  "snapper-red-ab-ige": [],
+  "solanum-melongena-ab-ige": [],
+  "solanum-tuberosum-ab-ige": [],
+  "solea-solea-ab-ige": [],
+  "solenopsis-invicta-ab-ige": [],
+  "solidago-virgaurea-ab-ige": [],
+  "soluble-fms-like-tyrosine-kinase-1-placental-growth-factor": [],
+  "soluble-liver-ab-igg": [],
+  "soluble-liver-ab": [],
+  "somatostatin": [],
+  "sorghum-halepense-ab-ige": [],
+  "sotalol": [],
+  "sp100-ab": [],
+  "spinacia-oleracea-ab-ige": [],
+  "squamous-cell-carcinoma-ag": [],
+  "squash-zucchini-ab-ige": [],
+  "staphylococcus-aureus-enterotoxin-a-ab-ige": [],
+  "stemphylium-botryosum-ab-ige": [],
+  "stfr-3": [],
+  "stizostedion-vitreum-ab-ige": [],
+  "streptolysin-o-ab": [],
+  "swine-epithelium-ab-ige": [],
+  "syagrus-romanzoffianum-ab-ige": [],
+  "syzygium-aromaticum-ab-ige": [],
+  "tabanus-spp-ab-ige": [],
+  "taenia-solium-larva-ab-igg-csf": [],
+  "taraxacum-vulgare-ab-ige": [],
+  "taxodium-distichum-ab-ige": [],
+  "temazepam": [],
+  "teriflunomide": [],
+  "thallium": [],
+  "theobroma-cacao-ab-ige": [],
+  "theophylline": [],
+  "thiocyanate": [],
+  "thiopurine-methyltransferase": [],
+  "thrombopoietin": [],
+  "thunnus-albacares-ab-ige": [],
+  "thymus-vulgaris-ab-ige": [],
+  "thyroglobulin-ab": [],
+  "thyroperoxidase-ab": [],
+  "thyrotropin-receptor-ab": [],
+  "thyrotropin": [],
+  "thyroxine-free-2": [],
+  "tilapia-ab-ige": [],
+  "tin": [
+    {
+      "id": "person:benjamin-bikman",
+      "name": "Benjamin Bikman",
+      "aliases": [
+        "Benjamin Bikman",
+        "Bikman",
+        "D. Bikman",
+        "Dr Benjamin Bikman",
+        "Dr Bikman",
+        "drbikman"
+      ],
+      "tier": "A",
+      "grade": "B2",
+      "marker_affinity": [
+        "tg-hdl-ratio",
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://www.benbikman.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        },
+        {
+          "platform": "website",
+          "handle_or_url": "https://benbikman.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        },
+        {
+          "platform": "podcast",
+          "handle_or_url": "https://feeds.acast.com/public/shows/602b13db8237836e54f27141",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "researchgroup:csiro",
+      "name": "CSIRO",
+      "aliases": [
+        "CSIRO"
+      ],
+      "tier": "A",
+      "grade": "B1",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://www.csiro.au/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:david-ludwig",
+      "name": "David Ludwig",
+      "aliases": [
+        "David Ludwig",
+        "D. Ludwig",
+        "Dr David Ludwig",
+        "Dr Ludwig",
+        "Ludwig",
+        "drludwig"
+      ],
+      "tier": "A",
+      "grade": "B2",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "surfaces": [
+        {
+          "platform": "twitter",
+          "handle_or_url": "@DrDavidLudwig",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:david-unwin",
+      "name": "David Unwin",
+      "aliases": [
+        "David Unwin",
+        "D. Unwin",
+        "Dr David Unwin",
+        "Dr Unwin",
+        "Unwin",
+        "drunwin"
+      ],
+      "tier": "A",
+      "grade": "C1",
+      "marker_affinity": [
+        "tg-hdl-ratio",
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://phcuk.org/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        },
+        {
+          "platform": "twitter",
+          "handle_or_url": "@lowcarbGP",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "company:defeat-diabetes",
+      "name": "Defeat Diabetes",
+      "aliases": [
+        "Defeat Diabetes",
+        "Diabetes",
+        "drdefeatdiabetes",
+        "drdiabetes"
+      ],
+      "tier": "A",
+      "grade": "C1",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://www.defeatdiabetes.com.au/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        },
+        {
+          "platform": "twitter",
+          "handle_or_url": "@DefeatDiabetes",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:dominic-dagostino",
+      "name": "Dominic D'Agostino",
+      "aliases": [
+        "Dominic D'Agostino",
+        "D'Agostino",
+        "D. D'Agostino",
+        "Dr D'Agostino",
+        "Dr Dominic D'Agostino",
+        "drd'agostino"
+      ],
+      "tier": "A",
+      "grade": "B1",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://ketonutrition.org/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        },
+        {
+          "platform": "twitter",
+          "handle_or_url": "@DominicDAgosti2",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:grant-brinkworth",
+      "name": "Grant Brinkworth",
+      "aliases": [
+        "Grant Brinkworth",
+        "Brinkworth",
+        "P. Brinkworth",
+        "Prof Brinkworth",
+        "Prof Grant Brinkworth",
+        "drbrinkworth",
+        "drprofbrinkworth"
+      ],
+      "tier": "A",
+      "grade": "B1",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin",
+        "homa-ir",
+        "tg-hdl-ratio"
+      ],
+      "surfaces": [],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:jason-fung",
+      "name": "Jason Fung",
+      "aliases": [
+        "Jason Fung",
+        "D. Fung",
+        "Dr Fung",
+        "Dr Jason Fung",
+        "Fung",
+        "drfung"
+      ],
+      "tier": "A",
+      "grade": "C1-D1",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://www.thefastingmethod.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        },
+        {
+          "platform": "website",
+          "handle_or_url": "https://drjasonfung.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        },
+        {
+          "platform": "twitter",
+          "handle_or_url": "@drjasonfung",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:jeff-volek",
+      "name": "Jeff Volek",
+      "aliases": [
+        "Jeff Volek",
+        "D. Volek",
+        "Dr Jeff Volek",
+        "Dr Volek",
+        "Volek",
+        "drvolek"
+      ],
+      "tier": "A",
+      "grade": "B1",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "surfaces": [
+        {
+          "platform": "twitter",
+          "handle_or_url": "@VolekLab",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:joseph-kraft",
+      "name": "Joseph Kraft",
+      "aliases": [
+        "Joseph Kraft",
+        "D. Kraft",
+        "Dr Joseph Kraft",
+        "Dr Kraft",
+        "Kraft",
+        "drkraft"
+      ],
+      "tier": "A",
+      "grade": "D2",
+      "marker_affinity": [
+        "fasting-insulin",
+        "homa-ir"
+      ],
+      "surfaces": [
+        {
+          "platform": "other",
+          "handle_or_url": "manual:person:joseph-kraft",
+          "discovery_mode": "manual_seed",
+          "priority": "manual_only"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:mark-hyman",
+      "name": "Mark Hyman",
+      "aliases": [
+        "Mark Hyman",
+        "Dr. Hyman",
+        "D. Hyman",
+        "Dr Hyman",
+        "Dr Mark Hyman",
+        "drhyman"
+      ],
+      "tier": "A",
+      "grade": "B2-C1",
+      "marker_affinity": [
+        "vitamin-d",
+        "hba1c",
+        "fasting-insulin",
+        "tg-hdl-ratio"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://drhyman.me/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        },
+        {
+          "platform": "website",
+          "handle_or_url": "https://drhyman.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        },
+        {
+          "platform": "podcast",
+          "handle_or_url": "https://feeds.megaphone.fm/thedoctorsfarmacy",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:peter-attia",
+      "name": "Peter Attia",
+      "aliases": [
+        "Peter Attia",
+        "Attia",
+        "D. Attia",
+        "Dr Attia",
+        "Dr Peter Attia",
+        "drattia"
+      ],
+      "tier": "A",
+      "grade": "B1-C2",
+      "marker_affinity": [
+        "apob",
+        "lpa",
+        "fasting-insulin",
+        "hba1c"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://peterattiamd.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        },
+        {
+          "platform": "twitter",
+          "handle_or_url": "@PeterAttiaMD",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        },
+        {
+          "platform": "podcast",
+          "handle_or_url": "https://peterattiadrive.libsyn.com/rss",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:peter-brukner",
+      "name": "Peter Brukner",
+      "aliases": [
+        "Peter Brukner",
+        "Brukner",
+        "D. Brukner",
+        "Dr Brukner",
+        "Dr Peter Brukner",
+        "drbrukner"
+      ],
+      "tier": "A",
+      "grade": "B1-C1",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://peterbrukner.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:rhonda-patrick",
+      "name": "Rhonda Patrick",
+      "aliases": [
+        "Rhonda Patrick",
+        "Dr. Patrick",
+        "D. Patrick",
+        "Dr Patrick",
+        "Dr Rhonda Patrick",
+        "drpatrick"
+      ],
+      "tier": "A",
+      "grade": "B1-B2",
+      "marker_affinity": [
+        "hba1c",
+        "vitamin-d",
+        "fasting-insulin",
+        "ferritin"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://www.foundmyfitness.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        },
+        {
+          "platform": "website",
+          "handle_or_url": "https://foundmyfitness.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        },
+        {
+          "platform": "podcast",
+          "handle_or_url": "https://rss.libsyn.com/shows/51714/destinations/184296.xml",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:robert-lustig",
+      "name": "Robert Lustig",
+      "aliases": [
+        "Robert Lustig",
+        "D. Lustig",
+        "Dr Lustig",
+        "Dr Robert Lustig",
+        "Lustig",
+        "drlustig"
+      ],
+      "tier": "A",
+      "grade": "B2",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "surfaces": [
+        {
+          "platform": "other",
+          "handle_or_url": "manual:person:robert-lustig",
+          "discovery_mode": "manual_seed",
+          "priority": "manual_only"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:stephen-phinney",
+      "name": "Stephen Phinney",
+      "aliases": [
+        "Stephen Phinney",
+        "D. Phinney",
+        "Dr Phinney",
+        "Dr Stephen Phinney",
+        "Phinney",
+        "drphinney"
+      ],
+      "tier": "A",
+      "grade": "B1",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://virtahealth.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        },
+        {
+          "platform": "twitter",
+          "handle_or_url": "@DrPhinney",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:ted-naiman",
+      "name": "Ted Naiman",
+      "aliases": [
+        "Ted Naiman",
+        "D. Naiman",
+        "Dr Naiman",
+        "Dr Ted Naiman",
+        "Naiman",
+        "drnaiman"
+      ],
+      "tier": "A",
+      "grade": "D1-E2",
+      "marker_affinity": [
+        "tg-hdl-ratio",
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://tednaiman.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        },
+        {
+          "platform": "twitter",
+          "handle_or_url": "@tednaiman",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:tim-noakes",
+      "name": "Tim Noakes",
+      "aliases": [
+        "Tim Noakes",
+        "Noakes",
+        "P. Noakes",
+        "Prof Noakes",
+        "Prof Tim Noakes",
+        "drnoakes",
+        "drprofnoakes"
+      ],
+      "tier": "A",
+      "grade": "B2",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "surfaces": [
+        {
+          "platform": "other",
+          "handle_or_url": "manual:person:tim-noakes",
+          "discovery_mode": "manual_seed",
+          "priority": "manual_only"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "company:virta-health",
+      "name": "Virta Health",
+      "aliases": [
+        "Virta Health",
+        "Health",
+        "drhealth",
+        "drvirtahealth"
+      ],
+      "tier": "A",
+      "grade": "B1",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://www.virtahealth.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        },
+        {
+          "platform": "website",
+          "handle_or_url": "https://virtahealth.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        },
+        {
+          "platform": "twitter",
+          "handle_or_url": "@virtahealth",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:andreas-eenfeldt",
+      "name": "Andreas Eenfeldt",
+      "aliases": [
+        "Andreas Eenfeldt",
+        "D. Eenfeldt",
+        "Dr Andreas Eenfeldt",
+        "Dr Eenfeldt",
+        "Eenfeldt",
+        "dreenfeldt"
+      ],
+      "tier": "B",
+      "grade": "C1",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://dietdoctor.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        },
+        {
+          "platform": "twitter",
+          "handle_or_url": "@DrEenfeldt",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:andrew-huberman",
+      "name": "Andrew Huberman",
+      "aliases": [
+        "Andrew Huberman",
+        "D. Huberman",
+        "Dr Andrew Huberman",
+        "Dr Huberman",
+        "Huberman",
+        "drhuberman"
+      ],
+      "tier": "B",
+      "grade": "D1",
+      "marker_affinity": [
+        "fasting-insulin",
+        "vitamin-d",
+        "ferritin"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://hubermanlab.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        },
+        {
+          "platform": "podcast",
+          "handle_or_url": "https://feeds.megaphone.fm/hubermanlab",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:anthony-chaffee",
+      "name": "Anthony Chaffee",
+      "aliases": [
+        "Anthony Chaffee",
+        "Anthony Chaffee MD",
+        "Dr Anthony Chaffee",
+        "Dr. Anthony Chaffee",
+        "Plant Free MD"
+      ],
+      "tier": "B",
+      "grade": "E2",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin",
+        "tg-hdl-ratio",
+        "apob"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://dranthonychaffee.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        },
+        {
+          "platform": "x",
+          "handle_or_url": "https://twitter.com/anthony_chaffee",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        },
+        {
+          "platform": "other",
+          "handle_or_url": "https://instagram.com/anthonychaffeemd",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        },
+        {
+          "platform": "podcast",
+          "handle_or_url": "https://podcasts.apple.com/au/podcast/the-plant-free-md-podcast/id1614546790",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        },
+        {
+          "platform": "podcast",
+          "handle_or_url": "https://open.spotify.com/show/0WQtoPLuPMWWm3ZT3DYXzp",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        },
+        {
+          "platform": "other",
+          "handle_or_url": "https://dr-chaffee-s-90-day-carnivore-challenge.mn.co/landing",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        },
+        {
+          "platform": "other",
+          "handle_or_url": "https://patreon.com/AnthonyChaffeeMD",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:brian-lamkin",
+      "name": "Brian Lamkin",
+      "aliases": [
+        "Brian Lamkin"
+      ],
+      "tier": "B",
+      "grade": "E2",
+      "marker_affinity": [
+        "fasting-insulin",
+        "homa-ir"
+      ],
+      "surfaces": [
+        {
+          "platform": "other",
+          "handle_or_url": "manual:person:brian-lamkin",
+          "discovery_mode": "manual_seed",
+          "priority": "manual_only"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:casey-means",
+      "name": "Casey Means",
+      "aliases": [
+        "Casey Means",
+        "D. Means",
+        "Dr Casey Means",
+        "Dr Means",
+        "Means",
+        "drmeans"
+      ],
+      "tier": "B",
+      "grade": "C1",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin",
+        "homa-ir",
+        "tg-hdl-ratio"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://metabolicinitiative.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        },
+        {
+          "platform": "podcast",
+          "handle_or_url": "https://anchor.fm/s/48092b10/podcast/rss",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:dale-bredesen",
+      "name": "Dale Bredesen",
+      "aliases": [
+        "Dale Bredesen",
+        "Bredesen",
+        "D. Bredesen",
+        "Dr Bredesen",
+        "Dr Dale Bredesen",
+        "drbredesen"
+      ],
+      "tier": "B",
+      "grade": "C1",
+      "marker_affinity": [
+        "fasting-insulin",
+        "hs-crp",
+        "vitamin-d",
+        "ferritin"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://drbredesen.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:david-harper",
+      "name": "David Harper",
+      "aliases": [
+        "David Harper",
+        "D. Harper",
+        "Dr David Harper",
+        "Dr Harper",
+        "Harper",
+        "drharper"
+      ],
+      "tier": "B",
+      "grade": "D2",
+      "marker_affinity": [
+        "fasting-insulin"
+      ],
+      "surfaces": [
+        {
+          "platform": "other",
+          "handle_or_url": "manual:person:david-harper",
+          "discovery_mode": "manual_seed",
+          "priority": "manual_only"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:david-perlmutter",
+      "name": "David Perlmutter",
+      "aliases": [
+        "David Perlmutter",
+        "D. Perlmutter",
+        "Dr David Perlmutter",
+        "Dr Perlmutter",
+        "Perlmutter",
+        "drperlmutter"
+      ],
+      "tier": "B",
+      "grade": "C2",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin",
+        "homa-ir",
+        "hs-crp"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://drperlmutter.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        },
+        {
+          "platform": "podcast",
+          "handle_or_url": "https://anchor.fm/s/f102c71c/podcast/rss",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "media:diet-doctor",
+      "name": "Diet Doctor",
+      "aliases": [
+        "Diet Doctor",
+        "Doctor",
+        "drdietdoctor",
+        "drdoctor"
+      ],
+      "tier": "B",
+      "grade": "C1",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://www.dietdoctor.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        },
+        {
+          "platform": "website",
+          "handle_or_url": "https://dietdoctor.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        },
+        {
+          "platform": "twitter",
+          "handle_or_url": "@DietDoctor",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:evelyne-bourdua-roy",
+      "name": "Evelyne Bourdua-Roy",
+      "aliases": [
+        "Evelyne Bourdua-Roy",
+        "Èvelyne Bourdua-Roy",
+        "Bourdua-Roy",
+        "D. Bourdua-Roy",
+        "Dr Bourdua-Roy",
+        "Dr Èvelyne Bourdua-Roy",
+        "drbourdua-roy"
+      ],
+      "tier": "B",
+      "grade": "D1-E2",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "surfaces": [
+        {
+          "platform": "other",
+          "handle_or_url": "manual:person:evelyne-bourdua-roy",
+          "discovery_mode": "manual_seed",
+          "priority": "manual_only"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "network:hungarian-diabetes-association",
+      "name": "Hungarian Diabetes Association",
+      "aliases": [
+        "Hungarian Diabetes Association"
+      ],
+      "tier": "B",
+      "grade": "A1",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "surfaces": [
+        {
+          "platform": "other",
+          "handle_or_url": "manual:network:hungarian-diabetes-association",
+          "discovery_mode": "manual_seed",
+          "priority": "manual_only"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:jonathan-little",
+      "name": "Jonathan Little",
+      "aliases": [
+        "Jonathan Little",
+        "D. Little",
+        "Dr Jonathan Little",
+        "Dr Little",
+        "Little",
+        "drlittle"
+      ],
+      "tier": "B",
+      "grade": "B2",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "surfaces": [
+        {
+          "platform": "other",
+          "handle_or_url": "manual:person:jonathan-little",
+          "discovery_mode": "manual_seed",
+          "priority": "manual_only"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:joseph-mercola",
+      "name": "Joseph Mercola",
+      "aliases": [
+        "Joseph Mercola",
+        "Dr. Mercola"
+      ],
+      "tier": "B",
+      "grade": "C1-D1",
+      "marker_affinity": [
+        "lpa",
+        "vitamin-d",
+        "fasting-insulin"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://www.mercola.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "company:levels-health",
+      "name": "Levels Health",
+      "aliases": [
+        "Levels Health",
+        "Health",
+        "drhealth",
+        "drlevelshealth"
+      ],
+      "tier": "B",
+      "grade": "C1",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://www.levels.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        },
+        {
+          "platform": "website",
+          "handle_or_url": "https://levelshealth.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        },
+        {
+          "platform": "twitter",
+          "handle_or_url": "@levelshealth",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "company:low-carb-program",
+      "name": "Low Carb Program",
+      "aliases": [
+        "Low Carb Program"
+      ],
+      "tier": "B",
+      "grade": "C1",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://www.lowcarbprogram.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:megan-ramos",
+      "name": "Megan Ramos",
+      "aliases": [
+        "Megan Ramos",
+        "D. Ramos",
+        "Dr Megan Ramos",
+        "Dr Ramos",
+        "Ramos",
+        "drramos"
+      ],
+      "tier": "B",
+      "grade": "C1",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://thefastingmethod.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        },
+        {
+          "platform": "twitter",
+          "handle_or_url": "@meganjramos",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "conference:metabolic-health-summit",
+      "name": "Metabolic Health Summit",
+      "aliases": [
+        "Metabolic Health Summit",
+        "M. Summit",
+        "Metabolic Summit",
+        "Summit",
+        "drmetabolicsummit",
+        "drsummit"
+      ],
+      "tier": "B",
+      "grade": "C1",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://metabolichealthsummit.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "media:metodichu-bengedi-robi",
+      "name": "Metodic.hu / Bengedi Robi",
+      "aliases": [
+        "Metodic.hu / Bengedi Robi",
+        "Metodic.hu",
+        "Bengedi Robi"
+      ],
+      "tier": "B",
+      "grade": "C1",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "surfaces": [
+        {
+          "platform": "other",
+          "handle_or_url": "manual:media:metodichu-bengedi-robi",
+          "discovery_mode": "manual_seed",
+          "priority": "manual_only"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:michael-mosley",
+      "name": "Michael Mosley",
+      "aliases": [
+        "Michael Mosley",
+        "D. Mosley",
+        "Dr Michael Mosley",
+        "Dr Mosley",
+        "Mosley",
+        "drmosley"
+      ],
+      "tier": "B",
+      "grade": "C1",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin",
+        "homa-ir",
+        "tg-hdl-ratio"
+      ],
+      "surfaces": [
+        {
+          "platform": "twitter",
+          "handle_or_url": "@michaelmosley_official",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "network:public-health-collaboration",
+      "name": "Public Health Collaboration",
+      "aliases": [
+        "Public Health Collaboration"
+      ],
+      "tier": "B",
+      "grade": "C1",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://phcuk.org/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:rangan-chatterjee",
+      "name": "Rangan Chatterjee",
+      "aliases": [
+        "Rangan Chatterjee",
+        "Chatterjee",
+        "D. Chatterjee",
+        "Dr Chatterjee",
+        "Dr Rangan Chatterjee",
+        "drchatterjee"
+      ],
+      "tier": "B",
+      "grade": "C1",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin",
+        "homa-ir",
+        "apob",
+        "lpa",
+        "tg-hdl-ratio",
+        "hdl-cholesterol",
+        "ldl-cholesterol"
+      ],
+      "surfaces": [
+        {
+          "platform": "twitter",
+          "handle_or_url": "@DrRangan",
+          "discovery_mode": "manual_seed",
+          "priority": "secondary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:richard-maurer",
+      "name": "Richard Maurer",
+      "aliases": [
+        "Richard Maurer"
+      ],
+      "tier": "B",
+      "grade": "E2",
+      "marker_affinity": [
+        "fasting-insulin",
+        "homa-ir"
+      ],
+      "surfaces": [
+        {
+          "platform": "other",
+          "handle_or_url": "manual:person:richard-maurer",
+          "discovery_mode": "manual_seed",
+          "priority": "manual_only"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:sara-gottfried",
+      "name": "Sara Gottfried",
+      "aliases": [
+        "Sara Gottfried",
+        "D. Gottfried",
+        "Dr Gottfried",
+        "Dr Sara Gottfried",
+        "Gottfried",
+        "drgottfried"
+      ],
+      "tier": "B",
+      "grade": "D1",
+      "marker_affinity": [
+        "fasting-insulin",
+        "tsh",
+        "free-t3"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://saragottfriedmd.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "researchgroup:semmelweis-metabolic-research-sources",
+      "name": "Semmelweis metabolic research sources",
+      "aliases": [
+        "Semmelweis metabolic research sources"
+      ],
+      "tier": "B",
+      "grade": "B2-C2",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "surfaces": [
+        {
+          "platform": "other",
+          "handle_or_url": "manual:researchgroup:semmelweis-metabolic-research-sources",
+          "discovery_mode": "manual_seed",
+          "priority": "manual_only"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:sten-ekberg",
+      "name": "Sten Ekberg",
+      "aliases": [
+        "Sten Ekberg",
+        "D. Ekberg",
+        "Dr Ekberg",
+        "Dr Sten Ekberg",
+        "Ekberg",
+        "drekberg"
+      ],
+      "tier": "B",
+      "grade": "D1",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin",
+        "homa-ir",
+        "apob",
+        "lpa",
+        "tg-hdl-ratio",
+        "hdl-cholesterol",
+        "ldl-cholesterol",
+        "tsh",
+        "free-t3"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://drsten.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:steven-gundry",
+      "name": "Steven Gundry",
+      "aliases": [
+        "Steven Gundry",
+        "Dr. Gundry"
+      ],
+      "tier": "B",
+      "grade": "C1-C2",
+      "marker_affinity": [
+        "fasting-insulin",
+        "lpa",
+        "vitamin-d",
+        "hba1c"
+      ],
+      "surfaces": [
+        {
+          "platform": "website",
+          "handle_or_url": "https://gundrymd.com/",
+          "discovery_mode": "manual_seed",
+          "priority": "primary"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "researchgroup:university-of-debrecen-metabolic-research-sources",
+      "name": "University of Debrecen metabolic research sources",
+      "aliases": [
+        "University of Debrecen metabolic research sources"
+      ],
+      "tier": "B",
+      "grade": "B2-C2",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "surfaces": [
+        {
+          "platform": "other",
+          "handle_or_url": "manual:researchgroup:university-of-debrecen-metabolic-research-sources",
+          "discovery_mode": "manual_seed",
+          "priority": "manual_only"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:zoltan-szabo",
+      "name": "Zoltán Szabó",
+      "aliases": [
+        "Zoltán Szabó",
+        "D. Szabó",
+        "Dr Szabó",
+        "Dr Zoltán Szabó",
+        "Szabó",
+        "drszabó"
+      ],
+      "tier": "B",
+      "grade": "D1",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin",
+        "homa-ir",
+        "tg-hdl-ratio"
+      ],
+      "surfaces": [],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "person:zoe-harcombe",
+      "name": "Zoë Harcombe",
+      "aliases": [
+        "Zoë Harcombe",
+        "D. Harcombe",
+        "Dr Harcombe",
+        "Dr Zoë Harcombe",
+        "Harcombe",
+        "drharcombe"
+      ],
+      "tier": "B",
+      "grade": "C1",
+      "marker_affinity": [
+        "apob",
+        "lpa",
+        "tg-hdl-ratio",
+        "hdl-cholesterol",
+        "ldl-cholesterol",
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "surfaces": [],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    },
+    {
+      "id": "network:hungarian-low-carb-clinician-network",
+      "name": "Hungarian low-carb clinician network",
+      "aliases": [
+        "Hungarian low-carb clinician network"
+      ],
+      "tier": "C",
+      "grade": "E2",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "surfaces": [
+        {
+          "platform": "other",
+          "handle_or_url": "manual:network:hungarian-low-carb-clinician-network",
+          "discovery_mode": "manual_seed",
+          "priority": "manual_only"
+        }
+      ],
+      "match_method": "thesaurus",
+      "match_tier": "T1"
+    }
+  ],
+  "tissue-transglutaminase-ab-iga": [],
+  "tissue-transglutaminase-ab-igg": [],
+  "todarodes-pacificus-ab-ige": [],
+  "toluene-diisocyanate-tdi-ab-ige": [],
+  "topiramate": [],
+  "toxoplasma-gondii-ab-igg": [],
+  "toxoplasma-gondii-ab-igm": [],
+  "tramadol": [],
+  "trazodone": [],
+  "triacylglycerol-lipase": [],
+  "triazolam": [],
+  "trichoderma-viride-ab-ige": [],
+  "trichophyton-mentagrophytes-var-interdigitale-ab-ige": [],
+  "trichophyton-rubrum-ab-ige": [],
+  "triiodothyronine-free": [],
+  "trimipramine": [],
+  "triticum-aestivum-ab-ige": [],
+  "triticum-aestivum-pollen-ab-ige": [],
+  "turkey-feather-ab-ige": [],
+  "turkey-meat-ab-ige": [],
+  "tyrophagus-putrescentiae-ab-ige": [],
+  "ulmus-americana-ab-ige": [],
+  "urtica-dioica-ab-ige": [],
+  "ustekinumab": [],
+  "ustilago-maydis-ab-ige": [],
+  "vaccinium-myrtillus-ab-ige": [],
+  "vaccinium-oxycoccos-ab-ige": [],
+  "valproate-free": [],
+  "valproate": [],
+  "valproic-acid": [],
+  "vanilla-planifolia-ab-ige": [],
+  "varicella-zoster-virus-ab-igg": [],
+  "varicella-zoster-virus-ab-igm": [],
+  "vascular-endothelial-growth-factor": [],
+  "vasoactive-intestinal-peptide": [],
+  "vespula-spp-ab-ige": [],
+  "vigabatrin": [],
+  "viscosity": [],
+  "vitis-vinifera-ab-ige": [],
+  "von-willebrand-factor-ag-actual-normal": [],
+  "von-willebrand-factor-cleaving-protease-actual-normal": [],
+  "von-willebrand-factor-cleaving-protease-inhibitor-2": [],
+  "voriconazole": [],
+  "whitefish-ab-ige": [],
+  "xanthium-commune-ab-ige": [],
+  "xiphias-gladius-ab-ige": [],
+  "zea-mays-ab-ige": [],
+  "zea-mays-pollen-ab-ige": [],
+  "zinc-transporter-8-ab": [],
+  "zingiber-officinale-ab-ige": [],
+  "ziprasidone": [],
+  "zn-3": [],
+  "zonisamide": []
+}

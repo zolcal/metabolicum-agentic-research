@@ -1,0 +1,470 @@
+{
+  "wave": "wave-2b",
+  "markers_processed": 90,
+  "total_sources": 152,
+  "markers": {
+    "1-5-anhydroglucitol": {
+      "sources": 4,
+      "by_type": {
+        "pubmed": 4
+      }
+    },
+    "5-nt": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "5-nucleotidase": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "adenosine-deaminase-csf": {
+      "sources": 6,
+      "by_type": {
+        "pubmed": 6
+      }
+    },
+    "adenosine-deaminase-pericardial-fluid": {
+      "sources": 5,
+      "by_type": {
+        "pubmed": 5
+      }
+    },
+    "adenosine-deaminase-peritoneal-fluid": {
+      "sources": 5,
+      "by_type": {
+        "pubmed": 5
+      }
+    },
+    "adenosine-deaminase-pleural-fluid": {
+      "sources": 5,
+      "by_type": {
+        "pubmed": 5
+      }
+    },
+    "adenosine-deaminase": {
+      "sources": 4,
+      "by_type": {
+        "pubmed": 4
+      }
+    },
+    "albumin-2": {
+      "sources": 2,
+      "by_type": {
+        "pubmed": 2
+      }
+    },
+    "albumin-3": {
+      "sources": 3,
+      "by_type": {
+        "pubmed": 3
+      }
+    },
+    "aldosterone-2": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "aldosterone": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "alpha-1-fetoprotein-csf": {
+      "sources": 3,
+      "by_type": {
+        "pubmed": 3
+      }
+    },
+    "alpha-1-fetoprotein": {
+      "sources": 3,
+      "by_type": {
+        "pubmed": 3
+      }
+    },
+    "amikacin-peak": {
+      "sources": 3,
+      "by_type": {
+        "pubmed": 3
+      }
+    },
+    "amikacin-trough": {
+      "sources": 2,
+      "by_type": {
+        "pubmed": 2
+      }
+    },
+    "amikacin": {
+      "sources": 2,
+      "by_type": {
+        "pubmed": 2
+      }
+    },
+    "ammonia-4": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "amylase-2": {
+      "sources": 6,
+      "by_type": {
+        "pubmed": 6
+      }
+    },
+    "amylase": {
+      "sources": 6,
+      "by_type": {
+        "pubmed": 6
+      }
+    },
+    "angiotensin-converting-enzyme-csf": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "angiotensin-converting-enzyme": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "beryllium-2": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "beta-2-microglobulin-urine": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "beta2m-2": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "beta2m": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "bk-virus-dna-urine": {
+      "sources": 3,
+      "by_type": {
+        "pubmed": 3
+      }
+    },
+    "bk-virus-dna": {
+      "sources": 2,
+      "by_type": {
+        "pubmed": 2
+      }
+    },
+    "ca": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "calcium-urine": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "chloride-3": {
+      "sources": 2,
+      "by_type": {
+        "pubmed": 2
+      }
+    },
+    "choriogonadotropin-beta-subunit-csf": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "chromium-2": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "cobalt-2": {
+      "sources": 2,
+      "by_type": {
+        "pubmed": 1,
+        "practitioner_website": 1
+      }
+    },
+    "coq10": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "cortisol-am": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "cortisol-saliva": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "cu-3": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "cu": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "eastern-equine-encephalitis-virus-ab-igg-csf": {
+      "sources": 1,
+      "by_type": {
+        "practitioner_website": 1
+      }
+    },
+    "eastern-equine-encephalitis-virus-ab-igg": {
+      "sources": 1,
+      "by_type": {
+        "practitioner_website": 1
+      }
+    },
+    "enolase-neuron-specific-csf": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "enolase-neuron-specific": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "gentamicin-peak": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "gentamicin-trough": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "gentamicin": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "glucose-2": {
+      "sources": 2,
+      "by_type": {
+        "pubmed": 2
+      }
+    },
+    "glucose-csf": {
+      "sources": 2,
+      "by_type": {
+        "pubmed": 2
+      }
+    },
+    "glucose-post-cfst": {
+      "sources": 5,
+      "by_type": {
+        "pubmed": 5
+      }
+    },
+    "glutamate-decarboxylase-65-ab-csf": {
+      "sources": 2,
+      "by_type": {
+        "pubmed": 2
+      }
+    },
+    "hemoglobin-4": {
+      "sources": 4,
+      "by_type": {
+        "pubmed": 4
+      }
+    },
+    "histamine-2": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "histamine-3": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "iga-csf": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "iga": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "igg-csf": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "igg": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "igm-csf": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "igm": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "insulin-post-cfst": {
+      "sources": 3,
+      "by_type": {
+        "pubmed": 3
+      }
+    },
+    "interleukin-10-csf": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "lactate-2": {
+      "sources": 3,
+      "by_type": {
+        "pubmed": 3
+      }
+    },
+    "lactate": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "magnesium-serum-2": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "magnesium": {
+      "sources": 13,
+      "by_type": {
+        "pubmed": 13
+      }
+    },
+    "manganese-2": {
+      "sources": 3,
+      "by_type": {
+        "pubmed": 3
+      }
+    },
+    "measles-virus-ab-igg-csf": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "measles-virus-ab-igg": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "mma-2": {
+      "sources": 2,
+      "by_type": {
+        "pubmed": 2
+      }
+    },
+    "molybdenum-2": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "molybdenum": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "plasminogen-activator-inhibitor-1-ag-2": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "plasminogen-activator-inhibitor-1-ag": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "procalcitonin": {
+      "sources": 3,
+      "by_type": {
+        "pubmed": 3
+      }
+    },
+    "pyruvate-3": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "pyruvate": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "selenium-2": {
+      "sources": 3,
+      "by_type": {
+        "pubmed": 3
+      }
+    },
+    "serotonin-2": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "serotonin": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "somatotropin-baseline": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "somatotropin": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "tobramycin-peak": {
+      "sources": 5,
+      "by_type": {
+        "pubmed": 5
+      }
+    },
+    "tobramycin-trough": {
+      "sources": 5,
+      "by_type": {
+        "pubmed": 5
+      }
+    },
+    "tobramycin": {
+      "sources": 5,
+      "by_type": {
+        "pubmed": 5
+      }
+    },
+    "ubiquinone-10": {
+      "sources": 0,
+      "by_type": {}
+    },
+    "vancomycin-peak": {
+      "sources": 3,
+      "by_type": {
+        "pubmed": 3
+      }
+    },
+    "vancomycin-trough": {
+      "sources": 4,
+      "by_type": {
+        "pubmed": 4
+      }
+    },
+    "vancomycin": {
+      "sources": 3,
+      "by_type": {
+        "pubmed": 3
+      }
+    },
+    "zn-2": {
+      "sources": 1,
+      "by_type": {
+        "pubmed": 1
+      }
+    },
+    "zn": {
+      "sources": 0,
+      "by_type": {}
+    }
+  }
+}

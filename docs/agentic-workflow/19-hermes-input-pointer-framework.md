@@ -12,7 +12,7 @@ This document defines the Hermes trigger input contract. Hermes does not read th
 input/hermes-briefs/<wave>/<marker>.yaml
 ```
 
-The brief is produced by `scripts/prepare_hermes_briefs.py`. It contains:
+The brief is produced by `scripts/assemble_hermes_briefs.py` from committed research asset indices. It contains:
 
 1. **Marker identity** — `marker_slug`, `marker_name`, `unit` (no numeric ranges).
 2. **A council-only `sm_reference`** — a pointer to the canonical SM range file, not the SM numbers. Only the Stage-3 council may dereference it (sections 02, 05, 17).
@@ -52,14 +52,18 @@ The brief separates two concerns:
 - **SM YAMLs** (`input/sm-ranges/`) remain canonical, untouched reference anchors. They provide sanity-check ranges, units, and public research IDs. They are not proof sources for MO claims.
 - **Briefs** (`input/hermes-briefs/`) are disposable, regenerable trigger files. They carry a council-only `sm_reference` to the SM anchor plus dynamic pointers (practitioners, videos, papers) that change as the registry and inventory grow — but never the SM numbers themselves.
 
-If a brief's pointers are stale or noisy, delete it and rerun `prepare_hermes_briefs.py`. The SM YAMLs are unaffected.
+If a brief's pointers are stale or noisy, update the relevant `input/research-assets/<wave>/` index and rerun `scripts/assemble_hermes_briefs.py`. The SM YAMLs are unaffected.
 
 ## Brief generation pipeline
 
 ```text
 input/sm-ranges/<wave>/<marker>.yaml
     ↓
-scripts/prepare_hermes_briefs.py
+scripts/collect_videos.py / scripts/collect_practitioners.py / scripts/collect_sources.py
+    ↓
+input/research-assets/<wave>/{video,practitioner,source}-index.json
+    ↓
+scripts/assemble_hermes_briefs.py
     ↓
 input/hermes-briefs/<wave>/<marker>.yaml
 ```
@@ -71,11 +75,9 @@ The generator is deterministic: same inputs produce the same output. It does not
 | Input | Purpose |
 |-------|---------|
 | `input/sm-ranges/<wave>/<marker>.yaml` | Anchor data (rows, units, known research IDs) |
-| `input/practitioner_registry.json` | Practitioner directory with surfaces, COI, marker affinity |
-| `input/marker_glossary.json` | Marker aliases for matching |
-| `input/registry/marker-identity-registry.v1.yaml` | Canonical aliases and equivalent payload groups for thesaurus building |
-| `input/topic_descriptors.yaml` | Marker descriptors for e5 semantic fallback |
-| `input/youtube-video-inventory/videos/*.json` | Video metadata for title/description matching (optional) |
+| `input/research-assets/<wave>/video-index.json` | Precomputed YouTube video pointers selected from inventory |
+| `input/research-assets/<wave>/practitioner-index.json` | Precomputed practitioner pointers selected from the canonical registry |
+| `input/research-assets/<wave>/source-index.json` | Precomputed PMID/DOI/PMC/practitioner website pointers |
 
 ### Thesaurus + semantic practitioner matching
 
@@ -481,11 +483,20 @@ The implementation is split into small deterministic scripts:
 scripts/build_youtube_video_inventory.py
     -> input/youtube-video-inventory/videos/*.json
 
-scripts/prepare_hermes_briefs.py
+scripts/collect_videos.py
+    -> input/research-assets/<wave>/video-index.json
+
+scripts/collect_practitioners.py
+    -> input/research-assets/<wave>/practitioner-index.json
+
+scripts/collect_sources.py
+    -> input/research-assets/<wave>/source-index.json
+
+scripts/assemble_hermes_briefs.py
     -> input/hermes-briefs/<wave>/<marker>.yaml
 
 code/acceptance/check_hermes_briefs.py
     -> validates brief format, pointer validity, and SM YAML untouched status
 ```
 
-`build_youtube_video_inventory.py` fetches YouTube metadata via the Data API. No transcripts. `prepare_hermes_briefs.py` generates the actual Hermes trigger briefs: it reads SM YAMLs, strips bloat, adds pointer fields, matches practitioners via thesaurus + e5 semantic fallback, and matches videos from the inventory. The acceptance check verifies YAML cleanliness, pointer format, source-policy constraints, and registry/identifier validity. Recommendation diagnostics may be printed during generation, but they are not part of the Hermes input contract.
+`build_youtube_video_inventory.py` fetches YouTube metadata via the Data API. No transcripts. `collect_videos.py`, `collect_practitioners.py`, and `collect_sources.py` produce auditable research asset indices. `assemble_hermes_briefs.py` is the only canonical brief generator: it projects SM identity plus the committed indices into clean pointer-only Hermes briefs. The legacy `prepare_hermes_briefs.py` module remains importable for old helper tests, but its CLI is disabled so future regeneration goes through the reproducible index pipeline. The acceptance check verifies YAML cleanliness, pointer format, source-policy constraints, and registry/identifier validity. Recommendation diagnostics belong in the research asset indices, not in the Hermes input contract.

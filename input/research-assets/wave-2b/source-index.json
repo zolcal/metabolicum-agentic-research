@@ -1,0 +1,906 @@
+{
+  "1-5-anhydroglucitol": [
+    {
+      "type": "pubmed",
+      "id": "21414624",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21414624/"
+    },
+    {
+      "type": "pubmed",
+      "id": "26395741",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26395741/"
+    },
+    {
+      "type": "pubmed",
+      "id": "32529222",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32529222/"
+    },
+    {
+      "type": "pubmed",
+      "id": "39076658",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39076658/"
+    }
+  ],
+  "5-nt": [],
+  "5-nucleotidase": [
+    {
+      "type": "pubmed",
+      "id": "39077643",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39077643/"
+    }
+  ],
+  "adenosine-deaminase-csf": [
+    {
+      "type": "pubmed",
+      "id": "20001225",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20001225/"
+    },
+    {
+      "type": "pubmed",
+      "id": "30913213",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30913213/"
+    },
+    {
+      "type": "pubmed",
+      "id": "36591905",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36591905/"
+    },
+    {
+      "type": "pubmed",
+      "id": "39229733",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39229733/"
+    },
+    {
+      "type": "pubmed",
+      "id": "40771731",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40771731/"
+    },
+    {
+      "type": "pubmed",
+      "id": "41311563",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41311563/"
+    }
+  ],
+  "adenosine-deaminase-pericardial-fluid": [
+    {
+      "type": "pubmed",
+      "id": "27725052",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27725052/"
+    },
+    {
+      "type": "pubmed",
+      "id": "30913213",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30913213/"
+    },
+    {
+      "type": "pubmed",
+      "id": "39229733",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39229733/"
+    },
+    {
+      "type": "pubmed",
+      "id": "40771731",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40771731/"
+    },
+    {
+      "type": "pubmed",
+      "id": "41311563",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41311563/"
+    }
+  ],
+  "adenosine-deaminase-peritoneal-fluid": [
+    {
+      "type": "pubmed",
+      "id": "27725052",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27725052/"
+    },
+    {
+      "type": "pubmed",
+      "id": "30913213",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30913213/"
+    },
+    {
+      "type": "pubmed",
+      "id": "39229733",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39229733/"
+    },
+    {
+      "type": "pubmed",
+      "id": "40771731",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40771731/"
+    },
+    {
+      "type": "pubmed",
+      "id": "41311563",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41311563/"
+    }
+  ],
+  "adenosine-deaminase-pleural-fluid": [
+    {
+      "type": "pubmed",
+      "id": "27725052",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27725052/"
+    },
+    {
+      "type": "pubmed",
+      "id": "30913213",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30913213/"
+    },
+    {
+      "type": "pubmed",
+      "id": "39229733",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39229733/"
+    },
+    {
+      "type": "pubmed",
+      "id": "40771731",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40771731/"
+    },
+    {
+      "type": "pubmed",
+      "id": "41311563",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41311563/"
+    }
+  ],
+  "adenosine-deaminase": [
+    {
+      "type": "pubmed",
+      "id": "27725052",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27725052/"
+    },
+    {
+      "type": "pubmed",
+      "id": "30913213",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30913213/"
+    },
+    {
+      "type": "pubmed",
+      "id": "39229733",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39229733/"
+    },
+    {
+      "type": "pubmed",
+      "id": "41311563",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41311563/"
+    }
+  ],
+  "albumin-2": [
+    {
+      "type": "pubmed",
+      "id": "20483451",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20483451/"
+    },
+    {
+      "type": "pubmed",
+      "id": "39118428",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39118428/"
+    }
+  ],
+  "albumin-3": [
+    {
+      "type": "pubmed",
+      "id": "37702914",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37702914/"
+    },
+    {
+      "type": "pubmed",
+      "id": "40764819",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40764819/"
+    },
+    {
+      "type": "pubmed",
+      "id": "41342161",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41342161/"
+    }
+  ],
+  "aldosterone-2": [],
+  "aldosterone": [],
+  "alpha-1-fetoprotein-csf": [
+    {
+      "type": "pubmed",
+      "id": "27673508",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27673508/"
+    },
+    {
+      "type": "pubmed",
+      "id": "28652441",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28652441/"
+    },
+    {
+      "type": "pubmed",
+      "id": "29054441",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29054441/"
+    }
+  ],
+  "alpha-1-fetoprotein": [
+    {
+      "type": "pubmed",
+      "id": "27673508",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27673508/"
+    },
+    {
+      "type": "pubmed",
+      "id": "28652441",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28652441/"
+    },
+    {
+      "type": "pubmed",
+      "id": "29054441",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29054441/"
+    }
+  ],
+  "amikacin-peak": [
+    {
+      "type": "pubmed",
+      "id": "27458224",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27458224/"
+    },
+    {
+      "type": "pubmed",
+      "id": "27494904",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27494904/"
+    },
+    {
+      "type": "pubmed",
+      "id": "33077364",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33077364/"
+    }
+  ],
+  "amikacin-trough": [
+    {
+      "type": "pubmed",
+      "id": "27494904",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27494904/"
+    },
+    {
+      "type": "pubmed",
+      "id": "33077364",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33077364/"
+    }
+  ],
+  "amikacin": [
+    {
+      "type": "pubmed",
+      "id": "27494904",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27494904/"
+    },
+    {
+      "type": "pubmed",
+      "id": "33077364",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33077364/"
+    }
+  ],
+  "ammonia-4": [
+    {
+      "type": "pubmed",
+      "id": "39873559",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39873559/"
+    }
+  ],
+  "amylase-2": [
+    {
+      "type": "pubmed",
+      "id": "26211439",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26211439/"
+    },
+    {
+      "type": "pubmed",
+      "id": "26791838",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26791838/"
+    },
+    {
+      "type": "pubmed",
+      "id": "26844462",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26844462/"
+    },
+    {
+      "type": "pubmed",
+      "id": "37216227",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37216227/"
+    },
+    {
+      "type": "pubmed",
+      "id": "38817657",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38817657/"
+    },
+    {
+      "type": "pubmed",
+      "id": "41523425",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41523425/"
+    }
+  ],
+  "amylase": [
+    {
+      "type": "pubmed",
+      "id": "26211439",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26211439/"
+    },
+    {
+      "type": "pubmed",
+      "id": "26791838",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26791838/"
+    },
+    {
+      "type": "pubmed",
+      "id": "26844462",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26844462/"
+    },
+    {
+      "type": "pubmed",
+      "id": "37216227",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37216227/"
+    },
+    {
+      "type": "pubmed",
+      "id": "38817657",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38817657/"
+    },
+    {
+      "type": "pubmed",
+      "id": "41523425",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41523425/"
+    }
+  ],
+  "angiotensin-converting-enzyme-csf": [],
+  "angiotensin-converting-enzyme": [],
+  "beryllium-2": [],
+  "beta-2-microglobulin-urine": [
+    {
+      "type": "pubmed",
+      "id": "39543010",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39543010/"
+    }
+  ],
+  "beta2m-2": [],
+  "beta2m": [],
+  "bk-virus-dna-urine": [
+    {
+      "type": "pubmed",
+      "id": "22509924",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22509924/"
+    },
+    {
+      "type": "pubmed",
+      "id": "25648430",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25648430/"
+    },
+    {
+      "type": "pubmed",
+      "id": "26407413",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26407413/"
+    }
+  ],
+  "bk-virus-dna": [
+    {
+      "type": "pubmed",
+      "id": "18955787",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18955787/"
+    },
+    {
+      "type": "pubmed",
+      "id": "26407413",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26407413/"
+    }
+  ],
+  "ca": [],
+  "calcium-urine": [
+    {
+      "type": "pubmed",
+      "id": "41639742",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41639742/"
+    }
+  ],
+  "chloride-3": [
+    {
+      "type": "pubmed",
+      "id": "37955964",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37955964/"
+    },
+    {
+      "type": "pubmed",
+      "id": "41013381",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41013381/"
+    }
+  ],
+  "choriogonadotropin-beta-subunit-csf": [],
+  "chromium-2": [],
+  "cobalt-2": [
+    {
+      "type": "pubmed",
+      "id": "41567392",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41567392/"
+    },
+    {
+      "type": "practitioner_website",
+      "url": "https://carnivoremd.com/",
+      "platform": "website",
+      "practitioner_id": "person:paul-saladino"
+    }
+  ],
+  "coq10": [],
+  "cortisol-am": [],
+  "cortisol-saliva": [],
+  "cu-3": [
+    {
+      "type": "pubmed",
+      "id": "36411215",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36411215/"
+    }
+  ],
+  "cu": [],
+  "eastern-equine-encephalitis-virus-ab-igg-csf": [
+    {
+      "type": "practitioner_website",
+      "url": "https://carnivoremd.com/",
+      "platform": "website",
+      "practitioner_id": "person:paul-saladino"
+    }
+  ],
+  "eastern-equine-encephalitis-virus-ab-igg": [
+    {
+      "type": "practitioner_website",
+      "url": "https://carnivoremd.com/",
+      "platform": "website",
+      "practitioner_id": "person:paul-saladino"
+    }
+  ],
+  "enolase-neuron-specific-csf": [],
+  "enolase-neuron-specific": [],
+  "gentamicin-peak": [
+    {
+      "type": "pubmed",
+      "id": "33077364",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33077364/"
+    }
+  ],
+  "gentamicin-trough": [],
+  "gentamicin": [
+    {
+      "type": "pubmed",
+      "id": "33077364",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33077364/"
+    }
+  ],
+  "glucose-2": [
+    {
+      "type": "pubmed",
+      "id": "40346671",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40346671/"
+    },
+    {
+      "type": "pubmed",
+      "id": "40707996",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40707996/"
+    }
+  ],
+  "glucose-csf": [
+    {
+      "type": "pubmed",
+      "id": "40346671",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40346671/"
+    },
+    {
+      "type": "pubmed",
+      "id": "40707996",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40707996/"
+    }
+  ],
+  "glucose-post-cfst": [
+    {
+      "type": "pubmed",
+      "id": "20609967",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20609967/"
+    },
+    {
+      "type": "pubmed",
+      "id": "31602755",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31602755/"
+    },
+    {
+      "type": "pubmed",
+      "id": "38864262",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38864262/"
+    },
+    {
+      "type": "pubmed",
+      "id": "39061034",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39061034/"
+    },
+    {
+      "type": "pubmed",
+      "id": "41033739",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41033739/"
+    }
+  ],
+  "glutamate-decarboxylase-65-ab-csf": [
+    {
+      "type": "pubmed",
+      "id": "37114858",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37114858/"
+    },
+    {
+      "type": "pubmed",
+      "id": "39985693",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39985693/"
+    }
+  ],
+  "hemoglobin-4": [
+    {
+      "type": "pubmed",
+      "id": "30657538",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30657538/"
+    },
+    {
+      "type": "pubmed",
+      "id": "38088110",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38088110/"
+    },
+    {
+      "type": "pubmed",
+      "id": "39932639",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39932639/"
+    },
+    {
+      "type": "pubmed",
+      "id": "41169342",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41169342/"
+    }
+  ],
+  "histamine-2": [],
+  "histamine-3": [],
+  "iga-csf": [],
+  "iga": [],
+  "igg-csf": [],
+  "igg": [],
+  "igm-csf": [],
+  "igm": [],
+  "insulin-post-cfst": [
+    {
+      "type": "pubmed",
+      "id": "40025584",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40025584/"
+    },
+    {
+      "type": "pubmed",
+      "id": "40346671",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40346671/"
+    },
+    {
+      "type": "pubmed",
+      "id": "40707996",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40707996/"
+    }
+  ],
+  "interleukin-10-csf": [],
+  "lactate-2": [
+    {
+      "type": "pubmed",
+      "id": "35144985",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35144985/"
+    },
+    {
+      "type": "pubmed",
+      "id": "39443695",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39443695/"
+    },
+    {
+      "type": "pubmed",
+      "id": "40739501",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40739501/"
+    }
+  ],
+  "lactate": [],
+  "magnesium-serum-2": [
+    {
+      "type": "pubmed",
+      "id": "41802533",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41802533/"
+    }
+  ],
+  "magnesium": [
+    {
+      "type": "pubmed",
+      "id": "12486495",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12486495/"
+    },
+    {
+      "type": "pubmed",
+      "id": "22364157",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22364157/"
+    },
+    {
+      "type": "pubmed",
+      "id": "23172839",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23172839/"
+    },
+    {
+      "type": "pubmed",
+      "id": "26322160",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26322160/"
+    },
+    {
+      "type": "pubmed",
+      "id": "26404370",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26404370/"
+    },
+    {
+      "type": "pubmed",
+      "id": "27869762",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27869762/"
+    },
+    {
+      "type": "pubmed",
+      "id": "28140318",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28140318/"
+    },
+    {
+      "type": "pubmed",
+      "id": "29387426",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29387426/"
+    },
+    {
+      "type": "pubmed",
+      "id": "30200431",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30200431/"
+    },
+    {
+      "type": "pubmed",
+      "id": "33851114",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33851114/"
+    },
+    {
+      "type": "pubmed",
+      "id": "40647173",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40647173/"
+    },
+    {
+      "type": "pubmed",
+      "id": "41799711",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41799711/"
+    },
+    {
+      "type": "pubmed",
+      "id": "41802533",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41802533/"
+    }
+  ],
+  "manganese-2": [
+    {
+      "type": "pubmed",
+      "id": "39977843",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39977843/"
+    },
+    {
+      "type": "pubmed",
+      "id": "40612319",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40612319/"
+    },
+    {
+      "type": "pubmed",
+      "id": "41367030",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41367030/"
+    }
+  ],
+  "measles-virus-ab-igg-csf": [],
+  "measles-virus-ab-igg": [],
+  "mma-2": [
+    {
+      "type": "pubmed",
+      "id": "20483451",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20483451/"
+    },
+    {
+      "type": "pubmed",
+      "id": "41023853",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41023853/"
+    }
+  ],
+  "molybdenum-2": [],
+  "molybdenum": [],
+  "plasminogen-activator-inhibitor-1-ag-2": [
+    {
+      "type": "pubmed",
+      "id": "28379891",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28379891/"
+    }
+  ],
+  "plasminogen-activator-inhibitor-1-ag": [
+    {
+      "type": "pubmed",
+      "id": "28379891",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28379891/"
+    }
+  ],
+  "procalcitonin": [
+    {
+      "type": "pubmed",
+      "id": "32335169",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32335169/"
+    },
+    {
+      "type": "pubmed",
+      "id": "33418211",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33418211/"
+    },
+    {
+      "type": "pubmed",
+      "id": "38499017",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38499017/"
+    }
+  ],
+  "pyruvate-3": [],
+  "pyruvate": [],
+  "selenium-2": [
+    {
+      "type": "pubmed",
+      "id": "33316745",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33316745/"
+    },
+    {
+      "type": "pubmed",
+      "id": "33872646",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33872646/"
+    },
+    {
+      "type": "pubmed",
+      "id": "36789948",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36789948/"
+    }
+  ],
+  "serotonin-2": [],
+  "serotonin": [],
+  "somatotropin-baseline": [],
+  "somatotropin": [
+    {
+      "type": "pubmed",
+      "id": "26664461",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26664461/"
+    }
+  ],
+  "tobramycin-peak": [
+    {
+      "type": "pubmed",
+      "id": "9875685",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9875685/"
+    },
+    {
+      "type": "pubmed",
+      "id": "35029839",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35029839/"
+    },
+    {
+      "type": "pubmed",
+      "id": "37120413",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37120413/"
+    },
+    {
+      "type": "pubmed",
+      "id": "38604274",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38604274/"
+    },
+    {
+      "type": "pubmed",
+      "id": "38605938",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38605938/"
+    }
+  ],
+  "tobramycin-trough": [
+    {
+      "type": "pubmed",
+      "id": "9875685",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9875685/"
+    },
+    {
+      "type": "pubmed",
+      "id": "35029839",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35029839/"
+    },
+    {
+      "type": "pubmed",
+      "id": "37120413",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37120413/"
+    },
+    {
+      "type": "pubmed",
+      "id": "38604274",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38604274/"
+    },
+    {
+      "type": "pubmed",
+      "id": "38605938",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38605938/"
+    }
+  ],
+  "tobramycin": [
+    {
+      "type": "pubmed",
+      "id": "9875685",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9875685/"
+    },
+    {
+      "type": "pubmed",
+      "id": "35029839",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35029839/"
+    },
+    {
+      "type": "pubmed",
+      "id": "37120413",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37120413/"
+    },
+    {
+      "type": "pubmed",
+      "id": "38604274",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38604274/"
+    },
+    {
+      "type": "pubmed",
+      "id": "38605938",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38605938/"
+    }
+  ],
+  "ubiquinone-10": [],
+  "vancomycin-peak": [
+    {
+      "type": "pubmed",
+      "id": "26497475",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26497475/"
+    },
+    {
+      "type": "pubmed",
+      "id": "33549035",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33549035/"
+    },
+    {
+      "type": "pubmed",
+      "id": "35862741",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35862741/"
+    }
+  ],
+  "vancomycin-trough": [
+    {
+      "type": "pubmed",
+      "id": "26497475",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26497475/"
+    },
+    {
+      "type": "pubmed",
+      "id": "33549035",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33549035/"
+    },
+    {
+      "type": "pubmed",
+      "id": "35665530",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35665530/"
+    },
+    {
+      "type": "pubmed",
+      "id": "35862741",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35862741/"
+    }
+  ],
+  "vancomycin": [
+    {
+      "type": "pubmed",
+      "id": "26497475",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26497475/"
+    },
+    {
+      "type": "pubmed",
+      "id": "33549035",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33549035/"
+    },
+    {
+      "type": "pubmed",
+      "id": "35862741",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35862741/"
+    }
+  ],
+  "zn-2": [
+    {
+      "type": "pubmed",
+      "id": "41158645",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41158645/"
+    }
+  ],
+  "zn": []
+}
