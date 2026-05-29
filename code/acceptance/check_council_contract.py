@@ -111,6 +111,53 @@ def main() -> None:
     assert q["rejection_stage"] in enum_values("quarantine", "rejection_stage")
     assert "council_disagreement" in q["rejection_codes"]
 
+    # 6) compare_claims — agreement gating (verbatim verify first, then consensus)
+    base = {"verbatim_quote": "ApoB under 80", "marker": "apob", "paradigm": "MO"}
+    ext_ok = dict(base)
+    rev_ok = {**base, "quote_verified": True}
+    d = council.compare_claims(base, ext_ok, rev_ok)
+    assert d["agree"] is True and d["decision"] == "approve"
+
+    rev_bad = {**base, "quote_verified": False}
+    d2 = council.compare_claims(base, ext_ok, rev_bad)
+    assert d2["decision"] == "quarantine" and d2["rejection_stage"] == "reviewer"
+    assert "quote_not_verbatim" in d2["rejection_codes"]
+
+    ext_diff = {**base, "paradigm": "RC"}
+    d3 = council.compare_claims(base, ext_diff, rev_ok)
+    assert d3["decision"] == "quarantine" and "council_disagreement" in d3["rejection_codes"]
+    assert d3["rejection_stage"] in enum_values("quarantine", "rejection_stage")
+
+    # 7) decide_claim — full per-claim outcome (pure)
+    sm_rows = [{"min": 50, "max": 150}]
+    claim = {
+        **base, "target_range_low": None, "target_range_high": 80, "units": "mg/dL",
+        "direction": "below", "claim_polarity": "supports", "claim_id": "c1",
+        "speaker_registry_id": "person:peter-attia",
+    }
+    roles_ok = {
+        "extractor": dict(claim),
+        "reviewer": {**claim, "quote_verified": True},
+        "decider": {**claim, "evidence_sub_grade": "E2"},
+    }
+    out = council.decide_claim(claim, roles_ok, sm_rows, source_id="src-1",
+                               financial_conflict=(False, "generic"))
+    assert out["outcome"] == "approved"
+    assert out["biomarker_claim_row"]["approval_status"] == "approved"
+    assert out["envelope_evaluation"]["alignment_status"] in enum_values(
+        "claim_envelope_evaluations", "alignment_status")
+    assert 0.0 <= out["consensus_score"] <= 1.0
+
+    roles_bad = {
+        "extractor": {**claim, "paradigm": "RC"},
+        "reviewer": {**claim, "quote_verified": True},
+        "decider": {**claim, "evidence_sub_grade": "E2"},
+    }
+    out2 = council.decide_claim(claim, roles_bad, sm_rows, source_id="src-1")
+    assert out2["outcome"] == "quarantined"
+    assert out2["biomarker_claim_row"] is None
+    assert out2["quarantine_row"]["rejection_stage"] in enum_values("quarantine", "rejection_stage")
+
     print("check_council_contract: all assertions passed")
 
 

@@ -179,3 +179,102 @@ def build_quarantine_row(
         "financial_conflict_flag": has_conflict,
         "financial_conflict_severity": severity,
     }
+
+
+# ── Decision logic ────────────────────────────────────────────────────
+
+# Offline/dry-run fallback sub-grade per paradigm base grade (§15 / CLAUDE.md).
+# The live decider (04c) overrides this; it is only used when no decider grade
+# is supplied. Conservative floor (E3) for anything unmapped.
+_BASE_SUBGRADE = {"SM": "E1", "MO": "E2"}
+
+
+def _default_subgrade(claim: dict) -> str:
+    return _BASE_SUBGRADE.get(claim.get("paradigm"), "E3")
+
+
+def compare_claims(stage2: dict, extractor: dict, reviewer: dict) -> dict[str, Any]:
+    """Gate a claim: verbatim verification first, then quote/marker/paradigm
+    agreement between the Stage-2 claim and the council extractor.
+
+    Returns {agree, decision: 'approve'|'quarantine', rejection_stage,
+    rejection_codes, reason}. Fail-safe: any doubt → quarantine.
+    """
+    if reviewer.get("quote_verified") is False:
+        return {
+            "agree": False, "decision": "quarantine", "rejection_stage": "reviewer",
+            "rejection_codes": ["quote_not_verbatim"],
+            "reason": "reviewer could not verify the verbatim quote in the fresh-fetched source",
+        }
+    if not _agrees(stage2, extractor):
+        return {
+            "agree": False, "decision": "quarantine", "rejection_stage": "decider",
+            "rejection_codes": ["council_disagreement"],
+            "reason": "council extractor disagrees with Stage-2 on quote/marker/paradigm",
+        }
+    return {
+        "agree": True, "decision": "approve", "rejection_stage": None,
+        "rejection_codes": [], "reason": "consensus on quote/marker/paradigm",
+    }
+
+
+def _envelope_eval_row(alignment: dict, *, evaluator_model: str = "council") -> dict[str, Any]:
+    """Partial claim_envelope_evaluations row (biomarker_claim_id/envelope_id
+    are filled by the runner after the claim row is inserted)."""
+    return {
+        "alignment_status": alignment["alignment_status"],
+        "evaluator_model": evaluator_model,
+        "notes": f"paradigm_divergence_flag={alignment.get('paradigm_divergence_flag')}",
+    }
+
+
+def decide_claim(
+    claim: dict,
+    role_outputs: dict,
+    sm_rows: list[dict],
+    *,
+    source_id: str,
+    financial_conflict: tuple[bool, str] = (False, "generic"),
+) -> dict[str, Any]:
+    """Run the full deterministic council decision for one claim-marker pair.
+
+    `role_outputs` = {'extractor': ..., 'reviewer': ..., 'decider': ...}. Pure:
+    no DB, no LLM. The runner supplies role_outputs (offline stub or live LLM).
+    """
+    extractor = role_outputs.get("extractor", {})
+    reviewer = role_outputs.get("reviewer", {})
+    decider = role_outputs.get("decider", {})
+
+    verdict = compare_claims(claim, extractor, reviewer)
+    consensus = council_consensus_score(claim, extractor, reviewer, decider)
+    alignment = evaluate_envelope_alignment(claim, sm_rows or [])
+    envelope_eval = _envelope_eval_row(alignment)
+
+    if verdict["decision"] != "approve":
+        return {
+            "outcome": "quarantined",
+            "biomarker_claim_row": None,
+            "quarantine_row": build_quarantine_row(
+                claim, rejection_stage=verdict["rejection_stage"],
+                rejection_reason=verdict["reason"], rejection_codes=verdict["rejection_codes"],
+                source_id=source_id, financial_conflict=financial_conflict,
+            ),
+            "envelope_evaluation": envelope_eval,
+            "consensus_score": consensus,
+        }
+
+    decision = {
+        "decision": "approve",
+        "evidence_sub_grade": decider.get("evidence_sub_grade") or _default_subgrade(claim),
+    }
+    return {
+        "outcome": "approved",
+        "biomarker_claim_row": build_biomarker_claim_row(
+            claim, decision, source_id=source_id,
+            council_consensus_score=consensus, alignment=alignment,
+            financial_conflict=financial_conflict,
+        ),
+        "quarantine_row": None,
+        "envelope_evaluation": envelope_eval,
+        "consensus_score": consensus,
+    }
