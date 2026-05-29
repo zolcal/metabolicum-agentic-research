@@ -23,7 +23,7 @@
 #     extractor_backup       — used only when `extractor` endpoint fails
 #
 # Three-family council assignment (sign-off pass):
-#   council_extractor → dashscope-qwen-max (Alibaba family)
+#   council_extractor → openrouter-deepseek-v4-flash (DeepSeek family)
 #   council_reviewer  → openrouter-reviewer (Google family)
 #   council_decider   → openrouter-decider  (OpenAI family)
 #
@@ -267,33 +267,11 @@ endpoints:
       (including claude-3-5-sonnet-20241022) is silently mapped to M2.7.
       Use M2.7-highspeed as the canonical model name.
 
-      Intended role: council_extractor — replaces dashscope-qwen-max,
-      which hit DashScope per-token billing on day 1 (~$0.10/source
-      observed). Family balance becomes MiniMax (Chinese-independent) +
-      Gemini (Google) + gpt-5-mini (OpenAI). Still three independent
-      training pipelines, so §05 three-family consensus invariant
-      holds — but the specific Alibaba-Qwen voice is replaced.
-      Document the swap in docs/agentic-workflow/05-validation-council.md
-      before activation.
-
-      ⚠ BLOCKER for activation:
-      code/llm_client.py currently only dispatches api_style values
-      'openai_compatible' (default OpenAI SDK path) and 'gemini'
-      (custom branch). Anthropic dispatch needs a new branch using
-      either the `anthropic` Python SDK or raw httpx POST to
-      /v1/messages with x-api-key + anthropic-version headers, plus
-      response-shape adaptation. Until that adapter lands, this
-      endpoint stays active: false and dashscope-qwen-max retains
-      council_extractor role.
-
-      Acceptance for promotion to active: true:
-        1. llm_client.py extended to dispatch api_style: anthropic
-        2. Smoke test: python code/llm_client.py council_extractor
-           round-trips a Stage-2 fixture claim with temperature=0
-        3. Quality comparison vs qwen3.7-max on same fixture (Task #2)
-        4. Family-swap addendum committed to §05 spec (Task #3)
-      Then: set active: true, move roles: [council_extractor], set
-      dashscope-qwen-max active: false roles: [].
+      DEMOTED 2026-05-25 — council_extractor role moved to
+      openrouter-deepseek-v4-flash. MiniMax anthropic adapter
+      (api_style: anthropic) never landed in llm_client.py.
+      Keep as documentation only; do not activate without completing
+      the anthropic adapter branch + acceptance tests.
 
   openrouter-reviewer:
     base_url: https://openrouter.ai/api/v1
@@ -440,8 +418,8 @@ endpoints:
     default_max_tokens: 16384                    # raised 2026-05-26 — V4 Flash is a thinking model; 4096 starves reasoning + visible output on transcripts >10KB
     max_context: 128000
     supports_json_schema: true
-    cost_per_million_in: 0.20    # placeholder — verify on OpenRouter model page
-    cost_per_million_out: 0.40   # placeholder — verify on OpenRouter model page
+    cost_per_million_in: 0.20    # estimated — verify against actual OpenRouter bills; reasoning tokens increase effective cost
+    cost_per_million_out: 0.40   # estimated — verify against actual OpenRouter bills; reasoning tokens increase effective cost
     notes: |
       DeepSeek V4 Flash via OpenRouter — council_extractor as of 2026-05-25.
       Replaced dashscope-qwen-max for this role; qwen-max retains
