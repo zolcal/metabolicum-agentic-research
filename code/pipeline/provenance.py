@@ -109,3 +109,80 @@ def build_research_study_row(*, locator: dict, metadata: dict | None) -> dict[st
         "status": "draft",
     }
     return {k: v for k, v in row.items() if v is not None}
+
+
+def resolve_locator(locator: dict, *, fetcher) -> dict[str, Any]:
+    """Resolve a locator via an injected `fetcher(locator) -> metadata | None`.
+
+    Confirmed (fetcher returns metadata with a real title) -> resolved + a
+    research_study row. Otherwise -> unresolvable with NO study. The fetcher is
+    not called for a missing locator. Injection keeps this testable offline; the
+    live HTTP fetcher is `live_fetcher` below.
+    """
+    if locator["kind"] == "none":
+        return {"resolution_status": "unresolvable", "metadata": None, "research_study_row": None}
+    meta = fetcher(locator)
+    if not meta or not meta.get("title"):
+        return {"resolution_status": "unresolvable", "metadata": meta, "research_study_row": None}
+    return {
+        "resolution_status": "resolved",
+        "metadata": meta,
+        "research_study_row": build_research_study_row(locator=locator, metadata=meta),
+    }
+
+
+def live_fetcher(locator: dict, *, ncbi_api_key: str | None = None, mailto: str | None = None,
+                 timeout: float = 15.0) -> dict[str, Any] | None:
+    """Live PubMed (E-utilities) / Crossref metadata fetch. Returns None on any
+    failure so resolve_locator falls back to 'unresolvable' (never fabricates).
+    Used only on a live run; not exercised by the offline contracts."""
+    import json as _json
+    import urllib.parse
+    import urllib.request
+
+    def _get(url: str) -> dict | None:
+        try:
+            with urllib.request.urlopen(url, timeout=timeout) as r:
+                return _json.loads(r.read().decode("utf-8"))
+        except Exception:
+            return None
+
+    if locator["kind"] == "pmid":
+        pmid = locator["value"]
+        q = {"db": "pubmed", "id": pmid, "retmode": "json"}
+        if ncbi_api_key:
+            q["api_key"] = ncbi_api_key
+        data = _get("https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?" + urllib.parse.urlencode(q))
+        rec = (((data or {}).get("result") or {}).get(pmid)) if data else None
+        if not rec or not rec.get("title"):
+            return None
+        year = (rec.get("pubdate") or "")[:4]
+        authors = rec.get("authors") or []
+        return {
+            "title": rec.get("title"),
+            "authors_short": (authors[0]["name"] + " et al." if authors else None),
+            "journal": rec.get("fulljournalname") or rec.get("source"),
+            "year": int(year) if year.isdigit() else None,
+            "pubmed_url": f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/",
+        }
+
+    if locator["kind"] == "doi":
+        doi = locator["value"]
+        url = "https://api.crossref.org/works/" + urllib.parse.quote(doi)
+        if mailto:
+            url += "?mailto=" + urllib.parse.quote(mailto)
+        data = _get(url)
+        msg = (data or {}).get("message") if data else None
+        title = (msg.get("title") or [None])[0] if msg else None
+        if not title:
+            return None
+        parts = (msg.get("published-print") or msg.get("published-online") or {}).get("date-parts") or [[None]]
+        return {
+            "title": title,
+            "authors_short": ((msg.get("author") or [{}])[0].get("family", "") + " et al.") if msg.get("author") else None,
+            "journal": (msg.get("container-title") or [None])[0],
+            "year": parts[0][0],
+            "doi_url": f"https://doi.org/{doi}",
+        }
+
+    return None
