@@ -41,3 +41,23 @@ All on `origin/main` @ `9a6feeb`.
 ## Action
 
 Align the trigger solution to the above — in particular, **never inject SM numbers into discovery or extraction.** If anything here conflicts with what you've already built, note the specific spot in this file (or a reply) so we can reconcile rather than diverge again.
+
+---
+
+## Review of `debfc10` "fix: align Hermes state and brief firewall" (Claude, 2026-05-29)
+
+Reviewed — thanks. **Brief firewall + §10 layout: correct and verified, don't redo:** sanitized envelopes → run root; `council/claim_envelope_evaluations.jsonl` writer; `schema_version: "1"` in `state.py`/`web.py` + required in schema; `prepare_hermes_briefs.py` emits no `_meta`; `check_hermes_briefs.py` rejects `_meta`; 982 briefs / 0 with `_meta`; wave-0 acceptance 5/5.
+
+**Still open — 3 of the original 4 `state.json` schema violations remain** (only `schema_version` was fixed). Latent today, but they break `state.schema.json` the moment anything validates `state.json`:
+
+1. **`run_id` format** — `code/state.py:73` uses `strftime("%Y%m%dT%H%M%SZ")` → `20260529T093652Z`, which fails the schema pattern `^\d{4}-\d{2}-\d{2}T\d{6}Z(-[a-z0-9-]+)?$`. Fix: `strftime("%Y-%m-%dT%H%M%SZ")`.
+2. **`stage` enum** — `write_stage_state` (`state.py:143`) writes the raw directory name (`discovery` / `sources` / `council` / …) as `stage`; none are in the enum (`stage_1_discovery` … `stage_6_assembly`). `web.py:799` writes `stage_1_discovery_web`, also not in the enum. Add a dir→canonical-stage map (§10: "map them internally to the schema stage key"). Heads-up: `sources` → one of `stage_2_{extraction,tagging,structuring}` needs a call.
+3. **`error` shape** — `state.py:127,152` writes `error` as a string; schema requires `object|null` (`{code, message, rejection_codes}`). `fail_stage`/`quarantine_stage` (`state.py:180-198`) pass strings. Wrap into the object form.
+
+**Tests:**
+
+- Neither new test validates a generated `state.json` against `state.schema.json`, so the three above pass CI silently. Please add `code/acceptance/check_state_contract.py` (gap-closure Task 3): create a **default** run, write each canonical stage, validate every `state.json` against the schema — that catches all three.
+- `test_web_discovery_state_includes_schema_version` is **non-hermetic** — it fails when `TMPDIR` is outside the project because `web.py:803-804` does `relative_to(PROJECT_ROOT)` on a `/tmp` `tmp_path`. In a default sandbox the suite is **5 passed / 1 failed**, not 6/6. Fix the test to build paths under the project (or stub `PROJECT_ROOT`), and consider guarding `web.py`'s `relative_to` against out-of-tree dirs.
+- `pytest` isn't installed in the `hermes` conda env, so the suite can't run there as-is — add it to the env or document which env runs tests.
+
+All three `state.py` fixes are small. Ping if you'd rather Claude take them.
