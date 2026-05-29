@@ -346,7 +346,7 @@ Any claim whose status cannot be derived by these rules is held back from export
 
 The SQL-compatible output contract does not mean discovery agents should be anchored on downstream import fields. Discovery remains source-first: find public claims, tables, papers, practitioner statements, podcasts, videos, and blogs. The structured export is assembled after extraction, validation, provenance review, and legal review.
 
-Standard Medical anchors and private research target envelopes are not MO discovery goals. They may be used later by the council or review layer to detect agreement, tension, contradiction, missing strata, or convergence. They must not be used to coerce MO research into producing a predetermined value.
+Standard Medical anchors and research target envelopes are not MO discovery goals, and their numeric values are withheld from discovery and extraction. They are revealed only to the council or review layer (the visibility gate; sections 2, 17, 19), which uses them to detect agreement, tension, contradiction, missing strata, or convergence. They must not be used to coerce MO research into producing a predetermined value.
 
 ## What agents may not produce
 

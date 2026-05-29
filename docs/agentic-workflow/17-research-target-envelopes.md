@@ -1,8 +1,14 @@
 # Research target envelopes
 
-Research target envelopes are private internal research goals for marker ranges. They define what the agentic research workflow is trying to discover, confirm, contradict, or refine from open-source evidence. They are not evidence, not citations, not scores, not production data, and not user-facing medical claims.
+Research target envelopes are internal-use range references for steering and evaluating research, never for proving it. For basic research the envelope is the public SM anchor rows carried in each marker's brief (section 19); optionally it also includes private internal target facts where such non-publishable goals exist. Envelopes define what the agentic research workflow is trying to discover, confirm, contradict, or refine from open-source evidence. They are not evidence, not citations, not scores, not production data, and not user-facing medical claims.
 
 The reason for the envelope layer is practical. Some target ranges are known before the agentic workflow begins because of internal research, internal judgment, or non-publishable sources. The agentic workflow should be allowed to use those values as research goals, but it must not launder their origins into the claim database. The public evidence still has to be discovered from legitimate open-source material and pass extraction, council, provenance, legal review, and manual handoff.
+
+## Operational envelope for basic research
+
+For basic research, the operational envelope is the set of stripped SM anchor rows carried inside each marker's brief (section 19). These are public population reference intervals from the frozen SM wave, not a private seed, and they exist for one purpose: to judge the alignment of already-extracted MO claims. They are a soft reference, not a rigid gate — a claim that falls outside them is flagged for review, never auto-rejected — and it was always intended this way.
+
+The richer private envelope-fact model defined in the rest of this section is an optional layer, used only for markers where internal, non-publishable target ranges exist. Whether the envelope is a brief SM row or a private fact, the same firewall applies: it is withheld from discovery and extraction and revealed only to the validation council (sections 2 and 19). It never becomes an input range, evidence, a citation, a score, or production data.
 
 ## Boundary rules
 
@@ -97,7 +103,7 @@ research_target_envelope_fact:
 
 Envelopes may:
 
-- focus discovery queries toward numeric claims relevant to a marker and context
+- focus discovery queries toward numeric claims relevant to a marker and context, without exposing the target numbers to the discovery agent
 - help the council classify discovered claims as aligned, wider, narrower, contradictory, or not comparable
 - identify markers and strata that need more source discovery
 - show when open-source evidence is converging around the internal goal
@@ -107,6 +113,8 @@ Envelopes may:
 Envelopes may not:
 
 - approve a claim
+- auto-reject a claim that falls outside the envelope — out-of-envelope claims are flagged for review, not dropped
+- enter discovery or extraction prompts — they are revealed only to the council
 - replace a source URL, quote, PMID, DOI, or citation
 - increase an evidence grade
 - contribute to the composite score
@@ -117,9 +125,9 @@ Envelopes may not:
 
 ## Convergence statuses
 
-The council may assign an envelope-alignment status for each comparable `(biomarker_claim, envelope_fact)` pair:
+The council assigns an `alignment_status` for each comparable `(biomarker_claim, envelope_fact)` pair — this is the same `alignment_status` annotation referenced in sections 2 and 19:
 
-| Status | Meaning |
+| `alignment_status` | Meaning |
 | --- | --- |
 | `aligned` | The open-source claim falls inside the target or tolerance envelope fact. |
 | `narrower_than_envelope` | The claim is more restrictive than the envelope fact. |
@@ -133,7 +141,7 @@ An envelope fact with zero `claim_envelope_evaluations` rows is treated as havin
 
 ## File placement
 
-Private derivation artifacts belong outside run folders and outside export paths. The canonical sanitized envelope facts live in the `research_target_envelopes` table defined in section four. At run start, the runner may generate `research_target_envelopes.sanitized.json` from ready table rows as a transient run artifact. The sanitized file contains envelope facts only. It must contain no source names, source URLs, proprietary notes, non-public provenance, or references to external project history.
+For basic research the operational envelope needs no separate file: it is the SM anchor rows already carried in the brief (section 19), which the orchestrator passes to the council only. Private derivation artifacts belong outside run folders and outside export paths. The canonical sanitized envelope facts live in the `research_target_envelopes` table defined in section four. At run start, the runner may generate `research_target_envelopes.sanitized.json` from ready table rows as a transient run artifact. The sanitized file contains envelope facts only. It must contain no source names, source URLs, proprietary notes, non-public provenance, or references to external project history.
 
 The `research_target_envelopes` table is an operational store and comparison contract, not a publication surface. Claim-to-envelope comparisons are persisted in `claim_envelope_evaluations`.
 
