@@ -794,6 +794,7 @@ def write_discovery_artifacts(fixtures: list[dict[str, Any]], log: list[dict[str
     (discovery_dir / "web.json").write_text(json.dumps(log, indent=2, ensure_ascii=False) + "\n")
     (discovery_dir / "ranked_sources.json").write_text(json.dumps(ranked, indent=2, ensure_ascii=False) + "\n")
     state = {
+        "schema_version": "1",
         "run_id": discovery_dir.parent.name,
         "stage": "stage_1_discovery_web",
         "status": "completed" if fixtures else "quarantined",

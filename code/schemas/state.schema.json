@@ -5,6 +5,7 @@
   "description": "Per-stage handoff record written by the Hermes worker at every stage boundary. Source of truth: docs/agentic-workflow/10-orchestration-and-filesystem.md. May record file paths, counts, endpoint IDs, timing, and terminal error summaries. Must NOT contain API keys, cookies, hidden envelope derivation notes, or full private source-bearing artifacts.",
   "type": "object",
   "required": [
+    "schema_version",
     "run_id",
     "stage",
     "status",

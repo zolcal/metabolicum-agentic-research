@@ -138,6 +138,7 @@ class PipelineRun:
         now = datetime.now(timezone.utc).isoformat()
 
         state_data = {
+            "schema_version": "1",
             "run_id": self.run_id,
             "stage": stage,
             "status": status,
@@ -222,7 +223,7 @@ class PipelineRun:
 
     def write_sanitized_envelopes(self, envelopes: list[dict]) -> Path:
         """Write research_target_envelopes.sanitized.json for this run."""
-        path = self.stage_dir("discovery") / "research_target_envelopes.sanitized.json"
+        path = self.run_dir / "research_target_envelopes.sanitized.json"
         path.write_text(json.dumps(envelopes, indent=2, default=str))
         return path
 
@@ -260,6 +261,13 @@ class PipelineRun:
         """Write rejected_claims.jsonl."""
         path = self.stage_dir("council") / "rejected_claims.jsonl"
         lines = [json.dumps(c, default=str) for c in claims]
+        path.write_text("\n".join(lines) + "\n" if lines else "")
+        return path
+
+    def write_claim_envelope_evaluations(self, evaluations: list[dict]) -> Path:
+        """Write council claim-envelope alignment evaluations."""
+        path = self.stage_dir("council") / "claim_envelope_evaluations.jsonl"
+        lines = [json.dumps(e, default=str) for e in evaluations]
         path.write_text("\n".join(lines) + "\n" if lines else "")
         return path
 
