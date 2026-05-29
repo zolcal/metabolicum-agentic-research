@@ -12,11 +12,17 @@ LLM roles, DB writes) wraps this pure core in a later increment.
 
 from __future__ import annotations
 
+from pathlib import Path
 from typing import Any, Callable
 
-from code.pipeline import assembly, council, legal, provenance
+from code.pipeline import assembly, brief, council, legal, provenance
+
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+BRIEFS_DIR = PROJECT_ROOT / "input" / "hermes-briefs"
 
 _LEGAL_APPROVALS = {"approve", "approve_with_modification"}
+_SM_BEARING_KEYS = {"rows", "min", "max", "anchor_provenance", "sm_reference",
+                    "target_range_low", "target_range_high"}
 
 
 def run_single_marker_offline(
@@ -94,3 +100,48 @@ def run_single_marker_offline(
             out["range_facts"].append(fact)
 
     return out
+
+
+def _discovery_is_clean(discovery_payload: dict) -> bool:
+    """True iff the discovery payload carries no SM-bearing keys (firewall)."""
+    return not (_SM_BEARING_KEYS & set(discovery_payload.keys()))
+
+
+def run_wave_offline(
+    wave: str,
+    *,
+    claims_by_marker: dict[str, list[dict]],
+    role_outputs_fn: Callable[[dict], dict],
+    legal_inputs_fn: Callable[[dict], dict],
+    briefs_dir: str | Path | None = None,
+) -> dict[str, Any]:
+    """Run the offline pipeline across every marker brief in a wave.
+
+    Each brief is split into a discovery payload (SM-free) and council-only SM
+    rows; the single-marker pipeline runs per marker. Deterministic (markers
+    sorted). $0 — no DB, no network, no LLM.
+    """
+    wave_dir = Path(briefs_dir or BRIEFS_DIR) / wave
+    markers = sorted(p.stem for p in wave_dir.glob("*.yaml"))
+
+    results: dict[str, Any] = {}
+    summary = {"wave": wave, "markers_processed": 0, "range_facts": 0,
+               "approved": 0, "quarantined": 0, "firewall_ok": True}
+
+    for marker in markers:
+        b = brief.load_brief(wave_dir / f"{marker}.yaml")
+        discovery = brief.discovery_payload(b)
+        if not _discovery_is_clean(discovery):
+            summary["firewall_ok"] = False
+        sm_rows = brief.resolve_council_sm_rows(b)
+        r = run_single_marker_offline(
+            marker, claims_by_marker.get(marker, []), sm_rows,
+            role_outputs_fn=role_outputs_fn, legal_inputs_fn=legal_inputs_fn,
+        )
+        results[marker] = r
+        summary["markers_processed"] += 1
+        summary["range_facts"] += len(r["range_facts"])
+        summary["approved"] += len(r["biomarker_claims"])
+        summary["quarantined"] += len(r["quarantine"])
+
+    return {"summary": summary, "markers": results}
