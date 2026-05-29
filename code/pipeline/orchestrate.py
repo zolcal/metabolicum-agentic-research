@@ -12,10 +12,13 @@ LLM roles, DB writes) wraps this pure core in a later increment.
 
 from __future__ import annotations
 
+import json
 from pathlib import Path
 from typing import Any, Callable
 
-from code.pipeline import assembly, brief, council, legal, provenance
+from code import state as _state
+from code.loaders.sm_reference import resolve_sm_reference
+from code.pipeline import assembly, brief, council, council_llm, legal, persist, provenance
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 BRIEFS_DIR = PROJECT_ROOT / "input" / "hermes-briefs"
@@ -145,3 +148,140 @@ def run_wave_offline(
         summary["quarantined"] += len(r["quarantine"])
 
     return {"summary": summary, "markers": results}
+
+
+# ── Live per-marker + per-wave orchestration ─────────────────────────
+
+def run_marker_live(
+    marker: str,
+    claims: list[dict],
+    sm_rows: list[dict],
+    *,
+    source_for: Callable[[dict], dict],
+    role_caller: Any,
+    legal_reviewer_caller: Any,
+    fetcher: Any,
+    legal_inputs_for: Callable[[dict], dict],
+) -> dict[str, Any]:
+    """Live per-marker chain: council (LLM) -> provenance (live fetch) -> legal
+    (LLM) -> assembly. SM rows go only to the council via run_council_pass."""
+    out: dict[str, Any] = {
+        "marker": marker, "biomarker_claims": [], "range_facts": [], "provenance": [],
+        "legal_reviews": [], "research_studies": [], "quarantine": [],
+    }
+    range_order = 0
+    for i, claim in enumerate(claims):
+        bcid = f"{marker}-bc-{i + 1}"
+        source = source_for(claim)
+
+        outcome = council_llm.run_council_pass(claim, source, sm_rows, role_caller=role_caller)
+        if outcome["outcome"] != "approved":
+            out["quarantine"].append(outcome["quarantine_row"])
+            continue
+        bc = dict(outcome["biomarker_claim_row"])
+
+        locator = provenance.extract_locator(claim.get("cited_paper"))
+        resolved = provenance.resolve_locator(locator, fetcher=fetcher)
+        bc["provenance_status"] = resolved["resolution_status"]
+        out["provenance"].append(provenance.build_provenance_row(
+            biomarker_claim_id=bcid, locator=locator, resolution_status=resolved["resolution_status"]))
+        if resolved["research_study_row"]:
+            out["research_studies"].append(resolved["research_study_row"])
+
+        li = legal_inputs_for(claim)
+        lr = legal.run_legal_review(
+            claim, source_type=li.get("source_type"), source_url=li.get("source_url"),
+            license_value=li.get("license_value"), reviewer_caller=legal_reviewer_caller,
+            biomarker_claim_id=bcid, source=source)
+        out["legal_reviews"].append(lr["legal_review_row"])
+        if lr["decision"] not in _LEGAL_APPROVALS:
+            out["quarantine"].append(council.build_quarantine_row(
+                claim, rejection_stage="legal", rejection_reason=lr["legal_review_row"]["rationale"],
+                rejection_codes=lr["legal_review_row"].get("applicable_rules", []),
+                source_id=claim.get("source_id"), biomarker_claim_id=bcid))
+            continue
+
+        bc["legal_status"] = "approved"
+        bc["approval_status"] = "approved"
+        out["biomarker_claims"].append({**bc, "id": bcid})
+        range_order += 1
+        fact = assembly.build_range_fact(bc, biomarker_claim_id=bcid, range_order=range_order)
+        if fact is not None:
+            out["range_facts"].append(fact)
+    return out
+
+
+def run_wave_live(
+    wave: str,
+    *,
+    claims_by_marker: dict[str, list[dict]],
+    role_caller: Any,
+    legal_reviewer_caller: Any,
+    fetcher: Any,
+    source_for: Callable[[dict], dict],
+    legal_inputs_for: Callable[[dict], dict],
+    runs_dir: str | Path,
+    run_id: str | None = None,
+    briefs_dir: str | Path | None = None,
+    db: Any = None,
+    dry_run: bool = True,
+) -> dict[str, Any]:
+    """Live per-wave orchestrator: writes the §10 runs/<id>/ layout, materializes
+    the council-only sm_alignment_reference per marker, runs the live chain, and
+    (when db given and not dry_run) persists. Returns {run_dir, summary, markers}."""
+    wave_dir = Path(briefs_dir or BRIEFS_DIR) / wave
+    markers = sorted(p.stem for p in wave_dir.glob("*.yaml"))
+
+    orig_runs = _state.RUNS_DIR
+    _state.RUNS_DIR = Path(runs_dir)
+    try:
+        run = _state.PipelineRun.create(run_id)
+    finally:
+        _state.RUNS_DIR = orig_runs
+
+    summary = {"wave": wave, "run_id": run.run_id, "markers_processed": 0, "range_facts": 0,
+               "approved": 0, "quarantined": 0, "research_studies": 0, "firewall_ok": True}
+    results: dict[str, Any] = {}
+    accepted_all: list[dict] = []
+    rejected_all: list[dict] = []
+
+    for marker in markers:
+        b = brief.load_brief(wave_dir / f"{marker}.yaml")
+        discovery = brief.discovery_payload(b)
+        if not _discovery_is_clean(discovery):
+            summary["firewall_ok"] = False
+        (run.run_dir / "discovery" / f"{marker}.json").write_text(json.dumps(discovery, indent=2))
+
+        cdir = run.run_dir / "council" / marker
+        cdir.mkdir(parents=True, exist_ok=True)
+        (cdir / "sm_alignment_reference.json").write_text(
+            json.dumps(resolve_sm_reference(b["sm_reference"]), indent=2, sort_keys=True, default=str))
+        sm_rows = brief.resolve_council_sm_rows(b)
+
+        res = run_marker_live(
+            marker, claims_by_marker.get(marker, []), sm_rows,
+            source_for=source_for, role_caller=role_caller,
+            legal_reviewer_caller=legal_reviewer_caller, fetcher=fetcher,
+            legal_inputs_for=legal_inputs_for)
+        results[marker] = res
+        accepted_all.extend(res["biomarker_claims"])
+        rejected_all.extend(res["quarantine"])
+        if res["range_facts"]:
+            (run.marker_dir(marker) / "range_facts.json").write_text(
+                json.dumps(res["range_facts"], indent=2, default=str))
+        if db is not None and not dry_run:
+            persist.persist_marker_result(db, res, dry_run=False)
+
+        summary["markers_processed"] += 1
+        summary["range_facts"] += len(res["range_facts"])
+        summary["approved"] += len(res["biomarker_claims"])
+        summary["quarantined"] += len(res["quarantine"])
+        summary["research_studies"] += len(res["research_studies"])
+
+    run.write_council_accepted(accepted_all)
+    run.write_council_rejected(rejected_all)
+    for stage in ("discovery", "sources", "council", "provenance", "legal", "assembly"):
+        run.write_stage_state(stage, status="completed",
+                              metrics={"markers": summary["markers_processed"]})
+
+    return {"run_dir": str(run.run_dir), "summary": summary, "markers": results}
