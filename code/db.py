@@ -448,6 +448,61 @@ class DBClient:
             result = self._client.table("research_studies").insert(data).execute()
         return result.data[0] if result.data else {}
 
+    # ── Stage 3-6 additions (provenance / legal / council eval) ──
+
+    def insert_provenance(self, data: dict[str, Any]) -> dict[str, Any]:
+        """Insert a Stage 4 provenance edge (surface→paper→PMID/DOI resolution)."""
+        if "id" not in data:
+            data["id"] = str(uuid4())
+        result = self._client.table("provenance").insert(data).execute()
+        return result.data[0] if result.data else {}
+
+    def insert_legal_review(self, data: dict[str, Any]) -> dict[str, Any]:
+        """Insert a Stage 5 legal/IP review record."""
+        if "id" not in data:
+            data["id"] = str(uuid4())
+        now = datetime.now(timezone.utc).isoformat()
+        data.setdefault("reviewed_at", now)
+        data.setdefault("updated_at", now)
+        result = self._client.table("legal_reviews").insert(data).execute()
+        return result.data[0] if result.data else {}
+
+    def insert_claim_envelope_evaluation(self, data: dict[str, Any]) -> dict[str, Any]:
+        """Insert a Stage 3 council claim↔envelope alignment evaluation.
+
+        The table uses a composite PK (biomarker_claim_id, envelope_id) and has
+        no synthetic id column — never inject a uuid here.
+        """
+        data.setdefault("evaluated_at", datetime.now(timezone.utc).isoformat())
+        result = self._client.table("claim_envelope_evaluations").upsert(
+            data, on_conflict="biomarker_claim_id,envelope_id"
+        ).execute()
+        return result.data[0] if result.data else {}
+
+    def update_biomarker_claim_status(
+        self, biomarker_claim_id: str, **fields: Any
+    ) -> dict[str, Any]:
+        """Update lifecycle/status fields on a biomarker_claims row by id.
+
+        Used by Stage 4/5/6 to set provenance_status, legal_status,
+        approval_status, exported_at. Always stamps updated_at.
+        """
+        fields["updated_at"] = datetime.now(timezone.utc).isoformat()
+        result = (
+            self._client.table("biomarker_claims")
+            .update(fields)
+            .eq("id", biomarker_claim_id)
+            .execute()
+        )
+        return result.data[0] if result.data else {}
+
+    def get_source_by_id(self, source_id: str) -> dict[str, Any] | None:
+        """Fetch a source row by id (assembly/provenance need source metadata)."""
+        result = (
+            self._client.table("sources").select("*").eq("id", source_id).limit(1).execute()
+        )
+        return result.data[0] if result.data else None
+
     # ── Generic helpers ──────────────────────────────────────────
 
     def table_count(self, table: str) -> int:
