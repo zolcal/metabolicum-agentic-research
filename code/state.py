@@ -22,17 +22,6 @@ from typing import Any
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 RUNS_DIR = PROJECT_ROOT / "runs"
 
-CANONICAL_STAGE_KEYS = {
-    "stage_1_discovery",
-    "stage_2_extraction",
-    "stage_2_tagging",
-    "stage_2_structuring",
-    "stage_3_council",
-    "stage_4_provenance",
-    "stage_5_legal",
-    "stage_6_assembly",
-}
-
 STAGE_SCHEMA_KEYS = {
     "discovery": "stage_1_discovery",
     "sources": "stage_2_extraction",

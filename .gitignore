@@ -17,6 +17,9 @@ secrets/*.token
 runs/*/
 !runs/.gitkeep
 
+# State contract acceptance scratch
+.state-contract-check/
+
 # Hermes runtime state
 hermes/gateway-home/
 hermes-home/
