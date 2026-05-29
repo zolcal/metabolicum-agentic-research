@@ -105,6 +105,24 @@ class CostTracker:
 
 # ── Single-source ingestion ───────────────────────────────────────────────
 
+def build_ingest_failure_quarantine_row(
+    *, source_id: str, source_url: str, error: object
+) -> dict[str, Any]:
+    """Build a schema-valid quarantine row for a Stage-2 ingest failure.
+
+    Ingest failures are Stage-2 extractor failures, so ``rejection_stage`` is
+    ``'extractor'`` (a value in the quarantine CHECK enum). The source URL is
+    recorded in ``reviewer_notes`` — there is no ``payload`` column.
+    """
+    return {
+        "source_id": source_id,
+        "rejection_stage": "extractor",
+        "rejection_reason": str(error),
+        "rejection_codes": ["stage_2_failure"],
+        "reviewer_notes": f"source_url={source_url}",
+    }
+
+
 def ingest_source(
     fixture: dict[str, Any],
     clients: dict[str, OpenAI],
@@ -352,13 +370,9 @@ def ingest_source(
         run.log(f"Source ingestion error: {e}", stage="sources")
         if not dry_run:
             try:
-                db.insert_quarantine({
-                    "source_id": source_id,
-                    "rejection_stage": "ingestion",
-                    "rejection_reason": str(e),
-                    "rejection_codes": ["stage_2_failure"],
-                    "payload": {"source_url": source_url},
-                })
+                db.insert_quarantine(build_ingest_failure_quarantine_row(
+                    source_id=source_id, source_url=source_url, error=e,
+                ))
             except Exception:
                 pass  # quarantine write is best-effort
 
