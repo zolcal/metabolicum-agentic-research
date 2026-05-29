@@ -1,0 +1,452 @@
+{
+  "schema_version": "2026-05-29",
+  "generated_at": "2026-05-29T15:57:13.451067+00:00",
+  "canonical_source": true,
+  "source_inputs": [
+    "/media/zoltan/4TSSD/metabolicum-agentic-research/input/practitioner_registry.json",
+    "/media/zoltan/4TSSD/metabolicum-agentic-research/input/practitioner_aliases.json"
+  ],
+  "description": "Canonical practitioner social and distribution channels for future discovery.",
+  "social_resources": [
+    {
+      "practitioner_id": "company:defeat-diabetes",
+      "canonical_name": "Defeat Diabetes",
+      "platform": "twitter",
+      "priority": "secondary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "@DefeatDiabetes"
+    },
+    {
+      "practitioner_id": "company:levels-health",
+      "canonical_name": "Levels Health",
+      "platform": "twitter",
+      "priority": "secondary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "@levelshealth"
+    },
+    {
+      "practitioner_id": "company:levels-health",
+      "canonical_name": "Levels Health",
+      "platform": "youtube",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "https://www.youtube.com/channel/UClwMr26t47qS1L9S59P35Mg"
+    },
+    {
+      "practitioner_id": "company:virta-health",
+      "canonical_name": "Virta Health",
+      "platform": "twitter",
+      "priority": "secondary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "@virtahealth"
+    },
+    {
+      "practitioner_id": "conference:metabolic-health-summit",
+      "canonical_name": "Metabolic Health Summit",
+      "platform": "youtube",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "https://www.youtube.com/channel/UCYHR-dn_ohWIoPt8LeumbNA"
+    },
+    {
+      "practitioner_id": "media:diet-doctor",
+      "canonical_name": "Diet Doctor",
+      "platform": "twitter",
+      "priority": "secondary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "@DietDoctor"
+    },
+    {
+      "practitioner_id": "media:diet-doctor",
+      "canonical_name": "Diet Doctor",
+      "platform": "youtube",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "https://www.youtube.com/channel/UCyxv-Kecjm1eH83nmDmVlvA"
+    },
+    {
+      "practitioner_id": "person:andreas-eenfeldt",
+      "canonical_name": "Andreas Eenfeldt",
+      "platform": "twitter",
+      "priority": "secondary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "@DrEenfeldt"
+    },
+    {
+      "practitioner_id": "person:andrew-huberman",
+      "canonical_name": "Andrew Huberman",
+      "platform": "youtube",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "https://www.youtube.com/channel/UCMO_fIbfB0GaJ3vJtmxppQQ"
+    },
+    {
+      "practitioner_id": "person:anthony-chaffee",
+      "canonical_name": "Anthony Chaffee",
+      "platform": "instagram",
+      "priority": "secondary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "https://instagram.com/anthonychaffeemd"
+    },
+    {
+      "practitioner_id": "person:anthony-chaffee",
+      "canonical_name": "Anthony Chaffee",
+      "platform": "twitter",
+      "priority": "secondary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "https://twitter.com/anthony_chaffee"
+    },
+    {
+      "practitioner_id": "person:anthony-chaffee",
+      "canonical_name": "Anthony Chaffee",
+      "platform": "youtube",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "https://www.youtube.com/@anthonychaffeemd"
+    },
+    {
+      "practitioner_id": "person:aseem-malhotra",
+      "canonical_name": "Aseem Malhotra",
+      "platform": "twitter",
+      "priority": "secondary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "@DrAseemMalhotra"
+    },
+    {
+      "practitioner_id": "person:benjamin-bikman",
+      "canonical_name": "Benjamin Bikman",
+      "platform": "youtube",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "https://www.youtube.com/channel/UCyqCGgPnHNmS5YvMr9vfKNw"
+    },
+    {
+      "practitioner_id": "person:chris-palmer",
+      "canonical_name": "Chris Palmer",
+      "platform": "youtube",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "https://www.youtube.com/channel/UCdN4tHC_7fK15xPkJQgVMdQ"
+    },
+    {
+      "practitioner_id": "person:dave-feldman",
+      "canonical_name": "Dave Feldman",
+      "platform": "youtube",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "https://www.youtube.com/channel/UCLacwQCp7k4YscqoKxpwLFg"
+    },
+    {
+      "practitioner_id": "person:david-ludwig",
+      "canonical_name": "David Ludwig",
+      "platform": "twitter",
+      "priority": "secondary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "@DrDavidLudwig"
+    },
+    {
+      "practitioner_id": "person:david-perlmutter",
+      "canonical_name": "David Perlmutter",
+      "platform": "youtube",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "https://www.youtube.com/channel/UCDRl_UAXxbHyOOjklnA0dxQ"
+    },
+    {
+      "practitioner_id": "person:david-unwin",
+      "canonical_name": "David Unwin",
+      "platform": "twitter",
+      "priority": "secondary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "@lowcarbGP"
+    },
+    {
+      "practitioner_id": "person:dominic-dagostino",
+      "canonical_name": "Dominic D'Agostino",
+      "platform": "twitter",
+      "priority": "secondary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "@DominicDAgosti2"
+    },
+    {
+      "practitioner_id": "person:georgia-ede",
+      "canonical_name": "Georgia Ede",
+      "platform": "youtube",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "https://www.youtube.com/channel/UCp2SSG5Ag2hXNNNP_3IJk-Q"
+    },
+    {
+      "practitioner_id": "person:jason-fung",
+      "canonical_name": "Jason Fung",
+      "platform": "twitter",
+      "priority": "secondary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "@drjasonfung"
+    },
+    {
+      "practitioner_id": "person:jason-fung",
+      "canonical_name": "Jason Fung",
+      "platform": "youtube",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "https://www.youtube.com/channel/UCoyL4iGArWn5Hu0V_sAhK2w"
+    },
+    {
+      "practitioner_id": "person:jeff-volek",
+      "canonical_name": "Jeff Volek",
+      "platform": "twitter",
+      "priority": "secondary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "@VolekLab"
+    },
+    {
+      "practitioner_id": "person:judy-cho",
+      "canonical_name": "Judy Cho",
+      "platform": "youtube",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "https://www.youtube.com/channel/UCgXrNUokx_Zgprns3z6zqSg"
+    },
+    {
+      "practitioner_id": "person:ken-berry",
+      "canonical_name": "Ken Berry",
+      "platform": "youtube",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "https://www.youtube.com/channel/UCIma2WOQs1Mz2AuOt6wRSUw"
+    },
+    {
+      "practitioner_id": "person:keto-connect",
+      "canonical_name": "Keto Connect",
+      "platform": "youtube",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "https://www.youtube.com/channel/UCaYnNHhRLBJ30HxrXPaXIGw"
+    },
+    {
+      "practitioner_id": "person:keto-savage",
+      "canonical_name": "Keto Savage",
+      "platform": "youtube",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "https://www.youtube.com/channel/UCqVGWhV7wf0dR0rfAw1RR8w"
+    },
+    {
+      "practitioner_id": "person:kyle-gillett",
+      "canonical_name": "Kyle Gillett",
+      "platform": "youtube",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "https://www.youtube.com/channel/UCp8Q6p7d2i3q3e4Yq5Y6Q7w"
+    },
+    {
+      "practitioner_id": "person:lily-nichols",
+      "canonical_name": "Lily Nichols",
+      "platform": "youtube",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "https://www.youtube.com/channel/UCmT8m7iL6jIZ6qp83L3Ewnw"
+    },
+    {
+      "practitioner_id": "person:low-carb-down-under",
+      "canonical_name": "Low Carb Down Under",
+      "platform": "youtube",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "https://www.youtube.com/channel/UCcTTiHZtNpiqD2EubIO5HFw"
+    },
+    {
+      "practitioner_id": "person:mark-hyman",
+      "canonical_name": "Mark Hyman",
+      "platform": "youtube",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "https://www.youtube.com/channel/UC2D2CMWXMOVWx7giW1n3LIg"
+    },
+    {
+      "practitioner_id": "person:megan-ramos",
+      "canonical_name": "Megan Ramos",
+      "platform": "twitter",
+      "priority": "secondary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "@meganjramos"
+    },
+    {
+      "practitioner_id": "person:michael-mosley",
+      "canonical_name": "Michael Mosley",
+      "platform": "twitter",
+      "priority": "secondary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "@michaelmosley_official"
+    },
+    {
+      "practitioner_id": "person:mind-matter-podcast",
+      "canonical_name": "Mind & Matter Podcast",
+      "platform": "youtube",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "https://www.youtube.com/channel/UC_dJ5ThfEhj39zkEPQbNdPg"
+    },
+    {
+      "practitioner_id": "person:nick-norwitz",
+      "canonical_name": "Nick Norwitz",
+      "platform": "youtube",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "https://www.youtube.com/channel/UCz6StAhC7qkgplsNNJoSb9w"
+    },
+    {
+      "practitioner_id": "person:nutrition-with-judy",
+      "canonical_name": "Nutrition with Judy",
+      "platform": "youtube",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "https://www.youtube.com/channel/UCgXrNUokx_Zgprns3z6zqSg"
+    },
+    {
+      "practitioner_id": "person:paul-mason",
+      "canonical_name": "Paul Mason",
+      "platform": "twitter",
+      "priority": "secondary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "@DrPaulMason"
+    },
+    {
+      "practitioner_id": "person:paul-saladino",
+      "canonical_name": "Paul Saladino",
+      "platform": "twitter",
+      "priority": "secondary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "@paulsaladinomd"
+    },
+    {
+      "practitioner_id": "person:paul-saladino",
+      "canonical_name": "Paul Saladino",
+      "platform": "youtube",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "https://www.youtube.com/channel/UC0XkvurBkdGA2Y8dnDhIwBw"
+    },
+    {
+      "practitioner_id": "person:peter-attia",
+      "canonical_name": "Peter Attia",
+      "platform": "twitter",
+      "priority": "secondary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "@PeterAttiaMD"
+    },
+    {
+      "practitioner_id": "person:peter-attia",
+      "canonical_name": "Peter Attia",
+      "platform": "youtube",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "https://www.youtube.com/channel/UC3w193M5tYPJqF0Hi-7U-2g"
+    },
+    {
+      "practitioner_id": "person:physionic",
+      "canonical_name": "Physionic",
+      "platform": "youtube",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "https://www.youtube.com/channel/UCj3p_1jOCJXB_L_we-DjLbA"
+    },
+    {
+      "practitioner_id": "person:rangan-chatterjee",
+      "canonical_name": "Rangan Chatterjee",
+      "platform": "twitter",
+      "priority": "secondary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "@DrRangan"
+    },
+    {
+      "practitioner_id": "person:shawn-baker",
+      "canonical_name": "Shawn Baker",
+      "platform": "youtube",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "https://www.youtube.com/channel/UC5apkKkeZQXRSDbqSalG8CQ"
+    },
+    {
+      "practitioner_id": "person:siim-land",
+      "canonical_name": "Siim Land",
+      "platform": "youtube",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "https://www.youtube.com/channel/UCAohrrjG-3gEp5QF1WlM9_w"
+    },
+    {
+      "practitioner_id": "person:sten-ekberg",
+      "canonical_name": "Sten Ekberg",
+      "platform": "youtube",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "https://www.youtube.com/channel/UCIe2pR6PE0dae9BunJ38F7w"
+    },
+    {
+      "practitioner_id": "person:stephen-phinney",
+      "canonical_name": "Stephen Phinney",
+      "platform": "twitter",
+      "priority": "secondary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "@DrPhinney"
+    },
+    {
+      "practitioner_id": "person:ted-naiman",
+      "canonical_name": "Ted Naiman",
+      "platform": "twitter",
+      "priority": "secondary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "@tednaiman"
+    },
+    {
+      "practitioner_id": "person:the-feldman-protocol",
+      "canonical_name": "The Feldman Protocol",
+      "platform": "youtube",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "https://www.youtube.com/channel/UCLacwQCp7k4YscqoKxpwLFg"
+    },
+    {
+      "practitioner_id": "person:the-primal-podcast",
+      "canonical_name": "The Primal Podcast",
+      "platform": "youtube",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "https://www.youtube.com/channel/UCbGdNkuGB5e3cnf6xJWrluA"
+    },
+    {
+      "practitioner_id": "person:thomas-dayspring",
+      "canonical_name": "Thomas Dayspring",
+      "platform": "twitter",
+      "priority": "secondary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "@drlipid"
+    },
+    {
+      "practitioner_id": "person:thomas-dayspring",
+      "canonical_name": "Thomas Dayspring",
+      "platform": "twitter",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "https://twitter.com/Drlipid"
+    },
+    {
+      "practitioner_id": "person:thomas-fordham-brewer",
+      "canonical_name": "Thomas Fordham Brewer",
+      "platform": "youtube",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "https://www.youtube.com/channel/UCmoEsq6a6ePXxgZeA4CVrUw"
+    },
+    {
+      "practitioner_id": "person:william-davis",
+      "canonical_name": "William Davis",
+      "platform": "youtube",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "handle_or_url": "https://www.youtube.com/channel/UCZp4ONYOXZkf92UxxNnAiKQ"
+    }
+  ]
+}

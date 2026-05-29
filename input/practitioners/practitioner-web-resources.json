@@ -1,0 +1,436 @@
+{
+  "schema_version": "2026-05-29",
+  "generated_at": "2026-05-29T15:57:13.451067+00:00",
+  "canonical_source": true,
+  "source_inputs": [
+    "/media/zoltan/4TSSD/metabolicum-agentic-research/input/practitioner_registry.json",
+    "/media/zoltan/4TSSD/metabolicum-agentic-research/input/practitioner_aliases.json"
+  ],
+  "description": "Canonical official/searchable practitioner web resources.",
+  "web_resources": [
+    {
+      "practitioner_id": "company:defeat-diabetes",
+      "canonical_name": "Defeat Diabetes",
+      "platform": "website",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "url": "https://www.defeatdiabetes.com.au/"
+    },
+    {
+      "practitioner_id": "company:levels-health",
+      "canonical_name": "Levels Health",
+      "platform": "website",
+      "priority": "secondary",
+      "discovery_mode": "manual_seed",
+      "url": "https://levelshealth.com/"
+    },
+    {
+      "practitioner_id": "company:levels-health",
+      "canonical_name": "Levels Health",
+      "platform": "website",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "url": "https://www.levels.com/"
+    },
+    {
+      "practitioner_id": "company:low-carb-program",
+      "canonical_name": "Low Carb Program",
+      "platform": "website",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "url": "https://www.lowcarbprogram.com/"
+    },
+    {
+      "practitioner_id": "company:virta-health",
+      "canonical_name": "Virta Health",
+      "platform": "website",
+      "priority": "secondary",
+      "discovery_mode": "manual_seed",
+      "url": "https://virtahealth.com/"
+    },
+    {
+      "practitioner_id": "company:virta-health",
+      "canonical_name": "Virta Health",
+      "platform": "website",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "url": "https://www.virtahealth.com/"
+    },
+    {
+      "practitioner_id": "conference:metabolic-health-summit",
+      "canonical_name": "Metabolic Health Summit",
+      "platform": "website",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "url": "https://metabolichealthsummit.com/"
+    },
+    {
+      "practitioner_id": "media:diet-doctor",
+      "canonical_name": "Diet Doctor",
+      "platform": "website",
+      "priority": "secondary",
+      "discovery_mode": "manual_seed",
+      "url": "https://dietdoctor.com/"
+    },
+    {
+      "practitioner_id": "media:diet-doctor",
+      "canonical_name": "Diet Doctor",
+      "platform": "website",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "url": "https://www.dietdoctor.com/"
+    },
+    {
+      "practitioner_id": "network:public-health-collaboration",
+      "canonical_name": "Public Health Collaboration",
+      "platform": "website",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "url": "https://phcuk.org/"
+    },
+    {
+      "practitioner_id": "person:amy-myers",
+      "canonical_name": "Amy Myers",
+      "platform": "website",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "url": "https://amymyersmd.com/"
+    },
+    {
+      "practitioner_id": "person:andreas-eenfeldt",
+      "canonical_name": "Andreas Eenfeldt",
+      "platform": "website",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "url": "https://dietdoctor.com/"
+    },
+    {
+      "practitioner_id": "person:andrew-huberman",
+      "canonical_name": "Andrew Huberman",
+      "platform": "podcast",
+      "priority": "secondary",
+      "discovery_mode": "manual_seed",
+      "url": "https://feeds.megaphone.fm/hubermanlab"
+    },
+    {
+      "practitioner_id": "person:andrew-huberman",
+      "canonical_name": "Andrew Huberman",
+      "platform": "website",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "url": "https://hubermanlab.com/"
+    },
+    {
+      "practitioner_id": "person:anthony-chaffee",
+      "canonical_name": "Anthony Chaffee",
+      "platform": "podcast",
+      "priority": "secondary",
+      "discovery_mode": "manual_seed",
+      "url": "https://open.spotify.com/show/0WQtoPLuPMWWm3ZT3DYXzp"
+    },
+    {
+      "practitioner_id": "person:anthony-chaffee",
+      "canonical_name": "Anthony Chaffee",
+      "platform": "podcast",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "url": "https://podcasts.apple.com/au/podcast/the-plant-free-md-podcast/id1614546790"
+    },
+    {
+      "practitioner_id": "person:anthony-chaffee",
+      "canonical_name": "Anthony Chaffee",
+      "platform": "website",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "url": "https://dranthonychaffee.com/"
+    },
+    {
+      "practitioner_id": "person:benjamin-bikman",
+      "canonical_name": "Benjamin Bikman",
+      "platform": "podcast",
+      "priority": "secondary",
+      "discovery_mode": "manual_seed",
+      "url": "https://feeds.acast.com/public/shows/602b13db8237836e54f27141"
+    },
+    {
+      "practitioner_id": "person:benjamin-bikman",
+      "canonical_name": "Benjamin Bikman",
+      "platform": "website",
+      "priority": "secondary",
+      "discovery_mode": "manual_seed",
+      "url": "https://benbikman.com/"
+    },
+    {
+      "practitioner_id": "person:benjamin-bikman",
+      "canonical_name": "Benjamin Bikman",
+      "platform": "website",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "url": "https://www.benbikman.com/"
+    },
+    {
+      "practitioner_id": "person:bret-scher",
+      "canonical_name": "Bret Scher",
+      "platform": "podcast",
+      "priority": "secondary",
+      "discovery_mode": "manual_seed",
+      "url": "https://feed.podbean.com/dietdoctorpodcast/feed.xml"
+    },
+    {
+      "practitioner_id": "person:bret-scher",
+      "canonical_name": "Bret Scher",
+      "platform": "website",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "url": "https://dietdoctor.com/"
+    },
+    {
+      "practitioner_id": "person:casey-means",
+      "canonical_name": "Casey Means",
+      "platform": "podcast",
+      "priority": "secondary",
+      "discovery_mode": "manual_seed",
+      "url": "https://anchor.fm/s/48092b10/podcast/rss"
+    },
+    {
+      "practitioner_id": "person:casey-means",
+      "canonical_name": "Casey Means",
+      "platform": "website",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "url": "https://metabolicinitiative.com/"
+    },
+    {
+      "practitioner_id": "person:dale-bredesen",
+      "canonical_name": "Dale Bredesen",
+      "platform": "website",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "url": "https://drbredesen.com/"
+    },
+    {
+      "practitioner_id": "person:dave-feldman",
+      "canonical_name": "Dave Feldman",
+      "platform": "website",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "url": "https://cholesterolcode.com/"
+    },
+    {
+      "practitioner_id": "person:david-perlmutter",
+      "canonical_name": "David Perlmutter",
+      "platform": "podcast",
+      "priority": "secondary",
+      "discovery_mode": "manual_seed",
+      "url": "https://anchor.fm/s/f102c71c/podcast/rss"
+    },
+    {
+      "practitioner_id": "person:david-perlmutter",
+      "canonical_name": "David Perlmutter",
+      "platform": "website",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "url": "https://drperlmutter.com/"
+    },
+    {
+      "practitioner_id": "person:david-unwin",
+      "canonical_name": "David Unwin",
+      "platform": "website",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "url": "https://phcuk.org/"
+    },
+    {
+      "practitioner_id": "person:dominic-dagostino",
+      "canonical_name": "Dominic D'Agostino",
+      "platform": "website",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "url": "https://ketonutrition.org/"
+    },
+    {
+      "practitioner_id": "person:jason-fung",
+      "canonical_name": "Jason Fung",
+      "platform": "website",
+      "priority": "secondary",
+      "discovery_mode": "manual_seed",
+      "url": "https://drjasonfung.com/"
+    },
+    {
+      "practitioner_id": "person:jason-fung",
+      "canonical_name": "Jason Fung",
+      "platform": "website",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "url": "https://www.thefastingmethod.com/"
+    },
+    {
+      "practitioner_id": "person:joseph-mercola",
+      "canonical_name": "Joseph Mercola",
+      "platform": "website",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "url": "https://www.mercola.com/"
+    },
+    {
+      "practitioner_id": "person:mark-hyman",
+      "canonical_name": "Mark Hyman",
+      "platform": "podcast",
+      "priority": "secondary",
+      "discovery_mode": "manual_seed",
+      "url": "https://feeds.megaphone.fm/thedoctorsfarmacy"
+    },
+    {
+      "practitioner_id": "person:mark-hyman",
+      "canonical_name": "Mark Hyman",
+      "platform": "website",
+      "priority": "secondary",
+      "discovery_mode": "manual_seed",
+      "url": "https://drhyman.com/"
+    },
+    {
+      "practitioner_id": "person:mark-hyman",
+      "canonical_name": "Mark Hyman",
+      "platform": "website",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "url": "https://drhyman.me/"
+    },
+    {
+      "practitioner_id": "person:megan-ramos",
+      "canonical_name": "Megan Ramos",
+      "platform": "website",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "url": "https://thefastingmethod.com/"
+    },
+    {
+      "practitioner_id": "person:nick-norwitz",
+      "canonical_name": "Nick Norwitz",
+      "platform": "website",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "url": "https://nicknorwitz.com/"
+    },
+    {
+      "practitioner_id": "person:paul-saladino",
+      "canonical_name": "Paul Saladino",
+      "platform": "website",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "url": "https://carnivoremd.com/"
+    },
+    {
+      "practitioner_id": "person:peter-attia",
+      "canonical_name": "Peter Attia",
+      "platform": "podcast",
+      "priority": "secondary",
+      "discovery_mode": "manual_seed",
+      "url": "https://peterattiadrive.libsyn.com/rss"
+    },
+    {
+      "practitioner_id": "person:peter-attia",
+      "canonical_name": "Peter Attia",
+      "platform": "website",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "url": "https://peterattiamd.com/"
+    },
+    {
+      "practitioner_id": "person:peter-brukner",
+      "canonical_name": "Peter Brukner",
+      "platform": "website",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "url": "https://peterbrukner.com/"
+    },
+    {
+      "practitioner_id": "person:rhonda-patrick",
+      "canonical_name": "Rhonda Patrick",
+      "platform": "podcast",
+      "priority": "secondary",
+      "discovery_mode": "manual_seed",
+      "url": "https://rss.libsyn.com/shows/51714/destinations/184296.xml"
+    },
+    {
+      "practitioner_id": "person:rhonda-patrick",
+      "canonical_name": "Rhonda Patrick",
+      "platform": "website",
+      "priority": "secondary",
+      "discovery_mode": "manual_seed",
+      "url": "https://foundmyfitness.com/"
+    },
+    {
+      "practitioner_id": "person:rhonda-patrick",
+      "canonical_name": "Rhonda Patrick",
+      "platform": "website",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "url": "https://www.foundmyfitness.com/"
+    },
+    {
+      "practitioner_id": "person:sara-gottfried",
+      "canonical_name": "Sara Gottfried",
+      "platform": "website",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "url": "https://saragottfriedmd.com/"
+    },
+    {
+      "practitioner_id": "person:sten-ekberg",
+      "canonical_name": "Sten Ekberg",
+      "platform": "website",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "url": "https://drsten.com/"
+    },
+    {
+      "practitioner_id": "person:stephen-phinney",
+      "canonical_name": "Stephen Phinney",
+      "platform": "website",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "url": "https://virtahealth.com/"
+    },
+    {
+      "practitioner_id": "person:steven-gundry",
+      "canonical_name": "Steven Gundry",
+      "platform": "website",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "url": "https://gundrymd.com/"
+    },
+    {
+      "practitioner_id": "person:ted-naiman",
+      "canonical_name": "Ted Naiman",
+      "platform": "website",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "url": "https://tednaiman.com/"
+    },
+    {
+      "practitioner_id": "person:terry-wahls",
+      "canonical_name": "Terry Wahls",
+      "platform": "website",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "url": "https://terrywahls.com/"
+    },
+    {
+      "practitioner_id": "person:william-davis",
+      "canonical_name": "William Davis",
+      "platform": "website",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "url": "https://drdavisinfinitehealth.com/"
+    },
+    {
+      "practitioner_id": "researchgroup:csiro",
+      "canonical_name": "CSIRO",
+      "platform": "website",
+      "priority": "primary",
+      "discovery_mode": "manual_seed",
+      "url": "https://www.csiro.au/"
+    }
+  ]
+}

@@ -1,0 +1,1392 @@
+{
+  "schema_version": "2026-05-29",
+  "generated_at": "2026-05-29T15:57:13.451067+00:00",
+  "canonical_source": true,
+  "source_inputs": [
+    "/media/zoltan/4TSSD/metabolicum-agentic-research/input/practitioner_registry.json",
+    "/media/zoltan/4TSSD/metabolicum-agentic-research/input/practitioner_aliases.json"
+  ],
+  "description": "Canonical practitioner marker and paradigm affinity.",
+  "marker_affinities": [
+    {
+      "practitioner_id": "company:defeat-diabetes",
+      "canonical_name": "Defeat Diabetes",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "national virtual low-carb implementation"
+    },
+    {
+      "practitioner_id": "company:levels-health",
+      "canonical_name": "Levels Health",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "CGM-centric metabolic education"
+    },
+    {
+      "practitioner_id": "company:low-carb-program",
+      "canonical_name": "Low Carb Program",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "NHS-approved digital T2DM program"
+    },
+    {
+      "practitioner_id": "company:virta-health",
+      "canonical_name": "Virta Health",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "T2DM reversal at scale"
+    },
+    {
+      "practitioner_id": "conference:metabolic-health-summit",
+      "canonical_name": "Metabolic Health Summit",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "metabolic health conference network"
+    },
+    {
+      "practitioner_id": "media:diet-doctor",
+      "canonical_name": "Diet Doctor",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "low-carb education and practitioner network"
+    },
+    {
+      "practitioner_id": "media:metodichu-bengedi-robi",
+      "canonical_name": "Metodic.hu / Bengedi Robi",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Hungarian metabolic-health education and media surface"
+    },
+    {
+      "practitioner_id": "network:hungarian-diabetes-association",
+      "canonical_name": "Hungarian Diabetes Association",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "paradigm_affinity": [
+        "SM",
+        "RC"
+      ],
+      "key_contribution": "conservative diabetes guideline surface"
+    },
+    {
+      "practitioner_id": "network:hungarian-low-carb-clinician-network",
+      "canonical_name": "Hungarian low-carb clinician network",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "local practitioner discovery and manual seed source"
+    },
+    {
+      "practitioner_id": "network:public-health-collaboration",
+      "canonical_name": "Public Health Collaboration",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "low-carb GP network"
+    },
+    {
+      "practitioner_id": "person:allan-sniderman",
+      "canonical_name": "Allan Sniderman",
+      "marker_affinity": [
+        "apob",
+        "lpa"
+      ],
+      "paradigm_affinity": [
+        "RC",
+        "MO"
+      ],
+      "key_contribution": "ApoB causal and clinical-risk interpretation"
+    },
+    {
+      "practitioner_id": "person:amy-myers",
+      "canonical_name": "Amy Myers",
+      "marker_affinity": [
+        "tsh",
+        "free-t3",
+        "hs-crp"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Functional Medicine"
+    },
+    {
+      "practitioner_id": "person:andras-toth",
+      "canonical_name": "András Tóth",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Szeged"
+    },
+    {
+      "practitioner_id": "person:andreas-eenfeldt",
+      "canonical_name": "Andreas Eenfeldt",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Diet Doctor and global low-carb education"
+    },
+    {
+      "practitioner_id": "person:andreas-pfeiffer",
+      "canonical_name": "Andreas Pfeiffer",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Charité Berlin"
+    },
+    {
+      "practitioner_id": "person:andrew-huberman",
+      "canonical_name": "Andrew Huberman",
+      "marker_affinity": [
+        "fasting-insulin",
+        "vitamin-d",
+        "ferritin"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Neuroscience"
+    },
+    {
+      "practitioner_id": "person:andrew-koutnik",
+      "canonical_name": "Andrew Koutnik",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Independent"
+    },
+    {
+      "practitioner_id": "person:anna-k-feher",
+      "canonical_name": "Anna K. Fehér",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "University of Szeged"
+    },
+    {
+      "practitioner_id": "person:anna-m-szilagyi",
+      "canonical_name": "Anna M. Szilágyi",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Budapest"
+    },
+    {
+      "practitioner_id": "person:anne-fleck",
+      "canonical_name": "Anne Fleck",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Hamburg"
+    },
+    {
+      "practitioner_id": "person:anssi-h-manninen",
+      "canonical_name": "Anssi H. Manninen",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Sports Nutrition"
+    },
+    {
+      "practitioner_id": "person:anthony-chaffee",
+      "canonical_name": "Anthony Chaffee",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin",
+        "tg-hdl-ratio",
+        "apob"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "carnivore/plant-free clinical advocacy and dietary reversal claims"
+    },
+    {
+      "practitioner_id": "person:antonio-m-gotto-jr",
+      "canonical_name": "Antonio M. Gotto Jr.",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "University of Padua"
+    },
+    {
+      "practitioner_id": "person:aseem-malhotra",
+      "canonical_name": "Aseem Malhotra",
+      "marker_affinity": [
+        "apob",
+        "lpa",
+        "tg-hdl-ratio",
+        "hdl-cholesterol",
+        "ldl-cholesterol"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "London"
+    },
+    {
+      "practitioner_id": "person:barbra-allen-bradshaw",
+      "canonical_name": "Barbra Allen Bradshaw",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "National"
+    },
+    {
+      "practitioner_id": "person:bence-t-karoly",
+      "canonical_name": "Bence T. Károly",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Budapest"
+    },
+    {
+      "practitioner_id": "person:benjamin-bikman",
+      "canonical_name": "Benjamin Bikman",
+      "marker_affinity": [
+        "tg-hdl-ratio",
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "insulin signaling, metabolic syndrome, ketone physiology"
+    },
+    {
+      "practitioner_id": "person:bret-scher",
+      "canonical_name": "Bret Scher",
+      "marker_affinity": [
+        "apob",
+        "lpa",
+        "tg-hdl-ratio",
+        "hdl-cholesterol",
+        "ldl-cholesterol"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Cardiologist"
+    },
+    {
+      "practitioner_id": "person:brian-lamkin",
+      "canonical_name": "Brian Lamkin",
+      "marker_affinity": [
+        "fasting-insulin",
+        "homa-ir"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "HOMA-IR functional medicine interpretation tiers"
+    },
+    {
+      "practitioner_id": "person:caryn-zinn",
+      "canonical_name": "Caryn Zinn",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Auckland UT (NZ)"
+    },
+    {
+      "practitioner_id": "person:casey-means",
+      "canonical_name": "Casey Means",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin",
+        "homa-ir",
+        "tg-hdl-ratio"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Metabolic Health"
+    },
+    {
+      "practitioner_id": "person:chris-palmer",
+      "canonical_name": "Chris Palmer",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Psychiatrist"
+    },
+    {
+      "practitioner_id": "person:christophe-g-lagasse",
+      "canonical_name": "Christophe G. Lagasse",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Brussels"
+    },
+    {
+      "practitioner_id": "person:dale-bredesen",
+      "canonical_name": "Dale Bredesen",
+      "marker_affinity": [
+        "fasting-insulin",
+        "hs-crp",
+        "vitamin-d",
+        "ferritin"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Neurologist"
+    },
+    {
+      "practitioner_id": "person:dave-feldman",
+      "canonical_name": "Dave Feldman",
+      "marker_affinity": [
+        "apob",
+        "lpa",
+        "tg-hdl-ratio",
+        "hdl-cholesterol",
+        "ldl-cholesterol"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Independent Researcher"
+    },
+    {
+      "practitioner_id": "person:david-harper",
+      "canonical_name": "David Harper",
+      "marker_affinity": [
+        "fasting-insulin"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "ketogenic diets in cancer metabolism"
+    },
+    {
+      "practitioner_id": "person:david-ludwig",
+      "canonical_name": "David Ludwig",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "paradigm_affinity": [
+        "RC",
+        "MO"
+      ],
+      "key_contribution": "carbohydrate-insulin model"
+    },
+    {
+      "practitioner_id": "person:david-perlmutter",
+      "canonical_name": "David Perlmutter",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin",
+        "homa-ir",
+        "hs-crp"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Neurologist"
+    },
+    {
+      "practitioner_id": "person:david-raubenheimer",
+      "canonical_name": "David Raubenheimer",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "University of Sydney"
+    },
+    {
+      "practitioner_id": "person:david-unwin",
+      "canonical_name": "David Unwin",
+      "marker_affinity": [
+        "tg-hdl-ratio",
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "low-carb primary-care implementation"
+    },
+    {
+      "practitioner_id": "person:dominic-dagostino",
+      "canonical_name": "Dominic D'Agostino",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "ketone physiology and metabolic therapy research"
+    },
+    {
+      "practitioner_id": "person:emanuele-f-m-di-angelantonio",
+      "canonical_name": "Emanuele F. M. Di Angelantonio",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Rome"
+    },
+    {
+      "practitioner_id": "person:eric-sijbrands",
+      "canonical_name": "Eric Sijbrands",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Erasmus University"
+    },
+    {
+      "practitioner_id": "person:evelyne-bourdua-roy",
+      "canonical_name": "Evelyne Bourdua-Roy",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "low-carb clinical implementation in French Canada"
+    },
+    {
+      "practitioner_id": "person:francisco-martinez",
+      "canonical_name": "Francisco Martinez",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Madrid"
+    },
+    {
+      "practitioner_id": "person:fredrik-nystrom",
+      "canonical_name": "Fredrik Nyström",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Linköping University"
+    },
+    {
+      "practitioner_id": "person:georgia-ede",
+      "canonical_name": "Georgia Ede",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Psychiatrist"
+    },
+    {
+      "practitioner_id": "person:gerry-krystal",
+      "canonical_name": "Gerry Krystal",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "BC Cancer Research"
+    },
+    {
+      "practitioner_id": "person:grant-brinkworth",
+      "canonical_name": "Grant Brinkworth",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin",
+        "homa-ir",
+        "tg-hdl-ratio"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "CSIRO"
+    },
+    {
+      "practitioner_id": "person:hanno-pijl",
+      "canonical_name": "Hanno Pijl",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Leiden University"
+    },
+    {
+      "practitioner_id": "person:istvan-takacs",
+      "canonical_name": "István Takács",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Semmelweis University"
+    },
+    {
+      "practitioner_id": "person:jaakko-halonen",
+      "canonical_name": "Jaakko Halonen",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Independent"
+    },
+    {
+      "practitioner_id": "person:jacques-lucas",
+      "canonical_name": "Jacques Lucas",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "National"
+    },
+    {
+      "practitioner_id": "person:james-muecke",
+      "canonical_name": "James Muecke",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Adelaide"
+    },
+    {
+      "practitioner_id": "person:jason-fung",
+      "canonical_name": "Jason Fung",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "fasting and T2DM reversal framework"
+    },
+    {
+      "practitioner_id": "person:javier-gonzalez-gallego",
+      "canonical_name": "Javier González-Gallego",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "University of León"
+    },
+    {
+      "practitioner_id": "person:jay-wortman",
+      "canonical_name": "Jay Wortman",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "First Nations Health Authority"
+    },
+    {
+      "practitioner_id": "person:jean-michel-lecerf",
+      "canonical_name": "Jean-Michel Lecerf",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Pasteur Institute"
+    },
+    {
+      "practitioner_id": "person:jeff-volek",
+      "canonical_name": "Jeff Volek",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "carbohydrate restriction and performance physiology"
+    },
+    {
+      "practitioner_id": "person:jonathan-little",
+      "canonical_name": "Jonathan Little",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "paradigm_affinity": [
+        "RC",
+        "MO"
+      ],
+      "key_contribution": "low-carb diets, T2DM, exercise metabolism"
+    },
+    {
+      "practitioner_id": "person:jorn-klasen",
+      "canonical_name": "Jörn Klasen",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "National Network"
+    },
+    {
+      "practitioner_id": "person:jose-l-g-luna",
+      "canonical_name": "José L. G. Luna",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "University of Granada"
+    },
+    {
+      "practitioner_id": "person:joseph-kraft",
+      "canonical_name": "Joseph Kraft",
+      "marker_affinity": [
+        "fasting-insulin",
+        "homa-ir"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "insulin-response patterns and post-prandial insulin framework"
+    },
+    {
+      "practitioner_id": "person:joseph-mercola",
+      "canonical_name": "Joseph Mercola",
+      "marker_affinity": [
+        "lpa",
+        "vitamin-d",
+        "fasting-insulin"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "alternative health advocacy, natural medicine"
+    },
+    {
+      "practitioner_id": "person:judy-cho",
+      "canonical_name": "Judy Cho",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Nutritionist"
+    },
+    {
+      "practitioner_id": "person:katalin-v-kovacs",
+      "canonical_name": "Katalin V. Kovács",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Debrecen"
+    },
+    {
+      "practitioner_id": "person:kees-k-j-van-den-heuvel",
+      "canonical_name": "Kees K. J. van den Heuvel",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Amsterdam"
+    },
+    {
+      "practitioner_id": "person:ken-berry",
+      "canonical_name": "Ken Berry",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Family Medicine"
+    },
+    {
+      "practitioner_id": "person:keto-connect",
+      "canonical_name": "Keto Connect",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Imported from social discovery practitioner registry"
+    },
+    {
+      "practitioner_id": "person:keto-savage",
+      "canonical_name": "Keto Savage",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Imported from social discovery practitioner registry"
+    },
+    {
+      "practitioner_id": "person:koenraad-k-j-van-den-heuvel",
+      "canonical_name": "Koenraad K. J. van den Heuvel",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Antwerp"
+    },
+    {
+      "practitioner_id": "person:kyle-gillett",
+      "canonical_name": "Kyle Gillett",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Physician"
+    },
+    {
+      "practitioner_id": "person:laurent-chevallier",
+      "canonical_name": "Laurent Chevallier",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Paris"
+    },
+    {
+      "practitioner_id": "person:lily-nichols",
+      "canonical_name": "Lily Nichols",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Registered Dietitian"
+    },
+    {
+      "practitioner_id": "person:low-carb-down-under",
+      "canonical_name": "Low Carb Down Under",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Imported from social discovery practitioner registry"
+    },
+    {
+      "practitioner_id": "person:manny-noakes",
+      "canonical_name": "Manny Noakes",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "CSIRO"
+    },
+    {
+      "practitioner_id": "person:margaret-ashwell",
+      "canonical_name": "Margaret Ashwell",
+      "marker_affinity": [
+        "tg-hdl-ratio"
+      ],
+      "paradigm_affinity": [
+        "RC",
+        "MO"
+      ],
+      "key_contribution": "waist-to-height ratio research"
+    },
+    {
+      "practitioner_id": "person:mark-hyman",
+      "canonical_name": "Mark Hyman",
+      "marker_affinity": [
+        "vitamin-d",
+        "hba1c",
+        "fasting-insulin",
+        "tg-hdl-ratio"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "functional medicine, food-as-medicine framework"
+    },
+    {
+      "practitioner_id": "person:maximilian-schiele",
+      "canonical_name": "Maximilian Schiele",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Munich"
+    },
+    {
+      "practitioner_id": "person:megan-ramos",
+      "canonical_name": "Megan Ramos",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "fasting implementation and IDM/Fasting Method"
+    },
+    {
+      "practitioner_id": "person:michael-holick",
+      "canonical_name": "Michael Holick",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "vitamin D physiology and 25(OH)D framework"
+    },
+    {
+      "practitioner_id": "person:michael-mosley",
+      "canonical_name": "Michael Mosley",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin",
+        "homa-ir",
+        "tg-hdl-ratio"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "National Media"
+    },
+    {
+      "practitioner_id": "person:michel-de-lorgeril",
+      "canonical_name": "Michel de Lorgeril",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Grenoble University"
+    },
+    {
+      "practitioner_id": "person:miklos-szathmary",
+      "canonical_name": "Miklós Szathmáry",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "University of Debrecen"
+    },
+    {
+      "practitioner_id": "person:mind-matter-podcast",
+      "canonical_name": "Mind & Matter Podcast",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Imported from social discovery practitioner registry"
+    },
+    {
+      "practitioner_id": "person:nick-norwitz",
+      "canonical_name": "Nick Norwitz",
+      "marker_affinity": [
+        "apob",
+        "lpa"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "LMHR phenotype, ketogenic lipidology"
+    },
+    {
+      "practitioner_id": "person:nicolai-worm",
+      "canonical_name": "Nicolai Worm",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Munich"
+    },
+    {
+      "practitioner_id": "person:nutrition-with-judy",
+      "canonical_name": "Nutrition with Judy",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Imported from social discovery practitioner registry"
+    },
+    {
+      "practitioner_id": "person:orsolya-t-feher",
+      "canonical_name": "Orsolya T. Fehér",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Budapest"
+    },
+    {
+      "practitioner_id": "person:paolo-raggi",
+      "canonical_name": "Paolo Raggi",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "University of Bologna"
+    },
+    {
+      "practitioner_id": "person:paul-mason",
+      "canonical_name": "Paul Mason",
+      "marker_affinity": [
+        "apob",
+        "lpa"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "LMHR and low-carb lipid interpretation"
+    },
+    {
+      "practitioner_id": "person:paul-saladino",
+      "canonical_name": "Paul Saladino",
+      "marker_affinity": [
+        "alt",
+        "ast",
+        "ggt",
+        "apob",
+        "lpa",
+        "tg-hdl-ratio",
+        "hdl-cholesterol",
+        "ldl-cholesterol",
+        "hs-crp"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Functional Medicine"
+    },
+    {
+      "practitioner_id": "person:peter-attia",
+      "canonical_name": "Peter Attia",
+      "marker_affinity": [
+        "apob",
+        "lpa",
+        "fasting-insulin",
+        "hba1c"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "longevity framework, insulin-centric risk, ApoB emphasis"
+    },
+    {
+      "practitioner_id": "person:peter-brukner",
+      "canonical_name": "Peter Brukner",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "paradigm_affinity": [
+        "RC",
+        "MO"
+      ],
+      "key_contribution": "public-health implementation and Defeat Diabetes"
+    },
+    {
+      "practitioner_id": "person:peter-jonsson",
+      "canonical_name": "Peter Jönsson",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Lund University"
+    },
+    {
+      "practitioner_id": "person:physionic",
+      "canonical_name": "Physionic",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Imported from social discovery practitioner registry"
+    },
+    {
+      "practitioner_id": "person:rafael-manquez",
+      "canonical_name": "Rafael Máñquez",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "University of Seville"
+    },
+    {
+      "practitioner_id": "person:rangan-chatterjee",
+      "canonical_name": "Rangan Chatterjee",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin",
+        "homa-ir",
+        "apob",
+        "lpa",
+        "tg-hdl-ratio",
+        "hdl-cholesterol",
+        "ldl-cholesterol"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Manchester"
+    },
+    {
+      "practitioner_id": "person:rhonda-patrick",
+      "canonical_name": "Rhonda Patrick",
+      "marker_affinity": [
+        "hba1c",
+        "vitamin-d",
+        "fasting-insulin",
+        "ferritin"
+      ],
+      "paradigm_affinity": [
+        "MO",
+        "RC"
+      ],
+      "key_contribution": "nutrigenomics, micronutrient science, metabolic health"
+    },
+    {
+      "practitioner_id": "person:richard-maurer",
+      "canonical_name": "Richard Maurer",
+      "marker_affinity": [
+        "fasting-insulin",
+        "homa-ir"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "HOMA-IR clinical interpretation framework"
+    },
+    {
+      "practitioner_id": "person:robert-lustig",
+      "canonical_name": "Robert Lustig",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "fructose, uric acid, metabolic disease framework"
+    },
+    {
+      "practitioner_id": "person:sara-gottfried",
+      "canonical_name": "Sara Gottfried",
+      "marker_affinity": [
+        "fasting-insulin",
+        "tsh",
+        "free-t3"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "OB/GYN"
+    },
+    {
+      "practitioner_id": "person:shawn-baker",
+      "canonical_name": "Shawn Baker",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Orthopedic Surgeon"
+    },
+    {
+      "practitioner_id": "person:siim-land",
+      "canonical_name": "Siim Land",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Health Coach"
+    },
+    {
+      "practitioner_id": "person:sten-ekberg",
+      "canonical_name": "Sten Ekberg",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin",
+        "homa-ir",
+        "apob",
+        "lpa",
+        "tg-hdl-ratio",
+        "hdl-cholesterol",
+        "ldl-cholesterol",
+        "tsh",
+        "free-t3"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Chiropractor/Functional Medicine"
+    },
+    {
+      "practitioner_id": "person:stephan-bischoff",
+      "canonical_name": "Stephan Bischoff",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "University of Hohenheim"
+    },
+    {
+      "practitioner_id": "person:stephen-phinney",
+      "canonical_name": "Stephen Phinney",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "ketogenic nutrition and metabolic adaptation"
+    },
+    {
+      "practitioner_id": "person:steven-gundry",
+      "canonical_name": "Steven Gundry",
+      "marker_affinity": [
+        "fasting-insulin",
+        "lpa",
+        "vitamin-d",
+        "hba1c"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "lectin-free diet, plant paradox framework"
+    },
+    {
+      "practitioner_id": "person:ted-naiman",
+      "canonical_name": "Ted Naiman",
+      "marker_affinity": [
+        "tg-hdl-ratio",
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "protein-energy framework, minimalist metabolic testing"
+    },
+    {
+      "practitioner_id": "person:terry-wahls",
+      "canonical_name": "Terry Wahls",
+      "marker_affinity": [
+        "hs-crp"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Internal Medicine"
+    },
+    {
+      "practitioner_id": "person:the-feldman-protocol",
+      "canonical_name": "The Feldman Protocol",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Imported from social discovery practitioner registry"
+    },
+    {
+      "practitioner_id": "person:the-primal-podcast",
+      "canonical_name": "The Primal Podcast",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Imported from social discovery practitioner registry"
+    },
+    {
+      "practitioner_id": "person:thomas-dayspring",
+      "canonical_name": "Thomas Dayspring",
+      "marker_affinity": [
+        "apob",
+        "lpa"
+      ],
+      "paradigm_affinity": [
+        "RC",
+        "MO"
+      ],
+      "key_contribution": "ApoB-centric lipidology and advanced lipid testing"
+    },
+    {
+      "practitioner_id": "person:thomas-fordham-brewer",
+      "canonical_name": "Thomas Fordham Brewer",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Physician"
+    },
+    {
+      "practitioner_id": "person:thomas-seyfried",
+      "canonical_name": "Thomas Seyfried",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Biologist"
+    },
+    {
+      "practitioner_id": "person:tim-noakes",
+      "canonical_name": "Tim Noakes",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "low-carb metabolic syndrome reversal"
+    },
+    {
+      "practitioner_id": "person:tomas-duraj",
+      "canonical_name": "Tomas Duraj",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Physician-Scientist"
+    },
+    {
+      "practitioner_id": "person:william-davis",
+      "canonical_name": "William Davis",
+      "marker_affinity": [
+        "apob",
+        "tg-hdl-ratio"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "grain elimination, small LDL, gut-health protocols"
+    },
+    {
+      "practitioner_id": "person:yvo-sijpkens",
+      "canonical_name": "Yvo Sijpkens",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Leiden"
+    },
+    {
+      "practitioner_id": "person:zoe-harcombe",
+      "canonical_name": "Zoë Harcombe",
+      "marker_affinity": [
+        "apob",
+        "lpa",
+        "tg-hdl-ratio",
+        "hdl-cholesterol",
+        "ldl-cholesterol",
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Independent"
+    },
+    {
+      "practitioner_id": "person:zoltan-rakonczay-jr",
+      "canonical_name": "Zoltán Rakonczay Jr.",
+      "marker_affinity": [],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "University of Pécs"
+    },
+    {
+      "practitioner_id": "person:zoltan-szabo",
+      "canonical_name": "Zoltán Szabó",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin",
+        "homa-ir",
+        "tg-hdl-ratio"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Budapest"
+    },
+    {
+      "practitioner_id": "researchgroup:csiro",
+      "canonical_name": "CSIRO",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "paradigm_affinity": [
+        "RC",
+        "MO"
+      ],
+      "key_contribution": "government-funded low-carb trials"
+    },
+    {
+      "practitioner_id": "researchgroup:semmelweis-metabolic-research-sources",
+      "canonical_name": "Semmelweis metabolic research sources",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "paradigm_affinity": [
+        "SM",
+        "RC"
+      ],
+      "key_contribution": "population studies and insulin-resistance context"
+    },
+    {
+      "practitioner_id": "researchgroup:university-of-debrecen-metabolic-research-sources",
+      "canonical_name": "University of Debrecen metabolic research sources",
+      "marker_affinity": [
+        "hba1c",
+        "fasting-insulin"
+      ],
+      "paradigm_affinity": [
+        "SM",
+        "RC"
+      ],
+      "key_contribution": "NAFLD and metabolic-syndrome research"
+    }
+  ]
+}

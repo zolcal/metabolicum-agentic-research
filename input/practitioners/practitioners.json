@@ -1,0 +1,2722 @@
+{
+  "schema_version": "2026-05-29",
+  "generated_at": "2026-05-29T15:57:13.451067+00:00",
+  "canonical_source": true,
+  "source_inputs": [
+    "/media/zoltan/4TSSD/metabolicum-agentic-research/input/practitioner_registry.json",
+    "/media/zoltan/4TSSD/metabolicum-agentic-research/input/practitioner_aliases.json"
+  ],
+  "description": "Canonical practitioner identity, aliases, credentials, region, tier, grade, and COI.",
+  "practitioners": [
+    {
+      "id": "company:defeat-diabetes",
+      "canonical_name": "Defeat Diabetes",
+      "aliases": [
+        "Defeat Diabetes"
+      ],
+      "entity_type": "company",
+      "country": "Australia",
+      "region": "Australia",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "A",
+      "source_grade": "C1",
+      "commercial_interests": [
+        {
+          "domain": "digital_health",
+          "product_or_service": "low-carb diabetes program",
+          "related_markers": [
+            "hba1c",
+            "fasting-insulin"
+          ],
+          "disclosure_quality": "transparent",
+          "severity": "marker_specific"
+        }
+      ]
+    },
+    {
+      "id": "company:levels-health",
+      "canonical_name": "Levels Health",
+      "aliases": [
+        "Levels Health"
+      ],
+      "entity_type": "company",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "C1",
+      "commercial_interests": [
+        {
+          "domain": "digital_health",
+          "product_or_service": "CGM metabolic health platform",
+          "related_markers": [
+            "hba1c",
+            "fasting-insulin"
+          ],
+          "disclosure_quality": "transparent",
+          "severity": "marker_specific"
+        }
+      ]
+    },
+    {
+      "id": "company:low-carb-program",
+      "canonical_name": "Low Carb Program",
+      "aliases": [
+        "Low Carb Program"
+      ],
+      "entity_type": "company",
+      "country": "United Kingdom",
+      "region": "United Kingdom",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "C1",
+      "commercial_interests": [
+        {
+          "domain": "digital_health",
+          "product_or_service": "digital T2DM program",
+          "related_markers": [
+            "hba1c",
+            "fasting-insulin"
+          ],
+          "disclosure_quality": "transparent",
+          "severity": "marker_specific"
+        }
+      ]
+    },
+    {
+      "id": "company:virta-health",
+      "canonical_name": "Virta Health",
+      "aliases": [
+        "Virta Health"
+      ],
+      "entity_type": "company",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "A",
+      "source_grade": "B1",
+      "commercial_interests": [
+        {
+          "domain": "digital_health",
+          "product_or_service": "T2DM reversal care platform",
+          "related_markers": [
+            "hba1c",
+            "fasting-insulin"
+          ],
+          "disclosure_quality": "transparent",
+          "severity": "marker_specific"
+        }
+      ]
+    },
+    {
+      "id": "conference:metabolic-health-summit",
+      "canonical_name": "Metabolic Health Summit",
+      "aliases": [
+        "Metabolic Health Summit"
+      ],
+      "entity_type": "conference",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "C1",
+      "commercial_interests": []
+    },
+    {
+      "id": "media:diet-doctor",
+      "canonical_name": "Diet Doctor",
+      "aliases": [
+        "Diet Doctor"
+      ],
+      "entity_type": "media_platform",
+      "country": "Sweden",
+      "region": "Sweden",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "C1",
+      "commercial_interests": [
+        {
+          "domain": "courses",
+          "product_or_service": "low-carb membership and education",
+          "related_markers": [
+            "hba1c",
+            "fasting-insulin"
+          ],
+          "disclosure_quality": "transparent",
+          "severity": "generic"
+        }
+      ]
+    },
+    {
+      "id": "media:metodichu-bengedi-robi",
+      "canonical_name": "Metodic.hu / Bengedi Robi",
+      "aliases": [
+        "Bengedi Robi",
+        "Metodic.hu",
+        "Metodic.hu / Bengedi Robi"
+      ],
+      "entity_type": "media_platform",
+      "country": "Hungary",
+      "region": "Hungary",
+      "languages": [
+        "hu"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "C1",
+      "commercial_interests": []
+    },
+    {
+      "id": "network:hungarian-diabetes-association",
+      "canonical_name": "Hungarian Diabetes Association",
+      "aliases": [
+        "Hungarian Diabetes Association"
+      ],
+      "entity_type": "professional_network",
+      "country": "Hungary",
+      "region": "Hungary",
+      "languages": [
+        "hu"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "A1",
+      "commercial_interests": []
+    },
+    {
+      "id": "network:hungarian-low-carb-clinician-network",
+      "canonical_name": "Hungarian low-carb clinician network",
+      "aliases": [
+        "Hungarian low-carb clinician network"
+      ],
+      "entity_type": "professional_network",
+      "country": "Hungary",
+      "region": "Hungary",
+      "languages": [
+        "hu"
+      ],
+      "credentials": null,
+      "source_tier": "C",
+      "source_grade": "E2",
+      "commercial_interests": []
+    },
+    {
+      "id": "network:public-health-collaboration",
+      "canonical_name": "Public Health Collaboration",
+      "aliases": [
+        "Public Health Collaboration"
+      ],
+      "entity_type": "professional_network",
+      "country": "United Kingdom",
+      "region": "United Kingdom",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "C1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:allan-sniderman",
+      "canonical_name": "Allan Sniderman",
+      "aliases": [
+        "Allan Sniderman"
+      ],
+      "entity_type": "person",
+      "country": "Canada",
+      "region": "Canada",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "A",
+      "source_grade": "B1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:amy-myers",
+      "canonical_name": "Amy Myers",
+      "aliases": [
+        "Amy Myers",
+        "D. Myers",
+        "Dr Amy Myers",
+        "Dr Myers",
+        "Myers",
+        "drmyers"
+      ],
+      "entity_type": "person",
+      "country": "UNITED STATES",
+      "region": "UNITED STATES",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "D1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:andras-toth",
+      "canonical_name": "András Tóth",
+      "aliases": [
+        "András Tóth",
+        "D. Tóth",
+        "Dr András Tóth",
+        "Dr Tóth",
+        "Tóth",
+        "drtóth"
+      ],
+      "entity_type": "person",
+      "country": "HUNGARY (Special Focus)",
+      "region": "HUNGARY (Special Focus)",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "D1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:andreas-eenfeldt",
+      "canonical_name": "Andreas Eenfeldt",
+      "aliases": [
+        "Andreas Eenfeldt"
+      ],
+      "entity_type": "person",
+      "country": "Sweden",
+      "region": "Sweden",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "C1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:andreas-pfeiffer",
+      "canonical_name": "Andreas Pfeiffer",
+      "aliases": [
+        "Andreas Pfeiffer",
+        "P. Pfeiffer",
+        "Pfeiffer",
+        "Prof Andreas Pfeiffer",
+        "Prof Pfeiffer",
+        "drpfeiffer",
+        "drprofpfeiffer"
+      ],
+      "entity_type": "person",
+      "country": "EUROPEAN UNION (Major Languages)",
+      "region": "EUROPEAN UNION (Major Languages)",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "A",
+      "source_grade": "B1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:andrew-huberman",
+      "canonical_name": "Andrew Huberman",
+      "aliases": [
+        "Andrew Huberman",
+        "D. Huberman",
+        "Dr Andrew Huberman",
+        "Dr Huberman",
+        "Huberman",
+        "drhuberman"
+      ],
+      "entity_type": "person",
+      "country": "UNITED STATES",
+      "region": "UNITED STATES",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "D1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:andrew-koutnik",
+      "canonical_name": "Andrew Koutnik",
+      "aliases": [
+        "Andrew Koutnik",
+        "D. Koutnik",
+        "Dr Andrew Koutnik",
+        "Dr Koutnik",
+        "Koutnik",
+        "drkoutnik"
+      ],
+      "entity_type": "person",
+      "country": "AUSTRALIA",
+      "region": "AUSTRALIA",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "D2",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:anna-k-feher",
+      "canonical_name": "Anna K. Fehér",
+      "aliases": [
+        "Anna K. Fehér",
+        "Dr Anna K Fehér",
+        "Dr Fehér",
+        "Fehér",
+        "drfehér"
+      ],
+      "entity_type": "person",
+      "country": "HUNGARY (Special Focus)",
+      "region": "HUNGARY (Special Focus)",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "C1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:anna-m-szilagyi",
+      "canonical_name": "Anna M. Szilágyi",
+      "aliases": [
+        "Anna M. Szilágyi",
+        "Dr Anna M Szilágyi",
+        "Dr Szilágyi",
+        "Szilágyi",
+        "drszilágyi"
+      ],
+      "entity_type": "person",
+      "country": "HUNGARY (Special Focus)",
+      "region": "HUNGARY (Special Focus)",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "E2",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:anne-fleck",
+      "canonical_name": "Anne Fleck",
+      "aliases": [
+        "Anne Fleck",
+        "D. Fleck",
+        "Dr Anne Fleck",
+        "Dr Fleck",
+        "Fleck",
+        "drfleck"
+      ],
+      "entity_type": "person",
+      "country": "EUROPEAN UNION (Major Languages)",
+      "region": "EUROPEAN UNION (Major Languages)",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "D1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:anssi-h-manninen",
+      "canonical_name": "Anssi H. Manninen",
+      "aliases": [
+        "Anssi H. Manninen",
+        "Dr Anssi H Manninen",
+        "Dr Manninen",
+        "Manninen",
+        "drmanninen"
+      ],
+      "entity_type": "person",
+      "country": "EUROPEAN UNION (Major Languages)",
+      "region": "EUROPEAN UNION (Major Languages)",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "D1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:anthony-chaffee",
+      "canonical_name": "Anthony Chaffee",
+      "aliases": [
+        "Anthony Chaffee",
+        "Anthony Chaffee MD",
+        "Dr Anthony Chaffee",
+        "Dr. Anthony Chaffee",
+        "Plant Free MD"
+      ],
+      "entity_type": "person",
+      "country": "Australia",
+      "region": "Australia / United States",
+      "languages": [
+        "en"
+      ],
+      "credentials": "MD",
+      "source_tier": "B",
+      "source_grade": "E2",
+      "commercial_interests": [
+        {
+          "domain": "other",
+          "product_or_service": "Stone and Spear tallow skincare affiliate promotion",
+          "related_markers": [],
+          "disclosure_quality": "transparent",
+          "severity": "generic"
+        },
+        {
+          "domain": "courses",
+          "product_or_service": "Dr. Chaffee 90 Day Carnivore Challenge",
+          "related_markers": [
+            "hba1c",
+            "fasting-insulin",
+            "tg-hdl-ratio"
+          ],
+          "disclosure_quality": "transparent",
+          "severity": "marker_specific"
+        },
+        {
+          "domain": "food_products",
+          "product_or_service": "Carnivore Bar affiliate promotion",
+          "related_markers": [],
+          "disclosure_quality": "transparent",
+          "severity": "generic"
+        },
+        {
+          "domain": "devices",
+          "product_or_service": "X3 Bar affiliate promotion",
+          "related_markers": [],
+          "disclosure_quality": "transparent",
+          "severity": "generic"
+        },
+        {
+          "domain": "other",
+          "product_or_service": "Amazon affiliate storefront and Patreon membership",
+          "related_markers": [],
+          "disclosure_quality": "transparent",
+          "severity": "generic"
+        }
+      ]
+    },
+    {
+      "id": "person:antonio-m-gotto-jr",
+      "canonical_name": "Antonio M. Gotto Jr.",
+      "aliases": [
+        "Antonio M. Gotto Jr.",
+        "Prof Antonio M Gotto Jr",
+        "Prof Jr",
+        "drjr",
+        "drprofjr"
+      ],
+      "entity_type": "person",
+      "country": "EUROPEAN UNION (Major Languages)",
+      "region": "EUROPEAN UNION (Major Languages)",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "A",
+      "source_grade": "A1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:aseem-malhotra",
+      "canonical_name": "Aseem Malhotra",
+      "aliases": [
+        "Aseem Malhotra",
+        "D. Malhotra",
+        "Dr Aseem Malhotra",
+        "Dr Malhotra",
+        "Malhotra",
+        "drmalhotra"
+      ],
+      "entity_type": "person",
+      "country": "UNITED KINGDOM",
+      "region": "UNITED KINGDOM",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "A",
+      "source_grade": "B2",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:barbra-allen-bradshaw",
+      "canonical_name": "Barbra Allen Bradshaw",
+      "aliases": [
+        "Barbra Allen Bradshaw",
+        "Bradshaw",
+        "Dr Barbra Allen Bradshaw",
+        "Dr Bradshaw",
+        "drbradshaw"
+      ],
+      "entity_type": "person",
+      "country": "CANADA",
+      "region": "CANADA",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "E2",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:bence-t-karoly",
+      "canonical_name": "Bence T. Károly",
+      "aliases": [
+        "Bence T. Károly",
+        "Dr Bence T Károly",
+        "Dr Károly",
+        "Károly",
+        "drkároly"
+      ],
+      "entity_type": "person",
+      "country": "HUNGARY (Special Focus)",
+      "region": "HUNGARY (Special Focus)",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "E2",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:benjamin-bikman",
+      "canonical_name": "Benjamin Bikman",
+      "aliases": [
+        "Benjamin Bikman"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "A",
+      "source_grade": "B2",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:bret-scher",
+      "canonical_name": "Bret Scher",
+      "aliases": [
+        "Bret Scher",
+        "D. Scher",
+        "Dr Bret Scher",
+        "Dr Scher",
+        "Scher",
+        "drscher"
+      ],
+      "entity_type": "person",
+      "country": "UNITED STATES",
+      "region": "UNITED STATES",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "D1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:brian-lamkin",
+      "canonical_name": "Brian Lamkin",
+      "aliases": [
+        "Brian Lamkin"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "E2",
+      "commercial_interests": [
+        {
+          "domain": "clinic_services",
+          "product_or_service": "functional medicine HOMA-IR interpretation",
+          "related_markers": [
+            "fasting-insulin",
+            "homa-ir"
+          ],
+          "disclosure_quality": "unknown",
+          "severity": "marker_specific"
+        }
+      ]
+    },
+    {
+      "id": "person:caryn-zinn",
+      "canonical_name": "Caryn Zinn",
+      "aliases": [
+        "Caryn Zinn",
+        "D. Zinn",
+        "Dr Caryn Zinn",
+        "Dr Zinn",
+        "Zinn",
+        "drzinn"
+      ],
+      "entity_type": "person",
+      "country": "AUSTRALIA",
+      "region": "AUSTRALIA",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "C2",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:casey-means",
+      "canonical_name": "Casey Means",
+      "aliases": [
+        "Casey Means",
+        "D. Means",
+        "Dr Casey Means",
+        "Dr Means",
+        "Means",
+        "drmeans"
+      ],
+      "entity_type": "person",
+      "country": "UNITED STATES",
+      "region": "UNITED STATES",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "C1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:chris-palmer",
+      "canonical_name": "Chris Palmer",
+      "aliases": [
+        "Chris Palmer",
+        "D. Palmer",
+        "Dr Chris Palmer",
+        "Dr Palmer",
+        "Palmer",
+        "drpalmer"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "C1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:christophe-g-lagasse",
+      "canonical_name": "Christophe G. Lagasse",
+      "aliases": [
+        "Christophe G. Lagasse",
+        "Dr Christophe G Lagasse",
+        "Dr Lagasse",
+        "Lagasse",
+        "drlagasse"
+      ],
+      "entity_type": "person",
+      "country": "EUROPEAN UNION (Major Languages)",
+      "region": "EUROPEAN UNION (Major Languages)",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "D1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:dale-bredesen",
+      "canonical_name": "Dale Bredesen",
+      "aliases": [
+        "Bredesen",
+        "D. Bredesen",
+        "Dale Bredesen",
+        "Dr Bredesen",
+        "Dr Dale Bredesen",
+        "drbredesen"
+      ],
+      "entity_type": "person",
+      "country": "UNITED STATES",
+      "region": "UNITED STATES",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "C1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:dave-feldman",
+      "canonical_name": "Dave Feldman",
+      "aliases": [
+        "Dave Feldman",
+        "Feldman",
+        "drdavefeldman",
+        "drfeldman"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "D1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:david-harper",
+      "canonical_name": "David Harper",
+      "aliases": [
+        "David Harper"
+      ],
+      "entity_type": "person",
+      "country": "Canada",
+      "region": "Canada",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "D2",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:david-ludwig",
+      "canonical_name": "David Ludwig",
+      "aliases": [
+        "David Ludwig"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "A",
+      "source_grade": "B2",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:david-perlmutter",
+      "canonical_name": "David Perlmutter",
+      "aliases": [
+        "D. Perlmutter",
+        "David Perlmutter",
+        "Dr David Perlmutter",
+        "Dr Perlmutter",
+        "Perlmutter",
+        "drperlmutter"
+      ],
+      "entity_type": "person",
+      "country": "UNITED STATES",
+      "region": "UNITED STATES",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "C2",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:david-raubenheimer",
+      "canonical_name": "David Raubenheimer",
+      "aliases": [
+        "David Raubenheimer",
+        "P. Raubenheimer",
+        "Prof David Raubenheimer",
+        "Prof Raubenheimer",
+        "Raubenheimer",
+        "drprofraubenheimer",
+        "drraubenheimer"
+      ],
+      "entity_type": "person",
+      "country": "AUSTRALIA",
+      "region": "AUSTRALIA",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "A",
+      "source_grade": "B2",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:david-unwin",
+      "canonical_name": "David Unwin",
+      "aliases": [
+        "David Unwin"
+      ],
+      "entity_type": "person",
+      "country": "United Kingdom",
+      "region": "United Kingdom",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "A",
+      "source_grade": "C1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:dominic-dagostino",
+      "canonical_name": "Dominic D'Agostino",
+      "aliases": [
+        "Dominic D'Agostino"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "A",
+      "source_grade": "B1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:emanuele-f-m-di-angelantonio",
+      "canonical_name": "Emanuele F. M. Di Angelantonio",
+      "aliases": [
+        "Angelantonio",
+        "Dr Angelantonio",
+        "Dr Emanuele F M Di Angelantonio",
+        "Emanuele F. M. Di Angelantonio",
+        "drangelantonio"
+      ],
+      "entity_type": "person",
+      "country": "EUROPEAN UNION (Major Languages)",
+      "region": "EUROPEAN UNION (Major Languages)",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "D1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:eric-sijbrands",
+      "canonical_name": "Eric Sijbrands",
+      "aliases": [
+        "Eric Sijbrands",
+        "P. Sijbrands",
+        "Prof Eric Sijbrands",
+        "Prof Sijbrands",
+        "Sijbrands",
+        "drprofsijbrands",
+        "drsijbrands"
+      ],
+      "entity_type": "person",
+      "country": "EUROPEAN UNION (Major Languages)",
+      "region": "EUROPEAN UNION (Major Languages)",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "A",
+      "source_grade": "A1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:evelyne-bourdua-roy",
+      "canonical_name": "Evelyne Bourdua-Roy",
+      "aliases": [
+        "Evelyne Bourdua-Roy",
+        "Èvelyne Bourdua-Roy"
+      ],
+      "entity_type": "person",
+      "country": "Canada",
+      "region": "Canada",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "D1-E2",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:francisco-martinez",
+      "canonical_name": "Francisco Martinez",
+      "aliases": [
+        "D. Martinez",
+        "Dr Francisco Martinez",
+        "Dr Martinez",
+        "Francisco Martinez",
+        "Martinez",
+        "drmartinez"
+      ],
+      "entity_type": "person",
+      "country": "EUROPEAN UNION (Major Languages)",
+      "region": "EUROPEAN UNION (Major Languages)",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "D1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:fredrik-nystrom",
+      "canonical_name": "Fredrik Nyström",
+      "aliases": [
+        "Fredrik Nyström",
+        "Nyström",
+        "P. Nyström",
+        "Prof Fredrik Nyström",
+        "Prof Nyström",
+        "drnyström",
+        "drprofnyström"
+      ],
+      "entity_type": "person",
+      "country": "EUROPEAN UNION (Major Languages)",
+      "region": "EUROPEAN UNION (Major Languages)",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "A",
+      "source_grade": "B2",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:georgia-ede",
+      "canonical_name": "Georgia Ede",
+      "aliases": [
+        "D. Ede",
+        "Dr Ede",
+        "Dr Georgia Ede",
+        "Ede",
+        "Georgia Ede",
+        "drede"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "D1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:gerry-krystal",
+      "canonical_name": "Gerry Krystal",
+      "aliases": [
+        "D. Krystal",
+        "Dr Gerry Krystal",
+        "Dr Krystal",
+        "Gerry Krystal",
+        "Krystal",
+        "drkrystal"
+      ],
+      "entity_type": "person",
+      "country": "CANADA",
+      "region": "CANADA",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "D2",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:grant-brinkworth",
+      "canonical_name": "Grant Brinkworth",
+      "aliases": [
+        "Brinkworth",
+        "Grant Brinkworth",
+        "P. Brinkworth",
+        "Prof Brinkworth",
+        "Prof Grant Brinkworth",
+        "drbrinkworth",
+        "drprofbrinkworth"
+      ],
+      "entity_type": "person",
+      "country": "AUSTRALIA",
+      "region": "AUSTRALIA",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "A",
+      "source_grade": "B1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:hanno-pijl",
+      "canonical_name": "Hanno Pijl",
+      "aliases": [
+        "Hanno Pijl",
+        "P. Pijl",
+        "Pijl",
+        "Prof Hanno Pijl",
+        "Prof Pijl",
+        "drpijl",
+        "drprofpijl"
+      ],
+      "entity_type": "person",
+      "country": "EUROPEAN UNION (Major Languages)",
+      "region": "EUROPEAN UNION (Major Languages)",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "A",
+      "source_grade": "B2",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:istvan-takacs",
+      "canonical_name": "István Takács",
+      "aliases": [
+        "István Takács",
+        "P. Takács",
+        "Prof István Takács",
+        "Prof Takács",
+        "Takács",
+        "drproftakács",
+        "drtakács"
+      ],
+      "entity_type": "person",
+      "country": "HUNGARY (Special Focus)",
+      "region": "HUNGARY (Special Focus)",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "A",
+      "source_grade": "B2",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:jaakko-halonen",
+      "canonical_name": "Jaakko Halonen",
+      "aliases": [
+        "D. Halonen",
+        "Dr Halonen",
+        "Dr Jaakko Halonen",
+        "Halonen",
+        "Jaakko Halonen",
+        "drhalonen"
+      ],
+      "entity_type": "person",
+      "country": "EUROPEAN UNION (Major Languages)",
+      "region": "EUROPEAN UNION (Major Languages)",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "D1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:jacques-lucas",
+      "canonical_name": "Jacques Lucas",
+      "aliases": [
+        "D. Lucas",
+        "Dr Jacques Lucas",
+        "Dr Lucas",
+        "Jacques Lucas",
+        "Lucas",
+        "drlucas"
+      ],
+      "entity_type": "person",
+      "country": "EUROPEAN UNION (Major Languages)",
+      "region": "EUROPEAN UNION (Major Languages)",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "D1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:james-muecke",
+      "canonical_name": "James Muecke",
+      "aliases": [
+        "D. Muecke",
+        "Dr James Muecke",
+        "Dr Muecke",
+        "James Muecke",
+        "Muecke",
+        "drmuecke"
+      ],
+      "entity_type": "person",
+      "country": "AUSTRALIA",
+      "region": "AUSTRALIA",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "C1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:jason-fung",
+      "canonical_name": "Jason Fung",
+      "aliases": [
+        "Jason Fung"
+      ],
+      "entity_type": "person",
+      "country": "Canada",
+      "region": "Canada",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "A",
+      "source_grade": "C1-D1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:javier-gonzalez-gallego",
+      "canonical_name": "Javier González-Gallego",
+      "aliases": [
+        "D. González-Gallego",
+        "Dr González-Gallego",
+        "Dr Javier González-Gallego",
+        "González-Gallego",
+        "Javier González-Gallego",
+        "drgonzález-gallego"
+      ],
+      "entity_type": "person",
+      "country": "EUROPEAN UNION (Major Languages)",
+      "region": "EUROPEAN UNION (Major Languages)",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "D1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:jay-wortman",
+      "canonical_name": "Jay Wortman",
+      "aliases": [
+        "D. Wortman",
+        "Dr Jay Wortman",
+        "Dr Wortman",
+        "Jay Wortman",
+        "Wortman",
+        "drwortman"
+      ],
+      "entity_type": "person",
+      "country": "CANADA",
+      "region": "CANADA",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "C1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:jean-michel-lecerf",
+      "canonical_name": "Jean-Michel Lecerf",
+      "aliases": [
+        "Jean-Michel Lecerf",
+        "Lecerf",
+        "P. Lecerf",
+        "Prof Jean-Michel Lecerf",
+        "Prof Lecerf",
+        "drlecerf",
+        "drproflecerf"
+      ],
+      "entity_type": "person",
+      "country": "EUROPEAN UNION (Major Languages)",
+      "region": "EUROPEAN UNION (Major Languages)",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "A",
+      "source_grade": "A1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:jeff-volek",
+      "canonical_name": "Jeff Volek",
+      "aliases": [
+        "Jeff Volek"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "A",
+      "source_grade": "B1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:jonathan-little",
+      "canonical_name": "Jonathan Little",
+      "aliases": [
+        "Jonathan Little"
+      ],
+      "entity_type": "person",
+      "country": "Canada",
+      "region": "Canada",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "B2",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:jorn-klasen",
+      "canonical_name": "Jörn Klasen",
+      "aliases": [
+        "D. Klasen",
+        "Dr Jörn Klasen",
+        "Dr Klasen",
+        "Jörn Klasen",
+        "Klasen",
+        "drklasen"
+      ],
+      "entity_type": "person",
+      "country": "EUROPEAN UNION (Major Languages)",
+      "region": "EUROPEAN UNION (Major Languages)",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "E2",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:jose-l-g-luna",
+      "canonical_name": "José L. G. Luna",
+      "aliases": [
+        "José L. G. Luna",
+        "Luna",
+        "Prof José L G Luna",
+        "Prof Luna",
+        "drluna",
+        "drprofluna"
+      ],
+      "entity_type": "person",
+      "country": "EUROPEAN UNION (Major Languages)",
+      "region": "EUROPEAN UNION (Major Languages)",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "D1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:joseph-kraft",
+      "canonical_name": "Joseph Kraft",
+      "aliases": [
+        "Joseph Kraft"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "A",
+      "source_grade": "D2",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:joseph-mercola",
+      "canonical_name": "Joseph Mercola",
+      "aliases": [
+        "Dr. Mercola",
+        "Joseph Mercola"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "C1-D1",
+      "commercial_interests": [
+        {
+          "domain": "supplements",
+          "product_or_service": "Mercola supplement and health product line",
+          "related_markers": [
+            "vitamin-d",
+            "lpa"
+          ],
+          "disclosure_quality": "partial",
+          "severity": "marker_specific"
+        }
+      ]
+    },
+    {
+      "id": "person:judy-cho",
+      "canonical_name": "Judy Cho",
+      "aliases": [
+        "Cho",
+        "Judy Cho",
+        "drcho",
+        "drjudycho"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "D1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:katalin-v-kovacs",
+      "canonical_name": "Katalin V. Kovács",
+      "aliases": [
+        "Dr Katalin V Kovács",
+        "Dr Kovács",
+        "Katalin V. Kovács",
+        "Kovács",
+        "drkovács"
+      ],
+      "entity_type": "person",
+      "country": "HUNGARY (Special Focus)",
+      "region": "HUNGARY (Special Focus)",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "D1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:kees-k-j-van-den-heuvel",
+      "canonical_name": "Kees K. J. van den Heuvel",
+      "aliases": [
+        "Dr Heuvel",
+        "Dr Kees K J van den Heuvel",
+        "Heuvel",
+        "Kees K. J. van den Heuvel",
+        "drheuvel"
+      ],
+      "entity_type": "person",
+      "country": "EUROPEAN UNION (Major Languages)",
+      "region": "EUROPEAN UNION (Major Languages)",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "D1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:ken-berry",
+      "canonical_name": "Ken Berry",
+      "aliases": [
+        "Berry",
+        "D. Berry",
+        "Dr Berry",
+        "Dr Ken Berry",
+        "Ken Berry",
+        "drberry"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "D1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:keto-connect",
+      "canonical_name": "Keto Connect",
+      "aliases": [
+        "Connect",
+        "Keto Connect",
+        "drconnect",
+        "drketoconnect"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "ungraded",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:keto-savage",
+      "canonical_name": "Keto Savage",
+      "aliases": [
+        "Keto Savage",
+        "Savage",
+        "drketosavage",
+        "drsavage"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "ungraded",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:koenraad-k-j-van-den-heuvel",
+      "canonical_name": "Koenraad K. J. van den Heuvel",
+      "aliases": [
+        "Dr Heuvel",
+        "Dr Koenraad K J van den Heuvel",
+        "Heuvel",
+        "Koenraad K. J. van den Heuvel",
+        "drheuvel"
+      ],
+      "entity_type": "person",
+      "country": "EUROPEAN UNION (Major Languages)",
+      "region": "EUROPEAN UNION (Major Languages)",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "D1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:kyle-gillett",
+      "canonical_name": "Kyle Gillett",
+      "aliases": [
+        "D. Gillett",
+        "Dr Gillett",
+        "Dr Kyle Gillett",
+        "Gillett",
+        "Kyle Gillett",
+        "drgillett"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "D1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:laurent-chevallier",
+      "canonical_name": "Laurent Chevallier",
+      "aliases": [
+        "Chevallier",
+        "D. Chevallier",
+        "Dr Chevallier",
+        "Dr Laurent Chevallier",
+        "Laurent Chevallier",
+        "drchevallier"
+      ],
+      "entity_type": "person",
+      "country": "EUROPEAN UNION (Major Languages)",
+      "region": "EUROPEAN UNION (Major Languages)",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "D1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:lily-nichols",
+      "canonical_name": "Lily Nichols",
+      "aliases": [
+        "Lily Nichols",
+        "Nichols",
+        "drlilynichols",
+        "drnichols"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "D1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:low-carb-down-under",
+      "canonical_name": "Low Carb Down Under",
+      "aliases": [
+        "Low Carb Down Under",
+        "Low Under",
+        "Under",
+        "drlowunder",
+        "drunder"
+      ],
+      "entity_type": "person",
+      "country": "Australia",
+      "region": "Australia",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "ungraded",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:manny-noakes",
+      "canonical_name": "Manny Noakes",
+      "aliases": [
+        "Manny Noakes",
+        "Noakes",
+        "P. Noakes",
+        "Prof Manny Noakes",
+        "Prof Noakes",
+        "drnoakes",
+        "drprofnoakes"
+      ],
+      "entity_type": "person",
+      "country": "AUSTRALIA",
+      "region": "AUSTRALIA",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "A",
+      "source_grade": "B2",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:margaret-ashwell",
+      "canonical_name": "Margaret Ashwell",
+      "aliases": [
+        "Margaret Ashwell"
+      ],
+      "entity_type": "person",
+      "country": "United Kingdom",
+      "region": "United Kingdom",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "A",
+      "source_grade": "B2",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:mark-hyman",
+      "canonical_name": "Mark Hyman",
+      "aliases": [
+        "D. Hyman",
+        "Dr Hyman",
+        "Dr Mark Hyman",
+        "Dr. Hyman",
+        "Mark Hyman",
+        "drhyman"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "A",
+      "source_grade": "B2-C1",
+      "commercial_interests": [
+        {
+          "domain": "supplements",
+          "product_or_service": "Functional Medicine supplement line",
+          "related_markers": [
+            "vitamin-d",
+            "hba1c"
+          ],
+          "disclosure_quality": "transparent",
+          "severity": "marker_specific"
+        }
+      ]
+    },
+    {
+      "id": "person:maximilian-schiele",
+      "canonical_name": "Maximilian Schiele",
+      "aliases": [
+        "D. Schiele",
+        "Dr Maximilian Schiele",
+        "Dr Schiele",
+        "Maximilian Schiele",
+        "Schiele",
+        "drschiele"
+      ],
+      "entity_type": "person",
+      "country": "EUROPEAN UNION (Major Languages)",
+      "region": "EUROPEAN UNION (Major Languages)",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "D1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:megan-ramos",
+      "canonical_name": "Megan Ramos",
+      "aliases": [
+        "Megan Ramos"
+      ],
+      "entity_type": "person",
+      "country": "Canada",
+      "region": "Canada",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "C1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:michael-holick",
+      "canonical_name": "Michael Holick",
+      "aliases": [
+        "Michael Holick"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "B2",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:michael-mosley",
+      "canonical_name": "Michael Mosley",
+      "aliases": [
+        "D. Mosley",
+        "Dr Michael Mosley",
+        "Dr Mosley",
+        "Michael Mosley",
+        "Mosley",
+        "drmosley"
+      ],
+      "entity_type": "person",
+      "country": "UNITED KINGDOM",
+      "region": "UNITED KINGDOM",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "C1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:michel-de-lorgeril",
+      "canonical_name": "Michel de Lorgeril",
+      "aliases": [
+        "Lorgeril",
+        "Michel de Lorgeril",
+        "Prof Lorgeril",
+        "Prof Michel de Lorgeril",
+        "drlorgeril",
+        "drproflorgeril"
+      ],
+      "entity_type": "person",
+      "country": "EUROPEAN UNION (Major Languages)",
+      "region": "EUROPEAN UNION (Major Languages)",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "A",
+      "source_grade": "B2",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:miklos-szathmary",
+      "canonical_name": "Miklós Szathmáry",
+      "aliases": [
+        "Miklós Szathmáry",
+        "P. Szathmáry",
+        "Prof Miklós Szathmáry",
+        "Prof Szathmáry",
+        "Szathmáry",
+        "drprofszathmáry",
+        "drszathmáry"
+      ],
+      "entity_type": "person",
+      "country": "HUNGARY (Special Focus)",
+      "region": "HUNGARY (Special Focus)",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "A",
+      "source_grade": "B2",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:mind-matter-podcast",
+      "canonical_name": "Mind & Matter Podcast",
+      "aliases": [
+        "Mind & Matter Podcast",
+        "Mind Podcast",
+        "Podcast",
+        "drmindpodcast",
+        "drpodcast"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "ungraded",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:nick-norwitz",
+      "canonical_name": "Nick Norwitz",
+      "aliases": [
+        "Nick Norwitz"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "B2-C1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:nicolai-worm",
+      "canonical_name": "Nicolai Worm",
+      "aliases": [
+        "D. Worm",
+        "Dr Nicolai Worm",
+        "Dr Worm",
+        "Nicolai Worm",
+        "Worm",
+        "drworm"
+      ],
+      "entity_type": "person",
+      "country": "EUROPEAN UNION (Major Languages)",
+      "region": "EUROPEAN UNION (Major Languages)",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "D1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:nutrition-with-judy",
+      "canonical_name": "Nutrition with Judy",
+      "aliases": [
+        "Judy",
+        "N. Judy",
+        "Nutrition Judy",
+        "Nutrition with Judy",
+        "drjudy",
+        "drnutritionjudy"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "ungraded",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:orsolya-t-feher",
+      "canonical_name": "Orsolya T. Fehér",
+      "aliases": [
+        "Dr Fehér",
+        "Dr Orsolya T Fehér",
+        "Fehér",
+        "Orsolya T. Fehér",
+        "drfehér"
+      ],
+      "entity_type": "person",
+      "country": "HUNGARY (Special Focus)",
+      "region": "HUNGARY (Special Focus)",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "E2",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:paolo-raggi",
+      "canonical_name": "Paolo Raggi",
+      "aliases": [
+        "P. Raggi",
+        "Paolo Raggi",
+        "Prof Paolo Raggi",
+        "Prof Raggi",
+        "Raggi",
+        "drprofraggi",
+        "drraggi"
+      ],
+      "entity_type": "person",
+      "country": "EUROPEAN UNION (Major Languages)",
+      "region": "EUROPEAN UNION (Major Languages)",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "A",
+      "source_grade": "A1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:paul-mason",
+      "canonical_name": "Paul Mason",
+      "aliases": [
+        "Paul Mason"
+      ],
+      "entity_type": "person",
+      "country": "Australia",
+      "region": "Australia",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "A",
+      "source_grade": "D1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:paul-saladino",
+      "canonical_name": "Paul Saladino",
+      "aliases": [
+        "D. Saladino",
+        "Dr Paul Saladino",
+        "Dr Saladino",
+        "Paul Saladino",
+        "Saladino",
+        "drsaladino"
+      ],
+      "entity_type": "person",
+      "country": "UNITED STATES",
+      "region": "UNITED STATES",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "D1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:peter-attia",
+      "canonical_name": "Peter Attia",
+      "aliases": [
+        "Peter Attia"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "A",
+      "source_grade": "B1-C2",
+      "commercial_interests": [
+        {
+          "domain": "clinic_services",
+          "product_or_service": "Early Medical / Medicine 3.0 clinical practice",
+          "related_markers": [
+            "apob",
+            "lpa",
+            "fasting-insulin"
+          ],
+          "disclosure_quality": "transparent",
+          "severity": "marker_specific"
+        }
+      ]
+    },
+    {
+      "id": "person:peter-brukner",
+      "canonical_name": "Peter Brukner",
+      "aliases": [
+        "Peter Brukner"
+      ],
+      "entity_type": "person",
+      "country": "Australia",
+      "region": "Australia",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "A",
+      "source_grade": "B1-C1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:peter-jonsson",
+      "canonical_name": "Peter Jönsson",
+      "aliases": [
+        "Jönsson",
+        "P. Jönsson",
+        "Peter Jönsson",
+        "Prof Jönsson",
+        "Prof Peter Jönsson",
+        "drjönsson",
+        "drprofjönsson"
+      ],
+      "entity_type": "person",
+      "country": "EUROPEAN UNION (Major Languages)",
+      "region": "EUROPEAN UNION (Major Languages)",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "A",
+      "source_grade": "B2",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:physionic",
+      "canonical_name": "Physionic",
+      "aliases": [
+        "Physionic"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "ungraded",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:rafael-manquez",
+      "canonical_name": "Rafael Máñquez",
+      "aliases": [
+        "Máñquez",
+        "P. Máñquez",
+        "Prof Máñquez",
+        "Prof Rafael Máñquez",
+        "Rafael Máñquez",
+        "drmáñquez",
+        "drprofmáñquez"
+      ],
+      "entity_type": "person",
+      "country": "EUROPEAN UNION (Major Languages)",
+      "region": "EUROPEAN UNION (Major Languages)",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "A",
+      "source_grade": "B2",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:rangan-chatterjee",
+      "canonical_name": "Rangan Chatterjee",
+      "aliases": [
+        "Chatterjee",
+        "D. Chatterjee",
+        "Dr Chatterjee",
+        "Dr Rangan Chatterjee",
+        "Rangan Chatterjee",
+        "drchatterjee"
+      ],
+      "entity_type": "person",
+      "country": "UNITED KINGDOM",
+      "region": "UNITED KINGDOM",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "C1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:rhonda-patrick",
+      "canonical_name": "Rhonda Patrick",
+      "aliases": [
+        "D. Patrick",
+        "Dr Patrick",
+        "Dr Rhonda Patrick",
+        "Dr. Patrick",
+        "Rhonda Patrick",
+        "drpatrick"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "A",
+      "source_grade": "B1-B2",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:richard-maurer",
+      "canonical_name": "Richard Maurer",
+      "aliases": [
+        "Richard Maurer"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "E2",
+      "commercial_interests": [
+        {
+          "domain": "books",
+          "product_or_service": "HOMA-IR clinical interpretation material",
+          "related_markers": [
+            "fasting-insulin",
+            "homa-ir"
+          ],
+          "disclosure_quality": "partial",
+          "severity": "marker_specific"
+        }
+      ]
+    },
+    {
+      "id": "person:robert-lustig",
+      "canonical_name": "Robert Lustig",
+      "aliases": [
+        "Robert Lustig"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "A",
+      "source_grade": "B2",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:sara-gottfried",
+      "canonical_name": "Sara Gottfried",
+      "aliases": [
+        "D. Gottfried",
+        "Dr Gottfried",
+        "Dr Sara Gottfried",
+        "Gottfried",
+        "Sara Gottfried",
+        "drgottfried"
+      ],
+      "entity_type": "person",
+      "country": "UNITED STATES",
+      "region": "UNITED STATES",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "D1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:shawn-baker",
+      "canonical_name": "Shawn Baker",
+      "aliases": [
+        "Baker",
+        "D. Baker",
+        "Dr Baker",
+        "Dr Shawn Baker",
+        "Shawn Baker",
+        "drbaker"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "D1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:siim-land",
+      "canonical_name": "Siim Land",
+      "aliases": [
+        "Land",
+        "Siim Land",
+        "drland",
+        "drsiimland"
+      ],
+      "entity_type": "person",
+      "country": "Estonia",
+      "region": "Estonia",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "D1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:sten-ekberg",
+      "canonical_name": "Sten Ekberg",
+      "aliases": [
+        "D. Ekberg",
+        "Dr Ekberg",
+        "Dr Sten Ekberg",
+        "Ekberg",
+        "Sten Ekberg",
+        "drekberg"
+      ],
+      "entity_type": "person",
+      "country": "UNITED STATES",
+      "region": "UNITED STATES",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "D1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:stephan-bischoff",
+      "canonical_name": "Stephan Bischoff",
+      "aliases": [
+        "Bischoff",
+        "P. Bischoff",
+        "Prof Bischoff",
+        "Prof Stephan Bischoff",
+        "Stephan Bischoff",
+        "drbischoff",
+        "drprofbischoff"
+      ],
+      "entity_type": "person",
+      "country": "EUROPEAN UNION (Major Languages)",
+      "region": "EUROPEAN UNION (Major Languages)",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "A",
+      "source_grade": "B2",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:stephen-phinney",
+      "canonical_name": "Stephen Phinney",
+      "aliases": [
+        "Stephen Phinney"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "A",
+      "source_grade": "B1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:steven-gundry",
+      "canonical_name": "Steven Gundry",
+      "aliases": [
+        "Dr. Gundry",
+        "Steven Gundry"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "C1-C2",
+      "commercial_interests": [
+        {
+          "domain": "supplements",
+          "product_or_service": "Gundry MD supplement line and lectin-free foods",
+          "related_markers": [
+            "fasting-insulin",
+            "lpa"
+          ],
+          "disclosure_quality": "partial",
+          "severity": "marker_specific"
+        }
+      ]
+    },
+    {
+      "id": "person:ted-naiman",
+      "canonical_name": "Ted Naiman",
+      "aliases": [
+        "Ted Naiman"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "A",
+      "source_grade": "D1-E2",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:terry-wahls",
+      "canonical_name": "Terry Wahls",
+      "aliases": [
+        "D. Wahls",
+        "Dr Terry Wahls",
+        "Dr Wahls",
+        "Terry Wahls",
+        "Wahls",
+        "drwahls"
+      ],
+      "entity_type": "person",
+      "country": "UNITED STATES",
+      "region": "UNITED STATES",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "C1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:the-feldman-protocol",
+      "canonical_name": "The Feldman Protocol",
+      "aliases": [
+        "Protocol",
+        "T. Protocol",
+        "The Feldman Protocol",
+        "The Protocol",
+        "drprotocol",
+        "drtheprotocol"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "ungraded",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:the-primal-podcast",
+      "canonical_name": "The Primal Podcast",
+      "aliases": [
+        "Podcast",
+        "T. Podcast",
+        "The Podcast",
+        "The Primal Podcast",
+        "drpodcast",
+        "drthepodcast"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "ungraded",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:thomas-dayspring",
+      "canonical_name": "Thomas Dayspring",
+      "aliases": [
+        "DrLipid",
+        "Thomas Dayspring"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "A",
+      "source_grade": "B2-C1",
+      "commercial_interests": [
+        {
+          "domain": "lab_testing",
+          "product_or_service": "advanced lipid testing education and interpretation",
+          "related_markers": [
+            "apob",
+            "lpa"
+          ],
+          "disclosure_quality": "transparent",
+          "severity": "marker_specific"
+        }
+      ]
+    },
+    {
+      "id": "person:thomas-fordham-brewer",
+      "canonical_name": "Thomas Fordham Brewer",
+      "aliases": [
+        "Brewer",
+        "Dr Brewer",
+        "Dr Thomas Fordham Brewer",
+        "Thomas Fordham Brewer",
+        "drbrewer"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "D1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:thomas-seyfried",
+      "canonical_name": "Thomas Seyfried",
+      "aliases": [
+        "D. Seyfried",
+        "Dr Seyfried",
+        "Dr Thomas Seyfried",
+        "Seyfried",
+        "Thomas Seyfried",
+        "drseyfried"
+      ],
+      "entity_type": "person",
+      "country": "UNITED STATES",
+      "region": "UNITED STATES",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "D2",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:tim-noakes",
+      "canonical_name": "Tim Noakes",
+      "aliases": [
+        "Tim Noakes"
+      ],
+      "entity_type": "person",
+      "country": "South Africa",
+      "region": "South Africa / UK influence",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "A",
+      "source_grade": "B2",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:tomas-duraj",
+      "canonical_name": "Tomas Duraj",
+      "aliases": [
+        "D. Duraj",
+        "Dr Duraj",
+        "Dr Tomas Duraj",
+        "Duraj",
+        "Tomas Duraj",
+        "drduraj"
+      ],
+      "entity_type": "person",
+      "country": "UNITED STATES",
+      "region": "UNITED STATES",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "D1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:william-davis",
+      "canonical_name": "William Davis",
+      "aliases": [
+        "William Davis"
+      ],
+      "entity_type": "person",
+      "country": "United States",
+      "region": "United States",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "C1-D1",
+      "commercial_interests": [
+        {
+          "domain": "books",
+          "product_or_service": "metabolic health books and programs",
+          "related_markers": [
+            "apob",
+            "tg-hdl-ratio"
+          ],
+          "disclosure_quality": "transparent",
+          "severity": "generic"
+        }
+      ]
+    },
+    {
+      "id": "person:yvo-sijpkens",
+      "canonical_name": "Yvo Sijpkens",
+      "aliases": [
+        "D. Sijpkens",
+        "Dr Sijpkens",
+        "Dr Yvo Sijpkens",
+        "Sijpkens",
+        "Yvo Sijpkens",
+        "drsijpkens"
+      ],
+      "entity_type": "person",
+      "country": "EUROPEAN UNION (Major Languages)",
+      "region": "EUROPEAN UNION (Major Languages)",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "D1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:zoe-harcombe",
+      "canonical_name": "Zoë Harcombe",
+      "aliases": [
+        "D. Harcombe",
+        "Dr Harcombe",
+        "Dr Zoë Harcombe",
+        "Harcombe",
+        "Zoë Harcombe",
+        "drharcombe"
+      ],
+      "entity_type": "person",
+      "country": "UNITED KINGDOM",
+      "region": "UNITED KINGDOM",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "C1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:zoltan-rakonczay-jr",
+      "canonical_name": "Zoltán Rakonczay Jr.",
+      "aliases": [
+        "Prof Jr",
+        "Prof Zoltán Rakonczay Jr",
+        "Zoltán Rakonczay Jr.",
+        "drjr",
+        "drprofjr"
+      ],
+      "entity_type": "person",
+      "country": "HUNGARY (Special Focus)",
+      "region": "HUNGARY (Special Focus)",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "A",
+      "source_grade": "B2",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:zoltan-szabo",
+      "canonical_name": "Zoltán Szabó",
+      "aliases": [
+        "D. Szabó",
+        "Dr Szabó",
+        "Dr Zoltán Szabó",
+        "Szabó",
+        "Zoltán Szabó",
+        "drszabó"
+      ],
+      "entity_type": "person",
+      "country": "HUNGARY (Special Focus)",
+      "region": "HUNGARY (Special Focus)",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "D1",
+      "commercial_interests": []
+    },
+    {
+      "id": "researchgroup:csiro",
+      "canonical_name": "CSIRO",
+      "aliases": [
+        "CSIRO"
+      ],
+      "entity_type": "research_group",
+      "country": "Australia",
+      "region": "Australia",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "A",
+      "source_grade": "B1",
+      "commercial_interests": []
+    },
+    {
+      "id": "researchgroup:semmelweis-metabolic-research-sources",
+      "canonical_name": "Semmelweis metabolic research sources",
+      "aliases": [
+        "Semmelweis metabolic research sources"
+      ],
+      "entity_type": "research_group",
+      "country": "Hungary",
+      "region": "Hungary",
+      "languages": [
+        "hu"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "B2-C2",
+      "commercial_interests": []
+    },
+    {
+      "id": "researchgroup:university-of-debrecen-metabolic-research-sources",
+      "canonical_name": "University of Debrecen metabolic research sources",
+      "aliases": [
+        "University of Debrecen metabolic research sources"
+      ],
+      "entity_type": "research_group",
+      "country": "Hungary",
+      "region": "Hungary",
+      "languages": [
+        "hu"
+      ],
+      "credentials": null,
+      "source_tier": "B",
+      "source_grade": "B2-C2",
+      "commercial_interests": []
+    }
+  ]
+}

@@ -1,0 +1,1907 @@
+{
+  "generated_at": "2026-05-29T15:55:54.383875+00:00",
+  "project_roots": [
+    "/home/zoltan/Projects/metasync",
+    "/home/zoltan/Projects/metabolicum-research",
+    "/home/zoltan/Projects/metabolicum-agentic-research"
+  ],
+  "summary": {
+    "candidate_files": 51,
+    "structured_files": 19,
+    "structured_practitioner_records": 754,
+    "by_project": {
+      "metabolicum-agentic-research": 12,
+      "metabolicum-research": 30,
+      "metasync": 9
+    },
+    "by_resource_bucket": {
+      "identity": 19,
+      "marker_affinity": 4,
+      "social_resources": 48,
+      "web_resources": 30
+    },
+    "surface_counts": {
+      "other": 19,
+      "podcast": 18,
+      "twitter": 40,
+      "website": 72,
+      "x": 1,
+      "youtube": 73
+    }
+  },
+  "canonical_candidates": [
+    {
+      "path": "/home/zoltan/Projects/metabolicum-agentic-research/input/practitioner_registry.json",
+      "project": "metabolicum-agentic-research",
+      "format": "json",
+      "size_bytes": 115825,
+      "line_count": 4576,
+      "practitioner_count": 125,
+      "fields_present": [
+        "aliases",
+        "canonical_name",
+        "commercial_interests",
+        "country",
+        "credentials",
+        "entity_type",
+        "id",
+        "key_contribution",
+        "languages",
+        "marker_affinity",
+        "paradigm_affinity",
+        "region",
+        "source_grade",
+        "source_tier",
+        "surfaces"
+      ],
+      "sample_ids": [
+        "person:allan-sniderman",
+        "person:andreas-pfeiffer",
+        "person:antonio-m-gotto-jr",
+        "person:aseem-malhotra",
+        "person:benjamin-bikman"
+      ],
+      "sample_names": [
+        "Allan Sniderman",
+        "Andreas Pfeiffer",
+        "Antonio M. Gotto Jr.",
+        "Aseem Malhotra",
+        "Benjamin Bikman"
+      ],
+      "surface_counts": {
+        "other": 19,
+        "podcast": 10,
+        "twitter": 20,
+        "website": 44,
+        "x": 1,
+        "youtube": 32
+      },
+      "resource_buckets": [
+        "identity",
+        "marker_affinity",
+        "web_resources",
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bcanonical_name\\b",
+        "\\bmarker_affinity\\b",
+        "\\bpractitioner(s)?\\b",
+        "\\bsource_grade\\b",
+        "\\bsource_tier\\b"
+      ],
+      "canonical_score": 245
+    },
+    {
+      "path": "/home/zoltan/Projects/metabolicum-agentic-research/input/practitioners/practitioners.json",
+      "project": "metabolicum-agentic-research",
+      "format": "json",
+      "size_bytes": 66680,
+      "line_count": 2723,
+      "practitioner_count": 125,
+      "fields_present": [
+        "aliases",
+        "canonical_name",
+        "commercial_interests",
+        "country",
+        "credentials",
+        "entity_type",
+        "id",
+        "languages",
+        "region",
+        "source_grade",
+        "source_tier"
+      ],
+      "sample_ids": [
+        "company:defeat-diabetes",
+        "company:levels-health",
+        "company:low-carb-program",
+        "company:virta-health",
+        "conference:metabolic-health-summit"
+      ],
+      "sample_names": [
+        "Defeat Diabetes",
+        "Levels Health",
+        "Low Carb Program",
+        "Virta Health",
+        "Metabolic Health Summit"
+      ],
+      "surface_counts": {},
+      "resource_buckets": [
+        "identity",
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bcanonical_name\\b",
+        "\\bpractitioner(s)?\\b",
+        "\\bsource_grade\\b",
+        "\\bsource_tier\\b"
+      ],
+      "canonical_score": 185
+    },
+    {
+      "path": "/home/zoltan/Projects/metabolicum-research/config/practitioners.yaml",
+      "project": "metabolicum-research",
+      "format": "yaml",
+      "size_bytes": 11150,
+      "line_count": 429,
+      "practitioner_count": 43,
+      "fields_present": [
+        "categories",
+        "full_name",
+        "grade",
+        "id",
+        "short_name",
+        "tier",
+        "website"
+      ],
+      "sample_ids": [
+        "peter-attia",
+        "benjamin-bikman",
+        "jason-fung",
+        "ted-naiman",
+        "chris-kresser"
+      ],
+      "sample_names": [
+        "Dr. Peter Attia, MD",
+        "Dr. Benjamin Bikman, PhD",
+        "Dr. Jason Fung, MD",
+        "Dr. Ted Naiman, MD",
+        "Dr. Chris Kresser, LAc"
+      ],
+      "surface_counts": {
+        "website": 28
+      },
+      "resource_buckets": [
+        "identity",
+        "marker_affinity",
+        "web_resources",
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 183
+    },
+    {
+      "path": "/home/zoltan/Projects/metabolicum-agentic-research/input/practitioners/practitioner-marker-affinity.json",
+      "project": "metabolicum-agentic-research",
+      "format": "json",
+      "size_bytes": 35216,
+      "line_count": 1393,
+      "practitioner_count": 125,
+      "fields_present": [
+        "canonical_name",
+        "key_contribution",
+        "marker_affinity",
+        "paradigm_affinity",
+        "practitioner_id"
+      ],
+      "sample_ids": [
+        "Defeat Diabetes",
+        "Levels Health",
+        "Low Carb Program",
+        "Virta Health",
+        "Metabolic Health Summit"
+      ],
+      "sample_names": [
+        "Defeat Diabetes",
+        "Levels Health",
+        "Low Carb Program",
+        "Virta Health",
+        "Metabolic Health Summit"
+      ],
+      "surface_counts": {},
+      "resource_buckets": [
+        "identity",
+        "marker_affinity",
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bcanonical_name\\b",
+        "\\bmarker_affinity\\b",
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 155
+    },
+    {
+      "path": "/home/zoltan/Projects/metabolicum-research/output/social-discovery/practitioner-registry.json",
+      "project": "metabolicum-research",
+      "format": "json",
+      "size_bytes": 65935,
+      "line_count": 2512,
+      "practitioner_count": 110,
+      "fields_present": [
+        "aliases",
+        "coi_detail",
+        "coi_flags",
+        "contact",
+        "credential",
+        "evidence_grade",
+        "name",
+        "podcast_feed",
+        "region",
+        "twitter_handle",
+        "website",
+        "youtube_channel",
+        "youtube_channel_id"
+      ],
+      "sample_ids": [
+        "Dr. Peter Attia, MD",
+        "Dr. Ted Naiman, MD",
+        "Dr. Dominic D'Agostino, PhD",
+        "Dr. Paul Saladino, MD",
+        "Dr. David Perlmutter, MD"
+      ],
+      "sample_names": [
+        "Dr. Peter Attia, MD",
+        "Dr. Ted Naiman, MD",
+        "Dr. Dominic D'Agostino, PhD",
+        "Dr. Paul Saladino, MD",
+        "Dr. David Perlmutter, MD"
+      ],
+      "surface_counts": {
+        "podcast": 8,
+        "twitter": 20,
+        "youtube": 31
+      },
+      "resource_buckets": [
+        "identity",
+        "web_resources",
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bevidence_grade\\b",
+        "\\bpractitioner(s)?\\b",
+        "\\btwitter_handle\\b",
+        "\\byoutube_channel_id\\b"
+      ],
+      "canonical_score": 140
+    },
+    {
+      "path": "/home/zoltan/Projects/metabolicum-research/output/mo-research-2026/work-orders/approved-practitioner-roster.yaml",
+      "project": "metabolicum-research",
+      "format": "yaml",
+      "size_bytes": 12722,
+      "line_count": 409,
+      "practitioner_count": 79,
+      "fields_present": [
+        "contact",
+        "credential",
+        "evidence_grade",
+        "name",
+        "region"
+      ],
+      "sample_ids": [
+        "Dr. Peter Attia, MD",
+        "Dr. Ted Naiman, MD",
+        "Dr. Dominic D'Agostino, PhD",
+        "Dr. Paul Saladino, MD",
+        "Dr. David Perlmutter, MD"
+      ],
+      "sample_names": [
+        "Dr. Peter Attia, MD",
+        "Dr. Ted Naiman, MD",
+        "Dr. Dominic D'Agostino, PhD",
+        "Dr. Paul Saladino, MD",
+        "Dr. David Perlmutter, MD"
+      ],
+      "surface_counts": {},
+      "resource_buckets": [
+        "identity",
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bevidence_grade\\b",
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 79
+    },
+    {
+      "path": "/home/zoltan/Projects/metabolicum-agentic-research/input/practitioner_aliases.json",
+      "project": "metabolicum-agentic-research",
+      "format": "json",
+      "size_bytes": 7587,
+      "line_count": 314,
+      "practitioner_count": 41,
+      "fields_present": [
+        "aliases",
+        "canonical_name",
+        "practitioner_id"
+      ],
+      "sample_ids": [
+        "Peter Attia",
+        "Ted Naiman",
+        "Dominic D'Agostino",
+        "Robert Lustig",
+        "Jason Fung"
+      ],
+      "sample_names": [
+        "Peter Attia",
+        "Ted Naiman",
+        "Dominic D'Agostino",
+        "Robert Lustig",
+        "Jason Fung"
+      ],
+      "surface_counts": {},
+      "resource_buckets": [
+        "identity"
+      ],
+      "detected_terms": [
+        "\\bcanonical_name\\b",
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 71
+    },
+    {
+      "path": "/home/zoltan/Projects/metabolicum-research/output/social-discovery/quicki/practitioner-rank.json",
+      "project": "metabolicum-research",
+      "format": "json",
+      "size_bytes": 163068,
+      "line_count": 2742,
+      "practitioner_count": 18,
+      "fields_present": [
+        "last_mention",
+        "mention_count",
+        "name",
+        "top_signals",
+        "total_engagement",
+        "weighted_score"
+      ],
+      "sample_ids": [
+        "Diet Doctor",
+        "Dr. Jason Fung, MD",
+        "The Primal Podcast",
+        "Mind & Matter Podcast",
+        "Dr. Ken Berry, MD"
+      ],
+      "sample_names": [
+        "Diet Doctor",
+        "Dr. Jason Fung, MD",
+        "The Primal Podcast",
+        "Mind & Matter Podcast",
+        "Dr. Ken Berry, MD"
+      ],
+      "surface_counts": {},
+      "resource_buckets": [
+        "identity",
+        "web_resources",
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 18
+    },
+    {
+      "path": "/home/zoltan/Projects/metabolicum-research/output/social-discovery/tg-hdl-ratio/practitioner-rank.json",
+      "project": "metabolicum-research",
+      "format": "json",
+      "size_bytes": 63732,
+      "line_count": 1189,
+      "practitioner_count": 13,
+      "fields_present": [
+        "last_mention",
+        "mention_count",
+        "name",
+        "top_signals",
+        "total_engagement",
+        "weighted_score"
+      ],
+      "sample_ids": [
+        "Diet Doctor",
+        "Dr. Mark Hyman, MD",
+        "Levels Health",
+        "Virta Health",
+        "Dr. Robert Lustig, MD (Deceased)"
+      ],
+      "sample_names": [
+        "Diet Doctor",
+        "Dr. Mark Hyman, MD",
+        "Levels Health",
+        "Virta Health",
+        "Dr. Robert Lustig, MD (Deceased)"
+      ],
+      "surface_counts": {},
+      "resource_buckets": [
+        "identity",
+        "web_resources",
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 13
+    },
+    {
+      "path": "/home/zoltan/Projects/metabolicum-research/output/social-discovery/homa-ir/practitioner-rank.json",
+      "project": "metabolicum-research",
+      "format": "json",
+      "size_bytes": 1353520,
+      "line_count": 907,
+      "practitioner_count": 12,
+      "fields_present": [
+        "last_mention",
+        "mention_count",
+        "name",
+        "top_signals",
+        "total_engagement",
+        "weighted_score"
+      ],
+      "sample_ids": [
+        "Dr. Casey Means, MD",
+        "Levels Health",
+        "Virta Health",
+        "Low Carb Down Under",
+        "Dr. William Davis, MD"
+      ],
+      "sample_names": [
+        "Dr. Casey Means, MD",
+        "Levels Health",
+        "Virta Health",
+        "Low Carb Down Under",
+        "Dr. William Davis, MD"
+      ],
+      "surface_counts": {},
+      "resource_buckets": [
+        "identity",
+        "web_resources",
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 12
+    }
+  ],
+  "files": [
+    {
+      "path": "/home/zoltan/Projects/metabolicum-agentic-research/docs/ALIAS-HANDLING-REDESIGN-PROPOSAL.md",
+      "project": "metabolicum-agentic-research",
+      "format": "md",
+      "size_bytes": 13941,
+      "line_count": 293,
+      "practitioner_count": 0,
+      "fields_present": [],
+      "sample_ids": [],
+      "sample_names": [],
+      "surface_counts": {},
+      "resource_buckets": [
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bcanonical_name\\b",
+        "\\bmarker_affinity\\b",
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 0
+    },
+    {
+      "path": "/home/zoltan/Projects/metabolicum-agentic-research/docs/agentic-workflow/03-social-agents-spec.md",
+      "project": "metabolicum-agentic-research",
+      "format": "md",
+      "size_bytes": 15771,
+      "line_count": 91,
+      "practitioner_count": 0,
+      "fields_present": [],
+      "sample_ids": [],
+      "sample_names": [],
+      "surface_counts": {},
+      "resource_buckets": [
+        "web_resources",
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bpractitioner(s)?\\b",
+        "\\bsource_grade\\b",
+        "\\bsource_tier\\b"
+      ],
+      "canonical_score": 0
+    },
+    {
+      "path": "/home/zoltan/Projects/metabolicum-agentic-research/docs/agentic-workflow/16-practitioner-directory-system.md",
+      "project": "metabolicum-agentic-research",
+      "format": "md",
+      "size_bytes": 19408,
+      "line_count": 335,
+      "practitioner_count": 0,
+      "fields_present": [],
+      "sample_ids": [],
+      "sample_names": [],
+      "surface_counts": {},
+      "resource_buckets": [
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bcanonical_name\\b",
+        "\\bmarker_affinity\\b",
+        "\\bpractitioner(s)?\\b",
+        "\\bsource_grade\\b",
+        "\\bsource_tier\\b"
+      ],
+      "canonical_score": 0
+    },
+    {
+      "path": "/home/zoltan/Projects/metabolicum-agentic-research/docs/agentic-workflow/20-semantic-practitioner-matching.md",
+      "project": "metabolicum-agentic-research",
+      "format": "md",
+      "size_bytes": 6349,
+      "line_count": 125,
+      "practitioner_count": 0,
+      "fields_present": [],
+      "sample_ids": [],
+      "sample_names": [],
+      "surface_counts": {},
+      "resource_buckets": [
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bcanonical_name\\b",
+        "\\bmarker_affinity\\b",
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 0
+    },
+    {
+      "path": "/home/zoltan/Projects/metabolicum-agentic-research/docs/agentic-workflow/practitioner-registry-sync-report-2026-05-26.md",
+      "project": "metabolicum-agentic-research",
+      "format": "md",
+      "size_bytes": 3618,
+      "line_count": 128,
+      "practitioner_count": 0,
+      "fields_present": [],
+      "sample_ids": [],
+      "sample_names": [],
+      "surface_counts": {},
+      "resource_buckets": [
+        "web_resources",
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 0
+    },
+    {
+      "path": "/home/zoltan/Projects/metabolicum-agentic-research/input/practitioner_aliases.json",
+      "project": "metabolicum-agentic-research",
+      "format": "json",
+      "size_bytes": 7587,
+      "line_count": 314,
+      "practitioner_count": 41,
+      "fields_present": [
+        "aliases",
+        "canonical_name",
+        "practitioner_id"
+      ],
+      "sample_ids": [
+        "Peter Attia",
+        "Ted Naiman",
+        "Dominic D'Agostino",
+        "Robert Lustig",
+        "Jason Fung"
+      ],
+      "sample_names": [
+        "Peter Attia",
+        "Ted Naiman",
+        "Dominic D'Agostino",
+        "Robert Lustig",
+        "Jason Fung"
+      ],
+      "surface_counts": {},
+      "resource_buckets": [
+        "identity"
+      ],
+      "detected_terms": [
+        "\\bcanonical_name\\b",
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 71
+    },
+    {
+      "path": "/home/zoltan/Projects/metabolicum-agentic-research/input/practitioner_registry.json",
+      "project": "metabolicum-agentic-research",
+      "format": "json",
+      "size_bytes": 115825,
+      "line_count": 4576,
+      "practitioner_count": 125,
+      "fields_present": [
+        "aliases",
+        "canonical_name",
+        "commercial_interests",
+        "country",
+        "credentials",
+        "entity_type",
+        "id",
+        "key_contribution",
+        "languages",
+        "marker_affinity",
+        "paradigm_affinity",
+        "region",
+        "source_grade",
+        "source_tier",
+        "surfaces"
+      ],
+      "sample_ids": [
+        "person:allan-sniderman",
+        "person:andreas-pfeiffer",
+        "person:antonio-m-gotto-jr",
+        "person:aseem-malhotra",
+        "person:benjamin-bikman"
+      ],
+      "sample_names": [
+        "Allan Sniderman",
+        "Andreas Pfeiffer",
+        "Antonio M. Gotto Jr.",
+        "Aseem Malhotra",
+        "Benjamin Bikman"
+      ],
+      "surface_counts": {
+        "other": 19,
+        "podcast": 10,
+        "twitter": 20,
+        "website": 44,
+        "x": 1,
+        "youtube": 32
+      },
+      "resource_buckets": [
+        "identity",
+        "marker_affinity",
+        "web_resources",
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bcanonical_name\\b",
+        "\\bmarker_affinity\\b",
+        "\\bpractitioner(s)?\\b",
+        "\\bsource_grade\\b",
+        "\\bsource_tier\\b"
+      ],
+      "canonical_score": 245
+    },
+    {
+      "path": "/home/zoltan/Projects/metabolicum-agentic-research/input/practitioners/README.md",
+      "project": "metabolicum-agentic-research",
+      "format": "md",
+      "size_bytes": 846,
+      "line_count": 15,
+      "practitioner_count": 0,
+      "fields_present": [],
+      "sample_ids": [],
+      "sample_names": [],
+      "surface_counts": {},
+      "resource_buckets": [
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 0
+    },
+    {
+      "path": "/home/zoltan/Projects/metabolicum-agentic-research/input/practitioners/practitioner-marker-affinity.json",
+      "project": "metabolicum-agentic-research",
+      "format": "json",
+      "size_bytes": 35216,
+      "line_count": 1393,
+      "practitioner_count": 125,
+      "fields_present": [
+        "canonical_name",
+        "key_contribution",
+        "marker_affinity",
+        "paradigm_affinity",
+        "practitioner_id"
+      ],
+      "sample_ids": [
+        "Defeat Diabetes",
+        "Levels Health",
+        "Low Carb Program",
+        "Virta Health",
+        "Metabolic Health Summit"
+      ],
+      "sample_names": [
+        "Defeat Diabetes",
+        "Levels Health",
+        "Low Carb Program",
+        "Virta Health",
+        "Metabolic Health Summit"
+      ],
+      "surface_counts": {},
+      "resource_buckets": [
+        "identity",
+        "marker_affinity",
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bcanonical_name\\b",
+        "\\bmarker_affinity\\b",
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 155
+    },
+    {
+      "path": "/home/zoltan/Projects/metabolicum-agentic-research/input/practitioners/practitioner-social-resources.json",
+      "project": "metabolicum-agentic-research",
+      "format": "json",
+      "size_bytes": 14565,
+      "line_count": 437,
+      "practitioner_count": 0,
+      "fields_present": [],
+      "sample_ids": [],
+      "sample_names": [],
+      "surface_counts": {},
+      "resource_buckets": [
+        "web_resources",
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bcanonical_name\\b",
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 0
+    },
+    {
+      "path": "/home/zoltan/Projects/metabolicum-agentic-research/input/practitioners/practitioner-web-resources.json",
+      "project": "metabolicum-agentic-research",
+      "format": "json",
+      "size_bytes": 13764,
+      "line_count": 445,
+      "practitioner_count": 0,
+      "fields_present": [],
+      "sample_ids": [],
+      "sample_names": [],
+      "surface_counts": {},
+      "resource_buckets": [
+        "web_resources",
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bcanonical_name\\b",
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 0
+    },
+    {
+      "path": "/home/zoltan/Projects/metabolicum-agentic-research/input/practitioners/practitioners.json",
+      "project": "metabolicum-agentic-research",
+      "format": "json",
+      "size_bytes": 66680,
+      "line_count": 2723,
+      "practitioner_count": 125,
+      "fields_present": [
+        "aliases",
+        "canonical_name",
+        "commercial_interests",
+        "country",
+        "credentials",
+        "entity_type",
+        "id",
+        "languages",
+        "region",
+        "source_grade",
+        "source_tier"
+      ],
+      "sample_ids": [
+        "company:defeat-diabetes",
+        "company:levels-health",
+        "company:low-carb-program",
+        "company:virta-health",
+        "conference:metabolic-health-summit"
+      ],
+      "sample_names": [
+        "Defeat Diabetes",
+        "Levels Health",
+        "Low Carb Program",
+        "Virta Health",
+        "Metabolic Health Summit"
+      ],
+      "surface_counts": {},
+      "resource_buckets": [
+        "identity",
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bcanonical_name\\b",
+        "\\bpractitioner(s)?\\b",
+        "\\bsource_grade\\b",
+        "\\bsource_tier\\b"
+      ],
+      "canonical_score": 185
+    },
+    {
+      "path": "/home/zoltan/Projects/metabolicum-research/config/practitioners.yaml",
+      "project": "metabolicum-research",
+      "format": "yaml",
+      "size_bytes": 11150,
+      "line_count": 429,
+      "practitioner_count": 43,
+      "fields_present": [
+        "categories",
+        "full_name",
+        "grade",
+        "id",
+        "short_name",
+        "tier",
+        "website"
+      ],
+      "sample_ids": [
+        "peter-attia",
+        "benjamin-bikman",
+        "jason-fung",
+        "ted-naiman",
+        "chris-kresser"
+      ],
+      "sample_names": [
+        "Dr. Peter Attia, MD",
+        "Dr. Benjamin Bikman, PhD",
+        "Dr. Jason Fung, MD",
+        "Dr. Ted Naiman, MD",
+        "Dr. Chris Kresser, LAc"
+      ],
+      "surface_counts": {
+        "website": 28
+      },
+      "resource_buckets": [
+        "identity",
+        "marker_affinity",
+        "web_resources",
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 183
+    },
+    {
+      "path": "/home/zoltan/Projects/metabolicum-research/output/mo-research-2026/control/practitioner-directory-sync.yaml",
+      "project": "metabolicum-research",
+      "format": "yaml",
+      "size_bytes": 8351,
+      "line_count": 347,
+      "practitioner_count": 0,
+      "fields_present": [],
+      "sample_ids": [],
+      "sample_names": [],
+      "surface_counts": {},
+      "resource_buckets": [
+        "web_resources",
+        "social_resources"
+      ],
+      "detected_terms": [],
+      "canonical_score": 0
+    },
+    {
+      "path": "/home/zoltan/Projects/metabolicum-research/output/mo-research-2026/reviews/batch-001-detailed-practitioner-source-review.md",
+      "project": "metabolicum-research",
+      "format": "md",
+      "size_bytes": 22616,
+      "line_count": 334,
+      "practitioner_count": 0,
+      "fields_present": [],
+      "sample_ids": [],
+      "sample_names": [],
+      "surface_counts": {},
+      "resource_buckets": [
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 0
+    },
+    {
+      "path": "/home/zoltan/Projects/metabolicum-research/output/mo-research-2026/work-orders/approved-practitioner-roster.yaml",
+      "project": "metabolicum-research",
+      "format": "yaml",
+      "size_bytes": 12722,
+      "line_count": 409,
+      "practitioner_count": 79,
+      "fields_present": [
+        "contact",
+        "credential",
+        "evidence_grade",
+        "name",
+        "region"
+      ],
+      "sample_ids": [
+        "Dr. Peter Attia, MD",
+        "Dr. Ted Naiman, MD",
+        "Dr. Dominic D'Agostino, PhD",
+        "Dr. Paul Saladino, MD",
+        "Dr. David Perlmutter, MD"
+      ],
+      "sample_names": [
+        "Dr. Peter Attia, MD",
+        "Dr. Ted Naiman, MD",
+        "Dr. Dominic D'Agostino, PhD",
+        "Dr. Paul Saladino, MD",
+        "Dr. David Perlmutter, MD"
+      ],
+      "surface_counts": {},
+      "resource_buckets": [
+        "identity",
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bevidence_grade\\b",
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 79
+    },
+    {
+      "path": "/home/zoltan/Projects/metabolicum-research/output/social-discovery/aip/discovery-summary.json",
+      "project": "metabolicum-research",
+      "format": "json",
+      "size_bytes": 67340,
+      "line_count": 1465,
+      "practitioner_count": 0,
+      "fields_present": [],
+      "sample_ids": [],
+      "sample_names": [],
+      "surface_counts": {},
+      "resource_buckets": [
+        "web_resources",
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 0
+    },
+    {
+      "path": "/home/zoltan/Projects/metabolicum-research/output/social-discovery/aip/practitioner-rank.json",
+      "project": "metabolicum-research",
+      "format": "json",
+      "size_bytes": 68101,
+      "line_count": 1486,
+      "practitioner_count": 11,
+      "fields_present": [
+        "last_mention",
+        "mention_count",
+        "name",
+        "top_signals",
+        "total_engagement",
+        "weighted_score"
+      ],
+      "sample_ids": [
+        "Levels Health",
+        "Virta Health",
+        "Dr. Robert Lustig, MD (Deceased)",
+        "Diet Doctor",
+        "Physionic"
+      ],
+      "sample_names": [
+        "Levels Health",
+        "Virta Health",
+        "Dr. Robert Lustig, MD (Deceased)",
+        "Diet Doctor",
+        "Physionic"
+      ],
+      "surface_counts": {},
+      "resource_buckets": [
+        "identity",
+        "web_resources",
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 11
+    },
+    {
+      "path": "/home/zoltan/Projects/metabolicum-research/output/social-discovery/eag/discovery-summary.json",
+      "project": "metabolicum-research",
+      "format": "json",
+      "size_bytes": 88078,
+      "line_count": 1387,
+      "practitioner_count": 0,
+      "fields_present": [],
+      "sample_ids": [],
+      "sample_names": [],
+      "surface_counts": {},
+      "resource_buckets": [
+        "web_resources",
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 0
+    },
+    {
+      "path": "/home/zoltan/Projects/metabolicum-research/output/social-discovery/eag/practitioner-rank.json",
+      "project": "metabolicum-research",
+      "format": "json",
+      "size_bytes": 87838,
+      "line_count": 1378,
+      "practitioner_count": 7,
+      "fields_present": [
+        "last_mention",
+        "mention_count",
+        "name",
+        "top_signals",
+        "total_engagement",
+        "weighted_score"
+      ],
+      "sample_ids": [
+        "Levels Health",
+        "Virta Health",
+        "Dr. Mark Hyman, MD",
+        "Dr. Andrew Huberman, PhD",
+        "Dr. David Perlmutter, MD"
+      ],
+      "sample_names": [
+        "Levels Health",
+        "Virta Health",
+        "Dr. Mark Hyman, MD",
+        "Dr. Andrew Huberman, PhD",
+        "Dr. David Perlmutter, MD"
+      ],
+      "surface_counts": {},
+      "resource_buckets": [
+        "identity",
+        "web_resources",
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 7
+    },
+    {
+      "path": "/home/zoltan/Projects/metabolicum-research/output/social-discovery/fib-4/discovery-summary.json",
+      "project": "metabolicum-research",
+      "format": "json",
+      "size_bytes": 80929,
+      "line_count": 1411,
+      "practitioner_count": 0,
+      "fields_present": [],
+      "sample_ids": [],
+      "sample_names": [],
+      "surface_counts": {},
+      "resource_buckets": [
+        "web_resources",
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 0
+    },
+    {
+      "path": "/home/zoltan/Projects/metabolicum-research/output/social-discovery/fib-4/practitioner-rank.json",
+      "project": "metabolicum-research",
+      "format": "json",
+      "size_bytes": 80686,
+      "line_count": 1402,
+      "practitioner_count": 7,
+      "fields_present": [
+        "last_mention",
+        "mention_count",
+        "name",
+        "top_signals",
+        "total_engagement",
+        "weighted_score"
+      ],
+      "sample_ids": [
+        "Levels Health",
+        "Virta Health",
+        "Dr. Joseph Kraft, MD (Deceased)",
+        "Low Carb Down Under",
+        "Dr. Casey Means, MD"
+      ],
+      "sample_names": [
+        "Levels Health",
+        "Virta Health",
+        "Dr. Joseph Kraft, MD (Deceased)",
+        "Low Carb Down Under",
+        "Dr. Casey Means, MD"
+      ],
+      "surface_counts": {},
+      "resource_buckets": [
+        "identity",
+        "web_resources",
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 7
+    },
+    {
+      "path": "/home/zoltan/Projects/metabolicum-research/output/social-discovery/fli/discovery-summary.json",
+      "project": "metabolicum-research",
+      "format": "json",
+      "size_bytes": 32933,
+      "line_count": 492,
+      "practitioner_count": 0,
+      "fields_present": [],
+      "sample_ids": [],
+      "sample_names": [],
+      "surface_counts": {},
+      "resource_buckets": [
+        "web_resources",
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 0
+    },
+    {
+      "path": "/home/zoltan/Projects/metabolicum-research/output/social-discovery/fli/practitioner-rank.json",
+      "project": "metabolicum-research",
+      "format": "json",
+      "size_bytes": 32692,
+      "line_count": 483,
+      "practitioner_count": 7,
+      "fields_present": [
+        "last_mention",
+        "mention_count",
+        "name",
+        "top_signals",
+        "total_engagement",
+        "weighted_score"
+      ],
+      "sample_ids": [
+        "Low Carb Down Under",
+        "Mind & Matter Podcast",
+        "Levels Health",
+        "The Primal Podcast",
+        "Virta Health"
+      ],
+      "sample_names": [
+        "Low Carb Down Under",
+        "Mind & Matter Podcast",
+        "Levels Health",
+        "The Primal Podcast",
+        "Virta Health"
+      ],
+      "surface_counts": {},
+      "resource_buckets": [
+        "identity",
+        "web_resources",
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 7
+    },
+    {
+      "path": "/home/zoltan/Projects/metabolicum-research/output/social-discovery/homa-b/practitioner-rank.json",
+      "project": "metabolicum-research",
+      "format": "json",
+      "size_bytes": 24842,
+      "line_count": 670,
+      "practitioner_count": 9,
+      "fields_present": [
+        "last_mention",
+        "mention_count",
+        "name",
+        "top_signals",
+        "total_engagement",
+        "weighted_score"
+      ],
+      "sample_ids": [
+        "Levels Health",
+        "Virta Health",
+        "Defeat Diabetes",
+        "Diet Doctor",
+        "Dr. Robert Lustig, MD (Deceased)"
+      ],
+      "sample_names": [
+        "Levels Health",
+        "Virta Health",
+        "Defeat Diabetes",
+        "Diet Doctor",
+        "Dr. Robert Lustig, MD (Deceased)"
+      ],
+      "surface_counts": {},
+      "resource_buckets": [
+        "identity",
+        "web_resources",
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 9
+    },
+    {
+      "path": "/home/zoltan/Projects/metabolicum-research/output/social-discovery/homa-ir/discovery-summary.json",
+      "project": "metabolicum-research",
+      "format": "json",
+      "size_bytes": 827863,
+      "line_count": 911,
+      "practitioner_count": 0,
+      "fields_present": [],
+      "sample_ids": [],
+      "sample_names": [],
+      "surface_counts": {},
+      "resource_buckets": [
+        "web_resources",
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 0
+    },
+    {
+      "path": "/home/zoltan/Projects/metabolicum-research/output/social-discovery/homa-ir/practitioner-rank.json",
+      "project": "metabolicum-research",
+      "format": "json",
+      "size_bytes": 1353520,
+      "line_count": 907,
+      "practitioner_count": 12,
+      "fields_present": [
+        "last_mention",
+        "mention_count",
+        "name",
+        "top_signals",
+        "total_engagement",
+        "weighted_score"
+      ],
+      "sample_ids": [
+        "Dr. Casey Means, MD",
+        "Levels Health",
+        "Virta Health",
+        "Low Carb Down Under",
+        "Dr. William Davis, MD"
+      ],
+      "sample_names": [
+        "Dr. Casey Means, MD",
+        "Levels Health",
+        "Virta Health",
+        "Low Carb Down Under",
+        "Dr. William Davis, MD"
+      ],
+      "surface_counts": {},
+      "resource_buckets": [
+        "identity",
+        "web_resources",
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 12
+    },
+    {
+      "path": "/home/zoltan/Projects/metabolicum-research/output/social-discovery/lean-mass-hyper-responder-score/practitioner-rank.json",
+      "project": "metabolicum-research",
+      "format": "json",
+      "size_bytes": 204,
+      "line_count": 8,
+      "practitioner_count": 0,
+      "fields_present": [],
+      "sample_ids": [],
+      "sample_names": [],
+      "surface_counts": {},
+      "resource_buckets": [],
+      "detected_terms": [
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 0
+    },
+    {
+      "path": "/home/zoltan/Projects/metabolicum-research/output/social-discovery/non-hdl-c/practitioner-rank.json",
+      "project": "metabolicum-research",
+      "format": "json",
+      "size_bytes": 6688,
+      "line_count": 194,
+      "practitioner_count": 5,
+      "fields_present": [
+        "last_mention",
+        "mention_count",
+        "name",
+        "top_signals",
+        "total_engagement",
+        "weighted_score"
+      ],
+      "sample_ids": [
+        "Dr. Nick Norwitz, PhD",
+        "Diet Doctor",
+        "Levels Health",
+        "Virta Health",
+        "Dr. Robert Lustig, MD (Deceased)"
+      ],
+      "sample_names": [
+        "Dr. Nick Norwitz, PhD",
+        "Diet Doctor",
+        "Levels Health",
+        "Virta Health",
+        "Dr. Robert Lustig, MD (Deceased)"
+      ],
+      "surface_counts": {},
+      "resource_buckets": [
+        "identity",
+        "web_resources",
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 5
+    },
+    {
+      "path": "/home/zoltan/Projects/metabolicum-research/output/social-discovery/practitioner-registry.json",
+      "project": "metabolicum-research",
+      "format": "json",
+      "size_bytes": 65935,
+      "line_count": 2512,
+      "practitioner_count": 110,
+      "fields_present": [
+        "aliases",
+        "coi_detail",
+        "coi_flags",
+        "contact",
+        "credential",
+        "evidence_grade",
+        "name",
+        "podcast_feed",
+        "region",
+        "twitter_handle",
+        "website",
+        "youtube_channel",
+        "youtube_channel_id"
+      ],
+      "sample_ids": [
+        "Dr. Peter Attia, MD",
+        "Dr. Ted Naiman, MD",
+        "Dr. Dominic D'Agostino, PhD",
+        "Dr. Paul Saladino, MD",
+        "Dr. David Perlmutter, MD"
+      ],
+      "sample_names": [
+        "Dr. Peter Attia, MD",
+        "Dr. Ted Naiman, MD",
+        "Dr. Dominic D'Agostino, PhD",
+        "Dr. Paul Saladino, MD",
+        "Dr. David Perlmutter, MD"
+      ],
+      "surface_counts": {
+        "podcast": 8,
+        "twitter": 20,
+        "youtube": 31
+      },
+      "resource_buckets": [
+        "identity",
+        "web_resources",
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bevidence_grade\\b",
+        "\\bpractitioner(s)?\\b",
+        "\\btwitter_handle\\b",
+        "\\byoutube_channel_id\\b"
+      ],
+      "canonical_score": 140
+    },
+    {
+      "path": "/home/zoltan/Projects/metabolicum-research/output/social-discovery/quicki/discovery-summary.json",
+      "project": "metabolicum-research",
+      "format": "json",
+      "size_bytes": 75392,
+      "line_count": 1249,
+      "practitioner_count": 0,
+      "fields_present": [],
+      "sample_ids": [],
+      "sample_names": [],
+      "surface_counts": {},
+      "resource_buckets": [
+        "web_resources",
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 0
+    },
+    {
+      "path": "/home/zoltan/Projects/metabolicum-research/output/social-discovery/quicki/practitioner-rank.json",
+      "project": "metabolicum-research",
+      "format": "json",
+      "size_bytes": 163068,
+      "line_count": 2742,
+      "practitioner_count": 18,
+      "fields_present": [
+        "last_mention",
+        "mention_count",
+        "name",
+        "top_signals",
+        "total_engagement",
+        "weighted_score"
+      ],
+      "sample_ids": [
+        "Diet Doctor",
+        "Dr. Jason Fung, MD",
+        "The Primal Podcast",
+        "Mind & Matter Podcast",
+        "Dr. Ken Berry, MD"
+      ],
+      "sample_names": [
+        "Diet Doctor",
+        "Dr. Jason Fung, MD",
+        "The Primal Podcast",
+        "Mind & Matter Podcast",
+        "Dr. Ken Berry, MD"
+      ],
+      "surface_counts": {},
+      "resource_buckets": [
+        "identity",
+        "web_resources",
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 18
+    },
+    {
+      "path": "/home/zoltan/Projects/metabolicum-research/output/social-discovery/remnant-c/discovery-summary.json",
+      "project": "metabolicum-research",
+      "format": "json",
+      "size_bytes": 23099,
+      "line_count": 390,
+      "practitioner_count": 0,
+      "fields_present": [],
+      "sample_ids": [],
+      "sample_names": [],
+      "surface_counts": {},
+      "resource_buckets": [
+        "web_resources",
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 0
+    },
+    {
+      "path": "/home/zoltan/Projects/metabolicum-research/output/social-discovery/remnant-c/practitioner-rank.json",
+      "project": "metabolicum-research",
+      "format": "json",
+      "size_bytes": 22853,
+      "line_count": 381,
+      "practitioner_count": 4,
+      "fields_present": [
+        "last_mention",
+        "mention_count",
+        "name",
+        "top_signals",
+        "total_engagement",
+        "weighted_score"
+      ],
+      "sample_ids": [
+        "Levels Health",
+        "Virta Health",
+        "Defeat Diabetes",
+        "Low Carb Down Under"
+      ],
+      "sample_names": [
+        "Levels Health",
+        "Virta Health",
+        "Defeat Diabetes",
+        "Low Carb Down Under"
+      ],
+      "surface_counts": {},
+      "resource_buckets": [
+        "identity",
+        "web_resources",
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 4
+    },
+    {
+      "path": "/home/zoltan/Projects/metabolicum-research/output/social-discovery/tg-hdl-ratio/discovery-summary.json",
+      "project": "metabolicum-research",
+      "format": "json",
+      "size_bytes": 36762,
+      "line_count": 818,
+      "practitioner_count": 0,
+      "fields_present": [],
+      "sample_ids": [],
+      "sample_names": [],
+      "surface_counts": {},
+      "resource_buckets": [
+        "web_resources",
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 0
+    },
+    {
+      "path": "/home/zoltan/Projects/metabolicum-research/output/social-discovery/tg-hdl-ratio/practitioner-rank.json",
+      "project": "metabolicum-research",
+      "format": "json",
+      "size_bytes": 63732,
+      "line_count": 1189,
+      "practitioner_count": 13,
+      "fields_present": [
+        "last_mention",
+        "mention_count",
+        "name",
+        "top_signals",
+        "total_engagement",
+        "weighted_score"
+      ],
+      "sample_ids": [
+        "Diet Doctor",
+        "Dr. Mark Hyman, MD",
+        "Levels Health",
+        "Virta Health",
+        "Dr. Robert Lustig, MD (Deceased)"
+      ],
+      "sample_names": [
+        "Diet Doctor",
+        "Dr. Mark Hyman, MD",
+        "Levels Health",
+        "Virta Health",
+        "Dr. Robert Lustig, MD (Deceased)"
+      ],
+      "surface_counts": {},
+      "resource_buckets": [
+        "identity",
+        "web_resources",
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 13
+    },
+    {
+      "path": "/home/zoltan/Projects/metabolicum-research/output/social-discovery/whtr/discovery-summary.json",
+      "project": "metabolicum-research",
+      "format": "json",
+      "size_bytes": 21898,
+      "line_count": 190,
+      "practitioner_count": 0,
+      "fields_present": [],
+      "sample_ids": [],
+      "sample_names": [],
+      "surface_counts": {},
+      "resource_buckets": [
+        "web_resources",
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 0
+    },
+    {
+      "path": "/home/zoltan/Projects/metabolicum-research/output/social-discovery/whtr/practitioner-rank.json",
+      "project": "metabolicum-research",
+      "format": "json",
+      "size_bytes": 21657,
+      "line_count": 181,
+      "practitioner_count": 3,
+      "fields_present": [
+        "last_mention",
+        "mention_count",
+        "name",
+        "top_signals",
+        "total_engagement",
+        "weighted_score"
+      ],
+      "sample_ids": [
+        "Levels Health",
+        "Virta Health",
+        "Low Carb Down Under"
+      ],
+      "sample_names": [
+        "Levels Health",
+        "Virta Health",
+        "Low Carb Down Under"
+      ],
+      "surface_counts": {},
+      "resource_buckets": [
+        "identity",
+        "web_resources",
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 3
+    },
+    {
+      "path": "/home/zoltan/Projects/metabolicum-research/research/practitioners/MetabolicumGlobalPractitionerResearcherDirectory-v0.4.md",
+      "project": "metabolicum-research",
+      "format": "md",
+      "size_bytes": 32475,
+      "line_count": 540,
+      "practitioner_count": 0,
+      "fields_present": [],
+      "sample_ids": [],
+      "sample_names": [],
+      "surface_counts": {},
+      "resource_buckets": [
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 0
+    },
+    {
+      "path": "/home/zoltan/Projects/metabolicum-research/research/practitioners/RESEARCH_DRIVEN_UPDATES.md",
+      "project": "metabolicum-research",
+      "format": "md",
+      "size_bytes": 9927,
+      "line_count": 141,
+      "practitioner_count": 0,
+      "fields_present": [],
+      "sample_ids": [],
+      "sample_names": [],
+      "surface_counts": {},
+      "resource_buckets": [
+        "web_resources",
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bevidence_grade\\b",
+        "\\bpractitioner(s)?\\b",
+        "\\btwitter_handle\\b",
+        "\\byoutube_channel_id\\b"
+      ],
+      "canonical_score": 0
+    },
+    {
+      "path": "/home/zoltan/Projects/metabolicum-research/research/practitioners/index.md",
+      "project": "metabolicum-research",
+      "format": "md",
+      "size_bytes": 276,
+      "line_count": 6,
+      "practitioner_count": 0,
+      "fields_present": [],
+      "sample_ids": [],
+      "sample_names": [],
+      "surface_counts": {},
+      "resource_buckets": [
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 0
+    },
+    {
+      "path": "/home/zoltan/Projects/metabolicum-research/scripts/mo-practitioners.json",
+      "project": "metabolicum-research",
+      "format": "json",
+      "size_bytes": 5183,
+      "line_count": 229,
+      "practitioner_count": 10,
+      "fields_present": [
+        "channel",
+        "channels_to_search",
+        "name",
+        "topics"
+      ],
+      "sample_ids": [
+        "Peter Attia",
+        "Benjamin Bikman",
+        "Joseph Kraft",
+        "Rangan Chatterjee",
+        "Mark Hyman"
+      ],
+      "sample_names": [
+        "Peter Attia",
+        "Benjamin Bikman",
+        "Joseph Kraft",
+        "Rangan Chatterjee",
+        "Mark Hyman"
+      ],
+      "surface_counts": {
+        "youtube": 10
+      },
+      "resource_buckets": [
+        "identity",
+        "marker_affinity",
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 10
+    },
+    {
+      "path": "/home/zoltan/Projects/metasync/docs/plans/2026-01-16-practitioners-page-design.md",
+      "project": "metasync",
+      "format": "md",
+      "size_bytes": 8315,
+      "line_count": 260,
+      "practitioner_count": 0,
+      "fields_present": [],
+      "sample_ids": [],
+      "sample_names": [],
+      "surface_counts": {},
+      "resource_buckets": [
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 0
+    },
+    {
+      "path": "/home/zoltan/Projects/metasync/docs/plans/practitioners/index.md",
+      "project": "metasync",
+      "format": "md",
+      "size_bytes": 120,
+      "line_count": 4,
+      "practitioner_count": 0,
+      "fields_present": [],
+      "sample_ids": [],
+      "sample_names": [],
+      "surface_counts": {},
+      "resource_buckets": [],
+      "detected_terms": [
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 0
+    },
+    {
+      "path": "/home/zoltan/Projects/metasync/docs/plans/practitioners/practitioner-network-page-spec-v2.md",
+      "project": "metasync",
+      "format": "md",
+      "size_bytes": 20414,
+      "line_count": 603,
+      "practitioner_count": 0,
+      "fields_present": [],
+      "sample_ids": [],
+      "sample_names": [],
+      "surface_counts": {},
+      "resource_buckets": [
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 0
+    },
+    {
+      "path": "/home/zoltan/Projects/metasync/docs/research/practitioners/Metabolicum-Global-Practitioner-Social-Network-Mapping.html",
+      "project": "metasync",
+      "format": "html",
+      "size_bytes": 99604,
+      "line_count": 1934,
+      "practitioner_count": 0,
+      "fields_present": [],
+      "sample_ids": [],
+      "sample_names": [],
+      "surface_counts": {},
+      "resource_buckets": [
+        "web_resources",
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 0
+    },
+    {
+      "path": "/home/zoltan/Projects/metasync/docs/research/practitioners/MetabolicumGlobalPractitionerResearcherDirectory-v0.4.md",
+      "project": "metasync",
+      "format": "md",
+      "size_bytes": 32475,
+      "line_count": 540,
+      "practitioner_count": 0,
+      "fields_present": [],
+      "sample_ids": [],
+      "sample_names": [],
+      "surface_counts": {},
+      "resource_buckets": [
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 0
+    },
+    {
+      "path": "/home/zoltan/Projects/metasync/docs/research/practitioners/index.md",
+      "project": "metasync",
+      "format": "md",
+      "size_bytes": 276,
+      "line_count": 6,
+      "practitioner_count": 0,
+      "fields_present": [],
+      "sample_ids": [],
+      "sample_names": [],
+      "surface_counts": {},
+      "resource_buckets": [
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 0
+    },
+    {
+      "path": "/home/zoltan/Projects/metasync/docs/research/templates/mo-five-layer-evidence-template.md",
+      "project": "metasync",
+      "format": "md",
+      "size_bytes": 14214,
+      "line_count": 384,
+      "practitioner_count": 0,
+      "fields_present": [],
+      "sample_ids": [],
+      "sample_names": [],
+      "surface_counts": {},
+      "resource_buckets": [
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 0
+    },
+    {
+      "path": "/home/zoltan/Projects/metasync/docs/research/templates/mo-practitioner-consensus-template.md",
+      "project": "metasync",
+      "format": "md",
+      "size_bytes": 8276,
+      "line_count": 285,
+      "practitioner_count": 0,
+      "fields_present": [],
+      "sample_ids": [],
+      "sample_names": [],
+      "surface_counts": {},
+      "resource_buckets": [
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 0
+    },
+    {
+      "path": "/home/zoltan/Projects/metasync/docs/research/templates/pm-phenotype-context-template.md",
+      "project": "metasync",
+      "format": "md",
+      "size_bytes": 8418,
+      "line_count": 306,
+      "practitioner_count": 0,
+      "fields_present": [],
+      "sample_ids": [],
+      "sample_names": [],
+      "surface_counts": {},
+      "resource_buckets": [
+        "social_resources"
+      ],
+      "detected_terms": [
+        "\\bpractitioner(s)?\\b"
+      ],
+      "canonical_score": 0
+    }
+  ]
+}

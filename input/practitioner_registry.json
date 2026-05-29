@@ -1,4 +1,16 @@
 {
+  "canonical_notice": {
+    "status": "legacy_compatibility",
+    "date": "2026-05-29",
+    "canonical_directory": "/home/zoltan/Projects/metabolicum-agentic-research/input/practitioners",
+    "canonical_files": [
+      "practitioners.json",
+      "practitioner-marker-affinity.json",
+      "practitioner-web-resources.json",
+      "practitioner-social-resources.json"
+    ],
+    "note": "Do not use this file for new practitioner maintenance. Update the canonical files first, then regenerate compatibility artifacts when needed."
+  },
   "schema_version": "1",
   "generated_at": "2026-05-23T00:00:00Z",
   "source": "docs/agentic-workflow/16-practitioner-directory-system.md",
