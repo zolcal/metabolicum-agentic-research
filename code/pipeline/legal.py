@@ -8,7 +8,12 @@ reject/quarantine; only rows that clear them go to the LLM legal_reviewer
 
 from __future__ import annotations
 
+from pathlib import Path
 from typing import Any
+
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+LEGAL_PROMPT = PROJECT_ROOT / "prompts" / "05-legal-reviewer.md"
+_APPROVALS = {"approve", "approve_with_modification"}
 
 # Shadow libraries — "inherently, irredeemably infringing" (§07; Bartz v. Anthropic).
 _SHADOW = ("libgen", "library.lol", "z-lib", "zlibrary", "z-library", "pilimi", "books3", "annas-archive")
@@ -124,3 +129,47 @@ def build_legal_review_row(
         "eu_database_flag": decision.get("eu_database_flag"),
     }
     return {k: v for k, v in row.items() if v is not None}
+
+
+def run_legal_review(
+    claim: dict,
+    *,
+    source_type: str | None = None,
+    source_url: str | None = None,
+    license_value: str | None = None,
+    is_envelope_fact: bool = False,
+    reviewer_caller,
+    biomarker_claim_id: str | None = None,
+    source: dict | None = None,
+) -> dict[str, Any]:
+    """Deterministic hard pre-gates first; only rows that clear them go to the
+    LLM legal reviewer (prompt 05) via `reviewer_caller`. The LLM is authoritative
+    for cleared rows (it may downgrade approve→quarantine/reject), but can never
+    rescue a hard-gate failure. Returns the final decision + a legal_reviews row."""
+    gate = legal_pregate(claim, source_type=source_type, source_url=source_url,
+                         license_value=license_value, is_envelope_fact=is_envelope_fact)
+    if gate["decision"] not in _APPROVALS:
+        row = build_legal_review_row(biomarker_claim_id, gate, reviewer_model="deterministic-pre-gate")
+        return {"decision": gate["decision"], "legal_review_row": row, "via": "pre-gate", "called_llm": False}
+
+    system = LEGAL_PROMPT.read_text(encoding="utf-8")
+    user = {
+        "marker_recommendation": claim,
+        "source_artifact": source or {},
+        "license": license_value,
+        "source_type": source_type,
+    }
+    llm = reviewer_caller("legal_reviewer", system, user) or {}
+    final = {
+        "decision": llm.get("decision", gate["decision"]),
+        "rationale": llm.get("rationale") or gate["rationale"],
+        "applicable_rules": list(dict.fromkeys(
+            (gate.get("applicable_rules") or []) + (llm.get("applicable_rules") or []))),
+        "quote_length_check": gate.get("quote_length_check"),
+        "license_check": gate.get("license_check"),
+        "tos_check": gate.get("tos_check", True),
+        "feist_compilation_risk": llm.get("feist_compilation_risk", gate.get("feist_compilation_risk", "none")),
+        "eu_database_flag": llm.get("eu_database_flag", gate.get("eu_database_flag")),
+    }
+    row = build_legal_review_row(biomarker_claim_id, final, reviewer_model=llm.get("reviewer_model", "legal_reviewer"))
+    return {"decision": final["decision"], "legal_review_row": row, "via": "llm", "called_llm": True}
