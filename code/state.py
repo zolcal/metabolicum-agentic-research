@@ -22,6 +22,43 @@ from typing import Any
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 RUNS_DIR = PROJECT_ROOT / "runs"
 
+CANONICAL_STAGE_KEYS = {
+    "stage_1_discovery",
+    "stage_2_extraction",
+    "stage_2_tagging",
+    "stage_2_structuring",
+    "stage_3_council",
+    "stage_4_provenance",
+    "stage_5_legal",
+    "stage_6_assembly",
+}
+
+STAGE_SCHEMA_KEYS = {
+    "discovery": "stage_1_discovery",
+    "sources": "stage_2_extraction",
+    "council": "stage_3_council",
+    "provenance": "stage_4_provenance",
+    "legal": "stage_5_legal",
+    "assembly": "stage_6_assembly",
+}
+
+
+def _stage_schema_key(stage: str) -> str:
+    return STAGE_SCHEMA_KEYS.get(stage, stage)
+
+
+def _normalize_error(error: str | dict[str, Any] | None, status: str) -> dict[str, Any] | None:
+    if error is None:
+        return None
+    if isinstance(error, dict):
+        return error
+    code = "stage_error"
+    if status == "failed":
+        code = "stage_failed"
+    elif status == "quarantined":
+        code = "stage_quarantined"
+    return {"code": code, "message": str(error), "rejection_codes": []}
+
 
 class StageState:
     """Represents the state.json for a single pipeline stage."""
@@ -70,7 +107,7 @@ class PipelineRun:
     def create(cls, run_id: str | None = None) -> PipelineRun:
         """Create a new run directory with timestamp-based ID."""
         if run_id is None:
-            run_id = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+            run_id = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H%M%SZ")
         run_dir = RUNS_DIR / run_id
         run_dir.mkdir(parents=True, exist_ok=True)
 
@@ -124,7 +161,7 @@ class PipelineRun:
         model_endpoints: list[str] | None = None,
         tool_manifest: str | None = None,
         metrics: dict[str, Any] | None = None,
-        error: str | None = None,
+        error: str | dict[str, Any] | None = None,
     ) -> StageState:
         """Write or update state.json for a stage."""
         stage_dir = self.stage_dir(stage)
@@ -140,7 +177,7 @@ class PipelineRun:
         state_data = {
             "schema_version": "1",
             "run_id": self.run_id,
-            "stage": stage,
+            "stage": _stage_schema_key(stage),
             "status": status,
             "input_files": input_files or existing.get("input_files", []),
             "output_files": output_files or existing.get("output_files", []),
@@ -149,7 +186,7 @@ class PipelineRun:
             "model_endpoints": model_endpoints or existing.get("model_endpoints", []),
             "tool_manifest": tool_manifest or existing.get("tool_manifest", stage),
             "metrics": metrics or existing.get("metrics", {}),
-            "error": error,
+            "error": _normalize_error(error, status),
         }
 
         state_path.write_text(json.dumps(state_data, indent=2, default=str))

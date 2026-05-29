@@ -768,6 +768,13 @@ def discover_real_fixtures(markers: list[str], *, per_marker: int = 1) -> tuple[
     return selected, log
 
 
+
+def _project_relative(path: Path) -> str:
+    try:
+        return str(path.relative_to(PROJECT_ROOT))
+    except ValueError:
+        return str(path)
+
 def write_discovery_artifacts(fixtures: list[dict[str, Any]], log: list[dict[str, Any]], discovery_dir: Path) -> None:
     discovery_dir.mkdir(parents=True, exist_ok=True)
     ranked = []
@@ -793,22 +800,27 @@ def write_discovery_artifacts(fixtures: list[dict[str, Any]], log: list[dict[str
         })
     (discovery_dir / "web.json").write_text(json.dumps(log, indent=2, ensure_ascii=False) + "\n")
     (discovery_dir / "ranked_sources.json").write_text(json.dumps(ranked, indent=2, ensure_ascii=False) + "\n")
+    completed_at = now_utc()
     state = {
         "schema_version": "1",
         "run_id": discovery_dir.parent.name,
-        "stage": "stage_1_discovery_web",
+        "stage": "stage_1_discovery",
         "status": "completed" if fixtures else "quarantined",
-        "input_files": [str(REGISTRY_PATH.relative_to(PROJECT_ROOT))],
+        "input_files": [_project_relative(REGISTRY_PATH)],
         "output_files": [
-            str((discovery_dir / "web.json").relative_to(PROJECT_ROOT)),
-            str((discovery_dir / "ranked_sources.json").relative_to(PROJECT_ROOT)),
+            _project_relative(discovery_dir / "web.json"),
+            _project_relative(discovery_dir / "ranked_sources.json"),
         ],
-        "started_at": None,
-        "completed_at": now_utc(),
+        "started_at": completed_at,
+        "completed_at": completed_at,
         "model_endpoints": [],
         "tool_manifest": "stage_1_web_discovery",
         "metrics": {"sources_processed": len(fixtures), "claims_emitted": 0, "provider_calls": 0},
-        "error": None if fixtures else "no verified real public web fixtures discovered",
+        "error": None if fixtures else {
+            "code": "no_verified_sources",
+            "message": "no verified real public web fixtures discovered",
+            "rejection_codes": ["no_verified_real_public_web_fixtures"],
+        },
     }
     (discovery_dir / "state.json").write_text(json.dumps(state, indent=2) + "\n")
 
