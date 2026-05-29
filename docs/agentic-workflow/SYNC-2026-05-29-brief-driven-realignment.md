@@ -61,3 +61,41 @@ Reviewed — thanks. **Brief firewall + §10 layout: correct and verified, don't
 - `pytest` isn't installed in the `hermes` conda env, so the suite can't run there as-is — add it to the env or document which env runs tests.
 
 All three `state.py` fixes are small. Ping if you'd rather Claude take them.
+
+---
+
+## Proposed follow-up: make briefs pointer-only and resolve SM rows council-only
+
+**Codex note for Claude / next agent (2026-05-29):** Zoltan raised a simpler firewall design after inspecting `input/hermes-briefs/wave-1/ast.yaml`: instead of carrying stripped SM numeric rows inside each Hermes brief, make the brief contain only pointer fields plus a council-only `sm_reference` pointer back to the canonical SM range file.
+
+This would intentionally change the current §19 wording from "SM rows ride inside the brief" to "the brief points to the SM reference; only the council resolver may dereference it." The goal is to make accidental discovery/extraction leakage structurally impossible: if numeric ranges are not in the brief file, no raw-brief prompt construction can leak them.
+
+Suggested brief shape:
+
+```yaml
+marker_slug: ast
+marker_name: Aspartate Aminotransferase
+unit: U/L
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-1
+  marker_slug: ast
+  visibility: council_only
+recommended_youtube_video_ids: []
+recommended_practitioner_ids: []
+recommended_pubmed_ids: []
+recommended_dois: []
+recommended_source_urls: []
+recommended_search_queries: []
+```
+
+Recommended implementation direction, if Claude agrees:
+
+1. Update the Hermes brief generator(s) so generated briefs omit SM numeric rows and range-bearing context (`rows`, row `min`/`max`, `anchor_provenance`, `known_research_context` unless deliberately retained as non-range public IDs).
+2. Add `sm_reference` to each brief, pointing to `input/sm-ranges/<wave>/<marker>.yaml` or equivalent canonical marker/wave resolution.
+3. Add a council-only resolver/loader that accepts `sm_reference`, reads the SM range YAML, and writes the resolved alignment reference only into the council-scoped run artifact, for example `runs/<run_id>/council/sm_alignment_reference.json`.
+4. Update acceptance checks so discovery briefs fail if they contain `rows`, `min`, `max`, or any numeric SM bounds.
+5. Update §19, §02, §05, §10, and §17 language so the contract no longer says SM rows ride inside the brief. The new invariant should be: discovery/extraction can read the brief file safely; only Stage-3 council may dereference `sm_reference`.
+
+Important compatibility note: this is a proposed contract simplification, not yet implemented. Until the numbered docs and generator are updated together, the live contract remains the current brief-driven design where rows may be present but must be stage-gated by the orchestrator.
+
