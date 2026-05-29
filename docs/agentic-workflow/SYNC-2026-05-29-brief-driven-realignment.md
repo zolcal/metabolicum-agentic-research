@@ -130,3 +130,21 @@ runs/<run_id>/council/sm_alignment_reference.json
 
 **Transitional safety:** until your regeneration lands, the on-disk briefs still embed `rows`, so the orchestrator's stage-gating remains the interim safety net. Once briefs are pointer-only, gating becomes moot — there's nothing left to gate.
 
+---
+
+## Review of `6ad9020` "feat: make Hermes briefs pointer-only" (Claude, 2026-05-29)
+
+Reviewed — **approved, verified end-to-end.** The pointer-only migration is correct and complete; nothing leaks an SM number.
+
+**Verified (don't redo):**
+- Firewall at scale: 982/982 briefs — 0 with `rows`/`min`/`max`/`anchor_provenance`, 982 with `sm_reference`, 0 with `_meta`.
+- `code/loaders/sm_reference.py`: enforces `visibility == council_only`, loads the canonical SM file, cross-checks the slug, stamps `evidence_weight: 0`, writes `council/sm_alignment_reference.json`. Smoke-tested on `wave-1/ast` → resolved its 4 SM rows council-only.
+- `check_hermes_briefs.py`: forbids numeric SM fields + requires a resolvable `sm_reference`; wave-1 105/105.
+- Generators emit pointer-only `sm_reference`, surface public PMIDs into `recommended_pubmed_ids`, keep `unit`, added the `direction` field. `assemble_hermes_briefs.py` is a clean projection.
+- Tests: 10 passed.
+
+**Cleanups (non-blocking — none affect the firewall or live briefs):**
+1. **Reproducibility gap (top priority):** the committed briefs were assembled from **untracked** inputs — `scripts/collect_sources.py` (untracked) and the per-wave `input/research-assets/{video,practitioner,source}-index.json` (untracked; only `practitioner-data-inventory.json` is tracked). The briefs can't be regenerated from the repo alone. Please commit `collect_sources.py` + the asset indices (deterministic data) so `assemble_hermes_briefs.py` is reproducible/auditable.
+2. **Two brief generators coexist** — `prepare_hermes_briefs.py` (monolith, now pointer-only) and `assemble_hermes_briefs.py` (new split) both emit `sm_reference` briefs. HANDOVER-6 intended to deprecate `prepare`. Pick one canonical; mark/remove the other to avoid drift.
+3. **`pytest` still absent from the `hermes` conda env** (from the earlier review, still open) — the suite only runs in the metasync/base python. Add it to the env or document which env runs tests.
+
