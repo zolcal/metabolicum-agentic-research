@@ -37,9 +37,15 @@ def derive_status(
     should be emitted (refutes; or an unmappable shape held back for the report)."""
     if claim_polarity == "refutes":
         return None
-    if direction == "below" and target_range_high is not None and target_range_low is None:
+    # one-sided bound, expressed either as target_range_* or as target_value+direction
+    # (the extractor's native shape, e.g. "ApoB below 60" -> target_value=60)
+    if direction == "below" and target_range_low is None and (
+        target_range_high is not None or target_value is not None
+    ):
         return "target"
-    if direction == "above" and target_range_low is not None and target_range_high is None:
+    if direction == "above" and target_range_high is None and (
+        target_range_low is not None or target_value is not None
+    ):
         return "target"
     if direction == "between" and target_range_low is not None and target_range_high is not None:
         return "optimal" if paradigm == "MO" else "normal"
@@ -73,9 +79,14 @@ def build_range_fact(
     if status is None:
         return None
 
+    direction, tv = bc.get("direction"), bc.get("target_value")
     lo, hi = bc.get("target_range_low"), bc.get("target_range_high")
-    if bc.get("direction") == "at" and bc.get("target_value") is not None:
-        lo = hi = bc.get("target_value")
+    if direction == "at" and tv is not None:
+        lo = hi = tv
+    elif direction == "below" and hi is None and tv is not None:
+        hi = tv   # one-sided upper bound -> min:null, max:tv
+    elif direction == "above" and lo is None and tv is not None:
+        lo = tv   # one-sided lower bound -> min:tv, max:null
 
     pop = bc.get("population") or {}
     sub_grade = bc.get("evidence_sub_grade")
