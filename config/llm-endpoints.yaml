@@ -23,7 +23,7 @@
 #     extractor_backup       — used only when `extractor` endpoint fails
 #
 # Three-family council assignment (sign-off pass):
-#   council_extractor → openrouter-deepseek-v4-flash (DeepSeek family)
+#   council_extractor → deepseek-direct-chat (DeepSeek family, native API — not OpenRouter)
 #   council_reviewer  → openrouter-reviewer (Google family)
 #   council_decider   → openrouter-decider  (OpenAI family)
 #
@@ -365,8 +365,8 @@ endpoints:
     model: deepseek-chat              # legacy alias = non-thinking V4 Flash (per deepseek docs footnote 1); explicit guarantee of 0 reasoning tokens
     family: deepseek
     api_style: openai_compatible
-    active: true                      # cloud fallback for extractor role (gemma4-local is primary as of 2026-05-26)
-    roles: []                         # extractor role moved to gemma4-local 2026-05-26
+    active: true                      # Stage-3 council voice #1 (native DeepSeek API) + Stage-2 extractor failover
+    roles: [council_extractor]        # 2026-05-29 — moved here onto the native DEEPSEEK_API_KEY (not OpenRouter) per user directive
     failover_for: [extractor]         # if gemma4-local is down, extractor falls back here
     timeout_s: 180
     default_max_tokens: 4096          # non-thinking model, no reasoning token burn
@@ -402,9 +402,12 @@ endpoints:
       Max output: 384K (per pricing page), so no max_tokens starvation
       concerns even on the largest transcripts.
 
-      Council slot stays on openrouter-deepseek-v4-flash because the
-      single-claim re-verify task is small and the thinking-mode behavior
-      is a feature there, not a bug.
+      2026-05-29: council_extractor (Stage-3) moved here onto the native
+      DeepSeek API (DEEPSEEK_API_KEY), off OpenRouter, per user directive —
+      one DeepSeek account/key for both Stage-2 extraction and the Stage-3
+      council voice. Uses deepseek-chat (non-thinking); switch model to
+      deepseek-reasoner if thinking-mode re-verify is ever wanted. The
+      OpenRouter DeepSeek route is retained as failover_for: [council_extractor].
 
   openrouter-deepseek-v4-flash:
     base_url: https://openrouter.ai/api/v1
@@ -413,7 +416,8 @@ endpoints:
     family: deepseek
     api_style: openai_compatible
     active: true                                 # 2026-05-25 — 6/6 PASS on council fixtures (single-claim verify)
-    roles: [council_extractor]                   # Stage-3 council voice #1. `extractor` role moved to deepseek-direct-chat 2026-05-26 after OpenRouter's "flash" alias was found to be thinking-mode by default and produced 0-claim cold starts on lpa-size transcripts.
+    roles: []                                    # 2026-05-29 — DEMOTED: council_extractor moved to deepseek-direct-chat (native DEEPSEEK_API_KEY, not OpenRouter) per user directive.
+    failover_for: [council_extractor]            # native DeepSeek down -> fall back to the OpenRouter DeepSeek route
     timeout_s: 180
     default_max_tokens: 16384                    # raised 2026-05-26 — V4 Flash is a thinking model; 4096 starves reasoning + visible output on transcripts >10KB
     max_context: 128000
