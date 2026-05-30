@@ -6,6 +6,8 @@ sm_reference:
   marker_slug: globulin
   visibility: council_only
 unit: g/dL
+mo_supported: true
+mo_rationale: 'MO-relevant: category ''liver-function'''
 recommended_videos:
 - video_id: aRYXTpEOw1U
   score: 19
@@ -69,7 +71,20 @@ recommended_youtube_video_ids:
 - fXdiWW3aq80
 - jo4MvvUQC2k
 recommended_practitioner_ids:
+- person:allan-sniderman
+- person:anthony-chaffee
+- person:aseem-malhotra
+- person:bret-scher
+- person:dave-feldman
+- person:nick-norwitz
+- person:paul-mason
 - person:paul-saladino
+- person:peter-attia
+- person:rangan-chatterjee
+- person:sten-ekberg
+- person:thomas-dayspring
+- person:william-davis
+- person:zoe-harcombe
 recommended_pubmed_ids:
 - '26609491'
 - '33289935'

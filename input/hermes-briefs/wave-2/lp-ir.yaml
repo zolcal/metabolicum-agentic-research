@@ -6,6 +6,8 @@ sm_reference:
   marker_slug: lp-ir
   visibility: council_only
 unit: Score 0-100
+mo_supported: true
+mo_rationale: 'MO-relevant: category ''lipid-panel'''
 recommended_videos:
 - video_id: l7jW_5DOwQs
   score: 21

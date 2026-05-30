@@ -6,6 +6,8 @@ sm_reference:
   marker_slug: remnant-c
   visibility: council_only
 unit: mg/dL
+mo_supported: true
+mo_rationale: 'MO-relevant: category ''lipid-panel'''
 recommended_videos: []
 recommended_youtube_video_ids: []
 recommended_practitioner_ids:

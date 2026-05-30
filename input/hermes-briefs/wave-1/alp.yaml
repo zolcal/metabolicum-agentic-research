@@ -6,6 +6,8 @@ sm_reference:
   marker_slug: alp
   visibility: council_only
 unit: U/L
+mo_supported: true
+mo_rationale: 'MO-relevant: category ''liver-function'''
 recommended_videos:
 - video_id: vJFozt4pytg
   score: 14
@@ -46,7 +48,20 @@ recommended_youtube_video_ids:
 - x7cPrE8-_Os
 - Fi0YjY8HmYY
 recommended_practitioner_ids:
+- person:allan-sniderman
+- person:anthony-chaffee
+- person:aseem-malhotra
+- person:bret-scher
+- person:dave-feldman
+- person:nick-norwitz
+- person:paul-mason
 - person:paul-saladino
+- person:peter-attia
+- person:rangan-chatterjee
+- person:sten-ekberg
+- person:thomas-dayspring
+- person:william-davis
+- person:zoe-harcombe
 recommended_pubmed_ids: []
 recommended_dois: []
 recommended_source_urls:

@@ -1,31 +1,35 @@
 {
   "wave": "wave-2b",
-  "in_scope": 36,
-  "out_of_scope_pruned": 54,
-  "markers_processed": 36,
+  "supported": 37,
+  "not_supported": 53,
+  "markers_processed": 90,
   "markers": {
     "1-5-anhydroglucitol": {
+      "mo_supported": true,
       "videos": 0,
-      "practitioners": 49,
+      "practitioners": 55,
       "pubmed_ids": 4,
       "dois": 0,
       "source_urls": 0
     },
     "5-nt": {
+      "mo_supported": true,
       "videos": 0,
-      "practitioners": 1,
+      "practitioners": 14,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 0
     },
     "5-nucleotidase": {
+      "mo_supported": true,
       "videos": 0,
-      "practitioners": 1,
+      "practitioners": 14,
       "pubmed_ids": 1,
       "dois": 0,
       "source_urls": 0
     },
     "adenosine-deaminase-csf": {
+      "mo_supported": true,
       "videos": 0,
       "practitioners": 3,
       "pubmed_ids": 6,
@@ -33,6 +37,7 @@
       "source_urls": 0
     },
     "adenosine-deaminase-pericardial-fluid": {
+      "mo_supported": true,
       "videos": 0,
       "practitioners": 3,
       "pubmed_ids": 5,
@@ -40,6 +45,7 @@
       "source_urls": 0
     },
     "adenosine-deaminase-peritoneal-fluid": {
+      "mo_supported": true,
       "videos": 0,
       "practitioners": 3,
       "pubmed_ids": 5,
@@ -47,6 +53,7 @@
       "source_urls": 0
     },
     "adenosine-deaminase-pleural-fluid": {
+      "mo_supported": true,
       "videos": 0,
       "practitioners": 3,
       "pubmed_ids": 5,
@@ -54,6 +61,7 @@
       "source_urls": 0
     },
     "adenosine-deaminase": {
+      "mo_supported": true,
       "videos": 0,
       "practitioners": 3,
       "pubmed_ids": 4,
@@ -61,20 +69,23 @@
       "source_urls": 0
     },
     "albumin-2": {
+      "mo_supported": true,
       "videos": 0,
-      "practitioners": 1,
+      "practitioners": 14,
       "pubmed_ids": 2,
       "dois": 0,
       "source_urls": 0
     },
     "albumin-3": {
+      "mo_supported": true,
       "videos": 0,
-      "practitioners": 1,
+      "practitioners": 14,
       "pubmed_ids": 3,
       "dois": 0,
       "source_urls": 0
     },
     "aldosterone-2": {
+      "mo_supported": true,
       "videos": 0,
       "practitioners": 0,
       "pubmed_ids": 0,
@@ -82,48 +93,183 @@
       "source_urls": 0
     },
     "aldosterone": {
+      "mo_supported": true,
       "videos": 13,
       "practitioners": 0,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 0
     },
-    "ammonia-4": {
+    "alpha-1-fetoprotein-csf": {
+      "mo_supported": false,
       "videos": 0,
-      "practitioners": 1,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "alpha-1-fetoprotein": {
+      "mo_supported": false,
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "amikacin-peak": {
+      "mo_supported": false,
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "amikacin-trough": {
+      "mo_supported": false,
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "amikacin": {
+      "mo_supported": false,
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "ammonia-4": {
+      "mo_supported": true,
+      "videos": 0,
+      "practitioners": 14,
       "pubmed_ids": 1,
       "dois": 0,
       "source_urls": 0
     },
     "amylase-2": {
+      "mo_supported": true,
       "videos": 0,
-      "practitioners": 1,
+      "practitioners": 14,
       "pubmed_ids": 6,
       "dois": 0,
       "source_urls": 0
     },
     "amylase": {
+      "mo_supported": true,
       "videos": 0,
-      "practitioners": 1,
+      "practitioners": 14,
       "pubmed_ids": 6,
       "dois": 0,
       "source_urls": 0
     },
     "angiotensin-converting-enzyme-csf": {
+      "mo_supported": true,
       "videos": 0,
-      "practitioners": 1,
+      "practitioners": 14,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 0
     },
     "angiotensin-converting-enzyme": {
+      "mo_supported": true,
       "videos": 0,
-      "practitioners": 1,
+      "practitioners": 14,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "beryllium-2": {
+      "mo_supported": false,
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "beta-2-microglobulin-urine": {
+      "mo_supported": false,
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "beta2m-2": {
+      "mo_supported": false,
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "beta2m": {
+      "mo_supported": false,
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "bk-virus-dna-urine": {
+      "mo_supported": false,
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "bk-virus-dna": {
+      "mo_supported": false,
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "ca": {
+      "mo_supported": false,
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "calcium-urine": {
+      "mo_supported": false,
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "chloride-3": {
+      "mo_supported": false,
+      "videos": 0,
+      "practitioners": 0,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 0
     },
     "choriogonadotropin-beta-subunit-csf": {
+      "mo_supported": true,
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "chromium-2": {
+      "mo_supported": false,
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "cobalt-2": {
+      "mo_supported": false,
       "videos": 0,
       "practitioners": 0,
       "pubmed_ids": 0,
@@ -131,6 +277,7 @@
       "source_urls": 0
     },
     "coq10": {
+      "mo_supported": true,
       "videos": 30,
       "practitioners": 6,
       "pubmed_ids": 0,
@@ -138,34 +285,135 @@
       "source_urls": 0
     },
     "cortisol-am": {
+      "mo_supported": true,
       "videos": 30,
       "practitioners": 0,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 0
     },
-    "glucose-2": {
+    "cortisol-saliva": {
+      "mo_supported": true,
       "videos": 0,
-      "practitioners": 49,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "cu-3": {
+      "mo_supported": false,
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "cu": {
+      "mo_supported": false,
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "eastern-equine-encephalitis-virus-ab-igg-csf": {
+      "mo_supported": false,
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "eastern-equine-encephalitis-virus-ab-igg": {
+      "mo_supported": false,
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "enolase-neuron-specific-csf": {
+      "mo_supported": false,
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "enolase-neuron-specific": {
+      "mo_supported": false,
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "gentamicin-peak": {
+      "mo_supported": false,
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "gentamicin-trough": {
+      "mo_supported": false,
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "gentamicin": {
+      "mo_supported": false,
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "glucose-2": {
+      "mo_supported": true,
+      "videos": 0,
+      "practitioners": 55,
       "pubmed_ids": 2,
       "dois": 0,
       "source_urls": 0
     },
     "glucose-csf": {
+      "mo_supported": true,
       "videos": 0,
-      "practitioners": 49,
+      "practitioners": 55,
       "pubmed_ids": 2,
       "dois": 0,
       "source_urls": 0
     },
     "glucose-post-cfst": {
+      "mo_supported": true,
       "videos": 0,
-      "practitioners": 49,
+      "practitioners": 55,
       "pubmed_ids": 5,
       "dois": 0,
       "source_urls": 0
     },
+    "glutamate-decarboxylase-65-ab-csf": {
+      "mo_supported": false,
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "hemoglobin-4": {
+      "mo_supported": false,
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
     "histamine-2": {
+      "mo_supported": true,
       "videos": 0,
       "practitioners": 0,
       "pubmed_ids": 0,
@@ -173,6 +421,55 @@
       "source_urls": 0
     },
     "histamine-3": {
+      "mo_supported": true,
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "iga-csf": {
+      "mo_supported": false,
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "iga": {
+      "mo_supported": false,
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "igg-csf": {
+      "mo_supported": false,
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "igg": {
+      "mo_supported": false,
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "igm-csf": {
+      "mo_supported": false,
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "igm": {
+      "mo_supported": false,
       "videos": 0,
       "practitioners": 0,
       "pubmed_ids": 0,
@@ -180,13 +477,15 @@
       "source_urls": 0
     },
     "insulin-post-cfst": {
+      "mo_supported": true,
       "videos": 0,
-      "practitioners": 49,
+      "practitioners": 55,
       "pubmed_ids": 3,
       "dois": 0,
       "source_urls": 0
     },
     "interleukin-10-csf": {
+      "mo_supported": true,
       "videos": 0,
       "practitioners": 3,
       "pubmed_ids": 0,
@@ -194,34 +493,135 @@
       "source_urls": 0
     },
     "lactate-2": {
+      "mo_supported": true,
       "videos": 0,
-      "practitioners": 1,
+      "practitioners": 14,
       "pubmed_ids": 3,
       "dois": 0,
       "source_urls": 0
     },
     "lactate": {
+      "mo_supported": true,
       "videos": 30,
-      "practitioners": 1,
+      "practitioners": 14,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "magnesium-serum-2": {
+      "mo_supported": false,
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "magnesium": {
+      "mo_supported": false,
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "manganese-2": {
+      "mo_supported": false,
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "measles-virus-ab-igg-csf": {
+      "mo_supported": false,
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "measles-virus-ab-igg": {
+      "mo_supported": false,
+      "videos": 0,
+      "practitioners": 0,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 0
     },
     "mma-2": {
+      "mo_supported": true,
       "videos": 0,
       "practitioners": 0,
       "pubmed_ids": 2,
       "dois": 0,
       "source_urls": 0
     },
+    "molybdenum-2": {
+      "mo_supported": false,
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "molybdenum": {
+      "mo_supported": false,
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "plasminogen-activator-inhibitor-1-ag-2": {
+      "mo_supported": false,
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "plasminogen-activator-inhibitor-1-ag": {
+      "mo_supported": false,
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
     "procalcitonin": {
+      "mo_supported": true,
       "videos": 0,
       "practitioners": 3,
       "pubmed_ids": 3,
       "dois": 0,
       "source_urls": 0
     },
+    "pyruvate-3": {
+      "mo_supported": false,
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "pyruvate": {
+      "mo_supported": false,
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "selenium-2": {
+      "mo_supported": false,
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
     "serotonin-2": {
+      "mo_supported": true,
       "videos": 0,
       "practitioners": 0,
       "pubmed_ids": 0,
@@ -229,6 +629,7 @@
       "source_urls": 0
     },
     "serotonin": {
+      "mo_supported": true,
       "videos": 0,
       "practitioners": 0,
       "pubmed_ids": 0,
@@ -236,6 +637,7 @@
       "source_urls": 0
     },
     "somatotropin-baseline": {
+      "mo_supported": true,
       "videos": 0,
       "practitioners": 0,
       "pubmed_ids": 0,
@@ -243,15 +645,81 @@
       "source_urls": 0
     },
     "somatotropin": {
+      "mo_supported": true,
       "videos": 0,
       "practitioners": 0,
       "pubmed_ids": 1,
       "dois": 0,
       "source_urls": 0
     },
+    "tobramycin-peak": {
+      "mo_supported": false,
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "tobramycin-trough": {
+      "mo_supported": false,
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "tobramycin": {
+      "mo_supported": false,
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
     "ubiquinone-10": {
+      "mo_supported": true,
       "videos": 0,
       "practitioners": 6,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "vancomycin-peak": {
+      "mo_supported": false,
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "vancomycin-trough": {
+      "mo_supported": false,
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "vancomycin": {
+      "mo_supported": false,
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "zn-2": {
+      "mo_supported": false,
+      "videos": 0,
+      "practitioners": 0,
+      "pubmed_ids": 0,
+      "dois": 0,
+      "source_urls": 0
+    },
+    "zn": {
+      "mo_supported": false,
+      "videos": 0,
+      "practitioners": 0,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 0

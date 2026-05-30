@@ -76,6 +76,21 @@ def main() -> None:
             apob = res["markers"]["apob"]
             assert apob["range_facts"][0]["biomarker_claim_id"] == apob["biomarker_claims"][0]["id"]
 
+            # MO determination: the wave run attaches the record per marker. wave-0 markers
+            # are MO-supported, so apob carries mo_supported=True (researched, not pass-through).
+            assert apob["mo_determination"]["marker_slug"] == "apob"
+            assert apob["mo_determination"]["mo_supported"] is True
+
+            # not_supported pass-through: the determination is set and the council is SKIPPED
+            # (no claims/range_facts) even though the role_caller would have approved.
+            passthrough = orchestrate.run_marker_live(
+                "ferritin", [claim], sm_rows=[],
+                source_for=source_for, role_caller=role_caller,
+                legal_reviewer_caller=legal_caller, fetcher=fetcher, legal_inputs_for=legal_inputs_for,
+                mo_supported=False, mo_rationale="no MO dimension — category 'iron-metabolism'")
+            assert passthrough["mo_determination"]["mo_supported"] is False
+            assert passthrough["biomarker_claims"] == [] and passthrough["range_facts"] == []
+
             st = json.loads((rd / "council" / "state.json").read_text())
             assert st["schema_version"] == "1" and st["stage"] == "stage_3_council"
 

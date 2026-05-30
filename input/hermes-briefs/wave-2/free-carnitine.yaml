@@ -6,6 +6,8 @@ sm_reference:
   marker_slug: free-carnitine
   visibility: council_only
 unit: μmol/L
+mo_supported: true
+mo_rationale: 'MO-relevant: category ''micronutrients'''
 recommended_videos:
 - video_id: TiJSmTNfGak
   score: 19

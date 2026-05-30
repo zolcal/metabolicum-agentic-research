@@ -6,6 +6,8 @@ sm_reference:
   marker_slug: adenosine-deaminase-peritoneal-fluid
   visibility: council_only
 unit: IU/L
+mo_supported: true
+mo_rationale: 'MO-relevant: category ''inflammatory'''
 recommended_videos: []
 recommended_youtube_video_ids: []
 recommended_practitioner_ids:

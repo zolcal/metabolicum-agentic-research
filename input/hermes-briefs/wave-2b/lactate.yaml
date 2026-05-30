@@ -6,6 +6,8 @@ sm_reference:
   marker_slug: lactate
   visibility: council_only
 unit: mg/dL
+mo_supported: true
+mo_rationale: 'MO-relevant: category ''liver-function'''
 recommended_videos:
 - video_id: l6FhO_zcXAM
   score: 27
@@ -169,7 +171,20 @@ recommended_youtube_video_ids:
 - JYGtao17cxo
 - LAtgt5NYygo
 recommended_practitioner_ids:
+- person:allan-sniderman
+- person:anthony-chaffee
+- person:aseem-malhotra
+- person:bret-scher
+- person:dave-feldman
+- person:nick-norwitz
+- person:paul-mason
 - person:paul-saladino
+- person:peter-attia
+- person:rangan-chatterjee
+- person:sten-ekberg
+- person:thomas-dayspring
+- person:william-davis
+- person:zoe-harcombe
 recommended_pubmed_ids: []
 recommended_dois: []
 recommended_source_urls: []

@@ -6,6 +6,8 @@ sm_reference:
   marker_slug: hba1c
   visibility: council_only
 unit: '%'
+mo_supported: true
+mo_rationale: 'MO-relevant: category ''glycemic-insulin'''
 recommended_videos:
 - video_id: Oo8eVnXisTI
   score: 28

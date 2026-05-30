@@ -6,6 +6,8 @@ sm_reference:
   marker_slug: shbg
   visibility: council_only
 unit: nmol/L
+mo_supported: true
+mo_rationale: 'MO-relevant: category ''hormones'''
 recommended_videos:
 - video_id: O64j4uC8diA
   score: 21

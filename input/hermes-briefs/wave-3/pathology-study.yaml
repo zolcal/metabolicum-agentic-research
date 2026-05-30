@@ -1,0 +1,17 @@
+marker_slug: pathology-study
+marker_name: Pathology study
+schema_version: hermes-brief-1
+sm_reference:
+  wave: wave-3
+  marker_slug: pathology-study
+  visibility: council_only
+unit: µg/g of tissue
+mo_supported: false
+mo_rationale: no MO dimension — category 'specialty' (taxonomy assessment 2026-05-30)
+recommended_videos: []
+recommended_youtube_video_ids: []
+recommended_practitioner_ids: []
+recommended_pubmed_ids: []
+recommended_dois: []
+recommended_source_urls: []
+recommended_search_queries: []

@@ -6,6 +6,8 @@ sm_reference:
   marker_slug: renin
   visibility: council_only
 unit: ng/mL/hr
+mo_supported: true
+mo_rationale: 'MO-relevant: category ''hormones'''
 recommended_videos:
 - video_id: J2EmXZEl_hY
   score: 11

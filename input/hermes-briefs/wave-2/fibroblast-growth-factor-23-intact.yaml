@@ -6,6 +6,8 @@ sm_reference:
   marker_slug: fibroblast-growth-factor-23-intact
   visibility: council_only
 unit: pg/mL
+mo_supported: true
+mo_rationale: 'MO-relevant: category ''bone-metabolism'''
 recommended_videos: []
 recommended_youtube_video_ids: []
 recommended_practitioner_ids: []

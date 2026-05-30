@@ -37,6 +37,9 @@ class FakeDB:
     def insert_quarantine(self, d):
         self.calls.append(("quarantine", d)); return d
 
+    def upsert_mo_determination(self, d):
+        self.calls.append(("mo_determination", d)); return d
+
 
 def main() -> None:
     from code.pipeline import persist
@@ -64,6 +67,30 @@ def main() -> None:
     out2 = persist.persist_marker_result(db2, result, dry_run=True)
     assert out2["written"] == 0 and db2.calls == []
     assert out2["counts"] == out["counts"]
+
+    # mo_determination: written via upsert_mo_determination; the Hermes pipeline creates
+    # the record on every run (researched OR pass-through), so it counts as a write.
+    det = {"marker_slug": "apob", "mo_supported": True, "mo_rationale": "MO-relevant: category 'lipid'"}
+    db3 = FakeDB()
+    out3 = persist.persist_marker_result(db3, {**result, "mo_determination": det}, dry_run=False)
+    assert ("mo_determination", det) in db3.calls, db3.calls
+    assert out3["counts"]["mo_determination"] == 1, out3
+    assert out3["written"] == 5, out3  # 4 rows + 1 determination
+
+    # not_supported pass-through: ONLY the determination row is written (no research)
+    passthrough = {"marker": "ferritin",
+                   "mo_determination": {"marker_slug": "ferritin", "mo_supported": False,
+                                        "mo_rationale": "no MO dimension — category 'iron-metabolism'"}}
+    db4 = FakeDB()
+    out4 = persist.persist_marker_result(db4, passthrough, dry_run=False)
+    assert db4.calls == [("mo_determination", passthrough["mo_determination"])], db4.calls
+    assert out4["written"] == 1, out4
+
+    # dry-run: determination is planned (count=1) but not written
+    db5 = FakeDB()
+    out5 = persist.persist_marker_result(db5, {**result, "mo_determination": det}, dry_run=True)
+    assert out5["written"] == 0 and db5.calls == []
+    assert out5["counts"]["mo_determination"] == 1, out5
 
     print("check_persist_contract: all assertions passed")
 

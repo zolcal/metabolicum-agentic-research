@@ -6,6 +6,8 @@ sm_reference:
   marker_slug: stfr
   visibility: council_only
 unit: mg/L
+mo_supported: true
+mo_rationale: 'MO-relevant: category ''iron-anemia'''
 recommended_videos: []
 recommended_youtube_video_ids: []
 recommended_practitioner_ids:

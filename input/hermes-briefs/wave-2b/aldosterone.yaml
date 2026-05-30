@@ -6,6 +6,8 @@ sm_reference:
   marker_slug: aldosterone
   visibility: council_only
 unit: ng/dL
+mo_supported: true
+mo_rationale: 'MO-relevant: category ''hormones'''
 recommended_videos:
 - video_id: F_b4HOXs8ew
   score: 18

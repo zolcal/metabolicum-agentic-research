@@ -6,6 +6,8 @@ sm_reference:
   marker_slug: reverse-t3
   visibility: council_only
 unit: ng/dL
+mo_supported: true
+mo_rationale: 'MO-relevant: category ''thyroid'''
 recommended_videos:
 - video_id: Sgn8wQ0uzUM
   score: 19

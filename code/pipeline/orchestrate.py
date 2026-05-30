@@ -162,13 +162,28 @@ def run_marker_live(
     legal_reviewer_caller: Any,
     fetcher: Any,
     legal_inputs_for: Callable[[dict], dict],
+    mo_supported: bool | None = None,
+    mo_rationale: str | None = None,
 ) -> dict[str, Any]:
     """Live per-marker chain: council (LLM) -> provenance (live fetch) -> legal
-    (LLM) -> assembly. SM rows go only to the council via run_council_pass."""
+    (LLM) -> assembly. SM rows go only to the council via run_council_pass.
+
+    The brief's binary MO-support determination (mo_supported/mo_rationale) is recorded
+    as `mo_determination` on the result — Hermes creates this record on its run. When
+    mo_supported is False the marker is a pass-through: the determination is set and the
+    council/research chain is SKIPPED (no claims processed). mo_supported=None (callers
+    that don't carry the determination, e.g. offline contracts) runs unchanged.
+    """
     out: dict[str, Any] = {
         "marker": marker, "biomarker_claims": [], "range_facts": [], "provenance": [],
         "legal_reviews": [], "research_studies": [], "quarantine": [],
     }
+    if mo_supported is not None:
+        out["mo_determination"] = {
+            "marker_slug": marker, "mo_supported": bool(mo_supported), "mo_rationale": mo_rationale,
+        }
+    if mo_supported is False:
+        return out  # not_supported pass-through — honor the determination, run no research
     range_order = 0
     for i, claim in enumerate(claims):
         bcid = f"{marker}-bc-{i + 1}"
@@ -262,7 +277,8 @@ def run_wave_live(
             marker, claims_by_marker.get(marker, []), sm_rows,
             source_for=source_for, role_caller=role_caller,
             legal_reviewer_caller=legal_reviewer_caller, fetcher=fetcher,
-            legal_inputs_for=legal_inputs_for)
+            legal_inputs_for=legal_inputs_for,
+            mo_supported=b.get("mo_supported"), mo_rationale=b.get("mo_rationale"))
         results[marker] = res
         accepted_all.extend(res["biomarker_claims"])
         rejected_all.extend(res["quarantine"])

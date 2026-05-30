@@ -6,6 +6,8 @@ sm_reference:
   marker_slug: adiponectin
   visibility: council_only
 unit: μg/mL
+mo_supported: true
+mo_rationale: 'MO-relevant: category ''inflammatory'''
 recommended_videos:
 - video_id: VOMalVh-vKc
   score: 11

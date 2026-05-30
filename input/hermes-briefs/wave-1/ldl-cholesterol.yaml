@@ -6,6 +6,8 @@ sm_reference:
   marker_slug: ldl-cholesterol
   visibility: council_only
 unit: mg/dL
+mo_supported: true
+mo_rationale: 'MO-relevant: category ''lipid-panel'''
 recommended_videos:
 - video_id: cyowfTbq3oY
   score: 31

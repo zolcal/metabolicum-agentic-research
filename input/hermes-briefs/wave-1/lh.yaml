@@ -6,6 +6,8 @@ sm_reference:
   marker_slug: lh
   visibility: council_only
 unit: mIU/mL
+mo_supported: true
+mo_rationale: 'MO-relevant: category ''hormones'''
 recommended_videos:
 - video_id: 6AUHMQzo5F4
   score: 18

@@ -6,6 +6,8 @@ sm_reference:
   marker_slug: ferritin
   visibility: council_only
 unit: ng/mL
+mo_supported: true
+mo_rationale: 'MO-relevant: category ''inflammatory'''
 recommended_videos:
 - video_id: HEASD4CBKfs
   score: 21

@@ -6,6 +6,8 @@ sm_reference:
   marker_slug: mma
   visibility: council_only
 unit: nmol/L
+mo_supported: true
+mo_rationale: 'MO-relevant: category ''micronutrients'''
 recommended_videos:
 - video_id: ZQ9P0JCW8v0
   score: 28

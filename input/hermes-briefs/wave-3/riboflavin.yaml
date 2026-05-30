@@ -6,6 +6,8 @@ sm_reference:
   marker_slug: riboflavin
   visibility: council_only
 unit: nmol/L
+mo_supported: true
+mo_rationale: 'MO-relevant: category ''micronutrients'''
 recommended_videos: []
 recommended_youtube_video_ids: []
 recommended_practitioner_ids:

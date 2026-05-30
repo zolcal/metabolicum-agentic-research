@@ -6,6 +6,8 @@ sm_reference:
   marker_slug: uric-acid
   visibility: council_only
 unit: mg/dL
+mo_supported: true
+mo_rationale: 'MO-relevant: category ''inflammatory'''
 recommended_videos:
 - video_id: IZhi4JXxy6Y
   score: 25
@@ -175,13 +177,17 @@ recommended_practitioner_ids:
 - network:hungarian-diabetes-association
 - network:hungarian-low-carb-clinician-network
 - network:public-health-collaboration
+- person:allan-sniderman
 - person:andreas-eenfeldt
 - person:andrew-huberman
 - person:anthony-chaffee
+- person:aseem-malhotra
 - person:benjamin-bikman
+- person:bret-scher
 - person:brian-lamkin
 - person:casey-means
 - person:dale-bredesen
+- person:dave-feldman
 - person:david-harper
 - person:david-ludwig
 - person:david-perlmutter
@@ -194,9 +200,13 @@ recommended_practitioner_ids:
 - person:jonathan-little
 - person:joseph-kraft
 - person:joseph-mercola
+- person:margaret-ashwell
 - person:mark-hyman
 - person:megan-ramos
 - person:michael-mosley
+- person:nick-norwitz
+- person:paul-mason
+- person:paul-saladino
 - person:peter-attia
 - person:peter-brukner
 - person:rangan-chatterjee
@@ -208,7 +218,9 @@ recommended_practitioner_ids:
 - person:stephen-phinney
 - person:steven-gundry
 - person:ted-naiman
+- person:thomas-dayspring
 - person:tim-noakes
+- person:william-davis
 - person:zoe-harcombe
 - person:zoltan-szabo
 - researchgroup:csiro

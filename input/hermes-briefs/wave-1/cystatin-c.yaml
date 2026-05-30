@@ -6,6 +6,8 @@ sm_reference:
   marker_slug: cystatin-c
   visibility: council_only
 unit: mg/L
+mo_supported: true
+mo_rationale: 'MO-relevant: category ''kidney-function'''
 recommended_videos:
 - video_id: SgKp5mm0ALI
   score: 13

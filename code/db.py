@@ -448,6 +448,19 @@ class DBClient:
             result = self._client.table("research_studies").insert(data).execute()
         return result.data[0] if result.data else {}
 
+    # ── MO determination ─────────────────────────────────────────
+
+    def upsert_mo_determination(self, data: dict[str, Any]) -> dict[str, Any]:
+        """Persist a marker's binary MO-support determination (overridable on re-research).
+
+        The Hermes pipeline creates this record on every run — researched markers and
+        not_supported pass-throughs alike. Keyed by marker_slug.
+        """
+        result = self._client.table("marker_mo_determination").upsert(
+            data, on_conflict="marker_slug"
+        ).execute()
+        return result.data[0] if result.data else {}
+
     # ── Stage 3-6 additions (provenance / legal / council eval) ──
 
     def insert_provenance(self, data: dict[str, Any]) -> dict[str, Any]:

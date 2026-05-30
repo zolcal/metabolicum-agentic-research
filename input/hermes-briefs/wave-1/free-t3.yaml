@@ -6,6 +6,8 @@ sm_reference:
   marker_slug: free-t3
   visibility: council_only
 unit: pg/mL
+mo_supported: true
+mo_rationale: 'MO-relevant: category ''thyroid'''
 recommended_videos:
 - video_id: kzrpQK5iD0c
   score: 18

@@ -6,6 +6,8 @@ sm_reference:
   marker_slug: prolactin
   visibility: council_only
 unit: ng/mL
+mo_supported: true
+mo_rationale: 'MO-relevant: category ''hormones'''
 recommended_videos:
 - video_id: vA50EK70whE
   score: 21

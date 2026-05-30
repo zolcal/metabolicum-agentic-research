@@ -104,6 +104,37 @@ def in_scope(slug: str) -> bool:
     return bool(set(categories_for(slug)) & _in_scope_categories())
 
 
+# QA-confirmed false exclusions (excluded-markers assessment 2026-05-30): MO-supported
+# despite an out-of-scope primary category.
+_FALSE_EXCLUSIONS = {
+    "nlr": "neutrophil-lymphocyte ratio — systemic-inflammation marker tracked in MO",
+    "plr": "platelet-lymphocyte ratio — systemic-inflammation marker tracked in MO",
+    "sii": "systemic immune-inflammation index — used by MO clinicians",
+    "magnesium-serum": "magnesium actively optimized by MO practitioners",
+    "rbc-magnesium": "RBC magnesium — functional tissue-Mg status, MO-optimized",
+    "urine-iodine": "iodine micronutrient — functional/thyroid optimization target",
+    "calprotectin": "fecal calprotectin — targeted low by functional-medicine",
+    "cortisol-saliva": "salivary cortisol — HPA-axis / cortisol-awakening optimization",
+}
+
+
+def mo_status(slug: str) -> tuple[bool, str]:
+    """Binary MO-paradigm support determination + one-line rationale (overridable).
+
+    Supported iff a ground-truth category is MO-in-scope, or the marker is a QA-confirmed
+    false-exclusion. The brief carries this; the Hermes pipeline writes it to the DB.
+    """
+    canon = resolve_slug(slug) or slug
+    cats = set(next((m.get("categories") or [] for m in load()["markers"] if m["slug"] == canon), []))
+    hit = sorted(cats & _in_scope_categories())
+    if hit:
+        return True, f"MO-relevant: category '{hit[0]}'"
+    if canon in _FALSE_EXCLUSIONS:
+        return True, f"MO-relevant (false-exclusion corrected): {_FALSE_EXCLUSIONS[canon]}"
+    pc = next((m.get("primary_category") for m in load()["markers"] if m["slug"] == canon), None) or "uncategorized"
+    return False, f"no MO dimension — category '{pc}' (taxonomy assessment 2026-05-30)"
+
+
 @functools.lru_cache(maxsize=1)
 def markers_by_category() -> dict[str, list[str]]:
     out: dict[str, list[str]] = {}

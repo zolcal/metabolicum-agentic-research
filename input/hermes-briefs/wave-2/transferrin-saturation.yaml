@@ -6,6 +6,8 @@ sm_reference:
   marker_slug: transferrin-saturation
   visibility: council_only
 unit: '%'
+mo_supported: true
+mo_rationale: 'MO-relevant: category ''iron-anemia'''
 recommended_videos:
 - video_id: SgKp5mm0ALI
   score: 13

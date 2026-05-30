@@ -53,6 +53,7 @@ def _default_legal_inputs_for(claim: dict) -> dict:
 def run_marker_live_session(
     marker: str, claims: list[dict], sm_rows: list[dict], *,
     llm: LLMClient | None = None, fetcher=None, db=None, dry_run_persist: bool = True,
+    mo_supported: bool | None = None, mo_rationale: str | None = None,
 ):
     llm = llm or LLMClient()
     caller = make_role_caller(llm)
@@ -60,6 +61,7 @@ def run_marker_live_session(
         marker, claims, sm_rows,
         source_for=_default_source_for, role_caller=caller, legal_reviewer_caller=caller,
         fetcher=fetcher or provenance.live_fetcher, legal_inputs_for=_default_legal_inputs_for,
+        mo_supported=mo_supported, mo_rationale=mo_rationale,
     )
     persisted = (persist.persist_marker_result(db, res, dry_run=dry_run_persist)
                  if db is not None else {"skipped": "no db client"})
@@ -94,7 +96,8 @@ def main() -> None:
     b = brief.load_brief(BRIEFS_DIR / args.wave / f"{args.marker}.yaml")
     sm_rows = brief.resolve_council_sm_rows(b)
     claims = _load_claims(Path(args.claims), args.marker, args.limit)
-    print(f"loaded {len(claims)} {args.marker} claim(s); SM rows resolved: {len(sm_rows)}")
+    print(f"loaded {len(claims)} {args.marker} claim(s); SM rows resolved: {len(sm_rows)}; "
+          f"mo_supported={b.get('mo_supported')}")
 
     db = None
     if args.write:
@@ -102,7 +105,8 @@ def main() -> None:
         db = dbmod.remote()
 
     res, persisted = run_marker_live_session(
-        args.marker, claims, sm_rows, db=db, dry_run_persist=not args.write)
+        args.marker, claims, sm_rows, db=db, dry_run_persist=not args.write,
+        mo_supported=b.get("mo_supported"), mo_rationale=b.get("mo_rationale"))
 
     print(json.dumps({
         "marker": args.marker,

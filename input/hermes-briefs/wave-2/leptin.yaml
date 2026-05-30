@@ -6,6 +6,8 @@ sm_reference:
   marker_slug: leptin
   visibility: council_only
 unit: ng/mL
+mo_supported: true
+mo_rationale: 'MO-relevant: category ''inflammatory'''
 recommended_videos:
 - video_id: KSh4pvaeleo
   score: 32

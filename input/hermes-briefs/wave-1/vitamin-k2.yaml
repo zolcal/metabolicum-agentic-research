@@ -6,6 +6,8 @@ sm_reference:
   marker_slug: vitamin-k2
   visibility: council_only
 unit: ng/mL
+mo_supported: true
+mo_rationale: 'MO-relevant: category ''micronutrients'''
 recommended_videos:
 - video_id: _GsahGq9geM
   score: 28

@@ -174,22 +174,37 @@ def assemble_marker(
     wave: str,
     sm: dict,
     video_index: dict,
-    practitioner_index: dict,
     source_index: dict,
     video_cap: int,
 ) -> dict:
     canonical = gt.resolve_slug(marker_slug) or marker_slug
+    supported, rationale = gt.mo_status(canonical)
     brief = _brief_identity(marker_slug, wave, sm)
-    pubmed_ids, dois, source_urls = _source_pointers(source_index.get(marker_slug, []))
+    # The condition Hermes recognizes + honors; the pipeline persists it as the
+    # marker_mo_determination record on its run.
+    brief["mo_supported"] = supported
+    brief["mo_rationale"] = rationale
 
-    ranked = _ranked_videos(video_index.get(marker_slug, []), video_cap)
-    brief["recommended_videos"] = ranked  # ranked: video_id + score + title + channel
-    brief["recommended_youtube_video_ids"] = [v["video_id"] for v in ranked]  # ordered, backward-compat
-    brief["recommended_practitioner_ids"] = _practitioners_for(canonical)  # category cohort (ground truth)
-    brief["recommended_pubmed_ids"] = pubmed_ids
-    brief["recommended_dois"] = dois
-    brief["recommended_source_urls"] = source_urls
-    brief["recommended_search_queries"] = _search_queries(brief)
+    if supported:
+        # Recommendation packet — leads to bootstrap the agent's discovery.
+        pubmed_ids, dois, source_urls = _source_pointers(source_index.get(marker_slug, []))
+        ranked = _ranked_videos(video_index.get(marker_slug, []), video_cap)
+        brief["recommended_videos"] = ranked
+        brief["recommended_youtube_video_ids"] = [v["video_id"] for v in ranked]
+        brief["recommended_practitioner_ids"] = _practitioners_for(canonical)
+        brief["recommended_pubmed_ids"] = pubmed_ids
+        brief["recommended_dois"] = dois
+        brief["recommended_source_urls"] = source_urls
+        brief["recommended_search_queries"] = _search_queries(brief)
+    else:
+        # not_supported: pass-through — uniform schema, empty packet (no research run).
+        brief["recommended_videos"] = []
+        brief["recommended_youtube_video_ids"] = []
+        brief["recommended_practitioner_ids"] = []
+        brief["recommended_pubmed_ids"] = []
+        brief["recommended_dois"] = []
+        brief["recommended_source_urls"] = []
+        brief["recommended_search_queries"] = []
     return brief
 
 
@@ -198,40 +213,37 @@ def assemble_wave(wave: str, video_cap: int = 30, markers: list[str] | None = No
     if not wave_dir.exists():
         raise FileNotFoundError(f"SM ranges wave not found: {wave_dir}")
 
-    all_markers = markers or [p.stem for p in sorted(wave_dir.glob("*.yaml"))]
-    # MO scope gate: only markers whose (enriched) categories include an in-scope one.
-    target_markers = [s for s in all_markers if gt.in_scope(s)]
-    out_of_scope = [s for s in all_markers if not gt.in_scope(s)]
-    # prune stale out-of-scope briefs (e.g. eosinophils) so they no longer carry MO briefs
-    for s in out_of_scope:
-        stale = BRIEFS_DIR / wave / f"{s}.yaml"
-        if stale.exists():
-            stale.unlink()
+    # EVERY marker gets a brief carrying its mo_supported determination — the condition
+    # Hermes recognizes and honors. Out-of-scope markers are NOT pruned; they get a brief
+    # with mo_supported=false and no recommendation packet (pass-through on the pipeline run).
+    target_markers = markers or [p.stem for p in sorted(wave_dir.glob("*.yaml"))]
     asset_wave_dir = ASSET_DIR / wave
     video_index = load_json(asset_wave_dir / "video-index.json")
-    practitioner_index = load_json(asset_wave_dir / "practitioner-index.json")
     source_index = load_json(asset_wave_dir / "source-index.json")
 
-    summary = {"wave": wave, "in_scope": len(target_markers), "out_of_scope_pruned": len(out_of_scope),
-               "markers_processed": 0, "markers": {}}
+    summary = {"wave": wave, "supported": 0, "not_supported": 0, "markers_processed": 0, "markers": {}}
 
     for marker_slug in target_markers:
         sm = load_yaml(wave_dir / f"{marker_slug}.yaml")
-        brief = assemble_marker(marker_slug, wave, sm, video_index, practitioner_index, source_index, video_cap)
+        brief = assemble_marker(marker_slug, wave, sm, video_index, source_index, video_cap)
         out_path = BRIEFS_DIR / wave / f"{marker_slug}.yaml"
         save_yaml(out_path, brief)
 
+        supported = brief["mo_supported"]
         marker_summary = {
-            "videos": len(brief["recommended_youtube_video_ids"]),
-            "practitioners": len(brief["recommended_practitioner_ids"]),
-            "pubmed_ids": len(brief["recommended_pubmed_ids"]),
-            "dois": len(brief["recommended_dois"]),
-            "source_urls": len(brief["recommended_source_urls"]),
+            "mo_supported": supported,
+            "videos": len(brief.get("recommended_videos", [])),
+            "practitioners": len(brief.get("recommended_practitioner_ids", [])),
+            "pubmed_ids": len(brief.get("recommended_pubmed_ids", [])),
+            "dois": len(brief.get("recommended_dois", [])),
+            "source_urls": len(brief.get("recommended_source_urls", [])),
         }
+        summary["supported" if supported else "not_supported"] += 1
         summary["markers_processed"] += 1
         summary["markers"][marker_slug] = marker_summary
+        flag = "MO" if supported else "--"
         print(
-            f"✓ {marker_slug}: "
+            f"[{flag}] {marker_slug}: "
             f"videos={marker_summary['videos']} "
             f"practitioners={marker_summary['practitioners']} "
             f"pubmed={marker_summary['pubmed_ids']} "
@@ -241,6 +253,7 @@ def assemble_wave(wave: str, video_cap: int = 30, markers: list[str] | None = No
     summary_path = BRIEFS_DIR / wave / "_generation_summary.json"
     save_json(summary_path, summary)
     print(f"\nWritten: {summary_path}")
+    print(f"Supported: {summary['supported']}  Not-supported: {summary['not_supported']}")
     return summary
 
 

@@ -1,10 +1,11 @@
 {
   "wave": "wave-0",
-  "in_scope": 5,
-  "out_of_scope_pruned": 0,
+  "supported": 5,
+  "not_supported": 0,
   "markers_processed": 5,
   "markers": {
     "apob": {
+      "mo_supported": true,
       "videos": 30,
       "practitioners": 14,
       "pubmed_ids": 2,
@@ -12,6 +13,7 @@
       "source_urls": 17
     },
     "fasting-insulin": {
+      "mo_supported": true,
       "videos": 30,
       "practitioners": 49,
       "pubmed_ids": 14,
@@ -19,6 +21,7 @@
       "source_urls": 1
     },
     "hba1c": {
+      "mo_supported": true,
       "videos": 30,
       "practitioners": 41,
       "pubmed_ids": 16,
@@ -26,6 +29,7 @@
       "source_urls": 40
     },
     "lpa": {
+      "mo_supported": true,
       "videos": 2,
       "practitioners": 14,
       "pubmed_ids": 0,
@@ -33,6 +37,7 @@
       "source_urls": 0
     },
     "tg-hdl-ratio": {
+      "mo_supported": true,
       "videos": 13,
       "practitioners": 18,
       "pubmed_ids": 2,

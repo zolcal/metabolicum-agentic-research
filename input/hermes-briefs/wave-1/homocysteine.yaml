@@ -6,6 +6,8 @@ sm_reference:
   marker_slug: homocysteine
   visibility: council_only
 unit: umol/L
+mo_supported: true
+mo_rationale: 'MO-relevant: category ''inflammatory'''
 recommended_videos:
 - video_id: j4fxGQE5CrU
   score: 24

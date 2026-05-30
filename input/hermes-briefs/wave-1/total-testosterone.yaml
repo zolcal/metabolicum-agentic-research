@@ -6,6 +6,8 @@ sm_reference:
   marker_slug: total-testosterone
   visibility: council_only
 unit: ng/dL
+mo_supported: true
+mo_rationale: 'MO-relevant: category ''hormones'''
 recommended_videos:
 - video_id: xLqq14G8voc
   score: 30

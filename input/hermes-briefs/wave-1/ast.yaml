@@ -6,6 +6,8 @@ sm_reference:
   marker_slug: ast
   visibility: council_only
 unit: U/L
+mo_supported: true
+mo_rationale: 'MO-relevant: category ''liver-function'''
 recommended_videos:
 - video_id: 3FeVs-O70qo
   score: 17

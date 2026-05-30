@@ -6,6 +6,8 @@ sm_reference:
   marker_slug: tmao
   visibility: council_only
 unit: μM
+mo_supported: true
+mo_rationale: 'MO-relevant: category ''lipid-panel'''
 recommended_videos:
 - video_id: WpMbvOE2dLE
   score: 19

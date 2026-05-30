@@ -6,9 +6,40 @@ sm_reference:
   marker_slug: creatine-kinase-mb
   visibility: council_only
 unit: ng/mL
+mo_supported: true
+mo_rationale: 'MO-relevant: category ''cardiovascular'''
 recommended_videos: []
 recommended_youtube_video_ids: []
-recommended_practitioner_ids: []
+recommended_practitioner_ids:
+- person:allan-sniderman
+- person:anthony-chaffee
+- person:aseem-malhotra
+- person:benjamin-bikman
+- person:bret-scher
+- person:brian-lamkin
+- person:casey-means
+- person:dave-feldman
+- person:david-perlmutter
+- person:david-unwin
+- person:grant-brinkworth
+- person:joseph-kraft
+- person:joseph-mercola
+- person:margaret-ashwell
+- person:mark-hyman
+- person:michael-mosley
+- person:nick-norwitz
+- person:paul-mason
+- person:paul-saladino
+- person:peter-attia
+- person:rangan-chatterjee
+- person:richard-maurer
+- person:sten-ekberg
+- person:steven-gundry
+- person:ted-naiman
+- person:thomas-dayspring
+- person:william-davis
+- person:zoe-harcombe
+- person:zoltan-szabo
 recommended_pubmed_ids:
 - '34256723'
 - '37835886'

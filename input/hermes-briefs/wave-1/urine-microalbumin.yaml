@@ -6,6 +6,8 @@ sm_reference:
   marker_slug: urine-microalbumin
   visibility: council_only
 unit: mg/L
+mo_supported: true
+mo_rationale: 'MO-relevant: category ''kidney-function'''
 recommended_videos: []
 recommended_youtube_video_ids: []
 recommended_practitioner_ids: []

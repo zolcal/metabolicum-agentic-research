@@ -6,6 +6,8 @@ sm_reference:
   marker_slug: parathyrin-related-protein
   visibility: council_only
 unit: pmol/L
+mo_supported: true
+mo_rationale: 'MO-relevant: category ''hormones'''
 recommended_videos: []
 recommended_youtube_video_ids: []
 recommended_practitioner_ids: []

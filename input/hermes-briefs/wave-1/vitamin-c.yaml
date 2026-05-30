@@ -6,6 +6,8 @@ sm_reference:
   marker_slug: vitamin-c
   visibility: council_only
 unit: mg/dL
+mo_supported: true
+mo_rationale: 'MO-relevant: category ''micronutrients'''
 recommended_videos:
 - video_id: 9nqkYHi2AyI
   score: 34

@@ -6,6 +6,8 @@ sm_reference:
   marker_slug: testosterone-free
   visibility: council_only
 unit: pg/mL
+mo_supported: true
+mo_rationale: 'MO-relevant: category ''hormones'''
 recommended_videos: []
 recommended_youtube_video_ids: []
 recommended_practitioner_ids: []

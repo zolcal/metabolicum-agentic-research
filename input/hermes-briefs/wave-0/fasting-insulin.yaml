@@ -6,6 +6,8 @@ sm_reference:
   marker_slug: fasting-insulin
   visibility: council_only
 unit: μIU/mL
+mo_supported: true
+mo_rationale: 'MO-relevant: category ''glycemic-insulin'''
 recommended_videos:
 - video_id: b-re4pBXySY
   score: 21

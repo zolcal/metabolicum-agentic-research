@@ -6,6 +6,8 @@ sm_reference:
   marker_slug: osteocalcin
   visibility: council_only
 unit: ng/mL
+mo_supported: true
+mo_rationale: 'MO-relevant: category ''bone-metabolism'''
 recommended_videos:
 - video_id: 69Z0eCFegWk
   score: 16

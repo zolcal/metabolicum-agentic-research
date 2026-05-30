@@ -6,6 +6,8 @@ sm_reference:
   marker_slug: proinsulin
   visibility: council_only
 unit: pmol/L
+mo_supported: true
+mo_rationale: 'MO-relevant: category ''glycemic-insulin'''
 recommended_videos:
 - video_id: 5RnEdiTRYfI
   score: 13
@@ -28,10 +30,13 @@ recommended_practitioner_ids:
 - person:andreas-eenfeldt
 - person:andrew-huberman
 - person:anthony-chaffee
+- person:aseem-malhotra
 - person:benjamin-bikman
+- person:bret-scher
 - person:brian-lamkin
 - person:casey-means
 - person:dale-bredesen
+- person:dave-feldman
 - person:david-harper
 - person:david-ludwig
 - person:david-perlmutter
@@ -44,9 +49,11 @@ recommended_practitioner_ids:
 - person:jonathan-little
 - person:joseph-kraft
 - person:joseph-mercola
+- person:margaret-ashwell
 - person:mark-hyman
 - person:megan-ramos
 - person:michael-mosley
+- person:paul-saladino
 - person:peter-attia
 - person:peter-brukner
 - person:rangan-chatterjee
@@ -59,6 +66,7 @@ recommended_practitioner_ids:
 - person:steven-gundry
 - person:ted-naiman
 - person:tim-noakes
+- person:william-davis
 - person:zoe-harcombe
 - person:zoltan-szabo
 - researchgroup:csiro

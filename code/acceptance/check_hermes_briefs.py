@@ -144,9 +144,22 @@ def _check_forbidden_sm_fields(value, marker: str, errors: list[str], path: str 
             _check_forbidden_sm_fields(child, marker, errors, f"{path}[{index}]")
 
 
+def check_mo_determination(brief: dict, marker: str, errors: list[str]) -> None:
+    """The binary MO-support determination Hermes recognizes + honors (overridable)."""
+    if "mo_supported" not in brief:
+        errors.append(f"{marker}: missing 'mo_supported' determination")
+    elif not isinstance(brief["mo_supported"], bool):
+        errors.append(f"{marker}: 'mo_supported' must be a bool, got {type(brief['mo_supported']).__name__}")
+    if not isinstance(brief.get("mo_rationale"), str) or not brief.get("mo_rationale"):
+        errors.append(f"{marker}: 'mo_rationale' must be a non-empty string")
+
+
 def check_bloat(brief: dict, marker: str, errors: list[str]) -> None:
     """Check that no bloat or embedded SM range fields exist in the brief."""
-    text = json.dumps(brief, default=str)
+    # mo_supported/mo_rationale are the legitimate determination fields (mo_rationale
+    # would otherwise trip the 'rationale' bloat pattern) — scan everything else.
+    scrubbed = {k: v for k, v in brief.items() if k not in ("mo_supported", "mo_rationale")}
+    text = json.dumps(scrubbed, default=str)
     for pat in BLOAT_PATTERNS:
         if pat.search(text):
             errors.append(f"{marker}: brief contains potential bloat pattern: {pat.pattern}")
@@ -218,6 +231,7 @@ def run_checks(markers: list[str], wave: str) -> dict:
             results["errors"].extend(marker_errors)
             continue
 
+        check_mo_determination(brief, marker, marker_errors)
         check_pointer_fields(brief, marker, marker_errors)
         check_video_cap(brief, marker, marker_errors)
         check_youtube_inventory(brief, marker, marker_errors)

@@ -6,6 +6,8 @@ sm_reference:
   marker_slug: tsh
   visibility: council_only
 unit: mIU/L
+mo_supported: true
+mo_rationale: 'MO-relevant: category ''thyroid'''
 recommended_videos:
 - video_id: PTZooJ3AIpc
   score: 20

@@ -6,6 +6,8 @@ sm_reference:
   marker_slug: folate-serum
   visibility: council_only
 unit: ng/mL
+mo_supported: true
+mo_rationale: 'MO-relevant: category ''micronutrients'''
 recommended_videos:
 - video_id: DC5UQ_zO404
   score: 22

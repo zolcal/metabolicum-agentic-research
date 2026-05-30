@@ -22,8 +22,15 @@ _WRITES = [
 
 
 def persist_marker_result(db: Any, result: dict, *, dry_run: bool = False) -> dict[str, Any]:
-    """Write a marker result's rows through `db`. Returns {dry_run, counts, written}."""
+    """Write a marker result's rows through `db`. Returns {dry_run, counts, written}.
+
+    `mo_determination` (a single row, when present) is the binary MO-support record the
+    Hermes pipeline creates on every run — researched markers and not_supported
+    pass-throughs alike. It writes after the FK chain via upsert (overridable on re-run).
+    """
     counts = {key: len(result.get(key, []) or []) for key, _ in _WRITES}
+    determination = result.get("mo_determination")
+    counts["mo_determination"] = 1 if determination else 0
     if dry_run:
         return {"dry_run": True, "counts": counts, "written": 0}
 
@@ -33,4 +40,7 @@ def persist_marker_result(db: Any, result: dict, *, dry_run: bool = False) -> di
         for row in result.get(key, []) or []:
             writer(row)
             written += 1
+    if determination:
+        db.upsert_mo_determination(determination)
+        written += 1
     return {"dry_run": False, "counts": counts, "written": written}

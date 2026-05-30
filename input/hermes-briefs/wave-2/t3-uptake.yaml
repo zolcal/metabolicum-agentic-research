@@ -6,6 +6,8 @@ sm_reference:
   marker_slug: t3-uptake
   visibility: council_only
 unit: '%'
+mo_supported: true
+mo_rationale: 'MO-relevant: category ''thyroid'''
 recommended_videos: []
 recommended_youtube_video_ids: []
 recommended_practitioner_ids:

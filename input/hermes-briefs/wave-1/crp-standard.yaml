@@ -6,6 +6,8 @@ sm_reference:
   marker_slug: crp-standard
   visibility: council_only
 unit: mg/L
+mo_supported: true
+mo_rationale: 'MO-relevant: category ''inflammatory'''
 recommended_videos:
 - video_id: ztQphqkwLNU
   score: 20

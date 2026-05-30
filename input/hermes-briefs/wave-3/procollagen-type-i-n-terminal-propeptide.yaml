@@ -6,6 +6,8 @@ sm_reference:
   marker_slug: procollagen-type-i-n-terminal-propeptide
   visibility: council_only
 unit: μg/L
+mo_supported: true
+mo_rationale: 'MO-relevant: category ''bone-metabolism'''
 recommended_videos: []
 recommended_youtube_video_ids: []
 recommended_practitioner_ids: []
