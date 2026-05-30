@@ -1,7 +1,9 @@
 """Scan the local YouTube video inventory for marker phrase matches.
 
-Free, no API. Word-boundary phrase matching (no term splitting) over each
-video's title and description.
+Free, no API. Non-word-boundary phrase matching (no term splitting) over each
+video's title and description. Uses non-word lookarounds rather than ``\b`` so
+terms whose own edges are non-word characters (e.g. ``cortisol (am)``, ``lp(a)``)
+still match, while substring-in-word matches are still rejected.
 """
 from __future__ import annotations
 
@@ -15,7 +17,7 @@ INVENTORY_DIR = PROJECT_ROOT / "input" / "youtube-video-inventory" / "videos"
 
 def _first_match(text: str, terms: list[str]) -> str | None:
     for term in terms:
-        if re.search(r"\b" + re.escape(term) + r"\b", text, re.IGNORECASE):
+        if re.search(r"(?<!\w)" + re.escape(term) + r"(?!\w)", text, re.IGNORECASE):
             return term
     return None
 

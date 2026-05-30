@@ -62,6 +62,22 @@ def test_scan_inventory_matches_description_word_boundary(tmp_path):
     assert len(signals) == 1
     assert signals[0]["where"] == "description"
 
+
+def test_scan_inventory_matches_parenthesized_term(tmp_path):
+    inv = tmp_path / "videos"; inv.mkdir()
+    _write_video(inv, "v1", "Doc", "UCp", "All about cortisol (am) testing")
+    signals = harvest_inventory.scan_inventory(
+        {"cortisol-am": ["cortisol (am)"]}, inventory_dir=inv)
+    assert len(signals) == 1
+    assert signals[0]["term"] == "cortisol (am)"
+
+
+def test_scan_inventory_rejects_substring_in_word(tmp_path):
+    inv = tmp_path / "videos"; inv.mkdir()
+    _write_video(inv, "v2", "Doc", "UCq", "I love testosterones plural")
+    assert harvest_inventory.scan_inventory(
+        {"total-testosterone": ["testosterone"]}, inventory_dir=inv) == []
+
 from scripts.practitioner_discovery import extract_candidates
 
 
