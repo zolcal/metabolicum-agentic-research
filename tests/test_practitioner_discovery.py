@@ -61,3 +61,42 @@ def test_scan_inventory_matches_description_word_boundary(tmp_path):
         {"total-testosterone": ["serum testosterone"]}, inventory_dir=inv)
     assert len(signals) == 1
     assert signals[0]["where"] == "description"
+
+from scripts.practitioner_discovery import extract_candidates
+
+
+def test_extract_groups_by_channel_and_excludes_registry():
+    signals = [
+        {"source": "inventory", "marker": "total-testosterone", "video_id": "v1",
+         "channel_id": "UCnew", "channel": "Hormone MD", "title": "T1", "url": "u1",
+         "term": "total testosterone", "where": "title"},
+        {"source": "inventory", "marker": "total-testosterone", "video_id": "v2",
+         "channel_id": "UCnew", "channel": "Hormone MD", "title": "T2", "url": "u2",
+         "term": "total testosterone", "where": "title"},
+        {"source": "inventory", "marker": "cortisol-am", "video_id": "v3",
+         "channel_id": "UCknown", "channel": "Known Doc", "title": "T3", "url": "u3",
+         "term": "morning cortisol", "where": "title"},
+    ]
+    registry = {"practitioners": [
+        {"id": "person:known", "surfaces": [
+            {"platform": "youtube", "handle_or_url": "https://www.youtube.com/channel/UCknown"}]}
+    ]}
+
+    candidates = extract_candidates.extract_candidates(signals, registry)
+
+    assert len(candidates) == 1  # UCknown excluded
+    c = candidates[0]
+    assert c["entity_key"] == "channel:UCnew"
+    assert c["display_name"] == "Hormone MD"
+    assert c["surfaces"][0]["discovery_mode"] == "auto_discovered"
+    assert len(c["evidence"]["total-testosterone"]) == 2
+    assert c["evidence"]["total-testosterone"][0]["ref"] == "yt:v1"
+
+
+def test_extract_excludes_by_channel_id_field():
+    signals = [{"source": "inventory", "marker": "dhea", "video_id": "v9",
+                "channel_id": "UCz", "channel": "Z", "title": "t", "url": "u",
+                "term": "dhea", "where": "title"}]
+    registry = {"practitioners": [{"id": "p", "surfaces": [
+        {"platform": "youtube", "handle_or_url": "x", "channel_id": "UCz"}]}]}
+    assert extract_candidates.extract_candidates(signals, registry) == []
