@@ -1,5 +1,5 @@
 # SM range input - Total Bilirubin (auto-generated from the wave-1 SM anchor package)
-marker_slug: total-bilirubin
+marker_slug: bilirubin-total
 marker_name: Total Bilirubin
 sample_status: review_sample
 source_policy: frozen_standard_medical_anchor

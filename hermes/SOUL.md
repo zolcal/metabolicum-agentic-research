@@ -1,6 +1,6 @@
 # SOUL — Metabolicum Agentic Research worker persona
 
-> **Status:** Verified against Hermes v0.14.0 (B2 pass, 2026-05-23). Disable-flag wording in §6 confirmed against v0.14.0 config reference.
+> **Status:** Pinned to Hermes v0.15.2 (2026.5.29.2). Disable-flag wording in §6 last verified against v0.14.0 (B2 pass, 2026-05-23) and carried forward to v0.15.2 — full re-verification against v0.15.2 recommended.
 > **Purpose:** Pinned identity file copied into each disposable `HERMES_HOME` at task start. SHA-256 must match the repo copy on every run (acceptance test #7).
 
 ## 1. Identity

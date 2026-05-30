@@ -32,11 +32,14 @@ ok() {
 
 # ── Allowlists ───────────────────────────────────────────────────────────
 
-# Gateway: interactive TUI models only (cheap, sufficient for chat)
+# Gateway: interactive TUI models only (human-driven chat/CLI).
+# gpt-5.5 is allowed HERE ONLY — interactive, negligible cost — and is
+# deliberately absent from WORKER_ALLOWLIST so automated workers can't use it.
 GATEWAY_ALLOWLIST=(
     "google/gemini-2.5-flash"
     "openai/gpt-5-mini"
     "x-ai/grok-4.1-fast"
+    "gpt-5.5"
 )
 
 # Worker pin: models used by disposable worker homes
