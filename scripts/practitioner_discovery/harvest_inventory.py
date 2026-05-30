@@ -1,0 +1,52 @@
+"""Scan the local YouTube video inventory for marker phrase matches.
+
+Free, no API. Word-boundary phrase matching (no term splitting) over each
+video's title and description.
+"""
+from __future__ import annotations
+
+import json
+import re
+from pathlib import Path
+
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+INVENTORY_DIR = PROJECT_ROOT / "input" / "youtube-video-inventory" / "videos"
+
+
+def _first_match(text: str, terms: list[str]) -> str | None:
+    for term in terms:
+        if re.search(r"\b" + re.escape(term) + r"\b", text, re.IGNORECASE):
+            return term
+    return None
+
+
+def scan_inventory(terms_by_marker: dict[str, list[str]],
+                   inventory_dir: Path = INVENTORY_DIR) -> list[dict]:
+    signals: list[dict] = []
+    for f in sorted(Path(inventory_dir).glob("*.json")):
+        try:
+            v = json.loads(f.read_text(encoding="utf-8"))
+        except (ValueError, OSError):
+            continue
+        title = v.get("title", "") or ""
+        desc = v.get("description", "") or ""
+        for marker, marker_terms in terms_by_marker.items():
+            term = _first_match(title, marker_terms)
+            where = "title"
+            if not term:
+                term = _first_match(desc, marker_terms)
+                where = "description"
+            if not term:
+                continue
+            signals.append({
+                "source": "inventory",
+                "marker": marker,
+                "video_id": v.get("video_id", ""),
+                "channel_id": v.get("channel_id", ""),
+                "channel": v.get("channel", ""),
+                "title": title,
+                "url": v.get("url", ""),
+                "term": term,
+                "where": where,
+            })
+    return signals
