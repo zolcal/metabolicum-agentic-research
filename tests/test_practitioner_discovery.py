@@ -117,6 +117,48 @@ def test_extract_excludes_by_channel_id_field():
         {"platform": "youtube", "handle_or_url": "x", "channel_id": "UCz"}]}]}
     assert extract_candidates.extract_candidates(signals, registry) == []
 
+def test_extract_enrichments_keys_by_existing_practitioner_id():
+    signals = [
+        # matched by surface channel_id field
+        {"source": "inventory", "marker": "total-testosterone", "video_id": "v1",
+         "channel_id": "UCberg", "channel": "Dr Berg Live", "title": "T1", "url": "u1",
+         "term": "total testosterone", "where": "title"},
+        {"source": "inventory", "marker": "total-testosterone", "video_id": "v2",
+         "channel_id": "UCberg", "channel": "Dr Berg Live", "title": "T2", "url": "u2",
+         "term": "total testosterone", "where": "title"},
+        # matched by /channel/<id> URL form of a different surface
+        {"source": "inventory", "marker": "cortisol-am", "video_id": "v3",
+         "channel_id": "UCbergUrl", "channel": "Dr Berg Live", "title": "T3", "url": "u3",
+         "term": "morning cortisol", "where": "title"},
+        # unregistered channel -> ignored by enrichments
+        {"source": "inventory", "marker": "dhea", "video_id": "v4",
+         "channel_id": "UCnew", "channel": "New Doc", "title": "T4", "url": "u4",
+         "term": "dhea", "where": "title"},
+    ]
+    registry = {"practitioners": [
+        {"id": "person:eric-berg", "canonical_name": "Eric Berg", "entity_type": "person",
+         "surfaces": [
+             {"platform": "youtube", "handle_or_url": "https://youtube.com/@drberg",
+              "channel_id": "UCberg"},
+             {"platform": "youtube",
+              "handle_or_url": "https://www.youtube.com/channel/UCbergUrl"}]},
+    ]}
+
+    enrichments = extract_candidates.extract_enrichments(signals, registry)
+
+    assert len(enrichments) == 1  # one existing practitioner, unregistered channel absent
+    e = enrichments[0]
+    assert e["entity_key"] == "person:eric-berg"
+    assert e["display_name"] == "Eric Berg"
+    assert e["entity_type"] == "person"
+    assert e["surfaces"] == []  # must not overwrite existing record's surfaces
+    assert len(e["evidence"]["total-testosterone"]) == 2
+    assert e["evidence"]["total-testosterone"][0]["ref"] == "yt:v1"
+    assert len(e["evidence"]["cortisol-am"]) == 1  # matched via /channel/<id> URL
+    # the unregistered channel is not part of any enrichment
+    assert "dhea" not in e["evidence"]
+
+
 from scripts.practitioner_discovery import threshold
 
 
@@ -184,15 +226,26 @@ def test_merge_adds_new_and_unions_existing_affinity():
 from scripts.practitioner_discovery import audit
 
 
-def test_audit_report_summarizes_qualifying_and_held():
-    qualifying = [{"entity_key": "channel:UC1", "display_name": "Hormone MD",
-                   "marker_affinity": ["total-testosterone"],
-                   "evidence": {"total-testosterone": [{"ref": "yt:a"}, {"ref": "yt:b"}]}}]
+def test_audit_report_summarizes_new_enriched_and_held():
+    new_qualifying = [{"entity_key": "channel:UC1", "display_name": "Hormone MD",
+                       "marker_affinity": ["total-testosterone"],
+                       "evidence": {"total-testosterone": [{"ref": "yt:a"}, {"ref": "yt:b"}]}}]
+    enriched = [{"entity_key": "person:eric-berg", "display_name": "Eric Berg",
+                 "marker_affinity": ["cortisol-am"],
+                 "evidence": {"cortisol-am": [{"ref": "yt:c"}, {"ref": "yt:d"}]}}]
     held = [{"entity_key": "channel:UC2", "display_name": "Maybe",
              "evidence": {"dhea": [{"ref": "yt:c"}]}}]
-    md = audit.render_report(qualifying, held, n=2)
+    md = audit.render_report(new_qualifying, enriched, held, n=2)
+    # newly discovered section
+    assert "Newly discovered practitioners" in md
     assert "Hormone MD" in md
     assert "total-testosterone (2)" in md
+    # enriched section, with marker + count, under an "Enriched" heading
+    assert "Enriched existing practitioners" in md
+    assert "Eric Berg" in md
+    assert "person:eric-berg" in md
+    assert "cortisol-am (2)" in md
+    # held section
     assert "Held" in md and "Maybe" in md
     assert "threshold N=2" in md
 
@@ -220,4 +273,33 @@ def test_run_pipeline_end_to_end_inventory_only(tmp_path):
     new = next(r for r in result["registry"]["practitioners"] if r["id"] == "channel:UCnew")
     assert new["marker_affinity"] == ["total-testosterone"]
     assert "Total Testosterone" in result["audit_md"] or "Hormone MD" in result["audit_md"]
-    assert result["summary"]["qualifying"] == 1
+    assert result["summary"]["new_practitioners"] == 1
+
+
+def test_run_pipeline_enriches_existing_practitioner(tmp_path):
+    inv = tmp_path / "videos"; inv.mkdir()
+    # Two matching videos on a channel owned by an already-registered practitioner.
+    _write_video(inv, "v1", "Known Doc", "UCknown", "Total Testosterone explained")
+    _write_video(inv, "v2", "Known Doc", "UCknown", "deep dive on total testosterone")
+
+    registry = {"practitioners": [
+        {"id": "person:known", "canonical_name": "Known Doc", "entity_type": "person",
+         "marker_affinity": ["dhea"], "surfaces": [
+             {"platform": "youtube", "handle_or_url": "x", "channel_id": "UCknown"}]}]}
+    policy = {"total-testosterone": {"tiers": {"T1": ["total testosterone"], "T2": []},
+                                     "excluded_terms": []}}
+
+    result = discovery_run.run_pipeline(
+        markers=["total-testosterone"], registry=registry, policy=policy,
+        inventory_dir=inv, n=2)
+
+    # existing practitioner gains the new marker; no new channel record created
+    ids = [r["id"] for r in result["registry"]["practitioners"]]
+    assert ids == ["person:known"]
+    known = next(r for r in result["registry"]["practitioners"] if r["id"] == "person:known")
+    assert known["marker_affinity"] == ["dhea", "total-testosterone"]
+    # surfaces preserved (not overwritten by an empty enrichment surface list)
+    assert known["surfaces"][0]["channel_id"] == "UCknown"
+    assert result["summary"]["new_practitioners"] == 0
+    assert result["summary"]["enriched"] == 1
+    assert "Enriched existing practitioners" in result["audit_md"]

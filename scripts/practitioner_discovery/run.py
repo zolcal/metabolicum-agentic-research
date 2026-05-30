@@ -23,18 +23,22 @@ def run_pipeline(markers, registry, policy, inventory_dir, n=2):
     terms_by_marker = {m: terms.marker_terms(m, policy) for m in markers}
     terms_by_marker = {m: t for m, t in terms_by_marker.items() if t}
     signals = harvest_inventory.scan_inventory(terms_by_marker, inventory_dir=inventory_dir)
-    candidates = extract_candidates.extract_candidates(signals, registry)
-    qualifying, held = threshold.apply_threshold(candidates, n=n)
+    new_candidates = extract_candidates.extract_candidates(signals, registry)
+    enrichments = extract_candidates.extract_enrichments(signals, registry)
+    q_new, held_new = threshold.apply_threshold(new_candidates, n=n)
+    q_enr, held_enr = threshold.apply_threshold(enrichments, n=n)
+    qualifying = q_new + q_enr
+    held = held_new + held_enr
     records = [ingest.to_registry_record(q) for q in qualifying]
     merged = ingest.merge_into_registry(registry, records)
-    audit_md = audit.render_report(qualifying, held, n=n)
+    audit_md = audit.render_report(q_new, q_enr, held, n=n)
     return {
         "registry": merged,
         "qualifying": qualifying,
         "held": held,
         "audit_md": audit_md,
-        "summary": {"signals": len(signals), "candidates": len(candidates),
-                    "qualifying": len(qualifying), "held": len(held)},
+        "summary": {"signals": len(signals), "new_practitioners": len(q_new),
+                    "enriched": len(q_enr), "held": len(held)},
     }
 
 
