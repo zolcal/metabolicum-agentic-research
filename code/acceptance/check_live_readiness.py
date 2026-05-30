@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import json
 import sys
+import urllib.error
 import urllib.request
 from pathlib import Path
 
@@ -35,9 +36,13 @@ def _env_keys() -> tuple[set[str], str]:
 
 
 def _http_ok(url: str, timeout: float = 4.0) -> bool:
+    """Reachability: any HTTP response (including 4xx) means the host answered.
+    Only a connection/timeout/DNS error counts as unreachable."""
     try:
         with urllib.request.urlopen(url, timeout=timeout) as r:
-            return 200 <= r.status < 500
+            return r.status < 500
+    except urllib.error.HTTPError:
+        return True  # server answered (e.g. 404) -> reachable
     except Exception:
         return False
 
@@ -61,7 +66,7 @@ def main() -> None:
     add("NCBI E-utilities reachable", _http_ok(
         "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/einfo.fcgi?retmode=json", 5.0),
         f"NCBI_API_KEY {'present' if 'NCBI_API_KEY' in keys else 'absent (keyless rate-limited)'}")
-    add("Crossref reachable", _http_ok("https://api.crossref.org/works/10.1001/jama.2020.0", 5.0))
+    add("Crossref reachable", _http_ok("https://api.crossref.org/works?rows=0", 5.0))
     # Persistence
     add("SUPABASE creds present", {"SUPABASE_URL", "SUPABASE_SERVICE_ROLE_KEY"} <= keys)
     # Vendor / runner path
