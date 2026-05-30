@@ -34,8 +34,12 @@ pilot marker list
   → [5] Audit + re-assemble                      → audit report + regenerated briefs
 ```
 
-### Stage 1 — Harvest (reuse)
-For each pilot marker, run the metabolicum-research `scripts/social_pipeline` harvesters (**YouTube + podcast** for the pilot; Reddit/Twitter excluded as too noisy). Terms are the marker's **phrase-based** alias tiers (no term-splitting — per the 2026-05-30 alias fix). Output: raw signals (channels, authors, video IDs, titles, descriptions, transcripts) per marker. Reused unchanged.
+### Stage 1 — Harvest (reuse + local inventory)
+For each pilot marker, gather raw signals from three sources, all using the marker's **phrase-based** alias tiers (no term-splitting — per the 2026-05-30 alias fix):
+1. **Local 26k-video inventory scan** (`input/youtube-video-inventory/videos/*.json`) — phrase-match marker terms against the cached video metadata; **free, no API**, runs first. Cheap recall over channels already crawled.
+2. **YouTube fresh search** (`social_pipeline` YouTube harvester) — reaches channels *not* in the local inventory (the hormone/HRT communities the metabolic-focused inventory lacks).
+3. **Podcast** (`social_pipeline` podcast harvester).
+Reddit/Twitter excluded as too noisy for the pilot. Output: raw signals (channels, authors, video IDs, titles, descriptions, transcripts) per marker, normalized to one shape across sources. The local-inventory scan is new glue; the YouTube/podcast harvesters are reused unchanged.
 
 ### Stage 2 — Candidate extraction (new)
 Group harvested signals by channel / author / disambiguated speaker. **Drop any entity already present in `practitioner_registry.json`** (match by channel ID, handle, and name aliases). For each remaining unregistered entity, collect its marker-relevant evidence items — the specific videos/episodes where the marker's phrase-based terms appear in title/description/transcript. Output: candidate entities, each with a per-marker evidence list.
@@ -79,7 +83,7 @@ Emit an audit report: new practitioners, their markers, evidence counts, surface
 ## 6. Defaults (confirmed)
 
 - Threshold **N = 2** evidence items per marker.
-- Sources: **YouTube + podcast** only (pilot).
+- Sources: **local 26k-video inventory scan + YouTube fresh search + podcast** (pilot). Inventory scan runs first (free); fresh search reaches new channels.
 - Auto-ingest, with an audit report (no manual approval gate, per decision).
 - Pilot shortlist: mainstream hormones (§3).
 
@@ -94,7 +98,7 @@ Emit an audit report: new practitioners, their markers, evidence counts, surface
 
 | Unit | Responsibility | Depends on |
 |---|---|---|
-| `harvest` | pull raw signals per marker | social_pipeline (reuse) |
+| `harvest` | pull raw signals per marker from inventory scan + YouTube + podcast, normalized to one shape | local inventory (new scan), social_pipeline (reuse) |
 | `extract_candidates` | group signals, exclude registry, attach evidence | registry, harvest output |
 | `threshold_gate` | apply N, split qualifying/held | candidates |
 | `ingest_canonical` | write registry records + provenance | registry, gate output |
@@ -111,7 +115,7 @@ Emit an audit report: new practitioners, their markers, evidence counts, surface
 
 - **Noise from auto-ingest** → N-threshold + audit report + `auto_discovered` grade make every entry visible and reversible.
 - **Cross-project run** (discovery lives in metabolicum-research, registry in agentic) → the bridge stages discovery output into the agentic project; the run script documents both paths.
-- **Inventory bias** → Stage 1 does **fresh** search, not the cached 26k metabolic-focused inventory, so it reaches new hormone/HRT channels.
+- **Inventory bias** → the cached 26k inventory is metabolic-focused, so it is used as the cheap first-pass source but **paired with YouTube fresh search**, which reaches new hormone/HRT channels the inventory lacks. Neither source alone is relied on.
 - **Speaker mis-attribution** (a guest discussing testosterone on a metabolic channel) → evidence is attributed to the channel; speaker disambiguation (reused) refines person-level attribution where transcripts allow.
 
 ## 11. Success criteria
