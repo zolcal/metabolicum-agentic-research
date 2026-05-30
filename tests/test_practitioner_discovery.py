@@ -164,3 +164,18 @@ def test_merge_adds_new_and_unions_existing_affinity():
     by_id = {p["id"]: p for p in merged["practitioners"]}
     assert by_id["channel:UC1"]["marker_affinity"] == ["dhea", "total-testosterone"]
     assert "channel:UC2" in by_id
+
+from scripts.practitioner_discovery import audit
+
+
+def test_audit_report_summarizes_qualifying_and_held():
+    qualifying = [{"entity_key": "channel:UC1", "display_name": "Hormone MD",
+                   "marker_affinity": ["total-testosterone"],
+                   "evidence": {"total-testosterone": [{"ref": "yt:a"}, {"ref": "yt:b"}]}}]
+    held = [{"entity_key": "channel:UC2", "display_name": "Maybe",
+             "evidence": {"dhea": [{"ref": "yt:c"}]}}]
+    md = audit.render_report(qualifying, held, n=2)
+    assert "Hormone MD" in md
+    assert "total-testosterone (2)" in md
+    assert "Held" in md and "Maybe" in md
+    assert "threshold N=2" in md
