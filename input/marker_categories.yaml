@@ -1,7 +1,7 @@
 schema_version: 2
-source: metasync production (test_categories + marker_categories); practitioners derived
-  from practitioner_registry marker_affinity (exact set-union)
-exported_at: '2026-05-30 04:02:29.172319+00'
+source: DERIVED from input/ground-truth/metabolicum-marker-ground-truth.v1.yaml; practitioners
+  = exact set-union of practitioner_registry marker_affinity over category markers
+exported_at: '2026-05-30 15:08:09.154584+00'
 categories:
 - slug: lipid-panel
   name: Lipid Panel
