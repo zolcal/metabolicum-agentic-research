@@ -76,6 +76,12 @@ if [[ -f secrets/.env ]]; then
     pass "secrets/.env exists"
     # shellcheck disable=SC1091
     source secrets/.env 2>/dev/null || true
+    # User-level secrets override project-local values without copying keys
+    # into the repository checkout.
+    if [[ -f "$HOME/.secrets" ]]; then
+        # shellcheck disable=SC1090
+        source "$HOME/.secrets" 2>/dev/null || true
+    fi
 
     for VAR in OPENROUTER_API_KEY GOOGLE_API_KEY DASHSCOPE_API_KEY \
                SUPABASE_URL SUPABASE_DB_URL YOUTUBE_API_KEY; do
@@ -214,7 +220,9 @@ except Exception as e:
 authoritative = [
     (("memory", "memory_enabled"), False),
     (("memory", "user_profile_enabled"), False),
-    (("compression", "enabled"), False),
+    # compression.enabled is a WORKER determinism invariant (enforced via the pinned
+    # worker template hermes/config.yaml), NOT a gateway constraint — the interactive
+    # chat gateway legitimately enables compression for long sessions. (Codex review #5)
     (("worktree",), False),
     (("approvals", "mode"), "off"),
     (("skills", "guard_agent_created"), True),
