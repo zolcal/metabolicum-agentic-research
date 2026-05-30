@@ -620,6 +620,21 @@ class LocalDBClient:
         )
         return len(rows) > 0
 
+    # ── MO determination ─────────────────────────────────────────
+
+    def upsert_mo_determination(self, data: dict[str, Any]) -> dict[str, Any]:
+        """Persist a marker's binary MO-support determination (overridable on re-research)."""
+        cols = ", ".join(data.keys())
+        vals = ", ".join(["%s"] * len(data))
+        updates = ", ".join(f"{k} = EXCLUDED.{k}" for k in data if k != "marker_slug")
+        sql = f"""
+            INSERT INTO marker_mo_determination ({cols}) VALUES ({vals})
+            ON CONFLICT (marker_slug) DO UPDATE SET {updates}
+            RETURNING *
+        """
+        rows = self._execute(sql, tuple(data.values()))
+        return rows[0] if rows else {}
+
     # ── Claims ───────────────────────────────────────────────────
 
     def insert_claim(self, data: dict[str, Any]) -> dict[str, Any]:
