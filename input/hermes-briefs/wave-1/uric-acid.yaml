@@ -8,133 +8,6 @@ sm_reference:
 unit: mg/dL
 mo_supported: true
 mo_rationale: 'MO-relevant: category ''inflammatory'''
-recommended_videos:
-- video_id: IZhi4JXxy6Y
-  score: 25
-  title: 'URIC ACID Foods to AVOID: KEY Cause of Weight Gain, Diabetes, & Heart Disease
-    | Dr. David Perlmutter'
-  channel: Levels | Health, Metabolism & Human Performance
-- video_id: 5jBsWbDGtWU
-  score: 23
-  title: The Dangers of Fructose & Uric Acid - with Dr. Richard Johnson | The Empowering
-    Neurologist EP. 142
-  channel: DavidPerlmutterMD
-- video_id: 7nH-xCegcYk
-  score: 23
-  title: The Most Effective Therapy For Gout (High Uric Acid)
-  channel: Dr. Eric Berg DC
-- video_id: JTxkAK82e0I
-  score: 23
-  title: Uric Acid - The Acid You May Need to Drop - with Dr. Johnson | The Empowering
-    Neurologist EP. 138
-  channel: DavidPerlmutterMD
-- video_id: QZ6jPCcFNa8
-  score: 23
-  title: 'Uric Acid: A KEY Cause of Weight Gain, Diabetes, Heart Disease & Dementia
-    | Dr. David Perlmutter'
-  channel: Levels | Health, Metabolism & Human Performance
-- video_id: sivgu813n_o
-  score: 23
-  title: Surprising New Science of Uric Acid – Drop Acid by Dr. David Perlmutter
-  channel: Nutrition with Judy
-- video_id: s82Ooad0AJQ
-  score: 22
-  title: Remedy for Gout and Uric Acid - Straight From the Garden
-  channel: Dr. Eric Berg DC
-- video_id: BYzu0BS7loU
-  score: 21
-  title: How to Consume Salt and Support High Blood Pressure - Dr. Richard Johnson
-  channel: Nutrition with Judy
-- video_id: 9D2VwqySGwA
-  score: 20
-  title: Clean Your Kidneys of Uric Acid and Oxalates
-  channel: Dr. Eric Berg DC
-- video_id: BzwH-94vMis
-  score: 20
-  title: Expert Reveals Why Carnivore with Honey, Fruit & Liver May Make You Sick
-    - Dr. Richard Johnson
-  channel: Nutrition with Judy
-- video_id: nXGTFDVoTQM
-  score: 20
-  title: Uric Acid and Risk of Death - Dr. David Perlmutter Investigates
-  channel: DavidPerlmutterMD
-- video_id: ucXGCpLhomQ
-  score: 20
-  title: Alcohol Consumption and the Uric Acid Connection
-  channel: DavidPerlmutterMD
-- video_id: 5gqyroyD3Hc
-  score: 19
-  title: How Vegetables Affect Uric Acid | The Acid Drop
-  channel: DavidPerlmutterMD
-- video_id: N8Ij25ZSt8s
-  score: 19
-  title: Tommy Wood, MD, PhD | Optimizing Human Health & Cognition | The Metabolic
-    Link Ep.12
-  channel: Metabolic Health Summit
-- video_id: Uo8_ikAdHs8
-  score: 19
-  title: Reduce Your Dementia Risk -  The Role of Uric Acid | The Acid Drop
-  channel: DavidPerlmutterMD
-- video_id: Y_pifLdwBKQ
-  score: 19
-  title: How to Manage Uric Acid Levels - Dr. Richard Johnson
-  channel: Nutrition with Judy
-- video_id: ZU0rmr6vhlU
-  score: 19
-  title: Uric Acid Elevation Creates Metabolic Mayhem | The Acid Drop
-  channel: DavidPerlmutterMD
-- video_id: lc-qmG0DAXY
-  score: 19
-  title: What’s Making Us Fat? The Uric Acid Connection
-  channel: DavidPerlmutterMD
-- video_id: n28W4AmvMDE
-  score: 19
-  title: How Sugar & Processed Foods Impact Your Health | Dr. Robert Lustig
-  channel: Andrew Huberman
-- video_id: 95mhn0ry2LY
-  score: 18
-  title: What Causes GOUT? (Meat Doesn't Cause Gout) 2026
-  channel: KenDBerryMD
-- video_id: CoMRcsejMGc
-  score: 18
-  title: Uric Acid Kidney Stones & Keto Diet – Dr. Berg
-  channel: Dr. Eric Berg DC
-- video_id: Tn3lHConEDw
-  score: 18
-  title: 'The Ultimate Kidney Cleanse for Uric Acid and Gout: Dr. Berg''s Proven Techniques'
-  channel: Dr. Eric Berg DC
-- video_id: ip4KAIqgBII
-  score: 18
-  title: Relation Between Ketosis & Uric Acid Stones – Dr.Berg on Keto Kidney Stones
-  channel: Dr. Eric Berg DC
-- video_id: NKK-ycm5c-M
-  score: 17
-  title: Low carb lowers uric acid levels by improving insulin resistance
-  channel: Diet Doctor
-- video_id: WuthVn5wZsk
-  score: 17
-  title: The Problem with High Uric Acid Levels | Dr. Robert Lustig, MD & Levels Advisor
-  channel: Levels | Health, Metabolism & Human Performance
-- video_id: lK7NsTJuEP0
-  score: 17
-  title: What Causes High Uric Acid Levels? | Dr. David Perlmutter and Dr. Casey Means
-  channel: Levels | Health, Metabolism & Human Performance
-- video_id: R2BiVf25lhU
-  score: 15
-  title: The Dr. Berg Show LIVE - June 21, 2024
-  channel: Dr. Eric Berg DC
-- video_id: aVnEp5wYztw
-  score: 15
-  title: 4 Ways  to Neutralize Uric Acid
-  channel: Dr. Eric Berg DC
-- video_id: eLj2EAutaLw
-  score: 15
-  title: The Dr. Berg Show LIVE - October 18, 2024
-  channel: Dr. Eric Berg DC
-- video_id: fRKUqZai76E
-  score: 15
-  title: How to NEVER Get Kidney Stones
-  channel: Dr. Eric Berg DC
 recommended_youtube_video_ids:
 - IZhi4JXxy6Y
 - 5jBsWbDGtWU
@@ -228,7 +101,56 @@ recommended_practitioner_ids:
 - researchgroup:university-of-debrecen-metabolic-research-sources
 recommended_pubmed_ids: []
 recommended_dois: []
-recommended_source_urls: []
+recommended_source_urls:
+- https://www.defeatdiabetes.com.au/
+- https://www.levels.com/
+- https://levelshealth.com/
+- https://www.lowcarbprogram.com/
+- https://www.virtahealth.com/
+- https://virtahealth.com/
+- https://metabolichealthsummit.com/
+- https://www.dietdoctor.com/
+- https://dietdoctor.com/
+- https://phcuk.org/
+- https://hubermanlab.com/
+- https://feeds.megaphone.fm/hubermanlab
+- https://dranthonychaffee.com/
+- https://podcasts.apple.com/au/podcast/the-plant-free-md-podcast/id1614546790
+- https://open.spotify.com/show/0WQtoPLuPMWWm3ZT3DYXzp
+- https://dr-chaffee-s-90-day-carnivore-challenge.mn.co/landing
+- https://patreon.com/AnthonyChaffeeMD
+- https://www.benbikman.com/
+- https://benbikman.com/
+- https://feeds.acast.com/public/shows/602b13db8237836e54f27141
+- https://feed.podbean.com/dietdoctorpodcast/feed.xml
+- https://metabolicinitiative.com/
+- https://anchor.fm/s/48092b10/podcast/rss
+- https://drbredesen.com/
+- https://cholesterolcode.com/
+- https://drperlmutter.com/
+- https://anchor.fm/s/f102c71c/podcast/rss
+- https://ketonutrition.org/
+- https://www.thefastingmethod.com/
+- https://drjasonfung.com/
+- https://www.mercola.com/
+- https://drhyman.me/
+- https://drhyman.com/
+- https://feeds.megaphone.fm/thedoctorsfarmacy
+- https://thefastingmethod.com/
+- https://nicknorwitz.com/
+- https://carnivoremd.com/
+- https://peterattiamd.com/
+- https://peterattiadrive.libsyn.com/rss
+- https://peterbrukner.com/
+- https://www.foundmyfitness.com/
+- https://foundmyfitness.com/
+- https://rss.libsyn.com/shows/51714/destinations/184296.xml
+- https://saragottfriedmd.com/
+- https://drsten.com/
+- https://gundrymd.com/
+- https://tednaiman.com/
+- https://drdavisinfinitehealth.com/
+- https://www.csiro.au/
 recommended_search_queries:
 - Uric Acid practitioner optimal range
 - Uric Acid metabolic optimization

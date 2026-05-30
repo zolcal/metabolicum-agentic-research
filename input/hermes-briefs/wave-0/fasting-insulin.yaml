@@ -8,135 +8,6 @@ sm_reference:
 unit: μIU/mL
 mo_supported: true
 mo_rationale: 'MO-relevant: category ''glycemic-insulin'''
-recommended_videos:
-- video_id: b-re4pBXySY
-  score: 21
-  title: 'Full Day of Eating: 300 Grams of Carbs in ONE MEAL'
-  channel: Siim Land
-- video_id: l7jW_5DOwQs
-  score: 21
-  title: Why Fasting Glucose and A1c are Higher on a Carnivore Diet and What to Do
-  channel: Nutrition with Judy
-- video_id: bn1U2Spl0-k
-  score: 19
-  title: Ben Bikman, PhD | Reversing Insulin Resistance | The Metabolic Link Ep.9
-  channel: Metabolic Health Summit
-- video_id: qR2Psa7RAfc
-  score: 17
-  title: '🔴  USA Doctors: More Than 25g of Saturated Fat Will HARM YOU! | Carnivore
-    Q&A March 7th, 2024.'
-  channel: Anthony Chaffee MD
-- video_id: Ft59gWD64jc
-  score: 16
-  title: The Importance of Fasting Insulin Blood Work | Dr. Rob Lustig
-  channel: Levels | Health, Metabolism & Human Performance
-- video_id: aNzQ5jNrFSI
-  score: 16
-  title: 'What High Fasting Insulin Really Means: Insulin Resistance & Type 2 Diabetes
-    | Dr. Robert Lustig'
-  channel: Levels | Health, Metabolism & Human Performance
-- video_id: 2cwY7mYdjvo
-  score: 15
-  title: 'The #1 BEST Meal to Reverse Heart Disease & Type 2 Diabetes'
-  channel: Dr. Eric Berg DC
-- video_id: m24rS5Xt9N8
-  score: 15
-  title: NEVER Weigh Yourself (The Scale is Rigged)
-  channel: Dr. Eric Berg DC
-- video_id: vJFozt4pytg
-  score: 15
-  title: So Called "Normal Labs" are NOT Healthy
-  channel: Dr. Eric Berg DC
-- video_id: 6P8HVIbdDc0
-  score: 14
-  title: 'UNLOCK the Secret to Your Health: CHOLESTEROL Levels - Are You Really Healthy?
-    | Dr. Robert Lustig'
-  channel: Levels | Health, Metabolism & Human Performance
-- video_id: Cp2XWjb8l7E
-  score: 14
-  title: 'Fasting Insulin Levels Explained: Why It Matters | Dr. Robert Lustig'
-  channel: Levels | Health, Metabolism & Human Performance
-- video_id: CvBR-GoBvzk
-  score: 13
-  title: 'My Best Tips of All Time: Dr. Berg [Upgraded Advice]'
-  channel: Dr. Eric Berg DC
-- video_id: K9n4PHiKlVI
-  score: 13
-  title: What Is The Optimal Fasting Insulin?
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: SgKp5mm0ALI
-  score: 13
-  title: I Ranked 100 Health Markers (Most People Get These Wrong)
-  channel: Siim Land
-- video_id: gKVe4zkzK6Q
-  score: 13
-  title: Get Rid Of Insulin Resistance Once & For All (Dr Lustig)
-  channel: The Primal Podcast
-- video_id: udzPX2beUj8
-  score: 13
-  title: Reverse Insulin Resistance FAST [EAT THIS] Dr Ken Berry
-  channel: The Primal Podcast
-- video_id: zxdm-Dd6J8o
-  score: 13
-  title: Fix Fatty Liver Naturally (10 COMMON Symptoms) Dr Ken Berry
-  channel: The Primal Podcast
-- video_id: 5nko-awKd8s
-  score: 12
-  title: What Your Hands Are Warning You About Your Heart
-  channel: Dr. Eric Berg DC
-- video_id: 0Cm-SDZXO5s
-  score: 11
-  title: Enhancing Longevity Via Functional Medicine | Young Forever with Dr. Mark
-    Hyman & Dr. Casey Means
-  channel: Levels | Health, Metabolism & Human Performance
-- video_id: 0qF_VImbS28
-  score: 11
-  title: How To Check If You’re Metabolically Healthy | Dr. Robert Lustig Ultimate
-    Guide
-  channel: Levels | Health, Metabolism & Human Performance
-- video_id: AH1XInAAHaQ
-  score: 11
-  title: Biomarkers in BLOODWORK & How They’re Linked to METABOLIC HEALTH | Dr. Azure
-    Grant & Ben Grynol
-  channel: Levels | Health, Metabolism & Human Performance
-- video_id: C3rsNCFNAw8
-  score: 11
-  title: Understand Your CHOLESTEROL PANEL & Metabolic Health Tests - The ULTIMATE
-    Guide | Dr. Robert Lustig
-  channel: Levels | Health, Metabolism & Human Performance
-- video_id: Ku8VaEF82jg
-  score: 11
-  title: The Shocking Link Between Sugar and DEMENTIA
-  channel: Dr. Sten Ekberg
-- video_id: c-4mnFERn4A
-  score: 11
-  title: Blood Sugar & Insulin Resistance Key Blood Test Results Explained | Dr. Anjali
-    Dsouza
-  channel: Levels | Health, Metabolism & Human Performance
-- video_id: jaQaikXEEtw
-  score: 11
-  title: 'Is “Ancestral Eating” Just a Modern Myth? – TFP #008 | Alex Leaf'
-  channel: The Feldman Protocol
-- video_id: rtl0H_6u11k
-  score: 11
-  title: How Medical Insurance and Healthcare Is Stealing From You - Andy Schoonover
-  channel: Nutrition with Judy
-- video_id: zf87WpMq9U0
-  score: 11
-  title: Is LONG-TERM KETOSIS DANGEROUS? & Much More - with Isabella Cooper
-  channel: KenDBerryMD
-- video_id: JcsNqgu3F9U
-  score: 10
-  title: Reduce Your Liver Fat by 50 Percent in 14 Days
-  channel: Dr. Eric Berg DC
-- video_id: KvjOhVgxxn4
-  score: 10
-  title: The Most Ignored DISEASE in the World
-  channel: Dr. Eric Berg DC
-- video_id: ODmFi5wHVs4
-  score: 10
-  title: Omega-3 Fatty Acids Reduce Insulin Resistance
-  channel: Dr. Eric Berg DC
 recommended_youtube_video_ids:
 - b-re4pBXySY
 - l7jW_5DOwQs
@@ -182,10 +53,13 @@ recommended_practitioner_ids:
 - person:andreas-eenfeldt
 - person:andrew-huberman
 - person:anthony-chaffee
+- person:aseem-malhotra
 - person:benjamin-bikman
+- person:bret-scher
 - person:brian-lamkin
 - person:casey-means
 - person:dale-bredesen
+- person:dave-feldman
 - person:david-harper
 - person:david-ludwig
 - person:david-perlmutter
@@ -198,9 +72,11 @@ recommended_practitioner_ids:
 - person:jonathan-little
 - person:joseph-kraft
 - person:joseph-mercola
+- person:margaret-ashwell
 - person:mark-hyman
 - person:megan-ramos
 - person:michael-mosley
+- person:paul-saladino
 - person:peter-attia
 - person:peter-brukner
 - person:rangan-chatterjee
@@ -213,6 +89,7 @@ recommended_practitioner_ids:
 - person:steven-gundry
 - person:ted-naiman
 - person:tim-noakes
+- person:william-davis
 - person:zoe-harcombe
 - person:zoltan-szabo
 - researchgroup:csiro
@@ -236,6 +113,53 @@ recommended_pubmed_ids:
 recommended_dois: []
 recommended_source_urls:
 - https://carnivoremd.com/
+- https://www.defeatdiabetes.com.au/
+- https://www.levels.com/
+- https://levelshealth.com/
+- https://www.lowcarbprogram.com/
+- https://www.virtahealth.com/
+- https://virtahealth.com/
+- https://metabolichealthsummit.com/
+- https://www.dietdoctor.com/
+- https://dietdoctor.com/
+- https://phcuk.org/
+- https://hubermanlab.com/
+- https://feeds.megaphone.fm/hubermanlab
+- https://dranthonychaffee.com/
+- https://podcasts.apple.com/au/podcast/the-plant-free-md-podcast/id1614546790
+- https://open.spotify.com/show/0WQtoPLuPMWWm3ZT3DYXzp
+- https://dr-chaffee-s-90-day-carnivore-challenge.mn.co/landing
+- https://patreon.com/AnthonyChaffeeMD
+- https://www.benbikman.com/
+- https://benbikman.com/
+- https://feeds.acast.com/public/shows/602b13db8237836e54f27141
+- https://feed.podbean.com/dietdoctorpodcast/feed.xml
+- https://metabolicinitiative.com/
+- https://anchor.fm/s/48092b10/podcast/rss
+- https://drbredesen.com/
+- https://cholesterolcode.com/
+- https://drperlmutter.com/
+- https://anchor.fm/s/f102c71c/podcast/rss
+- https://ketonutrition.org/
+- https://www.thefastingmethod.com/
+- https://drjasonfung.com/
+- https://www.mercola.com/
+- https://drhyman.me/
+- https://drhyman.com/
+- https://feeds.megaphone.fm/thedoctorsfarmacy
+- https://thefastingmethod.com/
+- https://peterattiamd.com/
+- https://peterattiadrive.libsyn.com/rss
+- https://peterbrukner.com/
+- https://www.foundmyfitness.com/
+- https://foundmyfitness.com/
+- https://rss.libsyn.com/shows/51714/destinations/184296.xml
+- https://saragottfriedmd.com/
+- https://drsten.com/
+- https://gundrymd.com/
+- https://tednaiman.com/
+- https://drdavisinfinitehealth.com/
+- https://www.csiro.au/
 recommended_search_queries:
 - Fasting Insulin practitioner optimal range
 - Fasting Insulin metabolic optimization

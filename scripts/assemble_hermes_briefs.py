@@ -135,13 +135,14 @@ def _primary_category(canonical_slug: str) -> str | None:
 
 
 def _practitioners_for(canonical_slug: str) -> list[str]:
-    """Direct marker-affinity (exact, marker-specific) is PRIMARY; the FALLBACK is the
-    UNION of category cohorts over ALL the marker's (enriched) categories."""
-    direct = _direct_affinity().get(canonical_slug)
-    if direct:
-        return direct
+    """Union of exact marker-affinity practitioners and the category cohorts over all
+    the marker's (enriched) categories. Direct affinity alone is too sparse (often 0-1
+    practitioners), so the category cohort always supplements it rather than only when
+    direct affinity is empty."""
+    direct = set(_direct_affinity().get(canonical_slug) or [])
     cohorts = _category_practitioners()
-    return sorted({p for c in gt.categories_for(canonical_slug) for p in cohorts.get(c, [])})
+    cohort = {p for c in gt.categories_for(canonical_slug) for p in cohorts.get(c, [])}
+    return sorted(direct | cohort)
 
 
 def _source_pointers(source_entries: list[dict]) -> tuple[list[str], list[str], list[str]]:
@@ -159,6 +160,32 @@ def _source_pointers(source_entries: list[dict]) -> tuple[list[str], list[str], 
             urls.append(source.get("url", ""))
 
     return _unique(pubmed_ids), _unique(dois), _unique(urls)
+
+
+@functools.lru_cache(maxsize=1)
+def _practitioner_public_urls() -> dict[str, list[str]]:
+    """practitioner_id -> public website/blog surface URLs from the registry.
+
+    Reuses collect_sources._is_public_surface so the social/YouTube exclusion rule
+    lives in one place. These feed recommended_source_urls for the marker's matched
+    practitioners — the SAME list as recommended_practitioner_ids — instead of the
+    stale source-index, whose practitioner list diverged from the brief's."""
+    from scripts.collect_sources import _is_public_surface
+
+    reg = load_json(PROJECT_ROOT / "input" / "practitioner_registry.json")
+    entries = reg if isinstance(reg, list) else reg.get("practitioners") or list(reg.values())
+    out: dict[str, list[str]] = {}
+    for entry in entries:
+        if not isinstance(entry, dict):
+            continue
+        urls = [
+            s["handle_or_url"]
+            for s in (entry.get("surfaces") or [])
+            if isinstance(s, dict) and _is_public_surface(s)
+        ]
+        if urls:
+            out[entry.get("id")] = _unique(urls)
+    return out
 
 
 def _search_queries(brief: dict) -> list[str]:
@@ -189,16 +216,20 @@ def assemble_marker(
         # Recommendation packet — leads to bootstrap the agent's discovery.
         pubmed_ids, dois, source_urls = _source_pointers(source_index.get(marker_slug, []))
         ranked = _ranked_videos(video_index.get(marker_slug, []), video_cap)
-        brief["recommended_videos"] = ranked
+        practitioner_ids = _practitioners_for(canonical)
         brief["recommended_youtube_video_ids"] = [v["video_id"] for v in ranked]
-        brief["recommended_practitioner_ids"] = _practitioners_for(canonical)
+        brief["recommended_practitioner_ids"] = practitioner_ids
         brief["recommended_pubmed_ids"] = pubmed_ids
         brief["recommended_dois"] = dois
-        brief["recommended_source_urls"] = source_urls
+        # Practitioner websites/blogs come from the same matched practitioners the
+        # brief recommends (registry surfaces), merged with the SM-anchor sources.
+        practitioner_urls = [
+            url for pid in practitioner_ids for url in _practitioner_public_urls().get(pid, [])
+        ]
+        brief["recommended_source_urls"] = _unique(source_urls + practitioner_urls)
         brief["recommended_search_queries"] = _search_queries(brief)
     else:
         # not_supported: pass-through — uniform schema, empty packet (no research run).
-        brief["recommended_videos"] = []
         brief["recommended_youtube_video_ids"] = []
         brief["recommended_practitioner_ids"] = []
         brief["recommended_pubmed_ids"] = []
@@ -232,7 +263,7 @@ def assemble_wave(wave: str, video_cap: int = 30, markers: list[str] | None = No
         supported = brief["mo_supported"]
         marker_summary = {
             "mo_supported": supported,
-            "videos": len(brief.get("recommended_videos", [])),
+            "videos": len(brief.get("recommended_youtube_video_ids", [])),
             "practitioners": len(brief.get("recommended_practitioner_ids", [])),
             "pubmed_ids": len(brief.get("recommended_pubmed_ids", [])),
             "dois": len(brief.get("recommended_dois", [])),

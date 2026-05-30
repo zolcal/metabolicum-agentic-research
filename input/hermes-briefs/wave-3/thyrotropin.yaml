@@ -8,7 +8,6 @@ sm_reference:
 unit: mU/L
 mo_supported: true
 mo_rationale: 'MO-relevant: category ''thyroid'''
-recommended_videos: []
 recommended_youtube_video_ids: []
 recommended_practitioner_ids:
 - person:amy-myers
@@ -19,7 +18,10 @@ recommended_pubmed_ids:
 - '36637992'
 - '37696273'
 recommended_dois: []
-recommended_source_urls: []
+recommended_source_urls:
+- https://amymyersmd.com/
+- https://saragottfriedmd.com/
+- https://drsten.com/
 recommended_search_queries:
 - Thyrotropin practitioner optimal range
 - Thyrotropin metabolic optimization

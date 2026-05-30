@@ -8,67 +8,6 @@ sm_reference:
 unit: U/L
 mo_supported: true
 mo_rationale: 'MO-relevant: category ''liver-function'''
-recommended_videos:
-- video_id: vU2KGyFatsI
-  score: 28
-  title: What Causes High ALT? (7 Common Causes of Elevated ALT)
-  channel: KenDBerryMD
-- video_id: 3FeVs-O70qo
-  score: 17
-  title: High Liver Enzymes [ALT & AST] – What Do They Mean? – Dr.Berg
-  channel: Dr. Eric Berg DC
-- video_id: kRtljOrDFpw
-  score: 17
-  title: You NEED Cholesterol for these 7 Things (Is Cholesterol Bad?) 2026
-  channel: KenDBerryMD
-- video_id: EWYFqqxu-tM
-  score: 14
-  title: 'Food Judge: How to Choose Nondairy or Alt Milks That Are Healthy'
-  channel: Levels | Health, Metabolism & Human Performance
-- video_id: GXdcoSyI25I
-  score: 14
-  title: FASTING for WOMEN (Safe or Not??) 2026
-  channel: KenDBerryMD
-- video_id: SgKp5mm0ALI
-  score: 13
-  title: I Ranked 100 Health Markers (Most People Get These Wrong)
-  channel: Siim Land
-- video_id: bDaIhHbnuWk
-  score: 13
-  title: Why Paul Saladino is Wrong about the Carnivore Diet (Hormones, Insulin and
-    Electrolyte Issues)
-  channel: Nutrition with Judy
-- video_id: qmer3LBYXiE
-  score: 11
-  title: Proper Human Diet/Fasting Q&A
-  channel: KenDBerryMD
-- video_id: x7cPrE8-_Os
-  score: 11
-  title: 'Understanding Liver Health: Detox, Fatty Liver, and Key Blood Test Results
-    Explained | Dr. Dsouza'
-  channel: Levels | Health, Metabolism & Human Performance
-- video_id: mHzQaLgSrxM
-  score: 7
-  title: 'The Dangers of Statins Part 4: The Liver Statin Safety Group'
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: 5sX4O8bjyDA
-  score: 6
-  title: A Fatty Liver Spreads to All of Your Organs
-  channel: Dr. Eric Berg DC
-- video_id: OgWwvkro9P0
-  score: 5
-  title: How Can You Tell if You Have Too Much Visceral Fat? | Dr. Robert Lustig &
-    Mike Haney
-  channel: Levels | Health, Metabolism & Human Performance
-- video_id: pQaQin8NO2I
-  score: 3
-  title: Diet Soda can Cause a Fatty Liver
-  channel: Dr. Eric Berg DC
-- video_id: Fi0YjY8HmYY
-  score: 1
-  title: The Main Causes of High Liver Enzymes & Non-Alcoholic Fatty Liver Disease
-    – Dr. Berg
-  channel: Dr. Eric Berg DC
 recommended_youtube_video_ids:
 - vU2KGyFatsI
 - 3FeVs-O70qo
@@ -85,7 +24,20 @@ recommended_youtube_video_ids:
 - pQaQin8NO2I
 - Fi0YjY8HmYY
 recommended_practitioner_ids:
+- person:allan-sniderman
+- person:anthony-chaffee
+- person:aseem-malhotra
+- person:bret-scher
+- person:dave-feldman
+- person:nick-norwitz
+- person:paul-mason
 - person:paul-saladino
+- person:peter-attia
+- person:rangan-chatterjee
+- person:sten-ekberg
+- person:thomas-dayspring
+- person:william-davis
+- person:zoe-harcombe
 recommended_pubmed_ids:
 - '18054554'
 - '20162730'
@@ -102,6 +54,19 @@ recommended_dois: []
 recommended_source_urls:
 - https://pmc.ncbi.nlm.nih.gov/articles/PMC3772807/
 - https://carnivoremd.com/
+- https://dranthonychaffee.com/
+- https://podcasts.apple.com/au/podcast/the-plant-free-md-podcast/id1614546790
+- https://open.spotify.com/show/0WQtoPLuPMWWm3ZT3DYXzp
+- https://dr-chaffee-s-90-day-carnivore-challenge.mn.co/landing
+- https://patreon.com/AnthonyChaffeeMD
+- https://dietdoctor.com/
+- https://feed.podbean.com/dietdoctorpodcast/feed.xml
+- https://cholesterolcode.com/
+- https://nicknorwitz.com/
+- https://peterattiamd.com/
+- https://peterattiadrive.libsyn.com/rss
+- https://drsten.com/
+- https://drdavisinfinitehealth.com/
 recommended_search_queries:
 - Alanine Aminotransferase practitioner optimal range
 - Alanine Aminotransferase metabolic optimization

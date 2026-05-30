@@ -50,7 +50,7 @@
       "practitioners": 3,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 6
     },
     "alpha-galactosidase-a": {
       "mo_supported": false,
@@ -122,7 +122,7 @@
       "practitioners": 14,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 14
     },
     "bio-t": {
       "mo_supported": true,
@@ -138,7 +138,7 @@
       "practitioners": 29,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 28
     },
     "buspirone": {
       "mo_supported": false,
@@ -154,7 +154,7 @@
       "practitioners": 55,
       "pubmed_ids": 5,
       "dois": 0,
-      "source_urls": 1
+      "source_urls": 48
     },
     "c-peptide-urine": {
       "mo_supported": false,
@@ -218,7 +218,7 @@
       "practitioners": 29,
       "pubmed_ids": 1,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 28
     },
     "cobalt-creatinine-urine": {
       "mo_supported": false,
@@ -258,7 +258,7 @@
       "practitioners": 29,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 28
     },
     "ctnt": {
       "mo_supported": true,
@@ -266,7 +266,7 @@
       "practitioners": 29,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 28
     },
     "ctx": {
       "mo_supported": true,
@@ -330,7 +330,7 @@
       "practitioners": 25,
       "pubmed_ids": 1,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 26
     },
     "fib-4": {
       "mo_supported": true,
@@ -338,7 +338,7 @@
       "practitioners": 14,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 14
     },
     "fibrin-fibrinogen-fragments": {
       "mo_supported": false,
@@ -370,7 +370,7 @@
       "practitioners": 6,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 11
     },
     "galactose-1-phosphate": {
       "mo_supported": false,
@@ -386,7 +386,7 @@
       "practitioners": 3,
       "pubmed_ids": 4,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 6
     },
     "galectin-3": {
       "mo_supported": true,
@@ -394,7 +394,7 @@
       "practitioners": 3,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 6
     },
     "gastrin": {
       "mo_supported": true,
@@ -410,7 +410,7 @@
       "practitioners": 55,
       "pubmed_ids": 2,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 48
     },
     "hemoglobin-pattern": {
       "mo_supported": false,
@@ -442,7 +442,7 @@
       "practitioners": 14,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 14
     },
     "il-1beta": {
       "mo_supported": true,
@@ -450,7 +450,7 @@
       "practitioners": 3,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 6
     },
     "il-6": {
       "mo_supported": true,
@@ -458,7 +458,7 @@
       "practitioners": 3,
       "pubmed_ids": 6,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 6
     },
     "immunoglobulin-light-chains-lambda-free": {
       "mo_supported": false,
@@ -474,7 +474,7 @@
       "practitioners": 55,
       "pubmed_ids": 1,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 48
     },
     "insulin-like-growth-factor-binding-protein-3": {
       "mo_supported": true,
@@ -482,7 +482,7 @@
       "practitioners": 55,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 48
     },
     "iron": {
       "mo_supported": true,
@@ -490,7 +490,7 @@
       "practitioners": 3,
       "pubmed_ids": 2,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 6
     },
     "ldl-particle-size": {
       "mo_supported": true,
@@ -498,7 +498,7 @@
       "practitioners": 25,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 26
     },
     "leptin": {
       "mo_supported": true,
@@ -506,7 +506,7 @@
       "practitioners": 3,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 6
     },
     "lipoprotein-associated-phospholipase-a2": {
       "mo_supported": true,
@@ -514,7 +514,7 @@
       "practitioners": 25,
       "pubmed_ids": 4,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 26
     },
     "lp-ir": {
       "mo_supported": true,
@@ -522,7 +522,7 @@
       "practitioners": 25,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 26
     },
     "mercury-blood": {
       "mo_supported": false,
@@ -538,7 +538,7 @@
       "practitioners": 6,
       "pubmed_ids": 3,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 11
     },
     "niacin": {
       "mo_supported": true,
@@ -546,7 +546,7 @@
       "practitioners": 6,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 11
     },
     "nickel-creatinine-urine": {
       "mo_supported": false,
@@ -562,7 +562,7 @@
       "practitioners": 29,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 28
     },
     "orotate-creatinine-urine": {
       "mo_supported": false,
@@ -586,7 +586,7 @@
       "practitioners": 28,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 32
     },
     "p1np": {
       "mo_supported": true,
@@ -626,7 +626,7 @@
       "practitioners": 55,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 48
     },
     "prostaglandin-d2-urine": {
       "mo_supported": false,
@@ -658,7 +658,7 @@
       "practitioners": 3,
       "pubmed_ids": 2,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 6
     },
     "pt": {
       "mo_supported": false,
@@ -682,7 +682,7 @@
       "practitioners": 25,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 26
     },
     "renin": {
       "mo_supported": true,
@@ -698,7 +698,7 @@
       "practitioners": 3,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 3
     },
     "rheumatoid-factor": {
       "mo_supported": false,
@@ -722,7 +722,7 @@
       "practitioners": 6,
       "pubmed_ids": 6,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 11
     },
     "sulfate-urine": {
       "mo_supported": false,
@@ -738,7 +738,7 @@
       "practitioners": 3,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 3
     },
     "testosterone-free": {
       "mo_supported": true,
@@ -762,7 +762,7 @@
       "practitioners": 3,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 3
     },
     "thyroglobulin": {
       "mo_supported": true,
@@ -770,7 +770,7 @@
       "practitioners": 3,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 3
     },
     "thyroxine-binding-globulin": {
       "mo_supported": true,
@@ -778,7 +778,7 @@
       "practitioners": 3,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 3
     },
     "tmao": {
       "mo_supported": true,
@@ -786,7 +786,7 @@
       "practitioners": 25,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 26
     },
     "tpo-antibodies": {
       "mo_supported": true,
@@ -794,7 +794,7 @@
       "practitioners": 3,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 3
     },
     "transferrin-carbohydrate-deficient-transferrin-total": {
       "mo_supported": true,
@@ -802,7 +802,7 @@
       "practitioners": 3,
       "pubmed_ids": 1,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 6
     },
     "transferrin-saturation": {
       "mo_supported": true,
@@ -810,7 +810,7 @@
       "practitioners": 6,
       "pubmed_ids": 3,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 11
     },
     "troponin-t-cardiac-2": {
       "mo_supported": true,
@@ -818,7 +818,7 @@
       "practitioners": 29,
       "pubmed_ids": 3,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 28
     },
     "tryptase": {
       "mo_supported": true,
@@ -834,7 +834,7 @@
       "practitioners": 3,
       "pubmed_ids": 1,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 6
     },
     "urea-nitrogen-urine": {
       "mo_supported": false,
@@ -858,7 +858,7 @@
       "practitioners": 6,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 11
     },
     "vitamin-e": {
       "mo_supported": true,
@@ -866,7 +866,7 @@
       "practitioners": 6,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 11
     }
   }
 }

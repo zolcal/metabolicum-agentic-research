@@ -8,133 +8,6 @@ sm_reference:
 unit: mg/dL
 mo_supported: true
 mo_rationale: 'MO-relevant: category ''lipid-panel'''
-recommended_videos:
-- video_id: qpn5g-v26K4
-  score: 29
-  title: Their High ApoB Did NOT Matter! New Research  - 2025
-  channel: KenDBerryMD
-- video_id: UA2hfpaBmfA
-  score: 26
-  title: Strategies for lowering Heart Disease causing ApoB with @NutritionMadeSimple
-  channel: Physionic
-- video_id: iBpiTZLhVks
-  score: 24
-  title: How He Lowered His APOB by 40% Without Medication
-  channel: Levels | Health, Metabolism & Human Performance
-- video_id: RWDe7lVXIPQ
-  score: 22
-  title: 'Lean Mass Hyper-Responders: An Exception to the Cholesterol Rule? - Revisited'
-  channel: Physionic
-- video_id: eZ0eLgqZQUs
-  score: 22
-  title: 'Cardiovascular Health Blood Test Results Explained: ApoB, Cholesterol &
-    Reducing Risk | Dr. Dsouza'
-  channel: Levels | Health, Metabolism & Human Performance
-- video_id: sPrSdqMuPwA
-  score: 22
-  title: 'Deep Dive on LDL, ApoB, and Cardiovascular Disease – TFP #011 | Austin Dudzinski'
-  channel: The Feldman Protocol
-- video_id: 5PobEa7PEho
-  score: 21
-  title: 'LDL, ApoB, & Triglycerides: Heart Health Truths Revealed!'
-  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
-- video_id: 8ZiNfM7ViVs
-  score: 21
-  title: '''Lab Normal'' Is''t Good: TG vs LDL vs ApoB (LIVE)'
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: CvOZsuoJ3-s
-  score: 21
-  title: How to Prevent Heart Disease with Lifestyle Changes - Dr Paddy Barrett
-  channel: Siim Land
-- video_id: IEJO2W87hac
-  score: 21
-  title: Should You Take a Statin? What the Research Says
-  channel: Nutrition with Judy
-- video_id: JXcej6GkFAY
-  score: 21
-  title: My evidence-based diet plan to live longer
-  channel: Siim Land
-- video_id: Pexc7cze-Bk
-  score: 21
-  title: 'ApoB and CV Risk: More Than Just Cholesterol (LIVE)'
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: dPM3g2N14fA
-  score: 21
-  title: 'Does Grass Fed Butter raise ApoB Risk? #shorts'
-  channel: Physionic
-- video_id: mWKmhn5jKiQ
-  score: 21
-  title: You've Been Lied to About Cholesterol & Heart Disease
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: N8Ij25ZSt8s
-  score: 19
-  title: Tommy Wood, MD, PhD | Optimizing Human Health & Cognition | The Metabolic
-    Link Ep.12
-  channel: Metabolic Health Summit
-- video_id: 0JGvrCe5H5M
-  score: 18
-  title: My Perspective on ApoB, LDL and Lpa PT 2
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: cTIhss4t-Bk
-  score: 18
-  title: 'ApoB, LDL and Lpa: My Perspective (Part 1)'
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: D5-r2HnZWVY
-  score: 17
-  title: 'How to Read a Cholesterol Test: LDL, HDL, Lp(a), Apo(e), sdLDL, TG/HDL,
-    ApoA1/ApoB'
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: M-jRyTpkMQI
-  score: 16
-  title: How He Lowered His APOB by 40% Without Medication
-  channel: Levels | Health, Metabolism & Human Performance
-- video_id: WECp8VcjNzo
-  score: 16
-  title: 🔴Exposing FRAUD Cholesterol Studies!
-  channel: Anthony Chaffee MD
-- video_id: e3b3-DdJ9TQ
-  score: 16
-  title: Why Is ApoB a Helpful Cholesterol Marker? | Dr. Anjali Dsouza
-  channel: Levels | Health, Metabolism & Human Performance
-- video_id: sIypsDuuxno
-  score: 16
-  title: LDL Cholesterol, ApoB & Heart Disease
-  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
-- video_id: XdYu_JKb_Yo
-  score: 15
-  title: The Dr. Berg Show LIVE - November 14, 2025
-  channel: Dr. Eric Berg DC
-- video_id: 5KMxTb4Ekok
-  score: 14
-  title: '#SHORTS ApoB - How Important is it?'
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: 6P8HVIbdDc0
-  score: 14
-  title: 'UNLOCK the Secret to Your Health: CHOLESTEROL Levels - Are You Really Healthy?
-    | Dr. Robert Lustig'
-  channel: Levels | Health, Metabolism & Human Performance
-- video_id: A5bA85H-N_0
-  score: 14
-  title: 'The ApoB Cholesterol Test: Why it Matters | Dr. Robert Lustig'
-  channel: Levels | Health, Metabolism & Human Performance
-- video_id: H6e_pvCuj-g
-  score: 14
-  title: The Impact of LDL Cholesterol and ApoB on All-Cause Mortality
-  channel: Shawn Baker MD
-- video_id: VUpFewydSwg
-  score: 14
-  title: 'Demystifying High LDL Levels and ApoB: Understanding the Impact on Heart
-    Health'
-  channel: Shawn Baker MD
-- video_id: sS0orvd2TFs
-  score: 14
-  title: Why Your LDL Score Doesn’t Tell the Whole Story | Dr. Ronald Krauss + Mike
-    Haney
-  channel: Levels | Health, Metabolism & Human Performance
-- video_id: 7QONBQCpRJ0
-  score: 13
-  title: The Most Important Longevity Biomarkers (Panel with 3 Longevity Experts)
-  channel: Siim Land
 recommended_youtube_video_ids:
 - qpn5g-v26K4
 - UA2hfpaBmfA
@@ -170,17 +43,32 @@ recommended_practitioner_ids:
 - person:allan-sniderman
 - person:anthony-chaffee
 - person:aseem-malhotra
+- person:benjamin-bikman
 - person:bret-scher
+- person:brian-lamkin
+- person:casey-means
 - person:dave-feldman
+- person:david-perlmutter
+- person:david-unwin
+- person:grant-brinkworth
+- person:joseph-kraft
+- person:joseph-mercola
+- person:margaret-ashwell
+- person:mark-hyman
+- person:michael-mosley
 - person:nick-norwitz
 - person:paul-mason
 - person:paul-saladino
 - person:peter-attia
 - person:rangan-chatterjee
+- person:richard-maurer
 - person:sten-ekberg
+- person:steven-gundry
+- person:ted-naiman
 - person:thomas-dayspring
 - person:william-davis
 - person:zoe-harcombe
+- person:zoltan-szabo
 recommended_pubmed_ids:
 - '23584084'
 - '33736827'
@@ -189,9 +77,7 @@ recommended_source_urls:
 - https://pmc.ncbi.nlm.nih.gov/articles/PMC10498001/
 - https://peterattiamd.com/
 - https://peterattiadrive.libsyn.com/rss
-- https://twitter.com/Drlipid
 - https://dranthonychaffee.com/
-- https://instagram.com/anthonychaffeemd
 - https://podcasts.apple.com/au/podcast/the-plant-free-md-podcast/id1614546790
 - https://open.spotify.com/show/0WQtoPLuPMWWm3ZT3DYXzp
 - https://dr-chaffee-s-90-day-carnivore-challenge.mn.co/landing
@@ -203,6 +89,20 @@ recommended_source_urls:
 - https://carnivoremd.com/
 - https://drsten.com/
 - https://drdavisinfinitehealth.com/
+- https://www.benbikman.com/
+- https://benbikman.com/
+- https://feeds.acast.com/public/shows/602b13db8237836e54f27141
+- https://metabolicinitiative.com/
+- https://anchor.fm/s/48092b10/podcast/rss
+- https://drperlmutter.com/
+- https://anchor.fm/s/f102c71c/podcast/rss
+- https://phcuk.org/
+- https://www.mercola.com/
+- https://drhyman.me/
+- https://drhyman.com/
+- https://feeds.megaphone.fm/thedoctorsfarmacy
+- https://gundrymd.com/
+- https://tednaiman.com/
 recommended_search_queries:
 - Apolipoprotein B practitioner optimal range
 - Apolipoprotein B metabolic optimization

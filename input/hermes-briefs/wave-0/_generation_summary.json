@@ -7,42 +7,42 @@
     "apob": {
       "mo_supported": true,
       "videos": 30,
-      "practitioners": 14,
+      "practitioners": 29,
       "pubmed_ids": 2,
       "dois": 0,
-      "source_urls": 17
+      "source_urls": 29
     },
     "fasting-insulin": {
       "mo_supported": true,
       "videos": 30,
-      "practitioners": 49,
+      "practitioners": 55,
       "pubmed_ids": 14,
       "dois": 0,
-      "source_urls": 1
+      "source_urls": 48
     },
     "hba1c": {
       "mo_supported": true,
       "videos": 30,
-      "practitioners": 41,
+      "practitioners": 55,
       "pubmed_ids": 16,
       "dois": 0,
-      "source_urls": 40
+      "source_urls": 48
     },
     "lpa": {
       "mo_supported": true,
       "videos": 2,
-      "practitioners": 14,
+      "practitioners": 29,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 28
     },
     "tg-hdl-ratio": {
       "mo_supported": true,
       "videos": 13,
-      "practitioners": 18,
+      "practitioners": 59,
       "pubmed_ids": 2,
       "dois": 0,
-      "source_urls": 22
+      "source_urls": 49
     }
   }
 }

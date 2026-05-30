@@ -8,7 +8,6 @@ sm_reference:
 unit: mg/dL
 mo_supported: true
 mo_rationale: 'MO-relevant: category ''micronutrients'''
-recommended_videos: []
 recommended_youtube_video_ids: []
 recommended_practitioner_ids:
 - person:andrew-huberman
@@ -19,7 +18,18 @@ recommended_practitioner_ids:
 - person:steven-gundry
 recommended_pubmed_ids: []
 recommended_dois: []
-recommended_source_urls: []
+recommended_source_urls:
+- https://hubermanlab.com/
+- https://feeds.megaphone.fm/hubermanlab
+- https://drbredesen.com/
+- https://www.mercola.com/
+- https://drhyman.me/
+- https://drhyman.com/
+- https://feeds.megaphone.fm/thedoctorsfarmacy
+- https://www.foundmyfitness.com/
+- https://foundmyfitness.com/
+- https://rss.libsyn.com/shows/51714/destinations/184296.xml
+- https://gundrymd.com/
 recommended_search_queries:
 - Retinol binding protein practitioner optimal range
 - Retinol binding protein metabolic optimization

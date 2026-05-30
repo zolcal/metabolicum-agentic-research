@@ -8,130 +8,6 @@ sm_reference:
 unit: mg/L
 mo_supported: true
 mo_rationale: 'MO-relevant: category ''micronutrients'''
-recommended_videos:
-- video_id: 0VuyQM3ejdw
-  score: 21
-  title: Alcohol Toxicity, Vaping vs. Smoking, Tobacco, Nicotine, Marijuana, Cannabis
-    Terpenes, THC, Toxic...
-  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
-- video_id: 1FYcC3O64fY
-  score: 21
-  title: The Most Important Function of Vitamin E
-  channel: Dr. Eric Berg DC
-- video_id: 73ixhePSKeA
-  score: 21
-  title: The Best Type of Vitamin E is...
-  channel: Dr. Eric Berg DC
-- video_id: FpjE4gJQ2e4
-  score: 20
-  title: Vitamin E Inhibits Scar Tissue – Benefits of Vitamin E for Fibrosis – Dr.Berg
-  channel: Dr. Eric Berg DC
-- video_id: NlBNqBK2qc4
-  score: 20
-  title: The Highest Vitamin E Food is...
-  channel: Dr. Eric Berg DC
-- video_id: qeoHTRLtJHc
-  score: 20
-  title: Vitamin E Corrects Muscle Dysfunction
-  channel: Dr. Eric Berg DC
-- video_id: vZRWkboolT4
-  score: 20
-  title: Vitamin E Reverses a Fatty Liver – Detoxify Fatty Liver Disease – Dr.Berg
-  channel: Dr. Eric Berg DC
-- video_id: KgF99DleFWo
-  score: 19
-  title: Coronary Heart Disease & Vitamin E Explained By Dr. Berg
-  channel: Dr. Eric Berg DC
-- video_id: kVWi0hRBbYg
-  score: 19
-  title: The Benefits of Vitamin E - Dr.Berg
-  channel: Dr. Eric Berg DC
-- video_id: nVf38nrk84I
-  score: 19
-  title: The ULTIMATE GUIDE to Longevity Supplements 2023 - Ranked Based on Effectiveness
-  channel: Siim Land
-- video_id: A1nfy2PSGRU
-  score: 18
-  title: Can Pushups Help You Reduce Heart Disease?
-  channel: Dr. Eric Berg DC
-- video_id: 0J2e_NXk3rw
-  score: 17
-  title: The Benefits of Tocotrienols (Part of the Vitamin E) – Benefits Of Vitamin
-    E – Dr.Berg
-  channel: Dr. Eric Berg DC
-- video_id: lEJQ127Q-TU
-  score: 17
-  title: Deep Vein Thrombosis (Blood Clots in Legs) & Vitamin E – Dr. Berg
-  channel: Dr. Eric Berg DC
-- video_id: mUK-dUA564Y
-  score: 16
-  title: Never Get Menstrual Cramps Again (13 Scientifically Proven Tips)
-  channel: Dr. Eric Berg DC
-- video_id: 1u7kU7tH38Q
-  score: 15
-  title: The Dr. Berg Show LIVE - 10/24/25
-  channel: Dr. Eric Berg DC
-- video_id: W8DZbYyuDmA
-  score: 14
-  title: 100 Supplements Ranked Worst to Best (Ultimate Supplement Tier List 2025)
-  channel: Siim Land
-- video_id: YDElatIhFeo
-  score: 14
-  title: 'Evaluating Science: Clinical Trials, Epidemiology, Preclinical Studies &
-    Mendelian Randomization'
-  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
-- video_id: nm15-Tftb8E
-  score: 14
-  title: This Vitamin MISTAKE is Super Unhealthy!
-  channel: Dr. Eric Berg DC
-- video_id: BGwb8_hbzUM
-  score: 13
-  title: The Healthiest Foods You Need in Your Diet – Dr. Berg's Expert Advice
-  channel: Dr. Eric Berg DC
-- video_id: C0DMdUqF73Q
-  score: 13
-  title: The Best Vitality & Health Protocols | Dr. Rhonda Patrick
-  channel: Andrew Huberman
-- video_id: ET-1DfiD1z0
-  score: 13
-  title: The Dr. Berg Show LIVE - June 10, 2022
-  channel: Dr. Eric Berg DC
-- video_id: F5fIhShxSss
-  score: 13
-  title: The Dr. Berg Show LIVE
-  channel: Dr. Eric Berg DC
-- video_id: IvBQHDiCRqY
-  score: 13
-  title: The Dr. Berg Show LIVE - April 5, 2024
-  channel: Dr. Eric Berg DC
-- video_id: J9g_LAXfS24
-  score: 13
-  title: The Science Behind Inflammation – Dr. Berg's Tips for Treating It Naturally
-  channel: Dr. Eric Berg DC
-- video_id: Mxp6Q6O9Hxs
-  score: 13
-  title: The Dr. Berg Show LIVE -  February 26, 2022
-  channel: Dr. Eric Berg DC
-- video_id: N4DUv6tmDRk
-  score: 13
-  title: The Dr. Berg Show LIVE - December 16, 2022
-  channel: Dr. Eric Berg DC
-- video_id: UqLuyop6Xtc
-  score: 13
-  title: '23 Signs Your Body Needs More Nutrients: How to Address the Deficiencies'
-  channel: Dr. Eric Berg DC
-- video_id: ZgNDtLhPq5I
-  score: 13
-  title: '#SHORTS Vitamin E: Tocopherols and tocotrienols'
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: _g4MJFUEqIw
-  score: 13
-  title: The Dr. Berg Show LIVE
-  channel: Dr. Eric Berg DC
-- video_id: o4iwGloEUF0
-  score: 13
-  title: What is Vitamin E? – Function, Sources, and Deficiency Covered by Dr. Berg
-  channel: Dr. Eric Berg DC
 recommended_youtube_video_ids:
 - 0VuyQM3ejdw
 - 1FYcC3O64fY
@@ -172,7 +48,18 @@ recommended_practitioner_ids:
 - person:steven-gundry
 recommended_pubmed_ids: []
 recommended_dois: []
-recommended_source_urls: []
+recommended_source_urls:
+- https://hubermanlab.com/
+- https://feeds.megaphone.fm/hubermanlab
+- https://drbredesen.com/
+- https://www.mercola.com/
+- https://drhyman.me/
+- https://drhyman.com/
+- https://feeds.megaphone.fm/thedoctorsfarmacy
+- https://www.foundmyfitness.com/
+- https://foundmyfitness.com/
+- https://rss.libsyn.com/shows/51714/destinations/184296.xml
+- https://gundrymd.com/
 recommended_search_queries:
 - Vitamin E practitioner optimal range
 - Vitamin E metabolic optimization

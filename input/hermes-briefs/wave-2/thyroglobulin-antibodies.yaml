@@ -8,11 +8,6 @@ sm_reference:
 unit: IU/mL
 mo_supported: true
 mo_rationale: 'MO-relevant: category ''thyroid'''
-recommended_videos:
-- video_id: 6nZwa1qLvLs
-  score: 6
-  title: Why Selenium for Hashimoto’s (Autoimmune Hypothyroid)? – Dr. Berg
-  channel: Dr. Eric Berg DC
 recommended_youtube_video_ids:
 - 6nZwa1qLvLs
 recommended_practitioner_ids:
@@ -21,7 +16,10 @@ recommended_practitioner_ids:
 - person:sten-ekberg
 recommended_pubmed_ids: []
 recommended_dois: []
-recommended_source_urls: []
+recommended_source_urls:
+- https://amymyersmd.com/
+- https://saragottfriedmd.com/
+- https://drsten.com/
 recommended_search_queries:
 - Thyroglobulin Antibodies practitioner optimal range
 - Thyroglobulin Antibodies metabolic optimization

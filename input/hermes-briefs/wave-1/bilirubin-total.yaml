@@ -8,19 +8,6 @@ sm_reference:
 unit: mg/dL
 mo_supported: true
 mo_rationale: 'MO-relevant: category ''liver-function'''
-recommended_videos:
-- video_id: dGM_5owfrc4
-  score: 13
-  title: The Dr. Berg Show LIVE - November 7, 2025
-  channel: Dr. Eric Berg DC
-- video_id: 5r0i30nBhHQ
-  score: 11
-  title: The Dr. Berg Show LIVE - July 8, 2022
-  channel: Dr. Eric Berg DC
-- video_id: uSZnJaCXCYo
-  score: 11
-  title: The Dr. Berg Show LIVE - January 5, 2024
-  channel: Dr. Eric Berg DC
 recommended_youtube_video_ids:
 - dGM_5owfrc4
 - 5r0i30nBhHQ
@@ -44,6 +31,20 @@ recommended_pubmed_ids: []
 recommended_dois: []
 recommended_source_urls:
 - https://pmc.ncbi.nlm.nih.gov/articles/PMC3772807/
+- https://dranthonychaffee.com/
+- https://podcasts.apple.com/au/podcast/the-plant-free-md-podcast/id1614546790
+- https://open.spotify.com/show/0WQtoPLuPMWWm3ZT3DYXzp
+- https://dr-chaffee-s-90-day-carnivore-challenge.mn.co/landing
+- https://patreon.com/AnthonyChaffeeMD
+- https://dietdoctor.com/
+- https://feed.podbean.com/dietdoctorpodcast/feed.xml
+- https://cholesterolcode.com/
+- https://nicknorwitz.com/
+- https://carnivoremd.com/
+- https://peterattiamd.com/
+- https://peterattiadrive.libsyn.com/rss
+- https://drsten.com/
+- https://drdavisinfinitehealth.com/
 recommended_search_queries:
 - Total Bilirubin practitioner optimal range
 - Total Bilirubin metabolic optimization

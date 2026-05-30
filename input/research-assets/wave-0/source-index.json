@@ -29,20 +29,8 @@
     },
     {
       "type": "practitioner_website",
-      "url": "https://twitter.com/Drlipid",
-      "platform": "website",
-      "practitioner_id": "person:thomas-dayspring"
-    },
-    {
-      "type": "practitioner_website",
       "url": "https://dranthonychaffee.com/",
       "platform": "website",
-      "practitioner_id": "person:anthony-chaffee"
-    },
-    {
-      "type": "practitioner_other",
-      "url": "https://instagram.com/anthonychaffeemd",
-      "platform": "other",
       "practitioner_id": "person:anthony-chaffee"
     },
     {
@@ -416,12 +404,6 @@
       "practitioner_id": "person:anthony-chaffee"
     },
     {
-      "type": "practitioner_other",
-      "url": "https://instagram.com/anthonychaffeemd",
-      "platform": "other",
-      "practitioner_id": "person:anthony-chaffee"
-    },
-    {
       "type": "practitioner_podcast",
       "url": "https://podcasts.apple.com/au/podcast/the-plant-free-md-podcast/id1614546790",
       "platform": "podcast",
@@ -594,12 +576,6 @@
       "type": "practitioner_website",
       "url": "https://dranthonychaffee.com/",
       "platform": "website",
-      "practitioner_id": "person:anthony-chaffee"
-    },
-    {
-      "type": "practitioner_other",
-      "url": "https://instagram.com/anthonychaffeemd",
-      "platform": "other",
       "practitioner_id": "person:anthony-chaffee"
     },
     {

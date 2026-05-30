@@ -8,133 +8,6 @@ sm_reference:
 unit: '%'
 mo_supported: true
 mo_rationale: 'MO-relevant: category ''glycemic-insulin'''
-recommended_videos:
-- video_id: Oo8eVnXisTI
-  score: 28
-  title: '"Normal" HbA1c and Artery Blockage (More Bad Advice)'
-  channel: KenDBerryMD
-- video_id: l7jW_5DOwQs
-  score: 28
-  title: Why Fasting Glucose and A1c are Higher on a Carnivore Diet and What to Do
-  channel: Nutrition with Judy
-- video_id: 2PROANAQkwA
-  score: 24
-  title: 'GLUCOSE METABOLISM: HbA1c, Insulin Resistance & Better Energy | Dr. Ben
-    Bikman & Mike Haney'
-  channel: Levels | Health, Metabolism & Human Performance
-- video_id: f0g-n9Bn-KI
-  score: 24
-  title: How to get your HbA1c to 5% or less
-  channel: William Davis , MD
-- video_id: loorjhDsiPM
-  score: 24
-  title: Secrets Hidden in Your HbA1c
-  channel: William Davis , MD
-- video_id: pgV1HbzQ4DM
-  score: 24
-  title: HbA1c Questions Answered + Bonus HACK (What is A1c?)
-  channel: KenDBerryMD
-- video_id: O64j4uC8diA
-  score: 21
-  title: HIGH INSULIN = FRAGILE BONES, Cancer & Faster Aging? with Dr. Isabella Cooper
-  channel: KenDBerryMD
-- video_id: TdQhhVZnLxI
-  score: 21
-  title: '🔴Ketogenic and Carnivore Diets: 25 Years of Experience with Prof Eric Westman,
-    MD'
-  channel: Anthony Chaffee MD
-- video_id: 5QUAXDIllc8
-  score: 19
-  title: How Many Calories for Longevity - Q&A While Working Out
-  channel: Siim Land
-- video_id: D65LqAT5wuI
-  score: 19
-  title: What is HbA1c?
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: _RCdtFPjzVM
-  score: 19
-  title: 🔴  Nutritionally SUPERCHARGED EGGS?! | Carnivore Q&A March 21st, 2024.
-  channel: Anthony Chaffee MD
-- video_id: _peJMggxOys
-  score: 19
-  title: Live Q&A with Dr Ken Berry! Carnivore Masterclass, live on the set of Reversed
-    Season 3! Jan 8, 2023
-  channel: Anthony Chaffee MD
-- video_id: bMTNbLd5YQo
-  score: 19
-  title: The problem with HbA1c
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: qeGz0VKEGv0
-  score: 19
-  title: HbA1c Test and What HbA1c Normal Range Means
-  channel: Dr. Sten Ekberg
-- video_id: sHk_v7vzXBk
-  score: 19
-  title: Why Your "Normal" HbA1c May Be Killing You
-  channel: Shawn Baker MD
-- video_id: _YPIO9CBuw8
-  score: 18
-  title: 'Pancreatic Cancer: 750% Increased Risk'
-  channel: Physionic
-- video_id: 1rUsspHnlmk
-  score: 17
-  title: 🔴  You NEED To Have A Healthy Diet To LIVE OPTIMALLY | Carnivore Q&A April
-    2nd, 2024.
-  channel: Anthony Chaffee MD
-- video_id: 8eq2EDyokrg
-  score: 17
-  title: What’s Wrong with the AMERICAN DIABETES ASSOCIATION? (Bad Advice) 2026
-  channel: KenDBerryMD
-- video_id: nJyUQmRc1q8
-  score: 17
-  title: 🔴 Is Ketosis Harmful To You? Here's The Evidence
-  channel: Anthony Chaffee MD
-- video_id: o9PHHMvTe1Q
-  score: 17
-  title: A/Prof. Ken Sikaris - 'HbA1c, Insulin and CV Risk'
-  channel: Low Carb Down Under
-- video_id: OCc1-ysTJE8
-  score: 16
-  title: PreDiabetes Causes Damage? (What to know about PreDiabetes) 2026
-  channel: KenDBerryMD
-- video_id: VE-XCmM1kco
-  score: 15
-  title: What HbA1c tells you about aging
-  channel: William Davis , MD
-- video_id: X9EbJRuC5_Y
-  score: 15
-  title: A1C is a Good Predictor of Many Diseases
-  channel: Dr. Eric Berg DC
-- video_id: v0AyWFWpa2M
-  score: 15
-  title: A/Prof. Ken Sikaris on why the HbA1C test is so important
-  channel: Low Carb Down Under
-- video_id: ftBakC7AMfw
-  score: 14
-  title: Is Metformin Beneficial for HbA1c?
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: 0m-HjyqDKNQ
-  score: 13
-  title: The Longest HIGH FAT Study Ever Conducted is Finally Finished (Surprising
-    Results)
-  channel: The Primal Podcast
-- video_id: CD0bRU1e1ZM
-  score: 13
-  title: Tools for Nutrition & Fitness | Dr. Layne Norton
-  channel: Andrew Huberman
-- video_id: SgKp5mm0ALI
-  score: 13
-  title: I Ranked 100 Health Markers (Most People Get These Wrong)
-  channel: Siim Land
-- video_id: Z8FDDrRg73Q
-  score: 13
-  title: Learn what your hemoglobin A1C really means for your health📚🥩
-  channel: KenDBerryMD
-- video_id: NWRJFTIvXuc
-  score: 12
-  title: Low Carb diets for Type 2 Diabetes Reversal | The Diabetes Code Clinic (Part
-    3)
-  channel: Jason Fung
 recommended_youtube_video_ids:
 - Oo8eVnXisTI
 - l7jW_5DOwQs
@@ -178,9 +51,16 @@ recommended_practitioner_ids:
 - network:hungarian-low-carb-clinician-network
 - network:public-health-collaboration
 - person:andreas-eenfeldt
+- person:andrew-huberman
 - person:anthony-chaffee
+- person:aseem-malhotra
 - person:benjamin-bikman
+- person:bret-scher
+- person:brian-lamkin
 - person:casey-means
+- person:dale-bredesen
+- person:dave-feldman
+- person:david-harper
 - person:david-ludwig
 - person:david-perlmutter
 - person:david-unwin
@@ -190,19 +70,26 @@ recommended_practitioner_ids:
 - person:jason-fung
 - person:jeff-volek
 - person:jonathan-little
+- person:joseph-kraft
+- person:joseph-mercola
+- person:margaret-ashwell
 - person:mark-hyman
 - person:megan-ramos
 - person:michael-mosley
+- person:paul-saladino
 - person:peter-attia
 - person:peter-brukner
 - person:rangan-chatterjee
 - person:rhonda-patrick
+- person:richard-maurer
 - person:robert-lustig
+- person:sara-gottfried
 - person:sten-ekberg
 - person:stephen-phinney
 - person:steven-gundry
 - person:ted-naiman
 - person:tim-noakes
+- person:william-davis
 - person:zoe-harcombe
 - person:zoltan-szabo
 - researchgroup:csiro
@@ -250,7 +137,6 @@ recommended_source_urls:
 - https://www.virtahealth.com/
 - https://dietdoctor.com/
 - https://dranthonychaffee.com/
-- https://instagram.com/anthonychaffeemd
 - https://podcasts.apple.com/au/podcast/the-plant-free-md-podcast/id1614546790
 - https://open.spotify.com/show/0WQtoPLuPMWWm3ZT3DYXzp
 - https://dr-chaffee-s-90-day-carnivore-challenge.mn.co/landing
@@ -267,6 +153,15 @@ recommended_source_urls:
 - https://metabolichealthsummit.com/
 - https://drsten.com/
 - https://gundrymd.com/
+- https://hubermanlab.com/
+- https://feeds.megaphone.fm/hubermanlab
+- https://feed.podbean.com/dietdoctorpodcast/feed.xml
+- https://drbredesen.com/
+- https://cholesterolcode.com/
+- https://www.mercola.com/
+- https://carnivoremd.com/
+- https://saragottfriedmd.com/
+- https://drdavisinfinitehealth.com/
 recommended_search_queries:
 - Hba1C practitioner optimal range
 - Hba1C metabolic optimization

@@ -8,71 +8,6 @@ sm_reference:
 unit: IU/L
 mo_supported: true
 mo_rationale: 'MO-relevant: category ''lipid-panel'''
-recommended_videos:
-- video_id: DvF5LBM_kgY
-  score: 24
-  title: 'Seed Oils & Heart Disease: Oxidized LDL, Cholesterol, Fat & Cardiology |
-    Tucker Goodrich | 244'
-  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
-- video_id: 1m8D5ewuw6g
-  score: 22
-  title: 'Oxidized LDL: Heart Disease Risk? [Study 184-189 Analysis]'
-  channel: Physionic
-- video_id: ZDdwHqiFjnI
-  score: 22
-  title: Bacterial Infection, Oral Hygiene, Atherosclerosis & Heart Disease | Pekka
-    Karhunen | 256
-  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
-- video_id: MHTUr6tEz4A
-  score: 16
-  title: 'Oxidized LDL: The Hidden Cause of Heart Disease #shorts'
-  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
-- video_id: ZwjuuGTqRdo
-  score: 14
-  title: Bacterial Infection, Oral Hygiene, Atherosclerosis & Heart Disease | Pekka
-    Karhunen | 256
-  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
-- video_id: SgKp5mm0ALI
-  score: 13
-  title: I Ranked 100 Health Markers (Most People Get These Wrong)
-  channel: Siim Land
-- video_id: iiw4rUJXNWs
-  score: 13
-  title: Is Oxidized LDL The Cause of Heart Attacks?
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: OzZeHW7kb7o
-  score: 11
-  title: A Sleep Aid that’s not just for Sleep?
-  channel: Physionic
-- video_id: -3vUq-Pw9RM
-  score: 10
-  title: 'Heart Health: The Truth About LDL Cholesterol & Seed Oils'
-  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
-- video_id: Cf6ux-mRP2k
-  score: 10
-  title: 'The #1 Best Remedy to Clean Plaque From Your Arteries'
-  channel: Dr. Eric Berg DC
-- video_id: mMmpeVY5KE8
-  score: 10
-  title: 'LDL Cholesterol: Antibiotic, Heart Disease & History'
-  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
-- video_id: K1DhIHA3Wzw
-  score: 9
-  title: Inflammation (Not Cholesterol) is the Bigger Heart Disease Risk (Live)
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: ggv93uGUBB8
-  score: 8
-  title: 11 Health Benefits of Chocolate
-  channel: Dr. Eric Berg DC
-- video_id: Y69rHEuocho
-  score: 4
-  title: KnowYour Heart Attack Risk - Take the PrevMed CV Inflammation Course
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: zC3eU0iiNno
-  score: 4
-  title: 'KNOW YOUR RISK! NUMBERS: Take the CV Inflammation Course: It''s FREE - for
-    now.'
-  channel: Thomas Fordham Brewer MD MPH
 recommended_youtube_video_ids:
 - DvF5LBM_kgY
 - 1m8D5ewuw6g
@@ -120,7 +55,39 @@ recommended_practitioner_ids:
 - person:zoltan-szabo
 recommended_pubmed_ids: []
 recommended_dois: []
-recommended_source_urls: []
+recommended_source_urls:
+- https://hubermanlab.com/
+- https://feeds.megaphone.fm/hubermanlab
+- https://dranthonychaffee.com/
+- https://podcasts.apple.com/au/podcast/the-plant-free-md-podcast/id1614546790
+- https://open.spotify.com/show/0WQtoPLuPMWWm3ZT3DYXzp
+- https://dr-chaffee-s-90-day-carnivore-challenge.mn.co/landing
+- https://patreon.com/AnthonyChaffeeMD
+- https://www.benbikman.com/
+- https://benbikman.com/
+- https://feeds.acast.com/public/shows/602b13db8237836e54f27141
+- https://dietdoctor.com/
+- https://feed.podbean.com/dietdoctorpodcast/feed.xml
+- https://metabolicinitiative.com/
+- https://anchor.fm/s/48092b10/podcast/rss
+- https://drbredesen.com/
+- https://cholesterolcode.com/
+- https://phcuk.org/
+- https://www.mercola.com/
+- https://drhyman.me/
+- https://drhyman.com/
+- https://feeds.megaphone.fm/thedoctorsfarmacy
+- https://nicknorwitz.com/
+- https://carnivoremd.com/
+- https://peterattiamd.com/
+- https://peterattiadrive.libsyn.com/rss
+- https://www.foundmyfitness.com/
+- https://foundmyfitness.com/
+- https://rss.libsyn.com/shows/51714/destinations/184296.xml
+- https://drsten.com/
+- https://gundrymd.com/
+- https://tednaiman.com/
+- https://drdavisinfinitehealth.com/
 recommended_search_queries:
 - Oxidized LDL practitioner optimal range
 - Oxidized LDL metabolic optimization

@@ -8,7 +8,6 @@ sm_reference:
 unit: copies/mL
 mo_supported: false
 mo_rationale: no MO dimension — category 'urine' (taxonomy assessment 2026-05-30)
-recommended_videos: []
 recommended_youtube_video_ids: []
 recommended_practitioner_ids: []
 recommended_pubmed_ids: []

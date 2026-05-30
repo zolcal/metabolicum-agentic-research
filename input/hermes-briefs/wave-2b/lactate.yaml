@@ -8,137 +8,6 @@ sm_reference:
 unit: mg/dL
 mo_supported: true
 mo_rationale: 'MO-relevant: category ''liver-function'''
-recommended_videos:
-- video_id: l6FhO_zcXAM
-  score: 27
-  title: 'Lactate: The unsung Hero of Exercise [Study 234]'
-  channel: Physionic
-- video_id: 62CyKoihZAY
-  score: 21
-  title: 'Cancer Metabolism: Sugar, Fructose, Lipids & Fasting | Gary Patti | 215'
-  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
-- video_id: 6O0ixeoCpcs
-  score: 21
-  title: 'Metabolism Secrets: Lactate, BHB, and Brain Function'
-  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
-- video_id: x4zPyVxFUpw
-  score: 21
-  title: Lactate & Energy – Unlocking Your Body’s Performance Secrets
-  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
-- video_id: RrgolOW9Fok
-  score: 19
-  title: Metabolic Interventions For Cognitive Resilience in Aging | Abbi Hernandez,
-    PhD | The Metabolic Link
-  channel: Metabolic Health Summit
-- video_id: 6vJEnjO184o
-  score: 16
-  title: 'Neuroprotection: Adenosine, Lactate, BHB Explained'
-  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
-- video_id: L0f2M1dpyl0
-  score: 16
-  title: 'Exercise: How Cells Communicate Through Lactate'
-  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
-- video_id: J2oqi41dCNc
-  score: 15
-  title: How to Use Exercise to Improve Your Brain’s Health, Longevity & Performance
-  channel: Andrew Huberman
-- video_id: Y7_T7TA5BXg
-  score: 14
-  title: 'Rethinking Cognitive Decline: Stimulus, Exercise, and the Aging Brain |
-    Dr. Tommy Wood'
-  channel: Metabolic Health Summit
-- video_id: exYu2dxVPP0
-  score: 14
-  title: Energy Metabolism & Information Processing in the Brain | Luis Felipe Barros
-    | 264
-  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
-- video_id: 7lSQ2hnycLg
-  score: 13
-  title: The BEST and WORST Forms of Magnesium
-  channel: Dr. Eric Berg DC
-- video_id: FfomxfyCchw
-  score: 13
-  title: Do Athletes Really Need More Carbs? | Dr. Andrew Koutnik & Mike Haney
-  channel: Levels | Health, Metabolism & Human Performance
-- video_id: KHTDAnsSO5k
-  score: 13
-  title: The Supplements That ACTUALLY WORK
-  channel: Dr. Eric Berg DC
-- video_id: RIEwkn6SIpY
-  score: 13
-  title: The Dr. Berg Show LIVE -  March 19, 2022
-  channel: Dr. Eric Berg DC
-- video_id: RslGnogsyCA
-  score: 13
-  title: 'Stop Constant Throat Clearing: Understanding the 3 Causes of Phlegm in Your
-    Throat'
-  channel: Dr. Eric Berg DC
-- video_id: UqLuyop6Xtc
-  score: 13
-  title: '23 Signs Your Body Needs More Nutrients: How to Address the Deficiencies'
-  channel: Dr. Eric Berg DC
-- video_id: hlOA8ObQJXo
-  score: 13
-  title: Science-Based Meditation Tools to Improve Your Brain & Health | Dr. Richard
-    Davidson
-  channel: Andrew Huberman
-- video_id: pZX8ikmWvEU
-  score: 13
-  title: Female-Specific Exercise & Nutrition for Health, Performance & Longevity
-    | Dr. Stacy Sims
-  channel: Andrew Huberman
-- video_id: vmZxtojz8OE
-  score: 13
-  title: 'Cancer Metabolism: Sugar, Fructose, Lipids & Fasting | Gary Patti | 215'
-  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
-- video_id: 3niSOwP0pl8
-  score: 12
-  title: 10 Alarming Signs Your Body Needs Minerals & Electrolytes
-  channel: Dr. Sten Ekberg
-- video_id: 8KgNWFyd01g
-  score: 12
-  title: 21 Signs Your Body Needs Specific Nutrients
-  channel: Dr. Eric Berg DC
-- video_id: Qv5n7yYHuxU
-  score: 12
-  title: 'Lactic Acidosis, Black Mold & B1: What If It''s All Connected? – TFP #014
-    | Darren Schmidt'
-  channel: The Feldman Protocol
-- video_id: XLr2RKoD-oY
-  score: 12
-  title: Science of Muscle Growth, Increasing Strength & Muscular Recovery
-  channel: Andrew Huberman
-- video_id: oNkDA2F7CjM
-  score: 12
-  title: 'Dr. Andy Galpin: How to Build Physical Endurance & Lose Fat | Huberman Lab
-    Guest Series'
-  channel: Andrew Huberman
-- video_id: 9ykPs8tberw
-  score: 11
-  title: The Hidden Source of Heart Attacks That You Never Considered
-  channel: Dr. Eric Berg DC
-- video_id: SAI6qeBMJFo
-  score: 11
-  title: Keto Diet Benefits on Depression, Mental & Metabolic Health - Drs. Iain Campbell,
-    Scher, D’Agostino
-  channel: Levels | Health, Metabolism & Human Performance
-- video_id: 0WNNfRlotUg
-  score: 10
-  title: 'The Low Magnesium Epidemic: Dr. Berg Explains Signs, Symptoms, Causes, and
-    Treatment'
-  channel: Dr. Eric Berg DC
-- video_id: DgoF2Nr6S3A
-  score: 10
-  title: How to Fix Your Low Back Pain (INSTANTLY!) - Dr. Berg
-  channel: Dr. Eric Berg DC
-- video_id: JYGtao17cxo
-  score: 10
-  title: Preventing High Oxalate Kidney Stones
-  channel: Dr. Eric Berg DC
-- video_id: LAtgt5NYygo
-  score: 10
-  title: Avoid ALL Keto Side Effects Easily
-  channel: Dr. Eric Berg DC
 recommended_youtube_video_ids:
 - l6FhO_zcXAM
 - 62CyKoihZAY
@@ -187,7 +56,21 @@ recommended_practitioner_ids:
 - person:zoe-harcombe
 recommended_pubmed_ids: []
 recommended_dois: []
-recommended_source_urls: []
+recommended_source_urls:
+- https://dranthonychaffee.com/
+- https://podcasts.apple.com/au/podcast/the-plant-free-md-podcast/id1614546790
+- https://open.spotify.com/show/0WQtoPLuPMWWm3ZT3DYXzp
+- https://dr-chaffee-s-90-day-carnivore-challenge.mn.co/landing
+- https://patreon.com/AnthonyChaffeeMD
+- https://dietdoctor.com/
+- https://feed.podbean.com/dietdoctorpodcast/feed.xml
+- https://cholesterolcode.com/
+- https://nicknorwitz.com/
+- https://carnivoremd.com/
+- https://peterattiamd.com/
+- https://peterattiadrive.libsyn.com/rss
+- https://drsten.com/
+- https://drdavisinfinitehealth.com/
 recommended_search_queries:
 - Lactate practitioner optimal range
 - Lactate metabolic optimization

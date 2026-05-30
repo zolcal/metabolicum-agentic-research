@@ -8,7 +8,6 @@ sm_reference:
 unit: µIU/mL
 mo_supported: true
 mo_rationale: 'MO-relevant: category ''glycemic-insulin'''
-recommended_videos: []
 recommended_youtube_video_ids: []
 recommended_practitioner_ids:
 - company:defeat-diabetes
@@ -110,7 +109,6 @@ recommended_source_urls:
 - https://hubermanlab.com/
 - https://feeds.megaphone.fm/hubermanlab
 - https://dranthonychaffee.com/
-- https://instagram.com/anthonychaffeemd
 - https://podcasts.apple.com/au/podcast/the-plant-free-md-podcast/id1614546790
 - https://open.spotify.com/show/0WQtoPLuPMWWm3ZT3DYXzp
 - https://dr-chaffee-s-90-day-carnivore-challenge.mn.co/landing
@@ -130,6 +128,10 @@ recommended_source_urls:
 - https://saragottfriedmd.com/
 - https://drsten.com/
 - https://gundrymd.com/
+- https://feed.podbean.com/dietdoctorpodcast/feed.xml
+- https://cholesterolcode.com/
+- https://carnivoremd.com/
+- https://drdavisinfinitehealth.com/
 recommended_search_queries:
 - Insulin practitioner optimal range
 - Insulin metabolic optimization

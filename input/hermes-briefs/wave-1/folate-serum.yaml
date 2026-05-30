@@ -8,130 +8,6 @@ sm_reference:
 unit: ng/mL
 mo_supported: true
 mo_rationale: 'MO-relevant: category ''micronutrients'''
-recommended_videos:
-- video_id: DC5UQ_zO404
-  score: 22
-  title: FOLATE Rich Low-Carb Foods (Folic Acid) 2026
-  channel: KenDBerryMD
-- video_id: 3gt2GlVUWYQ
-  score: 20
-  title: Folic Acid vs. Folate Explained and Simplified
-  channel: Dr. Eric Berg DC
-- video_id: 6X9eGTZF3k0
-  score: 19
-  title: Addiction, Obesity, Cholesterol and Folate on a Carnivore Diet  | Dr. Tro
-    Kalayjian Interview
-  channel: Nutrition with Judy
-- video_id: hCyvqRq5YmM
-  score: 19
-  title: Transform Your Mental Health With Diet & Lifestyle | Dr. Chris Palmer
-  channel: Andrew Huberman
-- video_id: Af4nBVnHsT0
-  score: 17
-  title: This Common Supplement is giving you Cancer, but you should keep taking it..
-  channel: Physionic
-- video_id: bFpwPrnOQoY
-  score: 17
-  title: Avoid Folic Acid and Take Folate (as Methylfolate) – Folic Acid vs. Folate
-    | Dr.Berg
-  channel: Dr. Eric Berg DC
-- video_id: VHlC8xSkSMg
-  score: 14
-  title: Big Pharma Freaks Out over Tylenol & Autism Truth
-  channel: Dr. Eric Berg DC
-- video_id: WJiGp6MOHQM
-  score: 14
-  title: Folate, Folinic Acid & Folic Acid
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: qPitU2wbND8
-  score: 14
-  title: 'Folate 101: (Deficiency, Folic Acid vs Methylfolate, & Methylation)'
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: 5ZXqxlCVCmk
-  score: 13
-  title: How to Never Get Cancer (30 Scientifically Proven Tips)
-  channel: Dr. Eric Berg DC
-- video_id: JEPeqCFHkKQ
-  score: 13
-  title: The Dr. Berg Show LIVE - April 24, 2026
-  channel: Dr. Eric Berg DC
-- video_id: MtLfYmxVIzY
-  score: 13
-  title: The Dr. Berg Show LIVE - June 14, 2024
-  channel: Dr. Eric Berg DC
-- video_id: XdYu_JKb_Yo
-  score: 13
-  title: The Dr. Berg Show LIVE - November 14, 2025
-  channel: Dr. Eric Berg DC
-- video_id: u_QzsCGAolI
-  score: 13
-  title: The Dr. Berg Show LIVE - January 2, 2026
-  channel: Dr. Eric Berg DC
-- video_id: bmX9nJJgueY
-  score: 12
-  title: Why Some Carnivores Still Don’t Heal - Intro to CIRS with Mikhaila Peterson
-  channel: Nutrition with Judy
-- video_id: 86Yd1EEWMBA
-  score: 11
-  title: The 10 WARNING Signs of Dementia
-  channel: Dr. Eric Berg DC
-- video_id: 8KgNWFyd01g
-  score: 11
-  title: 21 Signs Your Body Needs Specific Nutrients
-  channel: Dr. Eric Berg DC
-- video_id: 91QupQ3VL5U
-  score: 11
-  title: Folate Deficiency Creates the Same Damage as Radiation
-  channel: Dr. Eric Berg DC
-- video_id: ADglXkvtEBg
-  score: 11
-  title: The Dr. Berg Show LIVE - June 4, 2022
-  channel: Dr. Eric Berg DC
-- video_id: BGwb8_hbzUM
-  score: 11
-  title: The Healthiest Foods You Need in Your Diet – Dr. Berg's Expert Advice
-  channel: Dr. Eric Berg DC
-- video_id: FrhftcB0FXo
-  score: 11
-  title: Autism, Acetaminophen (Tylenol) & Oxidative Stress | William Parker | 248
-  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
-- video_id: MiRS3_DQI58
-  score: 11
-  title: 10 Urgent Signs Your Body Needs Methylated B Vitamins
-  channel: Dr. Sten Ekberg
-- video_id: P9XwBGk3ZiQ
-  score: 11
-  title: 10 Vitamins You Should NEVER Take
-  channel: Dr. Eric Berg DC
-- video_id: ZxCFx-LpBSU
-  score: 11
-  title: The Dr. Berg Show LIVE - May 5, 2023
-  channel: Dr. Eric Berg DC
-- video_id: bDaIhHbnuWk
-  score: 11
-  title: Why Paul Saladino is Wrong about the Carnivore Diet (Hormones, Insulin and
-    Electrolyte Issues)
-  channel: Nutrition with Judy
-- video_id: dJZXhLsuUfw
-  score: 11
-  title: Liver is NOT a Superfood. The Truth about Organ Meats.
-  channel: Nutrition with Judy
-- video_id: ePYn52BGi3w
-  score: 11
-  title: My Dad’s Supplement Routine, formulated by a PhD in Molecular Medicine
-  channel: Physionic
-- video_id: hHRGqGmGmpg
-  score: 11
-  title: Your Supplements Are a Lie… Really
-  channel: Dr. Eric Berg DC
-- video_id: j4fxGQE5CrU
-  score: 11
-  title: Are you wasting your time taking B vitamins for a high homocysteine?
-  channel: William Davis , MD
-- video_id: 18tnJ9wLDbk
-  score: 10
-  title: 'The Big Multivitamin Scam '
-  channel: Dr. Eric Berg DC
 recommended_youtube_video_ids:
 - DC5UQ_zO404
 - 3gt2GlVUWYQ
@@ -172,7 +48,18 @@ recommended_practitioner_ids:
 - person:steven-gundry
 recommended_pubmed_ids: []
 recommended_dois: []
-recommended_source_urls: []
+recommended_source_urls:
+- https://hubermanlab.com/
+- https://feeds.megaphone.fm/hubermanlab
+- https://drbredesen.com/
+- https://www.mercola.com/
+- https://drhyman.me/
+- https://drhyman.com/
+- https://feeds.megaphone.fm/thedoctorsfarmacy
+- https://www.foundmyfitness.com/
+- https://foundmyfitness.com/
+- https://rss.libsyn.com/shows/51714/destinations/184296.xml
+- https://gundrymd.com/
 recommended_search_queries:
 - Folate Serum practitioner optimal range
 - Folate Serum metabolic optimization

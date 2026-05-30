@@ -131,13 +131,26 @@ def _collect_public_ids(sm: dict) -> tuple[list[str], list[str], list[str]]:
     )
 
 
+SOCIAL_DOMAINS = {
+    "twitter.com", "x.com", "instagram.com", "facebook.com", "fb.com",
+    "tiktok.com", "linkedin.com", "youtube.com", "youtu.be",
+}
+
+
 def _is_public_surface(surface: dict) -> bool:
     platform = str(surface.get("platform", "")).lower()
     if platform == "youtube" or platform in SOCIAL_PLATFORMS:
         return False
     url = str(surface.get("handle_or_url", "")).strip()
     parsed = urlparse(url)
-    return parsed.scheme in {"http", "https"} and bool(parsed.netloc)
+    if parsed.scheme not in {"http", "https"} or not parsed.netloc:
+        return False
+    # Reject by URL domain too — registry platform labels are unreliable, so a
+    # social URL can arrive tagged as 'website'/'other'.
+    host = parsed.netloc.lower().split(":")[0]
+    if host.startswith("www."):
+        host = host[4:]
+    return host not in SOCIAL_DOMAINS
 
 
 def collect_sources_for_marker(marker_slug: str, sm: dict, practitioners: list[dict]) -> list[dict]:

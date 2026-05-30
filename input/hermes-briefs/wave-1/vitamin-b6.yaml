@@ -8,128 +8,6 @@ sm_reference:
 unit: ng/mL
 mo_supported: true
 mo_rationale: 'MO-relevant: category ''micronutrients'''
-recommended_videos:
-- video_id: iO0s32J9bQs
-  score: 23
-  title: Vitamin B6 Deficiency in Women
-  channel: Dr. Eric Berg DC
-- video_id: FS18XMGcT40
-  score: 20
-  title: Vitamin B6 Can Cause Vitamin B6 Deficiency Symptoms
-  channel: Dr. Eric Berg DC
-- video_id: ySdOZkz_ezU
-  score: 20
-  title: 11 Vitamin B6 Deficiency Symptoms You've NEVER Heard Before
-  channel: Dr. Eric Berg DC
-- video_id: vA50EK70whE
-  score: 19
-  title: How to Increase Motivation & Drive
-  channel: Andrew Huberman
-- video_id: K8VR7sOIZ6Y
-  score: 17
-  title: 'Vitamin B6: Benefits, Deficiencies, Causes, Symptoms, and Sources – Dr.
-    Berg'
-  channel: Dr. Eric Berg DC
-- video_id: Lp59z71Fm7o
-  score: 17
-  title: Why Vitamin B6 Helps Carpal Tunnel Syndrome
-  channel: Dr. Eric Berg DC
-- video_id: 1PepCKWcYWQ
-  score: 15
-  title: The Dr. Berg Show LIVE - August 9, 2024
-  channel: Dr. Eric Berg DC
-- video_id: GMaQ-UlboIo
-  score: 15
-  title: The Dr. Berg Show LIVE - February 20, 2026
-  channel: Dr. Eric Berg DC
-- video_id: OcMCBTDpDVU
-  score: 13
-  title: The 1 Vitamin That REVERSES Nerve Damage (And Nobody Talks About It)
-  channel: Dr. Eric Berg DC
-- video_id: j5BXIh5Pv-s
-  score: 13
-  title: The 3 Vitamins That WORSEN Nerve Pain (A Nerve Poison?)
-  channel: Dr. Eric Berg DC
-- video_id: vD5FgNk7300
-  score: 13
-  title: The Dr. Berg Show LIVE - January 26, 2024
-  channel: Dr. Eric Berg DC
-- video_id: 3m9Qf6xfijw
-  score: 12
-  title: The BIG Zinc Mistake
-  channel: Dr. Eric Berg DC
-- video_id: 89jwTIbWRuI
-  score: 12
-  title: Your Body’s Urgently Trying to Tell You Something
-  channel: Dr. Eric Berg DC
-- video_id: AXq2ZdXXFCU
-  score: 12
-  title: 11 Bizarre Symptoms of Vitamin D Deficiency (You NEED to Know)
-  channel: Dr. Eric Berg DC
-- video_id: IqGowurcVPs
-  score: 12
-  title: Everyone IGNORES Fascia When Stretching
-  channel: Dr. Eric Berg DC
-- video_id: MwZ63SFmkPE
-  score: 12
-  title: The BIGGEST Magnesium Mistakes
-  channel: Dr. Eric Berg DC
-- video_id: ir7XkFrCmFA
-  score: 12
-  title: What is Vitamin B6? Deficiencies, Symptoms, and Foods
-  channel: Dr. Eric Berg DC
-- video_id: pf_z1OSYxmk
-  score: 12
-  title: Why You Can't SLEEP! Simple Fix
-  channel: Dr. Eric Berg DC
-- video_id: S-nrK7wcnvc
-  score: 11
-  title: The 3 Vitamin Deficiencies in Sciatica and Carpal Tunnel Syndrome
-  channel: Dr. Eric Berg DC
-- video_id: _ltcLEM-5HU
-  score: 11
-  title: How to Improve Your Eye Health & Offset Vision Loss | Dr. Jeffrey Goldberg
-  channel: Andrew Huberman
-- video_id: e5qLdSKDkEE
-  score: 11
-  title: 'Painful Intercourse: Here''s What You Need to Know'
-  channel: Dr. Eric Berg DC
-- video_id: ncSoor2Iw8k
-  score: 11
-  title: How to Optimize Your Hormones for Health & Vitality | Dr. Kyle Gillett
-  channel: Andrew Huberman
-- video_id: wORXbV6GB34
-  score: 11
-  title: Why Insomniacs ALWAYS Have Gut Problems
-  channel: Dr. Eric Berg DC
-- video_id: -9I2AunSKxo
-  score: 10
-  title: 'The #1 Food to Naturally Boost CoQ10 (Coenzyme Q10)'
-  channel: Dr. Eric Berg DC
-- video_id: 1Z-EOytgEhA
-  score: 10
-  title: Amazing Benefits of Eating WHOLE Lemons - Peel, White Part and Seeds
-  channel: Dr. Eric Berg DC
-- video_id: H0bpMtMbZAE
-  score: 10
-  title: Take These 5 Vitamins to STOP Diabetic Complications Now
-  channel: Dr. Eric Berg DC
-- video_id: J1-7qFa8NNY
-  score: 10
-  title: Your Nails Help Diagnose Nutrient Deficiencies
-  channel: Dr. Eric Berg DC
-- video_id: JAUBavPuXpo
-  score: 10
-  title: The Top 3 Foods for Hair Loss - Dr. Berg
-  channel: Dr. Eric Berg DC
-- video_id: OxCWlEJMS2U
-  score: 10
-  title: 'The Unique Benefits of Magnesium Glycinate: How It''s Different'
-  channel: Dr. Eric Berg DC
-- video_id: PJ2jCDQMQ00
-  score: 10
-  title: Find Out The Deeper Causes of Brittle Nails
-  channel: Dr. Eric Berg DC
 recommended_youtube_video_ids:
 - iO0s32J9bQs
 - FS18XMGcT40
@@ -172,6 +50,17 @@ recommended_pubmed_ids: []
 recommended_dois: []
 recommended_source_urls:
 - https://pmc.ncbi.nlm.nih.gov/articles/PMC12954621/
+- https://hubermanlab.com/
+- https://feeds.megaphone.fm/hubermanlab
+- https://drbredesen.com/
+- https://www.mercola.com/
+- https://drhyman.me/
+- https://drhyman.com/
+- https://feeds.megaphone.fm/thedoctorsfarmacy
+- https://www.foundmyfitness.com/
+- https://foundmyfitness.com/
+- https://rss.libsyn.com/shows/51714/destinations/184296.xml
+- https://gundrymd.com/
 recommended_search_queries:
 - Vitamin B6 practitioner optimal range
 - Vitamin B6 metabolic optimization

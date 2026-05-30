@@ -8,132 +8,6 @@ sm_reference:
 unit: ng/mL
 mo_supported: true
 mo_rationale: 'MO-relevant: category ''inflammatory'''
-recommended_videos:
-- video_id: HEASD4CBKfs
-  score: 21
-  title: Supplements I Stopped Taking, Optimal Body Fat Percentage - Q&A
-  channel: Siim Land
-- video_id: T-b-wGZIRso
-  score: 21
-  title: Is CIRS Real? The truth about Oxalates, Long Covid, Mold, Lyme, Carnivore
-    and Root-Cause Healing
-  channel: Nutrition with Judy
-- video_id: GIAgaaXueFw
-  score: 19
-  title: Elevated Ferritin [What causes High Ferritin?] 2026
-  channel: KenDBerryMD
-- video_id: 8_Zzha5WhC0
-  score: 15
-  title: The Dr. Berg Show LIVE - August 22, 2025
-  channel: Dr. Eric Berg DC
-- video_id: 9na-nVBKUWw
-  score: 15
-  title: The Dr. Berg Show LIVE - September 19, 2025
-  channel: Dr. Eric Berg DC
-- video_id: I2YlZEk_w_g
-  score: 15
-  title: The Dr. Berg Show LIVE - August 29, 2025
-  channel: Dr. Eric Berg DC
-- video_id: NmUtWue2QvY
-  score: 15
-  title: The Dr. Berg Show LIVE - October 10, 2025
-  channel: Dr. Eric Berg DC
-- video_id: XUyLw70AH1E
-  score: 15
-  title: The Dr. Berg Show LIVE - September 26, 2025
-  channel: Dr. Eric Berg DC
-- video_id: fGYa6emKNCw
-  score: 15
-  title: The Dr. Berg Show LIVE - October 3, 2025
-  channel: Dr. Eric Berg DC
-- video_id: mUs8JU3zCB4
-  score: 15
-  title: The Dr. Berg Show LIVE - September 5, 2025
-  channel: Dr. Eric Berg DC
-- video_id: o9SngD-nFlQ
-  score: 15
-  title: The Dr. Berg Show LIVE - September 12, 2025
-  channel: Dr. Eric Berg DC
-- video_id: 3in3377V5kI
-  score: 13
-  title: The Dr. Berg Show LIVE - April 26, 2024
-  channel: Dr. Eric Berg DC
-- video_id: 6PjcGKgckzM
-  score: 13
-  title: The Dr. Berg Show LIVE - January 12, 2024
-  channel: Dr. Eric Berg DC
-- video_id: RngQ-xmYRN8
-  score: 13
-  title: Stop Rusting Out Your Brain! Iron Supplements & Iron Overload Causes Brain
-    Damage – Dr. Berg
-  channel: Dr. Eric Berg DC
-- video_id: SgKp5mm0ALI
-  score: 13
-  title: I Ranked 100 Health Markers (Most People Get These Wrong)
-  channel: Siim Land
-- video_id: UTw2nuWUovI
-  score: 13
-  title: The Dr. Berg Show LIVE - May 19, 2023
-  channel: Dr. Eric Berg DC
-- video_id: bDaIhHbnuWk
-  score: 13
-  title: Why Paul Saladino is Wrong about the Carnivore Diet (Hormones, Insulin and
-    Electrolyte Issues)
-  channel: Nutrition with Judy
-- video_id: brCfMBQ9LPU
-  score: 13
-  title: Toxic Effects of Iron Overload – Dr. Berg
-  channel: Dr. Eric Berg DC
-- video_id: kKw4kl0QbjE
-  score: 13
-  title: The Dr. Berg Show LIVE - July 21, 2023
-  channel: Dr. Eric Berg DC
-- video_id: k_Mb7BIo6hA
-  score: 13
-  title: 'The #1 Anti-aging Hack'
-  channel: Dr. Eric Berg DC
-- video_id: yMizUQXgfqA
-  score: 13
-  title: The Dr. Berg Show LIVE - May 14, 2022
-  channel: Dr. Eric Berg DC
-- video_id: MD-3BTUJCNw
-  score: 11
-  title: 'Increase C15: SHOCKING New Cause Of Insulin Resistance (Not Carbs)'
-  channel: The Primal Podcast
-- video_id: SVopUuLLgHo
-  score: 11
-  title: Is Iron Overload on the Carnivore Diet Real?
-  channel: Shawn Baker MD
-- video_id: jBCaEaTgeBE
-  score: 11
-  title: 'Nutrient Blood Test Results Explained: What They Reveal About Energy, Immunity
-    & Health | Dr. Dsouza'
-  channel: Levels | Health, Metabolism & Human Performance
-- video_id: nGifsbBHf0A
-  score: 11
-  title: Early Signs of Insulin Resistance & Heart Disease - Founder of the CAC score
-    - Dr. Arthur Agatston
-  channel: Nutrition with Judy
-- video_id: tv5GssSMEIs
-  score: 11
-  title: KETO/Carnivore/Fasting Q&A Got Questions?
-  channel: KenDBerryMD
-- video_id: Tqwvm5RsHRM
-  score: 10
-  title: Why Men Today Have HALF the Testosterone of Their Grandfathers
-  channel: Dr. Eric Berg DC
-- video_id: hnwWHQJcKFw
-  score: 10
-  title: The Hidden Cause of Arthritis in Your Knees and Hands
-  channel: Dr. Eric Berg DC
-- video_id: 62opt9vbj48
-  score: 9
-  title: Carnivore Cure is LIVE! Carnivore Q&A
-  channel: Nutrition with Judy
-- video_id: lJr0UJmOu4w
-  score: 9
-  title: 'A Look into Carnivore Cure: Chapter Review & FAQ'
-  channel: Nutrition with Judy
 recommended_youtube_video_ids:
 - HEASD4CBKfs
 - T-b-wGZIRso
@@ -168,7 +42,10 @@ recommended_youtube_video_ids:
 recommended_practitioner_ids:
 - person:andrew-huberman
 - person:dale-bredesen
+- person:joseph-mercola
+- person:mark-hyman
 - person:rhonda-patrick
+- person:steven-gundry
 recommended_pubmed_ids:
 - '23613366'
 - '24778671'
@@ -186,6 +63,11 @@ recommended_source_urls:
 - https://hubermanlab.com/
 - https://feeds.megaphone.fm/hubermanlab
 - https://drbredesen.com/
+- https://www.mercola.com/
+- https://drhyman.me/
+- https://drhyman.com/
+- https://feeds.megaphone.fm/thedoctorsfarmacy
+- https://gundrymd.com/
 recommended_search_queries:
 - Ferritin practitioner optimal range
 - Ferritin metabolic optimization

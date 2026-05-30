@@ -8,130 +8,6 @@ sm_reference:
 unit: μg/mL
 mo_supported: true
 mo_rationale: 'MO-relevant: category ''micronutrients'''
-recommended_videos:
-- video_id: -9I2AunSKxo
-  score: 23
-  title: 'The #1 Food to Naturally Boost CoQ10 (Coenzyme Q10)'
-  channel: Dr. Eric Berg DC
-- video_id: 3Cty_MmAaMc
-  score: 23
-  title: 'The #1 Best Food for CoQ10 (Coenzyme Q10)'
-  channel: Dr. Eric Berg DC
-- video_id: V9Hq3dd5lNk
-  score: 23
-  title: What is CoQ10 Good For?
-  channel: Dr. Eric Berg DC
-- video_id: IEJO2W87hac
-  score: 22
-  title: Should You Take a Statin? What the Research Says
-  channel: Nutrition with Judy
-- video_id: LrWlbs1Bq2Y
-  score: 21
-  title: Reviewing Bryan Johnson Blueprint Supplements - Are They Evidence Based
-  channel: Siim Land
-- video_id: pktGx39SoPI
-  score: 21
-  title: The Most Reliable Longevity Supplements? - DoNotAge Review
-  channel: Siim Land
-- video_id: 1RiS8bGphUQ
-  score: 18
-  title: 'CoQ10 Dosage: Is 400-mg Daily Too Much?'
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: 2TaSE1rR9KE
-  score: 17
-  title: 'CoQ10: Ubiquinone vs. Ubiquinol (Part 1)'
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: MJw9RXHjBr8
-  score: 17
-  title: 'Arthritis: Your Joints are being Poisoned by your own Cells - but, there
-    may be a Fix'
-  channel: Physionic
-- video_id: 2l3KlHYliGw
-  score: 16
-  title: 'Erectile Dysfunction: 7 Foods To Improve ED'
-  channel: Shawn Baker MD
-- video_id: cstJkNSs0IY
-  score: 15
-  title: The Dr. Berg Show LIVE - November 21, 2025
-  channel: Dr. Eric Berg DC
-- video_id: hnS49pMNTww
-  score: 15
-  title: If you take a Statin, Do these 7 things Right Now! (Lipitor, Crestor, Zocor)
-  channel: KenDBerryMD
-- video_id: w9vwZBsIU8U
-  score: 15
-  title: The Dr. Berg Show LIVE - October 4, 2024
-  channel: Dr. Eric Berg DC
-- video_id: yyxgFVGsZhc
-  score: 15
-  title: The Dr. Berg Show LIVE - October 11, 2024
-  channel: Dr. Eric Berg DC
-- video_id: JyesYEq9_mU
-  score: 14
-  title: Medicines that DEPLETE CoEnzyme Q10 (Ubiquinone lowering Medications)
-  channel: KenDBerryMD
-- video_id: cNTJYpzAhBc
-  score: 14
-  title: The Dr. Berg Show LIVE - March 26, 2022
-  channel: Dr. Eric Berg DC
-- video_id: cpNe9PMRyfQ
-  score: 14
-  title: '#SHORTS Should you take CoQ10?'
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: slbcr2odHyY
-  score: 14
-  title: CoQ10 Ubiquinol Part 2- Practical Recommendations & Inconsistent Science
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: wRsX_ZkzxvQ
-  score: 14
-  title: Peptide & Hormone Therapies for Health, Performance & Longevity | Dr. Craig
-    Koniver
-  channel: Andrew Huberman
-- video_id: 4u8QGZvRYvo
-  score: 13
-  title: 7 Ways Dr. Berg BLOCKS the Side Effects Of Carbs While On A Keto Diet
-  channel: Dr. Eric Berg DC
-- video_id: HAK5eg0HRc8
-  score: 13
-  title: The BEST Foods to Strengthen Your Heart
-  channel: Dr. Eric Berg DC
-- video_id: HIbM2V-bXaM
-  score: 13
-  title: The Dr. Berg Show LIVE - April 10, 2026
-  channel: Dr. Eric Berg DC
-- video_id: NBLv3UrNAsw
-  score: 13
-  title: Megadosing Astaxanthin, Fixing Food Sensitivities, and More - Q&A with Tim
-    Gray
-  channel: Siim Land
-- video_id: RTPNJgHeZBI
-  score: 13
-  title: How Women Can Improve Their Fertility & Hormone Health | Dr. Natalie Crawford
-  channel: Andrew Huberman
-- video_id: W8DZbYyuDmA
-  score: 13
-  title: 100 Supplements Ranked Worst to Best (Ultimate Supplement Tier List 2025)
-  channel: Siim Land
-- video_id: XuU6rBlfYnU
-  score: 13
-  title: 'Seniors: 5 Popular Supplements that Are Actually Destroying Your Heart'
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: YgqfnZ3O_tQ
-  score: 13
-  title: Longevity Supplements RANKED From Best to Worst | 2025
-  channel: Siim Land
-- video_id: gxPog8boQjo
-  score: 13
-  title: '#1 Absolute Worst HEART ADVICE Your Doctor Gives You'
-  channel: Dr. Sten Ekberg
-- video_id: ovqlM2rjVx8
-  score: 13
-  title: '#SHORTS Do you need Coq10 supplementation?'
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: 0XuH31s5k28
-  score: 12
-  title: What is CoQ10? – Dr.Berg Shares Coenzyme CoQ10 Benefits
-  channel: Dr. Eric Berg DC
 recommended_youtube_video_ids:
 - -9I2AunSKxo
 - 3Cty_MmAaMc
@@ -172,7 +48,18 @@ recommended_practitioner_ids:
 - person:steven-gundry
 recommended_pubmed_ids: []
 recommended_dois: []
-recommended_source_urls: []
+recommended_source_urls:
+- https://hubermanlab.com/
+- https://feeds.megaphone.fm/hubermanlab
+- https://drbredesen.com/
+- https://www.mercola.com/
+- https://drhyman.me/
+- https://drhyman.com/
+- https://feeds.megaphone.fm/thedoctorsfarmacy
+- https://www.foundmyfitness.com/
+- https://foundmyfitness.com/
+- https://rss.libsyn.com/shows/51714/destinations/184296.xml
+- https://gundrymd.com/
 recommended_search_queries:
 - Coenzyme Q10 practitioner optimal range
 - Coenzyme Q10 metabolic optimization

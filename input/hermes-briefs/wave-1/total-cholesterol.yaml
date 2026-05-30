@@ -8,131 +8,6 @@ sm_reference:
 unit: mg/dL
 mo_supported: true
 mo_rationale: 'MO-relevant: category ''lipid-panel'''
-recommended_videos:
-- video_id: Mxao_CePhI0
-  score: 23
-  title: 'Nick Norwitz Has Total Cholesterol of 700 — So Why Zero Plaque? – TFP #030
-    | Nick Norwitz MD PhD'
-  channel: The Feldman Protocol
-- video_id: PP4-5KdhXEI
-  score: 21
-  title: Does Canola Oil cause Inflammation? Every RCT Analyzed. [Study 401-410 Analysis]
-  channel: Physionic
-- video_id: WcQX9MtQG4Q
-  score: 14
-  title: What’s So Bad about BACON? (Truth about Bacon Safety) 2026
-  channel: KenDBerryMD
-- video_id: SgKp5mm0ALI
-  score: 13
-  title: I Ranked 100 Health Markers (Most People Get These Wrong)
-  channel: Siim Land
-- video_id: fCa3myO02iQ
-  score: 13
-  title: Low LDL Cholesterol Level of 29 Made This Man Very Happy - Here's Why
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: n3L1jtWk6q0
-  score: 13
-  title: The Dr. Berg Show LIVE
-  channel: Dr. Eric Berg DC
-- video_id: q6nJ8bZKs1Y
-  score: 13
-  title: 'Cholesterol on Carnivore: What Levels Are Actually Optimal?'
-  channel: Nutrition with Judy
-- video_id: XbKqWWHE-zw
-  score: 12
-  title: The BIGGEST LIE about Food
-  channel: Dr. Eric Berg DC
-- video_id: qSeIz_PWCmc
-  score: 12
-  title: Your Doctor is Wrong! How to CURE METABOLIC SYNDROME - 2026
-  channel: KenDBerryMD
-- video_id: C3rsNCFNAw8
-  score: 11
-  title: Understand Your CHOLESTEROL PANEL & Metabolic Health Tests - The ULTIMATE
-    Guide | Dr. Robert Lustig
-  channel: Levels | Health, Metabolism & Human Performance
-- video_id: Jv6flHrh0NQ
-  score: 11
-  title: Does Nattokinase improve Heart Disease? [Study 269-276 Analysis]
-  channel: Physionic
-- video_id: eZ0eLgqZQUs
-  score: 11
-  title: 'Cardiovascular Health Blood Test Results Explained: ApoB, Cholesterol &
-    Reducing Risk | Dr. Dsouza'
-  channel: Levels | Health, Metabolism & Human Performance
-- video_id: gH2oDjnatA4
-  score: 11
-  title: Low Cholesterol, Greater Death
-  channel: Physionic
-- video_id: nGifsbBHf0A
-  score: 11
-  title: Early Signs of Insulin Resistance & Heart Disease - Founder of the CAC score
-    - Dr. Arthur Agatston
-  channel: Nutrition with Judy
-- video_id: pXhZr-3Nr0U
-  score: 11
-  title: Dave Feldman - 'A Very Brief Review of the Lipid Energy Model & TOP SECRET'
-  channel: Low Carb Down Under
-- video_id: 8ipbkwzyO_8
-  score: 9
-  title: Dr. Berg's Wife Has Crazy High Cholesterol of 261..
-  channel: Dr. Eric Berg DC
-- video_id: 93JaozgNfAA
-  score: 9
-  title: Dave Feldman - 'New Preliminary NHANES Data and Analysis'
-  channel: Low Carb Down Under
-- video_id: RU8jn0kAmfk
-  score: 9
-  title: 'Eggs Increase Risk of Heart Disease: New Study Says...Really?'
-  channel: Dr. Eric Berg DC
-- video_id: XfJNUbJE_V0
-  score: 9
-  title: High Cholesterol is Healthy! [with David Diamond, PhD]
-  channel: KenDBerryMD
-- video_id: kDOHw0qhT0A
-  score: 9
-  title: Dave Feldman - 'New Data on Energy, Exercise, and Cholesterol'
-  channel: Low Carb Down Under
-- video_id: f9w9oIU5FAA
-  score: 8
-  title: Why Might LDL Cholesterol Go Up on Keto?
-  channel: Dr. Eric Berg DC
-- video_id: rSn5j4OSggI
-  score: 8
-  title: Is Coconut Oil Going to Raise Your Cholesterol?
-  channel: Dr. Eric Berg DC
-- video_id: 0LuKwsz9Woc
-  score: 7
-  title: Dave Feldman - 'Cholesterol is a Passenger, Not a Driver'
-  channel: Low Carb Down Under
-- video_id: 9HtxFzMbl3U
-  score: 7
-  title: KETO/Carnivore/Fasting Q&A - 4/19/21
-  channel: KenDBerryMD
-- video_id: R0nS8yxQ90E
-  score: 7
-  title: Dave Feldman - 'Interpreting Common Low Carb Lipid Profiles'
-  channel: Low Carb Down Under
-- video_id: jZu52duIqno
-  score: 7
-  title: Dave Feldman - 'The Dynamic Influence of a High Fat Diet on Cholesterol Variability'
-  channel: Low Carb Down Under
-- video_id: y8pybQjVeiQ
-  score: 7
-  title: Dave Feldman - 'It's About Energy, Not Cholesterol'
-  channel: Low Carb Down Under
-- video_id: 0OJltvn0mVM
-  score: 6
-  title: Intermittent Fasting and Ketosis May Spike Your Cholesterol – Dr. Berg
-  channel: Dr. Eric Berg DC
-- video_id: ErSbsMF5Hho
-  score: 6
-  title: Why Cholesterol Levels Spike on Low Fat & Cholesterol Diet – Dr. Berg
-  channel: Dr. Eric Berg DC
-- video_id: TtD7O7CRNms
-  score: 6
-  title: Cholesterol Meds DOUBLE Your Dementia Risk (Protect Your Brain!) 2026
-  channel: KenDBerryMD
 recommended_youtube_video_ids:
 - Mxao_CePhI0
 - PP4-5KdhXEI
@@ -202,7 +77,33 @@ recommended_pubmed_ids:
 - '34120177'
 - '34458905'
 recommended_dois: []
-recommended_source_urls: []
+recommended_source_urls:
+- https://dranthonychaffee.com/
+- https://podcasts.apple.com/au/podcast/the-plant-free-md-podcast/id1614546790
+- https://open.spotify.com/show/0WQtoPLuPMWWm3ZT3DYXzp
+- https://dr-chaffee-s-90-day-carnivore-challenge.mn.co/landing
+- https://patreon.com/AnthonyChaffeeMD
+- https://www.benbikman.com/
+- https://benbikman.com/
+- https://feeds.acast.com/public/shows/602b13db8237836e54f27141
+- https://dietdoctor.com/
+- https://feed.podbean.com/dietdoctorpodcast/feed.xml
+- https://metabolicinitiative.com/
+- https://anchor.fm/s/48092b10/podcast/rss
+- https://cholesterolcode.com/
+- https://phcuk.org/
+- https://www.mercola.com/
+- https://drhyman.me/
+- https://drhyman.com/
+- https://feeds.megaphone.fm/thedoctorsfarmacy
+- https://nicknorwitz.com/
+- https://carnivoremd.com/
+- https://peterattiamd.com/
+- https://peterattiadrive.libsyn.com/rss
+- https://drsten.com/
+- https://gundrymd.com/
+- https://tednaiman.com/
+- https://drdavisinfinitehealth.com/
 recommended_search_queries:
 - Total Cholesterol practitioner optimal range
 - Total Cholesterol metabolic optimization

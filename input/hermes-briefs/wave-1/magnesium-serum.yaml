@@ -9,128 +9,6 @@ unit: mg/dL
 mo_supported: true
 mo_rationale: 'MO-relevant (false-exclusion corrected): magnesium actively optimized
   by MO practitioners'
-recommended_videos:
-- video_id: 2qu59nPJXcg
-  score: 25
-  title: 'The #1 Magnesium Mistake Everyone Makes'
-  channel: Dr. Eric Berg DC
-- video_id: 7z4LFWddEF8
-  score: 20
-  title: 6 Carnivore Diet Tips After Working With Thousands of Clients
-  channel: Nutrition with Judy
-- video_id: LrWlbs1Bq2Y
-  score: 20
-  title: Reviewing Bryan Johnson Blueprint Supplements - Are They Evidence Based
-  channel: Siim Land
-- video_id: QSPAZQAO8Zo
-  score: 20
-  title: Stem Cells, Telomeres, Hyperbaric Oxygen Therapy - Joseph Dituri PhD
-  channel: Siim Land
-- video_id: jrozJ6oMEjo
-  score: 20
-  title: Top 15 Supplements That Actually Work In Humans - 2025 Updated
-  channel: Siim Land
-- video_id: pktGx39SoPI
-  score: 20
-  title: The Most Reliable Longevity Supplements? - DoNotAge Review
-  channel: Siim Land
-- video_id: xQ2fu54yQZI
-  score: 20
-  title: The One Supplement to Rule Them All - NOVOS Core Review
-  channel: Siim Land
-- video_id: 0grv7IJ_nxg
-  score: 19
-  title: Supplements Shown to Extend Lifespan - Top Longevity Program Results
-  channel: Siim Land
-- video_id: 0j8TItElqmU
-  score: 19
-  title: Longevity Scientist Shares What Affects Biological Age
-  channel: Siim Land
-- video_id: 1xpQ5Jjv3Uc
-  score: 19
-  title: Longevity Doctor Shares Regeneration Protocol - Peptides, Stem Cells, Testing
-    - Alexis Ortega MD
-  channel: Siim Land
-- video_id: 20VNbCdJp-w
-  score: 19
-  title: Supplements That HARM Your Kidneys and Liver? - Q&A
-  channel: Siim Land
-- video_id: 4tjbG1Fo7xA
-  score: 19
-  title: Half of Us are Deficient in this Mineral… and its Shrinking our Brain
-  channel: Physionic
-- video_id: 6NhS1ZvN_fw
-  score: 19
-  title: 'Anti-Aging MD: How to Reverse Skin Aging and Wrinkles'
-  channel: Siim Land
-- video_id: 89GabhiDPow
-  score: 19
-  title: '#1 Best Magnesium Supplement for Brain Health'
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: 9FA6LkoWL9c
-  score: 19
-  title: We Went to a Longevity Clinic and Here's What Happened
-  channel: Siim Land
-- video_id: AUckcxyD-z8
-  score: 19
-  title: The Most Effective Diet to Lose Visceral Fat - Full Day of Eating
-  channel: Siim Land
-- video_id: BCJjY7HbqBk
-  score: 19
-  title: 5 Evidence-Based Methods to Slow Down Aging
-  channel: Siim Land
-- video_id: CvOZsuoJ3-s
-  score: 19
-  title: How to Prevent Heart Disease with Lifestyle Changes - Dr Paddy Barrett
-  channel: Siim Land
-- video_id: HEASD4CBKfs
-  score: 19
-  title: Supplements I Stopped Taking, Optimal Body Fat Percentage - Q&A
-  channel: Siim Land
-- video_id: HhfHzlyRIBE
-  score: 19
-  title: Is Methylene Blue the Magic Bullet for Health? - Dr Scott Sherr
-  channel: Siim Land
-- video_id: J6aVE1Lo6Dw
-  score: 19
-  title: 10 Urgent Signs Your Body Needs Magnesium
-  channel: Dr. Sten Ekberg
-- video_id: JXcej6GkFAY
-  score: 19
-  title: My evidence-based diet plan to live longer
-  channel: Siim Land
-- video_id: K5KmAxnWX5o
-  score: 19
-  title: Dave Pascoe Shares His Longevity Routine for Staying Fit In His 60s
-  channel: Siim Land
-- video_id: Kx8qEPflNvk
-  score: 19
-  title: How I Plan to Extend My Dog's Lifespan with THIS Evidence-Based Plan
-  channel: Siim Land
-- video_id: OVUiZPSWVG4
-  score: 19
-  title: Supplements That Can HARM Your Heart, Hyaluronic Acid and Cancer - Q&A
-  channel: Siim Land
-- video_id: Qvb5IsOVQLc
-  score: 19
-  title: The Unhealthiest Thing In My Life, Creatine and Kidney Health - Q&A
-  channel: Siim Land
-- video_id: THXBj0edVZE
-  score: 19
-  title: Dave Pascoe and Julie Gibson Clark's Surprising Longevity Tips
-  channel: Siim Land
-- video_id: U1GLFSnPvCw
-  score: 19
-  title: Stem Cell Doctor Shares the Truth About Stem Cell Therapy for Anti-Aging
-  channel: Siim Land
-- video_id: UWN3aqpEvF4
-  score: 19
-  title: The Surprising Benefits of Nasal Breathing Nobody Tells You - Leigh Ewin
-  channel: Siim Land
-- video_id: XcLC-pH61rc
-  score: 19
-  title: How I Build Muscle Without Gaining Fat - Body Recomposition
-  channel: Siim Land
 recommended_youtube_video_ids:
 - 2qu59nPJXcg
 - 7z4LFWddEF8
@@ -171,7 +49,18 @@ recommended_practitioner_ids:
 - person:steven-gundry
 recommended_pubmed_ids: []
 recommended_dois: []
-recommended_source_urls: []
+recommended_source_urls:
+- https://hubermanlab.com/
+- https://feeds.megaphone.fm/hubermanlab
+- https://drbredesen.com/
+- https://www.mercola.com/
+- https://drhyman.me/
+- https://drhyman.com/
+- https://feeds.megaphone.fm/thedoctorsfarmacy
+- https://www.foundmyfitness.com/
+- https://foundmyfitness.com/
+- https://rss.libsyn.com/shows/51714/destinations/184296.xml
+- https://gundrymd.com/
 recommended_search_queries:
 - Magnesium practitioner optimal range
 - Magnesium metabolic optimization

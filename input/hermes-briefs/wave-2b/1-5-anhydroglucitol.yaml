@@ -8,7 +8,6 @@ sm_reference:
 unit: mcg/mL
 mo_supported: true
 mo_rationale: 'MO-relevant: category ''glycemic-insulin'''
-recommended_videos: []
 recommended_youtube_video_ids: []
 recommended_practitioner_ids:
 - company:defeat-diabetes
@@ -72,7 +71,55 @@ recommended_pubmed_ids:
 - '32529222'
 - '39076658'
 recommended_dois: []
-recommended_source_urls: []
+recommended_source_urls:
+- https://www.defeatdiabetes.com.au/
+- https://www.levels.com/
+- https://levelshealth.com/
+- https://www.lowcarbprogram.com/
+- https://www.virtahealth.com/
+- https://virtahealth.com/
+- https://metabolichealthsummit.com/
+- https://www.dietdoctor.com/
+- https://dietdoctor.com/
+- https://phcuk.org/
+- https://hubermanlab.com/
+- https://feeds.megaphone.fm/hubermanlab
+- https://dranthonychaffee.com/
+- https://podcasts.apple.com/au/podcast/the-plant-free-md-podcast/id1614546790
+- https://open.spotify.com/show/0WQtoPLuPMWWm3ZT3DYXzp
+- https://dr-chaffee-s-90-day-carnivore-challenge.mn.co/landing
+- https://patreon.com/AnthonyChaffeeMD
+- https://www.benbikman.com/
+- https://benbikman.com/
+- https://feeds.acast.com/public/shows/602b13db8237836e54f27141
+- https://feed.podbean.com/dietdoctorpodcast/feed.xml
+- https://metabolicinitiative.com/
+- https://anchor.fm/s/48092b10/podcast/rss
+- https://drbredesen.com/
+- https://cholesterolcode.com/
+- https://drperlmutter.com/
+- https://anchor.fm/s/f102c71c/podcast/rss
+- https://ketonutrition.org/
+- https://www.thefastingmethod.com/
+- https://drjasonfung.com/
+- https://www.mercola.com/
+- https://drhyman.me/
+- https://drhyman.com/
+- https://feeds.megaphone.fm/thedoctorsfarmacy
+- https://thefastingmethod.com/
+- https://carnivoremd.com/
+- https://peterattiamd.com/
+- https://peterattiadrive.libsyn.com/rss
+- https://peterbrukner.com/
+- https://www.foundmyfitness.com/
+- https://foundmyfitness.com/
+- https://rss.libsyn.com/shows/51714/destinations/184296.xml
+- https://saragottfriedmd.com/
+- https://drsten.com/
+- https://gundrymd.com/
+- https://tednaiman.com/
+- https://drdavisinfinitehealth.com/
+- https://www.csiro.au/
 recommended_search_queries:
 - 1,5-Anhydroglucitol practitioner optimal range
 - 1,5-Anhydroglucitol metabolic optimization

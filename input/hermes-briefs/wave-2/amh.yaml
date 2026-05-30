@@ -8,34 +8,6 @@ sm_reference:
 unit: ng/mL
 mo_supported: true
 mo_rationale: 'MO-relevant: category ''hormones'''
-recommended_videos:
-- video_id: RTPNJgHeZBI
-  score: 14
-  title: How Women Can Improve Their Fertility & Hormone Health | Dr. Natalie Crawford
-  channel: Andrew Huberman
-- video_id: hMzfGZnaPN8
-  score: 14
-  title: Female Hormone Health, PCOS, Endometriosis, Fertility & Breast Cancer | Dr.
-    Thaïs Aliabadi
-  channel: Andrew Huberman
-- video_id: EhlIkzJwPlk
-  score: 12
-  title: Female Hormone Health, Fertility & Vitality | Dr. Natalie Crawford
-  channel: Andrew Huberman
-- video_id: 2vXgAo-luQI
-  score: 11
-  title: 'Female Hormone Blood Test Results Explained: Estrogen, Fertility & Signs
-    of PCOS | Dr. Anjali Dsouza'
-  channel: Levels | Health, Metabolism & Human Performance
-- video_id: GVRDGQhoEYQ
-  score: 11
-  title: How to Optimize Female Hormone Health for Vitality & Longevity | Dr. Sara
-    Gottfried
-  channel: Andrew Huberman
-- video_id: O1YRwWmue4Y
-  score: 11
-  title: How to Optimize Fertility in Males & Females
-  channel: Andrew Huberman
 recommended_youtube_video_ids:
 - RTPNJgHeZBI
 - hMzfGZnaPN8

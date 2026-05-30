@@ -8,20 +8,6 @@ sm_reference:
 unit: ng/mL/hr
 mo_supported: true
 mo_rationale: 'MO-relevant: category ''hormones'''
-recommended_videos:
-- video_id: J2EmXZEl_hY
-  score: 11
-  title: Your Blood Pressure and the Relationship to Obesity (and Diabetes) [Study
-    75 - Detailed Analysis]
-  channel: Physionic
-- video_id: SqsK__FAEd0
-  score: 8
-  title: Why Does Vitamin D Lower Blood Pressure
-  channel: Dr. Eric Berg DC
-- video_id: kxVCYx9iKF8
-  score: 4
-  title: Do Losartan and other ARBS prevent heart attack ? (no) - FORD BREWER MD MPH
-  channel: Thomas Fordham Brewer MD MPH
 recommended_youtube_video_ids:
 - J2EmXZEl_hY
 - SqsK__FAEd0

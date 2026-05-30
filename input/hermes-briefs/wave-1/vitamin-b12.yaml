@@ -8,128 +8,6 @@ sm_reference:
 unit: pg/mL
 mo_supported: true
 mo_rationale: 'MO-relevant: category ''micronutrients'''
-recommended_videos:
-- video_id: cFSZk1_nXrY
-  score: 23
-  title: 6 Causes of a Vitamin B12 Deficiency You've Never Heard Before
-  channel: Dr. Eric Berg DC
-- video_id: hCyvqRq5YmM
-  score: 21
-  title: Transform Your Mental Health With Diet & Lifestyle | Dr. Chris Palmer
-  channel: Andrew Huberman
-- video_id: ATGp0if2314
-  score: 20
-  title: Synthetic vs. Natural Vitamin B12
-  channel: Dr. Eric Berg DC
-- video_id: Af4nBVnHsT0
-  score: 19
-  title: This Common Supplement is giving you Cancer, but you should keep taking it..
-  channel: Physionic
-- video_id: METaBVLsRwE
-  score: 19
-  title: Is Carnivore a Right-Wing Toxic Masculinity Diet? – Nina Teicholz
-  channel: Nutrition with Judy
-- video_id: ChntJVuErlg
-  score: 18
-  title: The 7 WARNING Signs of a B12 Deficiency - Dr. Berg
-  channel: Dr. Eric Berg DC
-- video_id: KVJMQVebilU
-  score: 18
-  title: Your Body is Begging For Vitamin B12!
-  channel: Dr. Eric Berg DC
-- video_id: uscfirFx894
-  score: 18
-  title: 'Vitamin B12 Deficiency: The most common Cause – Dr. Berg'
-  channel: Dr. Eric Berg DC
-- video_id: jRger6l4rjc
-  score: 17
-  title: 'Cyanocobalamin: The REAL Reason Why You Should Avoid Synthetic B12'
-  channel: Dr. Eric Berg DC
-- video_id: NemgfCwePag
-  score: 16
-  title: The 1st Sign of a Methylcobalamin (B12) Deficiency
-  channel: Dr. Eric Berg DC
-- video_id: YPnIyXJePzA
-  score: 16
-  title: The Dr. Berg Show LIVE - April 17, 2026
-  channel: Dr. Eric Berg DC
-- video_id: Z-x3kDAUqdw
-  score: 16
-  title: 6 Child IQ Killers- Low IQ By Iodine Deficiency, Vitamin B12 Deficiency &
-    High Sugar Foods – Dr.Berg
-  channel: Dr. Eric Berg DC
-- video_id: 4Q255seVYoI
-  score: 15
-  title: The Dr. Berg Show LIVE - December 12, 2025
-  channel: Dr. Eric Berg DC
-- video_id: 5LfLQ4Sef00
-  score: 15
-  title: The Dr. Berg Show LIVE - May 31, 2024
-  channel: Dr. Eric Berg DC
-- video_id: IQkTb28bqq0
-  score: 15
-  title: The Dr. Berg Show LIVE - September 6, 2024
-  channel: Dr. Eric Berg DC
-- video_id: cojfbFPi9-A
-  score: 15
-  title: NEVER IGNORE These Warning Signs!
-  channel: Dr. Eric Berg DC
-- video_id: vJFozt4pytg
-  score: 15
-  title: So Called "Normal Labs" are NOT Healthy
-  channel: Dr. Eric Berg DC
-- video_id: -u7O0aDHr-E
-  score: 13
-  title: '#1 Cause Of Brain Shrinkage! (Doctor Explains) #shorts #short #shortvideo'
-  channel: Anthony Chaffee MD
-- video_id: 4u8QGZvRYvo
-  score: 13
-  title: 7 Ways Dr. Berg BLOCKS the Side Effects Of Carbs While On A Keto Diet
-  channel: Dr. Eric Berg DC
-- video_id: 7K2OulYf8_E
-  score: 13
-  title: Vit B12 Deficiency & Depression, Dementia, Nerve Damage- FORD BREWER MD MPH
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: 8KgNWFyd01g
-  score: 13
-  title: 21 Signs Your Body Needs Specific Nutrients
-  channel: Dr. Eric Berg DC
-- video_id: 91Yw6-H1FDI
-  score: 13
-  title: What Happens If You Take B12 Daily for 14 Days?
-  channel: Dr. Eric Berg DC
-- video_id: ABqNwhnE6J4
-  score: 13
-  title: The Dr. Berg Show LIVE - December 5, 2025
-  channel: Dr. Eric Berg DC
-- video_id: FA_VgCFnueE
-  score: 13
-  title: DON'T GET SURGERY Unless You Do This First
-  channel: Dr. Eric Berg DC
-- video_id: HAK5eg0HRc8
-  score: 13
-  title: The BEST Foods to Strengthen Your Heart
-  channel: Dr. Eric Berg DC
-- video_id: MtLfYmxVIzY
-  score: 13
-  title: The Dr. Berg Show LIVE - June 14, 2024
-  channel: Dr. Eric Berg DC
-- video_id: Mxp6Q6O9Hxs
-  score: 13
-  title: The Dr. Berg Show LIVE -  February 26, 2022
-  channel: Dr. Eric Berg DC
-- video_id: Ncz4b6x341c
-  score: 13
-  title: The Dr. Berg Show LIVE - February 3, 2023
-  channel: Dr. Eric Berg DC
-- video_id: PYwWTn2MPYo
-  score: 13
-  title: Why Your Vitamins Are Not Working
-  channel: Dr. Eric Berg DC
-- video_id: RG4UpKZrmUs
-  score: 13
-  title: 'Why Vegans Have Smaller Brains: What the Science Shares'
-  channel: Nutrition with Judy
 recommended_youtube_video_ids:
 - cFSZk1_nXrY
 - hCyvqRq5YmM
@@ -180,7 +58,18 @@ recommended_pubmed_ids:
 - '28925645'
 - '30032223'
 recommended_dois: []
-recommended_source_urls: []
+recommended_source_urls:
+- https://hubermanlab.com/
+- https://feeds.megaphone.fm/hubermanlab
+- https://drbredesen.com/
+- https://www.mercola.com/
+- https://drhyman.me/
+- https://drhyman.com/
+- https://feeds.megaphone.fm/thedoctorsfarmacy
+- https://www.foundmyfitness.com/
+- https://foundmyfitness.com/
+- https://rss.libsyn.com/shows/51714/destinations/184296.xml
+- https://gundrymd.com/
 recommended_search_queries:
 - Vitamin B12 practitioner optimal range
 - Vitamin B12 metabolic optimization

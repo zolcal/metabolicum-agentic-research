@@ -10,7 +10,7 @@
       "practitioners": 55,
       "pubmed_ids": 4,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 48
     },
     "5-nt": {
       "mo_supported": true,
@@ -18,7 +18,7 @@
       "practitioners": 14,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 14
     },
     "5-nucleotidase": {
       "mo_supported": true,
@@ -26,7 +26,7 @@
       "practitioners": 14,
       "pubmed_ids": 1,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 14
     },
     "adenosine-deaminase-csf": {
       "mo_supported": true,
@@ -34,7 +34,7 @@
       "practitioners": 3,
       "pubmed_ids": 6,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 6
     },
     "adenosine-deaminase-pericardial-fluid": {
       "mo_supported": true,
@@ -42,7 +42,7 @@
       "practitioners": 3,
       "pubmed_ids": 5,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 6
     },
     "adenosine-deaminase-peritoneal-fluid": {
       "mo_supported": true,
@@ -50,7 +50,7 @@
       "practitioners": 3,
       "pubmed_ids": 5,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 6
     },
     "adenosine-deaminase-pleural-fluid": {
       "mo_supported": true,
@@ -58,7 +58,7 @@
       "practitioners": 3,
       "pubmed_ids": 5,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 6
     },
     "adenosine-deaminase": {
       "mo_supported": true,
@@ -66,7 +66,7 @@
       "practitioners": 3,
       "pubmed_ids": 4,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 6
     },
     "albumin-2": {
       "mo_supported": true,
@@ -74,7 +74,7 @@
       "practitioners": 14,
       "pubmed_ids": 2,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 14
     },
     "albumin-3": {
       "mo_supported": true,
@@ -82,7 +82,7 @@
       "practitioners": 14,
       "pubmed_ids": 3,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 14
     },
     "aldosterone-2": {
       "mo_supported": true,
@@ -146,7 +146,7 @@
       "practitioners": 14,
       "pubmed_ids": 1,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 14
     },
     "amylase-2": {
       "mo_supported": true,
@@ -154,7 +154,7 @@
       "practitioners": 14,
       "pubmed_ids": 6,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 14
     },
     "amylase": {
       "mo_supported": true,
@@ -162,7 +162,7 @@
       "practitioners": 14,
       "pubmed_ids": 6,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 14
     },
     "angiotensin-converting-enzyme-csf": {
       "mo_supported": true,
@@ -170,7 +170,7 @@
       "practitioners": 14,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 14
     },
     "angiotensin-converting-enzyme": {
       "mo_supported": true,
@@ -178,7 +178,7 @@
       "practitioners": 14,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 14
     },
     "beryllium-2": {
       "mo_supported": false,
@@ -282,7 +282,7 @@
       "practitioners": 6,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 11
     },
     "cortisol-am": {
       "mo_supported": true,
@@ -378,7 +378,7 @@
       "practitioners": 55,
       "pubmed_ids": 2,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 48
     },
     "glucose-csf": {
       "mo_supported": true,
@@ -386,7 +386,7 @@
       "practitioners": 55,
       "pubmed_ids": 2,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 48
     },
     "glucose-post-cfst": {
       "mo_supported": true,
@@ -394,7 +394,7 @@
       "practitioners": 55,
       "pubmed_ids": 5,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 48
     },
     "glutamate-decarboxylase-65-ab-csf": {
       "mo_supported": false,
@@ -482,7 +482,7 @@
       "practitioners": 55,
       "pubmed_ids": 3,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 48
     },
     "interleukin-10-csf": {
       "mo_supported": true,
@@ -490,7 +490,7 @@
       "practitioners": 3,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 6
     },
     "lactate-2": {
       "mo_supported": true,
@@ -498,7 +498,7 @@
       "practitioners": 14,
       "pubmed_ids": 3,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 14
     },
     "lactate": {
       "mo_supported": true,
@@ -506,7 +506,7 @@
       "practitioners": 14,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 14
     },
     "magnesium-serum-2": {
       "mo_supported": false,
@@ -594,7 +594,7 @@
       "practitioners": 3,
       "pubmed_ids": 3,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 6
     },
     "pyruvate-3": {
       "mo_supported": false,
@@ -682,7 +682,7 @@
       "practitioners": 6,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 11
     },
     "vancomycin-peak": {
       "mo_supported": false,

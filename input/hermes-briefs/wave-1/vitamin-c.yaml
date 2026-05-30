@@ -8,130 +8,6 @@ sm_reference:
 unit: mg/dL
 mo_supported: true
 mo_rationale: 'MO-relevant: category ''micronutrients'''
-recommended_videos:
-- video_id: 9nqkYHi2AyI
-  score: 34
-  title: Do We Need Vitamin C on a Carnivore Diet? Should We Supplement?
-  channel: Nutrition with Judy
-- video_id: phg_9Vv22fk
-  score: 29
-  title: Vitamin C destroys aggressive Cancers when paired with THIS Easy Nutrition
-    Protocol!
-  channel: Physionic
-- video_id: 2vwNT7pVDHQ
-  score: 25
-  title: 'Q&A: Vitamin C, ARDS, and COVID-19'
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: sNyvTjWzg2c
-  score: 25
-  title: The Truth About Vitamin C (It’s Not What You Think)
-  channel: Dr. Eric Berg DC
-- video_id: FrKGI8eUjHc
-  score: 23
-  title: The 7 Signs You're Not Getting Enough Vitamin C
-  channel: Dr. Eric Berg DC
-- video_id: Zto7tX8GBtQ
-  score: 23
-  title: 8 Signs of a Vitamin C Deficiency You've Never Heard About
-  channel: Dr. Eric Berg DC
-- video_id: l8FkfVsz76E
-  score: 23
-  title: The 4 Things about VITAMIN C That Are Quite SHOCKING!
-  channel: Dr. Eric Berg DC
-- video_id: 3o7hfGXNAEU
-  score: 21
-  title: 4 Subclinical Vitamin C Deficiency Signs that are Extremely Common
-  channel: Dr. Eric Berg DC
-- video_id: BzpaALfeR2g
-  score: 21
-  title: Top 10 Vitamin C Foods You Must Eat
-  channel: Dr. Sten Ekberg
-- video_id: LrWlbs1Bq2Y
-  score: 21
-  title: Reviewing Bryan Johnson Blueprint Supplements - Are They Evidence Based
-  channel: Siim Land
-- video_id: T1YLaPKNJx8
-  score: 21
-  title: The Tongue Can Determine a Vitamin C Deficiency
-  channel: Dr. Eric Berg DC
-- video_id: cewo-COun5U
-  score: 21
-  title: Top 5 Misconceptions About Vitamin C You Must Know - Doctor Reviews The TRUTH
-  channel: Dr. Sten Ekberg
-- video_id: ivYMo59SRRI
-  score: 21
-  title: Vitamin C's Immune Benefits
-  channel: Dr. Eric Berg DC
-- video_id: tYB9CGGSwFM
-  score: 21
-  title: 'The #1 Nutrient to Boost Your Collagen (NOT VITAMIN C)'
-  channel: Dr. Eric Berg DC
-- video_id: xQ2fu54yQZI
-  score: 21
-  title: The One Supplement to Rule Them All - NOVOS Core Review
-  channel: Siim Land
-- video_id: xchbRAkdBXg
-  score: 21
-  title: Is Pollution Depleting Your Vitamin C?
-  channel: Dr. Eric Berg DC
-- video_id: FubhkpuPvBc
-  score: 20
-  title: '10 YEAR VETERAN Talks Cholesterol and Vitamin C on the Carnivore Diet: Her
-    10+ year experience'
-  channel: Nutrition with Judy
-- video_id: e6jjRy7fj5E
-  score: 20
-  title: 'Linus Pauling: Vindicated by New Evidence?'
-  channel: Physionic
-- video_id: s3hAoARShpA
-  score: 20
-  title: 'Updates on COVID-19: Vitamin C, Harvard’s FAQ, and Testing Criteria Quanderies'
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: 8CeqDvzco8M
-  score: 19
-  title: Glycine Side-Effects, Which Supplements to Take with Food - Siim Land Q&A
-  channel: Siim Land
-- video_id: A4j2Jk48uMQ
-  score: 19
-  title: The Missing Nutrient Ruining Your Health
-  channel: Siim Land
-- video_id: CWB-qMLJNhQ
-  score: 19
-  title: He Takes 105 Pills a Day to Reverse Aging - Reviewing Bryan Johnson Supplement
-    Stack
-  channel: Siim Land
-- video_id: MNs1VYAXkS4
-  score: 19
-  title: The 2 BEST Foods for Your Teeth and Gums
-  channel: Dr. Eric Berg DC
-- video_id: ZaJWKzq-uuQ
-  score: 19
-  title: Receding Gums and Vitamin C Explained By Dr.Berg
-  channel: Dr. Eric Berg DC
-- video_id: iifuYkPjVWg
-  score: 19
-  title: The Hard Science Behind the Carnivore Diet, with Professor Bart Kay
-  channel: Anthony Chaffee MD
-- video_id: l48-rvRolq0
-  score: 19
-  title: 'The Most Powerful Skin Vitamin: Not Vitamin C or E'
-  channel: Dr. Eric Berg DC
-- video_id: n28W4AmvMDE
-  score: 19
-  title: How Sugar & Processed Foods Impact Your Health | Dr. Robert Lustig
-  channel: Andrew Huberman
-- video_id: nVf38nrk84I
-  score: 19
-  title: The ULTIMATE GUIDE to Longevity Supplements 2023 - Ranked Based on Effectiveness
-  channel: Siim Land
-- video_id: 7JPgNhOJIGk
-  score: 18
-  title: The Infamous Vitamin C Study
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: 7u94LLl_8z8
-  score: 18
-  title: Multiple Organs suffer from ‘Ferro-Aging’ - One Vitamin Stops It
-  channel: Physionic
 recommended_youtube_video_ids:
 - 9nqkYHi2AyI
 - phg_9Vv22fk
@@ -172,7 +48,18 @@ recommended_practitioner_ids:
 - person:steven-gundry
 recommended_pubmed_ids: []
 recommended_dois: []
-recommended_source_urls: []
+recommended_source_urls:
+- https://hubermanlab.com/
+- https://feeds.megaphone.fm/hubermanlab
+- https://drbredesen.com/
+- https://www.mercola.com/
+- https://drhyman.me/
+- https://drhyman.com/
+- https://feeds.megaphone.fm/thedoctorsfarmacy
+- https://www.foundmyfitness.com/
+- https://foundmyfitness.com/
+- https://rss.libsyn.com/shows/51714/destinations/184296.xml
+- https://gundrymd.com/
 recommended_search_queries:
 - Vitamin C practitioner optimal range
 - Vitamin C metabolic optimization

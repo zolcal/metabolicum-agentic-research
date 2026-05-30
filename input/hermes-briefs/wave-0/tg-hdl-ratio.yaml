@@ -8,62 +8,6 @@ sm_reference:
 unit: ratio
 mo_supported: true
 mo_rationale: 'MO-relevant: category ''lipid-panel'''
-recommended_videos:
-- video_id: l0fnnQ6Qd3g
-  score: 17
-  title: More Important than LDL Cholesterol? The TG/HDL Ratio (Part 1)
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: b1mWOvLcoHE
-  score: 16
-  title: More Important than LDL Cholesterol? The TG/HDL Ratio (Part 2)
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: D5-r2HnZWVY
-  score: 14
-  title: 'How to Read a Cholesterol Test: LDL, HDL, Lp(a), Apo(e), sdLDL, TG/HDL,
-    ApoA1/ApoB'
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: 0xaapu4lPEk
-  score: 13
-  title: The Value of Using TG/HDL Ratio with Other Prediabetes Tests
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: bzA7iihx6Bw
-  score: 11
-  title: Apo B vs.TG/HDL Ratio (Which one is Better)
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: ucszKFwpfYE
-  score: 11
-  title: 'A Bridge too Far: TG/HDL ratio & EXACT Risk'
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: -xCr3mvFCHM
-  score: 10
-  title: Dr. Paul Mason - ''Hard science on the real cause of heart disease - why
-    you should avoid seed oils'
-  channel: Low Carb Down Under
-- video_id: ueiuFIHUZ0o
-  score: 8
-  title: 'HEART ATTACK: Tesla AutoDrive to the Hospital!'
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: yiuGVXw7hvI
-  score: 5
-  title: I’ll Diagnose Your Prediabetes with only your Cholesterol Panel
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: OBXOB3J3b6w
-  score: 4
-  title: How to Read and Understand Your Cholesterol Levels
-  channel: Dr. Eric Berg DC
-- video_id: p4LoHH5UZAo
-  score: 4
-  title: 'Insulin Resistance: How to diagnose Prediabetes'
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: ybtyiMlTAW8
-  score: 3
-  title: 'Warning signs you’re not healthy: you have metabolic dysfunction | Dr. Casey
-    Means'
-  channel: Levels | Health, Metabolism & Human Performance
-- video_id: dUaOqiIJbyM
-  score: 1
-  title: The CHOLESTEROL PANEL Explained | Dr. Robert Lustig & Dr. Casey Means
-  channel: Levels | Health, Metabolism & Human Performance
 recommended_youtube_video_ids:
 - l0fnnQ6Qd3g
 - b1mWOvLcoHE
@@ -79,24 +23,65 @@ recommended_youtube_video_ids:
 - ybtyiMlTAW8
 - dUaOqiIJbyM
 recommended_practitioner_ids:
+- company:defeat-diabetes
+- company:levels-health
+- company:low-carb-program
+- company:virta-health
+- conference:metabolic-health-summit
+- media:diet-doctor
+- media:metodichu-bengedi-robi
+- network:hungarian-diabetes-association
+- network:hungarian-low-carb-clinician-network
+- network:public-health-collaboration
+- person:allan-sniderman
+- person:andreas-eenfeldt
+- person:andrew-huberman
 - person:anthony-chaffee
 - person:aseem-malhotra
 - person:benjamin-bikman
 - person:bret-scher
+- person:brian-lamkin
 - person:casey-means
+- person:dale-bredesen
 - person:dave-feldman
+- person:david-harper
+- person:david-ludwig
+- person:david-perlmutter
 - person:david-unwin
+- person:dominic-dagostino
+- person:evelyne-bourdua-roy
 - person:grant-brinkworth
+- person:jason-fung
+- person:jeff-volek
+- person:jonathan-little
+- person:joseph-kraft
+- person:joseph-mercola
 - person:margaret-ashwell
 - person:mark-hyman
+- person:megan-ramos
 - person:michael-mosley
+- person:nick-norwitz
+- person:paul-mason
 - person:paul-saladino
+- person:peter-attia
+- person:peter-brukner
 - person:rangan-chatterjee
+- person:rhonda-patrick
+- person:richard-maurer
+- person:robert-lustig
+- person:sara-gottfried
 - person:sten-ekberg
+- person:stephen-phinney
+- person:steven-gundry
 - person:ted-naiman
+- person:thomas-dayspring
+- person:tim-noakes
 - person:william-davis
 - person:zoe-harcombe
 - person:zoltan-szabo
+- researchgroup:csiro
+- researchgroup:semmelweis-metabolic-research-sources
+- researchgroup:university-of-debrecen-metabolic-research-sources
 recommended_pubmed_ids:
 - '14623617'
 - '16054467'
@@ -111,7 +96,6 @@ recommended_source_urls:
 - https://feeds.megaphone.fm/thedoctorsfarmacy
 - https://tednaiman.com/
 - https://dranthonychaffee.com/
-- https://instagram.com/anthonychaffeemd
 - https://podcasts.apple.com/au/podcast/the-plant-free-md-podcast/id1614546790
 - https://open.spotify.com/show/0WQtoPLuPMWWm3ZT3DYXzp
 - https://dr-chaffee-s-90-day-carnivore-challenge.mn.co/landing
@@ -124,6 +108,34 @@ recommended_source_urls:
 - https://carnivoremd.com/
 - https://drsten.com/
 - https://drdavisinfinitehealth.com/
+- https://www.defeatdiabetes.com.au/
+- https://www.levels.com/
+- https://levelshealth.com/
+- https://www.lowcarbprogram.com/
+- https://www.virtahealth.com/
+- https://virtahealth.com/
+- https://metabolichealthsummit.com/
+- https://www.dietdoctor.com/
+- https://hubermanlab.com/
+- https://feeds.megaphone.fm/hubermanlab
+- https://drbredesen.com/
+- https://drperlmutter.com/
+- https://anchor.fm/s/f102c71c/podcast/rss
+- https://ketonutrition.org/
+- https://www.thefastingmethod.com/
+- https://drjasonfung.com/
+- https://www.mercola.com/
+- https://thefastingmethod.com/
+- https://nicknorwitz.com/
+- https://peterattiamd.com/
+- https://peterattiadrive.libsyn.com/rss
+- https://peterbrukner.com/
+- https://www.foundmyfitness.com/
+- https://foundmyfitness.com/
+- https://rss.libsyn.com/shows/51714/destinations/184296.xml
+- https://saragottfriedmd.com/
+- https://gundrymd.com/
+- https://www.csiro.au/
 recommended_search_queries:
 - TG/HDL ratio practitioner optimal range
 - TG/HDL ratio metabolic optimization

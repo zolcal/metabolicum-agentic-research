@@ -1,7 +1,7 @@
 {
   "wave": "wave-1",
   "markers_processed": 105,
-  "total_sources": 476,
+  "total_sources": 472,
   "markers": {
     "17-hydroxyprogesterone": {
       "sources": 2,
@@ -67,12 +67,12 @@
       }
     },
     "apob-2": {
-      "sources": 19,
+      "sources": 17,
       "by_type": {
         "pubmed": 3,
-        "practitioner_website": 9,
+        "practitioner_website": 8,
         "practitioner_podcast": 4,
-        "practitioner_other": 3
+        "practitioner_other": 2
       }
     },
     "arsenic-urine": {
@@ -80,13 +80,13 @@
       "by_type": {}
     },
     "ast": {
-      "sources": 53,
+      "sources": 52,
       "by_type": {
         "pubmed": 3,
         "pmc_article": 1,
         "practitioner_website": 37,
         "practitioner_podcast": 9,
-        "practitioner_other": 3
+        "practitioner_other": 2
       }
     },
     "basophils-absolute": {
@@ -316,12 +316,12 @@
       }
     },
     "insulin": {
-      "sources": 64,
+      "sources": 63,
       "by_type": {
         "pubmed": 16,
         "practitioner_website": 36,
         "practitioner_podcast": 9,
-        "practitioner_other": 3
+        "practitioner_other": 2
       }
     },
     "ldh": {

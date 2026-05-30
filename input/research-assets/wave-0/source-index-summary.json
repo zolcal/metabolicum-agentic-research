@@ -1,16 +1,16 @@
 {
   "wave": "wave-0",
   "markers_processed": 5,
-  "total_sources": 117,
+  "total_sources": 113,
   "markers": {
     "apob": {
-      "sources": 19,
+      "sources": 17,
       "by_type": {
         "pubmed": 2,
         "pmc_article": 1,
-        "practitioner_website": 9,
+        "practitioner_website": 8,
         "practitioner_podcast": 4,
-        "practitioner_other": 3
+        "practitioner_other": 2
       }
     },
     "fasting-insulin": {
@@ -21,12 +21,12 @@
       }
     },
     "hba1c": {
-      "sources": 59,
+      "sources": 58,
       "by_type": {
         "pubmed": 16,
         "practitioner_website": 32,
         "practitioner_podcast": 8,
-        "practitioner_other": 3
+        "practitioner_other": 2
       }
     },
     "lpa": {
@@ -34,12 +34,12 @@
       "by_type": {}
     },
     "tg-hdl-ratio": {
-      "sources": 24,
+      "sources": 23,
       "by_type": {
         "pubmed": 2,
         "practitioner_website": 13,
         "practitioner_podcast": 6,
-        "practitioner_other": 3
+        "practitioner_other": 2
       }
     }
   }

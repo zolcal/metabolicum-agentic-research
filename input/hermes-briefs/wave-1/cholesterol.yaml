@@ -8,7 +8,6 @@ sm_reference:
 unit: mg/dL
 mo_supported: true
 mo_rationale: 'MO-relevant: category ''lipid-panel'''
-recommended_videos: []
 recommended_youtube_video_ids: []
 recommended_practitioner_ids:
 - person:allan-sniderman
@@ -45,6 +44,27 @@ recommended_source_urls:
 - https://cholesterolcode.com/
 - https://carnivoremd.com/
 - https://drsten.com/
+- https://dranthonychaffee.com/
+- https://podcasts.apple.com/au/podcast/the-plant-free-md-podcast/id1614546790
+- https://open.spotify.com/show/0WQtoPLuPMWWm3ZT3DYXzp
+- https://dr-chaffee-s-90-day-carnivore-challenge.mn.co/landing
+- https://patreon.com/AnthonyChaffeeMD
+- https://www.benbikman.com/
+- https://benbikman.com/
+- https://feeds.acast.com/public/shows/602b13db8237836e54f27141
+- https://metabolicinitiative.com/
+- https://anchor.fm/s/48092b10/podcast/rss
+- https://phcuk.org/
+- https://www.mercola.com/
+- https://drhyman.me/
+- https://drhyman.com/
+- https://feeds.megaphone.fm/thedoctorsfarmacy
+- https://nicknorwitz.com/
+- https://peterattiamd.com/
+- https://peterattiadrive.libsyn.com/rss
+- https://gundrymd.com/
+- https://tednaiman.com/
+- https://drdavisinfinitehealth.com/
 recommended_search_queries:
 - Total Cholesterol practitioner optimal range
 - Total Cholesterol metabolic optimization

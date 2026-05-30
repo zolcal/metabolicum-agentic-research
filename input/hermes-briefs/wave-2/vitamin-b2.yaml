@@ -8,120 +8,6 @@ sm_reference:
 unit: ng/mL
 mo_supported: true
 mo_rationale: 'MO-relevant: category ''micronutrients'''
-recommended_videos:
-- video_id: 1vCaFzqB6iA
-  score: 15
-  title: Keto Rash is a Vitamin B2 (Riboflavin) Deficiency – Dr.Berg
-  channel: Dr. Eric Berg DC
-- video_id: 1pTdTYpvhFk
-  score: 14
-  title: Discover the 18 Things Your Face Can Reveal About Deep Health Problems
-  channel: Dr. Eric Berg DC
-- video_id: 8KgNWFyd01g
-  score: 13
-  title: 21 Signs Your Body Needs Specific Nutrients
-  channel: Dr. Eric Berg DC
-- video_id: r9uXYhKkMgg
-  score: 13
-  title: The Top Signs of a Vitamin B2 Deficiency – Dr. Berg
-  channel: Dr. Eric Berg DC
-- video_id: LaPyMljE-pk
-  score: 12
-  title: The Vitamin Deficiency behind TIRED and STRAINED EYES
-  channel: Dr. Eric Berg DC
-- video_id: UerbdBzb_6Y
-  score: 12
-  title: 'The #1 Vitamin Deficiency Behind Migraines (MUST KNOW)'
-  channel: Dr. Eric Berg DC
-- video_id: PB_Ln5HXkwQ
-  score: 11
-  title: The REAL Cause of Tremors (Alternative Solution)
-  channel: Dr. Eric Berg DC
-- video_id: d_1fRLt1EW4
-  score: 11
-  title: 5 Things Your LIPS Can Tell You about Your Nutritional State
-  channel: Dr. Eric Berg DC
-- video_id: v9eUoBkDacg
-  score: 11
-  title: 'The Food Doctor: Dairy DESTROYS Your Carnivore Diet Results'
-  channel: The Primal Podcast
-- video_id: 5pQ-JMIb78o
-  score: 10
-  title: Best Vitamin for Low Back Pain (Sciatica)
-  channel: Dr. Eric Berg DC
-- video_id: HT3oYW2pQSk
-  score: 10
-  title: 'The #1 Best Way to Prevent Cataracts'
-  channel: Dr. Eric Berg DC
-- video_id: ydz2rsKxse8
-  score: 10
-  title: Drink COFFEE for a Fatty Liver and Gallstones
-  channel: Dr. Eric Berg DC
-- video_id: _5wFZPF7xhI
-  score: 9
-  title: What Causes Crusty Eyes/ Eye Boogers? – Dr.Berg
-  channel: Dr. Eric Berg DC
-- video_id: 7EiinVyneGQ
-  score: 8
-  title: The Most Nutrient-Dense Food in the World
-  channel: Dr. Eric Berg DC
-- video_id: RpMEMX-c7VU
-  score: 8
-  title: Can Parkinson's Disease Be Reversed?
-  channel: Dr. Eric Berg DC
-- video_id: T99bxA2XQVk
-  score: 8
-  title: Will Your Blood Test Detect Vitamin Deficiencies?
-  channel: Dr. Eric Berg DC
-- video_id: _lT1-xEGYwo
-  score: 8
-  title: 'Microalgae: Pond Scum or Superfood?'
-  channel: Dr. Eric Berg DC
-- video_id: oLgRvzIUKSo
-  score: 8
-  title: Can Intermittent Fasting Change Your Nutrient Requirements? – Dr.Berg
-  channel: Dr. Eric Berg DC
-- video_id: vf35Ql6KfHw
-  score: 8
-  title: Your Good Bacteria Are Vitamin-Making Machines
-  channel: Dr. Eric Berg DC
-- video_id: 3uBArhJVMLU
-  score: 7
-  title: Nutritional Deficiency Symptoms From Eyes – Dr. Berg
-  channel: Dr. Eric Berg DC
-- video_id: 7IRuHNI9J0s
-  score: 7
-  title: Which Vitamin Deficiency Causes Chapped / Cracked Lips? – Dr. Berg
-  channel: Dr. Eric Berg DC
-- video_id: G_-bGCgJOmE
-  score: 6
-  title: The MOST Important Vitamins For Eye Health – Dr.Berg
-  channel: Dr. Eric Berg DC
-- video_id: Fbr6T2sTzcM
-  score: 5
-  title: What Causes Bloodshot Eyes? – Dr.Berg
-  channel: Dr. Eric Berg DC
-- video_id: OhD9C89hrqk
-  score: 5
-  title: The Benefits of Moringa
-  channel: Dr. Eric Berg DC
-- video_id: xVG2K1zew4c
-  score: 4
-  title: How To Fix Your Chapped Lips? – Dr.Berg On  Remedy For Chapped Lips
-  channel: Dr. Eric Berg DC
-- video_id: 9YVDxXvtuhM
-  score: 1
-  title: What Causes Cracked Corners of Mouth & How to Get Rid of Angular Cheilitis?
-    – Dr. Berg
-  channel: Dr. Eric Berg DC
-- video_id: cisajlgtrkA
-  score: 1
-  title: Interesting Health Benefits of Asparagus – Dr. Berg
-  channel: Dr. Eric Berg DC
-- video_id: ir7XkFrCmFA
-  score: 1
-  title: What is Vitamin B6? Deficiencies, Symptoms, and Foods
-  channel: Dr. Eric Berg DC
 recommended_youtube_video_ids:
 - 1vCaFzqB6iA
 - 1pTdTYpvhFk
@@ -160,7 +46,18 @@ recommended_practitioner_ids:
 - person:steven-gundry
 recommended_pubmed_ids: []
 recommended_dois: []
-recommended_source_urls: []
+recommended_source_urls:
+- https://hubermanlab.com/
+- https://feeds.megaphone.fm/hubermanlab
+- https://drbredesen.com/
+- https://www.mercola.com/
+- https://drhyman.me/
+- https://drhyman.com/
+- https://feeds.megaphone.fm/thedoctorsfarmacy
+- https://www.foundmyfitness.com/
+- https://foundmyfitness.com/
+- https://rss.libsyn.com/shows/51714/destinations/184296.xml
+- https://gundrymd.com/
 recommended_search_queries:
 - Vitamin B2 (Riboflavin) practitioner optimal range
 - Vitamin B2 (Riboflavin) metabolic optimization

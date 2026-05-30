@@ -8,36 +8,70 @@ sm_reference:
 unit: nmol/L
 mo_supported: true
 mo_rationale: 'MO-relevant: category ''lipid-panel'''
-recommended_videos:
-- video_id: _XPZd-Oq2_Q
-  score: 4
-  title: Lipoprotein (a) - "The Other ’Bad’ Cholesterol"
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: M7FS68OheOA
-  score: -1
-  title: '#SHORTS Niacin for Lp(a) - How to Measure Niacin''s Effect'
-  channel: Thomas Fordham Brewer MD MPH
 recommended_youtube_video_ids:
 - _XPZd-Oq2_Q
 - M7FS68OheOA
 recommended_practitioner_ids:
 - person:allan-sniderman
+- person:anthony-chaffee
 - person:aseem-malhotra
+- person:benjamin-bikman
 - person:bret-scher
+- person:brian-lamkin
+- person:casey-means
 - person:dave-feldman
+- person:david-perlmutter
+- person:david-unwin
+- person:grant-brinkworth
+- person:joseph-kraft
 - person:joseph-mercola
+- person:margaret-ashwell
+- person:mark-hyman
+- person:michael-mosley
 - person:nick-norwitz
 - person:paul-mason
 - person:paul-saladino
 - person:peter-attia
 - person:rangan-chatterjee
+- person:richard-maurer
 - person:sten-ekberg
 - person:steven-gundry
+- person:ted-naiman
 - person:thomas-dayspring
+- person:william-davis
 - person:zoe-harcombe
+- person:zoltan-szabo
 recommended_pubmed_ids: []
 recommended_dois: []
-recommended_source_urls: []
+recommended_source_urls:
+- https://dranthonychaffee.com/
+- https://podcasts.apple.com/au/podcast/the-plant-free-md-podcast/id1614546790
+- https://open.spotify.com/show/0WQtoPLuPMWWm3ZT3DYXzp
+- https://dr-chaffee-s-90-day-carnivore-challenge.mn.co/landing
+- https://patreon.com/AnthonyChaffeeMD
+- https://www.benbikman.com/
+- https://benbikman.com/
+- https://feeds.acast.com/public/shows/602b13db8237836e54f27141
+- https://dietdoctor.com/
+- https://feed.podbean.com/dietdoctorpodcast/feed.xml
+- https://metabolicinitiative.com/
+- https://anchor.fm/s/48092b10/podcast/rss
+- https://cholesterolcode.com/
+- https://drperlmutter.com/
+- https://anchor.fm/s/f102c71c/podcast/rss
+- https://phcuk.org/
+- https://www.mercola.com/
+- https://drhyman.me/
+- https://drhyman.com/
+- https://feeds.megaphone.fm/thedoctorsfarmacy
+- https://nicknorwitz.com/
+- https://carnivoremd.com/
+- https://peterattiamd.com/
+- https://peterattiadrive.libsyn.com/rss
+- https://drsten.com/
+- https://gundrymd.com/
+- https://tednaiman.com/
+- https://drdavisinfinitehealth.com/
 recommended_search_queries:
 - Lipoprotein(a) practitioner optimal range
 - Lipoprotein(a) metabolic optimization

@@ -8,135 +8,6 @@ sm_reference:
 unit: umol/L
 mo_supported: true
 mo_rationale: 'MO-relevant: category ''inflammatory'''
-recommended_videos:
-- video_id: j4fxGQE5CrU
-  score: 24
-  title: Are you wasting your time taking B vitamins for a high homocysteine?
-  channel: William Davis , MD
-- video_id: weVGlrUAGQk
-  score: 24
-  title: Everything you Need to Know About Homocysteine and Methylation
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: CvOZsuoJ3-s
-  score: 21
-  title: How to Prevent Heart Disease with Lifestyle Changes - Dr Paddy Barrett
-  channel: Siim Land
-- video_id: qPDggB9CY4U
-  score: 21
-  title: What science tells us about Homocysteine & Methylation (LIVE)
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: rYqEwoE0boU
-  score: 21
-  title: Why Joe Cohen Takes 150 Supplements a Day and What Blood Tests to Do
-  channel: Siim Land
-- video_id: vewlFfiVI50
-  score: 20
-  title: Glycine and Protein for Longevity; Genetic Bottlenecks and MTHFR - Chris
-    Masterjohn PhD
-  channel: Siim Land
-- video_id: N8Ij25ZSt8s
-  score: 19
-  title: Tommy Wood, MD, PhD | Optimizing Human Health & Cognition | The Metabolic
-    Link Ep.12
-  channel: Metabolic Health Summit
-- video_id: Af4nBVnHsT0
-  score: 18
-  title: This Common Supplement is giving you Cancer, but you should keep taking it..
-  channel: Physionic
-- video_id: cd-IAu5DGBQ
-  score: 18
-  title: I Took TMG for 90 Days and Got Surprising Results!
-  channel: Siim Land
-- video_id: h3IipxdoxCc
-  score: 18
-  title: Poor Methylation? High Homocysteine? Check this out.
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: uiV2hPuTRU8
-  score: 18
-  title: Homocysteine, Alzheimer's and What to Do About it
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: ky-Mu5yVyuU
-  score: 17
-  title: Vit B12 Deficiency, Homocysteine, & Methylmalonic Acid
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: HoG0aSFkw-M
-  score: 16
-  title: Eyes & Diabetes (Part 2) - Diabetic Retinopathy, MTHFR & Homocysteine
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: yA-z36ij_Wk
-  score: 15
-  title: B12 Deficiency - what’s the best test? Methylmalonic acid & homocysteine
-    - FORD BREWER MD MPH
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: MiRS3_DQI58
-  score: 14
-  title: 10 Urgent Signs Your Body Needs Methylated B Vitamins
-  channel: Dr. Sten Ekberg
-- video_id: _IUWolgMbpY
-  score: 14
-  title: Homocysteine, MTHFR, and Glutathione and health, cv disease, dementia - FORD
-    BREWER MD MPH
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: 8kB4DY8cWYk
-  score: 13
-  title: 11 Bad Habits That Damage Your Brain
-  channel: Dr. Eric Berg DC
-- video_id: MV_9nyAN1Vk
-  score: 13
-  title: 'BRAIN HEALTH: Insulin Resistance, Biomarkers & Alzheimer’s Risk | Dr. David
-    Perlmutter & Mike Haney'
-  channel: Levels | Health, Metabolism & Human Performance
-- video_id: SgKp5mm0ALI
-  score: 13
-  title: I Ranked 100 Health Markers (Most People Get These Wrong)
-  channel: Siim Land
-- video_id: _LkRW-n5-90
-  score: 13
-  title: Patrick Holford - 'What’s driving Alzheimer’s?'
-  channel: Low Carb Down Under
-- video_id: bDaIhHbnuWk
-  score: 13
-  title: Why Paul Saladino is Wrong about the Carnivore Diet (Hormones, Insulin and
-    Electrolyte Issues)
-  channel: Nutrition with Judy
-- video_id: ew5ARPr8dW4
-  score: 13
-  title: '#1 HEART RISK Your Doctor NEVER Checks (It''s Not Cholesterol)'
-  channel: Dr. Sten Ekberg
-- video_id: ilzOgUDRQpk
-  score: 13
-  title: 10 Signs Of Heart Failure That You Miss Daily
-  channel: Dr. Sten Ekberg
-- video_id: k2yCpFqk-do
-  score: 13
-  title: What Is Homocysteine? – Dr. Berg
-  channel: Dr. Eric Berg DC
-- video_id: wRsX_ZkzxvQ
-  score: 13
-  title: Peptide & Hormone Therapies for Health, Performance & Longevity | Dr. Craig
-    Koniver
-  channel: Andrew Huberman
-- video_id: SfH6YAHVqyY
-  score: 11
-  title: One Blood Marker That Predicts Stroke (Most People Never Test It)
-  channel: Siim Land
-- video_id: jBCaEaTgeBE
-  score: 11
-  title: 'Nutrient Blood Test Results Explained: What They Reveal About Energy, Immunity
-    & Health | Dr. Dsouza'
-  channel: Levels | Health, Metabolism & Human Performance
-- video_id: zDY7YbRH5-0
-  score: 11
-  title: '#SHORTS Why High Homocysteine Level is Bad'
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: 7FrG7uOgDyQ
-  score: 10
-  title: Diabetic Retinopathy, AREDS, Methylation, and a Simple Supplement Method
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: EN9e99iRTCQ
-  score: 10
-  title: First Sign of a Magnesium Deficiency NEVER to Ignore
-  channel: Dr. Eric Berg DC
 recommended_youtube_video_ids:
 - j4fxGQE5CrU
 - weVGlrUAGQk
@@ -184,6 +55,17 @@ recommended_pubmed_ids:
 recommended_dois: []
 recommended_source_urls:
 - https://pmc.ncbi.nlm.nih.gov/articles/PMC12917553/
+- https://hubermanlab.com/
+- https://feeds.megaphone.fm/hubermanlab
+- https://drbredesen.com/
+- https://www.mercola.com/
+- https://drhyman.me/
+- https://drhyman.com/
+- https://feeds.megaphone.fm/thedoctorsfarmacy
+- https://www.foundmyfitness.com/
+- https://foundmyfitness.com/
+- https://rss.libsyn.com/shows/51714/destinations/184296.xml
+- https://gundrymd.com/
 recommended_search_queries:
 - Homocysteine practitioner optimal range
 - Homocysteine metabolic optimization

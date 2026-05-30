@@ -8,56 +8,6 @@ sm_reference:
 unit: g/dL
 mo_supported: true
 mo_rationale: 'MO-relevant: category ''liver-function'''
-recommended_videos:
-- video_id: aRYXTpEOw1U
-  score: 19
-  title: Reverse Gray Hair, Tips for Nerve Regeneration and More - Siim Land Instagram
-    Q&A
-  channel: Siim Land
-- video_id: P0nM7DSKqqc
-  score: 14
-  title: 10 Hidden Signs of PROTEIN Deficiency (Watch Carefully) 2026
-  channel: KenDBerryMD
-- video_id: PsBrQo9Oj14
-  score: 14
-  title: 7 Foods that Will TANK Your Testosterone - 2026
-  channel: KenDBerryMD
-- video_id: bDaIhHbnuWk
-  score: 13
-  title: Why Paul Saladino is Wrong about the Carnivore Diet (Hormones, Insulin and
-    Electrolyte Issues)
-  channel: Nutrition with Judy
-- video_id: TjX5l5Vla2M
-  score: 12
-  title: 'The #1 Best Way to CLEAN a Fatty Liver'
-  channel: Dr. Eric Berg DC
-- video_id: 2vXgAo-luQI
-  score: 11
-  title: 'Female Hormone Blood Test Results Explained: Estrogen, Fertility & Signs
-    of PCOS | Dr. Anjali Dsouza'
-  channel: Levels | Health, Metabolism & Human Performance
-- video_id: ncSoor2Iw8k
-  score: 11
-  title: How to Optimize Your Hormones for Health & Vitality | Dr. Kyle Gillett
-  channel: Andrew Huberman
-- video_id: x7cPrE8-_Os
-  score: 11
-  title: 'Understanding Liver Health: Detox, Fatty Liver, and Key Blood Test Results
-    Explained | Dr. Dsouza'
-  channel: Levels | Health, Metabolism & Human Performance
-- video_id: qJXKhu5UZwk
-  score: 9
-  title: The Science of How to Optimize Testosterone & Estrogen
-  channel: Andrew Huberman
-- video_id: fXdiWW3aq80
-  score: 8
-  title: Adrenal Fatigue Could be a Liver Problem
-  channel: Dr. Eric Berg DC
-- video_id: jo4MvvUQC2k
-  score: 6
-  title: 'Menopause Making You Look Masculine?: Dr.Berg on Menopause Symptoms & Androgens
-    In Females'
-  channel: Dr. Eric Berg DC
 recommended_youtube_video_ids:
 - aRYXTpEOw1U
 - P0nM7DSKqqc
@@ -94,7 +44,21 @@ recommended_pubmed_ids:
 - '38602312'
 - '39957864'
 recommended_dois: []
-recommended_source_urls: []
+recommended_source_urls:
+- https://dranthonychaffee.com/
+- https://podcasts.apple.com/au/podcast/the-plant-free-md-podcast/id1614546790
+- https://open.spotify.com/show/0WQtoPLuPMWWm3ZT3DYXzp
+- https://dr-chaffee-s-90-day-carnivore-challenge.mn.co/landing
+- https://patreon.com/AnthonyChaffeeMD
+- https://dietdoctor.com/
+- https://feed.podbean.com/dietdoctorpodcast/feed.xml
+- https://cholesterolcode.com/
+- https://nicknorwitz.com/
+- https://carnivoremd.com/
+- https://peterattiamd.com/
+- https://peterattiadrive.libsyn.com/rss
+- https://drsten.com/
+- https://drdavisinfinitehealth.com/
 recommended_search_queries:
 - Globulin practitioner optimal range
 - Globulin metabolic optimization

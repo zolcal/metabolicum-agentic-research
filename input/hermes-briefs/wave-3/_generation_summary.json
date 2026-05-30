@@ -194,7 +194,7 @@
       "practitioners": 14,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 14
     },
     "alkaline-phosphatase-bone": {
       "mo_supported": true,
@@ -202,7 +202,7 @@
       "practitioners": 14,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 14
     },
     "allium-cepa-ab-ige": {
       "mo_supported": false,
@@ -690,7 +690,7 @@
       "practitioners": 55,
       "pubmed_ids": 3,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 48
     },
     "beta-lactoglobulin-ab-ige": {
       "mo_supported": false,
@@ -714,7 +714,7 @@
       "practitioners": 14,
       "pubmed_ids": 3,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 14
     },
     "biotinidase": {
       "mo_supported": true,
@@ -722,7 +722,7 @@
       "practitioners": 6,
       "pubmed_ids": 2,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 11
     },
     "bismuth": {
       "mo_supported": false,
@@ -882,7 +882,7 @@
       "practitioners": 6,
       "pubmed_ids": 5,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 11
     },
     "calcidiol": {
       "mo_supported": true,
@@ -890,7 +890,7 @@
       "practitioners": 6,
       "pubmed_ids": 4,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 11
     },
     "calcitonin": {
       "mo_supported": true,
@@ -1042,7 +1042,7 @@
       "practitioners": 6,
       "pubmed_ids": 1,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 11
     },
     "carum-carvi-ab-ige": {
       "mo_supported": false,
@@ -1146,7 +1146,7 @@
       "practitioners": 14,
       "pubmed_ids": 1,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 14
     },
     "chaetomium-globosum-ab-ige": {
       "mo_supported": false,
@@ -1218,7 +1218,7 @@
       "practitioners": 14,
       "pubmed_ids": 1,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 14
     },
     "choriomammotropin": {
       "mo_supported": true,
@@ -1642,7 +1642,7 @@
       "practitioners": 29,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 28
     },
     "creatine-kinase-mb": {
       "mo_supported": true,
@@ -1650,7 +1650,7 @@
       "practitioners": 29,
       "pubmed_ids": 2,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 28
     },
     "creatine": {
       "mo_supported": true,
@@ -2066,7 +2066,7 @@
       "practitioners": 3,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 6
     },
     "ethosuximide": {
       "mo_supported": false,
@@ -2690,7 +2690,7 @@
       "practitioners": 3,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 6
     },
     "interleukin-2": {
       "mo_supported": true,
@@ -2698,7 +2698,7 @@
       "practitioners": 3,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 6
     },
     "interleukin-4": {
       "mo_supported": true,
@@ -2706,7 +2706,7 @@
       "practitioners": 3,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 6
     },
     "interleukin-8": {
       "mo_supported": true,
@@ -2714,7 +2714,7 @@
       "practitioners": 3,
       "pubmed_ids": 3,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 6
     },
     "ipomoea-batatas-ab-ige": {
       "mo_supported": false,
@@ -2834,7 +2834,7 @@
       "practitioners": 14,
       "pubmed_ids": 1,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 14
     },
     "lactuca-sativa-ab-ige": {
       "mo_supported": false,
@@ -3002,7 +3002,7 @@
       "practitioners": 25,
       "pubmed_ids": 2,
       "dois": 0,
-      "source_urls": 11
+      "source_urls": 26
     },
     "lycopersicon-lycopersicum-ab-ige": {
       "mo_supported": false,
@@ -3018,7 +3018,7 @@
       "practitioners": 3,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 6
     },
     "macadamia-spp-ab-ige": {
       "mo_supported": false,
@@ -3058,7 +3058,7 @@
       "practitioners": 3,
       "pubmed_ids": 3,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 6
     },
     "medicago-sativa-ab-ige": {
       "mo_supported": false,
@@ -4130,7 +4130,7 @@
       "practitioners": 14,
       "pubmed_ids": 1,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 14
     },
     "proteinase-3-ab": {
       "mo_supported": false,
@@ -4322,7 +4322,7 @@
       "practitioners": 6,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 11
     },
     "rhizopus-nigricans-ab-ige": {
       "mo_supported": false,
@@ -4338,7 +4338,7 @@
       "practitioners": 6,
       "pubmed_ids": 1,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 11
     },
     "ribosomal-p-ab": {
       "mo_supported": false,
@@ -4762,7 +4762,7 @@
       "practitioners": 3,
       "pubmed_ids": 6,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 6
     },
     "stizostedion-vitreum-ab-ige": {
       "mo_supported": false,
@@ -4946,7 +4946,7 @@
       "practitioners": 3,
       "pubmed_ids": 3,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 3
     },
     "thyroxine-free-2": {
       "mo_supported": true,
@@ -4954,7 +4954,7 @@
       "practitioners": 3,
       "pubmed_ids": 2,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 3
     },
     "tilapia-ab-ige": {
       "mo_supported": false,
@@ -5050,7 +5050,7 @@
       "practitioners": 25,
       "pubmed_ids": 1,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 26
     },
     "triazolam": {
       "mo_supported": false,
@@ -5090,7 +5090,7 @@
       "practitioners": 3,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 3
     },
     "trimipramine": {
       "mo_supported": false,
@@ -5274,7 +5274,7 @@
       "practitioners": 3,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 6
     },
     "vitis-vinifera-ab-ige": {
       "mo_supported": false,

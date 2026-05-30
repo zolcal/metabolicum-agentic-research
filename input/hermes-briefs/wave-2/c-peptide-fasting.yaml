@@ -8,90 +8,6 @@ sm_reference:
 unit: ng/mL
 mo_supported: true
 mo_rationale: 'MO-relevant: category ''glycemic-insulin'''
-recommended_videos:
-- video_id: DMcL6KiglvM
-  score: 10
-  title: NEVER Start Your Morning With This (Destroys Your Liver)
-  channel: Dr. Eric Berg DC
-- video_id: zIBEVeBDCNo
-  score: 10
-  title: 'How to Take Your Health to the Next Level (Cost: 10¢)'
-  channel: Dr. Eric Berg DC
-- video_id: -3E2ALGpAIs
-  score: 8
-  title: Mitochondrial DNA and Its Role in Diabetes
-  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
-- video_id: Tr8t1KWQspc
-  score: 8
-  title: Why Muscle Loss as We Age Is a Problem and What To Do | Dr. Robert Lustig
-    Ultimate Guide
-  channel: Levels | Health, Metabolism & Human Performance
-- video_id: dt1DOJXAXFg
-  score: 7
-  title: The Best Way to Fix a Slow Metabolism – Dr. Berg's Expert Advice
-  channel: Dr. Eric Berg DC
-- video_id: 7YsIHM6xRBI
-  score: 6
-  title: Understanding Blood Sugar Levels, INSULIN RESISTANCE & Impact on Chronic
-    Diseases | Dr. Rob Lustig
-  channel: Levels | Health, Metabolism & Human Performance
-- video_id: NtWsxQAhRkw
-  score: 6
-  title: 'The Book that Turned My Health Around: Dr. Berg'
-  channel: Dr. Eric Berg DC
-- video_id: P1gB0RTqi-I
-  score: 6
-  title: Metabolic Syndrome Is Really the Hyperinsulinemia Syndrome
-  channel: Dr. Eric Berg DC
-- video_id: yhdzkOelQAw
-  score: 6
-  title: What is Diabetes 1.5
-  channel: Dr. Eric Berg DC
-- video_id: DlO0jq1bnpc
-  score: 5
-  title: The Key to Metabolic Flexibility with Dr. Berg and Dylan Gemelli
-  channel: Dr. Eric Berg DC
-- video_id: 6dg1LfF0oCk
-  score: 4
-  title: Keto, Type 1 Diabetes & Ketosis Explained By Dr. Berg
-  channel: Dr. Eric Berg DC
-- video_id: GJQaVRVdn_0
-  score: 4
-  title: How Fat Gets Burned? Science Of Fat Burning Simplified – Dr. Berg
-  channel: Dr. Eric Berg DC
-- video_id: dkv1rW6JQcM
-  score: 4
-  title: 'The Amazing Zinc (Part 1): Its Main Function and Zinc Deficiency Symptoms
-    – Dr.Berg'
-  channel: Dr. Eric Berg DC
-- video_id: ozbNW8-ZLm4
-  score: 4
-  title: 'Diabetes Medication Side Effects: Metformin, Sulfonylurea & Insulin – Dr.Berg'
-  channel: Dr. Eric Berg DC
-- video_id: pRb_itmYX70
-  score: 4
-  title: Overcoming Keto Plateau After 6-8 Weeks – Dr.Berg
-  channel: Dr. Eric Berg DC
-- video_id: rgQ1ffvr5W0
-  score: 4
-  title: The Underlying Cause Of Diabetes – Dr.Berg
-  channel: Dr. Eric Berg DC
-- video_id: D7ZxSAGaW_4
-  score: 3
-  title: 'Sleep Genes Go Rogue: The Shocking Obesity Twist!'
-  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
-- video_id: QCOvSLWfjH0
-  score: 3
-  title: Why Muscle Loss as We Age Is a Problem and What To Do | Dr. Robert Lustig
-  channel: Levels | Health, Metabolism & Human Performance
-- video_id: SLFsbQNzqv0
-  score: 2
-  title: Ketosis vs Ketoacidosis (Keto Diet Dangerous?)
-  channel: Dr. Sten Ekberg
-- video_id: eakNqJKt-_s
-  score: 1
-  title: 'The Role of Insulin in Diabetes: Animation'
-  channel: Dr. Eric Berg DC
 recommended_youtube_video_ids:
 - DMcL6KiglvM
 - zIBEVeBDCNo
@@ -178,6 +94,53 @@ recommended_pubmed_ids:
 recommended_dois: []
 recommended_source_urls:
 - https://carnivoremd.com/
+- https://www.defeatdiabetes.com.au/
+- https://www.levels.com/
+- https://levelshealth.com/
+- https://www.lowcarbprogram.com/
+- https://www.virtahealth.com/
+- https://virtahealth.com/
+- https://metabolichealthsummit.com/
+- https://www.dietdoctor.com/
+- https://dietdoctor.com/
+- https://phcuk.org/
+- https://hubermanlab.com/
+- https://feeds.megaphone.fm/hubermanlab
+- https://dranthonychaffee.com/
+- https://podcasts.apple.com/au/podcast/the-plant-free-md-podcast/id1614546790
+- https://open.spotify.com/show/0WQtoPLuPMWWm3ZT3DYXzp
+- https://dr-chaffee-s-90-day-carnivore-challenge.mn.co/landing
+- https://patreon.com/AnthonyChaffeeMD
+- https://www.benbikman.com/
+- https://benbikman.com/
+- https://feeds.acast.com/public/shows/602b13db8237836e54f27141
+- https://feed.podbean.com/dietdoctorpodcast/feed.xml
+- https://metabolicinitiative.com/
+- https://anchor.fm/s/48092b10/podcast/rss
+- https://drbredesen.com/
+- https://cholesterolcode.com/
+- https://drperlmutter.com/
+- https://anchor.fm/s/f102c71c/podcast/rss
+- https://ketonutrition.org/
+- https://www.thefastingmethod.com/
+- https://drjasonfung.com/
+- https://www.mercola.com/
+- https://drhyman.me/
+- https://drhyman.com/
+- https://feeds.megaphone.fm/thedoctorsfarmacy
+- https://thefastingmethod.com/
+- https://peterattiamd.com/
+- https://peterattiadrive.libsyn.com/rss
+- https://peterbrukner.com/
+- https://www.foundmyfitness.com/
+- https://foundmyfitness.com/
+- https://rss.libsyn.com/shows/51714/destinations/184296.xml
+- https://saragottfriedmd.com/
+- https://drsten.com/
+- https://gundrymd.com/
+- https://tednaiman.com/
+- https://drdavisinfinitehealth.com/
+- https://www.csiro.au/
 recommended_search_queries:
 - C-Peptide (Fasting) practitioner optimal range
 - C-Peptide (Fasting) metabolic optimization

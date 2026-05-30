@@ -8,69 +8,6 @@ sm_reference:
 unit: μM
 mo_supported: true
 mo_rationale: 'MO-relevant: category ''lipid-panel'''
-recommended_videos:
-- video_id: WpMbvOE2dLE
-  score: 19
-  title: The Truth About Tmao (Trimethylamine N-oxide)
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: iifuYkPjVWg
-  score: 19
-  title: The Hard Science Behind the Carnivore Diet, with Professor Bart Kay
-  channel: Anthony Chaffee MD
-- video_id: vVwud6D0I7M
-  score: 19
-  title: 'Things Vegans Say Ep 2: Dr Kaplan Part 2/3'
-  channel: Anthony Chaffee MD
-- video_id: jaLO5Jk8UgY
-  score: 18
-  title: '4 Months on Berberine: Reversing Arterial Plaque'
-  channel: Physionic
-- video_id: FAAwEvfQ5zU
-  score: 17
-  title: TMAO and heart disease, cause for concern for meat eaters?
-  channel: Diet Doctor
-- video_id: qEvE9f4FYzE
-  score: 16
-  title: 'TMAO and Kidney Function: Which is it? - FORD BREWER MD MPH'
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: KhBIXxaQ038
-  score: 15
-  title: TMAO, Carnitine, Choline; plant-based vs animal products, low-carb vs plant-based
-    diets and hearts
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: Wp8jvKjS-j8
-  score: 15
-  title: TMAO and Nature vs Nurture - FORD BREWER MD MPH
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: o0L1eXBGGP4
-  score: 15
-  title: TMAO & CV RISK
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: J3YgmyAPclY
-  score: 14
-  title: What If Your TMAO Levels Are Elevated?
-  channel: Shawn Baker MD
-- video_id: hrRZ1BjHmik
-  score: 14
-  title: TMAO; Diet and Heart Attack/Stroke risk; Carnitine from Monster, Rock Star
-    Energy Drinks
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: ncSoor2Iw8k
-  score: 11
-  title: How to Optimize Your Hormones for Health & Vitality | Dr. Kyle Gillett
-  channel: Andrew Huberman
-- video_id: qNJks-48soQ
-  score: 11
-  title: Berberine reverses Atherosclerosis?
-  channel: Physionic
-- video_id: MZx0K_AInhc
-  score: 8
-  title: Red Meat controversy
-  channel: Diet Doctor
-- video_id: 0plBTsu6PeM
-  score: 7
-  title: Are plant-based meat substitutes healthier for us?
-  channel: Diet Doctor
 recommended_youtube_video_ids:
 - WpMbvOE2dLE
 - iifuYkPjVWg
@@ -115,7 +52,33 @@ recommended_practitioner_ids:
 - person:zoltan-szabo
 recommended_pubmed_ids: []
 recommended_dois: []
-recommended_source_urls: []
+recommended_source_urls:
+- https://dranthonychaffee.com/
+- https://podcasts.apple.com/au/podcast/the-plant-free-md-podcast/id1614546790
+- https://open.spotify.com/show/0WQtoPLuPMWWm3ZT3DYXzp
+- https://dr-chaffee-s-90-day-carnivore-challenge.mn.co/landing
+- https://patreon.com/AnthonyChaffeeMD
+- https://www.benbikman.com/
+- https://benbikman.com/
+- https://feeds.acast.com/public/shows/602b13db8237836e54f27141
+- https://dietdoctor.com/
+- https://feed.podbean.com/dietdoctorpodcast/feed.xml
+- https://metabolicinitiative.com/
+- https://anchor.fm/s/48092b10/podcast/rss
+- https://cholesterolcode.com/
+- https://phcuk.org/
+- https://www.mercola.com/
+- https://drhyman.me/
+- https://drhyman.com/
+- https://feeds.megaphone.fm/thedoctorsfarmacy
+- https://nicknorwitz.com/
+- https://carnivoremd.com/
+- https://peterattiamd.com/
+- https://peterattiadrive.libsyn.com/rss
+- https://drsten.com/
+- https://gundrymd.com/
+- https://tednaiman.com/
+- https://drdavisinfinitehealth.com/
 recommended_search_queries:
 - TMAO practitioner optimal range
 - TMAO metabolic optimization

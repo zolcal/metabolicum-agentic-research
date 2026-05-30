@@ -8,42 +8,6 @@ sm_reference:
 unit: U/L
 mo_supported: true
 mo_rationale: 'MO-relevant: category ''liver-function'''
-recommended_videos:
-- video_id: 3FeVs-O70qo
-  score: 17
-  title: High Liver Enzymes [ALT & AST] – What Do They Mean? – Dr.Berg
-  channel: Dr. Eric Berg DC
-- video_id: SgKp5mm0ALI
-  score: 13
-  title: I Ranked 100 Health Markers (Most People Get These Wrong)
-  channel: Siim Land
-- video_id: bDaIhHbnuWk
-  score: 13
-  title: Why Paul Saladino is Wrong about the Carnivore Diet (Hormones, Insulin and
-    Electrolyte Issues)
-  channel: Nutrition with Judy
-- video_id: qmer3LBYXiE
-  score: 11
-  title: Proper Human Diet/Fasting Q&A
-  channel: KenDBerryMD
-- video_id: x7cPrE8-_Os
-  score: 11
-  title: 'Understanding Liver Health: Detox, Fatty Liver, and Key Blood Test Results
-    Explained | Dr. Dsouza'
-  channel: Levels | Health, Metabolism & Human Performance
-- video_id: mHzQaLgSrxM
-  score: 7
-  title: 'The Dangers of Statins Part 4: The Liver Statin Safety Group'
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: pQaQin8NO2I
-  score: 3
-  title: Diet Soda can Cause a Fatty Liver
-  channel: Dr. Eric Berg DC
-- video_id: Fi0YjY8HmYY
-  score: 1
-  title: The Main Causes of High Liver Enzymes & Non-Alcoholic Fatty Liver Disease
-    – Dr. Berg
-  channel: Dr. Eric Berg DC
 recommended_youtube_video_ids:
 - 3FeVs-O70qo
 - SgKp5mm0ALI
@@ -54,7 +18,20 @@ recommended_youtube_video_ids:
 - pQaQin8NO2I
 - Fi0YjY8HmYY
 recommended_practitioner_ids:
+- person:allan-sniderman
+- person:anthony-chaffee
+- person:aseem-malhotra
+- person:bret-scher
+- person:dave-feldman
+- person:nick-norwitz
+- person:paul-mason
 - person:paul-saladino
+- person:peter-attia
+- person:rangan-chatterjee
+- person:sten-ekberg
+- person:thomas-dayspring
+- person:william-davis
+- person:zoe-harcombe
 recommended_pubmed_ids:
 - '20427778'
 - '26707365'
@@ -87,7 +64,6 @@ recommended_source_urls:
 - https://hubermanlab.com/
 - https://feeds.megaphone.fm/hubermanlab
 - https://dranthonychaffee.com/
-- https://instagram.com/anthonychaffeemd
 - https://podcasts.apple.com/au/podcast/the-plant-free-md-podcast/id1614546790
 - https://open.spotify.com/show/0WQtoPLuPMWWm3ZT3DYXzp
 - https://dr-chaffee-s-90-day-carnivore-challenge.mn.co/landing
@@ -108,6 +84,10 @@ recommended_source_urls:
 - https://saragottfriedmd.com/
 - https://drsten.com/
 - https://gundrymd.com/
+- https://feed.podbean.com/dietdoctorpodcast/feed.xml
+- https://cholesterolcode.com/
+- https://nicknorwitz.com/
+- https://drdavisinfinitehealth.com/
 recommended_search_queries:
 - Aspartate Aminotransferase practitioner optimal range
 - Aspartate Aminotransferase metabolic optimization

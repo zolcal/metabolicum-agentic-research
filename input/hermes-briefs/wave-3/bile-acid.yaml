@@ -8,7 +8,6 @@ sm_reference:
 unit: μmol/L
 mo_supported: true
 mo_rationale: 'MO-relevant: category ''liver-function'''
-recommended_videos: []
 recommended_youtube_video_ids: []
 recommended_practitioner_ids:
 - person:allan-sniderman
@@ -30,7 +29,21 @@ recommended_pubmed_ids:
 - '32971564'
 - '40860779'
 recommended_dois: []
-recommended_source_urls: []
+recommended_source_urls:
+- https://dranthonychaffee.com/
+- https://podcasts.apple.com/au/podcast/the-plant-free-md-podcast/id1614546790
+- https://open.spotify.com/show/0WQtoPLuPMWWm3ZT3DYXzp
+- https://dr-chaffee-s-90-day-carnivore-challenge.mn.co/landing
+- https://patreon.com/AnthonyChaffeeMD
+- https://dietdoctor.com/
+- https://feed.podbean.com/dietdoctorpodcast/feed.xml
+- https://cholesterolcode.com/
+- https://nicknorwitz.com/
+- https://carnivoremd.com/
+- https://peterattiamd.com/
+- https://peterattiadrive.libsyn.com/rss
+- https://drsten.com/
+- https://drdavisinfinitehealth.com/
 recommended_search_queries:
 - Bile acid practitioner optimal range
 - Bile acid metabolic optimization

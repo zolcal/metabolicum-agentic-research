@@ -8,15 +8,6 @@ sm_reference:
 unit: '%'
 mo_supported: true
 mo_rationale: 'MO-relevant: category ''iron-anemia'''
-recommended_videos:
-- video_id: SgKp5mm0ALI
-  score: 13
-  title: I Ranked 100 Health Markers (Most People Get These Wrong)
-  channel: Siim Land
-- video_id: 3in3377V5kI
-  score: 11
-  title: The Dr. Berg Show LIVE - April 26, 2024
-  channel: Dr. Eric Berg DC
 recommended_youtube_video_ids:
 - SgKp5mm0ALI
 - 3in3377V5kI
@@ -32,7 +23,18 @@ recommended_pubmed_ids:
 - '24778671'
 - '27099596'
 recommended_dois: []
-recommended_source_urls: []
+recommended_source_urls:
+- https://hubermanlab.com/
+- https://feeds.megaphone.fm/hubermanlab
+- https://drbredesen.com/
+- https://www.mercola.com/
+- https://drhyman.me/
+- https://drhyman.com/
+- https://feeds.megaphone.fm/thedoctorsfarmacy
+- https://www.foundmyfitness.com/
+- https://foundmyfitness.com/
+- https://rss.libsyn.com/shows/51714/destinations/184296.xml
+- https://gundrymd.com/
 recommended_search_queries:
 - Transferrin Saturation practitioner optimal range
 - Transferrin Saturation metabolic optimization

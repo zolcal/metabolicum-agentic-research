@@ -8,11 +8,6 @@ sm_reference:
 unit: μg/mL
 mo_supported: true
 mo_rationale: 'MO-relevant: category ''inflammatory'''
-recommended_videos:
-- video_id: VOMalVh-vKc
-  score: 11
-  title: How your Body Fat influences your Muscle Health. [Study 92 - Detailed Analysis]
-  channel: Physionic
 recommended_youtube_video_ids:
 - VOMalVh-vKc
 recommended_practitioner_ids:
@@ -21,7 +16,13 @@ recommended_practitioner_ids:
 - person:rhonda-patrick
 recommended_pubmed_ids: []
 recommended_dois: []
-recommended_source_urls: []
+recommended_source_urls:
+- https://hubermanlab.com/
+- https://feeds.megaphone.fm/hubermanlab
+- https://drbredesen.com/
+- https://www.foundmyfitness.com/
+- https://foundmyfitness.com/
+- https://rss.libsyn.com/shows/51714/destinations/184296.xml
 recommended_search_queries:
 - Adiponectin practitioner optimal range
 - Adiponectin metabolic optimization

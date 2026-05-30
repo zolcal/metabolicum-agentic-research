@@ -8,15 +8,6 @@ sm_reference:
 unit: pg/mL
 mo_supported: true
 mo_rationale: 'MO-relevant: category ''hormones'''
-recommended_videos:
-- video_id: 8p1hX3Cjm2M
-  score: 18
-  title: 'Talking with Docs: Nature’s Ozempic?'
-  channel: Physionic
-- video_id: pdWU0oaPYNo
-  score: 8
-  title: Postmenopausal Estrogen Comes from Your Own Fat
-  channel: Dr. Eric Berg DC
 recommended_youtube_video_ids:
 - 8p1hX3Cjm2M
 - pdWU0oaPYNo

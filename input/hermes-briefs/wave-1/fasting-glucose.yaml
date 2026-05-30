@@ -8,135 +8,6 @@ sm_reference:
 unit: mg/dL
 mo_supported: true
 mo_rationale: 'MO-relevant: category ''glycemic-insulin'''
-recommended_videos:
-- video_id: l7jW_5DOwQs
-  score: 33
-  title: Why Fasting Glucose and A1c are Higher on a Carnivore Diet and What to Do
-  channel: Nutrition with Judy
-- video_id: KJQKZdt43w8
-  score: 29
-  title: Top 3 BEST Ways to Lower Blood Sugar Naturally & Fast!
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: LKZYZRA218M
-  score: 29
-  title: 7 Supplements Every Senior Must Take (Inflammation, Weak Legs, Blood Sugar
-    & More)
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: mBiMJ7QhGm8
-  score: 29
-  title: 5 Foods That Secretly Spike Your Blood Sugar
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: zWgSQzftedo
-  score: 29
-  title: Metabolism, Blood Sugar, Diabetes, Microbiome, Diet, Aging, Digital Phenotyping
-    & Personalized Me...
-  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
-- video_id: zBspLNQJziE
-  score: 28
-  title: Metabolism, Fat, Carbs, Protein, Ketogenic Diet, Nutrition, Blood Sugar &
-    Personal Health Monitor...
-  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
-- video_id: RmQzIRQqwK0
-  score: 27
-  title: How to Fix Your Blood Sugar for a Healthier and Longer Life - Dr James DiNicolantonio
-  channel: Siim Land
-- video_id: ydthbDdPMZE
-  score: 27
-  title: How High Blood Sugar Wrecks Your Health - Jessie Inchauspé aka Glucose Goddess
-  channel: Siim Land
-- video_id: OnHKFgu_1cI
-  score: 26
-  title: A1c, Glucose, Blood Sugar Going up on Carnivore - Episode 5
-  channel: Nutrition with Judy
-- video_id: KRrAigOWWy8
-  score: 23
-  title: '🔴 Dr. Casey Means: How To Lower Blood Sugar & Why!'
-  channel: Anthony Chaffee MD
-- video_id: W-yST1wu0NI
-  score: 23
-  title: WE TRACKED OUR BLOOD SUGAR ALL DAY with CGM - Full Day of Eating Continuous
-    Glucose Monitor Edition
-  channel: Siim Land
-- video_id: 9Gzlmo0FGXU
-  score: 22
-  title: STOP Making These Blood Sugar Mistakes (Diabetics Need to Watch This)
-  channel: Dr. Eric Berg DC
-- video_id: 5VyFdIU6IGs
-  score: 21
-  title: BREAKING THE BLOOD GLUCOSE MYTH WITH DR. ROBERT CYWES
-  channel: KenDBerryMD
-- video_id: B3mA0OH5pvs
-  score: 21
-  title: This Happens to Your Blood Sugar After 2 Spoons of ACV
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: DIsMNXkE-1g
-  score: 21
-  title: Top 5 Low-Carb Foods That Don't Spike Blood Sugar
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: TdQhhVZnLxI
-  score: 21
-  title: '🔴Ketogenic and Carnivore Diets: 25 Years of Experience with Prof Eric Westman,
-    MD'
-  channel: Anthony Chaffee MD
-- video_id: UAjZLzlj1t0
-  score: 21
-  title: These 10 Foods Lower Blood Sugar Naturally & Fast
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: UEcMjx7xAK4
-  score: 21
-  title: Why Your Blood Sugar Won't Drop (The Secret Cause)
-  channel: Dr. Eric Berg DC
-- video_id: d1nj4_iHb8M
-  score: 21
-  title: THIS Lowers Blood Sugar Levels FASTER than Anything Else
-  channel: Dr. Eric Berg DC
-- video_id: i1QkD8neXgo
-  score: 21
-  title: Top 10 Foods That DESTROY Your Blood Sugar!
-  channel: Dr. Sten Ekberg
-- video_id: mrlnNhxKNgY
-  score: 21
-  title: How Stelo’s BIOSENSOR Makes Blood Sugar Tracking Accessible & Tackles the
-    Metabolic Health Crisis
-  channel: Levels | Health, Metabolism & Human Performance
-- video_id: 1demWeM-hY0
-  score: 20
-  title: How Gut Bacteria Affects Blood Sugar - with Dr. Momo and Dr. Casey | Empowering
-    Neurologist EP. 139
-  channel: DavidPerlmutterMD
-- video_id: Fu0tZPFYwek
-  score: 20
-  title: How to Lower Blood Sugar Naturally and Fast
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: MyQ7jPrevFk
-  score: 20
-  title: Do blood sugar spikes cause heart disease? [Study 287-294 Study Analysis]
-  channel: Physionic
-- video_id: b-re4pBXySY
-  score: 20
-  title: 'Full Day of Eating: 300 Grams of Carbs in ONE MEAL'
-  channel: Siim Land
-- video_id: n5lShaJiBWU
-  score: 20
-  title: Why High Blood Sugar Is Damaging You From The Inside
-  channel: Anthony Chaffee MD
-- video_id: p6YhiPLcqh4
-  score: 20
-  title: How to Optimize Your Metabolism for Stable Blood Sugar
-  channel: Siim Land
-- video_id: u4SiFJ5lqWk
-  score: 20
-  title: 'Causes of Diabetes: Insulin, Mitochondria, Genetics, Metabolism | Scott
-    Soleimanpour | 213'
-  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
-- video_id: znFnEVb-eZ4
-  score: 20
-  title: I Had NO Idea This Spiked Blood Sugar
-  channel: Dr. Eric Berg DC
-- video_id: 62CyKoihZAY
-  score: 19
-  title: 'Cancer Metabolism: Sugar, Fructose, Lipids & Fasting | Gary Patti | 215'
-  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
 recommended_youtube_video_ids:
 - l7jW_5DOwQs
 - KJQKZdt43w8
@@ -247,6 +118,53 @@ recommended_pubmed_ids:
 recommended_dois: []
 recommended_source_urls:
 - https://carnivoremd.com/
+- https://www.defeatdiabetes.com.au/
+- https://www.levels.com/
+- https://levelshealth.com/
+- https://www.lowcarbprogram.com/
+- https://www.virtahealth.com/
+- https://virtahealth.com/
+- https://metabolichealthsummit.com/
+- https://www.dietdoctor.com/
+- https://dietdoctor.com/
+- https://phcuk.org/
+- https://hubermanlab.com/
+- https://feeds.megaphone.fm/hubermanlab
+- https://dranthonychaffee.com/
+- https://podcasts.apple.com/au/podcast/the-plant-free-md-podcast/id1614546790
+- https://open.spotify.com/show/0WQtoPLuPMWWm3ZT3DYXzp
+- https://dr-chaffee-s-90-day-carnivore-challenge.mn.co/landing
+- https://patreon.com/AnthonyChaffeeMD
+- https://www.benbikman.com/
+- https://benbikman.com/
+- https://feeds.acast.com/public/shows/602b13db8237836e54f27141
+- https://feed.podbean.com/dietdoctorpodcast/feed.xml
+- https://metabolicinitiative.com/
+- https://anchor.fm/s/48092b10/podcast/rss
+- https://drbredesen.com/
+- https://cholesterolcode.com/
+- https://drperlmutter.com/
+- https://anchor.fm/s/f102c71c/podcast/rss
+- https://ketonutrition.org/
+- https://www.thefastingmethod.com/
+- https://drjasonfung.com/
+- https://www.mercola.com/
+- https://drhyman.me/
+- https://drhyman.com/
+- https://feeds.megaphone.fm/thedoctorsfarmacy
+- https://thefastingmethod.com/
+- https://peterattiamd.com/
+- https://peterattiadrive.libsyn.com/rss
+- https://peterbrukner.com/
+- https://www.foundmyfitness.com/
+- https://foundmyfitness.com/
+- https://rss.libsyn.com/shows/51714/destinations/184296.xml
+- https://saragottfriedmd.com/
+- https://drsten.com/
+- https://gundrymd.com/
+- https://tednaiman.com/
+- https://drdavisinfinitehealth.com/
+- https://www.csiro.au/
 recommended_search_queries:
 - Fasting Glucose practitioner optimal range
 - Fasting Glucose metabolic optimization

@@ -8,65 +8,6 @@ sm_reference:
 unit: ng/dL
 mo_supported: true
 mo_rationale: 'MO-relevant: category ''thyroid'''
-recommended_videos:
-- video_id: Sgn8wQ0uzUM
-  score: 19
-  title: 'Reverse T3: Real or Not? What is it?'
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: 97a_5KCNHwI
-  score: 15
-  title: 'Reverse T3: Is It Causing Your Fatigue?'
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: HRNKRniVALk
-  score: 13
-  title: THYROID Test Results EXPLAINED and How the Gland Shapes Health | Dr. Angela
-    Mazza & Mike Haney
-  channel: Levels | Health, Metabolism & Human Performance
-- video_id: 5s7wyBmlAgU
-  score: 11
-  title: 'How Thyroid Health Affects Your Weight, Energy & Hormones: Blood Test Results
-    Explained | Dr. Dsouza'
-  channel: Levels | Health, Metabolism & Human Performance
-- video_id: LXwafP7xoHk
-  score: 9
-  title: Why Fasting Lowers Your Thyroid Hormone T3 a Little Bit
-  channel: Dr. Eric Berg DC
-- video_id: 53eqdCTMRVw
-  score: 8
-  title: 'Selenium: The Amazing Trace Mineral – Dr.Berg'
-  channel: Dr. Eric Berg DC
-- video_id: 9oGQvDKtteE
-  score: 8
-  title: Fasting Affects Your Hormones Greatly
-  channel: Dr. Eric Berg DC
-- video_id: 7LrEnS0CYKw
-  score: 5
-  title: Signs and Symptoms of a Thyroid Imbalance | Dr. Angela Mazza
-  channel: Levels | Health, Metabolism & Human Performance
-- video_id: Bm7voq8T8ZA
-  score: 5
-  title: How To Manage Your Weight When You Have Thyroid Issues | Dr. Angela Mazza
-  channel: Levels | Health, Metabolism & Human Performance
-- video_id: KXOweofyb4k
-  score: 5
-  title: Lifestyle Changes that Support the Thyroid Gland | Dr. Angela Mazza
-  channel: Levels | Health, Metabolism & Human Performance
-- video_id: cUBBC0hb5F4
-  score: 5
-  title: How the Thyroid Is Involved in Metabolism | Dr. Angela Mazza
-  channel: Levels | Health, Metabolism & Human Performance
-- video_id: kGr_mJi9CPw
-  score: 5
-  title: Hyperthyroidism Does Not Necessarily Lead To Weight Loss | Dr. Angela Mazza
-  channel: Levels | Health, Metabolism & Human Performance
-- video_id: PEOHp0oor-Q
-  score: 4
-  title: Ten Ways to Reduce or Eliminate Heart Disease Risk
-  channel: William Davis , MD
-- video_id: iKB96z0onpQ
-  score: 4
-  title: 'Dr. Wiliam Davis, DIY Thyroid: Part 1'
-  channel: William Davis , MD
 recommended_youtube_video_ids:
 - Sgn8wQ0uzUM
 - 97a_5KCNHwI
@@ -88,7 +29,10 @@ recommended_practitioner_ids:
 - person:sten-ekberg
 recommended_pubmed_ids: []
 recommended_dois: []
-recommended_source_urls: []
+recommended_source_urls:
+- https://amymyersmd.com/
+- https://saragottfriedmd.com/
+- https://drsten.com/
 recommended_search_queries:
 - Triiodothyronine (T3).reverse practitioner optimal range
 - Triiodothyronine (T3).reverse metabolic optimization

@@ -174,20 +174,8 @@
     },
     {
       "type": "practitioner_website",
-      "url": "https://twitter.com/Drlipid",
-      "platform": "website",
-      "practitioner_id": "person:thomas-dayspring"
-    },
-    {
-      "type": "practitioner_website",
       "url": "https://dranthonychaffee.com/",
       "platform": "website",
-      "practitioner_id": "person:anthony-chaffee"
-    },
-    {
-      "type": "practitioner_other",
-      "url": "https://instagram.com/anthonychaffeemd",
-      "platform": "other",
       "practitioner_id": "person:anthony-chaffee"
     },
     {
@@ -433,12 +421,6 @@
       "type": "practitioner_website",
       "url": "https://dranthonychaffee.com/",
       "platform": "website",
-      "practitioner_id": "person:anthony-chaffee"
-    },
-    {
-      "type": "practitioner_other",
-      "url": "https://instagram.com/anthonychaffeemd",
-      "platform": "other",
       "practitioner_id": "person:anthony-chaffee"
     },
     {
@@ -1718,12 +1700,6 @@
       "type": "practitioner_website",
       "url": "https://dranthonychaffee.com/",
       "platform": "website",
-      "practitioner_id": "person:anthony-chaffee"
-    },
-    {
-      "type": "practitioner_other",
-      "url": "https://instagram.com/anthonychaffeemd",
-      "platform": "other",
       "practitioner_id": "person:anthony-chaffee"
     },
     {

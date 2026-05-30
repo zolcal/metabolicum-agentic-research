@@ -8,7 +8,6 @@ sm_reference:
 unit: mg/dL
 mo_supported: true
 mo_rationale: 'MO-relevant: category ''lipid-panel'''
-recommended_videos: []
 recommended_youtube_video_ids: []
 recommended_practitioner_ids:
 - person:allan-sniderman
@@ -44,9 +43,7 @@ recommended_dois: []
 recommended_source_urls:
 - https://peterattiamd.com/
 - https://peterattiadrive.libsyn.com/rss
-- https://twitter.com/Drlipid
 - https://dranthonychaffee.com/
-- https://instagram.com/anthonychaffeemd
 - https://podcasts.apple.com/au/podcast/the-plant-free-md-podcast/id1614546790
 - https://open.spotify.com/show/0WQtoPLuPMWWm3ZT3DYXzp
 - https://dr-chaffee-s-90-day-carnivore-challenge.mn.co/landing
@@ -58,6 +55,18 @@ recommended_source_urls:
 - https://carnivoremd.com/
 - https://drsten.com/
 - https://drdavisinfinitehealth.com/
+- https://www.benbikman.com/
+- https://benbikman.com/
+- https://feeds.acast.com/public/shows/602b13db8237836e54f27141
+- https://metabolicinitiative.com/
+- https://anchor.fm/s/48092b10/podcast/rss
+- https://phcuk.org/
+- https://www.mercola.com/
+- https://drhyman.me/
+- https://drhyman.com/
+- https://feeds.megaphone.fm/thedoctorsfarmacy
+- https://gundrymd.com/
+- https://tednaiman.com/
 recommended_search_queries:
 - Apob 2 practitioner optimal range
 - Apob 2 metabolic optimization

@@ -8,133 +8,6 @@ sm_reference:
 unit: mg/dL
 mo_supported: true
 mo_rationale: 'MO-relevant: category ''lipid-panel'''
-recommended_videos:
-- video_id: cyowfTbq3oY
-  score: 31
-  title: 🔴 Is LDL Cholesterol Really The Bad Guy?
-  channel: Anthony Chaffee MD
-- video_id: rL9uabr-TeA
-  score: 27
-  title: High LDL-C with No Plaques?  New LMHR Study with Feldman & Norwitz
-  channel: KenDBerryMD
-- video_id: 4k2Ymio6w3o
-  score: 24
-  title: Shocking NEW Cause of Heart Attacks (Not LDL Cholesterol) Dr Kendrick
-  channel: The Primal Podcast
-- video_id: rhhDHUnlFJs
-  score: 24
-  title: 'Dr Brewer''s Friday Rant: NEW Evidence on LDL Cholesterol and Clogged Arteries'
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: 6rfiLvrlo2A
-  score: 23
-  title: KETO-CTA STUDY FINDINGS REVEALED with Dave Feldman
-  channel: KenDBerryMD
-- video_id: pq-va0SqJb4
-  score: 23
-  title: LDL Cholesterol Does Not Cause Heart Disease - Dr. Malcolm Kendrick
-  channel: Nutrition with Judy
-- video_id: 1t8rqfG1CMA
-  score: 22
-  title: 'LDL Cholesterol: Heart Disease Risk? Does size matter? [Study 171 - 180
-    Analysis]'
-  channel: Physionic
-- video_id: QvbbN_gilPA
-  score: 22
-  title: LDL cholesterol and heart risk
-  channel: Diet Doctor
-- video_id: R0RhWJh1U-U
-  score: 22
-  title: 'Ketogenic Diet: Cholesterol, Plaque & Heart Heart | Matthew Budoff | 223'
-  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
-- video_id: lRp-V-qgjR4
-  score: 22
-  title: How Dangerous is Low LDL-Cholesterol? [Low LDL is unhealthy?]
-  channel: KenDBerryMD
-- video_id: 2TD3p6v5fdk
-  score: 21
-  title: 1/2 Cup A Day Fixes Insulin Resistance & Shrinks Belly Fat
-  channel: The Primal Podcast
-- video_id: R89EDEJKFno
-  score: 21
-  title: 'Keto Diet: Weight Loss, Diabetes, and LDL Cholesterol'
-  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
-- video_id: ZDdwHqiFjnI
-  score: 21
-  title: Bacterial Infection, Oral Hygiene, Atherosclerosis & Heart Disease | Pekka
-    Karhunen | 256
-  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
-- video_id: -3vUq-Pw9RM
-  score: 20
-  title: 'Heart Health: The Truth About LDL Cholesterol & Seed Oils'
-  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
-- video_id: 2sPa4tL3Ui0
-  score: 20
-  title: Carnivore Diet, LDL Cholesterol, Fasting increases Inflammation, Your Questions
-    Answered, and more
-  channel: Physionic
-- video_id: V8ns1j28vhc
-  score: 20
-  title: 'Carnivore For Beginners: How To Start A Carnivore Diet with Tips, Tricks,
-    and Common Pitfalls'
-  channel: Anthony Chaffee MD
-- video_id: a_zSIpUjfS4
-  score: 20
-  title: Hard Facts about the Carnivore and Vegan diets, with Dr Anthony Chaffee,
-    MD
-  channel: Anthony Chaffee MD
-- video_id: eVALtn7atVk
-  score: 20
-  title: 'The Truth About LDL Cholesterol: Dr. Berg''s Interview with Dave Feldman'
-  channel: Dr. Eric Berg DC
-- video_id: mMmpeVY5KE8
-  score: 20
-  title: 'LDL Cholesterol: Antibiotic, Heart Disease & History'
-  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
-- video_id: u_BAzMSjIyA
-  score: 20
-  title: 10 Surprising Diseases Caused by Low LDL Cholesterol
-  channel: Dr. Eric Berg DC
-- video_id: 9boG01ZCTH0
-  score: 19
-  title: 'Things Vegans Say: Dr Kaplan Rebuttal Full'
-  channel: Anthony Chaffee MD
-- video_id: C-WUb3mJEso
-  score: 19
-  title: 🔴Why We Are Carnivores, with Dr Anthony Chaffee
-  channel: Anthony Chaffee MD
-- video_id: HpCY7OhWDJw
-  score: 19
-  title: Low carb diets improve LDL cholesterol
-  channel: Diet Doctor
-- video_id: Q_v02gdf_bc
-  score: 19
-  title: 'Things Vegans Say Ep 3: Dr Kaplan 3/3'
-  channel: Anthony Chaffee MD
-- video_id: RJzLfCajIRI
-  score: 19
-  title: Everything You Need To Know About Cholesterol and Heart Disease
-  channel: Anthony Chaffee MD
-- video_id: RWDe7lVXIPQ
-  score: 19
-  title: 'Lean Mass Hyper-Responders: An Exception to the Cholesterol Rule? - Revisited'
-  channel: Physionic
-- video_id: TC6SIm6Wzn8
-  score: 19
-  title: Longevity Scientist Shares His Diet for Slowing Down Biological Aging - Michael
-    Lustgarten PhD
-  channel: Siim Land
-- video_id: UbFXqjABIvo
-  score: 19
-  title: 🔴The Truth about Cholesterol and Heart Disease - Dr Anthony Chaffee MD
-  channel: Anthony Chaffee MD
-- video_id: b1mWOvLcoHE
-  score: 19
-  title: More Important than LDL Cholesterol? The TG/HDL Ratio (Part 2)
-  channel: Thomas Fordham Brewer MD MPH
-- video_id: f9w9oIU5FAA
-  score: 19
-  title: Why Might LDL Cholesterol Go Up on Keto?
-  channel: Dr. Eric Berg DC
 recommended_youtube_video_ids:
 - cyowfTbq3oY
 - rL9uabr-TeA
@@ -167,13 +40,31 @@ recommended_youtube_video_ids:
 - b1mWOvLcoHE
 - f9w9oIU5FAA
 recommended_practitioner_ids:
+- person:allan-sniderman
+- person:anthony-chaffee
 - person:aseem-malhotra
+- person:benjamin-bikman
 - person:bret-scher
+- person:casey-means
 - person:dave-feldman
+- person:david-unwin
+- person:grant-brinkworth
+- person:joseph-mercola
+- person:margaret-ashwell
+- person:mark-hyman
+- person:michael-mosley
+- person:nick-norwitz
+- person:paul-mason
 - person:paul-saladino
+- person:peter-attia
 - person:rangan-chatterjee
 - person:sten-ekberg
+- person:steven-gundry
+- person:ted-naiman
+- person:thomas-dayspring
+- person:william-davis
 - person:zoe-harcombe
+- person:zoltan-szabo
 recommended_pubmed_ids:
 - '7968073'
 - '9603539'
@@ -197,6 +88,27 @@ recommended_source_urls:
 - https://cholesterolcode.com/
 - https://carnivoremd.com/
 - https://drsten.com/
+- https://dranthonychaffee.com/
+- https://podcasts.apple.com/au/podcast/the-plant-free-md-podcast/id1614546790
+- https://open.spotify.com/show/0WQtoPLuPMWWm3ZT3DYXzp
+- https://dr-chaffee-s-90-day-carnivore-challenge.mn.co/landing
+- https://patreon.com/AnthonyChaffeeMD
+- https://www.benbikman.com/
+- https://benbikman.com/
+- https://feeds.acast.com/public/shows/602b13db8237836e54f27141
+- https://metabolicinitiative.com/
+- https://anchor.fm/s/48092b10/podcast/rss
+- https://phcuk.org/
+- https://www.mercola.com/
+- https://drhyman.me/
+- https://drhyman.com/
+- https://feeds.megaphone.fm/thedoctorsfarmacy
+- https://nicknorwitz.com/
+- https://peterattiamd.com/
+- https://peterattiadrive.libsyn.com/rss
+- https://gundrymd.com/
+- https://tednaiman.com/
+- https://drdavisinfinitehealth.com/
 recommended_search_queries:
 - Ldl Cholesterol practitioner optimal range
 - Ldl Cholesterol metabolic optimization
