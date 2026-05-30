@@ -158,3 +158,57 @@ Executing Claude's non-blocking cleanup review for `6ad9020`:
 - `code/environment.yml` now includes `pytest`; `hermes-setup.md` documents running tests with a project-local `TMPDIR`.
 - The deterministic wave asset indices and `scripts/collect_sources.py` are intended to be committed with this cleanup so the pointer-only briefs are reproducible from the repo.
 
+---
+
+## Skill triage for Metabolicum/Hermes work (Codex, 2026-05-29)
+
+Zoltan asked for a pass over the 85 installed Hermes skill commands and whether they fit this project. Recommendation: **do not broaden the pipeline tool surface just because skills exist.** Treat skills as operator aids unless a stage manifest explicitly allows them. The pinned worker persona in `hermes/SOUL.md` still controls pipeline runs: stateless, fixed tool manifest, no runtime tool discovery, no memory/skill formation, no browsing unless a task contract says so.
+
+### Skills worth using now as operator/development aids
+
+Use these in interactive engineering/debugging sessions, not automatically inside research workers:
+
+- `/hermes-agent` — Hermes config, auth, provider, upgrade, and runtime debugging.
+- `/debugging-hermes-tui-commands` — if slash commands/TUI behavior regresses.
+- `/systematic-debugging` — root-cause debugging for pipeline/runtime failures.
+- `/test-driven-development` — changes to collection, assembly, state, loaders, checks.
+- `/writing-plans` and `/plan` — durable implementation plans/handoffs.
+- `/requesting-code-review` — before larger commits or contract-affecting changes.
+- `/codebase-inspection` — repo audits, drift checks, LOC/language summaries.
+- `/github-code-review`, `/github-issues`, `/github-pr-workflow`, `/github-repo-management`, `/github-auth` — only if we move the current workflow through GitHub PR/issues.
+
+### Skills that map to current/future Metabolicum data work
+
+- `/youtube-content` — useful for transcript review/summarization and future YouTube evidence extraction. Current brief generation should still use committed video IDs/indices, not live transcript fetches.
+- `/ocr-and-documents` — high-value for PDF/scanned guideline/table extraction and table-to-claims support.
+- `/jupyter-live-kernel` — useful for exploratory audits of inventories, score distributions, coverage reports, and practitioner/source matching.
+- `/huggingface-hub` — useful for model discovery and embeddings; relevant to semantic practitioner matching.
+- `/llama-cpp` and `/serving-llms-vllm` — useful later for local/cost-controlled model experiments.
+- `/dspy` — possible later for optimizing extraction/scoring prompts, but premature until schemas and evals are stable.
+- `/kanban-orchestrator`, `/kanban-worker`, `/kanban-codex-lane`, `/subagent-driven-development` — useful when we intentionally run multi-agent batches. Use only with explicit task decomposition, review gates, and stage ownership.
+- `/native-mcp` and `/webhook-subscriptions` — possible future controlled automation surfaces; do not enable broadly inside worker prompts.
+- `/humanizer`, `/powerpoint`, `/baoyu-infographic`, `/baoyu-article-illustrator`, `/research-paper-writing` — future publication/content/presentation phase, not current source discovery or Hermes input assembly.
+- `/blogwatcher`, `/xurl`, `/spotify`, `/google-workspace`, `/notion`, `/obsidian`, `/linear`, `/airtable` — integrations for future maintenance/content ops only if we explicitly choose those systems as durable sources of truth. Avoid adding them ad hoc because they fragment state.
+
+### Skills to avoid for this project
+
+Do not use these for Metabolicum research, biomedical evidence handling, or pipeline workers:
+
+- `/godmode`, `/obliteratus` — inappropriate for biomedical, legal, and research-governed workflows.
+- `/pokemon-player`, `/minecraft-modpack-server`, `/openhue`, `/polymarket`, `/gif-search`, most music/image novelty skills — unrelated to the pipeline.
+- `/claude-code`, `/codex`, `/opencode` — not forbidden, but should only be used as explicit delegation lanes with review. Prefer the Kanban lane skills when delegating, so Hermes retains task lifecycle/reconciliation.
+
+### Missing/project-specific skills we should create or install
+
+The installed list lacks the most important biomedical source-discovery capabilities. Recommended additions, in priority order:
+
+1. **`/pubmed` or `/ncbi-eutils`** — search PubMed, fetch PMID metadata, resolve DOI/PMCID links, MeSH/abstracts, and write structured source candidates. This is more important than `/arxiv` for this project.
+2. **`/biomedical-source-discovery`** — practitioner sites, guideline pages, PMC/PMID discovery, lab medicine references; output structured candidate JSON, not prose.
+3. **`/metabolicum-hermes-briefs`** — project-specific guardrails for Hermes briefs: pointer-only, no SM numeric bounds, `sm_reference` council-only, diagnostics sidecars only, PMIDs/DOIs/PMC links allowed as pointers.
+4. **`/metabolicum-practitioner-registry`** — project-specific maintenance workflow for `input/practitioners/{practitioners,practitioner-marker-affinity,practitioner-web-resources,practitioner-social-resources}.json`.
+5. **`/source-quality-triage`** — rank/flag source candidates by evidence tier, source type, conflict risk, recency, citation resolvability, and usefulness for Hermes discovery.
+
+### Operating decision
+
+Recommendation to Claude/next agent: **do not install more generic skills now.** First create the small project-specific skill set above, especially PubMed/NCBI and Hermes-brief/practitioner guardrails. Keep them operator-facing until we deliberately wire them into stage manifests. Pipeline workers remain governed by `SOUL.md` and the fixed task contracts.
+
