@@ -1,0 +1,98 @@
+# MO research scope policy — which marker CATEGORIES the agentic (Metabolic
+# Optimization) pipeline researches. SM/RC ranges for every marker come from their
+# own pipelines; this gates only MO brief generation + discovery.
+#
+# Categories mirror input/ground-truth/...v1.yaml (= production test_categories).
+# A marker is in MO scope iff its primary_category is in_scope: true here.
+#
+# status: RATIFIED 2026-05-30 by Zoltan — borderlines confirmed: anthropometric IN,
+# bone-metabolism IN, gut-health/electrolytes/specialty OUT.
+schema_version: 1
+source_categories: ground-truth (production test_categories, 25)
+
+categories:
+  # ── clear IN: core metabolic-optimization markers, practitioners already tagged ──
+  - slug: glycemic-insulin
+    in_scope: true
+    rationale: "Core MO — insulin resistance / glycemic control (Bikman, Kraft, Attia)."
+  - slug: lipid-panel
+    in_scope: true
+    rationale: "Core MO — ApoB/Lp(a)/TG-HDL (Attia, Sniderman, Dayspring, Feldman)."
+  - slug: inflammatory
+    in_scope: true
+    rationale: "MO — hs-CRP and inflammatory load are standard MO targets."
+  - slug: liver-function
+    in_scope: true
+    rationale: "MO — ALT/AST/GGT as metabolic/fatty-liver signals."
+  - slug: micronutrients
+    in_scope: true
+    rationale: "MO — vitamin D, B12, omega-3, magnesium optimization."
+  - slug: thyroid
+    in_scope: true
+    rationale: "MO — TSH/free T3/T4 metabolic-rate optimization."
+  - slug: iron-anemia
+    in_scope: true
+    rationale: "MO — ferritin (iron overload / metabolic) is a tracked MO marker."
+
+  # ── IN, but practitioner affinities NOT yet in the registry (backfill needed) ──
+  - slug: hormones
+    in_scope: true
+    needs_affinity_backfill: true
+    rationale: "MO/longevity — testosterone, estradiol, cortisol, DHEA-S, IGF-1 (Attia, Huberman, Gottfried). Registry has no affinity tags yet."
+  - slug: kidney-function
+    in_scope: true
+    needs_affinity_backfill: true
+    rationale: "MO/longevity — eGFR, cystatin-C, creatinine, uric acid, BUN (Attia tracks renal aging). No affinity tags yet."
+  - slug: cardiovascular
+    in_scope: true
+    needs_affinity_backfill: true
+    rationale: "MO — homocysteine, Lp-PLA2, coronary-risk markers. No affinity tags yet."
+
+  # ── BORDERLINE: defensible either way — review: true (Zoltan to ratify) ──
+  - slug: anthropometric
+    in_scope: true
+    rationale: "Body composition (BMI, waist, body-fat) is central to MO, but these are measurements not lab markers."
+  - slug: bone-metabolism
+    in_scope: true
+    rationale: "Vitamin D / calcium / PTH overlap with MO longevity; could fold into micronutrients."
+  - slug: gut-health
+    in_scope: false
+    rationale: "Functional-medicine adjacent (microbiome, zonulin, calprotectin); MO relevance debatable."
+  - slug: electrolytes
+    in_scope: false
+    rationale: "Sodium/potassium/magnesium — magnesium is MO-relevant but the category is mostly basic clinical chemistry."
+  - slug: specialty
+    in_scope: false
+    rationale: "Heterogeneous; depends on contents — review the 12 members before deciding."
+
+  # ── clear OUT: no metabolic-optimization dimension (SM/RC only) ──
+  - slug: allergy
+    in_scope: false
+    rationale: "Allergen-specific IgE panels (332) — diagnostic, no MO dimension."
+  - slug: drug-levels
+    in_scope: false
+    rationale: "Therapeutic drug monitoring (139) — no MO dimension."
+  - slug: autoimmune
+    in_scope: false
+    rationale: "ANA / anti-CCP / autoantibodies — diagnostic, not MO."
+  - slug: coagulation
+    in_scope: false
+    rationale: "PT/INR/D-dimer — hemostasis, not MO (fibrinogen's inflammatory angle covered under inflammatory if needed)."
+  - slug: blood-count
+    in_scope: false
+    rationale: "CBC (eosinophils, etc.) — diagnostic; no MO optimal targets."
+  - slug: microbiology
+    in_scope: false
+    rationale: "Cultures / serologies — infectious disease, not MO."
+  - slug: tumor-markers
+    in_scope: false
+    rationale: "PSA/CEA/CA-125 — cancer screening, not MO."
+  - slug: environmental
+    in_scope: false
+    rationale: "Heavy metals / toxins — exposure, not MO (some functional-med overlap; review if desired)."
+  - slug: urine
+    in_scope: false
+    rationale: "Urinalysis — diagnostic, no MO optimal ranges."
+  - slug: salivary
+    in_scope: false
+    rationale: "Single salivary marker — no MO dimension."
