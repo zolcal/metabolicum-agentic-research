@@ -21,7 +21,7 @@ top-level category** (Neurological & Cognitive). Everything else the survey rais
 cleanly into existing categories (see Awareness notes). Slug arbitration is clean: a
 single redirect `total-bilirubin → bilirubin-total` already in `marker_slug_aliases`.
 
-## Change 1 — Multi-category memberships (44 across 35 markers)
+## Change 1 — Multi-category memberships (40 across 34 markers)
 `marker_categories` is many-to-many but **under-populated** (1112 rows / 1110 markers ≈
 one each). Many markers are standard members of more than one category. Each membership
 below is backed by a guideline / landmark trial / authoritative review and was validated
@@ -40,9 +40,11 @@ Representative, high-confidence:
 - **Endocrine:** `leptin`, `adiponectin`, `c-peptide-fasting/-stimulated`, `calcitriol` → +hormones.
 - **Vascular inflammation:** `lp-pla2`, `oxidized-ldl` → +inflammatory; `platelet-count` → +liver-function (FIB-4/APRI).
 
-⚠️ **Flagged for your pruning (weaker / critic was inconsistent):** `adiponectin→thyroid`,
-`homa-ir→thyroid`, `ferritin→thyroid`, `triglycerides→liver-function`. Recommend dropping
-these unless you see a clear basis — they're in the SQL but called out here.
+✂️ **Pruned per review 2026-05-30 (dropped — correlation, not panel membership):**
+`adiponectin→thyroid`, `homa-ir→thyroid`, `ferritin→thyroid`, `triglycerides→liver-function`.
+Each was physiological cross-talk (e.g. iron deficiency affects thyroid; hypothyroidism
+raises HOMA-IR), not a case of the marker being ordered/grouped in that category's panel —
+so they are NOT in the migration.
 
 ## Change 2 — New category: `neurological-cognitive`
 The one genuine gap. Blood-based neuro markers (NfL, NSE, S100B, p-tau217, GFAP) are now

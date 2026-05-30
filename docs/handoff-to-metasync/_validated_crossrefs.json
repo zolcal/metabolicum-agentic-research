@@ -5,10 +5,6 @@
       "hormones"
     ],
     [
-      "adiponectin",
-      "thyroid"
-    ],
-    [
       "aldosterone",
       "kidney-function"
     ],
@@ -41,10 +37,6 @@
       "micronutrients"
     ],
     [
-      "ferritin",
-      "thyroid"
-    ],
-    [
       "fgf-21",
       "glycemic-insulin"
     ],
@@ -59,10 +51,6 @@
     [
       "homa-ir",
       "cardiovascular"
-    ],
-    [
-      "homa-ir",
-      "thyroid"
     ],
     [
       "homocysteine",
@@ -159,10 +147,6 @@
     [
       "transferrin-saturation",
       "micronutrients"
-    ],
-    [
-      "triglycerides",
-      "liver-function"
     ],
     [
       "tyg-index",

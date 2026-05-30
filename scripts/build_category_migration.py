@@ -20,6 +20,14 @@ from code import ground_truth as gt  # noqa: E402
 WF = "/tmp/claude-1000/-home-zoltan-Projects-metabolicum-research/9caab50c-6143-4483-8516-76417b2dcce7/tasks/w0eq23ppy.output"
 OUT = ROOT / "docs" / "handoff-to-metasync" / "2026-05-30-marker-categories.sql"
 
+# Pruned per review 2026-05-30 (correlation, not panel membership — see findings doc).
+DROP = {
+    ("adiponectin", "thyroid"),
+    ("homa-ir", "thyroid"),
+    ("ferritin", "thyroid"),
+    ("triglycerides", "liver-function"),
+}
+
 NEURO = {
     "slug": "neurological-cognitive",
     "name": "Neurological & Cognitive",
@@ -50,6 +58,8 @@ def main() -> int:
                 dropped.append((canon, f"bad category {a}"))
             elif a in cur:
                 dropped.append((canon, f"already in {a}"))
+            elif (canon, a) in DROP:
+                dropped.append((canon, f"pruned per review ({a})"))
             else:
                 add[canon].add(a)
 

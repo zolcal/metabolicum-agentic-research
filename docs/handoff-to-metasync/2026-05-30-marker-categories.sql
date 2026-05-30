@@ -1,7 +1,7 @@
 -- PROPOSED migration: MO multi-category memberships + Neurological category
 -- Source: metabolicum-agentic-research findings 2026-05-30 (grounded cross-ref workflow).
 -- ADDITIVE + idempotent. Production is the arbiter — review before applying.
--- 44 secondary memberships across 35 markers + 1 new category (4 neuro markers).
+-- 40 secondary memberships across 34 markers + 1 new category (4 neuro markers).
 
 BEGIN;
 
@@ -14,7 +14,6 @@ ON CONFLICT (slug) DO NOTHING;
 --    guideline/landmark-cited clinical multi-membership (see findings doc).
 INSERT INTO marker_categories (marker_slug, category_slug, is_primary) VALUES
   ('adiponectin', 'hormones', false),
-  ('adiponectin', 'thyroid', false),
   ('aldosterone', 'kidney-function', false),
   ('apob', 'cardiovascular', false),
   ('apob', 'liver-function', false),
@@ -23,12 +22,10 @@ INSERT INTO marker_categories (marker_slug, category_slug, is_primary) VALUES
   ('calcitriol', 'hormones', false),
   ('calcitriol', 'kidney-function', false),
   ('ferritin', 'micronutrients', false),
-  ('ferritin', 'thyroid', false),
   ('fgf-21', 'glycemic-insulin', false),
   ('fli', 'glycemic-insulin', false),
   ('hdl-cholesterol', 'cardiovascular', false),
   ('homa-ir', 'cardiovascular', false),
-  ('homa-ir', 'thyroid', false),
   ('homocysteine', 'kidney-function', false),
   ('homocysteine', 'micronutrients', false),
   ('hscrp', 'cardiovascular', false),
@@ -53,7 +50,6 @@ INSERT INTO marker_categories (marker_slug, category_slug, is_primary) VALUES
   ('tg-hdl-ratio', 'glycemic-insulin', false),
   ('transferrin', 'micronutrients', false),
   ('transferrin-saturation', 'micronutrients', false),
-  ('triglycerides', 'liver-function', false),
   ('tyg-index', 'cardiovascular', false),
   ('uric-acid', 'cardiovascular', false),
   ('uric-acid', 'glycemic-insulin', false)
@@ -73,6 +69,6 @@ COMMIT;
 
 -- ─── ROLLBACK ───
 -- BEGIN;
---   DELETE FROM marker_categories WHERE (marker_slug, category_slug) IN (('adiponectin','hormones'), ('adiponectin','thyroid'), ('aldosterone','kidney-function'), ('apob','cardiovascular'), ('apob','liver-function'), ('c-peptide-fasting','hormones'), ('c-peptide-stimulated','hormones'), ('calcitriol','hormones'), ('calcitriol','kidney-function'), ('ferritin','micronutrients'), ('ferritin','thyroid'), ('fgf-21','glycemic-insulin'), ('fli','glycemic-insulin'), ('hdl-cholesterol','cardiovascular'), ('homa-ir','cardiovascular'), ('homa-ir','thyroid'), ('homocysteine','kidney-function'), ('homocysteine','micronutrients'), ('hscrp','cardiovascular'), ('leptin','hormones'), ('lp-pla2','inflammatory'), ('lpa','cardiovascular'), ('magnesium-serum','kidney-function'), ('magnesium-serum','micronutrients'), ('nafld-fibrosis-score','glycemic-insulin'), ('non-hdl-c','cardiovascular'), ('oxidized-ldl','inflammatory'), ('phosphorus','kidney-function'), ('platelet-count','liver-function'), ('potassium','kidney-function'), ('pth','kidney-function'), ('rbc-folate','micronutrients'), ('renin','kidney-function'), ('selenium','micronutrients'), ('serum-iron','micronutrients'), ('stfr','micronutrients'), ('tg-hdl-ratio','cardiovascular'), ('tg-hdl-ratio','glycemic-insulin'), ('transferrin','micronutrients'), ('transferrin-saturation','micronutrients'), ('triglycerides','liver-function'), ('tyg-index','cardiovascular'), ('uric-acid','cardiovascular'), ('uric-acid','glycemic-insulin'), ('neurofilament-light-chain','neurological-cognitive'), ('enolase-neuron-specific','neurological-cognitive'), ('enolase-neuron-specific-csf','neurological-cognitive'), ('s100-calcium-binding-protein-b','neurological-cognitive'));
+--   DELETE FROM marker_categories WHERE (marker_slug, category_slug) IN (('adiponectin','hormones'), ('aldosterone','kidney-function'), ('apob','cardiovascular'), ('apob','liver-function'), ('c-peptide-fasting','hormones'), ('c-peptide-stimulated','hormones'), ('calcitriol','hormones'), ('calcitriol','kidney-function'), ('ferritin','micronutrients'), ('fgf-21','glycemic-insulin'), ('fli','glycemic-insulin'), ('hdl-cholesterol','cardiovascular'), ('homa-ir','cardiovascular'), ('homocysteine','kidney-function'), ('homocysteine','micronutrients'), ('hscrp','cardiovascular'), ('leptin','hormones'), ('lp-pla2','inflammatory'), ('lpa','cardiovascular'), ('magnesium-serum','kidney-function'), ('magnesium-serum','micronutrients'), ('nafld-fibrosis-score','glycemic-insulin'), ('non-hdl-c','cardiovascular'), ('oxidized-ldl','inflammatory'), ('phosphorus','kidney-function'), ('platelet-count','liver-function'), ('potassium','kidney-function'), ('pth','kidney-function'), ('rbc-folate','micronutrients'), ('renin','kidney-function'), ('selenium','micronutrients'), ('serum-iron','micronutrients'), ('stfr','micronutrients'), ('tg-hdl-ratio','cardiovascular'), ('tg-hdl-ratio','glycemic-insulin'), ('transferrin','micronutrients'), ('transferrin-saturation','micronutrients'), ('tyg-index','cardiovascular'), ('uric-acid','cardiovascular'), ('uric-acid','glycemic-insulin'), ('neurofilament-light-chain','neurological-cognitive'), ('enolase-neuron-specific','neurological-cognitive'), ('enolase-neuron-specific-csf','neurological-cognitive'), ('s100-calcium-binding-protein-b','neurological-cognitive'));
 --   DELETE FROM test_categories WHERE slug = 'neurological-cognitive';
 -- COMMIT;
