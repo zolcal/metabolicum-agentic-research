@@ -35,6 +35,19 @@ def main() -> None:
     assert legal.classify_license(None)["decision"] == "quarantine"
     assert legal.classify_license("custom")["decision"] == "quarantine"
 
+    # 2b) fair-use quotation lane (§07 Feist + §107). Public-web all-rights-reserved
+    # and YouTube fair-use-quote-only sources grant NO reuse license, but their
+    # CONTENT is eligible for short, attributed, line-level factual quotation. These
+    # route to approve with a fair_use flag; quote length + the LLM reviewer still gate.
+    assert legal.classify_license("all_rights_reserved_public_web_page")["decision"] == "approve"
+    assert legal.classify_license("all_rights_reserved_public_web_page").get("fair_use") is True
+    assert legal.classify_license("all_rights_reserved_public_web_excerpt")["decision"] == "approve"
+    assert legal.classify_license("youtube_public_caption_fair_use_quote_only")["decision"] == "approve"
+    assert legal.classify_license("youtube_public_caption_fair_use_quote_only").get("fair_use") is True
+    # truly-unknown / custom / none stay conservative — NOT fair-use
+    assert legal.classify_license(None).get("fair_use") is not True
+    assert legal.classify_license("custom").get("fair_use") is not True
+
     # 3) shadow libraries
     assert legal.is_shadow_library("https://libgen.is/book/x") is True
     assert legal.is_shadow_library("https://z-lib.org/x") is True
@@ -60,6 +73,27 @@ def main() -> None:
 
     g_env = legal.legal_pregate(claim, source_url="https://pmc.x", license_value="CC BY", is_envelope_fact=True)
     assert g_env["decision"] in ("reject", "quarantine"), "envelope facts are never legal support"
+
+    # 4b) fair-use lane: short attributed quote from an all-rights-reserved blog
+    # passes the pre-gate (-> LLM reviewer) and records the fair_use_line_quotation basis.
+    g_fu = legal.legal_pregate(
+        claim, source_type="blog", source_url="https://peterattiamd.com/x",
+        license_value="all_rights_reserved_public_web_page",
+    )
+    assert g_fu["decision"] in ("approve", "approve_with_modification"), g_fu
+    assert "fair_use_line_quotation" in g_fu["applicable_rules"], g_fu
+    # the fair-use lane still enforces quote length: >120 words -> quarantine
+    g_fu_long = legal.legal_pregate(
+        {"verbatim_quote": "word " * 130}, source_type="blog",
+        source_url="https://peterattiamd.com/x", license_value="all_rights_reserved_public_web_page",
+    )
+    assert g_fu_long["decision"] == "quarantine", g_fu_long
+    # a fair-use tag from a shadow library still REJECTS (shadow precedes license)
+    g_fu_shadow = legal.legal_pregate(
+        claim, source_url="https://libgen.is/x",
+        license_value="all_rights_reserved_public_web_page",
+    )
+    assert g_fu_shadow["decision"] == "reject", g_fu_shadow
 
     # 5) build_legal_review_row — subset, valid enums, rationale NOT NULL
     row = legal.build_legal_review_row("bc-1", g_ok, reviewer_model="deterministic-pre-gate")
