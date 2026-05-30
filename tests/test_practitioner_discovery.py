@@ -179,3 +179,29 @@ def test_audit_report_summarizes_qualifying_and_held():
     assert "total-testosterone (2)" in md
     assert "Held" in md and "Maybe" in md
     assert "threshold N=2" in md
+
+from scripts.practitioner_discovery import run as discovery_run
+
+
+def test_run_pipeline_end_to_end_inventory_only(tmp_path):
+    inv = tmp_path / "videos"; inv.mkdir()
+    _write_video(inv, "v1", "Hormone MD", "UCnew", "Total Testosterone deep dive")
+    _write_video(inv, "v2", "Hormone MD", "UCnew", "More on total testosterone")
+    _write_video(inv, "v3", "Known Doc", "UCknown", "total testosterone basics")
+
+    registry = {"practitioners": [{"id": "person:known", "surfaces": [
+        {"platform": "youtube", "handle_or_url": "x", "channel_id": "UCknown"}]}]}
+    policy = {"total-testosterone": {"tiers": {"T1": ["total testosterone"], "T2": []},
+                                     "excluded_terms": []}}
+
+    result = discovery_run.run_pipeline(
+        markers=["total-testosterone"], registry=registry, policy=policy,
+        inventory_dir=inv, n=2)
+
+    # UCnew has 2 evidence -> qualifies; UCknown excluded
+    ids = [r["id"] for r in result["registry"]["practitioners"]]
+    assert "channel:UCnew" in ids
+    new = next(r for r in result["registry"]["practitioners"] if r["id"] == "channel:UCnew")
+    assert new["marker_affinity"] == ["total-testosterone"]
+    assert "Total Testosterone" in result["audit_md"] or "Hormone MD" in result["audit_md"]
+    assert result["summary"]["qualifying"] == 1
