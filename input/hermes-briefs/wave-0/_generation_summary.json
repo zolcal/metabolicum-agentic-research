@@ -1,5 +1,7 @@
 {
   "wave": "wave-0",
+  "in_scope": 5,
+  "out_of_scope_pruned": 0,
   "markers_processed": 5,
   "markers": {
     "apob": {

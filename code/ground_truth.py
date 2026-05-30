@@ -15,6 +15,8 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
 DOC = ROOT / "input" / "ground-truth" / "metabolicum-marker-ground-truth.v1.yaml"
+ENRICH = ROOT / "input" / "mo-category-enrichment.yaml"   # local multi-category overlay (ahead of prod)
+SCOPE = ROOT / "input" / "mo-scope-policy.yaml"
 
 
 @functools.lru_cache(maxsize=1)
@@ -66,9 +68,46 @@ def markers() -> list[dict]:
 
 
 @functools.lru_cache(maxsize=1)
+def _enrichment() -> dict[str, set]:
+    """Local multi-category overlay (the curated cross-refs proposed to metasync),
+    applied AHEAD of prod so the agentic input is correct now. Reconciled when prod
+    applies the migration and build_ground_truth re-syncs."""
+    if not ENRICH.exists():
+        return {}
+    d = yaml.safe_load(ENRICH.read_text()) or {}
+    return {k: set(v) for k, v in (d.get("enrichment") or {}).items()}
+
+
+@functools.lru_cache(maxsize=1)
+def _marker_cats() -> dict[str, list[str]]:
+    enr = _enrichment()
+    return {mm["slug"]: sorted(set(mm.get("categories") or []) | enr.get(mm["slug"], set()))
+            for mm in load()["markers"]}
+
+
+def categories_for(slug: str) -> list[str]:
+    """Full category set for a marker = ground-truth categories ∪ enrichment overlay."""
+    canon = resolve_slug(slug) or slug
+    return _marker_cats().get(canon, [])
+
+
+@functools.lru_cache(maxsize=1)
+def _in_scope_categories() -> set:
+    if not SCOPE.exists():
+        return set()
+    d = yaml.safe_load(SCOPE.read_text()) or {}
+    return {c["slug"] for c in d.get("categories", []) if c.get("in_scope")}
+
+
+def in_scope(slug: str) -> bool:
+    """A marker is in MO research scope iff ANY of its (enriched) categories is in-scope."""
+    return bool(set(categories_for(slug)) & _in_scope_categories())
+
+
+@functools.lru_cache(maxsize=1)
 def markers_by_category() -> dict[str, list[str]]:
     out: dict[str, list[str]] = {}
-    for m in load()["markers"]:
-        for c in (m.get("categories") or []):
-            out.setdefault(c, []).append(m["slug"])
+    for slug, cats in _marker_cats().items():
+        for c in cats:
+            out.setdefault(c, []).append(slug)
     return {k: sorted(v) for k, v in out.items()}

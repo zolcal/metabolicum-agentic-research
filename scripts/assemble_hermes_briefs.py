@@ -135,13 +135,13 @@ def _primary_category(canonical_slug: str) -> str | None:
 
 
 def _practitioners_for(canonical_slug: str) -> list[str]:
-    """Direct marker-affinity (exact, marker-specific) is PRIMARY; the category cohort is
-    the FALLBACK for markers that have no directly-affine practitioner."""
+    """Direct marker-affinity (exact, marker-specific) is PRIMARY; the FALLBACK is the
+    UNION of category cohorts over ALL the marker's (enriched) categories."""
     direct = _direct_affinity().get(canonical_slug)
     if direct:
         return direct
-    cat = _primary_category(canonical_slug)
-    return _category_practitioners().get(cat, []) if cat else []
+    cohorts = _category_practitioners()
+    return sorted({p for c in gt.categories_for(canonical_slug) for p in cohorts.get(c, [])})
 
 
 def _source_pointers(source_entries: list[dict]) -> tuple[list[str], list[str], list[str]]:
@@ -198,13 +198,22 @@ def assemble_wave(wave: str, video_cap: int = 30, markers: list[str] | None = No
     if not wave_dir.exists():
         raise FileNotFoundError(f"SM ranges wave not found: {wave_dir}")
 
-    target_markers = markers or [p.stem for p in sorted(wave_dir.glob("*.yaml"))]
+    all_markers = markers or [p.stem for p in sorted(wave_dir.glob("*.yaml"))]
+    # MO scope gate: only markers whose (enriched) categories include an in-scope one.
+    target_markers = [s for s in all_markers if gt.in_scope(s)]
+    out_of_scope = [s for s in all_markers if not gt.in_scope(s)]
+    # prune stale out-of-scope briefs (e.g. eosinophils) so they no longer carry MO briefs
+    for s in out_of_scope:
+        stale = BRIEFS_DIR / wave / f"{s}.yaml"
+        if stale.exists():
+            stale.unlink()
     asset_wave_dir = ASSET_DIR / wave
     video_index = load_json(asset_wave_dir / "video-index.json")
     practitioner_index = load_json(asset_wave_dir / "practitioner-index.json")
     source_index = load_json(asset_wave_dir / "source-index.json")
 
-    summary = {"wave": wave, "markers_processed": 0, "markers": {}}
+    summary = {"wave": wave, "in_scope": len(target_markers), "out_of_scope_pruned": len(out_of_scope),
+               "markers_processed": 0, "markers": {}}
 
     for marker_slug in target_markers:
         sm = load_yaml(wave_dir / f"{marker_slug}.yaml")

@@ -1,0 +1,81 @@
+schema_version: 1
+status: LOCAL enrichment applied AHEAD of production. The 40 curated multi-category
+  memberships proposed to metasync (docs/handoff-to-metasync/2026-05-30-marker-categories.sql).
+  Merged on top of the ground-truth categories at brief-generation time so the agentic
+  input is correct now WITHOUT waiting for metasync to apply. Retire once prod applies
+  + build_ground_truth re-syncs (the doc will then carry these natively).
+enrichment:
+  adiponectin:
+  - hormones
+  aldosterone:
+  - kidney-function
+  apob:
+  - cardiovascular
+  - liver-function
+  c-peptide-fasting:
+  - hormones
+  c-peptide-stimulated:
+  - hormones
+  calcitriol:
+  - hormones
+  - kidney-function
+  ferritin:
+  - micronutrients
+  fgf-21:
+  - glycemic-insulin
+  fli:
+  - glycemic-insulin
+  hdl-cholesterol:
+  - cardiovascular
+  homa-ir:
+  - cardiovascular
+  homocysteine:
+  - kidney-function
+  - micronutrients
+  hscrp:
+  - cardiovascular
+  leptin:
+  - hormones
+  lp-pla2:
+  - inflammatory
+  lpa:
+  - cardiovascular
+  magnesium-serum:
+  - kidney-function
+  - micronutrients
+  nafld-fibrosis-score:
+  - glycemic-insulin
+  non-hdl-c:
+  - cardiovascular
+  oxidized-ldl:
+  - inflammatory
+  phosphorus:
+  - kidney-function
+  platelet-count:
+  - liver-function
+  potassium:
+  - kidney-function
+  pth:
+  - kidney-function
+  rbc-folate:
+  - micronutrients
+  renin:
+  - kidney-function
+  selenium:
+  - micronutrients
+  serum-iron:
+  - micronutrients
+  stfr:
+  - micronutrients
+  tg-hdl-ratio:
+  - cardiovascular
+  - glycemic-insulin
+  transferrin:
+  - micronutrients
+  transferrin-saturation:
+  - micronutrients
+  tyg-index:
+  - cardiovascular
+  uric-acid:
+  - cardiovascular
+  - glycemic-insulin

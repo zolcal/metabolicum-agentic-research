@@ -1,6 +1,8 @@
 {
   "wave": "wave-1",
-  "markers_processed": 105,
+  "in_scope": 72,
+  "out_of_scope_pruned": 33,
+  "markers_processed": 72,
   "markers": {
     "17-hydroxyprogesterone": {
       "videos": 0,
@@ -8,20 +10,6 @@
       "pubmed_ids": 2,
       "dois": 0,
       "source_urls": 0
-    },
-    "absolute-lymphocytes": {
-      "videos": 0,
-      "practitioners": 0,
-      "pubmed_ids": 0,
-      "dois": 0,
-      "source_urls": 1
-    },
-    "absolute-neutrophils": {
-      "videos": 0,
-      "practitioners": 0,
-      "pubmed_ids": 0,
-      "dois": 0,
-      "source_urls": 1
     },
     "albumin": {
       "videos": 21,
@@ -86,47 +74,12 @@
       "dois": 0,
       "source_urls": 16
     },
-    "arsenic-urine": {
-      "videos": 0,
-      "practitioners": 0,
-      "pubmed_ids": 0,
-      "dois": 0,
-      "source_urls": 0
-    },
     "ast": {
       "videos": 8,
       "practitioners": 1,
       "pubmed_ids": 3,
       "dois": 0,
       "source_urls": 47
-    },
-    "basophils-absolute": {
-      "videos": 0,
-      "practitioners": 0,
-      "pubmed_ids": 0,
-      "dois": 0,
-      "source_urls": 1
-    },
-    "basophils": {
-      "videos": 1,
-      "practitioners": 0,
-      "pubmed_ids": 0,
-      "dois": 0,
-      "source_urls": 0
-    },
-    "beryllium-urine": {
-      "videos": 0,
-      "practitioners": 0,
-      "pubmed_ids": 0,
-      "dois": 0,
-      "source_urls": 0
-    },
-    "bicarbonate": {
-      "videos": 17,
-      "practitioners": 0,
-      "pubmed_ids": 0,
-      "dois": 0,
-      "source_urls": 0
     },
     "bilirubin-total": {
       "videos": 3,
@@ -149,13 +102,6 @@
       "dois": 0,
       "source_urls": 0
     },
-    "chloride": {
-      "videos": 30,
-      "practitioners": 0,
-      "pubmed_ids": 0,
-      "dois": 0,
-      "source_urls": 0
-    },
     "cholesterol-in-ldl": {
       "videos": 0,
       "practitioners": 25,
@@ -170,26 +116,12 @@
       "dois": 0,
       "source_urls": 5
     },
-    "chromium": {
-      "videos": 0,
-      "practitioners": 0,
-      "pubmed_ids": 1,
-      "dois": 0,
-      "source_urls": 0
-    },
     "ck-mb": {
       "videos": 0,
       "practitioners": 0,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 0
-    },
-    "cobalt": {
-      "videos": 0,
-      "practitioners": 0,
-      "pubmed_ids": 2,
-      "dois": 0,
-      "source_urls": 1
     },
     "creatinine-3": {
       "videos": 0,
@@ -226,20 +158,6 @@
       "dois": 0,
       "source_urls": 1
     },
-    "eosinophils-absolute": {
-      "videos": 0,
-      "practitioners": 0,
-      "pubmed_ids": 0,
-      "dois": 0,
-      "source_urls": 1
-    },
-    "eosinophils": {
-      "videos": 1,
-      "practitioners": 0,
-      "pubmed_ids": 0,
-      "dois": 0,
-      "source_urls": 0
-    },
     "estradiol": {
       "videos": 30,
       "practitioners": 0,
@@ -260,13 +178,6 @@
       "pubmed_ids": 8,
       "dois": 0,
       "source_urls": 6
-    },
-    "fibrinogen": {
-      "videos": 5,
-      "practitioners": 0,
-      "pubmed_ids": 0,
-      "dois": 0,
-      "source_urls": 0
     },
     "folate-serum": {
       "videos": 30,
@@ -331,23 +242,9 @@
       "dois": 0,
       "source_urls": 5
     },
-    "hematocrit": {
-      "videos": 2,
-      "practitioners": 0,
-      "pubmed_ids": 0,
-      "dois": 0,
-      "source_urls": 0
-    },
-    "hemoglobin": {
-      "videos": 30,
-      "practitioners": 0,
-      "pubmed_ids": 6,
-      "dois": 0,
-      "source_urls": 1
-    },
     "homocysteine": {
       "videos": 30,
-      "practitioners": 3,
+      "practitioners": 6,
       "pubmed_ids": 5,
       "dois": 0,
       "source_urls": 1
@@ -403,78 +300,15 @@
     },
     "magnesium-serum": {
       "videos": 30,
-      "practitioners": 0,
+      "practitioners": 6,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 0
-    },
-    "manganese": {
-      "videos": 0,
-      "practitioners": 0,
-      "pubmed_ids": 3,
-      "dois": 0,
-      "source_urls": 0
-    },
-    "mch": {
-      "videos": 3,
-      "practitioners": 0,
-      "pubmed_ids": 0,
-      "dois": 0,
-      "source_urls": 1
-    },
-    "mchc": {
-      "videos": 1,
-      "practitioners": 0,
-      "pubmed_ids": 0,
-      "dois": 0,
-      "source_urls": 0
-    },
-    "mcv": {
-      "videos": 5,
-      "practitioners": 0,
-      "pubmed_ids": 2,
-      "dois": 0,
-      "source_urls": 1
-    },
-    "monocytes-absolute": {
-      "videos": 0,
-      "practitioners": 0,
-      "pubmed_ids": 0,
-      "dois": 0,
-      "source_urls": 1
-    },
-    "monocytes": {
-      "videos": 14,
-      "practitioners": 0,
-      "pubmed_ids": 0,
-      "dois": 0,
-      "source_urls": 1
-    },
-    "mpv": {
-      "videos": 0,
-      "practitioners": 0,
-      "pubmed_ids": 0,
-      "dois": 0,
-      "source_urls": 1
     },
     "myoglobin": {
       "videos": 3,
       "practitioners": 0,
       "pubmed_ids": 0,
-      "dois": 0,
-      "source_urls": 0
-    },
-    "neutrophils": {
-      "videos": 19,
-      "practitioners": 0,
-      "pubmed_ids": 0,
-      "dois": 0,
-      "source_urls": 0
-    },
-    "observation-urine": {
-      "videos": 0,
-      "practitioners": 0,
-      "pubmed_ids": 1,
       "dois": 0,
       "source_urls": 0
     },
@@ -487,7 +321,7 @@
     },
     "platelet-count": {
       "videos": 2,
-      "practitioners": 0,
+      "practitioners": 1,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 1
@@ -520,37 +354,23 @@
       "dois": 0,
       "source_urls": 1
     },
-    "rbc-count": {
-      "videos": 30,
-      "practitioners": 0,
-      "pubmed_ids": 2,
-      "dois": 0,
-      "source_urls": 1
-    },
     "rbc-folate": {
       "videos": 0,
-      "practitioners": 3,
+      "practitioners": 6,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 0
     },
-    "rdw": {
-      "videos": 1,
-      "practitioners": 0,
-      "pubmed_ids": 0,
-      "dois": 0,
-      "source_urls": 1
-    },
     "selenium": {
       "videos": 30,
-      "practitioners": 0,
+      "practitioners": 6,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 0
     },
     "serum-iron": {
       "videos": 1,
-      "practitioners": 3,
+      "practitioners": 6,
       "pubmed_ids": 2,
       "dois": 0,
       "source_urls": 0
@@ -559,13 +379,6 @@
       "videos": 15,
       "practitioners": 0,
       "pubmed_ids": 0,
-      "dois": 0,
-      "source_urls": 0
-    },
-    "sodium": {
-      "videos": 30,
-      "practitioners": 0,
-      "pubmed_ids": 5,
       "dois": 0,
       "source_urls": 0
     },
@@ -582,13 +395,6 @@
       "pubmed_ids": 10,
       "dois": 0,
       "source_urls": 0
-    },
-    "total-protein": {
-      "videos": 0,
-      "practitioners": 0,
-      "pubmed_ids": 0,
-      "dois": 0,
-      "source_urls": 1
     },
     "total-t3": {
       "videos": 0,
@@ -613,7 +419,7 @@
     },
     "transferrin": {
       "videos": 1,
-      "practitioners": 3,
+      "practitioners": 6,
       "pubmed_ids": 1,
       "dois": 0,
       "source_urls": 0
@@ -641,14 +447,7 @@
     },
     "uric-acid": {
       "videos": 30,
-      "practitioners": 0,
-      "pubmed_ids": 0,
-      "dois": 0,
-      "source_urls": 0
-    },
-    "urine-iodine": {
-      "videos": 30,
-      "practitioners": 0,
+      "practitioners": 49,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 0
@@ -657,20 +456,6 @@
       "videos": 0,
       "practitioners": 0,
       "pubmed_ids": 0,
-      "dois": 0,
-      "source_urls": 0
-    },
-    "urine-ph": {
-      "videos": 4,
-      "practitioners": 0,
-      "pubmed_ids": 4,
-      "dois": 0,
-      "source_urls": 0
-    },
-    "urine-specific-gravity": {
-      "videos": 0,
-      "practitioners": 0,
-      "pubmed_ids": 6,
       "dois": 0,
       "source_urls": 0
     },
@@ -687,13 +472,6 @@
       "pubmed_ids": 10,
       "dois": 0,
       "source_urls": 0
-    },
-    "vitamin-b6-pyridoxal-5-phosphate": {
-      "videos": 0,
-      "practitioners": 0,
-      "pubmed_ids": 0,
-      "dois": 0,
-      "source_urls": 1
     },
     "vitamin-b6": {
       "videos": 30,
@@ -726,13 +504,6 @@
     "vitamin-k2": {
       "videos": 30,
       "practitioners": 6,
-      "pubmed_ids": 0,
-      "dois": 0,
-      "source_urls": 1
-    },
-    "wbc-count": {
-      "videos": 30,
-      "practitioners": 0,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 1

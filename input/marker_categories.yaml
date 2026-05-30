@@ -75,7 +75,7 @@ categories:
 - slug: glycemic-insulin
   name: Glycemic & Insulin
   description: Blood sugar and insulin sensitivity markers
-  marker_count: 34
+  marker_count: 39
   markers:
   - 1-5-anhydroglucitol
   - 15-ag
@@ -87,6 +87,8 @@ categories:
   - eag
   - fasting-glucose
   - fasting-insulin
+  - fgf-21
+  - fli
   - fructosamine
   - glucose
   - glucose-2
@@ -105,13 +107,16 @@ categories:
   - lactatepyruvate-ratio
   - matsuda-index
   - mcauley-index
+  - nafld-fibrosis-score
   - proinsulin
   - quicki
+  - tg-hdl-ratio
   - tyg-bmi
   - tyg-index
   - tyg-wc
+  - uric-acid
   - urine-glucose
-  practitioner_count: 49
+  practitioner_count: 55
   practitioners:
   - company:defeat-diabetes
   - company:levels-health
@@ -126,10 +131,13 @@ categories:
   - person:andreas-eenfeldt
   - person:andrew-huberman
   - person:anthony-chaffee
+  - person:aseem-malhotra
   - person:benjamin-bikman
+  - person:bret-scher
   - person:brian-lamkin
   - person:casey-means
   - person:dale-bredesen
+  - person:dave-feldman
   - person:david-harper
   - person:david-ludwig
   - person:david-perlmutter
@@ -142,9 +150,11 @@ categories:
   - person:jonathan-little
   - person:joseph-kraft
   - person:joseph-mercola
+  - person:margaret-ashwell
   - person:mark-hyman
   - person:megan-ramos
   - person:michael-mosley
+  - person:paul-saladino
   - person:peter-attia
   - person:peter-brukner
   - person:rangan-chatterjee
@@ -157,6 +167,7 @@ categories:
   - person:steven-gundry
   - person:ted-naiman
   - person:tim-noakes
+  - person:william-davis
   - person:zoe-harcombe
   - person:zoltan-szabo
   - researchgroup:csiro
@@ -165,7 +176,7 @@ categories:
 - slug: inflammatory
   name: Inflammatory
   description: Inflammatory and oxidative stress markers
-  marker_count: 38
+  marker_count: 40
   markers:
   - adenosine-deaminase
   - adenosine-deaminase-csf
@@ -192,10 +203,12 @@ categories:
   - interleukin-4
   - interleukin-8
   - leptin
+  - lp-pla2
   - lysozyme
   - mannose-binding-protein
   - myeloperoxidase
   - neopterin
+  - oxidized-ldl
   - pct
   - procalcitonin
   - ptx-3
@@ -213,7 +226,7 @@ categories:
 - slug: liver-function
   name: Liver Function
   description: Liver enzyme and fibrosis markers
-  marker_count: 39
+  marker_count: 41
   markers:
   - 5-nt
   - 5-nucleotidase
@@ -231,6 +244,7 @@ categories:
   - amylase-2
   - angiotensin-converting-enzyme
   - angiotensin-converting-enzyme-csf
+  - apob
   - apri-score
   - ast
   - bard-score
@@ -251,20 +265,36 @@ categories:
   - lactic-acid
   - ldh
   - nafld-fibrosis-score
+  - platelet-count
   - prealbumin
   - protein-total
   - tp
-  practitioner_count: 1
+  practitioner_count: 14
   practitioners:
+  - person:allan-sniderman
+  - person:anthony-chaffee
+  - person:aseem-malhotra
+  - person:bret-scher
+  - person:dave-feldman
+  - person:nick-norwitz
+  - person:paul-mason
   - person:paul-saladino
+  - person:peter-attia
+  - person:rangan-chatterjee
+  - person:sten-ekberg
+  - person:thomas-dayspring
+  - person:william-davis
+  - person:zoe-harcombe
 - slug: kidney-function
   name: Kidney Function
   description: Kidney and metabolic waste markers
-  marker_count: 22
+  marker_count: 30
   markers:
+  - aldosterone
   - angiotensin-ii
   - bun
   - buncreatinine-ratio
+  - calcitriol
   - calcium
   - citrate
   - creatine
@@ -273,9 +303,15 @@ categories:
   - cystatin-c
   - egfr
   - estimated-gfr-cystatin-c
+  - homocysteine
+  - magnesium-serum
   - microalbumin
   - mma-2
   - oxalate
+  - phosphorus
+  - potassium
+  - pth
+  - renin
   - uacr
   - ucr
   - upcr
@@ -316,7 +352,7 @@ categories:
 - slug: hormones
   name: Hormones
   description: null
-  marker_count: 65
+  marker_count: 70
   markers:
   - 11-deoxycorticosterone
   - 11-deoxycortisol
@@ -324,12 +360,16 @@ categories:
   - 17-hydroxyprogesterone
   - 18-hydroxycorticosterone
   - acth
+  - adiponectin
   - aldosterone
   - aldosterone-2
   - alpha-melanocyte-stimulating-hormone
   - amh
   - bio-t
+  - c-peptide-fasting
+  - c-peptide-stimulated
   - calcitonin
+  - calcitriol
   - choriogonadotropin-beta-subunit
   - choriogonadotropin-beta-subunit-csf
   - choriomammotropin
@@ -358,6 +398,7 @@ categories:
   - igfbp-3
   - inhibin-a
   - inhibin-b
+  - leptin
   - lh
   - pancreastatin
   - pancreatic-polypeptide
@@ -388,7 +429,7 @@ categories:
 - slug: micronutrients
   name: Micronutrients
   description: Essential vitamins and minerals
-  marker_count: 30
+  marker_count: 39
   markers:
   - 1-25-dihydroxyvitamin-d
   - alpha-tocopherol
@@ -399,16 +440,25 @@ categories:
   - calcitriol
   - carotene
   - coq10
+  - ferritin
   - folate-serum
   - free-carnitine
   - free-carnitineacetyl-carnitine-ratio
   - holotranscobalamin
+  - homocysteine
+  - magnesium-serum
   - mma
   - niacin
+  - rbc-folate
   - retinol-binding-protein
   - riboflavin
   - sah
   - samsah-ratio
+  - selenium
+  - serum-iron
+  - stfr
+  - transferrin
+  - transferrin-saturation
   - ubiquinone-10
   - vitamin-a
   - vitamin-b1
@@ -481,8 +531,9 @@ categories:
 - slug: cardiovascular
   name: Cardiovascular Risk
   description: null
-  marker_count: 11
+  marker_count: 20
   markers:
+  - apob
   - bnp
   - ck
   - ck-mb
@@ -490,12 +541,49 @@ categories:
   - creatine-kinase-mb-creatine-kinase-total
   - ctni
   - ctnt
+  - hdl-cholesterol
+  - homa-ir
+  - hscrp
+  - lpa
   - myoglobin
+  - non-hdl-c
   - nt-probnp
   - pai-1
+  - tg-hdl-ratio
   - troponin-t-cardiac-2
-  practitioner_count: 0
-  practitioners: []
+  - tyg-index
+  - uric-acid
+  practitioner_count: 29
+  practitioners:
+  - person:allan-sniderman
+  - person:anthony-chaffee
+  - person:aseem-malhotra
+  - person:benjamin-bikman
+  - person:bret-scher
+  - person:brian-lamkin
+  - person:casey-means
+  - person:dave-feldman
+  - person:david-perlmutter
+  - person:david-unwin
+  - person:grant-brinkworth
+  - person:joseph-kraft
+  - person:joseph-mercola
+  - person:margaret-ashwell
+  - person:mark-hyman
+  - person:michael-mosley
+  - person:nick-norwitz
+  - person:paul-mason
+  - person:paul-saladino
+  - person:peter-attia
+  - person:rangan-chatterjee
+  - person:richard-maurer
+  - person:sten-ekberg
+  - person:steven-gundry
+  - person:ted-naiman
+  - person:thomas-dayspring
+  - person:william-davis
+  - person:zoe-harcombe
+  - person:zoltan-szabo
 - slug: anthropometric
   name: Anthropometric
   description: Body measurements and composition

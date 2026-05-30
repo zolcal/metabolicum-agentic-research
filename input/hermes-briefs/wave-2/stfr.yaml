@@ -11,7 +11,10 @@ recommended_youtube_video_ids: []
 recommended_practitioner_ids:
 - person:andrew-huberman
 - person:dale-bredesen
+- person:joseph-mercola
+- person:mark-hyman
 - person:rhonda-patrick
+- person:steven-gundry
 recommended_pubmed_ids:
 - '23715774'
 - '35051624'
