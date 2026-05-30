@@ -125,3 +125,42 @@ def test_threshold_holds_candidate_with_no_qualifying_marker():
     qualifying, held = threshold.apply_threshold([_cand("UC2", ev)], n=2)
     assert qualifying == []
     assert len(held) == 1 and held[0]["channel_id"] == "UC2"
+
+from scripts.practitioner_discovery import ingest
+
+
+def _qual(channel_id, name, affinity, evidence):
+    return {"entity_key": f"channel:{channel_id}", "channel_id": channel_id,
+            "display_name": name, "entity_type": "channel",
+            "surfaces": [{"platform": "youtube",
+                          "handle_or_url": f"https://www.youtube.com/channel/{channel_id}",
+                          "channel_id": channel_id, "discovery_mode": "auto_discovered"}],
+            "marker_affinity": affinity, "evidence": evidence}
+
+
+def test_to_registry_record_carries_evidence_provenance_and_conservative_grade():
+    q = _qual("UC1", "Hormone MD", ["total-testosterone"],
+              {"total-testosterone": [{"ref": "yt:a"}, {"ref": "yt:b"}]})
+    rec = ingest.to_registry_record(q)
+    assert rec["id"] == "channel:UC1"
+    assert rec["marker_affinity"] == ["total-testosterone"]
+    assert rec["source_grade"] == "E2"
+    assert rec["surfaces"][0]["discovery_mode"] == "auto_discovered"
+    prov = {p["marker"]: p for p in rec["discovery_provenance"]}
+    assert prov["total-testosterone"]["evidence_count"] == 2
+    assert prov["total-testosterone"]["evidence"] == ["yt:a", "yt:b"]
+
+
+def test_merge_adds_new_and_unions_existing_affinity():
+    registry = {"practitioners": [
+        {"id": "channel:UC1", "marker_affinity": ["dhea"], "surfaces": []}]}
+    recs = [
+        ingest.to_registry_record(_qual("UC1", "MD", ["total-testosterone"],
+            {"total-testosterone": [{"ref": "yt:a"}, {"ref": "yt:b"}]})),
+        ingest.to_registry_record(_qual("UC2", "New", ["cortisol-am"],
+            {"cortisol-am": [{"ref": "yt:c"}, {"ref": "yt:d"}]})),
+    ]
+    merged = ingest.merge_into_registry(registry, recs)
+    by_id = {p["id"]: p for p in merged["practitioners"]}
+    assert by_id["channel:UC1"]["marker_affinity"] == ["dhea", "total-testosterone"]
+    assert "channel:UC2" in by_id
