@@ -6,10 +6,44 @@ sm_reference:
   marker_slug: lpa
   visibility: council_only
 unit: nmol/L
+recommended_videos:
+- video_id: _XPZd-Oq2_Q
+  score: 4
+  title: Lipoprotein (a) - "The Other ’Bad’ Cholesterol"
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: M7FS68OheOA
+  score: -1
+  title: '#SHORTS Niacin for Lp(a) - How to Measure Niacin''s Effect'
+  channel: Thomas Fordham Brewer MD MPH
 recommended_youtube_video_ids:
 - _XPZd-Oq2_Q
 - M7FS68OheOA
-recommended_practitioner_ids: []
+recommended_practitioner_ids:
+- person:allan-sniderman
+- person:anthony-chaffee
+- person:aseem-malhotra
+- person:benjamin-bikman
+- person:bret-scher
+- person:casey-means
+- person:dave-feldman
+- person:david-unwin
+- person:grant-brinkworth
+- person:joseph-mercola
+- person:margaret-ashwell
+- person:mark-hyman
+- person:michael-mosley
+- person:nick-norwitz
+- person:paul-mason
+- person:paul-saladino
+- person:peter-attia
+- person:rangan-chatterjee
+- person:sten-ekberg
+- person:steven-gundry
+- person:ted-naiman
+- person:thomas-dayspring
+- person:william-davis
+- person:zoe-harcombe
+- person:zoltan-szabo
 recommended_pubmed_ids: []
 recommended_dois: []
 recommended_source_urls: []

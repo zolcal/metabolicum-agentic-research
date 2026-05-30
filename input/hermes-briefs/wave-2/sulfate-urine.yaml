@@ -6,6 +6,7 @@ sm_reference:
   marker_slug: sulfate-urine
   visibility: council_only
 unit: mEq/24 hours
+recommended_videos: []
 recommended_youtube_video_ids: []
 recommended_practitioner_ids: []
 recommended_pubmed_ids: []

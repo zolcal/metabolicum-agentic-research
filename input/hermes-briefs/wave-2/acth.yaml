@@ -6,6 +6,24 @@ sm_reference:
   marker_slug: acth
   visibility: council_only
 unit: pg/mL
+recommended_videos:
+- video_id: GhGSLffZd0E
+  score: 10
+  title: The Benefits Of Cold Water Immersion for Your Genetics
+  channel: Dr. Eric Berg DC
+- video_id: JtahmxKjfKs
+  score: 10
+  title: 7 Surprising Magnesium Benefits You Don't Know
+  channel: Dr. Eric Berg DC
+- video_id: Q4RGr_K4RM4
+  score: 8
+  title: What Emotion Triggers Adrenaline?
+  channel: Dr. Eric Berg DC
+- video_id: Cen2Jyik32E
+  score: 4
+  title: Is stress a major cause of diabetes (and heart attack, stroke & dementia)?
+    - FORD BREWER MD MPH
+  channel: Thomas Fordham Brewer MD MPH
 recommended_youtube_video_ids:
 - GhGSLffZd0E
 - JtahmxKjfKs

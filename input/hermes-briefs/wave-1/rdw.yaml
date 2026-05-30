@@ -6,6 +6,11 @@ sm_reference:
   marker_slug: rdw
   visibility: council_only
 unit: '%'
+recommended_videos:
+- video_id: SgKp5mm0ALI
+  score: 14
+  title: I Ranked 100 Health Markers (Most People Get These Wrong)
+  channel: Siim Land
 recommended_youtube_video_ids:
 - SgKp5mm0ALI
 recommended_practitioner_ids: []

@@ -6,6 +6,101 @@ sm_reference:
   marker_slug: free-carnitine
   visibility: council_only
 unit: μmol/L
+recommended_videos:
+- video_id: TiJSmTNfGak
+  score: 19
+  title: '🔴AUTISM: What Role Diet Plays (ASD Food Choices) | Dr Anthony Chaffee'
+  channel: Anthony Chaffee MD
+- video_id: Z23R3OAFLZ4
+  score: 19
+  title: 'Dr. Lustig: ‘Fructose is Poison’'
+  channel: Physionic
+- video_id: 17O5mgXZ9ZU
+  score: 17
+  title: How Our Hormones Control Our Hunger, Eating & Satiety
+  channel: Andrew Huberman
+- video_id: 9FLssAeIbA0
+  score: 17
+  title: Early Childhood Development and Nutrition, with Dr  Anthony Chaffee, MD
+  channel: Anthony Chaffee MD
+- video_id: p9XuPr0f21k
+  score: 17
+  title: How to Prevent Hair Loss, Optimal Glycine Protein Ratio - Q&A /w Siim Land
+  channel: Siim Land
+- video_id: uYfp81XnUMU
+  score: 17
+  title: Cholesterol is Good For You!
+  channel: Anthony Chaffee MD
+- video_id: vA50EK70whE
+  score: 17
+  title: How to Increase Motivation & Drive
+  channel: Andrew Huberman
+- video_id: 1gFFm0lXSAg
+  score: 15
+  title: 'Fibromyalgia Relief: Diet & Supplements 2026'
+  channel: KenDBerryMD
+- video_id: 916vhhUsmgE
+  score: 14
+  title: Understanding & Controlling Aggression | Huberman Lab Essentials
+  channel: Andrew Huberman
+- video_id: vm1GbSPx48g
+  score: 13
+  title: How to Control Your Sense of Pain & Pleasure | Huberman Lab Essentials
+  channel: Andrew Huberman
+- video_id: yyxgFVGsZhc
+  score: 13
+  title: The Dr. Berg Show LIVE - October 11, 2024
+  channel: Dr. Eric Berg DC
+- video_id: C0DMdUqF73Q
+  score: 11
+  title: The Best Vitality & Health Protocols | Dr. Rhonda Patrick
+  channel: Andrew Huberman
+- video_id: xmhsWAqP_0Y
+  score: 10
+  title: How to Control Your Sense of Pain & Pleasure
+  channel: Andrew Huberman
+- video_id: EhlIkzJwPlk
+  score: 9
+  title: Female Hormone Health, Fertility & Vitality | Dr. Natalie Crawford
+  channel: Andrew Huberman
+- video_id: GqPGXG5TlZw
+  score: 9
+  title: How to Lose Fat with Science-Based Tools
+  channel: Andrew Huberman
+- video_id: K9lORz2_XSU
+  score: 9
+  title: Tools to Reduce & Manage Pain | Dr. Sean Mackey
+  channel: Andrew Huberman
+- video_id: O1YRwWmue4Y
+  score: 9
+  title: How to Optimize Fertility in Males & Females
+  channel: Andrew Huberman
+- video_id: O640yAgq5f8
+  score: 9
+  title: Tools for Hormone Optimization in Males | Dr. Kyle Gillett
+  channel: Andrew Huberman
+- video_id: XfURDjegrAw
+  score: 9
+  title: How Foods and Nutrients Control Our Moods
+  channel: Andrew Huberman
+- video_id: ncSoor2Iw8k
+  score: 9
+  title: How to Optimize Your Hormones for Health & Vitality | Dr. Kyle Gillett
+  channel: Andrew Huberman
+- video_id: tLS6t3FVOTI
+  score: 9
+  title: Developing a Rational Approach to Supplementation for Health & Performance
+    | Huberman Lab Podcast
+  channel: Andrew Huberman
+- video_id: 4QKAzU_iYHY
+  score: 7
+  title: Lp(a)- the new antisense drugs - the NEJM article
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: J2dLIs6TmLM
+  score: 7
+  title: 'Tips to Heal Anxiety and Panic Attacks: How AncestralHealthGuy healed his
+    anxiety with nutrition'
+  channel: Nutrition with Judy
 recommended_youtube_video_ids:
 - TiJSmTNfGak
 - Z23R3OAFLZ4
@@ -30,7 +125,13 @@ recommended_youtube_video_ids:
 - tLS6t3FVOTI
 - 4QKAzU_iYHY
 - J2dLIs6TmLM
-recommended_practitioner_ids: []
+recommended_practitioner_ids:
+- person:andrew-huberman
+- person:dale-bredesen
+- person:joseph-mercola
+- person:mark-hyman
+- person:rhonda-patrick
+- person:steven-gundry
 recommended_pubmed_ids: []
 recommended_dois: []
 recommended_source_urls: []

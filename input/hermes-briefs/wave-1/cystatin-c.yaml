@@ -6,6 +6,24 @@ sm_reference:
   marker_slug: cystatin-c
   visibility: council_only
 unit: mg/L
+recommended_videos:
+- video_id: SgKp5mm0ALI
+  score: 13
+  title: I Ranked 100 Health Markers (Most People Get These Wrong)
+  channel: Siim Land
+- video_id: 44JjnUWOm7g
+  score: 10
+  title: 'Kidney Health Blood Test Results Explained: Filtration, Function & What
+    to Know | Dr. Anjali Dsouza'
+  channel: Levels | Health, Metabolism & Human Performance
+- video_id: BCAr2u3XjlY
+  score: 10
+  title: If I Had to Take Only 5 Blood Tests These Would Be It
+  channel: Siim Land
+- video_id: 0RcM-PRTvtM
+  score: 6
+  title: Why I’m no longer vegan!
+  channel: Shawn Baker MD
 recommended_youtube_video_ids:
 - SgKp5mm0ALI
 - 44JjnUWOm7g

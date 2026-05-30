@@ -4,70 +4,70 @@
   "markers": {
     "1-5-anhydroglucitol": {
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 49,
       "pubmed_ids": 4,
       "dois": 0,
       "source_urls": 0
     },
     "5-nt": {
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 1,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 0
     },
     "5-nucleotidase": {
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 1,
       "pubmed_ids": 1,
       "dois": 0,
       "source_urls": 0
     },
     "adenosine-deaminase-csf": {
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 3,
       "pubmed_ids": 6,
       "dois": 0,
       "source_urls": 0
     },
     "adenosine-deaminase-pericardial-fluid": {
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 3,
       "pubmed_ids": 5,
       "dois": 0,
       "source_urls": 0
     },
     "adenosine-deaminase-peritoneal-fluid": {
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 3,
       "pubmed_ids": 5,
       "dois": 0,
       "source_urls": 0
     },
     "adenosine-deaminase-pleural-fluid": {
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 3,
       "pubmed_ids": 5,
       "dois": 0,
       "source_urls": 0
     },
     "adenosine-deaminase": {
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 3,
       "pubmed_ids": 4,
       "dois": 0,
       "source_urls": 0
     },
     "albumin-2": {
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 1,
       "pubmed_ids": 2,
       "dois": 0,
       "source_urls": 0
     },
     "albumin-3": {
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 1,
       "pubmed_ids": 3,
       "dois": 0,
       "source_urls": 0
@@ -123,35 +123,35 @@
     },
     "ammonia-4": {
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 1,
       "pubmed_ids": 1,
       "dois": 0,
       "source_urls": 0
     },
     "amylase-2": {
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 1,
       "pubmed_ids": 6,
       "dois": 0,
       "source_urls": 0
     },
     "amylase": {
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 1,
       "pubmed_ids": 6,
       "dois": 0,
       "source_urls": 0
     },
     "angiotensin-converting-enzyme-csf": {
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 1,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 0
     },
     "angiotensin-converting-enzyme": {
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 1,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 0
@@ -235,14 +235,14 @@
     },
     "cobalt-2": {
       "videos": 0,
-      "practitioners": 1,
+      "practitioners": 0,
       "pubmed_ids": 1,
       "dois": 0,
       "source_urls": 1
     },
     "coq10": {
       "videos": 30,
-      "practitioners": 0,
+      "practitioners": 6,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 0
@@ -277,14 +277,14 @@
     },
     "eastern-equine-encephalitis-virus-ab-igg-csf": {
       "videos": 0,
-      "practitioners": 1,
+      "practitioners": 0,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 1
     },
     "eastern-equine-encephalitis-virus-ab-igg": {
       "videos": 0,
-      "practitioners": 1,
+      "practitioners": 0,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 1
@@ -326,21 +326,21 @@
     },
     "glucose-2": {
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 49,
       "pubmed_ids": 2,
       "dois": 0,
       "source_urls": 0
     },
     "glucose-csf": {
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 49,
       "pubmed_ids": 2,
       "dois": 0,
       "source_urls": 0
     },
     "glucose-post-cfst": {
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 49,
       "pubmed_ids": 5,
       "dois": 0,
       "source_urls": 0
@@ -417,28 +417,28 @@
     },
     "insulin-post-cfst": {
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 49,
       "pubmed_ids": 3,
       "dois": 0,
       "source_urls": 0
     },
     "interleukin-10-csf": {
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 3,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 0
     },
     "lactate-2": {
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 1,
       "pubmed_ids": 3,
       "dois": 0,
       "source_urls": 0
     },
     "lactate": {
       "videos": 30,
-      "practitioners": 0,
+      "practitioners": 1,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 0
@@ -515,7 +515,7 @@
     },
     "procalcitonin": {
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 3,
       "pubmed_ids": 3,
       "dois": 0,
       "source_urls": 0
@@ -592,7 +592,7 @@
     },
     "ubiquinone-10": {
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 6,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 0

@@ -6,6 +6,106 @@ sm_reference:
   marker_slug: hscrp
   visibility: council_only
 unit: mg/L
+recommended_videos:
+- video_id: 2ksPzKMJgXs
+  score: 16
+  title: Doctor Reveals The MOST Overlooked Medicine on Earth
+  channel: Dr. Eric Berg DC
+- video_id: jaLO5Jk8UgY
+  score: 16
+  title: '4 Months on Berberine: Reversing Arterial Plaque'
+  channel: Physionic
+- video_id: vJFozt4pytg
+  score: 14
+  title: So Called "Normal Labs" are NOT Healthy
+  channel: Dr. Eric Berg DC
+- video_id: SgKp5mm0ALI
+  score: 13
+  title: I Ranked 100 Health Markers (Most People Get These Wrong)
+  channel: Siim Land
+- video_id: WCYB2V2uFMk
+  score: 13
+  title: What this inflammation marker really tells you
+  channel: Levels | Health, Metabolism & Human Performance
+- video_id: cJV6a41NsXc
+  score: 13
+  title: '#SHORTS  CV Inflammation Testing: hsCRP, MPO, & LpPLA2'
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: BCAr2u3XjlY
+  score: 10
+  title: If I Had to Take Only 5 Blood Tests These Would Be It
+  channel: Siim Land
+- video_id: OiYTuM4ArHQ
+  score: 10
+  title: A Key CV Inflammation Marker You Should Know
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: QvR0f9jkscw
+  score: 10
+  title: '#SHORTS Have You Thought About This Inflammation Marker?'
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: WZWKjzJOFUw
+  score: 10
+  title: '#SHORTS A Inflammation Marker: LP PLA2'
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: ZxGv97X9vKA
+  score: 10
+  title: '#SHORTS An Overlooked Inflammation Marker: MACR'
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: kcfExPjgYzY
+  score: 10
+  title: '#SHORTS How Reliable is IL 6 as an Inflammation Marker'
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: gyB5bsw5dXs
+  score: 6
+  title: 'Citrulline: Does it work? Uses for NO, ED, Athletics'
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: kLQkmVtP8ts
+  score: 6
+  title: Inflammation, Heart Attacks, & Alzheimer's (TIME Magazine 2004)
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: 0nCofPbwa8A
+  score: 5
+  title: A New Test for Heart Attack/Stroke risk; PULS -  The Test We've Been Seeking?
+    Unstable Plaque Test?
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: dCJYV5RQPZk
+  score: 5
+  title: How To Assess Inflammation in the Body with Your Bloodwork Test Results |
+    Dr. Anjali Dsouza
+  channel: Levels | Health, Metabolism & Human Performance
+- video_id: iL7aMkY3ePU
+  score: 5
+  title: How to test for CARDIOVASCULAR INFLAMMATION
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: sBdBqioELro
+  score: 5
+  title: NEW INJECTION  PREVENTS HEART ATTACK - update on ILARIS (cannakinumab)- FORD
+    BREWER MD MPH
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: IlihuKw48r4
+  score: 4
+  title: Aged Garlic Extract - Reversing CV Inflammation? (Budoff Study)
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: OSUg1J1oEuw
+  score: 4
+  title: How to Test for Inflammation, CV Disease, Alzheimer's, Cancer Causation
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: YQrwJudgCkw
+  score: 4
+  title: 'Understanding Your Heart Attack Risk: Mendelian Randomization, CRP & Obesity'
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: Xm18mXIWWg0
+  score: 3
+  title: How Stress Can Cause Inflammation | Dr. Anjali Dsouza
+  channel: Levels | Health, Metabolism & Human Performance
+- video_id: rMWqI4jtHsk
+  score: 3
+  title: Which Three Labs Should Everyone Get Tested? | Dr. Anjali Dsouza
+  channel: Levels | Health, Metabolism & Human Performance
+- video_id: 6E_uZsgfTHc
+  score: -1
+  title: '#SHORTS When Should We Be Concerned with High CRP'
+  channel: Thomas Fordham Brewer MD MPH
 recommended_youtube_video_ids:
 - 2ksPzKMJgXs
 - jaLO5Jk8UgY
@@ -31,7 +131,10 @@ recommended_youtube_video_ids:
 - Xm18mXIWWg0
 - rMWqI4jtHsk
 - 6E_uZsgfTHc
-recommended_practitioner_ids: []
+recommended_practitioner_ids:
+- person:andrew-huberman
+- person:dale-bredesen
+- person:rhonda-patrick
 recommended_pubmed_ids:
 - '18695075'
 - '20031199'

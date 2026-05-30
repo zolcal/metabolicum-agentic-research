@@ -6,6 +6,19 @@ sm_reference:
   marker_slug: mch
   visibility: council_only
 unit: pg
+recommended_videos:
+- video_id: dGM_5owfrc4
+  score: 15
+  title: The Dr. Berg Show LIVE - November 7, 2025
+  channel: Dr. Eric Berg DC
+- video_id: SgKp5mm0ALI
+  score: 14
+  title: I Ranked 100 Health Markers (Most People Get These Wrong)
+  channel: Siim Land
+- video_id: ltskwX74oZ8
+  score: 11
+  title: Proper Human Diet/Fasting Q&A
+  channel: KenDBerryMD
 recommended_youtube_video_ids:
 - dGM_5owfrc4
 - SgKp5mm0ALI

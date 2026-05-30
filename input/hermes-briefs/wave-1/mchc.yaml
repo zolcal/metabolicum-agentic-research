@@ -6,6 +6,11 @@ sm_reference:
   marker_slug: mchc
   visibility: council_only
 unit: g/dL
+recommended_videos:
+- video_id: ltskwX74oZ8
+  score: 11
+  title: Proper Human Diet/Fasting Q&A
+  channel: KenDBerryMD
 recommended_youtube_video_ids:
 - ltskwX74oZ8
 recommended_practitioner_ids: []

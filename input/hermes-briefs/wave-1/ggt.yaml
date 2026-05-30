@@ -6,6 +6,20 @@ sm_reference:
   marker_slug: ggt
   visibility: council_only
 unit: U/L
+recommended_videos:
+- video_id: SgKp5mm0ALI
+  score: 13
+  title: I Ranked 100 Health Markers (Most People Get These Wrong)
+  channel: Siim Land
+- video_id: x7cPrE8-_Os
+  score: 11
+  title: 'Understanding Liver Health: Detox, Fatty Liver, and Key Blood Test Results
+    Explained | Dr. Dsouza'
+  channel: Levels | Health, Metabolism & Human Performance
+- video_id: U_Gcq8bEUq8
+  score: 7
+  title: 'Ivor Cummins - ''The Pathways of Insulin Resistance: Exposure and Implications'''
+  channel: Low Carb Down Under
 recommended_youtube_video_ids:
 - SgKp5mm0ALI
 - x7cPrE8-_Os

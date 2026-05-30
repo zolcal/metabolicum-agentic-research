@@ -6,6 +6,11 @@ sm_reference:
   marker_slug: rheumatoid-factor
   visibility: council_only
 unit: IU/mL
+recommended_videos:
+- video_id: ztQphqkwLNU
+  score: 21
+  title: An Anti-Arthritis Super Supplement! [30 Studies Later!]
+  channel: Physionic
 recommended_youtube_video_ids:
 - ztQphqkwLNU
 recommended_practitioner_ids: []

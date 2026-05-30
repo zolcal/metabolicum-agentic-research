@@ -6,6 +6,132 @@ sm_reference:
   marker_slug: triglycerides
   visibility: council_only
 unit: mg/dL
+recommended_videos:
+- video_id: FJf4aSv65L8
+  score: 24
+  title: Why it's crucial to keep triglycerides at 60 mg/dl or less
+  channel: William Davis , MD
+- video_id: Gs-5VqJSW0o
+  score: 24
+  title: What Your Doctor Didn't Tell You About Triglycerides
+  channel: William Davis , MD
+- video_id: yqGoEm95n08
+  score: 24
+  title: Why TRIGLYCERIDES matter and cholesterol does not
+  channel: William Davis , MD
+- video_id: 5PobEa7PEho
+  score: 21
+  title: 'LDL, ApoB, & Triglycerides: Heart Health Truths Revealed!'
+  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
+- video_id: 6-QravC6Qxw
+  score: 21
+  title: High Triglycerides and Plaque Reversal Using Supplements (LIVE)
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: 7ECpNxmTT_8
+  score: 21
+  title: 'Dr. Casey Means: Eat like THIS to reduce your Risk of Metabolic Disease!'
+  channel: Physionic
+- video_id: ALgydmdxaFo
+  score: 21
+  title: How to Lower Triglycerides
+  channel: Siim Land
+- video_id: MZF_X0s1b0A
+  score: 21
+  title: 'Ketosis & Ketogenic Diet: Brain & Mental Health, Metabolism, Diet & Exercise,
+    Cancer, Diabetes | ...'
+  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
+- video_id: R0RhWJh1U-U
+  score: 21
+  title: 'Ketogenic Diet: Cholesterol, Plaque & Heart Heart | Matthew Budoff | 223'
+  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
+- video_id: TdQhhVZnLxI
+  score: 21
+  title: '🔴Ketogenic and Carnivore Diets: 25 Years of Experience with Prof Eric Westman,
+    MD'
+  channel: Anthony Chaffee MD
+- video_id: b-re4pBXySY
+  score: 21
+  title: 'Full Day of Eating: 300 Grams of Carbs in ONE MEAL'
+  channel: Siim Land
+- video_id: sEa4iFPHJwo
+  score: 20
+  title: Why Would Triglycerides Elevate on Keto? Causes of High Triglycerides on
+    Keto – Dr.Berg
+  channel: Dr. Eric Berg DC
+- video_id: IFQz5fR5LZg
+  score: 19
+  title: One Sugar creates a Unique Liver Harm, New Study
+  channel: Physionic
+- video_id: UvJYwoFhJls
+  score: 19
+  title: HIGH Triglycerides? Try this Omega 3 Bomb
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: VRlUDZ8cpTw
+  score: 19
+  title: Medicines that Actually Cause High Triglycerides (The List)
+  channel: KenDBerryMD
+- video_id: YlFUUM_sufw
+  score: 19
+  title: Bathing the Brain in Ketones - A Metabolic Advantage
+  channel: Physionic
+- video_id: bn1U2Spl0-k
+  score: 19
+  title: Ben Bikman, PhD | Reversing Insulin Resistance | The Metabolic Link Ep.9
+  channel: Metabolic Health Summit
+- video_id: mo9WPbLiPus
+  score: 19
+  title: 'MCT Oil (Medium Chain Triglycerides): The Different Types'
+  channel: Dr. Eric Berg DC
+- video_id: p9XuPr0f21k
+  score: 19
+  title: How to Prevent Hair Loss, Optimal Glycine Protein Ratio - Q&A /w Siim Land
+  channel: Siim Land
+- video_id: wvXoVv6fbDU
+  score: 19
+  title: Supplements That Give an Extra Advantage Later in Life - Q&A
+  channel: Siim Land
+- video_id: 0Er08-E2HnU
+  score: 18
+  title: I’m taking 40 grams to cut Visceral Fat and promote Liver Health
+  channel: Physionic
+- video_id: 6BDf6jZ_1w4
+  score: 18
+  title: What Causes HIGH TRIGLYCERIDES? (5 EASY Steps to Fix It) 2026
+  channel: KenDBerryMD
+- video_id: Nc0NQ15S6v0
+  score: 18
+  title: Four Foods That Reduce Triglycerides
+  channel: William Davis , MD
+- video_id: U6IcMW5Khh4
+  score: 18
+  title: This Powder Cleanses the Liver, Colon, and Blood and I Use it Every Day
+  channel: Physionic
+- video_id: b0Yzn3aI17U
+  score: 18
+  title: 'High Triglycerides: Is Your Medicine Causing It?? (11 Culprits)'
+  channel: KenDBerryMD
+- video_id: sf02S7xZpVY
+  score: 18
+  title: Salt bad, triglycerides meaningless?
+  channel: Shawn Baker MD
+- video_id: 1rUsspHnlmk
+  score: 17
+  title: 🔴  You NEED To Have A Healthy Diet To LIVE OPTIMALLY | Carnivore Q&A April
+    2nd, 2024.
+  channel: Anthony Chaffee MD
+- video_id: 7gSSePnWqqY
+  score: 17
+  title: A keto diet improves elevated triglycerides
+  channel: Diet Doctor
+- video_id: A6HTANqOExw
+  score: 17
+  title: 'FINAL VERDICT: Low Carb Diets on Triglyceride (Blood Fat) Levels [100+ Studies
+    Analyzed]'
+  channel: Physionic
+- video_id: ZA-sbEFx5MU
+  score: 17
+  title: '"Super Fish Oil" Vascepa - Is it Better Than Fish Oil?'
+  channel: Thomas Fordham Brewer MD MPH
 recommended_youtube_video_ids:
 - FJf4aSv65L8
 - Gs-5VqJSW0o
@@ -37,7 +163,32 @@ recommended_youtube_video_ids:
 - 7gSSePnWqqY
 - A6HTANqOExw
 - ZA-sbEFx5MU
-recommended_practitioner_ids: []
+recommended_practitioner_ids:
+- person:allan-sniderman
+- person:anthony-chaffee
+- person:aseem-malhotra
+- person:benjamin-bikman
+- person:bret-scher
+- person:casey-means
+- person:dave-feldman
+- person:david-unwin
+- person:grant-brinkworth
+- person:joseph-mercola
+- person:margaret-ashwell
+- person:mark-hyman
+- person:michael-mosley
+- person:nick-norwitz
+- person:paul-mason
+- person:paul-saladino
+- person:peter-attia
+- person:rangan-chatterjee
+- person:sten-ekberg
+- person:steven-gundry
+- person:ted-naiman
+- person:thomas-dayspring
+- person:william-davis
+- person:zoe-harcombe
+- person:zoltan-szabo
 recommended_pubmed_ids:
 - '3056758'
 - '9355888'

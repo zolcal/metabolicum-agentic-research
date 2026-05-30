@@ -6,6 +6,11 @@ sm_reference:
   marker_slug: nt-probnp
   visibility: council_only
 unit: pg/mL
+recommended_videos:
+- video_id: utvQ7GBAVQQ
+  score: 18
+  title: 'Heart Disease: Not just about Cholesterol!'
+  channel: Physionic
 recommended_youtube_video_ids:
 - utvQ7GBAVQQ
 recommended_practitioner_ids: []

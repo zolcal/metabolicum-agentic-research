@@ -6,6 +6,15 @@ sm_reference:
   marker_slug: bnp
   visibility: council_only
 unit: pg/mL
+recommended_videos:
+- video_id: SgKp5mm0ALI
+  score: 13
+  title: I Ranked 100 Health Markers (Most People Get These Wrong)
+  channel: Siim Land
+- video_id: aGSQaZ4uhDs
+  score: 13
+  title: Unlocking the Science Behind Weight Loss and GLP-1 | Ashley Koff, RD
+  channel: DavidPerlmutterMD
 recommended_youtube_video_ids:
 - SgKp5mm0ALI
 - aGSQaZ4uhDs

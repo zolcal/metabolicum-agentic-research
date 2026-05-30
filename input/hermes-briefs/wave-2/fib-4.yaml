@@ -6,8 +6,10 @@ sm_reference:
   marker_slug: fib-4
   visibility: council_only
 unit: index
+recommended_videos: []
 recommended_youtube_video_ids: []
-recommended_practitioner_ids: []
+recommended_practitioner_ids:
+- person:paul-saladino
 recommended_pubmed_ids: []
 recommended_dois: []
 recommended_source_urls: []

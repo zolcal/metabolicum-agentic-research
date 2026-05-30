@@ -6,6 +6,90 @@ sm_reference:
   marker_slug: c-peptide-fasting
   visibility: council_only
 unit: ng/mL
+recommended_videos:
+- video_id: DMcL6KiglvM
+  score: 10
+  title: NEVER Start Your Morning With This (Destroys Your Liver)
+  channel: Dr. Eric Berg DC
+- video_id: zIBEVeBDCNo
+  score: 10
+  title: 'How to Take Your Health to the Next Level (Cost: 10¢)'
+  channel: Dr. Eric Berg DC
+- video_id: -3E2ALGpAIs
+  score: 8
+  title: Mitochondrial DNA and Its Role in Diabetes
+  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
+- video_id: Tr8t1KWQspc
+  score: 8
+  title: Why Muscle Loss as We Age Is a Problem and What To Do | Dr. Robert Lustig
+    Ultimate Guide
+  channel: Levels | Health, Metabolism & Human Performance
+- video_id: dt1DOJXAXFg
+  score: 7
+  title: The Best Way to Fix a Slow Metabolism – Dr. Berg's Expert Advice
+  channel: Dr. Eric Berg DC
+- video_id: 7YsIHM6xRBI
+  score: 6
+  title: Understanding Blood Sugar Levels, INSULIN RESISTANCE & Impact on Chronic
+    Diseases | Dr. Rob Lustig
+  channel: Levels | Health, Metabolism & Human Performance
+- video_id: NtWsxQAhRkw
+  score: 6
+  title: 'The Book that Turned My Health Around: Dr. Berg'
+  channel: Dr. Eric Berg DC
+- video_id: P1gB0RTqi-I
+  score: 6
+  title: Metabolic Syndrome Is Really the Hyperinsulinemia Syndrome
+  channel: Dr. Eric Berg DC
+- video_id: yhdzkOelQAw
+  score: 6
+  title: What is Diabetes 1.5
+  channel: Dr. Eric Berg DC
+- video_id: DlO0jq1bnpc
+  score: 5
+  title: The Key to Metabolic Flexibility with Dr. Berg and Dylan Gemelli
+  channel: Dr. Eric Berg DC
+- video_id: 6dg1LfF0oCk
+  score: 4
+  title: Keto, Type 1 Diabetes & Ketosis Explained By Dr. Berg
+  channel: Dr. Eric Berg DC
+- video_id: GJQaVRVdn_0
+  score: 4
+  title: How Fat Gets Burned? Science Of Fat Burning Simplified – Dr. Berg
+  channel: Dr. Eric Berg DC
+- video_id: dkv1rW6JQcM
+  score: 4
+  title: 'The Amazing Zinc (Part 1): Its Main Function and Zinc Deficiency Symptoms
+    – Dr.Berg'
+  channel: Dr. Eric Berg DC
+- video_id: ozbNW8-ZLm4
+  score: 4
+  title: 'Diabetes Medication Side Effects: Metformin, Sulfonylurea & Insulin – Dr.Berg'
+  channel: Dr. Eric Berg DC
+- video_id: pRb_itmYX70
+  score: 4
+  title: Overcoming Keto Plateau After 6-8 Weeks – Dr.Berg
+  channel: Dr. Eric Berg DC
+- video_id: rgQ1ffvr5W0
+  score: 4
+  title: The Underlying Cause Of Diabetes – Dr.Berg
+  channel: Dr. Eric Berg DC
+- video_id: D7ZxSAGaW_4
+  score: 3
+  title: 'Sleep Genes Go Rogue: The Shocking Obesity Twist!'
+  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
+- video_id: QCOvSLWfjH0
+  score: 3
+  title: Why Muscle Loss as We Age Is a Problem and What To Do | Dr. Robert Lustig
+  channel: Levels | Health, Metabolism & Human Performance
+- video_id: SLFsbQNzqv0
+  score: 2
+  title: Ketosis vs Ketoacidosis (Keto Diet Dangerous?)
+  channel: Dr. Sten Ekberg
+- video_id: eakNqJKt-_s
+  score: 1
+  title: 'The Role of Insulin in Diabetes: Animation'
+  channel: Dr. Eric Berg DC
 recommended_youtube_video_ids:
 - DMcL6KiglvM
 - zIBEVeBDCNo
@@ -28,7 +112,55 @@ recommended_youtube_video_ids:
 - SLFsbQNzqv0
 - eakNqJKt-_s
 recommended_practitioner_ids:
-- person:paul-saladino
+- company:defeat-diabetes
+- company:levels-health
+- company:low-carb-program
+- company:virta-health
+- conference:metabolic-health-summit
+- media:diet-doctor
+- media:metodichu-bengedi-robi
+- network:hungarian-diabetes-association
+- network:hungarian-low-carb-clinician-network
+- network:public-health-collaboration
+- person:andreas-eenfeldt
+- person:andrew-huberman
+- person:anthony-chaffee
+- person:benjamin-bikman
+- person:brian-lamkin
+- person:casey-means
+- person:dale-bredesen
+- person:david-harper
+- person:david-ludwig
+- person:david-perlmutter
+- person:david-unwin
+- person:dominic-dagostino
+- person:evelyne-bourdua-roy
+- person:grant-brinkworth
+- person:jason-fung
+- person:jeff-volek
+- person:jonathan-little
+- person:joseph-kraft
+- person:joseph-mercola
+- person:mark-hyman
+- person:megan-ramos
+- person:michael-mosley
+- person:peter-attia
+- person:peter-brukner
+- person:rangan-chatterjee
+- person:rhonda-patrick
+- person:richard-maurer
+- person:robert-lustig
+- person:sara-gottfried
+- person:sten-ekberg
+- person:stephen-phinney
+- person:steven-gundry
+- person:ted-naiman
+- person:tim-noakes
+- person:zoe-harcombe
+- person:zoltan-szabo
+- researchgroup:csiro
+- researchgroup:semmelweis-metabolic-research-sources
+- researchgroup:university-of-debrecen-metabolic-research-sources
 recommended_pubmed_ids:
 - '35973558'
 - '36192784'

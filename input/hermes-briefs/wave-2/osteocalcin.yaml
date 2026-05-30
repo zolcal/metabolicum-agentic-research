@@ -6,6 +6,31 @@ sm_reference:
   marker_slug: osteocalcin
   visibility: council_only
 unit: ng/mL
+recommended_videos:
+- video_id: 69Z0eCFegWk
+  score: 16
+  title: 'Vitamin K2 (Part 6): Osteocalcin & Diabetes - Another K2 Story?'
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: J2oqi41dCNc
+  score: 16
+  title: How to Use Exercise to Improve Your Brain’s Health, Longevity & Performance
+  channel: Andrew Huberman
+- video_id: U6dnOVth7-I
+  score: 15
+  title: Understand & Improve Memory Using Science-Based Tools | Huberman Lab Essentials
+  channel: Andrew Huberman
+- video_id: XcvhERcZpWw
+  score: 11
+  title: Micronutrients for Health & Longevity | Dr. Rhonda Patrick
+  channel: Andrew Huberman
+- video_id: szqPAPKE5tQ
+  score: 11
+  title: Understand & Improve Memory Using Science-Based Tools
+  channel: Andrew Huberman
+- video_id: nmPJivMOvAM
+  score: 9
+  title: Vitamin K2 Goes Beyond Bone Health
+  channel: Dr. Eric Berg DC
 recommended_youtube_video_ids:
 - 69Z0eCFegWk
 - J2oqi41dCNc

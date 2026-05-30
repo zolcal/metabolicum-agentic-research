@@ -6,6 +6,42 @@ sm_reference:
   marker_slug: ast
   visibility: council_only
 unit: U/L
+recommended_videos:
+- video_id: 3FeVs-O70qo
+  score: 17
+  title: High Liver Enzymes [ALT & AST] – What Do They Mean? – Dr.Berg
+  channel: Dr. Eric Berg DC
+- video_id: SgKp5mm0ALI
+  score: 13
+  title: I Ranked 100 Health Markers (Most People Get These Wrong)
+  channel: Siim Land
+- video_id: bDaIhHbnuWk
+  score: 13
+  title: Why Paul Saladino is Wrong about the Carnivore Diet (Hormones, Insulin and
+    Electrolyte Issues)
+  channel: Nutrition with Judy
+- video_id: qmer3LBYXiE
+  score: 11
+  title: Proper Human Diet/Fasting Q&A
+  channel: KenDBerryMD
+- video_id: x7cPrE8-_Os
+  score: 11
+  title: 'Understanding Liver Health: Detox, Fatty Liver, and Key Blood Test Results
+    Explained | Dr. Dsouza'
+  channel: Levels | Health, Metabolism & Human Performance
+- video_id: mHzQaLgSrxM
+  score: 7
+  title: 'The Dangers of Statins Part 4: The Liver Statin Safety Group'
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: pQaQin8NO2I
+  score: 3
+  title: Diet Soda can Cause a Fatty Liver
+  channel: Dr. Eric Berg DC
+- video_id: Fi0YjY8HmYY
+  score: 1
+  title: The Main Causes of High Liver Enzymes & Non-Alcoholic Fatty Liver Disease
+    – Dr. Berg
+  channel: Dr. Eric Berg DC
 recommended_youtube_video_ids:
 - 3FeVs-O70qo
 - SgKp5mm0ALI
@@ -16,56 +52,7 @@ recommended_youtube_video_ids:
 - pQaQin8NO2I
 - Fi0YjY8HmYY
 recommended_practitioner_ids:
-- person:benjamin-bikman
-- researchgroup:csiro
-- person:david-ludwig
-- person:david-unwin
-- company:defeat-diabetes
-- person:dominic-dagostino
-- person:grant-brinkworth
-- person:jason-fung
-- person:jeff-volek
-- person:joseph-kraft
-- person:mark-hyman
-- person:peter-attia
-- person:peter-brukner
-- person:rhonda-patrick
-- person:robert-lustig
-- person:stephen-phinney
-- person:ted-naiman
-- person:tim-noakes
-- company:virta-health
-- person:andreas-eenfeldt
-- person:andrew-huberman
-- person:anthony-chaffee
-- person:brian-lamkin
-- person:casey-means
-- person:dale-bredesen
-- person:david-harper
-- person:david-perlmutter
-- media:diet-doctor
-- person:evelyne-bourdua-roy
-- network:hungarian-diabetes-association
-- person:jonathan-little
-- person:joseph-mercola
-- company:levels-health
-- company:low-carb-program
-- person:megan-ramos
-- conference:metabolic-health-summit
-- media:metodichu-bengedi-robi
-- person:michael-mosley
 - person:paul-saladino
-- network:public-health-collaboration
-- person:rangan-chatterjee
-- person:richard-maurer
-- person:sara-gottfried
-- researchgroup:semmelweis-metabolic-research-sources
-- person:sten-ekberg
-- person:steven-gundry
-- researchgroup:university-of-debrecen-metabolic-research-sources
-- person:zoltan-szabo
-- person:zoe-harcombe
-- network:hungarian-low-carb-clinician-network
 recommended_pubmed_ids:
 - '20427778'
 - '26707365'

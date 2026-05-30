@@ -6,6 +6,20 @@ sm_reference:
   marker_slug: myoglobin
   visibility: council_only
 unit: ng/mL
+recommended_videos:
+- video_id: L8QqHBDxA94
+  score: 13
+  title: 'The #1 Superfood in the World'
+  channel: Dr. Eric Berg DC
+- video_id: ztm8PzqdjlQ
+  score: 13
+  title: 'Nutrition Content of Animal & Plant Foods: Beef, Plant-Based Meat, Raw vs.
+    Processed Milk'
+  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
+- video_id: yD3bW2z-yNw
+  score: 6
+  title: Iron Deficiency – Functions, Symptoms, & Causes Explained By Dr. Berg
+  channel: Dr. Eric Berg DC
 recommended_youtube_video_ids:
 - L8QqHBDxA94
 - ztm8PzqdjlQ

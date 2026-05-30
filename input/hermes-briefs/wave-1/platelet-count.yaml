@@ -6,6 +6,15 @@ sm_reference:
   marker_slug: platelet-count
   visibility: council_only
 unit: x10^9/L
+recommended_videos:
+- video_id: 4Q255seVYoI
+  score: 15
+  title: The Dr. Berg Show LIVE - December 12, 2025
+  channel: Dr. Eric Berg DC
+- video_id: IVe-fPBxacw
+  score: 15
+  title: The Dr. Berg Show LIVE - August 23, 2024
+  channel: Dr. Eric Berg DC
 recommended_youtube_video_ids:
 - 4Q255seVYoI
 - IVe-fPBxacw

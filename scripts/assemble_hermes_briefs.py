@@ -26,6 +26,10 @@ import yaml
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
 
+import functools  # noqa: E402
+
+from code import ground_truth as gt  # noqa: E402
+
 SM_RANGES_DIR = PROJECT_ROOT / "input" / "sm-ranges"
 ASSET_DIR = PROJECT_ROOT / "input" / "research-assets"
 BRIEFS_DIR = PROJECT_ROOT / "input" / "hermes-briefs"
@@ -87,12 +91,36 @@ def _brief_identity(marker_slug: str, wave: str, sm: dict) -> dict:
     return brief
 
 
-def _video_ids(video_entries: list[dict], cap: int) -> list[str]:
-    return _unique([entry.get("video_id", "") for entry in video_entries])[:cap]
+def _ranked_videos(video_entries: list[dict], cap: int) -> list[dict]:
+    """Top-`cap` videos in score order, KEEPING the rank metadata (score/title/channel).
+    The old _video_ids() discarded scores; the rank is real signal Hermes should see."""
+    ranked = sorted(video_entries, key=lambda v: -(v.get("score") or 0))
+    seen: set[str] = set()
+    out: list[dict] = []
+    for v in ranked:
+        vid = v.get("video_id")
+        if not vid or vid in seen:
+            continue
+        seen.add(vid)
+        out.append({"video_id": vid, "score": v.get("score"),
+                    "title": v.get("title"), "channel": v.get("channel")})
+        if len(out) >= cap:
+            break
+    return out
 
 
-def _practitioner_ids(practitioner_entries: list[dict]) -> list[str]:
-    return _unique([entry.get("id", "") for entry in practitioner_entries])
+@functools.lru_cache(maxsize=1)
+def _category_practitioners() -> dict[str, list[str]]:
+    """category_slug -> practitioners, from the ground-truth-derived marker_categories.yaml."""
+    cats = load_yaml(PROJECT_ROOT / "input" / "marker_categories.yaml").get("categories", [])
+    return {c["slug"]: list(c.get("practitioners") or []) for c in cats}
+
+
+def _practitioners_for(canonical_slug: str) -> list[str]:
+    """Recommended practitioners = the marker's category cohort (ground truth) — NOT the
+    substring matcher. A marker inherits every practitioner affine to its category."""
+    cat = next((m.get("primary_category") for m in gt.markers() if m["slug"] == canonical_slug), None)
+    return _category_practitioners().get(cat, []) if cat else []
 
 
 def _source_pointers(source_entries: list[dict]) -> tuple[list[str], list[str], list[str]]:
@@ -129,11 +157,14 @@ def assemble_marker(
     source_index: dict,
     video_cap: int,
 ) -> dict:
+    canonical = gt.resolve_slug(marker_slug) or marker_slug
     brief = _brief_identity(marker_slug, wave, sm)
     pubmed_ids, dois, source_urls = _source_pointers(source_index.get(marker_slug, []))
 
-    brief["recommended_youtube_video_ids"] = _video_ids(video_index.get(marker_slug, []), video_cap)
-    brief["recommended_practitioner_ids"] = _practitioner_ids(practitioner_index.get(marker_slug, []))
+    ranked = _ranked_videos(video_index.get(marker_slug, []), video_cap)
+    brief["recommended_videos"] = ranked  # ranked: video_id + score + title + channel
+    brief["recommended_youtube_video_ids"] = [v["video_id"] for v in ranked]  # ordered, backward-compat
+    brief["recommended_practitioner_ids"] = _practitioners_for(canonical)  # category cohort (ground truth)
     brief["recommended_pubmed_ids"] = pubmed_ids
     brief["recommended_dois"] = dois
     brief["recommended_source_urls"] = source_urls

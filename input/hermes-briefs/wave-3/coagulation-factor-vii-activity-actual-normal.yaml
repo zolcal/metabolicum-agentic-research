@@ -7,6 +7,7 @@ sm_reference:
   marker_slug: coagulation-factor-vii-activity-actual-normal
   visibility: council_only
 unit: '%'
+recommended_videos: []
 recommended_youtube_video_ids: []
 recommended_practitioner_ids: []
 recommended_pubmed_ids: []

@@ -6,10 +6,22 @@ sm_reference:
   marker_slug: transferrin-saturation
   visibility: council_only
 unit: '%'
+recommended_videos:
+- video_id: SgKp5mm0ALI
+  score: 13
+  title: I Ranked 100 Health Markers (Most People Get These Wrong)
+  channel: Siim Land
+- video_id: 3in3377V5kI
+  score: 11
+  title: The Dr. Berg Show LIVE - April 26, 2024
+  channel: Dr. Eric Berg DC
 recommended_youtube_video_ids:
 - SgKp5mm0ALI
 - 3in3377V5kI
-recommended_practitioner_ids: []
+recommended_practitioner_ids:
+- person:andrew-huberman
+- person:dale-bredesen
+- person:rhonda-patrick
 recommended_pubmed_ids:
 - '23613366'
 - '24778671'

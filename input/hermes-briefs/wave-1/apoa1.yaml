@@ -6,12 +6,55 @@ sm_reference:
   marker_slug: apoa1
   visibility: council_only
 unit: mg/dL
+recommended_videos:
+- video_id: D5-r2HnZWVY
+  score: 17
+  title: 'How to Read a Cholesterol Test: LDL, HDL, Lp(a), Apo(e), sdLDL, TG/HDL,
+    ApoA1/ApoB'
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: HQleXqetrm0
+  score: 11
+  title: The 9 IGNORED Risk Factors for Heart Attacks
+  channel: Dr. Eric Berg DC
+- video_id: 03hT9isSchk
+  score: 6
+  title: Dysfunctional HDL - Introduction
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: CtSGVOD2I_0
+  score: 6
+  title: Lp(a) vs. LDL - How to Manage Lp(a) Part 1
+  channel: Thomas Fordham Brewer MD MPH
 recommended_youtube_video_ids:
 - D5-r2HnZWVY
 - HQleXqetrm0
 - 03hT9isSchk
 - CtSGVOD2I_0
-recommended_practitioner_ids: []
+recommended_practitioner_ids:
+- person:allan-sniderman
+- person:anthony-chaffee
+- person:aseem-malhotra
+- person:benjamin-bikman
+- person:bret-scher
+- person:casey-means
+- person:dave-feldman
+- person:david-unwin
+- person:grant-brinkworth
+- person:joseph-mercola
+- person:margaret-ashwell
+- person:mark-hyman
+- person:michael-mosley
+- person:nick-norwitz
+- person:paul-mason
+- person:paul-saladino
+- person:peter-attia
+- person:rangan-chatterjee
+- person:sten-ekberg
+- person:steven-gundry
+- person:ted-naiman
+- person:thomas-dayspring
+- person:william-davis
+- person:zoe-harcombe
+- person:zoltan-szabo
 recommended_pubmed_ids:
 - '15314690'
 recommended_dois: []

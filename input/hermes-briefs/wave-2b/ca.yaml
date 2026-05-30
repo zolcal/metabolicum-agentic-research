@@ -6,6 +6,15 @@ sm_reference:
   marker_slug: ca
   visibility: council_only
 unit: mg/dL
+recommended_videos:
+- video_id: 2bPhK-rvuUo
+  score: 12
+  title: Women over 50 (Commonly MISSED Diagnosis) Hyperparathyroidism 2026
+  channel: KenDBerryMD
+- video_id: Jx2oj1OBnJs
+  score: 4
+  title: 'Chia Seeds: Amazing Source of Essential Fatty Acids – Dr. Berg'
+  channel: Dr. Eric Berg DC
 recommended_youtube_video_ids:
 - 2bPhK-rvuUo
 - Jx2oj1OBnJs

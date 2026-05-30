@@ -6,6 +6,134 @@ sm_reference:
   marker_slug: leptin
   visibility: council_only
 unit: ng/mL
+recommended_videos:
+- video_id: KSh4pvaeleo
+  score: 32
+  title: 'Adipose Tissue & Body Fat: Obesity, Insulin, Leptin, Fertility, Weight Loss
+    & GLP-1 Drugs | Sean ...'
+  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
+- video_id: YV99gulswxk
+  score: 32
+  title: 'Genetics & Neurobiology of Obesity: Hypothalamus, Leptin, Gut Hormones,
+    Weight Loss Drugs | Giles...'
+  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
+- video_id: aYel1paPgW8
+  score: 25
+  title: 'Genetics & Neurobiology of Obesity: Hypothalamus, Leptin, Hormones, Weight
+    Loss Drugs | Giles Yeo'
+  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
+- video_id: AbC0BaU8BDk
+  score: 24
+  title: 'Adipose Tissue & Body Fat: Obesity, Insulin, Leptin, Fertility, Weight Loss
+    & GLP-1 Drugs'
+  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
+- video_id: xi5VphuzSTc
+  score: 23
+  title: Dr. Ravi Gornall - 'Leptin and weight loss resistance'
+  channel: Low Carb Down Under
+- video_id: dx8_KNrxbF4
+  score: 22
+  title: ‘High Dose Vitamin D’s Steroid-like Effect! Crazy!’
+  channel: Physionic
+- video_id: mDuGK00f1dc
+  score: 22
+  title: Leptin Resistance is Behind a Weakened Immune System
+  channel: Dr. Eric Berg DC
+- video_id: SXHQP0ugggA
+  score: 21
+  title: Cold Thermogenesis, Leptin Prescription, SV40 & Cancer
+  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
+- video_id: TGY0nPQ_y9o
+  score: 21
+  title: 'Sunlight & Leptin: Health Optimization & Obesity Insights'
+  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
+- video_id: _6tOBYuWYIw
+  score: 21
+  title: Leptin, Longevity, Bryan Johnson & Sunlight
+  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
+- video_id: riIvR5O-t5E
+  score: 21
+  title: Gut-Brain Communication, Vagus Nerve, Fats & Sugars, Food Addiction, Gut
+    Hormones & Weight Loss D...
+  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
+- video_id: n28W4AmvMDE
+  score: 19
+  title: How Sugar & Processed Foods Impact Your Health | Dr. Robert Lustig
+  channel: Andrew Huberman
+- video_id: o-K9xpu1pzo
+  score: 19
+  title: What is Leptin? Explained By Dr.Berg
+  channel: Dr. Eric Berg DC
+- video_id: odWvqxXW1Kk
+  score: 19
+  title: How Fasting Slows Down Brain Aging - Mark Mattson
+  channel: Siim Land
+- video_id: LWcsT1RDpSY
+  score: 18
+  title: BURN FAT Faster with this Simple Diet
+  channel: KenDBerryMD
+- video_id: 40ZA0brHmMg
+  score: 16
+  title: Hidden Danger in Fruit & Honey [ A1c Misses Fructose Damage ] 2026
+  channel: KenDBerryMD
+- video_id: 6vhk5selW6w
+  score: 16
+  title: Leptin, Sunlight & Weight Loss
+  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
+- video_id: BaOCwW3GhYg
+  score: 16
+  title: 7 Drinks with Dangerous Amounts of FRUCTOSE (#1 is a Shocker) 2026
+  channel: KenDBerryMD
+- video_id: GNUuhnrhdLI
+  score: 16
+  title: 'Genetics & Neurobiology of Obesity: Leptin and Beyond'
+  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
+- video_id: JLLX0pyecLE
+  score: 16
+  title: 'Leptin-Melanocortin Pathway: The Body''s Fat Sensor'
+  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
+- video_id: ioiR1XqA55U
+  score: 16
+  title: Leptin is an Immune Hormone
+  channel: Dr. Eric Berg DC
+- video_id: d9yVe0__pFs
+  score: 15
+  title: Control Your HUNGER, Lose More WEIGHT (Proven Method) 2026
+  channel: KenDBerryMD
+- video_id: mJv1_esiJ8g
+  score: 15
+  title: Healthy Eating & Eating Disorders - Anorexia, Bulimia, Binging | Huberman
+    Lab Essentials
+  channel: Andrew Huberman
+- video_id: tC7gjoSuVow
+  score: 15
+  title: 'Dr. Paul Mason on the influence of insulin on #leptin levels'
+  channel: Low Carb Down Under
+- video_id: Axv3PbnegHw
+  score: 14
+  title: Fruit Juices WORSE than Soft Drinks (Here’s Why)
+  channel: KenDBerryMD
+- video_id: C5KpIXjpzdY
+  score: 14
+  title: The Science of Hunger & Medications to Combat Obesity | Dr. Zachary Knight
+  channel: Andrew Huberman
+- video_id: FEeYVUaL170
+  score: 14
+  title: Best Strategies to STOP Overeating
+  channel: Dr. Eric Berg DC
+- video_id: a81DZVZvYN0
+  score: 14
+  title: Fruit is BAD?? (7 Serious FRUCTOSE Facts) 2026
+  channel: KenDBerryMD
+- video_id: 1bu9_UIX9vw
+  score: 13
+  title: 'The Great Obesity Debate: Energy Balance vs Fructose - Dr. Layne Norton
+    & Dr. Richard Johnson | Ep70'
+  channel: Metabolic Health Summit
+- video_id: 67sLlXeMg2I
+  score: 13
+  title: Regenerative Energy & the Light Inside You | Jack Kruse | 221
+  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
 recommended_youtube_video_ids:
 - KSh4pvaeleo
 - YV99gulswxk
@@ -37,7 +165,10 @@ recommended_youtube_video_ids:
 - a81DZVZvYN0
 - 1bu9_UIX9vw
 - 67sLlXeMg2I
-recommended_practitioner_ids: []
+recommended_practitioner_ids:
+- person:andrew-huberman
+- person:dale-bredesen
+- person:rhonda-patrick
 recommended_pubmed_ids: []
 recommended_dois: []
 recommended_source_urls: []

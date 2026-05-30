@@ -6,6 +6,16 @@ sm_reference:
   marker_slug: hematocrit
   visibility: council_only
 unit: '%'
+recommended_videos:
+- video_id: SgKp5mm0ALI
+  score: 13
+  title: I Ranked 100 Health Markers (Most People Get These Wrong)
+  channel: Siim Land
+- video_id: 8Ifu2BRdchI
+  score: 11
+  title: 'Blood Health Test Results Explained: Anemia, Oxygen Delivery, and Immune
+    Clues | Dr. Anjali Dsouza'
+  channel: Levels | Health, Metabolism & Human Performance
 recommended_youtube_video_ids:
 - SgKp5mm0ALI
 - 8Ifu2BRdchI

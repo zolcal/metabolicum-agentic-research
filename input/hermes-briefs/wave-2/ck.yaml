@@ -6,6 +6,15 @@ sm_reference:
   marker_slug: ck
   visibility: council_only
 unit: IU/L
+recommended_videos:
+- video_id: d_3H-9QpqBM
+  score: 19
+  title: 5 Mechanisms of Anti-Aging, Science Explained.
+  channel: Physionic
+- video_id: Db9rkEzKeJE
+  score: 6
+  title: On a Statin? WATCH THIS…
+  channel: Dr. Eric Berg DC
 recommended_youtube_video_ids:
 - d_3H-9QpqBM
 - Db9rkEzKeJE

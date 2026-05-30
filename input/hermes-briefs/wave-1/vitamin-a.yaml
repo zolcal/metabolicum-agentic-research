@@ -6,6 +6,135 @@ sm_reference:
   marker_slug: vitamin-a
   visibility: council_only
 unit: μg/dL
+recommended_videos:
+- video_id: 7OC4dwGp8Q0
+  score: 29
+  title: 'Why Eating Liver May Not Be Good: Unspoken Truths about Vitamin A'
+  channel: Nutrition with Judy
+- video_id: ZDMs2R35R5A
+  score: 26
+  title: Best FOOD Sources of VITAMIN A - 2026
+  channel: KenDBerryMD
+- video_id: iVjSveyyRwg
+  score: 26
+  title: How Beef Liver and Vitamin A Toxicity is Causing Chronic Illness - Grant
+    Genereux
+  channel: Nutrition with Judy
+- video_id: Zs9cWIz-7X0
+  score: 25
+  title: 7 Signs of Low VITAMIN A You Need to Know - 2026
+  channel: KenDBerryMD
+- video_id: 6XR80Jgfhfg
+  score: 23
+  title: Vitamin A Toxicity. How much to eat as kids and during pregnancy? The Science
+    w/ Dr. Smith - Part 2
+  channel: Nutrition with Judy
+- video_id: iix5vSYu8Gg
+  score: 23
+  title: 'Vitamin A and Copper Toxicity: Opposing Thoughts on Dietary Interventions
+    - Dr. Garrett Smith'
+  channel: Nutrition with Judy
+- video_id: 9nqkYHi2AyI
+  score: 22
+  title: Do We Need Vitamin C on a Carnivore Diet? Should We Supplement?
+  channel: Nutrition with Judy
+- video_id: UotvYzbg4DI
+  score: 22
+  title: Forget Getting ANY Vitamin A from Carrots
+  channel: Dr. Eric Berg DC
+- video_id: wMW8E5aLNsE
+  score: 22
+  title: The FIRST Sign of a Vitamin A Deficiency Is...
+  channel: Dr. Eric Berg DC
+- video_id: N1Z39iHfq-4
+  score: 21
+  title: Vitamin A and Your Immune System
+  channel: Dr. Eric Berg DC
+- video_id: kng8mGSOKPQ
+  score: 21
+  title: This is Why I NEVER Take Vitamin A Supplements
+  channel: Dr. Eric Berg DC
+- video_id: vS0eZK5LIkE
+  score: 21
+  title: Truths about Vitamin A and Toxicity from Foods - The Science with Dr. Garrett
+    Smith - Part 1
+  channel: Nutrition with Judy
+- video_id: yzBnjfjbjUM
+  score: 21
+  title: You Don't Get Vitamin A From Vegetables
+  channel: Dr. Eric Berg DC
+- video_id: XgRiuJT_2ck
+  score: 20
+  title: Use Vitamin A for Kidney Stones – Vitamin A Deficiency & Kidney Stones –
+    Dr.Berg
+  channel: Dr. Eric Berg DC
+- video_id: sAmTpz6JUdA
+  score: 20
+  title: Best Foods for Dry Eyes (Vitamin A Deficiency Symptoms) – Dr. Berg
+  channel: Dr. Eric Berg DC
+- video_id: 7Kg2urrsmP4
+  score: 19
+  title: Supplements That Lower Inflammation, My Optimal Diet - Q&A
+  channel: Siim Land
+- video_id: K-X9ZefdMzs
+  score: 19
+  title: The Importance of Vitamin A in Pregnancy – Dr.Berg on Source of Vitamin A
+    & Deficiency
+  channel: Dr. Eric Berg DC
+- video_id: MNs1VYAXkS4
+  score: 19
+  title: The 2 BEST Foods for Your Teeth and Gums
+  channel: Dr. Eric Berg DC
+- video_id: wo7i9bFs4Bw
+  score: 19
+  title: 'Vitamin A: Sources, Functions, and Deficiencies – Dr. Berg'
+  channel: Dr. Eric Berg DC
+- video_id: fW97Mf-SGBs
+  score: 17
+  title: The Amazing Gallbladder & Vitamin A, D, E and K2 Connection (Part - 3) –
+    Dr.Berg
+  channel: Dr. Eric Berg DC
+- video_id: QHfUDDn_hAw
+  score: 16
+  title: Why is Vitamin A Named Retinol?
+  channel: Dr. Eric Berg DC
+- video_id: Y0-RMgSJU0Y
+  score: 16
+  title: 🔓 Are Carrots a Great Source of Vitamin A? (Another Myth Busted?)
+  channel: KenDBerryMD
+- video_id: nCnZX8zs4LI
+  score: 16
+  title: How to Reverse POOR Eyesight (Especially Over 50!)
+  channel: Dr. Eric Berg DC
+- video_id: oh-wo00mdhQ
+  score: 16
+  title: Most Common Signs of LOW VITAMIN A Levels
+  channel: KenDBerryMD
+- video_id: sClhZpNDIQ4
+  score: 16
+  title: Vitamin A Deficiency – Causes of Dry Eyes Explained by Dr. Berg
+  channel: Dr. Eric Berg DC
+- video_id: 5EnsvmwexjY
+  score: 15
+  title: 'Vitamin A is essential for your eyes, immune system, and skin—inside and
+    out! #VitaminA #Retinol'
+  channel: Dr. Eric Berg DC
+- video_id: dJZXhLsuUfw
+  score: 15
+  title: Liver is NOT a Superfood. The Truth about Organ Meats.
+  channel: Nutrition with Judy
+- video_id: dhbeoGrCeYw
+  score: 15
+  title: Long-Term Vitamin A Risk
+  channel: Nutrition with Judy
+- video_id: dwwFh9pOBB0
+  score: 15
+  title: The DRY EYE DIET (Eat This, Not That for Relief) 2026
+  channel: KenDBerryMD
+- video_id: ssmwxKPFMFU
+  score: 15
+  title: Protocols to Improve Vision & Eyesight | Huberman Lab Essentials
+  channel: Andrew Huberman
 recommended_youtube_video_ids:
 - 7OC4dwGp8Q0
 - ZDMs2R35R5A
@@ -37,7 +166,13 @@ recommended_youtube_video_ids:
 - dhbeoGrCeYw
 - dwwFh9pOBB0
 - ssmwxKPFMFU
-recommended_practitioner_ids: []
+recommended_practitioner_ids:
+- person:andrew-huberman
+- person:dale-bredesen
+- person:joseph-mercola
+- person:mark-hyman
+- person:rhonda-patrick
+- person:steven-gundry
 recommended_pubmed_ids: []
 recommended_dois: []
 recommended_source_urls: []

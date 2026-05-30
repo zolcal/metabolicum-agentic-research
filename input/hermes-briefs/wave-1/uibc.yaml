@@ -6,8 +6,12 @@ sm_reference:
   marker_slug: uibc
   visibility: council_only
 unit: μg/dL
+recommended_videos: []
 recommended_youtube_video_ids: []
-recommended_practitioner_ids: []
+recommended_practitioner_ids:
+- person:andrew-huberman
+- person:dale-bredesen
+- person:rhonda-patrick
 recommended_pubmed_ids: []
 recommended_dois: []
 recommended_source_urls: []

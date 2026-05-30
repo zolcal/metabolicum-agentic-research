@@ -6,6 +6,129 @@ sm_reference:
   marker_slug: vitamin-k2
   visibility: council_only
 unit: ng/mL
+recommended_videos:
+- video_id: _GsahGq9geM
+  score: 28
+  title: 'Vitamin K2 and Plaque Removal: What''s the Optimal Dose'
+  channel: Siim Land
+- video_id: 8ER4Epj_20U
+  score: 25
+  title: Vitamin K2 Rich Foods (7 Tasty Choices) Stronger Bones
+  channel: KenDBerryMD
+- video_id: jy3c6wQ_kKg
+  score: 24
+  title: How I Use Vitamin K2 to Clean Arteries
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: nDRf0Lf5sE0
+  score: 23
+  title: 'The #1 Food Highest in Vitamin K2'
+  channel: Dr. Eric Berg DC
+- video_id: IDpwQQQSOL8
+  score: 22
+  title: Vitamin K2 For Plaque Reversal (New Evidence) With Guest Dr. Gil Carvalho
+    (LIVE)
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: jrozJ6oMEjo
+  score: 22
+  title: Top 15 Supplements That Actually Work In Humans - 2025 Updated
+  channel: Siim Land
+- video_id: Cx7VMhES65Q
+  score: 21
+  title: Vitamin K2 & Cardiovascular Health - Clearing the Confusion
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: LrWlbs1Bq2Y
+  score: 21
+  title: Reviewing Bryan Johnson Blueprint Supplements - Are They Evidence Based
+  channel: Siim Land
+- video_id: _4zzmpnZYXs
+  score: 21
+  title: Vitamin K2 & Insulin Resistance (LIVE)
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: GvW7iBvPuDM
+  score: 20
+  title: Vitamin K2 and Pathological Calcification
+  channel: Dr. Eric Berg DC
+- video_id: KUO51V5otMw
+  score: 20
+  title: Osteoporosis & Vitamin K2
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: NBblpaIfeS0
+  score: 20
+  title: The Vitamin–Liver Cancer Link I Didn’t Expect
+  channel: Physionic
+- video_id: RXsc_ESNESw
+  score: 20
+  title: Knee Pain, Pseudogout, and Vitamin K2 Benefits – Prevent Gout with Vitamin
+    K2 – Dr.Berg
+  channel: Dr. Eric Berg DC
+- video_id: h5PMcpSyA1o
+  score: 20
+  title: 'Don''t take Vitamin D3 & Vit K2 together '
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: nmPJivMOvAM
+  score: 20
+  title: Vitamin K2 Goes Beyond Bone Health
+  channel: Dr. Eric Berg DC
+- video_id: -gei4_8ZAvo
+  score: 19
+  title: Clogged Arteries, Osteoporosis and Vitamin K2 – Dr. Berg
+  channel: Dr. Eric Berg DC
+- video_id: 9FLssAeIbA0
+  score: 19
+  title: Early Childhood Development and Nutrition, with Dr  Anthony Chaffee, MD
+  channel: Anthony Chaffee MD
+- video_id: 90BACOcqY74
+  score: 18
+  title: 7 Supplements That STOP Artery Plaque In Its Tracks
+  channel: Siim Land
+- video_id: CX16-Y09NCM
+  score: 18
+  title: Benefits of Vitamin K2 – The Amazing Calcium Transporter – Dr.Berg
+  channel: Dr. Eric Berg DC
+- video_id: FC_rsgIKe80
+  score: 18
+  title: Can You Take Vitamin K2 and D3 Everyday?
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: G0lxa_Je9aM
+  score: 18
+  title: 'Vitamin K2 And Heart Disease: What You Need To Know'
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: MNs1VYAXkS4
+  score: 18
+  title: The 2 BEST Foods for Your Teeth and Gums
+  channel: Dr. Eric Berg DC
+- video_id: OjmyXDdoJsg
+  score: 18
+  title: What is Vitamin K2, Its Benefits & Sources? – Dr.Berg
+  channel: Dr. Eric Berg DC
+- video_id: YWcD2vupThU
+  score: 18
+  title: The Vitamin K2 Myth
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: ghruzyT8I9E
+  score: 18
+  title: Can Vitamin K2 Affect Stable Plaques?
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: o6e4I58xjlk
+  score: 18
+  title: The Only Video About Vitamin D You Need to Watch
+  channel: Siim Land
+- video_id: wdaQzmAHieM
+  score: 18
+  title: We’ve been lied to about Vitamin K
+  channel: Physionic
+- video_id: ykYqa2Z08VM
+  score: 18
+  title: Seven Ways to Improve Bone Health
+  channel: Dr. Eric Berg DC
+- video_id: ZpPEIXotGMs
+  score: 17
+  title: Hypertension, Vitamin K2, and Vitamin D3 Testimonial - Dr. Berg
+  channel: Dr. Eric Berg DC
+- video_id: hnS49pMNTww
+  score: 17
+  title: If you take a Statin, Do these 7 things Right Now! (Lipitor, Crestor, Zocor)
+  channel: KenDBerryMD
 recommended_youtube_video_ids:
 - _GsahGq9geM
 - 8ER4Epj_20U
@@ -37,7 +160,13 @@ recommended_youtube_video_ids:
 - ykYqa2Z08VM
 - ZpPEIXotGMs
 - hnS49pMNTww
-recommended_practitioner_ids: []
+recommended_practitioner_ids:
+- person:andrew-huberman
+- person:dale-bredesen
+- person:joseph-mercola
+- person:mark-hyman
+- person:rhonda-patrick
+- person:steven-gundry
 recommended_pubmed_ids: []
 recommended_dois: []
 recommended_source_urls:

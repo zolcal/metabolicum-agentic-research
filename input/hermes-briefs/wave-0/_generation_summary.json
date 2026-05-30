@@ -4,35 +4,35 @@
   "markers": {
     "apob": {
       "videos": 30,
-      "practitioners": 14,
+      "practitioners": 25,
       "pubmed_ids": 2,
       "dois": 0,
       "source_urls": 17
     },
     "fasting-insulin": {
       "videos": 30,
-      "practitioners": 1,
+      "practitioners": 49,
       "pubmed_ids": 14,
       "dois": 0,
       "source_urls": 1
     },
     "hba1c": {
       "videos": 30,
-      "practitioners": 41,
+      "practitioners": 49,
       "pubmed_ids": 16,
       "dois": 0,
       "source_urls": 40
     },
     "lpa": {
       "videos": 2,
-      "practitioners": 0,
+      "practitioners": 25,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 0
     },
     "tg-hdl-ratio": {
       "videos": 13,
-      "practitioners": 18,
+      "practitioners": 25,
       "pubmed_ids": 2,
       "dois": 0,
       "source_urls": 22

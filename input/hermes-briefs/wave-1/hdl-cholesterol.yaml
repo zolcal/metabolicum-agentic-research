@@ -6,6 +6,106 @@ sm_reference:
   marker_slug: hdl-cholesterol
   visibility: council_only
 unit: mg/dL
+recommended_videos:
+- video_id: mJLKTyKy-14
+  score: 19
+  title: Doctors were Wrong about Cholesterol and Heart Disease
+  channel: Physionic
+- video_id: C6SVB99mJHA
+  score: 16
+  title: The Truth About Cholesterol – LDL Cholesterol & HDL Cholesterol – Dr.Berg
+  channel: Dr. Eric Berg DC
+- video_id: t6thxv-ndu0
+  score: 16
+  title: Raise Good Cholesterol with this COFFEE HACK [Raise HDL-C] - 2026
+  channel: KenDBerryMD
+- video_id: 6cGW87hNebY
+  score: 13
+  title: 'Increase Cholesterol & Fat: Fix Your Heart & Inflammation Naturally (Dr
+    Zoe Harcombe)'
+  channel: The Primal Podcast
+- video_id: 7QONBQCpRJ0
+  score: 13
+  title: The Most Important Longevity Biomarkers (Panel with 3 Longevity Experts)
+  channel: Siim Land
+- video_id: ItNGrGNvESY
+  score: 13
+  title: What are LMHRs (LEAN MASS Hyper-Responders)? | Dave Feldman, Drs. Nick Norwitz
+    & Dominic D’Agostino
+  channel: Levels | Health, Metabolism & Human Performance
+- video_id: SgKp5mm0ALI
+  score: 13
+  title: I Ranked 100 Health Markers (Most People Get These Wrong)
+  channel: Siim Land
+- video_id: UTw2nuWUovI
+  score: 13
+  title: The Dr. Berg Show LIVE - May 19, 2023
+  channel: Dr. Eric Berg DC
+- video_id: YDElatIhFeo
+  score: 13
+  title: 'Evaluating Science: Clinical Trials, Epidemiology, Preclinical Studies &
+    Mendelian Randomization'
+  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
+- video_id: hq9Al6LR2O4
+  score: 12
+  title: DRINK 1 CUP A DAY to Unclog Your Arteries
+  channel: Dr. Eric Berg DC
+- video_id: 8H7ZGIDmuIw
+  score: 10
+  title: Eating Eggs Increases the Risk of Dying from Heart Disease
+  channel: Dr. Eric Berg DC
+- video_id: MW_D2Sdlr3k
+  score: 10
+  title: Strange & Weird Niacin (B3) Deficiency Signs and Symptoms
+  channel: Dr. Eric Berg DC
+- video_id: i5O_m8w487E
+  score: 10
+  title: 'MCT Oil vs. Coconut Oil: The Differences'
+  channel: Dr. Eric Berg DC
+- video_id: JkZvFjW82Mk
+  score: 9
+  title: Cholesterol Basics 101 by Dave Feldman & Dr. Berg
+  channel: Dr. Eric Berg DC
+- video_id: eVALtn7atVk
+  score: 9
+  title: 'The Truth About LDL Cholesterol: Dr. Berg''s Interview with Dave Feldman'
+  channel: Dr. Eric Berg DC
+- video_id: 3akuVaezcSo
+  score: 7
+  title: Raise Your HDL in 5 Easy Steps (Raise Good Cholesterol) 2026
+  channel: KenDBerryMD
+- video_id: oRWqTNAHH-0
+  score: 7
+  title: Lower High Cholesterol - User Manual For Humans S1 E16 - Dr Ekberg
+  channel: Dr. Sten Ekberg
+- video_id: oerYACBHkuI
+  score: 7
+  title: The Egg Yolk Myth – Dr. Berg
+  channel: Dr. Eric Berg DC
+- video_id: MEPnKgDpJAo
+  score: 6
+  title: Getting High-Fiber the Right Way
+  channel: William Davis , MD
+- video_id: TSqHhy3LEKo
+  score: 6
+  title: The Cholesterol Myths & Facts
+  channel: Dr. Eric Berg DC
+- video_id: Pg8Qr8WsTU0
+  score: 4
+  title: I raised my HDL by 350%
+  channel: William Davis , MD
+- video_id: Pm5scBxJm7k
+  score: 4
+  title: What is Metabolic Syndrome, and Can You Cure It? 2026
+  channel: KenDBerryMD
+- video_id: FAprJVXq1fE
+  score: 2
+  title: How to Raise Your HDL & Lower Your Triglycerides (NOT what you Think)
+  channel: KenDBerryMD
+- video_id: MsJwSLMEG4E
+  score: 1
+  title: Does Coconut Oil Have High Cholesterol? – Dr. Berg
+  channel: Dr. Eric Berg DC
 recommended_youtube_video_ids:
 - mJLKTyKy-14
 - C6SVB99mJHA
@@ -32,13 +132,31 @@ recommended_youtube_video_ids:
 - FAprJVXq1fE
 - MsJwSLMEG4E
 recommended_practitioner_ids:
+- person:allan-sniderman
+- person:anthony-chaffee
 - person:aseem-malhotra
+- person:benjamin-bikman
 - person:bret-scher
+- person:casey-means
 - person:dave-feldman
+- person:david-unwin
+- person:grant-brinkworth
+- person:joseph-mercola
+- person:margaret-ashwell
+- person:mark-hyman
+- person:michael-mosley
+- person:nick-norwitz
+- person:paul-mason
 - person:paul-saladino
+- person:peter-attia
 - person:rangan-chatterjee
 - person:sten-ekberg
+- person:steven-gundry
+- person:ted-naiman
+- person:thomas-dayspring
+- person:william-davis
 - person:zoe-harcombe
+- person:zoltan-szabo
 recommended_pubmed_ids:
 - '2642759'
 - '9603539'

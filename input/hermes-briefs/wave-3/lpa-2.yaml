@@ -6,22 +6,34 @@ sm_reference:
   marker_slug: lpa-2
   visibility: council_only
 unit: nmol/L
+recommended_videos: []
 recommended_youtube_video_ids: []
 recommended_practitioner_ids:
 - person:allan-sniderman
+- person:anthony-chaffee
 - person:aseem-malhotra
-- person:paul-mason
-- person:peter-attia
-- person:thomas-dayspring
+- person:benjamin-bikman
 - person:bret-scher
+- person:casey-means
 - person:dave-feldman
+- person:david-unwin
+- person:grant-brinkworth
 - person:joseph-mercola
+- person:margaret-ashwell
+- person:mark-hyman
+- person:michael-mosley
 - person:nick-norwitz
+- person:paul-mason
 - person:paul-saladino
+- person:peter-attia
 - person:rangan-chatterjee
 - person:sten-ekberg
 - person:steven-gundry
+- person:ted-naiman
+- person:thomas-dayspring
+- person:william-davis
 - person:zoe-harcombe
+- person:zoltan-szabo
 recommended_pubmed_ids:
 - '33115266'
 - '41231412'

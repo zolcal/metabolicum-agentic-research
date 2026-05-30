@@ -6,11 +6,27 @@ sm_reference:
   marker_slug: tpo-antibodies
   visibility: council_only
 unit: IU/mL
+recommended_videos:
+- video_id: QruXFjAPwwk
+  score: 10
+  title: Eat One Brazil Nut Each Day
+  channel: Dr. Eric Berg DC
+- video_id: VPoAnO0EcCg
+  score: 7
+  title: Best Tip for Hashimoto’s Hypothyroid - Dr. Berg
+  channel: Dr. Eric Berg DC
+- video_id: rvUthITs4oI
+  score: 7
+  title: 90% of Hypothyroidism Is Hashimoto’s Thyroiditis | Dr. Berg
+  channel: Dr. Eric Berg DC
 recommended_youtube_video_ids:
 - QruXFjAPwwk
 - VPoAnO0EcCg
 - rvUthITs4oI
-recommended_practitioner_ids: []
+recommended_practitioner_ids:
+- person:amy-myers
+- person:sara-gottfried
+- person:sten-ekberg
 recommended_pubmed_ids: []
 recommended_dois: []
 recommended_source_urls: []

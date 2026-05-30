@@ -6,6 +6,95 @@ sm_reference:
   marker_slug: albumin
   visibility: council_only
 unit: g/dL
+recommended_videos:
+- video_id: P0nM7DSKqqc
+  score: 14
+  title: 10 Hidden Signs of PROTEIN Deficiency (Watch Carefully) 2026
+  channel: KenDBerryMD
+- video_id: JMXrS6A_yWc
+  score: 13
+  title: The Dr. Berg Show LIVE - April 12, 2024
+  channel: Dr. Eric Berg DC
+- video_id: SgKp5mm0ALI
+  score: 13
+  title: I Ranked 100 Health Markers (Most People Get These Wrong)
+  channel: Siim Land
+- video_id: xqoCS9GZIjE
+  score: 13
+  title: 'KIDNEY FUNCTION Explained: Tests, Risks, and Habits That Protect Your Health
+    | Dr. Richard Johnson'
+  channel: Levels | Health, Metabolism & Human Performance
+- video_id: TLOtcX_WB8U
+  score: 12
+  title: Your Eyes Reveal Kidney Damage Years Before Symptoms
+  channel: Dr. Eric Berg DC
+- video_id: d-0vFQSqUXM
+  score: 12
+  title: 18 Visible Signs of Kidney Disease You Shouldn’t Ignore
+  channel: Dr. Eric Berg DC
+- video_id: x7cPrE8-_Os
+  score: 12
+  title: 'Understanding Liver Health: Detox, Fatty Liver, and Key Blood Test Results
+    Explained | Dr. Dsouza'
+  channel: Levels | Health, Metabolism & Human Performance
+- video_id: 1hd9djXb1RE
+  score: 9
+  title: 'High / Low Protein in Your Blood: What Does It Mean?'
+  channel: Dr. Eric Berg DC
+- video_id: e5rbb3jHiNs
+  score: 8
+  title: Can Keto (Ketogenic Diet) Reverse Kidney Disease?
+  channel: Dr. Eric Berg DC
+- video_id: YAj4e75Yv8Y
+  score: 6
+  title: Foods for Fluid Retention in the Feet and Ankles – Dr.Berg
+  channel: Dr. Eric Berg DC
+- video_id: bZLo_-jXwPw
+  score: 6
+  title: The Eight Causes Of Edema - Dr. Berg
+  channel: Dr. Eric Berg DC
+- video_id: -rx_pM-zjFw
+  score: 5
+  title: Is Mom's Doc Missing Her Malnutrition Risk?
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: H2QvVDZQxHA
+  score: 5
+  title: The Top Two Causes of Kidney Disease | Dr. Rick Johnson
+  channel: Levels | Health, Metabolism & Human Performance
+- video_id: Slx2csjndYc
+  score: 5
+  title: Kidney Damage Warning Signs You Shouldn’t Ignore | Dr. Rick Johnson Explains
+    the Symptoms
+  channel: Levels | Health, Metabolism & Human Performance
+- video_id: YGSpKT0epIw
+  score: 5
+  title: Lifestyle Factors Can Contribute To Age-Related Kidney Decline | Dr. Rick
+    Johnson
+  channel: Levels | Health, Metabolism & Human Performance
+- video_id: e4ivJhpu_tQ
+  score: 5
+  title: Lifestyle Factors that May Worsen Kidney Health | Dr. Rick Johnson
+  channel: Levels | Health, Metabolism & Human Performance
+- video_id: Gq3hwV2Z5TQ
+  score: 4
+  title: 'How to Test for Cardiovascular Inflammation: Microalbumin Creatinine Ratio'
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: OSUg1J1oEuw
+  score: 4
+  title: How to Test for Inflammation, CV Disease, Alzheimer's, Cancer Causation
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: _4oL7BrHKzU
+  score: 3
+  title: One more Benefit of Improving your Health through Lifestyle
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: 8trJ_JuY1yw
+  score: 1
+  title: Low Protein On Keto Is Dangerous!! - Dr.Berg on Keto Diet
+  channel: Dr. Eric Berg DC
+- video_id: dfQGYpNMkRY
+  score: 1
+  title: '#SHORTS What Makes MACR a Good Inflammation Test'
+  channel: Thomas Fordham Brewer MD MPH
 recommended_youtube_video_ids:
 - P0nM7DSKqqc
 - JMXrS6A_yWc
@@ -28,7 +117,8 @@ recommended_youtube_video_ids:
 - _4oL7BrHKzU
 - 8trJ_JuY1yw
 - dfQGYpNMkRY
-recommended_practitioner_ids: []
+recommended_practitioner_ids:
+- person:paul-saladino
 recommended_pubmed_ids: []
 recommended_dois: []
 recommended_source_urls:

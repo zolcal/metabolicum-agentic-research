@@ -6,8 +6,15 @@ sm_reference:
   marker_slug: ubiquinone-10
   visibility: council_only
 unit: mg/L
+recommended_videos: []
 recommended_youtube_video_ids: []
-recommended_practitioner_ids: []
+recommended_practitioner_ids:
+- person:andrew-huberman
+- person:dale-bredesen
+- person:joseph-mercola
+- person:mark-hyman
+- person:rhonda-patrick
+- person:steven-gundry
 recommended_pubmed_ids: []
 recommended_dois: []
 recommended_source_urls: []

@@ -6,9 +6,17 @@ sm_reference:
   marker_slug: adiponectin
   visibility: council_only
 unit: μg/mL
+recommended_videos:
+- video_id: VOMalVh-vKc
+  score: 11
+  title: How your Body Fat influences your Muscle Health. [Study 92 - Detailed Analysis]
+  channel: Physionic
 recommended_youtube_video_ids:
 - VOMalVh-vKc
-recommended_practitioner_ids: []
+recommended_practitioner_ids:
+- person:andrew-huberman
+- person:dale-bredesen
+- person:rhonda-patrick
 recommended_pubmed_ids: []
 recommended_dois: []
 recommended_source_urls: []

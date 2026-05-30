@@ -39,7 +39,7 @@
     },
     "adiponectin": {
       "videos": 1,
-      "practitioners": 0,
+      "practitioners": 3,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 0
@@ -81,7 +81,7 @@
     },
     "aptt": {
       "videos": 0,
-      "practitioners": 1,
+      "practitioners": 0,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 1
@@ -102,7 +102,7 @@
     },
     "bilirubin-glucuronidated-bilirubin-albumin-bound": {
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 1,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 0
@@ -130,7 +130,7 @@
     },
     "c-peptide-fasting": {
       "videos": 20,
-      "practitioners": 1,
+      "practitioners": 49,
       "pubmed_ids": 5,
       "dois": 0,
       "source_urls": 1
@@ -193,7 +193,7 @@
     },
     "cobalt-creatinine-urine": {
       "videos": 0,
-      "practitioners": 1,
+      "practitioners": 0,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 1
@@ -207,7 +207,7 @@
     },
     "complement-alternate-pathway-ah50-actual-normal": {
       "videos": 0,
-      "practitioners": 1,
+      "practitioners": 0,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 1
@@ -277,21 +277,21 @@
     },
     "elastase-pancreatic": {
       "videos": 0,
-      "practitioners": 1,
+      "practitioners": 0,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 1
     },
     "fatty-acids-nonesterified": {
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 25,
       "pubmed_ids": 1,
       "dois": 0,
       "source_urls": 0
     },
     "fib-4": {
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 1,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 0
@@ -312,14 +312,14 @@
     },
     "fibroblast-growth-factor-23-intact": {
       "videos": 0,
-      "practitioners": 1,
+      "practitioners": 0,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 1
     },
     "free-carnitine": {
       "videos": 23,
-      "practitioners": 0,
+      "practitioners": 6,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 0
@@ -333,28 +333,28 @@
     },
     "galectin-3-2": {
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 3,
       "pubmed_ids": 4,
       "dois": 0,
       "source_urls": 0
     },
     "galectin-3": {
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 3,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 0
     },
     "gastrin": {
       "videos": 0,
-      "practitioners": 1,
+      "practitioners": 0,
       "pubmed_ids": 1,
       "dois": 0,
       "source_urls": 1
     },
     "glucose-6-phosphate-dehydrogenase": {
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 49,
       "pubmed_ids": 2,
       "dois": 0,
       "source_urls": 0
@@ -382,21 +382,21 @@
     },
     "ibil": {
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 1,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 0
     },
     "il-1beta": {
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 3,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 0
     },
     "il-6": {
       "videos": 7,
-      "practitioners": 0,
+      "practitioners": 3,
       "pubmed_ids": 6,
       "dois": 0,
       "source_urls": 0
@@ -410,49 +410,49 @@
     },
     "insulin-like-growth-factor-binding-protein-1": {
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 49,
       "pubmed_ids": 1,
       "dois": 0,
       "source_urls": 0
     },
     "insulin-like-growth-factor-binding-protein-3": {
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 49,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 0
     },
     "iron": {
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 3,
       "pubmed_ids": 2,
       "dois": 0,
       "source_urls": 0
     },
     "ldl-particle-size": {
       "videos": 1,
-      "practitioners": 0,
+      "practitioners": 25,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 0
     },
     "leptin": {
       "videos": 30,
-      "practitioners": 0,
+      "practitioners": 3,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 0
     },
     "lipoprotein-associated-phospholipase-a2": {
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 25,
       "pubmed_ids": 4,
       "dois": 0,
       "source_urls": 0
     },
     "lp-ir": {
       "videos": 1,
-      "practitioners": 0,
+      "practitioners": 25,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 0
@@ -466,14 +466,14 @@
     },
     "mma": {
       "videos": 10,
-      "practitioners": 0,
+      "practitioners": 6,
       "pubmed_ids": 3,
       "dois": 0,
       "source_urls": 0
     },
     "niacin": {
       "videos": 30,
-      "practitioners": 0,
+      "practitioners": 6,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 0
@@ -508,7 +508,7 @@
     },
     "oxidized-ldl": {
       "videos": 15,
-      "practitioners": 0,
+      "practitioners": 25,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 0
@@ -522,7 +522,7 @@
     },
     "pancreastatin": {
       "videos": 0,
-      "practitioners": 1,
+      "practitioners": 0,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 1
@@ -543,7 +543,7 @@
     },
     "proinsulin": {
       "videos": 1,
-      "practitioners": 0,
+      "practitioners": 49,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 0
@@ -571,7 +571,7 @@
     },
     "protoporphyrin-zinc-2": {
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 3,
       "pubmed_ids": 2,
       "dois": 0,
       "source_urls": 0
@@ -592,7 +592,7 @@
     },
     "remnant-c": {
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 25,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 0
@@ -606,7 +606,7 @@
     },
     "reverse-t3": {
       "videos": 14,
-      "practitioners": 0,
+      "practitioners": 3,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 0
@@ -627,7 +627,7 @@
     },
     "stfr": {
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 3,
       "pubmed_ids": 6,
       "dois": 0,
       "source_urls": 0
@@ -641,7 +641,7 @@
     },
     "t3-uptake": {
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 3,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 0
@@ -662,49 +662,49 @@
     },
     "thyroglobulin-antibodies": {
       "videos": 1,
-      "practitioners": 0,
+      "practitioners": 3,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 0
     },
     "thyroglobulin": {
       "videos": 1,
-      "practitioners": 0,
+      "practitioners": 3,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 0
     },
     "thyroxine-binding-globulin": {
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 3,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 0
     },
     "tmao": {
       "videos": 15,
-      "practitioners": 0,
+      "practitioners": 25,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 0
     },
     "tpo-antibodies": {
       "videos": 3,
-      "practitioners": 0,
+      "practitioners": 3,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 0
     },
     "transferrin-carbohydrate-deficient-transferrin-total": {
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 3,
       "pubmed_ids": 1,
       "dois": 0,
       "source_urls": 0
     },
     "transferrin-saturation": {
       "videos": 2,
-      "practitioners": 0,
+      "practitioners": 3,
       "pubmed_ids": 3,
       "dois": 0,
       "source_urls": 0
@@ -725,7 +725,7 @@
     },
     "tumor-necrosis-factor-alpha": {
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 3,
       "pubmed_ids": 1,
       "dois": 0,
       "source_urls": 0
@@ -746,14 +746,14 @@
     },
     "vitamin-b2": {
       "videos": 28,
-      "practitioners": 0,
+      "practitioners": 6,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 0
     },
     "vitamin-e": {
       "videos": 30,
-      "practitioners": 0,
+      "practitioners": 6,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 0

@@ -6,9 +6,18 @@ sm_reference:
   marker_slug: serum-iron
   visibility: council_only
 unit: μg/dL
+recommended_videos:
+- video_id: JUkWuGmk_6w
+  score: 4
+  title: Another Surprising Cause for Low Testosterone - Dr.Berg On Hemochromatosis
+    & Hormone Levels
+  channel: Dr. Eric Berg DC
 recommended_youtube_video_ids:
 - JUkWuGmk_6w
-recommended_practitioner_ids: []
+recommended_practitioner_ids:
+- person:andrew-huberman
+- person:dale-bredesen
+- person:rhonda-patrick
 recommended_pubmed_ids:
 - '38546383'
 - '38809141'

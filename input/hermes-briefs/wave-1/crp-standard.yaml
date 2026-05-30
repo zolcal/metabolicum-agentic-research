@@ -6,6 +6,134 @@ sm_reference:
   marker_slug: crp-standard
   visibility: council_only
 unit: mg/L
+recommended_videos:
+- video_id: ztQphqkwLNU
+  score: 20
+  title: An Anti-Arthritis Super Supplement! [30 Studies Later!]
+  channel: Physionic
+- video_id: 5QUAXDIllc8
+  score: 17
+  title: How Many Calories for Longevity - Q&A While Working Out
+  channel: Siim Land
+- video_id: p9XuPr0f21k
+  score: 17
+  title: How to Prevent Hair Loss, Optimal Glycine Protein Ratio - Q&A /w Siim Land
+  channel: Siim Land
+- video_id: HyM5intOgVc
+  score: 16
+  title: 'Dr. D’Agastino: Sardine Fasting, A Superior Fasting Method'
+  channel: Physionic
+- video_id: jaLO5Jk8UgY
+  score: 16
+  title: '4 Months on Berberine: Reversing Arterial Plaque'
+  channel: Physionic
+- video_id: vcTm7opfgpA
+  score: 15
+  title: What is C-Reactive Protein & How to Lower it? – Dr. Berg
+  channel: Dr. Eric Berg DC
+- video_id: 957V8X22xEM
+  score: 13
+  title: Does C-Reactive Protein actually track with Omega-6 intake?
+  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
+- video_id: Ho-yRC4Wmss
+  score: 13
+  title: The Dr. Berg Show LIVE - January 23, 2026
+  channel: Dr. Eric Berg DC
+- video_id: Ykvkg2Jz3X8
+  score: 13
+  title: 'Essentials: The Biology of Slowing & Reversing Aging | Dr. David Sinclair'
+  channel: Andrew Huberman
+- video_id: vJFozt4pytg
+  score: 13
+  title: So Called "Normal Labs" are NOT Healthy
+  channel: Dr. Eric Berg DC
+- video_id: DFzoClYZlH8
+  score: 12
+  title: CRP (C Reactive Protein) elevates with Flu vaccine; Nonspecific for CV inflammation  -
+    FORD BREWER
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: tW3mkx0wdOY
+  score: 12
+  title: 'How to Lie With Science: Seed Oils & Inflammation | M&M Livestream 1'
+  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
+- video_id: -M9j0WPK_VQ
+  score: 11
+  title: Clearing Sinus Infections, MARCoNS, & Chronic Nasal Bacterial & Fungal Infections
+    - Dr. Joseph Musto
+  channel: Nutrition with Judy
+- video_id: TU-GV4weYsg
+  score: 11
+  title: 'Cardiovascular Inflammation Tests Pt3: C Reactive Protein - why do I advise
+    patients to ignore it?'
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: YDElatIhFeo
+  score: 11
+  title: 'Evaluating Science: Clinical Trials, Epidemiology, Preclinical Studies &
+    Mendelian Randomization'
+  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
+- video_id: 0aqyiQ83dQs
+  score: 10
+  title: '#SHORTS C Reactive Protein (Dave Feldman)'
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: YE-L3wnzHdE
+  score: 10
+  title: 'Cardiovascular Inflammation: Why Not Just Do a CRP Test?'
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: YxHGI5n8OkY
+  score: 10
+  title: Oral Bacteria And Your Health - with Dr. Mark Burhenne | The Empowering Neurologist
+    EP. 162
+  channel: DavidPerlmutterMD
+- video_id: jEHHfyqqgTE
+  score: 10
+  title: The limitations of C-reactive protein
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: 0CA7Id3MHFg
+  score: 9
+  title: 'Q & A: Elevated CRP'
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: BBgfDFZImf4
+  score: 9
+  title: Dr. Berg Live Q & A
+  channel: Dr. Eric Berg DC
+- video_id: I8inijq-suw
+  score: 9
+  title: 'The Heart Doctor: The WORST Food That Feeds Heart Disease & Heart Attacks'
+  channel: The Primal Podcast
+- video_id: eZ0eLgqZQUs
+  score: 9
+  title: 'Cardiovascular Health Blood Test Results Explained: ApoB, Cholesterol &
+    Reducing Risk | Dr. Dsouza'
+  channel: Levels | Health, Metabolism & Human Performance
+- video_id: kBjBEjV0vqU
+  score: 9
+  title: Role of Nutrition for BRAIN Health & How to Modify Your Diet | Drs. Georgia
+    Ede & Dom D’Agostino
+  channel: Levels | Health, Metabolism & Human Performance
+- video_id: n9IxomBusuw
+  score: 9
+  title: The Biology of Slowing & Reversing Aging | Dr. David Sinclair
+  channel: Andrew Huberman
+- video_id: ncSoor2Iw8k
+  score: 9
+  title: How to Optimize Your Hormones for Health & Vitality | Dr. Kyle Gillett
+  channel: Andrew Huberman
+- video_id: t9FrCTVOD8M
+  score: 9
+  title: KETO/Carnivore/Fasting Q&A Got questions?
+  channel: KenDBerryMD
+- video_id: AgD4hrdAYzk
+  score: 8
+  title: 'The Hidden Source of Heart Attacks/Strokes: NO ONE TOLD YOU...YET'
+  channel: Dr. Eric Berg DC
+- video_id: BGD29BfITAk
+  score: 8
+  title: 'Warning: Missing Mineral Causing Arthritis'
+  channel: Dr. Eric Berg DC
+- video_id: esh-TyKABkE
+  score: 8
+  title: Why Your 'Healthy' Seed Oil Might Actually Be Rancid
+  channel: 'Mind & Matter Podcast: Science, Health, Metabolism'
 recommended_youtube_video_ids:
 - ztQphqkwLNU
 - 5QUAXDIllc8
@@ -38,11 +166,9 @@ recommended_youtube_video_ids:
 - BGD29BfITAk
 - esh-TyKABkE
 recommended_practitioner_ids:
-- person:amy-myers
+- person:andrew-huberman
 - person:dale-bredesen
-- person:david-perlmutter
-- person:paul-saladino
-- person:terry-wahls
+- person:rhonda-patrick
 recommended_pubmed_ids:
 - '37380016'
 - '39445833'

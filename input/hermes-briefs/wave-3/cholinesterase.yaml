@@ -6,8 +6,10 @@ sm_reference:
   marker_slug: cholinesterase
   visibility: council_only
 unit: IU/L
+recommended_videos: []
 recommended_youtube_video_ids: []
-recommended_practitioner_ids: []
+recommended_practitioner_ids:
+- person:paul-saladino
 recommended_pubmed_ids:
 - '39049017'
 recommended_dois: []

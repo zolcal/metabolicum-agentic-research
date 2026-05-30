@@ -6,8 +6,12 @@ sm_reference:
   marker_slug: adenosine-deaminase
   visibility: council_only
 unit: mU/g Hb
+recommended_videos: []
 recommended_youtube_video_ids: []
-recommended_practitioner_ids: []
+recommended_practitioner_ids:
+- person:andrew-huberman
+- person:dale-bredesen
+- person:rhonda-patrick
 recommended_pubmed_ids:
 - '27725052'
 - '30913213'

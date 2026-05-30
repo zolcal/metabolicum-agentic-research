@@ -6,6 +6,12 @@ sm_reference:
   marker_slug: eosinophils
   visibility: council_only
 unit: '%'
+recommended_videos:
+- video_id: ydFhTf_-Ddo
+  score: 11
+  title: 'Immune Health Tests Results Explained: White Blood Cells, Inflammation &
+    Autoimmunity | Dr. Anjali'
+  channel: Levels | Health, Metabolism & Human Performance
 recommended_youtube_video_ids:
 - ydFhTf_-Ddo
 recommended_practitioner_ids: []

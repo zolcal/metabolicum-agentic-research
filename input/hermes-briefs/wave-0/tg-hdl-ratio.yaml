@@ -6,6 +6,62 @@ sm_reference:
   marker_slug: tg-hdl-ratio
   visibility: council_only
 unit: ratio
+recommended_videos:
+- video_id: l0fnnQ6Qd3g
+  score: 17
+  title: More Important than LDL Cholesterol? The TG/HDL Ratio (Part 1)
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: b1mWOvLcoHE
+  score: 16
+  title: More Important than LDL Cholesterol? The TG/HDL Ratio (Part 2)
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: D5-r2HnZWVY
+  score: 14
+  title: 'How to Read a Cholesterol Test: LDL, HDL, Lp(a), Apo(e), sdLDL, TG/HDL,
+    ApoA1/ApoB'
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: 0xaapu4lPEk
+  score: 13
+  title: The Value of Using TG/HDL Ratio with Other Prediabetes Tests
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: bzA7iihx6Bw
+  score: 11
+  title: Apo B vs.TG/HDL Ratio (Which one is Better)
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: ucszKFwpfYE
+  score: 11
+  title: 'A Bridge too Far: TG/HDL ratio & EXACT Risk'
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: -xCr3mvFCHM
+  score: 10
+  title: Dr. Paul Mason - ''Hard science on the real cause of heart disease - why
+    you should avoid seed oils'
+  channel: Low Carb Down Under
+- video_id: ueiuFIHUZ0o
+  score: 8
+  title: 'HEART ATTACK: Tesla AutoDrive to the Hospital!'
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: yiuGVXw7hvI
+  score: 5
+  title: I’ll Diagnose Your Prediabetes with only your Cholesterol Panel
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: OBXOB3J3b6w
+  score: 4
+  title: How to Read and Understand Your Cholesterol Levels
+  channel: Dr. Eric Berg DC
+- video_id: p4LoHH5UZAo
+  score: 4
+  title: 'Insulin Resistance: How to diagnose Prediabetes'
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: ybtyiMlTAW8
+  score: 3
+  title: 'Warning signs you’re not healthy: you have metabolic dysfunction | Dr. Casey
+    Means'
+  channel: Levels | Health, Metabolism & Human Performance
+- video_id: dUaOqiIJbyM
+  score: 1
+  title: The CHOLESTEROL PANEL Explained | Dr. Robert Lustig & Dr. Casey Means
+  channel: Levels | Health, Metabolism & Human Performance
 recommended_youtube_video_ids:
 - l0fnnQ6Qd3g
 - b1mWOvLcoHE
@@ -21,24 +77,31 @@ recommended_youtube_video_ids:
 - ybtyiMlTAW8
 - dUaOqiIJbyM
 recommended_practitioner_ids:
+- person:allan-sniderman
+- person:anthony-chaffee
 - person:aseem-malhotra
 - person:benjamin-bikman
-- person:david-unwin
-- person:grant-brinkworth
-- person:margaret-ashwell
-- person:mark-hyman
-- person:ted-naiman
-- person:anthony-chaffee
 - person:bret-scher
 - person:casey-means
 - person:dave-feldman
+- person:david-unwin
+- person:grant-brinkworth
+- person:joseph-mercola
+- person:margaret-ashwell
+- person:mark-hyman
 - person:michael-mosley
+- person:nick-norwitz
+- person:paul-mason
 - person:paul-saladino
+- person:peter-attia
 - person:rangan-chatterjee
 - person:sten-ekberg
+- person:steven-gundry
+- person:ted-naiman
+- person:thomas-dayspring
 - person:william-davis
-- person:zoltan-szabo
 - person:zoe-harcombe
+- person:zoltan-szabo
 recommended_pubmed_ids:
 - '14623617'
 - '16054467'

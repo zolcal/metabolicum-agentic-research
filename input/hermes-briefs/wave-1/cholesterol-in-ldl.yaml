@@ -6,8 +6,34 @@ sm_reference:
   marker_slug: cholesterol-in-ldl
   visibility: council_only
 unit: mg/dL
+recommended_videos: []
 recommended_youtube_video_ids: []
-recommended_practitioner_ids: []
+recommended_practitioner_ids:
+- person:allan-sniderman
+- person:anthony-chaffee
+- person:aseem-malhotra
+- person:benjamin-bikman
+- person:bret-scher
+- person:casey-means
+- person:dave-feldman
+- person:david-unwin
+- person:grant-brinkworth
+- person:joseph-mercola
+- person:margaret-ashwell
+- person:mark-hyman
+- person:michael-mosley
+- person:nick-norwitz
+- person:paul-mason
+- person:paul-saladino
+- person:peter-attia
+- person:rangan-chatterjee
+- person:sten-ekberg
+- person:steven-gundry
+- person:ted-naiman
+- person:thomas-dayspring
+- person:william-davis
+- person:zoe-harcombe
+- person:zoltan-szabo
 recommended_pubmed_ids:
 - '35635038'
 recommended_dois: []

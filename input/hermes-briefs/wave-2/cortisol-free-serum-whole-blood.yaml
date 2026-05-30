@@ -6,6 +6,7 @@ sm_reference:
   marker_slug: cortisol-free-serum-whole-blood
   visibility: council_only
 unit: ug/dL
+recommended_videos: []
 recommended_youtube_video_ids: []
 recommended_practitioner_ids: []
 recommended_pubmed_ids: []

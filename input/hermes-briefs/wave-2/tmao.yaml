@@ -6,6 +6,69 @@ sm_reference:
   marker_slug: tmao
   visibility: council_only
 unit: μM
+recommended_videos:
+- video_id: WpMbvOE2dLE
+  score: 19
+  title: The Truth About Tmao (Trimethylamine N-oxide)
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: iifuYkPjVWg
+  score: 19
+  title: The Hard Science Behind the Carnivore Diet, with Professor Bart Kay
+  channel: Anthony Chaffee MD
+- video_id: vVwud6D0I7M
+  score: 19
+  title: 'Things Vegans Say Ep 2: Dr Kaplan Part 2/3'
+  channel: Anthony Chaffee MD
+- video_id: jaLO5Jk8UgY
+  score: 18
+  title: '4 Months on Berberine: Reversing Arterial Plaque'
+  channel: Physionic
+- video_id: FAAwEvfQ5zU
+  score: 17
+  title: TMAO and heart disease, cause for concern for meat eaters?
+  channel: Diet Doctor
+- video_id: qEvE9f4FYzE
+  score: 16
+  title: 'TMAO and Kidney Function: Which is it? - FORD BREWER MD MPH'
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: KhBIXxaQ038
+  score: 15
+  title: TMAO, Carnitine, Choline; plant-based vs animal products, low-carb vs plant-based
+    diets and hearts
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: Wp8jvKjS-j8
+  score: 15
+  title: TMAO and Nature vs Nurture - FORD BREWER MD MPH
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: o0L1eXBGGP4
+  score: 15
+  title: TMAO & CV RISK
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: J3YgmyAPclY
+  score: 14
+  title: What If Your TMAO Levels Are Elevated?
+  channel: Shawn Baker MD
+- video_id: hrRZ1BjHmik
+  score: 14
+  title: TMAO; Diet and Heart Attack/Stroke risk; Carnitine from Monster, Rock Star
+    Energy Drinks
+  channel: Thomas Fordham Brewer MD MPH
+- video_id: ncSoor2Iw8k
+  score: 11
+  title: How to Optimize Your Hormones for Health & Vitality | Dr. Kyle Gillett
+  channel: Andrew Huberman
+- video_id: qNJks-48soQ
+  score: 11
+  title: Berberine reverses Atherosclerosis?
+  channel: Physionic
+- video_id: MZx0K_AInhc
+  score: 8
+  title: Red Meat controversy
+  channel: Diet Doctor
+- video_id: 0plBTsu6PeM
+  score: 7
+  title: Are plant-based meat substitutes healthier for us?
+  channel: Diet Doctor
 recommended_youtube_video_ids:
 - WpMbvOE2dLE
 - iifuYkPjVWg
@@ -22,7 +85,32 @@ recommended_youtube_video_ids:
 - qNJks-48soQ
 - MZx0K_AInhc
 - 0plBTsu6PeM
-recommended_practitioner_ids: []
+recommended_practitioner_ids:
+- person:allan-sniderman
+- person:anthony-chaffee
+- person:aseem-malhotra
+- person:benjamin-bikman
+- person:bret-scher
+- person:casey-means
+- person:dave-feldman
+- person:david-unwin
+- person:grant-brinkworth
+- person:joseph-mercola
+- person:margaret-ashwell
+- person:mark-hyman
+- person:michael-mosley
+- person:nick-norwitz
+- person:paul-mason
+- person:paul-saladino
+- person:peter-attia
+- person:rangan-chatterjee
+- person:sten-ekberg
+- person:steven-gundry
+- person:ted-naiman
+- person:thomas-dayspring
+- person:william-davis
+- person:zoe-harcombe
+- person:zoltan-szabo
 recommended_pubmed_ids: []
 recommended_dois: []
 recommended_source_urls: []
