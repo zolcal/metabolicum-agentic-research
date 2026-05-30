@@ -100,3 +100,28 @@ def test_extract_excludes_by_channel_id_field():
     registry = {"practitioners": [{"id": "p", "surfaces": [
         {"platform": "youtube", "handle_or_url": "x", "channel_id": "UCz"}]}]}
     assert extract_candidates.extract_candidates(signals, registry) == []
+
+from scripts.practitioner_discovery import threshold
+
+
+def _cand(channel_id, evidence):
+    return {"entity_key": f"channel:{channel_id}", "channel_id": channel_id,
+            "display_name": "X", "entity_type": "channel", "surfaces": [],
+            "evidence": evidence}
+
+
+def test_threshold_qualifies_marker_at_n_and_holds_below():
+    ev = {"total-testosterone": [{"ref": "yt:a"}, {"ref": "yt:b"}],   # 2 -> qualifies
+          "dhea": [{"ref": "yt:c"}]}                                  # 1 -> dropped
+    qualifying, held = threshold.apply_threshold([_cand("UC1", ev)], n=2)
+    assert len(qualifying) == 1 and held == []
+    q = qualifying[0]
+    assert q["marker_affinity"] == ["total-testosterone"]
+    assert set(q["evidence"].keys()) == {"total-testosterone"}  # sub-threshold marker pruned
+
+
+def test_threshold_holds_candidate_with_no_qualifying_marker():
+    ev = {"dhea": [{"ref": "yt:c"}]}  # only 1 -> below n=2
+    qualifying, held = threshold.apply_threshold([_cand("UC2", ev)], n=2)
+    assert qualifying == []
+    assert len(held) == 1 and held[0]["channel_id"] == "UC2"
