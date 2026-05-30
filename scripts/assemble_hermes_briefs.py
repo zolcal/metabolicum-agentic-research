@@ -116,10 +116,31 @@ def _category_practitioners() -> dict[str, list[str]]:
     return {c["slug"]: list(c.get("practitioners") or []) for c in cats}
 
 
+@functools.lru_cache(maxsize=1)
+def _direct_affinity() -> dict[str, list[str]]:
+    """marker_slug -> practitioners whose marker_affinity contains it (EXACT, marker-specific).
+    This is the real marker<->practitioner edge; the substring bug was in the matcher, not the data."""
+    reg = load_json(PROJECT_ROOT / "input" / "practitioner_registry.json")
+    entries = reg if isinstance(reg, list) else reg.get("practitioners") or list(reg.values())
+    out: dict[str, set] = {}
+    for e in entries:
+        if isinstance(e, dict):
+            for m in (e.get("marker_affinity") or []):
+                out.setdefault(m, set()).add(e.get("id"))
+    return {k: sorted(v) for k, v in out.items()}
+
+
+def _primary_category(canonical_slug: str) -> str | None:
+    return next((m.get("primary_category") for m in gt.markers() if m["slug"] == canonical_slug), None)
+
+
 def _practitioners_for(canonical_slug: str) -> list[str]:
-    """Recommended practitioners = the marker's category cohort (ground truth) — NOT the
-    substring matcher. A marker inherits every practitioner affine to its category."""
-    cat = next((m.get("primary_category") for m in gt.markers() if m["slug"] == canonical_slug), None)
+    """Direct marker-affinity (exact, marker-specific) is PRIMARY; the category cohort is
+    the FALLBACK for markers that have no directly-affine practitioner."""
+    direct = _direct_affinity().get(canonical_slug)
+    if direct:
+        return direct
+    cat = _primary_category(canonical_slug)
     return _category_practitioners().get(cat, []) if cat else []
 
 

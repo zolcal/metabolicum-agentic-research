@@ -326,7 +326,7 @@
     },
     "hdl-cholesterol": {
       "videos": 24,
-      "practitioners": 25,
+      "practitioners": 7,
       "pubmed_ids": 21,
       "dois": 0,
       "source_urls": 5
@@ -389,7 +389,7 @@
     },
     "ldl-cholesterol": {
       "videos": 30,
-      "practitioners": 25,
+      "practitioners": 7,
       "pubmed_ids": 15,
       "dois": 0,
       "source_urls": 5

@@ -4,7 +4,7 @@
   "markers": {
     "apob": {
       "videos": 30,
-      "practitioners": 25,
+      "practitioners": 14,
       "pubmed_ids": 2,
       "dois": 0,
       "source_urls": 17
@@ -18,21 +18,21 @@
     },
     "hba1c": {
       "videos": 30,
-      "practitioners": 49,
+      "practitioners": 41,
       "pubmed_ids": 16,
       "dois": 0,
       "source_urls": 40
     },
     "lpa": {
       "videos": 2,
-      "practitioners": 25,
+      "practitioners": 14,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 0
     },
     "tg-hdl-ratio": {
       "videos": 13,
-      "practitioners": 25,
+      "practitioners": 18,
       "pubmed_ids": 2,
       "dois": 0,
       "source_urls": 22
