@@ -38,6 +38,11 @@ def main() -> None:
               target_range_high=None, target_value=5, paradigm="RC") == "target"
     assert ds(direction="below", claim_polarity="refutes", target_range_low=None,
               target_range_high=80, target_value=None, paradigm="MO") is None
+    # one-sided bound carried in target_value + direction (extractor's native shape)
+    assert ds(direction="below", claim_polarity="supports", target_range_low=None,
+              target_range_high=None, target_value=60, paradigm="MO") == "target"
+    assert ds(direction="above", claim_polarity="supports", target_range_low=None,
+              target_range_high=None, target_value=50, paradigm="MO") == "target"
 
     # 3) build_range_fact — projection + traceability + color + display gate
     bc = {
@@ -61,6 +66,17 @@ def main() -> None:
     assert f["biomarker_claim_id"] == "bc-1", "every range_fact must trace to a biomarker_claim_id"
     assert f["provenance"]["verbatim_quote"] == "ApoB under 80"
     assert f["provenance"]["source_pmid"] == "123"
+
+    # one-sided upper bound expressed as target_value + direction='below' (Attia "ApoB < 60")
+    bc_below = {**bc, "target_range_high": None, "target_value": 60, "verbatim_quote": "ApoB under 60"}
+    fb = assembly.build_range_fact(bc_below, biomarker_claim_id="bc-3", range_order=2)
+    assert fb is not None, "one-sided 'below' claim with bound in target_value must project"
+    assert fb["min_value"] is None and fb["max_value"] == 60, fb
+    assert fb["status"] == "target"
+    # one-sided lower bound expressed as target_value + direction='above'
+    bc_above = {**bc, "direction": "above", "target_range_high": None, "target_value": 50}
+    fa = assembly.build_range_fact(bc_above, biomarker_claim_id="bc-4", range_order=3)
+    assert fa is not None and fa["min_value"] == 50 and fa["max_value"] is None, fa
 
     # not approved -> not public-display-approved
     f2 = assembly.build_range_fact({**bc, "legal_status": "pending"}, biomarker_claim_id="bc-1", range_order=1)
