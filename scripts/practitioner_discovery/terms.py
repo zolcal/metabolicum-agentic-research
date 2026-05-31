@@ -18,6 +18,16 @@ def load_policy(path: Path | None = None) -> dict:
     return json.loads((path or ALIAS_POLICY).read_text(encoding="utf-8"))
 
 
+def _is_safe_term(term: str) -> bool:
+    """A discovery term is safe unless it is a single short token. Bare tokens with
+    <=3 alphanumeric chars (uk, pt, bun, sod, pth, dht...) match unrelated words and
+    cause false positives; multi-word/structured phrases ('blood urea nitrogen',
+    'calcium (serum)') and longer single tokens ('potassium', 'creatinine') are kept."""
+    if " " in term or "(" in term:
+        return True
+    return sum(c.isalnum() for c in term) > 3
+
+
 def marker_terms(marker_slug: str, policy: dict) -> list[str]:
     data = policy.get(marker_slug, {})
     tiers = data.get("tiers", {})
@@ -27,7 +37,7 @@ def marker_terms(marker_slug: str, policy: dict) -> list[str]:
     for tier in ("T1", "T2"):
         for term in tiers.get(tier, []):
             tl = (term or "").lower()
-            if tl and tl not in excluded and tl not in seen:
+            if tl and tl not in excluded and tl not in seen and _is_safe_term(tl):
                 seen.add(tl)
                 out.append(tl)
     return out

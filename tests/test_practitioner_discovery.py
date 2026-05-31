@@ -23,6 +23,23 @@ def test_marker_terms_uses_t1_t2_phrases_and_drops_excluded():
 def test_marker_terms_unknown_marker_is_empty():
     assert terms.marker_terms("nope", {}) == []
 
+
+def test_marker_terms_drops_short_single_token_abbreviations():
+    # bare <=3-char single tokens (uk, pt, bun, sod, pth) match unrelated words and
+    # must be dropped; the marker's specific multi-word term survives.
+    policy = {
+        "uk": {"tiers": {"T1": ["uk"], "T2": ["urine potassium"]}, "excluded_terms": []},
+        "pth": {"tiers": {"T1": ["pth"], "T2": ["parathyroid hormone"]}, "excluded_terms": []},
+        "cat": {"tiers": {"T1": ["cat"], "T2": []}, "excluded_terms": []},
+        # bare element names (>3 alnum chars, single token) are KEPT — practitioners
+        # genuinely discuss these electrolytes.
+        "potassium": {"tiers": {"T1": ["potassium"], "T2": ["potassium (serum)"]}, "excluded_terms": []},
+    }
+    assert terms.marker_terms("uk", policy) == ["urine potassium"]
+    assert terms.marker_terms("pth", policy) == ["parathyroid hormone"]
+    assert terms.marker_terms("cat", policy) == []  # no safe term left
+    assert terms.marker_terms("potassium", policy) == ["potassium", "potassium (serum)"]
+
 import json
 from scripts.practitioner_discovery import harvest_inventory
 
