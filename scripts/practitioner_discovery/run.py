@@ -11,7 +11,7 @@ import json
 from pathlib import Path
 
 from scripts.practitioner_discovery import (
-    audit, extract_candidates, harvest_inventory, ingest, terms, threshold,
+    audit, extract_candidates, harvest_fresh, harvest_inventory, ingest, terms, threshold,
 )
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
@@ -51,12 +51,24 @@ def main(argv=None):
     parser.add_argument("-n", "--threshold", type=int, default=2)
     parser.add_argument("--write-registry", action="store_true",
                         help="persist the merged registry back to practitioner_registry.json")
+    parser.add_argument("--fresh-signals-dir",
+                        help="dir of pre-harvested social_pipeline signals (<marker>.json) "
+                             "to add as a fresh source alongside the inventory scan")
     args = parser.parse_args(argv)
 
     registry = json.loads(REGISTRY_PATH.read_text(encoding="utf-8"))
     policy = terms.load_policy()
+
+    fresh_signals = None
+    if args.fresh_signals_dir:
+        terms_by_marker = {m: terms.marker_terms(m, policy) for m in args.markers}
+        terms_by_marker = {m: t for m, t in terms_by_marker.items() if t}
+        fresh_signals = harvest_fresh.scan_fresh(
+            terms_by_marker, harvest_fresh.signals_dir_harvester(args.fresh_signals_dir))
+
     result = run_pipeline(args.markers, registry, policy,
-                          inventory_dir=harvest_inventory.INVENTORY_DIR, n=args.threshold)
+                          inventory_dir=harvest_inventory.INVENTORY_DIR, n=args.threshold,
+                          fresh_signals=fresh_signals)
 
     out_dir = OUTPUT_ROOT / args.run_id
     out_dir.mkdir(parents=True, exist_ok=True)

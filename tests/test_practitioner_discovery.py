@@ -373,3 +373,24 @@ def test_run_pipeline_threads_fresh_signals_into_new_practitioner(tmp_path):
     assert new["marker_affinity"] == ["total-testosterone"]
     assert result["summary"]["new_practitioners"] == 1
     assert result["summary"]["signals"] == 2
+
+
+def test_video_from_signal_maps_social_signal_dict():
+    sig = {"source": "youtube", "source_id": "vid9", "url": "https://yt/vid9",
+           "title": "Testosterone optimization", "text": "full description here",
+           "author": "Hormone Doc", "raw": {"channel_id": "UCabc"}}
+    v = harvest_fresh.video_from_signal(sig)
+    assert v == {"video_id": "vid9", "channel_id": "UCabc", "channel": "Hormone Doc",
+                 "title": "Testosterone optimization", "description": "full description here",
+                 "url": "https://yt/vid9"}
+
+
+def test_signals_dir_harvester_reads_marker_file_and_maps(tmp_path):
+    (tmp_path / "total-testosterone.json").write_text(json.dumps({"signals": [
+        {"source": "youtube", "source_id": "v1", "url": "u1", "title": "total testosterone 101",
+         "text": "", "author": "New Doc", "raw": {"channel_id": "UCnew"}}]}), encoding="utf-8")
+    harvester = harvest_fresh.signals_dir_harvester(tmp_path)
+    vids = harvester("total-testosterone", ["total testosterone"])
+    assert len(vids) == 1 and vids[0]["channel_id"] == "UCnew" and vids[0]["video_id"] == "v1"
+    # missing marker file -> empty, no error
+    assert harvester("cortisol-am", ["cortisol am"]) == []
