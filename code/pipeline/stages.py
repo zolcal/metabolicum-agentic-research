@@ -301,7 +301,7 @@ def llm_call(
     t0 = time.time()
     resp = parsed = content = None
     last_err: Exception | None = None
-    for _ in range(5):
+    for _ in range(3):  # bounded: param-adapt + transient-JSON retries (was 5 — a flaky model must not balloon latency)
         try:
             resp = client.chat.completions.create(**kwargs)
             content, parsed = _extract_json(resp.choices[0].message.content or "")

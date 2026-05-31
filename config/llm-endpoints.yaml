@@ -60,12 +60,11 @@ endpoints:
     family: google
     api_style: openai_compatible
     active: true
-    roles:
-      - extractor                # Stage 2 bulk extraction (free, 120-220 tok/s)
-      - tagger                   # Stage 2 marker-tag attachment
-      - structurer               # Stage 2 population qualifier + units
-      # legal_reviewer moved to deepseek-direct-chat 2026-05-31: local Gemma
-      # emits invalid JSON for the legal prompt (truncates/malforms reliably).
+    roles: []                    # Stage 2 + legal moved to deepseek-direct-chat 2026-05-31
+    # Local Gemma was the speed+reliability bottleneck: ~40s/call AND invalid JSON,
+    # which forced slow retries + a qwen-max fallback (measured 209s for ONE tagger
+    # claim). Stage 2 (extractor/tagger/structurer) now runs on DeepSeek: fast,
+    # reliable JSON, ~$0.001/source. Re-promote here only if a fast local model lands.
     timeout_s: 300
     default_max_tokens: 4096
     max_context: 16384            # 2026-05-26: bumped from 4096 — DFlash now launched with --max-ctx 16384
@@ -191,18 +190,15 @@ endpoints:
     model: qwen3.7-max
     family: qwen
     api_style: openai_compatible
-    active: true
-    roles: []                   # Stage 2 roles (tagger/structurer/legal_reviewer) moved to gemma4-local 2026-05-26
+    active: false               # DISABLED 2026-05-31 (user directive): qwen3.7-max is too expensive ($2.50/$7.50 per M). Do NOT use.
+    roles: []
     timeout_s: 240
     default_max_tokens: 4096
     max_context: 262144
     supports_json_schema: true
     cost_per_million_in: 2.50
     cost_per_million_out: 7.50
-    failover_for:
-      - tagger                  # if gemma4-local is down, these roles fall back here
-      - structurer
-      - legal_reviewer
+    failover_for: []            # removed 2026-05-31: nothing may fall back to qwen3.7-max (cost). Stage-2 failover is deepseek.
     notes: |
       Cloud fallback for Stage 2 roles now served by gemma4-local.
 
@@ -367,7 +363,7 @@ endpoints:
     family: deepseek
     api_style: openai_compatible
     active: true                      # Stage-3 council voice #1 (native DeepSeek API) + Stage-2 extractor failover
-    roles: [council_extractor, legal_reviewer]   # legal_reviewer added 2026-05-31 (off flaky local Gemma)
+    roles: [council_extractor, legal_reviewer, extractor, tagger, structurer]   # Stage 2 moved here 2026-05-31 (off slow local Gemma)
     failover_for: [extractor]         # if gemma4-local is down, extractor falls back here
     timeout_s: 180
     default_max_tokens: 4096          # non-thinking model, no reasoning token burn
