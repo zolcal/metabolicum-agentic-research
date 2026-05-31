@@ -270,3 +270,27 @@ def test_sm_reference_resolver_writes_council_alignment_reference(tmp_path, monk
     assert resolved["source_path"] == "input/sm-ranges/wave-test/apob.yaml"
     assert resolved["marker_slug"] == "apob"
     assert resolved["rows"] == [{"stratum": "all_adults", "min": 80, "max": 110}]
+
+
+def test_t3_guard_rejects_long_offtopic_video():
+    """A long video that only mentions a broad T3 term in its description, from a
+    channel with no affinity to the marker, must NOT pass the T3 guard. (Previously
+    the duration>=15min guard let such off-topic videos through, e.g. a 21-min autism
+    video matching free-carnitine via 'carnitine'.)"""
+    from scripts import collect_videos
+    tiers = {"T1": ["free carnitine"], "T2": ["carnitine (free)"], "T3": ["carnitine"]}
+    offtopic = {"title": "Autism and diet", "description": "we mention carnitine once",
+                "duration_seconds": 1282, "channel_id": "UCunknown"}
+    assert collect_videos._t3_guard_passes(offtopic, "free-carnitine", tiers, {}, {}) is False
+
+
+def test_t3_guard_passes_for_affinity_practitioner_channel():
+    """A T3 term still counts when the video's channel maps to a practitioner who has
+    this marker in their affinity (the meaningful guard, strengthened by enrichment)."""
+    from scripts import collect_videos
+    tiers = {"T1": ["free carnitine"], "T2": [], "T3": ["carnitine"]}
+    video = {"title": "carnitine deep dive", "description": "", "duration_seconds": 600,
+             "channel_id": "UCdoc"}
+    channel_map = {"UCdoc": "person:doc"}
+    affinity_map = {"person:doc": {"free-carnitine"}}
+    assert collect_videos._t3_guard_passes(video, "free-carnitine", tiers, channel_map, affinity_map) is True

@@ -257,18 +257,19 @@ def _t3_guard_passes(video: dict, marker_slug: str, terms_by_tier: dict[str, lis
             return True
 
     # Guard 2: channel-practitioner — video channel maps to a practitioner
-    # who has this marker in their affinity
+    # who has this marker in their affinity. (Strengthened by practitioner-gap
+    # enrichment, which added evidence-backed affinities to many practitioners.)
     channel_id = video.get("channel_id", "")
     if channel_id and channel_id in channel_map:
         pid = channel_map[channel_id]
         if marker_slug.lower() in affinity_map.get(pid, set()):
             return True
 
-    # Guard 3: duration — long-form content is less likely casual mention
-    dur = video.get("duration_seconds") or 0
-    if dur >= 15 * 60:  # >= 15 minutes
-        return True
-
+    # NOTE: a former "duration >= 15 min" guard was removed — long-form content is
+    # extremely common (podcasts, lectures), so it let off-topic videos pass on a
+    # casual T3-term mention (e.g. a 21-min autism video matching free-carnitine via
+    # "carnitine"). T3 now requires a real signal: T1/T2 co-occurrence or an
+    # affinity-matched practitioner channel.
     return False
 
 
