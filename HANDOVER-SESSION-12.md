@@ -30,6 +30,18 @@ Fixed Hermes brief assembly so practitioner websites actually reach briefs, coll
 - **Stale unit test** — `tests/test_hermes_asset_pipeline.py::test_assemble_brief_projects_clean_pointer_fields` fails (pre-existing, from today's cohort commits): asserts apob → 2 practitioners + `recommended_source_urls == ["peterattiamd.com"]`, but apob now resolves to the 14-person cohort. Needs updating to current behavior.
 - Changes are **uncommitted**.
 
+## Practitioner Gap Discovery project (in progress, branch `feat/practitioner-gap-discovery`)
+- Spec: `docs/superpowers/specs/2026-05-30-practitioner-gap-discovery-design.md`. Plan: `docs/superpowers/plans/2026-05-30-practitioner-gap-discovery.md`.
+- Built inventory-source pipeline `scripts/practitioner_discovery/` (terms, harvest_inventory, extract_candidates, threshold, ingest, audit, run) — 16 tests pass. Commits `cc47314`..`74b4ad5`. Includes word-boundary fix (lookarounds, for parenthesized terms) and an **enrichment path** (registered channels with ≥N evidence get the marker ADDED to their existing affinity).
+- **Dry-run on total-testosterone + cortisol-am: 87 signals, 0 NEW practitioners (inventory is metabolic-only), 4 enriched, 6 held.** Decision (user): option 3 — enrich existing from inventory now, fresh-search (Task 10) for new specialists later.
+- **BLOCKER (data integrity) — registry NOT written:** enrichment surfaced 2 pre-existing bad YouTube channel mappings (the session-64 bug never ported to the agentic registry):
+  - `person:peter-attia` youtube = `UC3w193M5tYPJqF0Hi-7U-2g` = **Eric Berg's** channel (real Attia = `UC8kGsMa0LygSX9nkBcBH1Sg`). The "Attia cortisol (64)" enrichment is really Eric Berg's videos; Berg isn't in the registry.
+  - `person:mark-hyman` youtube = `UC2D2CMWXMOVWx7giW1n3LIg` = **Huberman's** channel (real Hyman = `UC5IuDMmKWSsBFB0iKky6aEQ`).
+  - Clean enrichments: `company:levels-health` cortisol-am (9), `person:sten-ekberg` cortisol-am (2).
+- **RESOLVED + ingested.** Added `scripts/practitioner_discovery/audit_channels.py` (free channel-ID audit vs inventory names, camelCase-aware). Audit found only the 2 real bugs (+2 camelCase false positives). Fixed Attia→`UC8kGsMa0LygSX9nkBcBH1Sg`, Hyman→`UC5IuDMmKWSsBFB0iKky6aEQ`, Huberman→`UC2D2CMWXMOVWx7giW1n3LIg` (inventory-confirmed), added `person:eric-berg`. Registry now 0 mismatches (commit `d138383`).
+- **Hormones pilot ingested (commit `1004a70`):** full 15-marker run → 11 existing practitioners enriched with evidence-backed hormone affinities (Berg 11 markers, Huberman 11, Levels, Siim Land, Ekberg, Physionic, Judy Cho, Perlmutter, Ken Berry, Thomas Brewer, Mind&Matter); 0 new practitioners (inventory is metabolic-only — fresh search needed for genuinely new specialists); threshold held 1-evidence noise. Synced canonical, re-assembled all waves, acceptance passes. **cortisol-am 0→4 practitioners, total-testosterone 0→1, dht 0→3** etc. `bio-t` stays empty (nobody says "bioavailable testosterone" on video).
+- **Remaining:** plan **Task 10 (fresh YouTube/podcast search)** — deferred per user ("fresh-search later"); needed to find NEW hormone/kidney specialists outside the metabolic inventory. Then expand to other 0-cohort categories (kidney-function, electrolytes, …) by changing only the marker list. Branch `feat/practitioner-gap-discovery` not yet merged to main.
+
 ## Files Changed
 - `scripts/assemble_hermes_briefs.py` — `_practitioner_public_urls()` added; `_practitioners_for` now union; `recommended_videos` removed; summary counter updated.
 - `scripts/collect_sources.py` — `_is_public_surface` now rejects by URL domain via `SOCIAL_DOMAINS`.
