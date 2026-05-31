@@ -279,7 +279,7 @@
     "estradiol": {
       "mo_supported": true,
       "videos": 30,
-      "practitioners": 0,
+      "practitioners": 3,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 0
@@ -343,10 +343,10 @@
     "fsh": {
       "mo_supported": true,
       "videos": 8,
-      "practitioners": 0,
+      "practitioners": 2,
       "pubmed_ids": 2,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 2
     },
     "ggt": {
       "mo_supported": true,
@@ -455,10 +455,10 @@
     "lh": {
       "mo_supported": true,
       "videos": 14,
-      "practitioners": 0,
+      "practitioners": 3,
       "pubmed_ids": 1,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 2
     },
     "magnesium-serum": {
       "mo_supported": true,
@@ -583,18 +583,18 @@
     "progesterone": {
       "mo_supported": true,
       "videos": 30,
-      "practitioners": 0,
+      "practitioners": 7,
       "pubmed_ids": 3,
       "dois": 0,
-      "source_urls": 1
+      "source_urls": 7
     },
     "prolactin": {
       "mo_supported": true,
       "videos": 26,
-      "practitioners": 0,
+      "practitioners": 2,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 1
+      "source_urls": 3
     },
     "rbc-count": {
       "mo_supported": false,
@@ -639,10 +639,10 @@
     "shbg": {
       "mo_supported": true,
       "videos": 15,
-      "practitioners": 0,
+      "practitioners": 5,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 2
     },
     "sodium": {
       "mo_supported": false,
@@ -695,10 +695,10 @@
     "total-testosterone": {
       "mo_supported": true,
       "videos": 30,
-      "practitioners": 0,
+      "practitioners": 1,
       "pubmed_ids": 2,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 2
     },
     "transferrin": {
       "mo_supported": true,

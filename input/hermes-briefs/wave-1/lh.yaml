@@ -23,11 +23,16 @@ recommended_youtube_video_ids:
 - xH9DGL9noPo
 - BgWuP3MQ1jk
 - NfkX-B_20EY
-recommended_practitioner_ids: []
+recommended_practitioner_ids:
+- person:andrew-huberman
+- person:eric-berg
+- person:physionic
 recommended_pubmed_ids:
 - '41183334'
 recommended_dois: []
-recommended_source_urls: []
+recommended_source_urls:
+- https://hubermanlab.com/
+- https://feeds.megaphone.fm/hubermanlab
 recommended_search_queries:
 - Lh practitioner optimal range
 - Lh metabolic optimization

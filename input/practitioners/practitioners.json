@@ -1,6 +1,6 @@
 {
   "schema_version": "2026-05-29",
-  "generated_at": "2026-05-29T15:57:13.451067+00:00",
+  "generated_at": "2026-05-31T00:06:41.331502+00:00",
   "canonical_source": true,
   "source_inputs": [
     "/media/zoltan/4TSSD/metabolicum-agentic-research/input/practitioner_registry.json",
@@ -939,6 +939,25 @@
       "credentials": null,
       "source_tier": "B",
       "source_grade": "D1",
+      "commercial_interests": []
+    },
+    {
+      "id": "person:eric-berg",
+      "canonical_name": "Eric Berg",
+      "aliases": [
+        "Dr. Eric Berg",
+        "Dr. Eric Berg DC",
+        "Eric Berg"
+      ],
+      "entity_type": "person",
+      "country": "USA",
+      "region": "USA",
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "C",
+      "source_grade": "E2",
       "commercial_interests": []
     },
     {

@@ -1,0 +1,2507 @@
+[
+  {
+    "entity_key": "person:eric-berg",
+    "channel_id": "",
+    "display_name": "Eric Berg",
+    "entity_type": "person",
+    "surfaces": [],
+    "evidence": {
+      "estradiol": [
+        {
+          "source": "inventory",
+          "ref": "yt:-9gexE36Md0",
+          "title": "The Iodine-Estrogen Connection: MUST WATCH!",
+          "term": "estradiol",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:6vn7-OjX4Kc",
+          "title": "Estrogen, Mood Swings & Menopause Connection \u2013 Dr. Berg",
+          "term": "estradiol",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:9KDMqqCR3sg",
+          "title": "Consequences of High Estrogen in Men \u2013 Estrogen Dominance Effects in Men \u2013 Dr.Berg",
+          "term": "estradiol",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:D7kAqIzTCXA",
+          "title": "Can Dairy Affect Your Hormones? Dairy Products & Hormonal Imbalance \u2013 Dr.Berg",
+          "term": "estradiol",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:amsr6TlEaIQ",
+          "title": "Testosterone Therapy Spiking Estrogen? Why",
+          "term": "estradiol",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:pdWU0oaPYNo",
+          "title": "Postmenopausal Estrogen Comes from Your Own Fat",
+          "term": "estradiol",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:qoXkv1b3fWo",
+          "title": "Have You Been on Birth Control without Knowing? MEN and WOMEN",
+          "term": "estradiol",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:rjVXFqiPDwE",
+          "title": "Vitamin B1 (Thiamine) Deficiency: The \"Great Imitator\" of Other Illnesses",
+          "term": "estradiol",
+          "where": "description"
+        }
+      ],
+      "free-testosterone": [
+        {
+          "source": "inventory",
+          "ref": "yt:0Nfy8vUBx8c",
+          "title": "The Effects of Caffeine for Hair Loss \u2013 Remedy by Dr. Berg",
+          "term": "free testosterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:NfkX-B_20EY",
+          "title": "Why Does Insulin Cause PCOS (Polycystic Ovary Syndrome)? \u2013 Dr.Berg",
+          "term": "free testosterone",
+          "where": "description"
+        }
+      ],
+      "dht": [
+        {
+          "source": "inventory",
+          "ref": "yt:0Nfy8vUBx8c",
+          "title": "The Effects of Caffeine for Hair Loss \u2013 Remedy by Dr. Berg",
+          "term": "dht",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:0tj7VfiURuk",
+          "title": "How To Increase Testosterone in Men \u2013 Dr.Berg on Boosting Testosterone",
+          "term": "dht",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:1pTdTYpvhFk",
+          "title": "Discover the 18 Things Your Face Can Reveal About Deep Health Problems",
+          "term": "dht",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:4r8Mf7BL2Pk",
+          "title": "How to Regrow Hair (the Two Causes of Hair Loss) \u2013 Dr. Berg",
+          "term": "dht",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:72j8NXuJ1oY",
+          "title": "How to Shrink Your Prostate Naturally: The #1 Nutrient You Need",
+          "term": "dht",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:7C9lzPoGUJ4",
+          "title": "The #1 Missing Factor in Hair Loss",
+          "term": "dht",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:7hkTOt3M9R4",
+          "title": "The Most Common Cause of Hair Loss",
+          "term": "dht",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:8iDbrE9USYw",
+          "title": "Normal Hair Loss vs. Abnormal Hair Loss",
+          "term": "dht",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:CH7Ox6aYwxc",
+          "title": "Best Foods For Benign Prostatic Hyperplasia (BPH) \u2013 Dr.Berg",
+          "term": "dht",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:GRN_W9d6y84",
+          "title": "If Nothing is Working for Acne, Try This Acne Removal Treatment \u2013 Dr.Berg",
+          "term": "dht",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:JE3PeG4hi4w",
+          "title": "Best Remedy for Hormonal Cystic Acne \u2013 Dr.Berg",
+          "term": "dht",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:LFWspXbN8jY",
+          "title": "These Signs Reveal a Hidden Hormonal Imbalance",
+          "term": "dht",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:LKlQm4Szqdw",
+          "title": "Eat These Foods to Shrink an Enlarged Prostate (Especially Over Age 50)",
+          "term": "dht",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:M1zphh8YzD8",
+          "title": "6 Root Causes of Hair Loss \u2013 Dr. Berg on Hormonal Hair Loss",
+          "term": "dht",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:QgMksKGvI0Y",
+          "title": "Zinc Controls Many Key Hormones",
+          "term": "dht",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:R3gnuGfhh88",
+          "title": "Enlarged Prostate and Urination Problems Explained by Dr.Berg",
+          "term": "dht",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:T8Ghse_HdKA",
+          "title": "The #1 Hidden Cause of Your Hair Loss (Different Types)",
+          "term": "dht",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:TIPXGsDnrLE",
+          "title": "Say Goodbye to Acne: Dr. Berg's Proven Methods for Clearing Your Skin",
+          "term": "dht",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:W-vbcLp2Ss8",
+          "title": "How to Reverse Hair Loss",
+          "term": "dht",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:YU3LO6wbZAU",
+          "title": "Shrink Your ENLARGED PROSTATE and Fix Urine Flow",
+          "term": "dht",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:aZqhHKB-mKc",
+          "title": "Vitamin Deficiencies That Causes Dry or Oily Hair \u2013 Dr. Berg",
+          "term": "dht",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:hvhs40xmGTA",
+          "title": "Shrink Your Enlarged Prostate",
+          "term": "dht",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:kLOPA3OyTBw",
+          "title": "Constant Urge to Pee? Here's Why...",
+          "term": "dht",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:mQvwYL2q0RE",
+          "title": "The Real Cause of Prostate Enlargement \u2013 Dr.Berg",
+          "term": "dht",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:nm4xVAx7f0U",
+          "title": "The 5 BEST Tips for Thick Hair",
+          "term": "dht",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:o7I-1L1LUNY",
+          "title": "Postpartum Hair Loss \u2013 Dr. Berg",
+          "term": "dht",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:ov2Wbvwu4mY",
+          "title": "Onions, The Best Food for Alopecia Treatment \u2013 Dr.Berg",
+          "term": "dht",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:t6KFyBt9BNs",
+          "title": "Why do Ears and Nose Grow as You Age?",
+          "term": "dht",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:tTEYCKFI01E",
+          "title": "How To Fix Enlarged Prostate Explained By Dr. Berg",
+          "term": "dht",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:vIM_ZHBZcJo",
+          "title": "8 Natural Herbs for Reducing Excess Androgen \u2013 Dr.Berg",
+          "term": "dht",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:vx42_D5bTas",
+          "title": "The ONE FOOD That Shrinks an Enlarged Prostate",
+          "term": "dht",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:wLxnFvdPZ8M",
+          "title": "Receding Hairline: Causes And Remedies \u2013 Dr.Berg",
+          "term": "dht",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:wrhGIgye_Z4",
+          "title": "12 Proven Remedies to Prevent Hair Loss and Regrow Hair",
+          "term": "dht",
+          "where": "description"
+        }
+      ],
+      "progesterone": [
+        {
+          "source": "inventory",
+          "ref": "yt:0dNttlPqRzU",
+          "title": "What is Menopause... Really",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:1FYcC3O64fY",
+          "title": "The Most Important Function of Vitamin E",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:1nAfTsObuwY",
+          "title": "They Lied to You About Menopause",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:5RskH6iSkqI",
+          "title": "Hormones Made Simple (Part 1, 2 3) - Webinar Registration",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:7hkTOt3M9R4",
+          "title": "The Most Common Cause of Hair Loss",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:8iDbrE9USYw",
+          "title": "Normal Hair Loss vs. Abnormal Hair Loss",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:9NN6UfY8muA",
+          "title": "The Dr. Berg Show LIVE - March 1, 2024",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:9cffC58OTxc",
+          "title": "What to do for Lactation Insufficiency",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:A-SvpAEVMgQ",
+          "title": "Is Menopause Making You Fat? \u2013 Dr. Berg on Menopause Weight Gain",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:B0FT5Yq8gQM",
+          "title": "How to Boost Pregnenolone for More Hormone Energy? \u2013 Dr.Berg",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Dh2mX_o9ZYQ",
+          "title": "What to do for Alzheimer's Disease if Nothing is Working? \u2013 The Perfect Treatment by Dr.Berg",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:DmBL4MXKXBs",
+          "title": "Ovarian Cysts: Causes, Symptoms & Natural Treatment \u2013 Dr.Berg",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:F_b4HOXs8ew",
+          "title": "Low Fat Diets and Sex Hormones",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:LFWspXbN8jY",
+          "title": "These Signs Reveal a Hidden Hormonal Imbalance",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:N5-rDpN9ux8",
+          "title": "Postmenopausal Osteoporosis \u2013 Osteoclast and Osteoblast \u2013 Dr.Berg",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:NgU9wbRtsNA",
+          "title": "Premenstrual Dysphoric Disorder (PMDD)",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:OSaYls_-h-4",
+          "title": "What Is The Pineal Gland? \u2013 Dr.Berg On Melatonin Benefits & Serotonin",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:QgMksKGvI0Y",
+          "title": "Zinc Controls Many Key Hormones",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:QlGJA-_a3uM",
+          "title": "The # 1 Dementia Remedy (GAME CHANGER)",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:SMSE4BYoOv4",
+          "title": "3 Best Remedy for Low Progesterone \u2013 Phytoestrogen, Sea Kelp & Progesterone Deficiency \u2013 Dr. Berg",
+          "term": "progesterone",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:WJ7N_9UYK1Y",
+          "title": "Lyme Disease Blocks Vitamin D Absorption by 8000%",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:_CqXHYgKKtY",
+          "title": "Your Waist Size Is IMPORTANT!",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:aINKYjSI2aQ",
+          "title": "The Dr. Berg Show LIVE - January 16, 2026",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:bRTdoBmU8_g",
+          "title": "How To Relieve From Post Hysterectomy Depression? \u2013 Dr.Berg",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:cMEDTX3JqOs",
+          "title": "The Forgotten Hormone",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:cMPSFPPRb8s",
+          "title": "Hair Loss, Menstrual Cycle and Hormones",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:dSVNb1nin1U",
+          "title": "Dr. Berg Live Q & A",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:e5MhlSjvXh8",
+          "title": "Preserving Your Muscles as You Age - Dr. Berg",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:fKCQjT2vgW8",
+          "title": "Nothing Boring About Boron",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:fTYKyPlU0IE",
+          "title": "The Importance of Progesterone for Hot Flashes Relief \u2013 Dr. Berg On Progesterone Deficiency",
+          "term": "progesterone",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:h9gG1ePfRFQ",
+          "title": "Why Do You Get Acne During Your Period (Menstruation)",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:hvhs40xmGTA",
+          "title": "Shrink Your Enlarged Prostate",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:iHrP06tUQu8",
+          "title": "Symptoms & Natural Remedies For Pre - Post Menopause Estrogen Deficiency \u2013 Dr.Berg",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:kUmXIXsMi0g",
+          "title": "The 7 Warning Signs of a Zinc Deficiency",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:lGSDOHll-pg",
+          "title": "Dr. Berg Evaluates Tara Shimer Symptoms (Part 1)",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:owQiY8_3OLU",
+          "title": "The #1 Best Remedy for Hot Flashes and Menstrual Problems",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:qR34AY8KUM4",
+          "title": "Use Keto (Ketogenic Diet) To Balance Hormones \u2013 Dr.Berg",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:rmCXk2As1Y4",
+          "title": "Fix Your HORMONES with the Right FOOD!",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:t91rTD0k0SA",
+          "title": "What I Would Do If I Had ALS (Amyotrophic Lateral Sclerosis): Lou Gehrig\u2019s Disease \u2013 Dr. Berg",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:vJu7v9JtD-o",
+          "title": "The #1 Deficiency Behind Aging Spots",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:wdArmQAwEVE",
+          "title": "Burning Mouth Syndrome Demystified",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:yRfeEraLFqQ",
+          "title": "The Dark Side of the Birth Control Pill",
+          "term": "progesterone",
+          "where": "description"
+        }
+      ],
+      "dhea": [
+        {
+          "source": "inventory",
+          "ref": "yt:0lCuHaDj5pg",
+          "title": "Get Rid of Cellulite for Good: Dr. Berg's Better Way to Lose Flabby Fat",
+          "term": "dhea",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:5RskH6iSkqI",
+          "title": "Hormones Made Simple (Part 1, 2 3) - Webinar Registration",
+          "term": "dhea",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:5x8EozR1vEk",
+          "title": "Dr. Berg Live Q & A",
+          "term": "dhea",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:9225P7K7bSs",
+          "title": "What are the Adrenal Glands? \u2013 Effects of Cortisol & Adrenal Hormones \u2013 Dr.Berg",
+          "term": "dhea",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:B0FT5Yq8gQM",
+          "title": "How to Boost Pregnenolone for More Hormone Energy? \u2013 Dr.Berg",
+          "term": "dhea",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Hq9cItue5tc",
+          "title": "Lose Weight While You Sleep: Dr. Berg's 8 Tips for Burning Fat Overnight",
+          "term": "dhea",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:QlGJA-_a3uM",
+          "title": "The # 1 Dementia Remedy (GAME CHANGER)",
+          "term": "dhea",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:T9OHIRGFkqs",
+          "title": "Watch This BEFORE Taking Testosterone - Dr. Berg",
+          "term": "dhea",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:axxsROsv6_A",
+          "title": "Arrhythmias and Calcium",
+          "term": "dhea",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:bY_GDsbvqXM",
+          "title": "DHEA and Menopause",
+          "term": "dhea",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:cMPSFPPRb8s",
+          "title": "Hair Loss, Menstrual Cycle and Hormones",
+          "term": "dhea",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:dX0pJWoG9Kc",
+          "title": "The #1 Missing Factor with Low Testosterone Is...",
+          "term": "dhea",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:e5MhlSjvXh8",
+          "title": "Preserving Your Muscles as You Age - Dr. Berg",
+          "term": "dhea",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:h8-_UI1f2dw",
+          "title": "Say Goodbye to Sciatica Nerve Pain in 5 Minutes",
+          "term": "dhea",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:qR34AY8KUM4",
+          "title": "Use Keto (Ketogenic Diet) To Balance Hormones \u2013 Dr.Berg",
+          "term": "dhea",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:uOF9ZJ-wG24",
+          "title": "When to Take DHEA as a Supplement?",
+          "term": "dhea",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:vOsp52De41I",
+          "title": "THIS is the Most Powerful ADAPTOGEN in The World - How it Works and Why it's THE BEST",
+          "term": "dhea",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:ykYqa2Z08VM",
+          "title": "Seven Ways to Improve Bone Health",
+          "term": "dhea",
+          "where": "description"
+        }
+      ],
+      "cortisol-am": [
+        {
+          "source": "inventory",
+          "ref": "yt:0tj7VfiURuk",
+          "title": "How To Increase Testosterone in Men \u2013 Dr.Berg on Boosting Testosterone",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:1COqq37F82Q",
+          "title": "7 Reasons Why You Get Up During the Night \u2013 Dr.Berg On Sleep Apnea",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:2mrp1wgW9Z4",
+          "title": "The #1 Sign of High Cortisol",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:3dHcT1-K-tw",
+          "title": "How to Do Intermittent Fasting \u2013 Intermittent Fasting Basics for Beginners \u2013 Dr.Berg",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:49wFC02H6YQ",
+          "title": "How To Lose Weight Fast!! \u2013 Try Dr.Berg's Easy Tips",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:4U43bPxkx7M",
+          "title": "Does Keto and Fasting Increase Stress Hormones?",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:66ujydlh40A",
+          "title": "6 Ways To Lower Cortisol Levels \u2013 Cortisol Stress Hormone \u2013 Dr. Berg",
+          "term": "stress hormone",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:7ugn924mFCo",
+          "title": "Low vs. High Cortisol Levels Symptoms Explained By Dr.Berg",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:89yCssqMqYM",
+          "title": "Cellulite Be Gone: Dr. Berg's Expert Tips on Losing Thigh and Buttock Cellulite",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:9MpeSudXyRs",
+          "title": "How Food Affects Your Mood / Improve Anxiety, Depression & ADD \u2013 Dr. Berg",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:9iVFPVTBNaw",
+          "title": "Memory Loss and the Hippocampus \u2013 Dr.Berg [MUST WATCH!!]",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:9oGQvDKtteE",
+          "title": "Fasting Affects Your Hormones Greatly",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:AhVDHS_PLQY",
+          "title": "7 Reasons for Bloating, Especially on Keto (Ketogenic Diet) \u2013 Dr.Berg",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:C5PweRDxf6g",
+          "title": "What Really Causes Gallstones? - Dr. Berg",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Czu9yMSj6oM",
+          "title": "Will Adrenal Fatigue Cause Weight Gain? Cushing's Syndrome & High Cortisol Levels \u2013 Dr.Berg",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:FUGJjIi3UG4",
+          "title": "Why Stress (Cortisol) Makes You Fat (Spikes Insulin) \u2013 Stress and Weight Gain \u2013 Dr.Berg",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Hv-EmSstv8k",
+          "title": "Drink 1 Cup of This Before Bed for a Smaller Waist",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:JAnbZOcrz7g",
+          "title": "Why Going to the Beach Can Lower Your Cortisol Levels",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:JmCBAkmJ-rs",
+          "title": "I used to look like this\u2026",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:L2fKo_dbXS0",
+          "title": "How To LOWER Cortisol Levels? \u2013 Dr. Berg",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:LhXyJCa_b-k",
+          "title": "Cortisol Resistance & Insulin Resistance Explained by Dr.Berg",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:NOdz26znBbE",
+          "title": "Is Your Brain Shrinking? \u2013 Dr.Berg On Brain Health & Brain Atrophy",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:OV5OlaPZ6C4",
+          "title": "The 6 Main & Common Causes of Depression \u2013 Dr.Berg",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:OrEWl9NJD_Q",
+          "title": "Intermittent Fasting Made Easy By Dr. Berg",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:PtMAiV-eNMo",
+          "title": "When is the Best Time to Do OMAD (One Meal A Day)? - Dr. Berg on Intermittent Fasting",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:R7CHbEi8ysQ",
+          "title": "The Biggest Weight Loss LIE in History",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:RHuQX5uzodA",
+          "title": "Cutting Carbs But Still Not Losing Weight",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Rdsrb_g5ZLo",
+          "title": "Deeper Causes of Pain & Inflammation \u2013 Dr. Berg",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:SJ7jMfPrRhM",
+          "title": "Dr. Berg explains \"What are Fat Burning Hormones?\" in a Simpler Way",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:SjbDiOMe2MY",
+          "title": "Dr. Berg Talks About Thymus Gland, Stress and Immune System",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Th252QYGXWc",
+          "title": "Does Fasting Increase Adrenaline?",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:ThH4A7YOpIs",
+          "title": "High Cortisol Occurs During and After Surgery \u2013 Cortisol Levels & Surgery Side Effects \u2013 Dr.Berg",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:TsoYREVnVH8",
+          "title": "How Cortisol Effects on Body and Destroy Proteins \u2013 Dr.Berg",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:VRRc2yQK_Ws",
+          "title": "How To Prevent Premature Death & Increase Longevity \u2013 Part 3 By Dr.Berg",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:_EhLjMGsnRw",
+          "title": "How to Lose Fat by Eating Bacon \u2013 Dr. Berg",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:_PDc5xI1b5U",
+          "title": "Should I Remove My Gallbladder If I have Stones? \u2013 Dr.Berg",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:_YFXiowjS1c",
+          "title": "7 Tips To Lower Blood Pressure Naturally \u2013 Dr. Berg",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:_ssxVfx_W3E",
+          "title": "Your Stress May Be Preventing Full Ketosis",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:aQrVVVJuPB8",
+          "title": "Magnesium's Effect on Mood: Anxiety and Depression",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:bFUwenZw1nM",
+          "title": "Why People Can't Lose Weight (Part 2) \u2013 Dr. Berg On Fat Burning Hormone & Weight Loss Problems",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:bK8q144Rhds",
+          "title": "DRINK 1/2 CUP DAILY to Lower Cortisol, Lose Belly Fat, and Help Depression",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:fnSp_JR5pZk",
+          "title": "Here's Why You Lost Your BUTT but Gained a BELLY",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:g3XjFOU1EyQ",
+          "title": "High Cortisol Ruining Your Restful Sleep? \u2013 Cortisol and Sleep Connection \u2013 Dr.Berg",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:ii_OWTqn1rw",
+          "title": "Why It's Hard To Turn Stress (Cortisol) Off? \u2013 Dr. Berg",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:jo4MvvUQC2k",
+          "title": "Menopause Making You Look Masculine?: Dr.Berg on Menopause Symptoms & Androgens In Females",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:l5wClnJj4_8",
+          "title": "The Most Common Hair Loss Causes Explained By Dr. Berg",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:l8QEY-xFcTo",
+          "title": "Dr. Berg Live Q & A",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:lvpSW8U3Nr4",
+          "title": "Why Do Women Get Diabetes During Pregnancy? \u2013 Dr. Berg",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:mNll4oTHsQk",
+          "title": "Depression and the HPA Axis",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:n42UHnAzDY4",
+          "title": "Benefits of Sunlight: Reduce Stress & Lose Belly Fat \u2013 Dr. Berg",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:p0C-rlWp1hk",
+          "title": "Benefits of Garlic for Sleep Apnea \u2013 Treatment by Dr.Berg",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:qEjWewc2TJY",
+          "title": "Use Vitamin D To Keep Viruses in Remission in Winter Months - Dr. Berg",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:rEWNmcBFHOc",
+          "title": "DRINK 1 CUP at Night to Burn Belly Fat FAST",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:rbT1Enu6Llk",
+          "title": "Adrenal Fatigue: Is Cortisol Responsible for Your Diabetes? - Dr. Berg",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:rgQ1ffvr5W0",
+          "title": "The Underlying Cause Of Diabetes \u2013 Dr.Berg",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:tRPqYqa3oLA",
+          "title": "The Biggest Secret of The Keto Universe \u2013 Dr. Berg",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:tmRirTYtaS4",
+          "title": "What To Do When Nothing Works For Weight Loss? \u2013 Dr.Berg's Tips",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:ueI10TQbQYY",
+          "title": "Dr. Berg's Webinar On Stress Relieving: Easily Get Rid of Stress & Sleep Like a Baby",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:weZ_BoMptLI",
+          "title": "A Surprising Way To Cleanse Fatty Liver \u2013 Dr. Berg On Liver Detoxification",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:xYJ9YPddRYg",
+          "title": "The Mental Health Benefits of Having a Pet",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:xe5y7wwz2vY",
+          "title": "Dr.Berg explains 3 Hormones that Affect your Body Shape & Weight Loss",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:xmxWqW3SxFw",
+          "title": "What Determines If You Lose or Gain Weight With Stress \u2013 Cortisol and Insulin \u2013 Dr.Berg",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:yyyeBuSTCwE",
+          "title": "Antioxidant: Another Interesting Cholesterol Function Explained by Dr. Berg",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:zg0EsOp9kMA",
+          "title": "The 10 Top Foods that GUARANTEE You'll Lose Belly Fat Fast",
+          "term": "stress hormone",
+          "where": "description"
+        }
+      ],
+      "dhea-s": [
+        {
+          "source": "inventory",
+          "ref": "yt:1COqq37F82Q",
+          "title": "7 Reasons Why You Get Up During the Night \u2013 Dr.Berg On Sleep Apnea",
+          "term": "adrenal hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:950fbVKFwHM",
+          "title": "Natural Solution for Plaque, Cavities, and Gingivitis",
+          "term": "adrenal hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:ElGcuU8-LAg",
+          "title": "False Hunger Pangs on Intermittent Fasting \u2013 Dr. Berg",
+          "term": "adrenal hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:HAUdHuApCG4",
+          "title": "Cortisol (Stress) and Vitamin D Levels",
+          "term": "adrenal hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:OSwhSam_hLU",
+          "title": "The Best PREDNISONE Alternative",
+          "term": "adrenal hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:RR1f8bNQQNc",
+          "title": "Stressors | Causes of Stress & How it affects your body \u2013 Dr. Berg",
+          "term": "adrenal hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Z9FWsmmxO7c",
+          "title": "Adrenal Discovery \u2013 High Cortisol Levels, Blood Sugar Levels & Adrenal Stress \u2013 Dr. Berg",
+          "term": "adrenal hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:mFozTOH5N0k",
+          "title": "What's Really At The Core Cause Of Inflammation? \u2013 Dr. Berg",
+          "term": "adrenal hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:p8E32j-v0nI",
+          "title": "3 Surprising Hidden Causes Of Inflammation Revealed by Dr. Berg",
+          "term": "adrenal hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:uYQVVSu5YGw",
+          "title": "Ignored Causes of Heart Disease - Heart Problems - Dr.Berg",
+          "term": "adrenal hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:vXdR8zeEf1Y",
+          "title": "Low Salt Increases Your Risk of Heart Attacks",
+          "term": "adrenal hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:xBzFo9EvCmw",
+          "title": "How Ketones Affect Hormones and the Endocrine System",
+          "term": "adrenal hormone",
+          "where": "description"
+        }
+      ],
+      "prolactin": [
+        {
+          "source": "inventory",
+          "ref": "yt:1dnX-z-HJGA",
+          "title": "Instant PMS Relief: Use This...",
+          "term": "prolactin",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:2nbdIrvwYEU",
+          "title": "Why Liver Damage Makes You Estrogen Dominant: MEN",
+          "term": "prolactin",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:9cffC58OTxc",
+          "title": "What to do for Lactation Insufficiency",
+          "term": "prolactin",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:AIbhXK2UJ6w",
+          "title": "Drink 1 CUP PER DAY to Shrink an Enlarged Prostate",
+          "term": "prolactin",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:IvBQHDiCRqY",
+          "title": "The Dr. Berg Show LIVE - April 5, 2024",
+          "term": "prolactin",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:LNgId7Eqpek",
+          "title": "The Ultimate Hormone Balancing Solution: The #1 Absolute Best Way to Balance Your Hormones",
+          "term": "prolactin",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:hvhs40xmGTA",
+          "title": "Shrink Your Enlarged Prostate",
+          "term": "prolactin",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:i-NY_N_zaX4",
+          "title": "The Dr. Berg Show LIVE - September 13, 2024",
+          "term": "prolactin",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:m3AfH-XlxxA",
+          "title": "The Dr. Berg Show LIVE - July 29, 2022",
+          "term": "prolactin",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:serJmA0YFD0",
+          "title": "What Happens If You Use a SAUNA for 14 Days",
+          "term": "prolactin",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:xVaXYh2hldw",
+          "title": "What Is the Pituitary Gland?",
+          "term": "prolactin",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:xxwqpMOMM34",
+          "title": "How to Overcome Infertility",
+          "term": "prolactin",
+          "where": "description"
+        }
+      ],
+      "fsh": [
+        {
+          "source": "inventory",
+          "ref": "yt:60o317C-Ss0",
+          "title": "How to Lose Postmenopausal Weight",
+          "term": "fsh",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Dh2mX_o9ZYQ",
+          "title": "What to do for Alzheimer's Disease if Nothing is Working? \u2013 The Perfect Treatment by Dr.Berg",
+          "term": "fsh",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:w9L_mm09cYk",
+          "title": "Ovaries Removed? Do This...",
+          "term": "fsh",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:xH9DGL9noPo",
+          "title": "The 5 Benefits of Inositol",
+          "term": "fsh",
+          "where": "description"
+        }
+      ],
+      "lh": [
+        {
+          "source": "inventory",
+          "ref": "yt:8MPpiCg5HUg",
+          "title": "Melatonin: Beyond the Sleep Benefit",
+          "term": "lh",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:A6IgSpyBrQI",
+          "title": "Eat Onions and Boost Testosterone",
+          "term": "luteinizing hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Dh2mX_o9ZYQ",
+          "title": "What to do for Alzheimer's Disease if Nothing is Working? \u2013 The Perfect Treatment by Dr.Berg",
+          "term": "lh",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:NfkX-B_20EY",
+          "title": "Why Does Insulin Cause PCOS (Polycystic Ovary Syndrome)? \u2013 Dr.Berg",
+          "term": "lh",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:QlGJA-_a3uM",
+          "title": "The # 1 Dementia Remedy (GAME CHANGER)",
+          "term": "luteinizing hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:xH9DGL9noPo",
+          "title": "The 5 Benefits of Inositol",
+          "term": "lh",
+          "where": "description"
+        }
+      ],
+      "shbg": [
+        {
+          "source": "inventory",
+          "ref": "yt:LYCHHYFS3gA",
+          "title": "The FASTEST Way to Rid Acne - Dr. Berg",
+          "term": "shbg",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:jo4MvvUQC2k",
+          "title": "Menopause Making You Look Masculine?: Dr.Berg on Menopause Symptoms & Androgens In Females",
+          "term": "shbg",
+          "where": "description"
+        }
+      ]
+    },
+    "marker_affinity": [
+      "cortisol-am",
+      "dhea",
+      "dhea-s",
+      "dht",
+      "estradiol",
+      "free-testosterone",
+      "fsh",
+      "lh",
+      "progesterone",
+      "prolactin",
+      "shbg"
+    ]
+  },
+  {
+    "entity_key": "person:mind-matter-podcast",
+    "channel_id": "",
+    "display_name": "Mind & Matter Podcast",
+    "entity_type": "person",
+    "surfaces": [],
+    "evidence": {
+      "estradiol": [
+        {
+          "source": "inventory",
+          "ref": "yt:4e56_calFuI",
+          "title": "Estrogen & Body Fat: How the Hormone Affects Fat Storage, Metabolism & Menopause Weight Gain",
+          "term": "estradiol",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:4qAjwBpjPv0",
+          "title": "Pregnancy Hormones and the Maternal Brain Transformation #shorts",
+          "term": "estradiol",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:HSWwxZbfihs",
+          "title": "Social Stress During Pregnancy and Maternal Adaptation #shorts",
+          "term": "estradiol",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:YiDsaipNWxY",
+          "title": "Hormones & Instincts: Hunger, Aggression & Parenting Behavior | Jonny Kohl | 262",
+          "term": "estradiol",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:_29fWjFl_j0",
+          "title": "Hormonal Rewiring of the Brain During Pregnancy",
+          "term": "estradiol",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:bYBvuWki4T4",
+          "title": "Maternal Hormones Shaping Offspring Neurodevelopment",
+          "term": "estradiol",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:qMWk6ntvq9Q",
+          "title": "Stress & Psilocybin: Effects on Maternal Care & Offspring Development | Danielle Stolzenberg | 270",
+          "term": "estradiol",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:t8etsgJVCwY",
+          "title": "Hormones and Brain: How Estrogen & Progesterone Impact Behavior",
+          "term": "estradiol",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:v_-4Q1M1S6M",
+          "title": "Cholesterol as the Foundation of Reproductive Hormones #shorts",
+          "term": "estradiol",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:xGYkrWfc-GE",
+          "title": "How your body turns cholesterol into essential hormones.",
+          "term": "estradiol",
+          "where": "description"
+        }
+      ],
+      "progesterone": [
+        {
+          "source": "inventory",
+          "ref": "yt:4qAjwBpjPv0",
+          "title": "Pregnancy Hormones and the Maternal Brain Transformation #shorts",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:HSWwxZbfihs",
+          "title": "Social Stress During Pregnancy and Maternal Adaptation #shorts",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:MUzSScFFqjA",
+          "title": "Statins, Cholesterol, and Hormone Balance",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:PEJDczjtQhc",
+          "title": "Pregnancy Hormones: Brain Rewiring for Maternal Behavior #shorts",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:YiDsaipNWxY",
+          "title": "Hormones & Instincts: Hunger, Aggression & Parenting Behavior | Jonny Kohl | 262",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:_29fWjFl_j0",
+          "title": "Hormonal Rewiring of the Brain During Pregnancy",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:bYBvuWki4T4",
+          "title": "Maternal Hormones Shaping Offspring Neurodevelopment",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:e5lGo8R1CdQ",
+          "title": "Hormones, Hunger & Aggression: Estrogen-Progesterone Ratio",
+          "term": "progesterone",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:qMWk6ntvq9Q",
+          "title": "Stress & Psilocybin: Effects on Maternal Care & Offspring Development | Danielle Stolzenberg | 270",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:t8etsgJVCwY",
+          "title": "Hormones and Brain: How Estrogen & Progesterone Impact Behavior",
+          "term": "progesterone",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:v_-4Q1M1S6M",
+          "title": "Cholesterol as the Foundation of Reproductive Hormones #shorts",
+          "term": "progesterone",
+          "where": "description"
+        }
+      ]
+    },
+    "marker_affinity": [
+      "estradiol",
+      "progesterone"
+    ]
+  },
+  {
+    "entity_key": "person:siim-land",
+    "channel_id": "",
+    "display_name": "Siim Land",
+    "entity_type": "person",
+    "surfaces": [],
+    "evidence": {
+      "estradiol": [
+        {
+          "source": "inventory",
+          "ref": "yt:0grv7IJ_nxg",
+          "title": "Supplements Shown to Extend Lifespan - Top Longevity Program Results",
+          "term": "estradiol",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:SgKp5mm0ALI",
+          "title": "I Ranked 100 Health Markers (Most People Get These Wrong)",
+          "term": "estradiol",
+          "where": "description"
+        }
+      ],
+      "dhea": [
+        {
+          "source": "inventory",
+          "ref": "yt:CWB-qMLJNhQ",
+          "title": "He Takes 105 Pills a Day to Reverse Aging - Reviewing Bryan Johnson Supplement Stack",
+          "term": "dhea",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:DvQQNr7dDNU",
+          "title": "Longevity Scientist Shares Steps to Slow Down Aging - Michael Lustgarten PhD",
+          "term": "dhea",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:F_1KaUerwVQ",
+          "title": "Most People's Circadian Rhythm Is Broken \u2014 Here's the Exact Fix (Sleep PhD Explains)",
+          "term": "dhea",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:SgKp5mm0ALI",
+          "title": "I Ranked 100 Health Markers (Most People Get These Wrong)",
+          "term": "dhea",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:W8DZbYyuDmA",
+          "title": "100 Supplements Ranked Worst to Best (Ultimate Supplement Tier List 2025)",
+          "term": "dhea",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:nVf38nrk84I",
+          "title": "The ULTIMATE GUIDE to Longevity Supplements 2023 - Ranked Based on Effectiveness",
+          "term": "dhea",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:t7afAdI88U4",
+          "title": "Hormone Doc Amy Killen Reveals the TRUTH About TRT and HRT Safety",
+          "term": "dhea",
+          "where": "description"
+        }
+      ],
+      "dhea-s": [
+        {
+          "source": "inventory",
+          "ref": "yt:DvQQNr7dDNU",
+          "title": "Longevity Scientist Shares Steps to Slow Down Aging - Michael Lustgarten PhD",
+          "term": "dhea-s",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:SgKp5mm0ALI",
+          "title": "I Ranked 100 Health Markers (Most People Get These Wrong)",
+          "term": "dhea-s",
+          "where": "description"
+        }
+      ],
+      "dht": [
+        {
+          "source": "inventory",
+          "ref": "yt:F_1KaUerwVQ",
+          "title": "Most People's Circadian Rhythm Is Broken \u2014 Here's the Exact Fix (Sleep PhD Explains)",
+          "term": "dht",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:sErNbz8C4sA",
+          "title": "My New Supplement List, Omega-3s and Atrial Fibrillation Risk, and More - Q&A",
+          "term": "dht",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:t7afAdI88U4",
+          "title": "Hormone Doc Amy Killen Reveals the TRUTH About TRT and HRT Safety",
+          "term": "dht",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:xLqq14G8voc",
+          "title": "BOOST Your Testosterone NATURALLY with These Proven Methods!",
+          "term": "dht",
+          "where": "description"
+        }
+      ],
+      "shbg": [
+        {
+          "source": "inventory",
+          "ref": "yt:SgKp5mm0ALI",
+          "title": "I Ranked 100 Health Markers (Most People Get These Wrong)",
+          "term": "shbg",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:aRYXTpEOw1U",
+          "title": "Reverse Gray Hair, Tips for Nerve Regeneration and More - Siim Land Instagram Q&A",
+          "term": "shbg",
+          "where": "description"
+        }
+      ],
+      "progesterone": [
+        {
+          "source": "inventory",
+          "ref": "yt:SgKp5mm0ALI",
+          "title": "I Ranked 100 Health Markers (Most People Get These Wrong)",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:t7afAdI88U4",
+          "title": "Hormone Doc Amy Killen Reveals the TRUTH About TRT and HRT Safety",
+          "term": "progesterone",
+          "where": "description"
+        }
+      ]
+    },
+    "marker_affinity": [
+      "dhea",
+      "dhea-s",
+      "dht",
+      "estradiol",
+      "progesterone",
+      "shbg"
+    ]
+  },
+  {
+    "entity_key": "company:levels-health",
+    "channel_id": "",
+    "display_name": "Levels Health",
+    "entity_type": "company",
+    "surfaces": [],
+    "evidence": {
+      "progesterone": [
+        {
+          "source": "inventory",
+          "ref": "yt:2vXgAo-luQI",
+          "title": "Female Hormone Blood Test Results Explained: Estrogen, Fertility & Signs of PCOS | Dr. Anjali Dsouza",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:MweLkjvNimo",
+          "title": "WOMEN\u2019S HORMONES Explained: Energy, Mood, PMS, and \"Normal\" Labs | Dr. Anjali D\u2019Souza & Mike Haney",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:zs1j_7bDIhA",
+          "title": "How To Reduce Symptoms of PCOS | Dr. Casey Means",
+          "term": "progesterone",
+          "where": "description"
+        }
+      ],
+      "cortisol-am": [
+        {
+          "source": "inventory",
+          "ref": "yt:Dah-4W1PiaA",
+          "title": "Stress Biomarkers & Test Results Explained: Cortisol, Glucose & Practical Ways to Reset | Dr. Anjali",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:DdnxoLtA-OE",
+          "title": "How Cortisol, the Stress Hormone, Impacts Blood Sugar and Health | Dr. Robert Lustig",
+          "term": "stress hormone",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:GC1I71QwRQE",
+          "title": "Lowering Inflammation To Help with Fertility and Female Hormonal Health | Dr. Natalie Crawford",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:KXOweofyb4k",
+          "title": "Lifestyle Changes that Support the Thyroid Gland | Dr. Angela Mazza",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:OgdqM8gNI00",
+          "title": "How Cortisol, the Stress Hormone, Impacts Blood Sugar and Health | Dr. Robert Lustig Ultimate Guide",
+          "term": "stress hormone",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:YqicMHiSdq0",
+          "title": "How to Improve Your Triglyceride Blood Test Results | Dr. Anjali Dsouza",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:fIUl17z6ugY",
+          "title": "The DAWN EFFECT: What causes early morning blood sugar spikes and what it means for metabolic health",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:k7z-28SHsHA",
+          "title": "Monitoring Cortisol and Inflammation | Dr. Matt Kaeberlein",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:kGr_mJi9CPw",
+          "title": "Hyperthyroidism Does Not Necessarily Lead To Weight Loss | Dr. Angela Mazza",
+          "term": "stress hormone",
+          "where": "description"
+        }
+      ],
+      "free-testosterone": [
+        {
+          "source": "inventory",
+          "ref": "yt:NImh8C0Sdhk",
+          "title": "Male Hormone Test Results Explained: Testosterone, PSA & How to Optimize Levels | Dr. Anjali Dsouza",
+          "term": "free testosterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Zs2CZC2GueA",
+          "title": "MALE HORMONES and Men\u2019s Health | Dr. Jesse Mills + Mike Haney",
+          "term": "free testosterone",
+          "where": "description"
+        }
+      ]
+    },
+    "marker_affinity": [
+      "cortisol-am",
+      "free-testosterone",
+      "progesterone"
+    ]
+  },
+  {
+    "entity_key": "person:thomas-fordham-brewer",
+    "channel_id": "",
+    "display_name": "Thomas Fordham Brewer",
+    "entity_type": "person",
+    "surfaces": [],
+    "evidence": {
+      "dhea": [
+        {
+          "source": "inventory",
+          "ref": "yt:59xaWoE3kpY",
+          "title": "Ghrelin and Carbs vs Protein: Wondering why you feel hungry 3 hours after a high-carb meal?",
+          "term": "dhea",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:HZLtwCKwYYg",
+          "title": "OBESITY IN A CUP: Glucose Tolerance test using a large Coke!",
+          "term": "dhea",
+          "where": "description"
+        }
+      ]
+    },
+    "marker_affinity": [
+      "dhea"
+    ]
+  },
+  {
+    "entity_key": "person:physionic",
+    "channel_id": "",
+    "display_name": "Physionic",
+    "entity_type": "person",
+    "surfaces": [],
+    "evidence": {
+      "lh": [
+        {
+          "source": "inventory",
+          "ref": "yt:6AUHMQzo5F4",
+          "title": "Taurine\u2019s Multiple Blood Pressure Lowering Effects",
+          "term": "lh",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:JawPF4VwQg0",
+          "title": "Taurine: A Savior against Metabolic Syndrome\u2026 or is it?",
+          "term": "lh",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:iILnDvAHruI",
+          "title": "This Molecule in Coffee is Protecting you from Heart Disease - Here\u2019s How",
+          "term": "lh",
+          "where": "description"
+        }
+      ]
+    },
+    "marker_affinity": [
+      "lh"
+    ]
+  },
+  {
+    "entity_key": "person:andrew-huberman",
+    "channel_id": "",
+    "display_name": "Andrew Huberman",
+    "entity_type": "person",
+    "surfaces": [],
+    "evidence": {
+      "dhea": [
+        {
+          "source": "inventory",
+          "ref": "yt:6P8hrzjnetU",
+          "title": "How to Navigate Menopause & Perimenopause for Maximum Health & Vitality | Dr. Mary Claire Haver",
+          "term": "dhea",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:qJXKhu5UZwk",
+          "title": "The Science of How to Optimize Testosterone & Estrogen",
+          "term": "dhea",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:x7qbJeRxWGw",
+          "title": "How to Control Your Metabolism by Thyroid & Growth Hormone",
+          "term": "dhea",
+          "where": "description"
+        }
+      ],
+      "total-testosterone": [
+        {
+          "source": "inventory",
+          "ref": "yt:DTCmprPCDqc",
+          "title": "Exercise, Nutrition, Hormones for Vitality & Longevity | Dr. Peter Attia",
+          "term": "total testosterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:tLS6t3FVOTI",
+          "title": "Developing a Rational Approach to Supplementation for Health & Performance | Huberman Lab Podcast",
+          "term": "total testosterone",
+          "where": "description"
+        }
+      ],
+      "free-testosterone": [
+        {
+          "source": "inventory",
+          "ref": "yt:DTCmprPCDqc",
+          "title": "Exercise, Nutrition, Hormones for Vitality & Longevity | Dr. Peter Attia",
+          "term": "free testosterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:O640yAgq5f8",
+          "title": "Tools for Hormone Optimization in Males | Dr. Kyle Gillett",
+          "term": "free testosterone",
+          "where": "description"
+        }
+      ],
+      "shbg": [
+        {
+          "source": "inventory",
+          "ref": "yt:DTCmprPCDqc",
+          "title": "Exercise, Nutrition, Hormones for Vitality & Longevity | Dr. Peter Attia",
+          "term": "shbg",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:O640yAgq5f8",
+          "title": "Tools for Hormone Optimization in Males | Dr. Kyle Gillett",
+          "term": "shbg",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:ncSoor2Iw8k",
+          "title": "How to Optimize Your Hormones for Health & Vitality | Dr. Kyle Gillett",
+          "term": "shbg",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:qJXKhu5UZwk",
+          "title": "The Science of How to Optimize Testosterone & Estrogen",
+          "term": "shbg",
+          "where": "description"
+        }
+      ],
+      "progesterone": [
+        {
+          "source": "inventory",
+          "ref": "yt:DTCmprPCDqc",
+          "title": "Exercise, Nutrition, Hormones for Vitality & Longevity | Dr. Peter Attia",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:EhlIkzJwPlk",
+          "title": "Female Hormone Health, Fertility & Vitality | Dr. Natalie Crawford",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:O1YRwWmue4Y",
+          "title": "How to Optimize Fertility in Males & Females",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:hMzfGZnaPN8",
+          "title": "Female Hormone Health, PCOS, Endometriosis, Fertility & Breast Cancer | Dr. Tha\u00efs Aliabadi",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:uxZFl4BDOGk",
+          "title": "The Biology of Aggression, Mating, & Arousal | Dr. David Anderson",
+          "term": "progesterone",
+          "where": "description"
+        }
+      ],
+      "amh": [
+        {
+          "source": "inventory",
+          "ref": "yt:EhlIkzJwPlk",
+          "title": "Female Hormone Health, Fertility & Vitality | Dr. Natalie Crawford",
+          "term": "amh",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:GVRDGQhoEYQ",
+          "title": "How to Optimize Female Hormone Health for Vitality & Longevity | Dr. Sara Gottfried",
+          "term": "amh",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:O1YRwWmue4Y",
+          "title": "How to Optimize Fertility in Males & Females",
+          "term": "amh",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:RTPNJgHeZBI",
+          "title": "How Women Can Improve Their Fertility & Hormone Health | Dr. Natalie Crawford",
+          "term": "amh",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:hMzfGZnaPN8",
+          "title": "Female Hormone Health, PCOS, Endometriosis, Fertility & Breast Cancer | Dr. Tha\u00efs Aliabadi",
+          "term": "amh",
+          "where": "description"
+        }
+      ],
+      "dht": [
+        {
+          "source": "inventory",
+          "ref": "yt:FCFQx3cA0Lg",
+          "title": "How Hormones Shape Sexual Development | Huberman Lab Essentials",
+          "term": "dht",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:J7SrAEacyf8",
+          "title": "How Hormones Shape Sexual Development",
+          "term": "dht",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:O640yAgq5f8",
+          "title": "Tools for Hormone Optimization in Males | Dr. Kyle Gillett",
+          "term": "dht",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:XLr2RKoD-oY",
+          "title": "Science of Muscle Growth, Increasing Strength & Muscular Recovery",
+          "term": "dht",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:fYhY-vC000A",
+          "title": "Essentials: How to Optimize Your Hormones for Health & Vitality | Dr. Kyle Gillett",
+          "term": "dht",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:mcPSRWUYCv0",
+          "title": "Control Pain & Heal Faster with Your Brain",
+          "term": "dht",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:ncSoor2Iw8k",
+          "title": "How to Optimize Your Hormones for Health & Vitality | Dr. Kyle Gillett",
+          "term": "dht",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:pkJi9Raxikg",
+          "title": "Improving Male Sexual Health, Function & Fertility | Dr. Michael Eisenberg",
+          "term": "dht",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:qJXKhu5UZwk",
+          "title": "The Science of How to Optimize Testosterone & Estrogen",
+          "term": "dht",
+          "where": "description"
+        }
+      ],
+      "cortisol-am": [
+        {
+          "source": "inventory",
+          "ref": "yt:Ibj1k3IZTNU",
+          "title": "How to Control Your Cortisol & Overcome Burnout",
+          "term": "morning cortisol",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:oeVfCqlHn_I",
+          "title": "Tools to Set Your Cortisol Rhythm",
+          "term": "morning cortisol",
+          "where": "description"
+        }
+      ],
+      "lh": [
+        {
+          "source": "inventory",
+          "ref": "yt:O1YRwWmue4Y",
+          "title": "How to Optimize Fertility in Males & Females",
+          "term": "lh",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:ncSoor2Iw8k",
+          "title": "How to Optimize Your Hormones for Health & Vitality | Dr. Kyle Gillett",
+          "term": "lh",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:v4HRWgwjP_k",
+          "title": "How to Optimize Testosterone & Estrogen | Huberman Lab Essentials",
+          "term": "luteinizing hormone",
+          "where": "description"
+        }
+      ],
+      "fsh": [
+        {
+          "source": "inventory",
+          "ref": "yt:O1YRwWmue4Y",
+          "title": "How to Optimize Fertility in Males & Females",
+          "term": "fsh",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:pkJi9Raxikg",
+          "title": "Improving Male Sexual Health, Function & Fertility | Dr. Michael Eisenberg",
+          "term": "fsh",
+          "where": "description"
+        }
+      ],
+      "prolactin": [
+        {
+          "source": "inventory",
+          "ref": "yt:QmOF0crdyRU",
+          "title": "Controlling Your Dopamine For Motivation, Focus & Satisfaction",
+          "term": "prolactin",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:X4QE6t-MkYE",
+          "title": "Psychedelics & Neurostimulation for Brain Rewiring | Dr. Nolan Williams",
+          "term": "prolactin",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:fYhY-vC000A",
+          "title": "Essentials: How to Optimize Your Hormones for Health & Vitality | Dr. Kyle Gillett",
+          "term": "prolactin",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:gXvuJu1kt48",
+          "title": "The Effects of Cannabis (Marijuana) on the Brain & Body",
+          "term": "prolactin",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:k8SBJzsIWAo",
+          "title": "Male vs. Female Brain Differences & How They Arise From Genes & Hormones | Dr. Nirao Shah",
+          "term": "prolactin",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:ncSoor2Iw8k",
+          "title": "How to Optimize Your Hormones for Health & Vitality | Dr. Kyle Gillett",
+          "term": "prolactin",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:pkJi9Raxikg",
+          "title": "Improving Male Sexual Health, Function & Fertility | Dr. Michael Eisenberg",
+          "term": "prolactin",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:qJXKhu5UZwk",
+          "title": "The Science of How to Optimize Testosterone & Estrogen",
+          "term": "prolactin",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:slUCmZJDXrk",
+          "title": "The Science of MDMA & Its Therapeutic Uses: Benefits & Risks | Huberman Lab Podcast",
+          "term": "prolactin",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:vA50EK70whE",
+          "title": "How to Increase Motivation & Drive",
+          "term": "prolactin",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:x7qbJeRxWGw",
+          "title": "How to Control Your Metabolism by Thyroid & Growth Hormone",
+          "term": "prolactin",
+          "where": "description"
+        }
+      ]
+    },
+    "marker_affinity": [
+      "amh",
+      "cortisol-am",
+      "dhea",
+      "dht",
+      "free-testosterone",
+      "fsh",
+      "lh",
+      "progesterone",
+      "prolactin",
+      "shbg",
+      "total-testosterone"
+    ]
+  },
+  {
+    "entity_key": "person:ken-berry",
+    "channel_id": "",
+    "display_name": "Ken Berry",
+    "entity_type": "person",
+    "surfaces": [],
+    "evidence": {
+      "shbg": [
+        {
+          "source": "inventory",
+          "ref": "yt:O64j4uC8diA",
+          "title": "HIGH INSULIN = FRAGILE BONES, Cancer & Faster Aging? with Dr. Isabella Cooper",
+          "term": "shbg",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:PsBrQo9Oj14",
+          "title": "7 Foods that Will TANK Your Testosterone - 2026",
+          "term": "sex hormone binding globulin",
+          "where": "description"
+        }
+      ],
+      "progesterone": [
+        {
+          "source": "inventory",
+          "ref": "yt:W8tWuhjZ4ls",
+          "title": "Shrink FIBROIDS (Little Known Scientific Fix) 2026",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:bFKs65QsugA",
+          "title": "Carnivore Diet Lab Results of Dr Berry & Nurse Neisha - 2026",
+          "term": "progesterone",
+          "where": "description"
+        }
+      ]
+    },
+    "marker_affinity": [
+      "progesterone",
+      "shbg"
+    ]
+  },
+  {
+    "entity_key": "person:david-perlmutter",
+    "channel_id": "",
+    "display_name": "David Perlmutter",
+    "entity_type": "person",
+    "surfaces": [],
+    "evidence": {
+      "progesterone": [
+        {
+          "source": "inventory",
+          "ref": "yt:V0Ni3j3b6IQ",
+          "title": "Perimenopause Is a Brain Event",
+          "term": "progesterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Y4uE2y-DLPI",
+          "title": "A Solution to the Alarming Drop in Testosterone Levels Worldwide: The Promise of TRT | Dr. Gapin",
+          "term": "progesterone",
+          "where": "description"
+        }
+      ]
+    },
+    "marker_affinity": [
+      "progesterone"
+    ]
+  },
+  {
+    "entity_key": "person:sten-ekberg",
+    "channel_id": "",
+    "display_name": "Sten Ekberg",
+    "entity_type": "person",
+    "surfaces": [],
+    "evidence": {
+      "cortisol-am": [
+        {
+          "source": "inventory",
+          "ref": "yt:b0jYpbUAVz4",
+          "title": "Cortisol And Stress Response (What You Must Know) - Dr Ekberg",
+          "term": "stress hormone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:sI7m6qhGWi0",
+          "title": "How To Reduce Cortisol Levels Naturally For Weight Loss And Stress Relief",
+          "term": "stress hormone",
+          "where": "description"
+        }
+      ]
+    },
+    "marker_affinity": [
+      "cortisol-am"
+    ]
+  },
+  {
+    "entity_key": "person:judy-cho",
+    "channel_id": "",
+    "display_name": "Judy Cho",
+    "entity_type": "person",
+    "surfaces": [],
+    "evidence": {
+      "shbg": [
+        {
+          "source": "inventory",
+          "ref": "yt:bDaIhHbnuWk",
+          "title": "Why Paul Saladino is Wrong about the Carnivore Diet (Hormones, Insulin and Electrolyte Issues)",
+          "term": "shbg",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:sEL7tPbOIcE",
+          "title": "Are Grain-Fed Animals Safe on Carnivore? PUFAs Discussed - Dr. Paul Mason",
+          "term": "shbg",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:sgZobeP5yRA",
+          "title": "Why You Have Hormone, Thyroid and Testosterone (SHBG) Imbalances \u2013 Dr. Jay Wrigley",
+          "term": "shbg",
+          "where": "title"
+        }
+      ],
+      "dhea": [
+        {
+          "source": "inventory",
+          "ref": "yt:bDaIhHbnuWk",
+          "title": "Why Paul Saladino is Wrong about the Carnivore Diet (Hormones, Insulin and Electrolyte Issues)",
+          "term": "dhea",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:wlQn9VoKBjg",
+          "title": "Low T? Check DHEA and the environment",
+          "term": "dhea",
+          "where": "title"
+        }
+      ]
+    },
+    "marker_affinity": [
+      "dhea",
+      "shbg"
+    ]
+  }
+]

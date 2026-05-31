@@ -77,7 +77,7 @@
       "source_tier": "A",
       "source_grade": "B1",
       "marker_affinity": [],
-      "key_contribution": "Charité Berlin",
+      "key_contribution": "Charit\u00e9 Berlin",
       "surfaces": [],
       "commercial_interests": []
     },
@@ -471,15 +471,15 @@
     },
     {
       "id": "person:fredrik-nystrom",
-      "canonical_name": "Fredrik Nyström",
+      "canonical_name": "Fredrik Nystr\u00f6m",
       "aliases": [
-        "Fredrik Nyström",
-        "Nyström",
-        "P. Nyström",
-        "Prof Fredrik Nyström",
-        "Prof Nyström",
-        "drnyström",
-        "drprofnyström"
+        "Fredrik Nystr\u00f6m",
+        "Nystr\u00f6m",
+        "P. Nystr\u00f6m",
+        "Prof Fredrik Nystr\u00f6m",
+        "Prof Nystr\u00f6m",
+        "drnystr\u00f6m",
+        "drprofnystr\u00f6m"
       ],
       "entity_type": "person",
       "country": "EUROPEAN UNION (Major Languages)",
@@ -493,7 +493,7 @@
       "source_tier": "A",
       "source_grade": "B2",
       "marker_affinity": [],
-      "key_contribution": "Linköping University",
+      "key_contribution": "Link\u00f6ping University",
       "surfaces": [],
       "commercial_interests": []
     },
@@ -560,15 +560,15 @@
     },
     {
       "id": "person:istvan-takacs",
-      "canonical_name": "István Takács",
+      "canonical_name": "Istv\u00e1n Tak\u00e1cs",
       "aliases": [
-        "István Takács",
-        "P. Takács",
-        "Prof István Takács",
-        "Prof Takács",
-        "Takács",
-        "drproftakács",
-        "drtakács"
+        "Istv\u00e1n Tak\u00e1cs",
+        "P. Tak\u00e1cs",
+        "Prof Istv\u00e1n Tak\u00e1cs",
+        "Prof Tak\u00e1cs",
+        "Tak\u00e1cs",
+        "drproftak\u00e1cs",
+        "drtak\u00e1cs"
       ],
       "entity_type": "person",
       "country": "HUNGARY (Special Focus)",
@@ -900,15 +900,15 @@
     },
     {
       "id": "person:miklos-szathmary",
-      "canonical_name": "Miklós Szathmáry",
+      "canonical_name": "Mikl\u00f3s Szathm\u00e1ry",
       "aliases": [
-        "Miklós Szathmáry",
-        "P. Szathmáry",
-        "Prof Miklós Szathmáry",
-        "Prof Szathmáry",
-        "Szathmáry",
-        "drprofszathmáry",
-        "drszathmáry"
+        "Mikl\u00f3s Szathm\u00e1ry",
+        "P. Szathm\u00e1ry",
+        "Prof Mikl\u00f3s Szathm\u00e1ry",
+        "Prof Szathm\u00e1ry",
+        "Szathm\u00e1ry",
+        "drprofszathm\u00e1ry",
+        "drszathm\u00e1ry"
       ],
       "entity_type": "person",
       "country": "HUNGARY (Special Focus)",
@@ -1100,15 +1100,15 @@
     },
     {
       "id": "person:peter-jonsson",
-      "canonical_name": "Peter Jönsson",
+      "canonical_name": "Peter J\u00f6nsson",
       "aliases": [
-        "Peter Jönsson",
-        "Jönsson",
-        "P. Jönsson",
-        "Prof Jönsson",
-        "Prof Peter Jönsson",
-        "drjönsson",
-        "drprofjönsson"
+        "Peter J\u00f6nsson",
+        "J\u00f6nsson",
+        "P. J\u00f6nsson",
+        "Prof J\u00f6nsson",
+        "Prof Peter J\u00f6nsson",
+        "drj\u00f6nsson",
+        "drprofj\u00f6nsson"
       ],
       "entity_type": "person",
       "country": "EUROPEAN UNION (Major Languages)",
@@ -1128,15 +1128,15 @@
     },
     {
       "id": "person:rafael-manquez",
-      "canonical_name": "Rafael Máñquez",
+      "canonical_name": "Rafael M\u00e1\u00f1quez",
       "aliases": [
-        "Rafael Máñquez",
-        "Máñquez",
-        "P. Máñquez",
-        "Prof Máñquez",
-        "Prof Rafael Máñquez",
-        "drmáñquez",
-        "drprofmáñquez"
+        "Rafael M\u00e1\u00f1quez",
+        "M\u00e1\u00f1quez",
+        "P. M\u00e1\u00f1quez",
+        "Prof M\u00e1\u00f1quez",
+        "Prof Rafael M\u00e1\u00f1quez",
+        "drm\u00e1\u00f1quez",
+        "drprofm\u00e1\u00f1quez"
       ],
       "entity_type": "person",
       "country": "EUROPEAN UNION (Major Languages)",
@@ -1512,11 +1512,11 @@
     },
     {
       "id": "person:zoltan-rakonczay-jr",
-      "canonical_name": "Zoltán Rakonczay Jr.",
+      "canonical_name": "Zolt\u00e1n Rakonczay Jr.",
       "aliases": [
-        "Zoltán Rakonczay Jr.",
+        "Zolt\u00e1n Rakonczay Jr.",
         "Prof Jr",
-        "Prof Zoltán Rakonczay Jr",
+        "Prof Zolt\u00e1n Rakonczay Jr",
         "drjr",
         "drprofjr"
       ],
@@ -1532,7 +1532,7 @@
       "source_tier": "A",
       "source_grade": "B2",
       "marker_affinity": [],
-      "key_contribution": "University of Pécs",
+      "key_contribution": "University of P\u00e9cs",
       "surfaces": [],
       "commercial_interests": []
     },
@@ -1640,9 +1640,20 @@
       "source_tier": "B",
       "source_grade": "D1",
       "marker_affinity": [
+        "amh",
+        "cortisol-am",
+        "dhea",
+        "dht",
         "fasting-insulin",
-        "vitamin-d",
-        "ferritin"
+        "ferritin",
+        "free-testosterone",
+        "fsh",
+        "lh",
+        "progesterone",
+        "prolactin",
+        "shbg",
+        "total-testosterone",
+        "vitamin-d"
       ],
       "key_contribution": "Neuroscience",
       "surfaces": [
@@ -1665,7 +1676,123 @@
           "priority": "secondary"
         }
       ],
-      "commercial_interests": []
+      "commercial_interests": [],
+      "discovery_provenance": [
+        {
+          "marker": "dhea",
+          "evidence_count": 3,
+          "evidence": [
+            "yt:6P8hrzjnetU",
+            "yt:qJXKhu5UZwk",
+            "yt:x7qbJeRxWGw"
+          ]
+        },
+        {
+          "marker": "total-testosterone",
+          "evidence_count": 2,
+          "evidence": [
+            "yt:DTCmprPCDqc",
+            "yt:tLS6t3FVOTI"
+          ]
+        },
+        {
+          "marker": "free-testosterone",
+          "evidence_count": 2,
+          "evidence": [
+            "yt:DTCmprPCDqc",
+            "yt:O640yAgq5f8"
+          ]
+        },
+        {
+          "marker": "shbg",
+          "evidence_count": 4,
+          "evidence": [
+            "yt:DTCmprPCDqc",
+            "yt:O640yAgq5f8",
+            "yt:ncSoor2Iw8k",
+            "yt:qJXKhu5UZwk"
+          ]
+        },
+        {
+          "marker": "progesterone",
+          "evidence_count": 5,
+          "evidence": [
+            "yt:DTCmprPCDqc",
+            "yt:EhlIkzJwPlk",
+            "yt:O1YRwWmue4Y",
+            "yt:hMzfGZnaPN8",
+            "yt:uxZFl4BDOGk"
+          ]
+        },
+        {
+          "marker": "amh",
+          "evidence_count": 5,
+          "evidence": [
+            "yt:EhlIkzJwPlk",
+            "yt:GVRDGQhoEYQ",
+            "yt:O1YRwWmue4Y",
+            "yt:RTPNJgHeZBI",
+            "yt:hMzfGZnaPN8"
+          ]
+        },
+        {
+          "marker": "dht",
+          "evidence_count": 9,
+          "evidence": [
+            "yt:FCFQx3cA0Lg",
+            "yt:J7SrAEacyf8",
+            "yt:O640yAgq5f8",
+            "yt:XLr2RKoD-oY",
+            "yt:fYhY-vC000A",
+            "yt:mcPSRWUYCv0",
+            "yt:ncSoor2Iw8k",
+            "yt:pkJi9Raxikg",
+            "yt:qJXKhu5UZwk"
+          ]
+        },
+        {
+          "marker": "cortisol-am",
+          "evidence_count": 2,
+          "evidence": [
+            "yt:Ibj1k3IZTNU",
+            "yt:oeVfCqlHn_I"
+          ]
+        },
+        {
+          "marker": "lh",
+          "evidence_count": 3,
+          "evidence": [
+            "yt:O1YRwWmue4Y",
+            "yt:ncSoor2Iw8k",
+            "yt:v4HRWgwjP_k"
+          ]
+        },
+        {
+          "marker": "fsh",
+          "evidence_count": 2,
+          "evidence": [
+            "yt:O1YRwWmue4Y",
+            "yt:pkJi9Raxikg"
+          ]
+        },
+        {
+          "marker": "prolactin",
+          "evidence_count": 11,
+          "evidence": [
+            "yt:QmOF0crdyRU",
+            "yt:X4QE6t-MkYE",
+            "yt:fYhY-vC000A",
+            "yt:gXvuJu1kt48",
+            "yt:k8SBJzsIWAo",
+            "yt:ncSoor2Iw8k",
+            "yt:pkJi9Raxikg",
+            "yt:qJXKhu5UZwk",
+            "yt:slUCmZJDXrk",
+            "yt:vA50EK70whE",
+            "yt:x7qbJeRxWGw"
+          ]
+        }
+      ]
     },
     {
       "id": "person:andrew-koutnik",
@@ -1696,14 +1823,14 @@
     },
     {
       "id": "person:andras-toth",
-      "canonical_name": "András Tóth",
+      "canonical_name": "Andr\u00e1s T\u00f3th",
       "aliases": [
-        "András Tóth",
-        "D. Tóth",
-        "Dr András Tóth",
-        "Dr Tóth",
-        "Tóth",
-        "drtóth"
+        "Andr\u00e1s T\u00f3th",
+        "D. T\u00f3th",
+        "Dr Andr\u00e1s T\u00f3th",
+        "Dr T\u00f3th",
+        "T\u00f3th",
+        "drt\u00f3th"
       ],
       "entity_type": "person",
       "country": "HUNGARY (Special Focus)",
@@ -1723,13 +1850,13 @@
     },
     {
       "id": "person:anna-k-feher",
-      "canonical_name": "Anna K. Fehér",
+      "canonical_name": "Anna K. Feh\u00e9r",
       "aliases": [
-        "Anna K. Fehér",
-        "Dr Anna K Fehér",
-        "Dr Fehér",
-        "Fehér",
-        "drfehér"
+        "Anna K. Feh\u00e9r",
+        "Dr Anna K Feh\u00e9r",
+        "Dr Feh\u00e9r",
+        "Feh\u00e9r",
+        "drfeh\u00e9r"
       ],
       "entity_type": "person",
       "country": "HUNGARY (Special Focus)",
@@ -1749,13 +1876,13 @@
     },
     {
       "id": "person:anna-m-szilagyi",
-      "canonical_name": "Anna M. Szilágyi",
+      "canonical_name": "Anna M. Szil\u00e1gyi",
       "aliases": [
-        "Anna M. Szilágyi",
-        "Dr Anna M Szilágyi",
-        "Dr Szilágyi",
-        "Szilágyi",
-        "drszilágyi"
+        "Anna M. Szil\u00e1gyi",
+        "Dr Anna M Szil\u00e1gyi",
+        "Dr Szil\u00e1gyi",
+        "Szil\u00e1gyi",
+        "drszil\u00e1gyi"
       ],
       "entity_type": "person",
       "country": "HUNGARY (Special Focus)",
@@ -1975,13 +2102,13 @@
     },
     {
       "id": "person:bence-t-karoly",
-      "canonical_name": "Bence T. Károly",
+      "canonical_name": "Bence T. K\u00e1roly",
       "aliases": [
-        "Bence T. Károly",
-        "Dr Bence T Károly",
-        "Dr Károly",
-        "Károly",
-        "drkároly"
+        "Bence T. K\u00e1roly",
+        "Dr Bence T K\u00e1roly",
+        "Dr K\u00e1roly",
+        "K\u00e1roly",
+        "drk\u00e1roly"
       ],
       "entity_type": "person",
       "country": "HUNGARY (Special Focus)",
@@ -2362,10 +2489,11 @@
       "source_tier": "B",
       "source_grade": "C2",
       "marker_affinity": [
-        "hba1c",
         "fasting-insulin",
+        "hba1c",
         "homa-ir",
-        "hs-crp"
+        "hs-crp",
+        "progesterone"
       ],
       "key_contribution": "Neurologist",
       "surfaces": [
@@ -2388,7 +2516,17 @@
           "priority": "secondary"
         }
       ],
-      "commercial_interests": []
+      "commercial_interests": [],
+      "discovery_provenance": [
+        {
+          "marker": "progesterone",
+          "evidence_count": 2,
+          "evidence": [
+            "yt:V0Ni3j3b6IQ",
+            "yt:Y4uE2y-DLPI"
+          ]
+        }
+      ]
     },
     {
       "id": "media:diet-doctor",
@@ -2485,11 +2623,11 @@
       "canonical_name": "Evelyne Bourdua-Roy",
       "aliases": [
         "Evelyne Bourdua-Roy",
-        "Èvelyne Bourdua-Roy",
+        "\u00c8velyne Bourdua-Roy",
         "Bourdua-Roy",
         "D. Bourdua-Roy",
         "Dr Bourdua-Roy",
-        "Dr Èvelyne Bourdua-Roy",
+        "Dr \u00c8velyne Bourdua-Roy",
         "drbourdua-roy"
       ],
       "entity_type": "person",
@@ -2722,14 +2860,14 @@
     },
     {
       "id": "person:javier-gonzalez-gallego",
-      "canonical_name": "Javier González-Gallego",
+      "canonical_name": "Javier Gonz\u00e1lez-Gallego",
       "aliases": [
-        "Javier González-Gallego",
-        "D. González-Gallego",
-        "Dr González-Gallego",
-        "Dr Javier González-Gallego",
-        "González-Gallego",
-        "drgonzález-gallego"
+        "Javier Gonz\u00e1lez-Gallego",
+        "D. Gonz\u00e1lez-Gallego",
+        "Dr Gonz\u00e1lez-Gallego",
+        "Dr Javier Gonz\u00e1lez-Gallego",
+        "Gonz\u00e1lez-Gallego",
+        "drgonz\u00e1lez-gallego"
       ],
       "entity_type": "person",
       "country": "EUROPEAN UNION (Major Languages)",
@@ -2743,7 +2881,7 @@
       "source_tier": "B",
       "source_grade": "D1",
       "marker_affinity": [],
-      "key_contribution": "University of León",
+      "key_contribution": "University of Le\u00f3n",
       "surfaces": [],
       "commercial_interests": []
     },
@@ -2859,11 +2997,11 @@
     },
     {
       "id": "person:jose-l-g-luna",
-      "canonical_name": "José L. G. Luna",
+      "canonical_name": "Jos\u00e9 L. G. Luna",
       "aliases": [
-        "José L. G. Luna",
+        "Jos\u00e9 L. G. Luna",
         "Luna",
-        "Prof José L G Luna",
+        "Prof Jos\u00e9 L G Luna",
         "Prof Luna",
         "drluna",
         "drprofluna"
@@ -2904,7 +3042,10 @@
       ],
       "source_tier": "B",
       "source_grade": "D1",
-      "marker_affinity": [],
+      "marker_affinity": [
+        "dhea",
+        "shbg"
+      ],
       "key_contribution": "Nutritionist",
       "surfaces": [
         {
@@ -2914,15 +3055,34 @@
           "priority": "primary"
         }
       ],
-      "commercial_interests": []
+      "commercial_interests": [],
+      "discovery_provenance": [
+        {
+          "marker": "shbg",
+          "evidence_count": 3,
+          "evidence": [
+            "yt:bDaIhHbnuWk",
+            "yt:sEL7tPbOIcE",
+            "yt:sgZobeP5yRA"
+          ]
+        },
+        {
+          "marker": "dhea",
+          "evidence_count": 2,
+          "evidence": [
+            "yt:bDaIhHbnuWk",
+            "yt:wlQn9VoKBjg"
+          ]
+        }
+      ]
     },
     {
       "id": "person:jorn-klasen",
-      "canonical_name": "Jörn Klasen",
+      "canonical_name": "J\u00f6rn Klasen",
       "aliases": [
-        "Jörn Klasen",
+        "J\u00f6rn Klasen",
         "D. Klasen",
-        "Dr Jörn Klasen",
+        "Dr J\u00f6rn Klasen",
         "Dr Klasen",
         "Klasen",
         "drklasen"
@@ -2945,13 +3105,13 @@
     },
     {
       "id": "person:katalin-v-kovacs",
-      "canonical_name": "Katalin V. Kovács",
+      "canonical_name": "Katalin V. Kov\u00e1cs",
       "aliases": [
-        "Katalin V. Kovács",
-        "Dr Katalin V Kovács",
-        "Dr Kovács",
-        "Kovács",
-        "drkovács"
+        "Katalin V. Kov\u00e1cs",
+        "Dr Katalin V Kov\u00e1cs",
+        "Dr Kov\u00e1cs",
+        "Kov\u00e1cs",
+        "drkov\u00e1cs"
       ],
       "entity_type": "person",
       "country": "HUNGARY (Special Focus)",
@@ -3017,7 +3177,10 @@
       ],
       "source_tier": "B",
       "source_grade": "D1",
-      "marker_affinity": [],
+      "marker_affinity": [
+        "progesterone",
+        "shbg"
+      ],
       "key_contribution": "Family Medicine",
       "surfaces": [
         {
@@ -3027,7 +3190,25 @@
           "priority": "primary"
         }
       ],
-      "commercial_interests": []
+      "commercial_interests": [],
+      "discovery_provenance": [
+        {
+          "marker": "shbg",
+          "evidence_count": 2,
+          "evidence": [
+            "yt:O64j4uC8diA",
+            "yt:PsBrQo9Oj14"
+          ]
+        },
+        {
+          "marker": "progesterone",
+          "evidence_count": 2,
+          "evidence": [
+            "yt:W8tWuhjZ4ls",
+            "yt:bFKs65QsugA"
+          ]
+        }
+      ]
     },
     {
       "id": "person:keto-connect",
@@ -3201,8 +3382,11 @@
       "source_tier": "B",
       "source_grade": "C1",
       "marker_affinity": [
+        "cortisol-am",
+        "fasting-insulin",
+        "free-testosterone",
         "hba1c",
-        "fasting-insulin"
+        "progesterone"
       ],
       "key_contribution": "CGM-centric metabolic education",
       "surfaces": [
@@ -3241,6 +3425,40 @@
           ],
           "disclosure_quality": "transparent",
           "severity": "marker_specific"
+        }
+      ],
+      "discovery_provenance": [
+        {
+          "marker": "progesterone",
+          "evidence_count": 3,
+          "evidence": [
+            "yt:2vXgAo-luQI",
+            "yt:MweLkjvNimo",
+            "yt:zs1j_7bDIhA"
+          ]
+        },
+        {
+          "marker": "cortisol-am",
+          "evidence_count": 9,
+          "evidence": [
+            "yt:Dah-4W1PiaA",
+            "yt:DdnxoLtA-OE",
+            "yt:GC1I71QwRQE",
+            "yt:KXOweofyb4k",
+            "yt:OgdqM8gNI00",
+            "yt:YqicMHiSdq0",
+            "yt:fIUl17z6ugY",
+            "yt:k7z-28SHsHA",
+            "yt:kGr_mJi9CPw"
+          ]
+        },
+        {
+          "marker": "free-testosterone",
+          "evidence_count": 2,
+          "evidence": [
+            "yt:NImh8C0Sdhk",
+            "yt:Zs2CZC2GueA"
+          ]
         }
       ]
     },
@@ -3588,7 +3806,10 @@
       ],
       "source_tier": "B",
       "source_grade": "ungraded",
-      "marker_affinity": [],
+      "marker_affinity": [
+        "estradiol",
+        "progesterone"
+      ],
       "key_contribution": "Imported from social discovery practitioner registry",
       "surfaces": [
         {
@@ -3598,7 +3819,42 @@
           "priority": "primary"
         }
       ],
-      "commercial_interests": []
+      "commercial_interests": [],
+      "discovery_provenance": [
+        {
+          "marker": "estradiol",
+          "evidence_count": 10,
+          "evidence": [
+            "yt:4e56_calFuI",
+            "yt:4qAjwBpjPv0",
+            "yt:HSWwxZbfihs",
+            "yt:YiDsaipNWxY",
+            "yt:_29fWjFl_j0",
+            "yt:bYBvuWki4T4",
+            "yt:qMWk6ntvq9Q",
+            "yt:t8etsgJVCwY",
+            "yt:v_-4Q1M1S6M",
+            "yt:xGYkrWfc-GE"
+          ]
+        },
+        {
+          "marker": "progesterone",
+          "evidence_count": 11,
+          "evidence": [
+            "yt:4qAjwBpjPv0",
+            "yt:HSWwxZbfihs",
+            "yt:MUzSScFFqjA",
+            "yt:PEJDczjtQhc",
+            "yt:YiDsaipNWxY",
+            "yt:_29fWjFl_j0",
+            "yt:bYBvuWki4T4",
+            "yt:e5lGo8R1CdQ",
+            "yt:qMWk6ntvq9Q",
+            "yt:t8etsgJVCwY",
+            "yt:v_-4Q1M1S6M"
+          ]
+        }
+      ]
     },
     {
       "id": "person:nick-norwitz",
@@ -3706,13 +3962,13 @@
     },
     {
       "id": "person:orsolya-t-feher",
-      "canonical_name": "Orsolya T. Fehér",
+      "canonical_name": "Orsolya T. Feh\u00e9r",
       "aliases": [
-        "Orsolya T. Fehér",
-        "Dr Fehér",
-        "Dr Orsolya T Fehér",
-        "Fehér",
-        "drfehér"
+        "Orsolya T. Feh\u00e9r",
+        "Dr Feh\u00e9r",
+        "Dr Orsolya T Feh\u00e9r",
+        "Feh\u00e9r",
+        "drfeh\u00e9r"
       ],
       "entity_type": "person",
       "country": "HUNGARY (Special Focus)",
@@ -3803,7 +4059,9 @@
       ],
       "source_tier": "B",
       "source_grade": "ungraded",
-      "marker_affinity": [],
+      "marker_affinity": [
+        "lh"
+      ],
       "key_contribution": "Imported from social discovery practitioner registry",
       "surfaces": [
         {
@@ -3813,7 +4071,18 @@
           "priority": "primary"
         }
       ],
-      "commercial_interests": []
+      "commercial_interests": [],
+      "discovery_provenance": [
+        {
+          "marker": "lh",
+          "evidence_count": 3,
+          "evidence": [
+            "yt:6AUHMQzo5F4",
+            "yt:JawPF4VwQg0",
+            "yt:iILnDvAHruI"
+          ]
+        }
+      ]
     },
     {
       "id": "network:public-health-collaboration",
@@ -4058,7 +4327,14 @@
       ],
       "source_tier": "B",
       "source_grade": "D1",
-      "marker_affinity": [],
+      "marker_affinity": [
+        "dhea",
+        "dhea-s",
+        "dht",
+        "estradiol",
+        "progesterone",
+        "shbg"
+      ],
       "key_contribution": "Health Coach",
       "surfaces": [
         {
@@ -4068,7 +4344,64 @@
           "priority": "primary"
         }
       ],
-      "commercial_interests": []
+      "commercial_interests": [],
+      "discovery_provenance": [
+        {
+          "marker": "estradiol",
+          "evidence_count": 2,
+          "evidence": [
+            "yt:0grv7IJ_nxg",
+            "yt:SgKp5mm0ALI"
+          ]
+        },
+        {
+          "marker": "dhea",
+          "evidence_count": 7,
+          "evidence": [
+            "yt:CWB-qMLJNhQ",
+            "yt:DvQQNr7dDNU",
+            "yt:F_1KaUerwVQ",
+            "yt:SgKp5mm0ALI",
+            "yt:W8DZbYyuDmA",
+            "yt:nVf38nrk84I",
+            "yt:t7afAdI88U4"
+          ]
+        },
+        {
+          "marker": "dhea-s",
+          "evidence_count": 2,
+          "evidence": [
+            "yt:DvQQNr7dDNU",
+            "yt:SgKp5mm0ALI"
+          ]
+        },
+        {
+          "marker": "dht",
+          "evidence_count": 4,
+          "evidence": [
+            "yt:F_1KaUerwVQ",
+            "yt:sErNbz8C4sA",
+            "yt:t7afAdI88U4",
+            "yt:xLqq14G8voc"
+          ]
+        },
+        {
+          "marker": "shbg",
+          "evidence_count": 2,
+          "evidence": [
+            "yt:SgKp5mm0ALI",
+            "yt:aRYXTpEOw1U"
+          ]
+        },
+        {
+          "marker": "progesterone",
+          "evidence_count": 2,
+          "evidence": [
+            "yt:SgKp5mm0ALI",
+            "yt:t7afAdI88U4"
+          ]
+        }
+      ]
     },
     {
       "id": "person:sten-ekberg",
@@ -4093,16 +4426,17 @@
       "source_tier": "B",
       "source_grade": "D1",
       "marker_affinity": [
-        "hba1c",
-        "fasting-insulin",
-        "homa-ir",
         "apob",
+        "cortisol-am",
+        "fasting-insulin",
+        "free-t3",
+        "hba1c",
+        "hdl-cholesterol",
+        "homa-ir",
+        "ldl-cholesterol",
         "lpa",
         "tg-hdl-ratio",
-        "hdl-cholesterol",
-        "ldl-cholesterol",
-        "tsh",
-        "free-t3"
+        "tsh"
       ],
       "key_contribution": "Chiropractor/Functional Medicine",
       "surfaces": [
@@ -4119,7 +4453,17 @@
           "priority": "primary"
         }
       ],
-      "commercial_interests": []
+      "commercial_interests": [],
+      "discovery_provenance": [
+        {
+          "marker": "cortisol-am",
+          "evidence_count": 2,
+          "evidence": [
+            "yt:b0jYpbUAVz4",
+            "yt:sI7m6qhGWi0"
+          ]
+        }
+      ]
     },
     {
       "id": "person:steven-gundry",
@@ -4292,7 +4636,9 @@
       ],
       "source_tier": "B",
       "source_grade": "D1",
-      "marker_affinity": [],
+      "marker_affinity": [
+        "dhea"
+      ],
       "key_contribution": "Physician",
       "surfaces": [
         {
@@ -4302,7 +4648,17 @@
           "priority": "primary"
         }
       ],
-      "commercial_interests": []
+      "commercial_interests": [],
+      "discovery_provenance": [
+        {
+          "marker": "dhea",
+          "evidence_count": 2,
+          "evidence": [
+            "yt:59xaWoE3kpY",
+            "yt:HZLtwCKwYYg"
+          ]
+        }
+      ]
     },
     {
       "id": "person:thomas-seyfried",
@@ -4474,14 +4830,14 @@
     },
     {
       "id": "person:zoltan-szabo",
-      "canonical_name": "Zoltán Szabó",
+      "canonical_name": "Zolt\u00e1n Szab\u00f3",
       "aliases": [
-        "Zoltán Szabó",
-        "D. Szabó",
-        "Dr Szabó",
-        "Dr Zoltán Szabó",
-        "Szabó",
-        "drszabó"
+        "Zolt\u00e1n Szab\u00f3",
+        "D. Szab\u00f3",
+        "Dr Szab\u00f3",
+        "Dr Zolt\u00e1n Szab\u00f3",
+        "Szab\u00f3",
+        "drszab\u00f3"
       ],
       "entity_type": "person",
       "country": "HUNGARY (Special Focus)",
@@ -4506,12 +4862,12 @@
     },
     {
       "id": "person:zoe-harcombe",
-      "canonical_name": "Zoë Harcombe",
+      "canonical_name": "Zo\u00eb Harcombe",
       "aliases": [
-        "Zoë Harcombe",
+        "Zo\u00eb Harcombe",
         "D. Harcombe",
         "Dr Harcombe",
-        "Dr Zoë Harcombe",
+        "Dr Zo\u00eb Harcombe",
         "Harcombe",
         "drharcombe"
       ],
@@ -4590,7 +4946,19 @@
       ],
       "source_tier": "C",
       "source_grade": "E2",
-      "marker_affinity": [],
+      "marker_affinity": [
+        "cortisol-am",
+        "dhea",
+        "dhea-s",
+        "dht",
+        "estradiol",
+        "free-testosterone",
+        "fsh",
+        "lh",
+        "progesterone",
+        "prolactin",
+        "shbg"
+      ],
       "key_contribution": "Metabolic/keto health educator (YouTube)",
       "surfaces": [
         {
@@ -4600,7 +4968,278 @@
           "priority": "primary"
         }
       ],
-      "commercial_interests": []
+      "commercial_interests": [],
+      "discovery_provenance": [
+        {
+          "marker": "estradiol",
+          "evidence_count": 8,
+          "evidence": [
+            "yt:-9gexE36Md0",
+            "yt:6vn7-OjX4Kc",
+            "yt:9KDMqqCR3sg",
+            "yt:D7kAqIzTCXA",
+            "yt:amsr6TlEaIQ",
+            "yt:pdWU0oaPYNo",
+            "yt:qoXkv1b3fWo",
+            "yt:rjVXFqiPDwE"
+          ]
+        },
+        {
+          "marker": "free-testosterone",
+          "evidence_count": 2,
+          "evidence": [
+            "yt:0Nfy8vUBx8c",
+            "yt:NfkX-B_20EY"
+          ]
+        },
+        {
+          "marker": "dht",
+          "evidence_count": 33,
+          "evidence": [
+            "yt:0Nfy8vUBx8c",
+            "yt:0tj7VfiURuk",
+            "yt:1pTdTYpvhFk",
+            "yt:4r8Mf7BL2Pk",
+            "yt:72j8NXuJ1oY",
+            "yt:7C9lzPoGUJ4",
+            "yt:7hkTOt3M9R4",
+            "yt:8iDbrE9USYw",
+            "yt:CH7Ox6aYwxc",
+            "yt:GRN_W9d6y84",
+            "yt:JE3PeG4hi4w",
+            "yt:LFWspXbN8jY",
+            "yt:LKlQm4Szqdw",
+            "yt:M1zphh8YzD8",
+            "yt:QgMksKGvI0Y",
+            "yt:R3gnuGfhh88",
+            "yt:T8Ghse_HdKA",
+            "yt:TIPXGsDnrLE",
+            "yt:W-vbcLp2Ss8",
+            "yt:YU3LO6wbZAU",
+            "yt:aZqhHKB-mKc",
+            "yt:hvhs40xmGTA",
+            "yt:kLOPA3OyTBw",
+            "yt:mQvwYL2q0RE",
+            "yt:nm4xVAx7f0U",
+            "yt:o7I-1L1LUNY",
+            "yt:ov2Wbvwu4mY",
+            "yt:t6KFyBt9BNs",
+            "yt:tTEYCKFI01E",
+            "yt:vIM_ZHBZcJo",
+            "yt:vx42_D5bTas",
+            "yt:wLxnFvdPZ8M",
+            "yt:wrhGIgye_Z4"
+          ]
+        },
+        {
+          "marker": "progesterone",
+          "evidence_count": 42,
+          "evidence": [
+            "yt:0dNttlPqRzU",
+            "yt:1FYcC3O64fY",
+            "yt:1nAfTsObuwY",
+            "yt:5RskH6iSkqI",
+            "yt:7hkTOt3M9R4",
+            "yt:8iDbrE9USYw",
+            "yt:9NN6UfY8muA",
+            "yt:9cffC58OTxc",
+            "yt:A-SvpAEVMgQ",
+            "yt:B0FT5Yq8gQM",
+            "yt:Dh2mX_o9ZYQ",
+            "yt:DmBL4MXKXBs",
+            "yt:F_b4HOXs8ew",
+            "yt:LFWspXbN8jY",
+            "yt:N5-rDpN9ux8",
+            "yt:NgU9wbRtsNA",
+            "yt:OSaYls_-h-4",
+            "yt:QgMksKGvI0Y",
+            "yt:QlGJA-_a3uM",
+            "yt:SMSE4BYoOv4",
+            "yt:WJ7N_9UYK1Y",
+            "yt:_CqXHYgKKtY",
+            "yt:aINKYjSI2aQ",
+            "yt:bRTdoBmU8_g",
+            "yt:cMEDTX3JqOs",
+            "yt:cMPSFPPRb8s",
+            "yt:dSVNb1nin1U",
+            "yt:e5MhlSjvXh8",
+            "yt:fKCQjT2vgW8",
+            "yt:fTYKyPlU0IE",
+            "yt:h9gG1ePfRFQ",
+            "yt:hvhs40xmGTA",
+            "yt:iHrP06tUQu8",
+            "yt:kUmXIXsMi0g",
+            "yt:lGSDOHll-pg",
+            "yt:owQiY8_3OLU",
+            "yt:qR34AY8KUM4",
+            "yt:rmCXk2As1Y4",
+            "yt:t91rTD0k0SA",
+            "yt:vJu7v9JtD-o",
+            "yt:wdArmQAwEVE",
+            "yt:yRfeEraLFqQ"
+          ]
+        },
+        {
+          "marker": "dhea",
+          "evidence_count": 18,
+          "evidence": [
+            "yt:0lCuHaDj5pg",
+            "yt:5RskH6iSkqI",
+            "yt:5x8EozR1vEk",
+            "yt:9225P7K7bSs",
+            "yt:B0FT5Yq8gQM",
+            "yt:Hq9cItue5tc",
+            "yt:QlGJA-_a3uM",
+            "yt:T9OHIRGFkqs",
+            "yt:axxsROsv6_A",
+            "yt:bY_GDsbvqXM",
+            "yt:cMPSFPPRb8s",
+            "yt:dX0pJWoG9Kc",
+            "yt:e5MhlSjvXh8",
+            "yt:h8-_UI1f2dw",
+            "yt:qR34AY8KUM4",
+            "yt:uOF9ZJ-wG24",
+            "yt:vOsp52De41I",
+            "yt:ykYqa2Z08VM"
+          ]
+        },
+        {
+          "marker": "cortisol-am",
+          "evidence_count": 64,
+          "evidence": [
+            "yt:0tj7VfiURuk",
+            "yt:1COqq37F82Q",
+            "yt:2mrp1wgW9Z4",
+            "yt:3dHcT1-K-tw",
+            "yt:49wFC02H6YQ",
+            "yt:4U43bPxkx7M",
+            "yt:66ujydlh40A",
+            "yt:7ugn924mFCo",
+            "yt:89yCssqMqYM",
+            "yt:9MpeSudXyRs",
+            "yt:9iVFPVTBNaw",
+            "yt:9oGQvDKtteE",
+            "yt:AhVDHS_PLQY",
+            "yt:C5PweRDxf6g",
+            "yt:Czu9yMSj6oM",
+            "yt:FUGJjIi3UG4",
+            "yt:Hv-EmSstv8k",
+            "yt:JAnbZOcrz7g",
+            "yt:JmCBAkmJ-rs",
+            "yt:L2fKo_dbXS0",
+            "yt:LhXyJCa_b-k",
+            "yt:NOdz26znBbE",
+            "yt:OV5OlaPZ6C4",
+            "yt:OrEWl9NJD_Q",
+            "yt:PtMAiV-eNMo",
+            "yt:R7CHbEi8ysQ",
+            "yt:RHuQX5uzodA",
+            "yt:Rdsrb_g5ZLo",
+            "yt:SJ7jMfPrRhM",
+            "yt:SjbDiOMe2MY",
+            "yt:Th252QYGXWc",
+            "yt:ThH4A7YOpIs",
+            "yt:TsoYREVnVH8",
+            "yt:VRRc2yQK_Ws",
+            "yt:_EhLjMGsnRw",
+            "yt:_PDc5xI1b5U",
+            "yt:_YFXiowjS1c",
+            "yt:_ssxVfx_W3E",
+            "yt:aQrVVVJuPB8",
+            "yt:bFUwenZw1nM",
+            "yt:bK8q144Rhds",
+            "yt:fnSp_JR5pZk",
+            "yt:g3XjFOU1EyQ",
+            "yt:ii_OWTqn1rw",
+            "yt:jo4MvvUQC2k",
+            "yt:l5wClnJj4_8",
+            "yt:l8QEY-xFcTo",
+            "yt:lvpSW8U3Nr4",
+            "yt:mNll4oTHsQk",
+            "yt:n42UHnAzDY4",
+            "yt:p0C-rlWp1hk",
+            "yt:qEjWewc2TJY",
+            "yt:rEWNmcBFHOc",
+            "yt:rbT1Enu6Llk",
+            "yt:rgQ1ffvr5W0",
+            "yt:tRPqYqa3oLA",
+            "yt:tmRirTYtaS4",
+            "yt:ueI10TQbQYY",
+            "yt:weZ_BoMptLI",
+            "yt:xYJ9YPddRYg",
+            "yt:xe5y7wwz2vY",
+            "yt:xmxWqW3SxFw",
+            "yt:yyyeBuSTCwE",
+            "yt:zg0EsOp9kMA"
+          ]
+        },
+        {
+          "marker": "dhea-s",
+          "evidence_count": 12,
+          "evidence": [
+            "yt:1COqq37F82Q",
+            "yt:950fbVKFwHM",
+            "yt:ElGcuU8-LAg",
+            "yt:HAUdHuApCG4",
+            "yt:OSwhSam_hLU",
+            "yt:RR1f8bNQQNc",
+            "yt:Z9FWsmmxO7c",
+            "yt:mFozTOH5N0k",
+            "yt:p8E32j-v0nI",
+            "yt:uYQVVSu5YGw",
+            "yt:vXdR8zeEf1Y",
+            "yt:xBzFo9EvCmw"
+          ]
+        },
+        {
+          "marker": "prolactin",
+          "evidence_count": 12,
+          "evidence": [
+            "yt:1dnX-z-HJGA",
+            "yt:2nbdIrvwYEU",
+            "yt:9cffC58OTxc",
+            "yt:AIbhXK2UJ6w",
+            "yt:IvBQHDiCRqY",
+            "yt:LNgId7Eqpek",
+            "yt:hvhs40xmGTA",
+            "yt:i-NY_N_zaX4",
+            "yt:m3AfH-XlxxA",
+            "yt:serJmA0YFD0",
+            "yt:xVaXYh2hldw",
+            "yt:xxwqpMOMM34"
+          ]
+        },
+        {
+          "marker": "fsh",
+          "evidence_count": 4,
+          "evidence": [
+            "yt:60o317C-Ss0",
+            "yt:Dh2mX_o9ZYQ",
+            "yt:w9L_mm09cYk",
+            "yt:xH9DGL9noPo"
+          ]
+        },
+        {
+          "marker": "lh",
+          "evidence_count": 6,
+          "evidence": [
+            "yt:8MPpiCg5HUg",
+            "yt:A6IgSpyBrQI",
+            "yt:Dh2mX_o9ZYQ",
+            "yt:NfkX-B_20EY",
+            "yt:QlGJA-_a3uM",
+            "yt:xH9DGL9noPo"
+          ]
+        },
+        {
+          "marker": "shbg",
+          "evidence_count": 2,
+          "evidence": [
+            "yt:LYCHHYFS3gA",
+            "yt:jo4MvvUQC2k"
+          ]
+        }
+      ]
     }
   ]
 }

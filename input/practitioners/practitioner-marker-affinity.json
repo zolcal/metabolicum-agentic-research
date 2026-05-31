@@ -1,6 +1,6 @@
 {
   "schema_version": "2026-05-29",
-  "generated_at": "2026-05-29T15:57:13.451067+00:00",
+  "generated_at": "2026-05-31T00:06:41.331502+00:00",
   "canonical_source": true,
   "source_inputs": [
     "/media/zoltan/4TSSD/metabolicum-agentic-research/input/practitioner_registry.json",
@@ -24,8 +24,11 @@
       "practitioner_id": "company:levels-health",
       "canonical_name": "Levels Health",
       "marker_affinity": [
+        "cortisol-am",
+        "fasting-insulin",
+        "free-testosterone",
         "hba1c",
-        "fasting-insulin"
+        "progesterone"
       ],
       "paradigm_affinity": [
         "MO"
@@ -189,9 +192,20 @@
       "practitioner_id": "person:andrew-huberman",
       "canonical_name": "Andrew Huberman",
       "marker_affinity": [
+        "amh",
+        "cortisol-am",
+        "dhea",
+        "dht",
         "fasting-insulin",
-        "vitamin-d",
-        "ferritin"
+        "ferritin",
+        "free-testosterone",
+        "fsh",
+        "lh",
+        "progesterone",
+        "prolactin",
+        "shbg",
+        "total-testosterone",
+        "vitamin-d"
       ],
       "paradigm_affinity": [
         "MO"
@@ -437,10 +451,11 @@
       "practitioner_id": "person:david-perlmutter",
       "canonical_name": "David Perlmutter",
       "marker_affinity": [
-        "hba1c",
         "fasting-insulin",
+        "hba1c",
         "homa-ir",
-        "hs-crp"
+        "hs-crp",
+        "progesterone"
       ],
       "paradigm_affinity": [
         "MO"
@@ -489,6 +504,27 @@
         "MO"
       ],
       "key_contribution": "Rome"
+    },
+    {
+      "practitioner_id": "person:eric-berg",
+      "canonical_name": "Eric Berg",
+      "marker_affinity": [
+        "cortisol-am",
+        "dhea",
+        "dhea-s",
+        "dht",
+        "estradiol",
+        "free-testosterone",
+        "fsh",
+        "lh",
+        "progesterone",
+        "prolactin",
+        "shbg"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": "Metabolic/keto health educator (YouTube)"
     },
     {
       "practitioner_id": "person:eric-sijbrands",
@@ -716,7 +752,10 @@
     {
       "practitioner_id": "person:judy-cho",
       "canonical_name": "Judy Cho",
-      "marker_affinity": [],
+      "marker_affinity": [
+        "dhea",
+        "shbg"
+      ],
       "paradigm_affinity": [
         "MO"
       ],
@@ -743,7 +782,10 @@
     {
       "practitioner_id": "person:ken-berry",
       "canonical_name": "Ken Berry",
-      "marker_affinity": [],
+      "marker_affinity": [
+        "progesterone",
+        "shbg"
+      ],
       "paradigm_affinity": [
         "MO"
       ],
@@ -912,7 +954,10 @@
     {
       "practitioner_id": "person:mind-matter-podcast",
       "canonical_name": "Mind & Matter Podcast",
-      "marker_affinity": [],
+      "marker_affinity": [
+        "estradiol",
+        "progesterone"
+      ],
       "paradigm_affinity": [
         "MO"
       ],
@@ -1036,7 +1081,9 @@
     {
       "practitioner_id": "person:physionic",
       "canonical_name": "Physionic",
-      "marker_affinity": [],
+      "marker_affinity": [
+        "lh"
+      ],
       "paradigm_affinity": [
         "MO"
       ],
@@ -1133,7 +1180,14 @@
     {
       "practitioner_id": "person:siim-land",
       "canonical_name": "Siim Land",
-      "marker_affinity": [],
+      "marker_affinity": [
+        "dhea",
+        "dhea-s",
+        "dht",
+        "estradiol",
+        "progesterone",
+        "shbg"
+      ],
       "paradigm_affinity": [
         "MO"
       ],
@@ -1143,16 +1197,17 @@
       "practitioner_id": "person:sten-ekberg",
       "canonical_name": "Sten Ekberg",
       "marker_affinity": [
-        "hba1c",
-        "fasting-insulin",
-        "homa-ir",
         "apob",
+        "cortisol-am",
+        "fasting-insulin",
+        "free-t3",
+        "hba1c",
+        "hdl-cholesterol",
+        "homa-ir",
+        "ldl-cholesterol",
         "lpa",
         "tg-hdl-ratio",
-        "hdl-cholesterol",
-        "ldl-cholesterol",
-        "tsh",
-        "free-t3"
+        "tsh"
       ],
       "paradigm_affinity": [
         "MO"
@@ -1252,7 +1307,9 @@
     {
       "practitioner_id": "person:thomas-fordham-brewer",
       "canonical_name": "Thomas Fordham Brewer",
-      "marker_affinity": [],
+      "marker_affinity": [
+        "dhea"
+      ],
       "paradigm_affinity": [
         "MO"
       ],

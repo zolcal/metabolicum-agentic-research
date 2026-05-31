@@ -24,10 +24,17 @@ recommended_youtube_video_ids:
 - LYCHHYFS3gA
 - qJXKhu5UZwk
 - jo4MvvUQC2k
-recommended_practitioner_ids: []
+recommended_practitioner_ids:
+- person:andrew-huberman
+- person:eric-berg
+- person:judy-cho
+- person:ken-berry
+- person:siim-land
 recommended_pubmed_ids: []
 recommended_dois: []
-recommended_source_urls: []
+recommended_source_urls:
+- https://hubermanlab.com/
+- https://feeds.megaphone.fm/hubermanlab
 recommended_search_queries:
 - Shbg practitioner optimal range
 - Shbg metabolic optimization

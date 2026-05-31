@@ -1,0 +1,90 @@
+[
+  {
+    "entity_key": "channel:UCzoRyR_nlesKZuOlEjWRXQQ",
+    "channel_id": "UCzoRyR_nlesKZuOlEjWRXQQ",
+    "display_name": "Anthony Chaffee MD",
+    "entity_type": "channel",
+    "surfaces": [
+      {
+        "platform": "youtube",
+        "handle_or_url": "https://www.youtube.com/channel/UCzoRyR_nlesKZuOlEjWRXQQ",
+        "channel_id": "UCzoRyR_nlesKZuOlEjWRXQQ",
+        "discovery_mode": "auto_discovered"
+      }
+    ],
+    "evidence": {
+      "lh": [
+        {
+          "source": "inventory",
+          "ref": "yt:BgWuP3MQ1jk",
+          "title": "Want To Increase Your Testosterone Naturally? Listen To This!",
+          "term": "lh",
+          "where": "description"
+        }
+      ]
+    }
+  },
+  {
+    "entity_key": "person:jason-fung",
+    "channel_id": "",
+    "display_name": "Jason Fung",
+    "entity_type": "person",
+    "surfaces": [],
+    "evidence": {
+      "progesterone": [
+        {
+          "source": "inventory",
+          "ref": "yt:9j4AX9WxWHY",
+          "title": "How to Eat and Fast around the Menstrual Cycle and Peri-Menopause.",
+          "term": "progesterone",
+          "where": "description"
+        }
+      ],
+      "cortisol-am": [
+        {
+          "source": "inventory",
+          "ref": "yt:ZbnshVO4PRM",
+          "title": "Hormones in Weight Loss (The Obesity Code Lecture part 2)",
+          "term": "stress hormone",
+          "where": "description"
+        }
+      ]
+    }
+  },
+  {
+    "entity_key": "person:william-davis",
+    "channel_id": "",
+    "display_name": "William Davis",
+    "entity_type": "person",
+    "surfaces": [],
+    "evidence": {
+      "prolactin": [
+        {
+          "source": "inventory",
+          "ref": "yt:LbSR0V7P3y0",
+          "title": "The REAL Story Behind Man Breasts (And How to Get Rid of Them)",
+          "term": "prolactin",
+          "where": "description"
+        }
+      ]
+    }
+  },
+  {
+    "entity_key": "person:the-primal-podcast",
+    "channel_id": "",
+    "display_name": "The Primal Podcast",
+    "entity_type": "person",
+    "surfaces": [],
+    "evidence": {
+      "progesterone": [
+        {
+          "source": "inventory",
+          "ref": "yt:MTDkExiOwZU",
+          "title": "4 Carnivore Experts: The Ultimate Carnivore Diet For Women 2024",
+          "term": "progesterone",
+          "where": "description"
+        }
+      ]
+    }
+  }
+]

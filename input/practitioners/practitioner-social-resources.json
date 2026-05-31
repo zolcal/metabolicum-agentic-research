@@ -1,6 +1,6 @@
 {
   "schema_version": "2026-05-29",
-  "generated_at": "2026-05-29T15:57:13.451067+00:00",
+  "generated_at": "2026-05-31T00:06:41.331502+00:00",
   "canonical_source": true,
   "source_inputs": [
     "/media/zoltan/4TSSD/metabolicum-agentic-research/input/practitioner_registry.json",
@@ -78,7 +78,7 @@
       "platform": "youtube",
       "priority": "primary",
       "discovery_mode": "manual_seed",
-      "handle_or_url": "https://www.youtube.com/channel/UCMO_fIbfB0GaJ3vJtmxppQQ"
+      "handle_or_url": "https://www.youtube.com/channel/UC2D2CMWXMOVWx7giW1n3LIg"
     },
     {
       "practitioner_id": "person:anthony-chaffee",
@@ -167,6 +167,14 @@
       "priority": "secondary",
       "discovery_mode": "manual_seed",
       "handle_or_url": "@DominicDAgosti2"
+    },
+    {
+      "practitioner_id": "person:eric-berg",
+      "canonical_name": "Eric Berg",
+      "platform": "youtube",
+      "priority": "primary",
+      "discovery_mode": "audit_repair",
+      "handle_or_url": "https://www.youtube.com/channel/UC3w193M5tYPJqF0Hi-7U-2g"
     },
     {
       "practitioner_id": "person:georgia-ede",
@@ -262,7 +270,7 @@
       "platform": "youtube",
       "priority": "primary",
       "discovery_mode": "manual_seed",
-      "handle_or_url": "https://www.youtube.com/channel/UC2D2CMWXMOVWx7giW1n3LIg"
+      "handle_or_url": "https://www.youtube.com/channel/UC5IuDMmKWSsBFB0iKky6aEQ"
     },
     {
       "practitioner_id": "person:megan-ramos",
@@ -342,7 +350,7 @@
       "platform": "youtube",
       "priority": "primary",
       "discovery_mode": "manual_seed",
-      "handle_or_url": "https://www.youtube.com/channel/UC3w193M5tYPJqF0Hi-7U-2g"
+      "handle_or_url": "https://www.youtube.com/channel/UC8kGsMa0LygSX9nkBcBH1Sg"
     },
     {
       "practitioner_id": "person:physionic",
