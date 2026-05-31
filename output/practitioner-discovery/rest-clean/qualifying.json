@@ -1,0 +1,5602 @@
+[
+  {
+    "entity_key": "person:shawn-baker",
+    "channel_id": "",
+    "display_name": "Shawn Baker",
+    "entity_type": "person",
+    "surfaces": [],
+    "evidence": {
+      "glyphosate": [
+        {
+          "source": "inventory",
+          "ref": "yt:2XyRafspjmU",
+          "title": "RFK vs Trump: The Glyphosate Fight Just Escalated",
+          "term": "glyphosate",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:AVLZ26X1GSs",
+          "title": "What about Glyphosate in our food?",
+          "term": "glyphosate",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:WSDbET6SM5Y",
+          "title": "This Weed Killer could be MELTING YOUR BRAIN! (Glyphosate EXPOSED)",
+          "term": "glyphosate",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:i3bWJ4QEIG8",
+          "title": "Impossible Burger Ingredients (REMOVE THEM!!!)",
+          "term": "glyphosate",
+          "where": "description"
+        }
+      ],
+      "creatinine": [
+        {
+          "source": "inventory",
+          "ref": "yt:9z2bytr0Zyc",
+          "title": "How a Carnivore Diet Affects Your Serum Creatinine Levels",
+          "term": "creatinine",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Yz7hgDMAuR0",
+          "title": "Are High Creatinine Levels on the Carnivore Diet Dangerous?",
+          "term": "creatinine",
+          "where": "title"
+        }
+      ]
+    },
+    "marker_affinity": [
+      "creatinine",
+      "glyphosate"
+    ]
+  },
+  {
+    "entity_key": "person:eric-berg",
+    "channel_id": "",
+    "display_name": "Eric Berg",
+    "entity_type": "person",
+    "surfaces": [],
+    "evidence": {
+      "uric-acid": [
+        {
+          "source": "inventory",
+          "ref": "yt:-7Hez86w7-I",
+          "title": "Molybdenum for Better Detoxification",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:-FG6xjiREHc",
+          "title": "Antioxidants Control the Leaves Changing Color in the Fall: Dr. Berg",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:-cm-hpjK8gs",
+          "title": "How to Boost Your Antioxidant Network",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:-pBvIoTKNj4",
+          "title": "Why Do Stones Develop In Your Kidney and Gallbladder?",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:2Z6xbpuUsds",
+          "title": "Can Lemon Juice Really Help You Lose Weight?",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:38dp1LM5PpM",
+          "title": "How To Dissolve Kidney Stones Explained By Dr.Berg",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:3UH0jatfoQI",
+          "title": "Is Lemon Juice Acid or Alkaline?",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:3VkP4tqGhdY",
+          "title": "The #1 Best Protocol for Gout",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:3hQ-KRFjSc0",
+          "title": "The Big Difference Between Gallstones & Kidney Stones \u2013 Dr. Berg",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:44Ak4mtPs18",
+          "title": "Why is Lemon Juice Good for Gout Arthritis and Bad for Osteoarthritis? \u2013 Dr.Berg",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:4BX8knu-RFc",
+          "title": "Agave Nectar vs. High Fructose Corn Syrup: WHICH IS BETTER? \u2013 Dr. Berg",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:4VY_ehAMMTA",
+          "title": "The Dr. Berg Show LIVE - November 4, 2022",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:4b0gY_jPTI0",
+          "title": "The 7 Natural Remedies for Gout",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:5B-eWnpK0cc",
+          "title": "Keto Meal Analysis by Dr. Berg",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:5nOATly3j9U",
+          "title": "Plantar Fasciitis and Heel Spurs: The Biggest Mistake",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:6HV_FR1PKrE",
+          "title": "The Dr. Berg Show LIVE - March 21, 2024",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:7nH-xCegcYk",
+          "title": "The Most Effective Therapy For Gout (High Uric Acid)",
+          "term": "uric acid",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:7nwc3mTacrI",
+          "title": "Gout & Ketosis \u2013 Uric Acid Stones & High Uric Acid On Keto \u2013 Dr. Berg",
+          "term": "uric acid",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:7tHijDSVQrI",
+          "title": "The Surprising Facts about Insulin You Never Knew",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:96JXkd6JPjU",
+          "title": "The Dr. Berg Show LIVE",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:9D2VwqySGwA",
+          "title": "Clean Your Kidneys of Uric Acid and Oxalates",
+          "term": "uric acid",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:9MdpfUGK1C4",
+          "title": "Urine Test Simplified",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:AnyFVWwzgJI",
+          "title": "Ketogenic Diet & Intermittent Fasting \u2013 Big Overview For Beginners By Dr. Berg",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:BUiUZf0iXyU",
+          "title": "The Most Dangerous Sugar In The World!",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:CoMRcsejMGc",
+          "title": "Uric Acid Kidney Stones & Keto Diet \u2013 Dr. Berg",
+          "term": "uric acid",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:D-h4RKeR_sg",
+          "title": "Baking Soda vs (ACV) Apple Cider Vinegar for Indigestion \u2013 Dr.Berg Answers Which is Better?",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:DEiybCei-ls",
+          "title": "The #1 Collagen Tip for Amazing Hair, Nails & Skin",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Fc--yIUWO8o",
+          "title": "Passing a Kidney Stone? Do This Fast! \u2013 Dr.Berg on Removing Kidney Stones",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:GZhA-pItUo4",
+          "title": "How To Detox & Flush Your Kidneys? \u2013 Dr.Berg On Kidney Cleanse",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:GhGSLffZd0E",
+          "title": "The Benefits Of Cold Water Immersion for Your Genetics",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:GwDpBTxSYKM",
+          "title": "The #1 Remedy for Gout Attacks (WORKS FAST) - Dr. Berg",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:J6ldkOzBG5w",
+          "title": "The Shocking Truth About Metabolic Syndrome (Syndrome X) Revealed",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:JfOBh1cAArk",
+          "title": "The Crazy Side Effects of Thiazide Diuretics (High Blood Pressure Medication) \u2013 Dr.Berg",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:KGIX50eYaGU",
+          "title": "Use Your Feet As Warning Signs",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:LAtgt5NYygo",
+          "title": "Avoid ALL Keto Side Effects Easily",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:LHn169caXDY",
+          "title": "Why You Get Kidney Stones (Oxalate Type) \u2013 Removing Kidney Stones & High Oxalate Foods \u2013 Dr.Berg",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Mxp6Q6O9Hxs",
+          "title": "The Dr. Berg Show LIVE -  February 26, 2022",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:NKx10Yq-15M",
+          "title": "Molybdenum and Its Benefits \u2013 Dr. Berg",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Ni5Cb6FnX2E",
+          "title": "What Causes Painful, Numb or Tingling Feet? \u2013 Dr. Berg",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:QExc9HVSwvU",
+          "title": "The Dr. Berg Show LIVE - February 2, 2024",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:QKqcEb9tj_k",
+          "title": "Intermittent Fasting for Beginners: THE MOST IMPORTANT TIPS",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Qz4DmHvRDgg",
+          "title": "7 Tips to Lower Uric Acid \u2013 Dr. Berg",
+          "term": "uric acid",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:R2BiVf25lhU",
+          "title": "The Dr. Berg Show LIVE - June 21, 2024",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:R6siqTxxgdE",
+          "title": "Eliminate Kidney Stones With Lemons \u2013 Kidney Stone Causes & Lemon Benefits \u2013 Dr.Berg",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:RXsc_ESNESw",
+          "title": "Knee Pain, Pseudogout, and Vitamin K2 Benefits \u2013 Prevent Gout with Vitamin K2 \u2013 Dr.Berg",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Sai8pcnVQBY",
+          "title": "Lemons and Ketosis \u2013 Dr. Berg",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:TQ5ovHN1O40",
+          "title": "What Would Happen if You Drank Celery Juice Every Day? Dr. Berg",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Tn3lHConEDw",
+          "title": "The Ultimate Kidney Cleanse for Uric Acid and Gout: Dr. Berg's Proven Techniques",
+          "term": "uric acid",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:UTmdWe8c5so",
+          "title": "Zinc Enhanced Trace Minerals: Dr. Berg's Product Review",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:X8rrGKGmDdo",
+          "title": "Keto Diet & Kidney Disease \u2013 Dr. Berg",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:XgRiuJT_2ck",
+          "title": "Use Vitamin A for Kidney Stones \u2013 Vitamin A Deficiency & Kidney Stones \u2013 Dr.Berg",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Y54sBoT4UbI",
+          "title": "Potential Benefits And Side Effects Of Intermittent Fasting \u2013 Dr. Berg",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:aVnEp5wYztw",
+          "title": "4 Ways  to Neutralize Uric Acid",
+          "term": "uric acid",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:dvx9lXwvm84",
+          "title": "When To Consume the Apple Cider Vinegar (ACV Drink)? \u2013 Dr. Berg",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:eDIrsV01SLI",
+          "title": "Unresolved Low Back Pain?: DO THIS! \u2013 Dr.Berg",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:eLj2EAutaLw",
+          "title": "The Dr. Berg Show LIVE - October 18, 2024",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:eU64_Ua0Brc",
+          "title": "Understanding the Antioxidant Network - Oxidative Stress & Free Radicals - Dr. Berg",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:fRKUqZai76E",
+          "title": "How to NEVER Get Kidney Stones",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:fSgmqsl3Twk",
+          "title": "New Fascinating Research on Grass-Fed Beef",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:gc7TxOzUSDA",
+          "title": "GOUT ARTHRITIS: What Causes Gout and What Foods to Avoid for Gout",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:ip4KAIqgBII",
+          "title": "Relation Between Ketosis & Uric Acid Stones \u2013 Dr.Berg on Keto Kidney Stones",
+          "term": "uric acid",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:jJhbMUzCInM",
+          "title": "Kidney Stones 101: Causes, Symptoms & Remedies \u2013 Dr.Berg",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:jivs8wYzNxw",
+          "title": "Can Too Much Protein Make You Fat? \u2013 Dr.Berg",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:k9beFmo-bP0",
+          "title": "The Mystery of GOUT Revealed",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:kBIxzPFLAT0",
+          "title": "Acidosis \u2013 Causes, Symptoms & Its Remedies by Dr.Berg",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:kCd6oXZXaZM",
+          "title": "Body Mineral Fluctuations While Intermittent Fasting - Dr. Berg",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:nDR6TM64xWc",
+          "title": "Low Carb Diet vs Keto Diet - The Difference Explained by Dr. Berg",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:nfPhbmgf2wI",
+          "title": "The Unhealthy Type of Ketosis - Dr. Berg On Low Carb Diet",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:po4p9LWGHG4",
+          "title": "The Amazing Benefits of Black Elderberry",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:ptNAKS9VdFs",
+          "title": "Why Does Dietary Protein NOT Cause Gout? \u2013 Dr.Berg",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:pzWZt-ZTAnM",
+          "title": "Why Has Keto Gotten a Bad Rap?",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:r76yLiy-bGg",
+          "title": "The Dr. Berg Show LIVE - February 9, 2024",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:r_DDSMp3hZw",
+          "title": "The Dr. Berg Show LIVE - November 17, 2023",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:s82Ooad0AJQ",
+          "title": "Remedy for Gout and Uric Acid - Straight From the Garden",
+          "term": "uric acid",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:tYB9CGGSwFM",
+          "title": "The #1 Nutrient to Boost Your Collagen (NOT VITAMIN C)",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:u0TpL4HwcMA",
+          "title": "The 10 Root Causes of Inflammation - Dr. Berg",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:u0qaaaU9NPU",
+          "title": "The Longest Fast in the World !!! = Dr.Berg",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:uCO1-MwyrDw",
+          "title": "Celery Benefits for Gout \u2013 Dr.Berg",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:xcwUfybfRpo",
+          "title": "Why Do I Have Blood in the Urine After Exercise? \u2013 Dr.Berg",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:yabCpwLzFUs",
+          "title": "Will Lemon Water Kick You Out of Ketosis? \u2013 Dr. Berg",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:zT9JRopKVt8",
+          "title": "Why Do You Get Gout in Your Big Toe?",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:z_cIF3BGctM",
+          "title": "The 4 Mistakes People Make with Drinking Lemon Water (and Juice)",
+          "term": "uric acid",
+          "where": "description"
+        }
+      ],
+      "monocytes": [
+        {
+          "source": "inventory",
+          "ref": "yt:-IvJ15Ug6fc",
+          "title": "Transform Your Health with Cold Showers \u2013 Dr. Berg's Guide to Cold Showers",
+          "term": "monocytes",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:5KSi-yCa4hE",
+          "title": "I Get 20 Tick Bites Every Week (Lyme Disease)",
+          "term": "monocytes",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:R0kS26BA5BY",
+          "title": "The #1 Best Remedy to Prevent a Heart Attack for $3.19",
+          "term": "monocytes",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:XE4X926W6x8",
+          "title": "7 Sneaky Viral Strategies That Hack Your Immune System",
+          "term": "monocytes",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Y1qSA1Y8wT4",
+          "title": "Echinacea is as Effective as Tamiflu for the Flu",
+          "term": "monocytes",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:cjNuUz1CWb0",
+          "title": "How Does Intermittent Fasting Boost The Immune System? \u2013 Dr.Berg",
+          "term": "monocytes",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:dBY86H9MuUc",
+          "title": "Seven Amazing Mushrooms and Their Powerful Properties",
+          "term": "monocytes",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:p2LnwX7BG9I",
+          "title": "5 Things that Make You Susceptible to an Infection",
+          "term": "monocytes",
+          "where": "description"
+        }
+      ],
+      "creatinine": [
+        {
+          "source": "inventory",
+          "ref": "yt:-cwT4MN9cJA",
+          "title": "7 Ways to Boost Your ABSORPTION of Vitamin D",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:-f4XYmrWIas",
+          "title": "Vitamin D Toxicity: Is This a Danger?",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:0Q0x3_X9NEY",
+          "title": "Vitamin D and Hair Loss",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:0uMUOf_BQo0",
+          "title": "Vitamin D's Influence Over Your Muscles",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:11qN7GUuoy0",
+          "title": "The Risks of Taking 10,000 IUs of Vitamin D3",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:29NS6PxfE2s",
+          "title": "The #1 Vitamin Deficiency Behind Vertigo",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:2xY7Yxus8JU",
+          "title": "Vitamin D, Bile, and Your Gallbladder",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:5xvGkDLjJkA",
+          "title": "Arterial Stiffness and Vitamin D",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:6pZ5EuNXyrA",
+          "title": "The Hidden Cause of Vitamin D Deficiency",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:8KUMT9PCwhs",
+          "title": "#1 Vitamin Deficiency in ALL Autoimmune Conditions",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:AXq2ZdXXFCU",
+          "title": "11 Bizarre Symptoms of Vitamin D Deficiency (You NEED to Know)",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:BFjcC6Htlig",
+          "title": "The Ignored Pandemic: Vitamin D Deficiency",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:B_0swS5G3DU",
+          "title": "Does 600 IU of Vitamin D Even Come Close to What We Need?",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:DvA-wpmuaCI",
+          "title": "When NOT to Take Extra Vitamin D",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:EWZrSK4xtXs",
+          "title": "VITAMIN D IS WORTHLESS",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:EvGH3kG5u4c",
+          "title": "What Vitamin D Does to Your Immune System",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:F-d9qim8uow",
+          "title": "Vitamin D Actually Feeds Your Microbes",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:FqywVV5zQOs",
+          "title": "Why Does Saudi Arabia Have Such a Vitamin D Problem?",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:HAUdHuApCG4",
+          "title": "Cortisol (Stress) and Vitamin D Levels",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:H_U5QRk_Wrc",
+          "title": "The Big Lie about Vitamin D",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Hjlu-jIY9Ao",
+          "title": "#1 Sign That You Overdosed on Vitamin D",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:IUGVoT9IwAI",
+          "title": "Vitamin D and Cortisol: (VERY SIMILAR)",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:J4UzsjMzmRU",
+          "title": "Autoimmune Condition and Vitamin D",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:J9ft6cPJWMQ",
+          "title": "The Side Effects of Vitamin D Come From a Magnesium Deficiency",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:JWl9vsVm3dw",
+          "title": "Get Restorative Sleep with Vitamin D \u2013 Dr.Berg On Sleep and Vitamin D Benefits",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:KqadPidFDmc",
+          "title": "Evolution and Origin of Vitamin D",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:N2DGrgMIcsE",
+          "title": "7 Facts about Vitamin D You Never Knew",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:NFxQJmvgXOQ",
+          "title": "How Much Vitamin D Do I Need? SURPRISING",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:OWnUiSuVgj8",
+          "title": "The Best Vitamin for Tuberculosis (TB) \u2013 Dr.Berg On Vitamin D3 Benefits",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:OcMCBTDpDVU",
+          "title": "The 1 Vitamin That REVERSES Nerve Damage (And Nobody Talks About It)",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:OlV-98bp7z4",
+          "title": "Calcium Deficiency vs. Vitamin D Deficiency",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:PUn3_n7Y4Ns",
+          "title": "Causes of High Creatinine Levels in Blood \u2013 Dr.Berg on Elevated Creatinine Levels",
+          "term": "creatinine",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Q2P6Q76rfEA",
+          "title": "What Is Inflammation and How to Reduce it with Vitamin D \u2013 Dr. Berg",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:QAQ7r6jLEww",
+          "title": "Your Body Is BEGGING for Vitamin D!!",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:QUnf4OXDnCk",
+          "title": "I Get My Vitamin D From Food...",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:QuyiwpPKiuU",
+          "title": "Vitamin D and Your Skin Color",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:SXzZ1gm72dw",
+          "title": "Key Vitamin Deficiencies Causing Your Back Pain",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Sn7T46fCjLE",
+          "title": "10,000 IU of Vitamin D: HUGE MISTAKE?!",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:SqsK__FAEd0",
+          "title": "Why Does Vitamin D Lower Blood Pressure",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:TLOtcX_WB8U",
+          "title": "Your Eyes Reveal Kidney Damage Years Before Symptoms",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:ThDBb-QoqdU",
+          "title": "When Vitamin D Doesn't Work...Do This!",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Uvh3m2pp1zc",
+          "title": "Autism Is NOT Caused By Vaccines",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:VvNxY8rThQM",
+          "title": "The 10th Reason Why You Are Vitamin D Deficient",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:WJ7N_9UYK1Y",
+          "title": "Lyme Disease Blocks Vitamin D Absorption by 8000%",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:X6WCY_tqys8",
+          "title": "Normal Vitamin D Levels Will NOT Tell the Whole Picture",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:XcTgFlM681E",
+          "title": "The Vitamin Deficiency that Mimics Dementia - Dr. Berg",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:XgRiuJT_2ck",
+          "title": "Use Vitamin A for Kidney Stones \u2013 Vitamin A Deficiency & Kidney Stones \u2013 Dr.Berg",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:YHL2s-FT5B8",
+          "title": "98 Percent of Sleep Apnea Cases Have Low Vitamin D",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:YeYR1C7NMUI",
+          "title": "Make Your Own Vitamin D Supplements for Pennies",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Z0AmWd57pfg",
+          "title": "The Real Reason for a Vitamin D Deficiency",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:ZBcg6sNREXE",
+          "title": "Vitamin D Testing Challenges",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:ZRjBPuj4q6I",
+          "title": "High Doses of Vitamin D Can Deplete Magnesium",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Zgf4y9uG7BM",
+          "title": "Vitamin D2 vs. D3: VERY DIFFERENT",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:aN7n7ZA-CPw",
+          "title": "Low Vitamin D Linked to Depressed Teens",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:b-YazbTc9Z8",
+          "title": "Vitamin D Deficiency Can Cause Liver Disease",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:d-0vFQSqUXM",
+          "title": "18 Visible Signs of Kidney Disease You Shouldn\u2019t Ignore",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:fGv9KNtPmcE",
+          "title": "Vitamin D Comes From Sheep's Wool: WHAT???",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:gdJDzdJjXXM",
+          "title": "These Vitamin D Mistakes Are Bad",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:gjJdzHIwDDU",
+          "title": "Is it Safe to Take 10,000 IUs of Vitamin D3?",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:hrqr3IIoTOs",
+          "title": "VITAMIN D IS DANGEROUS",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:lXZNQWtkrL8",
+          "title": "Why Your Fat Determines Your Vitamin D",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:nEQi-jsRFK4",
+          "title": "6 DEVASTATING Vitamin Deficiencies",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:nk4DAjtcviI",
+          "title": "The 7 Warning Signs of a Vitamin D Deficiency  - Dr. Berg",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:pTVfEBjTWYE",
+          "title": "Scoliosis, Kyphosis, Lordosis and Vitamin D Explained by Dr.Berg",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:pZPq1mSgUlk",
+          "title": "The First Sign of Low Vitamin D \u2013 Symptoms of Vitamin D Deficiency \u2013 Dr.Berg",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:q82KtaQsOBA",
+          "title": "You Cannot Make Vitamin D Without Cholesterol",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:qY8ypQGEhCA",
+          "title": "The Vitamin Deficiency that is KILLING Your Sciatica Nerve",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:tPom4UOW1vU",
+          "title": "Getting Vitamin D from the Sun WITHOUT the Skin Cancer",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:tw1lO0MXPzg",
+          "title": "5 Reasons for High Creatinine on Keto (Ketogenic Diet) \u2013 Dr.Berg",
+          "term": "creatinine",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:txUuZFRnQMU",
+          "title": "Asthma, Vitamin D and Remodeling of the Lung",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:uAfVC4l5uZ0",
+          "title": "Is It Safe to Take 10,000 IU of Vitamin D3? Dr. Berg Explains",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:uBqNYt6oGCc",
+          "title": "The Unique Benefits of Using Vitamin D and K2 Combined",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:uYP-VTctWq4",
+          "title": "The Sun's Benefits Are Way More than Vitamin D",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:v7oxgqfUHaw",
+          "title": "When Is the Best Time to Take Vitamin D?",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:vKf8K-Gc-vE",
+          "title": "Tanning Beds: Any Vitamin D?",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:w7uOACkLl8s",
+          "title": "Good Luck Trying to Get Vitamin D from Foods",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:wOK5PI2bz78",
+          "title": "Vitamin D: How Much Food Would You Have to Eat?",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:wq1HcFAg4fQ",
+          "title": "The Huge Vitamin D Mistake with RDAs",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:xU9o6V0BIZc",
+          "title": "Vitamin D Deficiency Effects on Your Teeth \u2013 Dr.Berg",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:y0Wj0kU4-KQ",
+          "title": "My Vitamin D Levels SUCKED for Decades",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:zCmW5bLcE9s",
+          "title": "How Vitamin D Affects Every Organ and Tissue",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:zMIHzJ6bGnU",
+          "title": "The Top Vitamin Deficiency with Acne",
+          "term": "creatinine",
+          "where": "description"
+        }
+      ],
+      "ammonia": [
+        {
+          "source": "inventory",
+          "ref": "yt:-dlBAKYue88",
+          "title": "How to Reduce Lung (Respiratory) Mucus",
+          "term": "ammonia",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:1Im6I9gItjg",
+          "title": "7 Warning Signs That Your Kidneys Are Toxic",
+          "term": "ammonia",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:2CONA2PNi8E",
+          "title": "Can I Drink Diet Coke / Coke Zero on Keto (Ketogenic Diet)? \u2013 Dr.Berg",
+          "term": "ammonia",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:2dox4_7b64I",
+          "title": "A Surprising Way to Cleanse Toxic Kidneys - Dr. Berg on Kidney Detoxification",
+          "term": "ammonia",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:7y6LeqOzw5Y",
+          "title": "Use Manganese Trace Mineral for Excessive Blinking, Jerking, Twitching and other Tics \u2013 Dr.Berg",
+          "term": "ammonia",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:C99sgi_Vx_M",
+          "title": "The Dr. Berg Show LIVE - August 25, 2023",
+          "term": "ammonia",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Dz0-E6biHSw",
+          "title": "3 Weird Signs & Symptoms Of Fatty Liver \u2013 Dr.Berg",
+          "term": "ammonia",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:KC7s_i0Y4VE",
+          "title": "How do Probiotics Work for Fatty Liver Disease? \u2013 Dr. Berg",
+          "term": "ammonia",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:KxguzOyFxQA",
+          "title": "Is Chlorine in Water (Tap Water) Really that Bad? - Dr. Berg",
+          "term": "ammonia",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:M-9GzRP904g",
+          "title": "The Other Causes & Remedies for Hot Flashes & Menopause \u2013 Dr.Berg",
+          "term": "ammonia",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:MA1kTlrySaQ",
+          "title": "Will a Liver Cleanse Help Cirrhosis and a Fatty Liver? \u2013 Dr.Berg",
+          "term": "ammonia",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:ME8jjIwYMRY",
+          "title": "The Dangers of Urinary Retention on Your Kidneys",
+          "term": "ammonia",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:MzPw7UvAcio",
+          "title": "The Benefit of Apple Cider Vinegar That NO ONE KNOWS",
+          "term": "ammonia",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:SZnBfT96CFc",
+          "title": "Should the Saliva be Acid or Alkaline?",
+          "term": "ammonia",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:TsoYREVnVH8",
+          "title": "How Cortisol Effects on Body and Destroy Proteins \u2013 Dr.Berg",
+          "term": "ammonia",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:WtNfraQ6Se8",
+          "title": "Walnuts Are the ONLY Nut with Omega 3 Fats",
+          "term": "ammonia",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:_xU_NUu3ey4",
+          "title": "7 Early Signs of Kidney Disease",
+          "term": "ammonia",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:a9wWC7M0QxI",
+          "title": "Say Goodbye to Candida: The Best Ways to Cure It Permanently",
+          "term": "ammonia",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:cUaOvdFhpyk",
+          "title": "The Hidden Cause of a Manganese Deficiency",
+          "term": "ammonia",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:dGM_5owfrc4",
+          "title": "The Dr. Berg Show LIVE - November 7, 2025",
+          "term": "ammonia",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:eq_1O_J3Ud8",
+          "title": "4 Ways to Lower Ammonia in the Brain",
+          "term": "ammonia",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:gsifREzstI4",
+          "title": "The Benefits Of Manganese & Foods High In Manganese \u2013 Dr.Berg",
+          "term": "ammonia",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:iLjdlYBE8Gs",
+          "title": "Ammonia In The Brain \u2013 Dr. Berg",
+          "term": "ammonia",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:iOO35cEQXfw",
+          "title": "Why Do Most Indian Men Have a Protruding Potbelly?",
+          "term": "ammonia",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:iiDbC0KdSzk",
+          "title": "How to Lower Your Ammonia From Liver Cirrhosis - Ammonia Toxicity In Liver \u2013 Dr. Berg",
+          "term": "ammonia",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:ik1AgqT_rms",
+          "title": "#1 Early Sign of Toxic Kidneys",
+          "term": "ammonia",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:kJ3w-z8D4zs",
+          "title": "Foods That Mimic Body Parts",
+          "term": "ammonia",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:luOg2Ckr2Jc",
+          "title": "What To Do Before Coloring Your Hair? \u2013 Dr.Berg",
+          "term": "ammonia",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:nDR6TM64xWc",
+          "title": "Low Carb Diet vs Keto Diet - The Difference Explained by Dr. Berg",
+          "term": "ammonia",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:nQccMgrJoJ8",
+          "title": "The 7 Signs Your Liver is Dying",
+          "term": "ammonia",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:nxL7ychvY5Y",
+          "title": "Bad Breath on Ketogenic Diet? \u2013 Dr. Berg on Keto Breath Solutions",
+          "term": "ammonia",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:o6xh5DHbsiw",
+          "title": "Pee Smells Bad? What Causes Strong Stinky Odor After Urination? \u2013 Dr. Berg",
+          "term": "ammonia",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:p9Wyya44MD8",
+          "title": "Causes of Ammonia Body Odor on Keto Diet \u2013 Dr. Berg",
+          "term": "ammonia",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:qRgZWS5iScs",
+          "title": "Why the Strong Ammonia Odor in My Urine on Keto? Foul Smelling Urine on Ketogenic Diet \u2013 Dr.Berg",
+          "term": "ammonia",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:sH74wcYwabQ",
+          "title": "Dr. Berg Live Q & A",
+          "term": "ammonia",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:ty6GzNa9SSs",
+          "title": "The #1 Food for Toxic Kidneys",
+          "term": "ammonia",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:u_eEoe4gcs4",
+          "title": "Vitamin B1: Synthetic vs. Natural \u2013 Dr. Berg",
+          "term": "ammonia",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:ySmzyYOyrWE",
+          "title": "How To Get Rid of Bad Breath on Keto & Intermittent Fasting? \u2013 Dr. Berg",
+          "term": "ammonia",
+          "where": "description"
+        }
+      ],
+      "glyphosate": [
+        {
+          "source": "inventory",
+          "ref": "yt:-iSy1nDxovo",
+          "title": "What Is Erythritol? \u2013 Dr. Berg",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:06yJ9xDabFM",
+          "title": "Mycotoxins & Joint Stiffness Pain \u2013 Causes, Symptoms & Remedy By Dr. Berg",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:2P_0yeymkjU",
+          "title": "America's Favorite Vegetable",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:37tz8sJlbZk",
+          "title": "What Does OLIVE OIL Do for Your Body?",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:3Mo1F8ce1yY",
+          "title": "You Will NEVER Eat Bread Again after Watching This",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:3QePHCO8T8Q",
+          "title": "They Lied to Us",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:3iG8RYyumYE",
+          "title": "Worst Low Carb Foods/ Keto Foods To Avoid \u2013 Dr.Berg",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:4DJG_FOQF5M",
+          "title": "Good Fat vs. Bad Fats",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:4DdvOVv0JMA",
+          "title": "The 5 Best Ways to Treat Autoimmune Disease Naturally",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:5-CwMkfUuS8",
+          "title": "Hidden Reason Why You're Fat - Beyond Carbs - Dr. Berg on Fat Burning &  Antibiotics Side Effects",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:7mzrAGfr3UM",
+          "title": "Table Sugar vs High Fructose Corn Syrup (HFCS) \u2013 Dr.Berg",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:89jJ1JlNZlg",
+          "title": "The Greatest Overlooked Nutrient in Medicine",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:9NILSBpvQB4",
+          "title": "3 Worst Ingredient In So Called Keto Friendly Foods \u2013 Dextrose, Maltitol & Keto Sweeteners \u2013 Dr.Berg",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:A1BiWgHxSL0",
+          "title": "Revealing the #1 Hidden Source of Digestive Problems",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:AwLbF2rnh20",
+          "title": "Dr. Berg Live Q & A",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:B69RS3cZJFk",
+          "title": "Before You Eat Another Hamburger WATCH THIS!",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:BAwthZkuB10",
+          "title": "Why Can't I Talk About This?",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:BqYmrJcXGFg",
+          "title": "Benefits of Grass-Fed Products Go Beyond Just Omega-3 Fatty Acids \u2013 Dr. Berg",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:C8vItCic5sQ",
+          "title": "Is Your Hair Loss Coming from Your Gut? \u2013 Dr. Berg on Biotin & Hair Loss Causes",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:CQtX_Xu8H3Q",
+          "title": "The BEST Foods to Strengthen Your Liver",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Cjre0lLNfVY",
+          "title": "What is Maltodextrin and is it Safe? \u2013 Dr.Berg",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:DAE9Uj603hA",
+          "title": "Detox GMO Chemicals From Your Body \u2013 Detoxify Body \u2013 Dr.Berg",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:DDMGm-Qd3OM",
+          "title": "Dairy, Menstrual Cycle & Female Hormone \u2013 High Estrogen Foods To Avoid During Menstruation \u2013 Dr.Berg",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:DUqVHZSFKZo",
+          "title": "Increase Gut Bacteria Diversity: Here's How",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:DZB84A--178",
+          "title": "STOP Taking This Now",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:E2vfxw6pY3g",
+          "title": "Get Your Kids and Babies Off Cereal",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:E6SeA_J6Ov8",
+          "title": "Latest News on Monsanto \u2013 Dr. Berg",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:EdVmQTCA9b4",
+          "title": "The Most Widely Used Pesticide in the World",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:EgGeX-UxnoA",
+          "title": "The Quickest Way to Test for Bowel Disease (Crohn's, IBD, UC or SIBO)",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:FIgFTmThhYM",
+          "title": "What if You STOP Eating Grains for 14 Days?",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Faup23zVDJU",
+          "title": "Might Want to Think Twice Before Eating Oatmeal",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:FcW3xFUCClQ",
+          "title": "The Most Dangerous Ingredients in the World (Designed to Keep You Addicted)",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Ga-0CHCrH0s",
+          "title": "What Happens When You Eat \"100% Whole Grains\" Every Day for One Month?",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:GcRNVf9XU-M",
+          "title": "7 Foods That Destroy the Kidneys",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:HH7etpYcv30",
+          "title": "9 Ways to Become Nutritionally Deficient - Dr. Berg",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:IEMsExZdIZk",
+          "title": "Are Grass-Fed Burgers Really Worth the Extra Cost?",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:IVe-fPBxacw",
+          "title": "The Dr. Berg Show LIVE - August 23, 2024",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:IXHn7mWErDE",
+          "title": "What Is Worse Than High Fructose Corn Syrup (HFCS) For Causing Weight Gain? \u2013 Dr.Berg",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:IrStg3cn2u0",
+          "title": "What Happens If You Stop Eating Bread for 14 Days",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:J2uAyp6WCnA",
+          "title": "Farm Raised Fish OR Wild Caught Fish, Which Is Best To Consume? \u2013 Dr. Berg",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:JDc9n6OcWZc",
+          "title": "STOP Eating These 7 Foods if You Have Arthritis (& What to Eat Instead)",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:JWl9vsVm3dw",
+          "title": "Get Restorative Sleep with Vitamin D \u2013 Dr.Berg On Sleep and Vitamin D Benefits",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:KXtnwwNNLv0",
+          "title": "Surprising GMO Foods, Genetically Modified Organisms & Effects Of GMO  \u2013 Dr. Berg",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:KfLFFHnim7E",
+          "title": "Gatorade vs Powerade: Which One Is Better For Dehydration \u2013 Dr. Berg",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:LdR3gAzCdpU",
+          "title": "Eliminate Bloating: The Ultimate Solution by Dr. Berg",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:LeRzBOyTNOs",
+          "title": "They Are Poisoning Americans (And Getting Away With It)",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:MLJOXKY1SYs",
+          "title": "The Brain-Gut Connection: Anxiety & Stress Coming from Missing Gut Bacteria \u2013 Dr.Berg",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:MzrPg6Gd8Ew",
+          "title": "The #1 WORST Protein in the World",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:NOV5vIsjQhg",
+          "title": "NEVER Cook with This Again",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:NSPWFz6Dn44",
+          "title": "Do Not Eat Peanut Butter Again, Until You Watch This!!",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:O8qAjp3xVn4",
+          "title": "The Worst Protein Powder for the Liver \u2013 Dr. Berg",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:OaFwMS8-K-A",
+          "title": "Does the Ketogenic Diet Cause Hypothyroidism or Hashimoto\u2019s Thyroiditis \u2013 Dr. Berg",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:PTgBa-Fpmlc",
+          "title": "The #1 Most Dangerous Food in the World",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:PjmBV2SqY8k",
+          "title": "Sharp Stomach Pain That Comes and Goes",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:TYTsQbahME0",
+          "title": "Natural Ways to Reduce Glyphosate (GMO chemicals) in Body \u2013 Dr.Berg On GMO Foods & Toxic Chemicals",
+          "term": "glyphosate",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Tc0ozMc0wZM",
+          "title": "American Wheat vs. European Wheat Products",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:TqqyvRKpu4E",
+          "title": "6 Things Men Should Not Eat",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:U-ZtDd-GC84",
+          "title": "What's Unhealthier \u2013 Rice or Wheat? \u2013 Dr.Berg",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:UmAJrhsLub8",
+          "title": "They\u2019re Poisoning Us...Legally",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:UnkEcc3xwMI",
+          "title": "Good Bacteria Keep Candida, Fungus and Yeast in Check",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Vl_bzEBBnZA",
+          "title": "The Secret to Increasing the Diversity of Gut Microbes",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Vw6_o8457qA",
+          "title": "4 Critical Tips to Reverse a Fatty Liver \u2013 Dr. Berg",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:WM8fUVut1AA",
+          "title": "7 Signs of a Leaky Gut \u2014 Dr. Berg",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:WwasJCB4FaA",
+          "title": "If Pasta Is So Bad, Why Do Italians Live So Long? Italian Lifestyle & Longevity \u2013 Dr.Berg",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:X6GMuG7NISQ",
+          "title": "Why Can I Eat Pasta & Pizza in European Countries, But Not in America? \u2013 Dr. Berg",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:ZAqb98mw4Xs",
+          "title": "Banned Ingredients That We Still Eat",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:ZGEWoPmvPJY",
+          "title": "This Has Gone Too Far!",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:cUaOvdFhpyk",
+          "title": "The Hidden Cause of a Manganese Deficiency",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:cz4V4W6ntGc",
+          "title": "What is Xylitol? \u2013 Dr. Berg",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:d66BlatRA38",
+          "title": "Sneaky Hidden Ways To Make Sugar Look Healthier \u2013 Dr.Berg On Hidden Sugars",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:dkv1rW6JQcM",
+          "title": "The Amazing Zinc (Part 1): Its Main Function and Zinc Deficiency Symptoms \u2013 Dr.Berg",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:eDMTlWlTd4w",
+          "title": "The Truth About Sugar - What They Don't Want You To Know!",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:eq_1O_J3Ud8",
+          "title": "4 Ways to Lower Ammonia in the Brain",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:h0BUbyXPgLk",
+          "title": "How Difficult is it to Find a Non-GMO Soy Oil in the US? \u2013 Dr. Berg",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:jR0G5b1vaa0",
+          "title": "The Worst Dog Food in the World",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:k4oStGeSoK8",
+          "title": "Are Slimfast Keto Products Really Keto-Friendly? \u2013 Dr.Berg",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:kQKQ7pa5_ug",
+          "title": "The #1 Way to UNCLOG Your Colon Fast",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:lFlHdFd91JI",
+          "title": "The Food With the Highest Glyphosate (Roundup)",
+          "term": "glyphosate",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:lPpec_wVRa4",
+          "title": "The BIGGEST LIE You Were Never Meant to Find Out",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:mvHmYmQspNk",
+          "title": "What is Gynecomastia (Man Boobs)? - Dr.Berg on Liver",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:nZV1oYv5Ddo",
+          "title": "Fix Your Gut with ONE Microbe",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:nhMr8NXB3y8",
+          "title": "The Serious SSRI (Selective Serotonin Reuptake Inhibitor) Side Effects: Sexual Side Effects",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:o6QVVwPOQwk",
+          "title": "The Downfall of High Fructose Corn Syrup (HFCS)",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:pIsjyfPNLeQ",
+          "title": "Why Sperm Count Have Dropped by 60 Percent!",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:r2JcmyEoKos",
+          "title": "Do Not Eat Peanut Butter Until You Watch This!",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:tfmzFXjhOtI",
+          "title": "Hidden Dangers of Tampons, Pads & Panty Liners \u2013 Dr. Berg",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:tjZTNezQTSI",
+          "title": "The #1 Most Dangerous Meal in the World",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:tqlMxfAECGg",
+          "title": "Breakfast is a Lie",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:uhnPkgrOZys",
+          "title": "Could You Give Up Bread For 30 Days? See What Happens...",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:vNdpBvSCpyU",
+          "title": "The #1 Healthiest Bread in the World",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:vp8bpUrcvOg",
+          "title": "Is Microwave Popcorn Safe to Eat?",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:wBG8wWvModg",
+          "title": "These Foods Are Basically Poison",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:wLl0OvB4d8A",
+          "title": "The Ugly Truth About Yogurt (You Won\u2019t Like It)",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:yODIiCvi0NY",
+          "title": "Avoid Sardines with Soybean Oil",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:zXd86RvNzZA",
+          "title": "Eat ONLY Meat for 30 Days?!",
+          "term": "glyphosate",
+          "where": "description"
+        }
+      ],
+      "bicarbonate": [
+        {
+          "source": "inventory",
+          "ref": "yt:00sD_Y359xU",
+          "title": "Dr. Berg's Favorite Keto Products",
+          "term": "bicarbonate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:4BjBPEx7OaQ",
+          "title": "7 Unexpected Benefits of Baking Soda",
+          "term": "bicarbonate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:GwDpBTxSYKM",
+          "title": "The #1 Remedy for Gout Attacks (WORKS FAST) - Dr. Berg",
+          "term": "bicarbonate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:IvBQHDiCRqY",
+          "title": "The Dr. Berg Show LIVE - April 5, 2024",
+          "term": "bicarbonate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Tn3lHConEDw",
+          "title": "The Ultimate Kidney Cleanse for Uric Acid and Gout: Dr. Berg's Proven Techniques",
+          "term": "bicarbonate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Ubldzu5OsyE",
+          "title": "The Dangers & Side Effects of Taking Baking Soda For Acid Reflux \u2013 Dr. Berg",
+          "term": "bicarbonate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:VKW99YifhHs",
+          "title": "Hyperkalemia (High Blood Potassium Levels) \u2013 Hyperkalemia Symptoms & Treatment \u2013 Dr.Berg",
+          "term": "bicarbonate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:X9hOOqgbuNM",
+          "title": "The BEST Homemade Toothpaste (Only 4 Ingredients)",
+          "term": "bicarbonate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:bz8nbOBPKWg",
+          "title": "Does Toothpaste for Acne Treatment Work? \u2013 Dr.Berg",
+          "term": "bicarbonate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:nZo7c-nR1Ts",
+          "title": "NEVER Drink Baking Soda Until You Watch This!",
+          "term": "bicarbonate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:pqXUCscvzGM",
+          "title": "Before You Consume Baking Soda: WATCH THIS",
+          "term": "bicarbonate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:udgEofYO4F4",
+          "title": "The Dangers and Benefits of Baking Soda",
+          "term": "bicarbonate",
+          "where": "description"
+        }
+      ],
+      "wbc-count": [
+        {
+          "source": "inventory",
+          "ref": "yt:06yJ9xDabFM",
+          "title": "Mycotoxins & Joint Stiffness Pain \u2013 Causes, Symptoms & Remedy By Dr. Berg",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:3o7hfGXNAEU",
+          "title": "4 Subclinical Vitamin C Deficiency Signs that are Extremely Common",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:3rFnlRtGDZs",
+          "title": "The Most Important White Blood Cell (WBC)",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:4b0gY_jPTI0",
+          "title": "The 7 Natural Remedies for Gout",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:6IBdD_-wsjo",
+          "title": "Black Plague Pandemic New Discovery",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:9AfBCiFgWCY",
+          "title": "Sleep Deprivation and Your Immune System",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:B7Cc7VGpIDw",
+          "title": "The Amazing Neutrophil Function \u2013 Dr.Berg",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:C99sgi_Vx_M",
+          "title": "The Dr. Berg Show LIVE - August 25, 2023",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:EKBJrF6-3kw",
+          "title": "The 7 Benefits of Fever Explained by Dr.Berg",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:EvGH3kG5u4c",
+          "title": "What Vitamin D Does to Your Immune System",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Ezwe0hBdmSM",
+          "title": "The Human Cell Structure: Parts & Anatomy Of A Cell \u2013 Dr. Berg",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:FF4jZv8iJDI",
+          "title": "How to Beat Stress: Master The Single Most Powerful Technique",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:FObb4O0__EA",
+          "title": "What Is Atherosclerosis Plaque? \u2013 Dr.Berg on Cholesterol Levels (Part-2)",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:FpjE4gJQ2e4",
+          "title": "Vitamin E Inhibits Scar Tissue \u2013 Benefits of Vitamin E for Fibrosis \u2013 Dr.Berg",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:GhGSLffZd0E",
+          "title": "The Benefits Of Cold Water Immersion for Your Genetics",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:HAUdHuApCG4",
+          "title": "Cortisol (Stress) and Vitamin D Levels",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:I2yGieKZGHA",
+          "title": "The Worst Type of Stress in the World",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:N23dLLdxtiQ",
+          "title": "The #1 Food That STOPS Your Immune System from Working - Dr. Berg",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:P4U6bhB9a4U",
+          "title": "The REAL Function of Appendix \u2013 Dr. Berg",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Q-nnIHYo_Sg",
+          "title": "Too Much Zinc Causes a Copper Deficiency",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Q2P6Q76rfEA",
+          "title": "What Is Inflammation and How to Reduce it with Vitamin D \u2013 Dr. Berg",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:R0kS26BA5BY",
+          "title": "The #1 Best Remedy to Prevent a Heart Attack for $3.19",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:RhLVQ9Dyhf0",
+          "title": "6 Huge Benefits of Copper",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:SjbDiOMe2MY",
+          "title": "Dr. Berg Talks About Thymus Gland, Stress and Immune System",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:T99bxA2XQVk",
+          "title": "Will Your Blood Test Detect Vitamin Deficiencies?",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:UdW6W3Yw12c",
+          "title": "Sugar, Yeast and Candida (Candidiasis) \u2013 Dr.Berg",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:VON01PTcu2g",
+          "title": "Game of Thrones Meets Your Immune System",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:X9hOOqgbuNM",
+          "title": "The BEST Homemade Toothpaste (Only 4 Ingredients)",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:_K-nq704I8E",
+          "title": "How To Stop A Cold At The First Sign \u2013 Dr.Berg On Cold Symptoms & Intermittent Fasting",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:cjNuUz1CWb0",
+          "title": "How Does Intermittent Fasting Boost The Immune System? \u2013 Dr.Berg",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:dBY86H9MuUc",
+          "title": "Seven Amazing Mushrooms and Their Powerful Properties",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:g-cchLeHwrM",
+          "title": "How Fasting Affects Your Body",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:gVFKqrfeyuY",
+          "title": "Why Fasting Helps Lupus Symptoms",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:j5lShN1DmYo",
+          "title": "Why Do I Get Sick When I Exercise?",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:jai7WhaMIeE",
+          "title": "Benefits of Nutritional Yeast that Go Beyond B-Vitamins",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:kMjpK_Iel0w",
+          "title": "The 3rd Purpose of Your Immune System",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:lmH3k1bFERU",
+          "title": "How Stress Affects Your White Blood Cells (WBCs) and Immune System",
+          "term": "white blood cells",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:mhDj0uORiQ4",
+          "title": "A Fever is Beneficial and a Normal Response \u2013 Benefits of Fever Explained by Dr.Berg",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:mqd-MdtES4s",
+          "title": "How Sugar Affects Your Immune System",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:nmPJivMOvAM",
+          "title": "Vitamin K2 Goes Beyond Bone Health",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:q9tgNrgYOPI",
+          "title": "72-Hour Fasting Benefits on the Immune System",
+          "term": "white blood cell count",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:qTzxfoL82n8",
+          "title": "9 Apple Cider Vinegar Health Benefits \u2013 Dr. Berg on ACV Benefits",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:qpb_tJN1wxs",
+          "title": "Calcium and Your Immune System: IMPORTANT",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:r9g3OO3hkL0",
+          "title": "Gut Bacteria and Viruses",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:rKOSf0BAzCg",
+          "title": "Can Stress Cause an Infection?",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:sFF5A99FCkQ",
+          "title": "Use 3% Food Grade Hydrogen Peroxide as Your Mouthwash",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:spodpL6w4vo",
+          "title": "How Coronavirus Targets Your Lungs \u2013 Dr. Berg",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:ultcbOkutcQ",
+          "title": "Is Fluoride in Water Safe to Drink? - Tooth Decay & Dental Fluorosis Dr.Berg",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:uscfirFx894",
+          "title": "Vitamin B12 Deficiency: The most common Cause \u2013 Dr. Berg",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:vuSspHE3cuI",
+          "title": "Amazing Health Benefits of Maitake Mushroom \u2013 Dr.Berg",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:xF0OJh19Ubw",
+          "title": "Intermittent Fasting for SERIOUS Weight Loss - Dr. Berg",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:yy0Ki7z8Czs",
+          "title": "Why You Need To Start Taking Cod Liver Oil Now - Dr. Berg Reveals The Surprising Truth",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:z_G2uljzhGs",
+          "title": "How to be IMMUNE to Pathogens",
+          "term": "white blood cells",
+          "where": "description"
+        }
+      ],
+      "uacr": [
+        {
+          "source": "inventory",
+          "ref": "yt:1Im6I9gItjg",
+          "title": "7 Warning Signs That Your Kidneys Are Toxic",
+          "term": "kidney damage",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:1XcKLO0v3Mo",
+          "title": "What Does The Color Of Urine Tell You About Your Body? \u2013 Dr.Berg",
+          "term": "kidney damage",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:1hd9djXb1RE",
+          "title": "High / Low Protein in Your Blood: What Does It Mean?",
+          "term": "kidney damage",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:2Ky81FPiMuA",
+          "title": "What Your Urine Says About Your Health (Shocking Truth)",
+          "term": "kidney damage",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:2LpVGct-ij8",
+          "title": "Thyroid Health is Dependent on the Liver",
+          "term": "kidney damage",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:3S6NTcg3bFE",
+          "title": "Does Taking Too Much Calcium (Hypercalcemia) Lead to Kidney Stones? \u2013 Dr.Berg",
+          "term": "kidney damage",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:67sCkku8u3o",
+          "title": "Symptoms of Potassium Deficiency: High Potassium Diet Protects Kidneys & Prevent Strokes \u2013 Dr. Berg",
+          "term": "kidney damage",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:7FtBAr5sG8k",
+          "title": "Benefits of Apigenin: The Powerful Phytonutrient \u2013 Dr. Berg",
+          "term": "kidney damage",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:9D2VwqySGwA",
+          "title": "Clean Your Kidneys of Uric Acid and Oxalates",
+          "term": "kidney damage",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:GcRNVf9XU-M",
+          "title": "7 Foods That Destroy the Kidneys",
+          "term": "kidney damage",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:IGvw1UC7tro",
+          "title": "4 Natural Aspirin Alternatives \u2013 Dr. Berg",
+          "term": "kidney damage",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:J9ft6cPJWMQ",
+          "title": "The Side Effects of Vitamin D Come From a Magnesium Deficiency",
+          "term": "kidney damage",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:JnMCLAYkkXw",
+          "title": "Low Sodium (Hyponatremia): Dangers, Symptoms, and Causes Explained By Dr.Berg",
+          "term": "kidney damage",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:LKlQm4Szqdw",
+          "title": "Eat These Foods to Shrink an Enlarged Prostate (Especially Over Age 50)",
+          "term": "kidney damage",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:MBND6r5o4wI",
+          "title": "7 WARNING SIGNS of Kidney Damage",
+          "term": "kidney damage",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:PUn3_n7Y4Ns",
+          "title": "Causes of High Creatinine Levels in Blood \u2013 Dr.Berg on Elevated Creatinine Levels",
+          "term": "kidney damage",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:TLOtcX_WB8U",
+          "title": "Your Eyes Reveal Kidney Damage Years Before Symptoms",
+          "term": "kidney damage",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:U2FUJqYkn5o",
+          "title": "10 Warning Signs Your Kidneys Are Toxic",
+          "term": "kidney damage",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Ub495mlpl5g",
+          "title": "Interesting Facts About Vitamin D - Dr. Berg on the Benefits of Vitamin D",
+          "term": "kidney damage",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Ul2MRZWnGCA",
+          "title": "How Long Does Magnesium Stay in the Body?",
+          "term": "kidney damage",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:X8rrGKGmDdo",
+          "title": "Keto Diet & Kidney Disease \u2013 Dr. Berg",
+          "term": "kidney damage",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:XmtPctX1Pqk",
+          "title": "How Long Does it Take for Some Diabetics to Go Blind?",
+          "term": "kidney damage",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:ZHfzcBy52Hw",
+          "title": "Are You Protein Deficient? \u2013 Dr.Berg on Symptoms and Treatment for Protein Deficiency",
+          "term": "kidney damage",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:_xU_NUu3ey4",
+          "title": "7 Early Signs of Kidney Disease",
+          "term": "kidney damage",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:c-8padQuePs",
+          "title": "Managing vs. Correcting Hypoglycemic Reactions [Low Blood Sugar] With Diabetes \u2013 Dr. Berg",
+          "term": "kidney damage",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:d-0vFQSqUXM",
+          "title": "18 Visible Signs of Kidney Disease You Shouldn\u2019t Ignore",
+          "term": "kidney damage",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:e5rbb3jHiNs",
+          "title": "Can Keto (Ketogenic Diet) Reverse Kidney Disease?",
+          "term": "kidney damage",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:e9B4D7GBHNE",
+          "title": "High Insulin or High Glucose Levels, What's Worse? \u2013 Dr. Berg",
+          "term": "kidney damage",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:eq_1O_J3Ud8",
+          "title": "4 Ways to Lower Ammonia in the Brain",
+          "term": "kidney damage",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:ik1AgqT_rms",
+          "title": "#1 Early Sign of Toxic Kidneys",
+          "term": "kidney damage",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:knY-Foaeqlg",
+          "title": "7 Foods to REVERSE Kidney Damage (Must Watch)",
+          "term": "kidney damage",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:loSpk_02OXc",
+          "title": "The #1 Mineral Deficiency Behind Swollen Feet & Ankles",
+          "term": "kidney damage",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:mDkGEO0anBI",
+          "title": "The Danger of Excess Phosphorus",
+          "term": "kidney damage",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:p9Wyya44MD8",
+          "title": "Causes of Ammonia Body Odor on Keto Diet \u2013 Dr. Berg",
+          "term": "kidney damage",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:pqXUCscvzGM",
+          "title": "Before You Consume Baking Soda: WATCH THIS",
+          "term": "kidney damage",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:rrOdKMNQqRo",
+          "title": "American Cheese Is Not Even Cheese",
+          "term": "kidney damage",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:tRPqYqa3oLA",
+          "title": "The Biggest Secret of The Keto Universe \u2013 Dr. Berg",
+          "term": "kidney damage",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:txfPDXqhXoo",
+          "title": "Correcting High Cholesterol and LDL Cholesterol on Keto Diet \u2013 Dr.Berg",
+          "term": "kidney damage",
+          "where": "description"
+        }
+      ],
+      "rbc-count": [
+        {
+          "source": "inventory",
+          "ref": "yt:2IE6i1Z8IC0",
+          "title": "Key Food to Extend Your Lifespan by 5 Years",
+          "term": "red blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:3QVPkrYO57g",
+          "title": "The Benefits of Intermittent Hypoxic Training (IHT)",
+          "term": "red blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:3mVUO1LiqE8",
+          "title": "The Best Strategy for Detoxifying Heavy Metals (SAFELY)",
+          "term": "red blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:69eAWgXDGrs",
+          "title": "STOP Ignoring This!!!",
+          "term": "red blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:8yb6_8vrCtk",
+          "title": "What is the Dietary Requirement for Carbohydrates?",
+          "term": "red blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:ATGp0if2314",
+          "title": "Synthetic vs. Natural Vitamin B12",
+          "term": "red blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:CN5ekrfC4wY",
+          "title": "The Simplest Way to Balance the Omega-6 to Omega-3 Ratio",
+          "term": "red blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:ChntJVuErlg",
+          "title": "The 7 WARNING Signs of a B12 Deficiency - Dr. Berg",
+          "term": "red blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:DLwPMnFBwSA",
+          "title": "Significantly Boost Your Red Blood Cell (RBC) Production With.....",
+          "term": "red blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:DUZgNCNlJLU",
+          "title": "Increase Your Blood O2 Levels",
+          "term": "red blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:DkIbqta-_MM",
+          "title": "The Dr. Berg Show LIVE - April 19, 2024",
+          "term": "red blood cell count",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:H0bpMtMbZAE",
+          "title": "Take These 5 Vitamins to STOP Diabetic Complications Now",
+          "term": "red blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:HfknEr2ctRI",
+          "title": "How to Increase Blood Oxygen Levels: Breathing Hack",
+          "term": "red blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:KzmVNovsSqM",
+          "title": "Stress Makes You Stronger",
+          "term": "red blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Px8V89FqJE0",
+          "title": "Importance Of Potassium For Your Healthy Body \u2013 Dr. Berg",
+          "term": "red blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:S4TW4wKRZmQ",
+          "title": "Best Nutrients for Runners",
+          "term": "red blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:T99bxA2XQVk",
+          "title": "Will Your Blood Test Detect Vitamin Deficiencies?",
+          "term": "red blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:UUryv7amArU",
+          "title": "What Is Gluconeogenesis? \u2013 Dr. Berg",
+          "term": "red blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:V7Ga0Cx0U1Q",
+          "title": "Isn't Our Body Supposed to Run on Sugar?",
+          "term": "red blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:X9EbJRuC5_Y",
+          "title": "A1C is a Good Predictor of Many Diseases",
+          "term": "red blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:XE4X926W6x8",
+          "title": "7 Sneaky Viral Strategies That Hack Your Immune System",
+          "term": "red blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:YHH6B1ZqsLU",
+          "title": "What Does Pale-Colored Poop Mean? \u2013 Dr.Berg",
+          "term": "red blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:_HmRSMINhiM",
+          "title": "Diabetic Gangrene: Symptoms, Causes & Treatment \u2013 Dr.Berg On Diabetic Foot",
+          "term": "red blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:apxk9RAEtAE",
+          "title": "10 Foods That Can Kill Your Dog",
+          "term": "red blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:exKzSs2aohI",
+          "title": "What is Jaundice? \u2013 Causes & Treatment Covered by Dr.Berg",
+          "term": "red blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:g6E8KigSZeU",
+          "title": "Taking Apple Cider Vinegar For Iron Deficiency Anemia \u2013 Dr. Berg",
+          "term": "red blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:haVr3AAYC80",
+          "title": "The 15 Causes of ITCHING You've Never Heard About",
+          "term": "red blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:ik1AgqT_rms",
+          "title": "#1 Early Sign of Toxic Kidneys",
+          "term": "red blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:jRger6l4rjc",
+          "title": "Cyanocobalamin: The REAL Reason Why You Should Avoid Synthetic B12",
+          "term": "red blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:kQKQ7pa5_ug",
+          "title": "The #1 Way to UNCLOG Your Colon Fast",
+          "term": "red blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:k_Mb7BIo6hA",
+          "title": "The #1 Anti-aging Hack",
+          "term": "red blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:kiXbC0L-e4g",
+          "title": "What Does The Spleen Do? \u2013 Dr.Berg Explains Spleen Function",
+          "term": "red blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:liWi6AuQuUc",
+          "title": "The Dr. Berg Show LIVE - July 15, 2022",
+          "term": "red blood cell count",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:pQaQin8NO2I",
+          "title": "Diet Soda can Cause a Fatty Liver",
+          "term": "red blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:pdMOxVRtCkc",
+          "title": "You May Never Eat BREAD Again After Watching This",
+          "term": "red blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:pl8Gdu2nZpY",
+          "title": "What is A1C Test? Is it an Accurate Blood Test? \u2013 Dr.Berg",
+          "term": "red blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:touPC69jMsg",
+          "title": "You May Never Eat SUGAR Again after Watching This",
+          "term": "red blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:uscfirFx894",
+          "title": "Vitamin B12 Deficiency: The most common Cause \u2013 Dr. Berg",
+          "term": "red blood cells",
+          "where": "description"
+        }
+      ],
+      "homocysteine": [
+        {
+          "source": "inventory",
+          "ref": "yt:2o7EpKY4XgU",
+          "title": "What Causes Paraesthesia (Abnormal Nerve Sensation)?: Dr.Berg",
+          "term": "homocysteine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:8kB4DY8cWYk",
+          "title": "11 Bad Habits That Damage Your Brain",
+          "term": "homocysteine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:EN9e99iRTCQ",
+          "title": "First Sign of a Magnesium Deficiency NEVER to Ignore",
+          "term": "homocysteine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:GhGSLffZd0E",
+          "title": "The Benefits Of Cold Water Immersion for Your Genetics",
+          "term": "homocysteine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Grrbekq-6kw",
+          "title": "The REAL Cause of Autism Revealed: Dr. Berg Explains",
+          "term": "homocysteine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:K8VR7sOIZ6Y",
+          "title": "Vitamin B6: Benefits, Deficiencies, Causes, Symptoms, and Sources \u2013 Dr. Berg",
+          "term": "homocysteine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:L76PaoGaPx0",
+          "title": "What is MTHFR? \u2013 Dr. Berg Explains in Simple Terms",
+          "term": "homocysteine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:bFpwPrnOQoY",
+          "title": "Avoid Folic Acid and Take Folate (as Methylfolate) \u2013 Folic Acid vs. Folate | Dr.Berg",
+          "term": "homocysteine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:fSgmqsl3Twk",
+          "title": "New Fascinating Research on Grass-Fed Beef",
+          "term": "homocysteine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:jRger6l4rjc",
+          "title": "Cyanocobalamin: The REAL Reason Why You Should Avoid Synthetic B12",
+          "term": "homocysteine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:k2yCpFqk-do",
+          "title": "What Is Homocysteine? \u2013 Dr. Berg",
+          "term": "homocysteine",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:oquJX1-g7lE",
+          "title": "The Top Remedies for Your Heart",
+          "term": "homocysteine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:wdArmQAwEVE",
+          "title": "Burning Mouth Syndrome Demystified",
+          "term": "homocysteine",
+          "where": "description"
+        }
+      ],
+      "rbc-magnesium": [
+        {
+          "source": "inventory",
+          "ref": "yt:2qu59nPJXcg",
+          "title": "The #1 Magnesium Mistake Everyone Makes",
+          "term": "rbc magnesium",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:OxCWlEJMS2U",
+          "title": "The Unique Benefits of Magnesium Glycinate: How It's Different",
+          "term": "intracellular magnesium",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Ul2MRZWnGCA",
+          "title": "How Long Does Magnesium Stay in the Body?",
+          "term": "intracellular magnesium",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:vJFozt4pytg",
+          "title": "So Called \"Normal Labs\" are NOT Healthy",
+          "term": "rbc magnesium",
+          "where": "description"
+        }
+      ],
+      "platelet-count": [
+        {
+          "source": "inventory",
+          "ref": "yt:4Q255seVYoI",
+          "title": "The Dr. Berg Show LIVE - December 12, 2025",
+          "term": "platelet count",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:IVe-fPBxacw",
+          "title": "The Dr. Berg Show LIVE - August 23, 2024",
+          "term": "platelet count",
+          "where": "description"
+        }
+      ],
+      "aldosterone": [
+        {
+          "source": "inventory",
+          "ref": "yt:4SvDqPx-Fd4",
+          "title": "Tired From Not Consuming Enough Salt?\u2026 Here\u2019s Why",
+          "term": "aldosterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:F_b4HOXs8ew",
+          "title": "Low Fat Diets and Sex Hormones",
+          "term": "aldosterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:XmebvEWOtzI",
+          "title": "10 Surprising SUGAR Side Effects You've Never Heard About",
+          "term": "aldosterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:YC7b3EfnmSw",
+          "title": "How To RESTORE Hearing Loss FAST!",
+          "term": "aldosterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Z_XgLP45EcE",
+          "title": "The Most Important Vitamin for Adrenal Glands",
+          "term": "aldosterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:qJiwXpLOaFI",
+          "title": "Why do You Have Salt Cravings at Night? \u2013 Dr.Berg",
+          "term": "aldosterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:qR34AY8KUM4",
+          "title": "Use Keto (Ketogenic Diet) To Balance Hormones \u2013 Dr.Berg",
+          "term": "aldosterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:vXdR8zeEf1Y",
+          "title": "Low Salt Increases Your Risk of Heart Attacks",
+          "term": "aldosterone",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:wZWzdJ03_Pc",
+          "title": "When Should You Not Take Extra Potassium?",
+          "term": "aldosterone",
+          "where": "description"
+        }
+      ],
+      "urine-ketones": [
+        {
+          "source": "inventory",
+          "ref": "yt:9NN6UfY8muA",
+          "title": "The Dr. Berg Show LIVE - March 1, 2024",
+          "term": "urine ketones",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:JMlYwtGhXl4",
+          "title": "The Dr. Berg Show LIVE - April 29, 2022",
+          "term": "urine ketones",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:RE8Xh8wEAMQ",
+          "title": "How To Know if You\u2019re in Ketosis (the Signs of Ketosis & Keto Adaptation) \u2013 Dr. Berg",
+          "term": "urine ketones",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:V7MZbnyPkf0",
+          "title": "Is Ketosis Safe While Pregnant?",
+          "term": "urine ketones",
+          "where": "description"
+        }
+      ],
+      "neutrophils": [
+        {
+          "source": "inventory",
+          "ref": "yt:A2fGntTtSpY",
+          "title": "Why Diabetes Makes You More Susceptible to Viruses",
+          "term": "neutrophils",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:B7Cc7VGpIDw",
+          "title": "The Amazing Neutrophil Function \u2013 Dr.Berg",
+          "term": "neutrophils",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:OlT2ToOPtco",
+          "title": "Oxidative Stress, Immune System, and Viral Infection",
+          "term": "neutrophils",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:QguprEZvK0Y",
+          "title": "Your Immune System is a Highly Trained Military",
+          "term": "neutrophils",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:UdW6W3Yw12c",
+          "title": "Sugar, Yeast and Candida (Candidiasis) \u2013 Dr.Berg",
+          "term": "neutrophils",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Y1qSA1Y8wT4",
+          "title": "Echinacea is as Effective as Tamiflu for the Flu",
+          "term": "neutrophils",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:YuO2FwBrmqY",
+          "title": "The 7 MOST Important Nutrients for Your Immune System",
+          "term": "neutrophils",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:cjNuUz1CWb0",
+          "title": "How Does Intermittent Fasting Boost The Immune System? \u2013 Dr.Berg",
+          "term": "neutrophils",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:kMjpK_Iel0w",
+          "title": "The 3rd Purpose of Your Immune System",
+          "term": "neutrophils",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:p2LnwX7BG9I",
+          "title": "5 Things that Make You Susceptible to an Infection",
+          "term": "neutrophils",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:qpb_tJN1wxs",
+          "title": "Calcium and Your Immune System: IMPORTANT",
+          "term": "neutrophils",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:xchbRAkdBXg",
+          "title": "Is Pollution Depleting Your Vitamin C?",
+          "term": "neutrophils",
+          "where": "description"
+        }
+      ],
+      "body-mass-index": [
+        {
+          "source": "inventory",
+          "ref": "yt:EvFbDZrvfHo",
+          "title": "Instead of Body Mass Index (BMI), Use THIS...",
+          "term": "body mass index",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:_CqXHYgKKtY",
+          "title": "Your Waist Size Is IMPORTANT!",
+          "term": "body mass index",
+          "where": "description"
+        }
+      ],
+      "bisphenol-a": [
+        {
+          "source": "inventory",
+          "ref": "yt:HAb5Oe18XHs",
+          "title": "What Is Bisphenol A (BPA) & How To Reduce Exposure To It? \u2013 Dr.Berg",
+          "term": "bisphenol a",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:HN0yEn4vbRw",
+          "title": "Detoxify 1000s of Chemicals From Your Body Just With Food",
+          "term": "bisphenol a",
+          "where": "description"
+        }
+      ],
+      "urine-ph": [
+        {
+          "source": "inventory",
+          "ref": "yt:QyFZuTnzhSc",
+          "title": "Eyelid Twitching? Find Out Causes and Cure \u2013 Dr. Berg",
+          "term": "urine ph",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:_sRyflXdBrw",
+          "title": "Use Your Saliva and Urine pH to Find Deeper Health Problems",
+          "term": "urine ph",
+          "where": "title"
+        }
+      ],
+      "egfr": [
+        {
+          "source": "inventory",
+          "ref": "yt:TLOtcX_WB8U",
+          "title": "Your Eyes Reveal Kidney Damage Years Before Symptoms",
+          "term": "egfr",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:_xU_NUu3ey4",
+          "title": "7 Early Signs of Kidney Disease",
+          "term": "glomerular filtration rate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:ebHyaykbs54",
+          "title": "The Dr. Berg LIVE Show - May 8, 2026",
+          "term": "glomerular filtration rate",
+          "where": "description"
+        }
+      ]
+    },
+    "marker_affinity": [
+      "aldosterone",
+      "ammonia",
+      "bicarbonate",
+      "bisphenol-a",
+      "body-mass-index",
+      "creatinine",
+      "egfr",
+      "glyphosate",
+      "homocysteine",
+      "monocytes",
+      "neutrophils",
+      "platelet-count",
+      "rbc-count",
+      "rbc-magnesium",
+      "uacr",
+      "uric-acid",
+      "urine-ketones",
+      "urine-ph",
+      "wbc-count"
+    ]
+  },
+  {
+    "entity_key": "person:thomas-fordham-brewer",
+    "channel_id": "",
+    "display_name": "Thomas Fordham Brewer",
+    "entity_type": "person",
+    "surfaces": [],
+    "evidence": {
+      "creatinine": [
+        {
+          "source": "inventory",
+          "ref": "yt:0CA7Id3MHFg",
+          "title": "Q & A: Elevated CRP",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:FYakli5eZjo",
+          "title": "Inflammation and Cardiovascular Disease (Part 2) - Inflammation Tests & Insulin Resistance",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:G5dIHu4Ycx4",
+          "title": "More Than Just a \"Webinar,\" Get Access to Inflammation & Insulin Resistance Tests As Well",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Gq3hwV2Z5TQ",
+          "title": "How to Test for Cardiovascular Inflammation: Microalbumin Creatinine Ratio",
+          "term": "creatinine",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:LDHLq0aEHTQ",
+          "title": "Is there a Microalbumin Creatinine Ratio limit if I have type 2 diabetes?",
+          "term": "creatinine",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:_6V5f7cWJCI",
+          "title": "NEW tests for vascular and kidney disease - ADMA SDMA",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:dfQGYpNMkRY",
+          "title": "#SHORTS What Makes MACR a Good Inflammation Test",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:fRXsHCexqlE",
+          "title": "Review of Brad Bale/Amy Doneen's Book BEAT THE HEART ATTACK GENE by Ford Brewer MD MPH",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:iL7aMkY3ePU",
+          "title": "How to test for CARDIOVASCULAR INFLAMMATION",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:j30ID5a_FnI",
+          "title": "Microalbumin:Creatinine Ratio Made Simple",
+          "term": "creatinine",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:m-gY-Mgf4_8",
+          "title": "CV Inflammation Test: What is it? How to get it? Does it impact the glycocalyx?",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:niriTOQxwdI",
+          "title": "Creatinine levels after doing Low-Carb Diet",
+          "term": "creatinine",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:x-Nu21eCLAA",
+          "title": "What\u2019s in Your Arteries? (Plaque, Glycocalyx & Inflammation)",
+          "term": "creatinine",
+          "where": "description"
+        }
+      ],
+      "microalbumin": [
+        {
+          "source": "inventory",
+          "ref": "yt:0CA7Id3MHFg",
+          "title": "Q & A: Elevated CRP",
+          "term": "microalbumin",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:FYakli5eZjo",
+          "title": "Inflammation and Cardiovascular Disease (Part 2) - Inflammation Tests & Insulin Resistance",
+          "term": "microalbumin",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:G5dIHu4Ycx4",
+          "title": "More Than Just a \"Webinar,\" Get Access to Inflammation & Insulin Resistance Tests As Well",
+          "term": "microalbumin",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Gq3hwV2Z5TQ",
+          "title": "How to Test for Cardiovascular Inflammation: Microalbumin Creatinine Ratio",
+          "term": "microalbumin",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:LDHLq0aEHTQ",
+          "title": "Is there a Microalbumin Creatinine Ratio limit if I have type 2 diabetes?",
+          "term": "microalbumin",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:dfQGYpNMkRY",
+          "title": "#SHORTS What Makes MACR a Good Inflammation Test",
+          "term": "microalbumin",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:fRXsHCexqlE",
+          "title": "Review of Brad Bale/Amy Doneen's Book BEAT THE HEART ATTACK GENE by Ford Brewer MD MPH",
+          "term": "microalbumin",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:iL7aMkY3ePU",
+          "title": "How to test for CARDIOVASCULAR INFLAMMATION",
+          "term": "microalbumin",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:j30ID5a_FnI",
+          "title": "Microalbumin:Creatinine Ratio Made Simple",
+          "term": "microalbumin",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:m-gY-Mgf4_8",
+          "title": "CV Inflammation Test: What is it? How to get it? Does it impact the glycocalyx?",
+          "term": "microalbumin",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:x-Nu21eCLAA",
+          "title": "What\u2019s in Your Arteries? (Plaque, Glycocalyx & Inflammation)",
+          "term": "microalbumin",
+          "where": "description"
+        }
+      ],
+      "body-mass-index": [
+        {
+          "source": "inventory",
+          "ref": "yt:6zgTaLwsUqc",
+          "title": "BMI vs Belly Fat - Using AI to Predict Heart Attack & Stroke Risk",
+          "term": "body mass index",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:B4cm_MO1pNQ",
+          "title": "Insulin Resistance is Real! (Gerald Shulman's 2018 Banting Lecture on IR Mechanism)",
+          "term": "body mass index",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:HtJLvSBpkp8",
+          "title": "RFM vs BMI - 6 minute \"bottom line\"- FORD BREWER MD MPH",
+          "term": "body mass index",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:OxomFqLNawM",
+          "title": "Will RFM replace BMI? Body Fat Measurement - part 1- FORD BREWER MD MPH",
+          "term": "body mass index",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:a44NXfJqKbs",
+          "title": "RFM- Is BMI really BS? Body Fat Measurement 2018 - Relative Fat Mass (part 2)- FORD BREWER MD MPH",
+          "term": "body mass index",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:ltdE0fjlprc",
+          "title": "Weight Loss & High BMI",
+          "term": "body mass index",
+          "where": "description"
+        }
+      ],
+      "homocysteine": [
+        {
+          "source": "inventory",
+          "ref": "yt:7FrG7uOgDyQ",
+          "title": "Diabetic Retinopathy, AREDS, Methylation, and a Simple Supplement Method",
+          "term": "homocysteine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:HoG0aSFkw-M",
+          "title": "Eyes & Diabetes (Part 2) - Diabetic Retinopathy, MTHFR & Homocysteine",
+          "term": "homocysteine",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:_FxuMxKYiLU",
+          "title": "When Eyes Speak Diabetes - Dr. Craig Brown on Diabetic Retinopathy, MTFHR & Methylated B Vitamins",
+          "term": "homocysteine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:_IUWolgMbpY",
+          "title": "Homocysteine, MTHFR, and Glutathione and health, cv disease, dementia - FORD BREWER MD MPH",
+          "term": "homocysteine",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:a6o53-MNqTg",
+          "title": "How to avoid depression due to methylation: MTHFR, dopamine, serotonin and dopamine indicators",
+          "term": "homocysteine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:a_v49yaxRX8",
+          "title": "Intermittent Fasting - The New England Journal Article",
+          "term": "homocysteine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:h3IipxdoxCc",
+          "title": "Poor Methylation? High Homocysteine? Check this out.",
+          "term": "homocysteine",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:iRn7fLs-mgo",
+          "title": "B12 Deficiency - Beware - the blood tests often don\u2019t show it",
+          "term": "homocysteine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:ky-Mu5yVyuU",
+          "title": "Vit B12 Deficiency, Homocysteine, & Methylmalonic Acid",
+          "term": "homocysteine",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:qPDggB9CY4U",
+          "title": "What science tells us about Homocysteine & Methylation (LIVE)",
+          "term": "homocysteine",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:spsl13o0feY",
+          "title": "Folate for Depression (Harvard Mental Health Letter)",
+          "term": "homocysteine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:uiV2hPuTRU8",
+          "title": "Homocysteine, Alzheimer's and What to Do About it",
+          "term": "homocysteine",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:weVGlrUAGQk",
+          "title": "Everything you Need to Know About Homocysteine and Methylation",
+          "term": "homocysteine",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:yA-z36ij_Wk",
+          "title": "B12 Deficiency - what\u2019s the best test? Methylmalonic acid & homocysteine - FORD BREWER MD MPH",
+          "term": "homocysteine",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:zDY7YbRH5-0",
+          "title": "#SHORTS Why High Homocysteine Level is Bad",
+          "term": "homocysteine",
+          "where": "title"
+        }
+      ],
+      "uric-acid": [
+        {
+          "source": "inventory",
+          "ref": "yt:9lh2H7R4kqw",
+          "title": "\"Full-Blown Diabetes & My Doctor Never Mentioned a Problem\" (Gout and Diabetes)",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:gL4KetUb8ds",
+          "title": "Another glucometer error- Tylenol or Vitamin C interfering with blood glucose tests",
+          "term": "uric acid",
+          "where": "description"
+        }
+      ],
+      "neutrophils": [
+        {
+          "source": "inventory",
+          "ref": "yt:LA5HafbgL6k",
+          "title": "Light Chain Disease, Kidney Failure and Amyloid -FORD BREWER MD MPH",
+          "term": "neutrophils",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:ZjYo9Bry4PI",
+          "title": "Cellular View - Cardiovascular Inflammation - How Your Immune System Causes Heart Attack/Stroke",
+          "term": "neutrophils",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:hVEYYyD0PJM",
+          "title": "How to test for cardiovascular inflammation: MPO Myeloperoxidase - \"the Joker\"",
+          "term": "neutrophils",
+          "where": "description"
+        }
+      ]
+    },
+    "marker_affinity": [
+      "body-mass-index",
+      "creatinine",
+      "homocysteine",
+      "microalbumin",
+      "neutrophils",
+      "uric-acid"
+    ]
+  },
+  {
+    "entity_key": "person:mind-matter-podcast",
+    "channel_id": "",
+    "display_name": "Mind & Matter Podcast",
+    "entity_type": "person",
+    "surfaces": [],
+    "evidence": {
+      "glyphosate": [
+        {
+          "source": "inventory",
+          "ref": "yt:0PBJ6FsJbzY",
+          "title": "Glyphosate and Alzheimer\u2019s: Uncovering the Connection",
+          "term": "glyphosate",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:1JVNqEI4bPE",
+          "title": "The Hidden Dangers of Grains: Inflammation, Gluten, and Glyphosate",
+          "term": "glyphosate",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:27U2rOwcqWo",
+          "title": "Choline, Glyphosate & Plant-Based Diets",
+          "term": "glyphosate",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:2lOMWqS70N4",
+          "title": "Glyphosate's Hidden Dangers: Inflammation and the Brain",
+          "term": "glyphosate",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:4ZFqIggiSxc",
+          "title": "Glyphosate in 90% of Humans",
+          "term": "glyphosate",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:83VQshbEap4",
+          "title": "Understanding Alzheimer's: Role of Amyloid Plaques, Tau Pathology & Cognitive Resilience",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:8PScKr5VAAk",
+          "title": "Alarming Links Between Environmental Toxins and Alzheimer's",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:FBsKuB1BfhQ",
+          "title": "Are Seed Oils Are Making Us Fat & Sick? The Shocking Truth About Eggs, Soy, and Modern Farming",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:G41u5Z9yhEs",
+          "title": "Unraveling Alzheimer's: The Role of Tau and Amyloid Plaques",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:IxLY9YAJRTQ",
+          "title": "The Lasting Impact of Glyphosate: Shocking Findings",
+          "term": "glyphosate",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Krm37WTjnZM",
+          "title": "Glyphosate's Hidden Dangers: Impact on Health Revealed",
+          "term": "glyphosate",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:M-1g0ZKCoRI",
+          "title": "Glyphosate Effects on Animal Brains",
+          "term": "glyphosate",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:MByb2Yj0dao",
+          "title": "Bayer's Seed Monopoly & Glyphosate Impacts",
+          "term": "glyphosate",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Ou54h_y5xpU",
+          "title": "The Truth About Glyphosate: Effects on Our Health",
+          "term": "glyphosate",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:PCmEzOPkeMQ",
+          "title": "The Hidden Power of Choline: Protect Your Brain Health",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:UmFOhUmSZUU",
+          "title": "Can You Actually Detox Glyphosate From Your Brain?",
+          "term": "glyphosate",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Z13WTWeeoSo",
+          "title": "Microplastics and Glyphosate: Crossing the Blood-Brain Barrier",
+          "term": "glyphosate",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:bUbK-96_okQ",
+          "title": "Understanding Tau Protein: Alzheimer's Disease Explained",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:i-X2Uh4sy3s",
+          "title": "Glyphosate, Choline & Alzheimer's: Toxins & Nutrition to Prevent Neurodegeneration | Ramon Velazq...",
+          "term": "glyphosate",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:ivXb22beVI0",
+          "title": "Glyphosate Metabolism: AMPA Production and Blood-Brain Barrier Crossing",
+          "term": "glyphosate",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:rMVEAUSUTm8",
+          "title": "AMPA from Glyphosate: Brain Persistence and Alzheimer's Markers",
+          "term": "glyphosate",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:tkWQB7h-tJQ",
+          "title": "Ep 208 | Is Glyphosate Safe or Bad For You? | Dr. Ramon Velazquez | Mind & Matter Podcast",
+          "term": "glyphosate",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:wcfXo_vWARY",
+          "title": "Cognitive Resilience: Protecting Aging Minds",
+          "term": "glyphosate",
+          "where": "description"
+        }
+      ],
+      "rbc-count": [
+        {
+          "source": "inventory",
+          "ref": "yt:1zi1iDUF0oQ",
+          "title": "Cell Turnover: Unveiling the Secrets of the Human Body",
+          "term": "red blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Cb2KAMgHRm4",
+          "title": "How long until fish oil changes your cells?",
+          "term": "red blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:fQXyUqsHVJw",
+          "title": "Why you should be tracking your Omega-3 index for better health outcomes.",
+          "term": "red blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:sRD2ax0hST4",
+          "title": "Why Your Red Blood Cells Need Omega-3s",
+          "term": "red blood cells",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:tUTcicGplys",
+          "title": "Why you need to track your Omega-3 levels",
+          "term": "red blood cells",
+          "where": "description"
+        }
+      ],
+      "pyruvate": [
+        {
+          "source": "inventory",
+          "ref": "yt:5pUFgzTibuI",
+          "title": "The Surprising Reason Cancer Cells Stop Burning Energy",
+          "term": "pyruvate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:6x0RlVBu-m0",
+          "title": "Ketones, Mitochondrial Coupling & Cancer Metabolism",
+          "term": "pyruvate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:GzQd0lPuu04",
+          "title": "How & Why Mitochondria Make Their Own Fat | Sara Nowinski | 263",
+          "term": "pyruvate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:mQNPKjoHkps",
+          "title": "Soybean Oil vs. Vitamin B1: Mice Weight Gain Revealed",
+          "term": "pyruvate",
+          "where": "description"
+        }
+      ],
+      "fibrinogen": [
+        {
+          "source": "inventory",
+          "ref": "yt:6B0rXzMsj9o",
+          "title": "Can Aspirin Prevent Cancer Metastasis? | Rahul Roychoudhuri | 216",
+          "term": "clotting factor",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:HQPz8T1Il58",
+          "title": "Can Aspirin Prevent Cancer Metastasis? | Rahul Roychoudhuri | 216",
+          "term": "clotting factor",
+          "where": "description"
+        }
+      ],
+      "monocytes": [
+        {
+          "source": "inventory",
+          "ref": "yt:8_gvPRnfCeU",
+          "title": "Psychedelics, Stress, and Brain Inflammation: New Research",
+          "term": "monocytes",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:atXwQ_29EHo",
+          "title": "Psilocybin & MDMA: Inflammation, Stress & Brain-Body Communication | Michael Wheeler | 230",
+          "term": "monocytes",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:o9odYQx_FQU",
+          "title": "Psychedelics, Immunity, and the Brain: A New Understanding",
+          "term": "monocytes",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:xnd9GFRhtkA",
+          "title": "Psilocybin & MDMA: Inflammation, Stress & Brain-Body Communication | Michael Wheeler | 230",
+          "term": "monocytes",
+          "where": "description"
+        }
+      ],
+      "bisphenol-a": [
+        {
+          "source": "inventory",
+          "ref": "yt:FNLH6p63Nfg",
+          "title": "Microplastics, BPA & Insulin Resistance: Can plastic promote diabetes?",
+          "term": "bisphenol a",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:cZrKaCLIh8E",
+          "title": "What You Need to Know About BPA and Its Effects",
+          "term": "bisphenol a",
+          "where": "description"
+        }
+      ]
+    },
+    "marker_affinity": [
+      "bisphenol-a",
+      "fibrinogen",
+      "glyphosate",
+      "monocytes",
+      "pyruvate",
+      "rbc-count"
+    ]
+  },
+  {
+    "entity_key": "person:david-perlmutter",
+    "channel_id": "",
+    "display_name": "David Perlmutter",
+    "entity_type": "person",
+    "surfaces": [],
+    "evidence": {
+      "uric-acid": [
+        {
+          "source": "inventory",
+          "ref": "yt:0cj2eEHdv8s",
+          "title": "Introducing Drop Acid: A New Book from Dr. David Perlmutter",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:1F-CSfM5zbI",
+          "title": "Fructose: Bad for The Brain? - Dr. David Perlmutter Investigates",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:5gqyroyD3Hc",
+          "title": "How Vegetables Affect Uric Acid | The Acid Drop",
+          "term": "uric acid",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:5jBsWbDGtWU",
+          "title": "The Dangers of Fructose & Uric Acid - with Dr. Richard Johnson | The Empowering Neurologist EP. 142",
+          "term": "uric acid",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:8j4ATA28tlw",
+          "title": "Replacing Fructose with Allulose: Exploring the Science Artificial Sweeteners - Dr. Johnson | EP 175",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:AU3Fp7R11KQ",
+          "title": "Nitric Oxide and Functional Health - with Dr. Nathan Bryan | The Empowering Neurologist EP. 166",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:JTxkAK82e0I",
+          "title": "Uric Acid - The Acid You May Need to Drop - with Dr. Johnson | The Empowering Neurologist EP. 138",
+          "term": "uric acid",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Uo8_ikAdHs8",
+          "title": "Reduce Your Dementia Risk -  The Role of Uric Acid | The Acid Drop",
+          "term": "uric acid",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:ZU0rmr6vhlU",
+          "title": "Uric Acid Elevation Creates Metabolic Mayhem | The Acid Drop",
+          "term": "uric acid",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Zf2XrIteKMw",
+          "title": "A Sugar Substitute That\u2019s Good For You? The Science Behind Allulose - with Dr. Bikman | EP 169",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:lc-qmG0DAXY",
+          "title": "What\u2019s Making Us Fat? The Uric Acid Connection",
+          "term": "uric acid",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:nXGTFDVoTQM",
+          "title": "Uric Acid and Risk of Death - Dr. David Perlmutter Investigates",
+          "term": "uric acid",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:s-FTyh3qQgU",
+          "title": "The Science of Longevity: Separating Myths from Breakthroughs | Dr. Darshan Shah",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:tkfEul92peo",
+          "title": "Fructose & Survival | Drop Acid",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:ucXGCpLhomQ",
+          "title": "Alcohol Consumption and the Uric Acid Connection",
+          "term": "uric acid",
+          "where": "title"
+        }
+      ],
+      "glyphosate": [
+        {
+          "source": "inventory",
+          "ref": "yt:EUzgUSmkjcc",
+          "title": "Safety and Risk of GMO Foods - with Jeffrey Smith | The Empowering Neurologist EP. 91",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:G-z-bFG0rU4",
+          "title": "Do Pesticides Damage The Microbiome?",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Z8xuyoKZv4s",
+          "title": "Glyphosate - A Global Health Threat, with Stephanie Seneff | The Empowering Neurologist EP. 127",
+          "term": "glyphosate",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:i6j0wIhUr1M",
+          "title": "Impact of Glyphosate on Our Health - with Dr. Stefanie Seneff | The Empowering Neurologist EP. 20",
+          "term": "glyphosate",
+          "where": "title"
+        }
+      ]
+    },
+    "marker_affinity": [
+      "glyphosate",
+      "uric-acid"
+    ]
+  },
+  {
+    "entity_key": "conference:metabolic-health-summit",
+    "channel_id": "",
+    "display_name": "Metabolic Health Summit",
+    "entity_type": "conference",
+    "surfaces": [],
+    "evidence": {
+      "uric-acid": [
+        {
+          "source": "inventory",
+          "ref": "yt:1bu9_UIX9vw",
+          "title": "The Great Obesity Debate: Energy Balance vs Fructose - Dr. Layne Norton & Dr. Richard Johnson | Ep70",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:N8Ij25ZSt8s",
+          "title": "Tommy Wood, MD, PhD | Optimizing Human Health & Cognition | The Metabolic Link Ep.12",
+          "term": "uric acid",
+          "where": "description"
+        }
+      ]
+    },
+    "marker_affinity": [
+      "uric-acid"
+    ]
+  },
+  {
+    "entity_key": "person:sten-ekberg",
+    "channel_id": "",
+    "display_name": "Sten Ekberg",
+    "entity_type": "person",
+    "surfaces": [],
+    "evidence": {
+      "uacr": [
+        {
+          "source": "inventory",
+          "ref": "yt:2N68d7hgpHA",
+          "title": "Kidney Damage Sneaks Up Without Warning",
+          "term": "kidney damage",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:EeoQbovj8Rw",
+          "title": "How Kidney Damage Sneaks Up Without Warning",
+          "term": "kidney damage",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:PxXacC4C1WE",
+          "title": "Top 10 Foods To Detox Your Kidneys",
+          "term": "kidney damage",
+          "where": "description"
+        }
+      ],
+      "homocysteine": [
+        {
+          "source": "inventory",
+          "ref": "yt:MiRS3_DQI58",
+          "title": "10 Urgent Signs Your Body Needs Methylated B Vitamins",
+          "term": "homocysteine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:ew5ARPr8dW4",
+          "title": "#1 HEART RISK Your Doctor NEVER Checks (It's Not Cholesterol)",
+          "term": "homocysteine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:ilzOgUDRQpk",
+          "title": "10 Signs Of Heart Failure That You Miss Daily",
+          "term": "homocysteine",
+          "where": "description"
+        }
+      ]
+    },
+    "marker_affinity": [
+      "homocysteine",
+      "uacr"
+    ]
+  },
+  {
+    "entity_key": "person:the-primal-podcast",
+    "channel_id": "",
+    "display_name": "The Primal Podcast",
+    "entity_type": "person",
+    "surfaces": [],
+    "evidence": {
+      "body-mass-index": [
+        {
+          "source": "inventory",
+          "ref": "yt:2QhRDiv5N0E",
+          "title": "I Interviewed 50 CARNIVORE Experts In 2022, Here's What I Learnt",
+          "term": "body mass index",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Th1vs5EH0C0",
+          "title": "The Fat Loss Expert: #1 Best Way To Break A Weight Loss Stall (EAT THIS)",
+          "term": "body mass index",
+          "where": "description"
+        }
+      ],
+      "glyphosate": [
+        {
+          "source": "inventory",
+          "ref": "yt:9-ouDDIGo-8",
+          "title": "Fix The Microbiome: #1 WORST Food For Human Gut Health (We've RECENTLY Found!)",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:XpJkA-3XZlY",
+          "title": "Fix The Microbiome: FASTEST Way To Repair Gut Health (Without Probiotics)",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:hVpG-Z-PvKQ",
+          "title": "Fix The Gut Microbiome: #1 Microbe To Fix The Gut & Disease! (Dr William Davis)",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:pfSkeKTDXDg",
+          "title": "Tired, Stressed, or Foggy? These 3 Supplements Are Proven To Work [Dr Sarah Myhill]",
+          "term": "glyphosate",
+          "where": "description"
+        }
+      ]
+    },
+    "marker_affinity": [
+      "body-mass-index",
+      "glyphosate"
+    ]
+  },
+  {
+    "entity_key": "person:ken-berry",
+    "channel_id": "",
+    "display_name": "Ken Berry",
+    "entity_type": "person",
+    "surfaces": [],
+    "evidence": {
+      "creatinine": [
+        {
+          "source": "inventory",
+          "ref": "yt:2kxlCd6AsOA",
+          "title": "Proper Human Diet/Fasting Q&A",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:EeYyjXO5hHo",
+          "title": "KETO/Carnivore/Fasting Q & A",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:ZrTCjw-vr-g",
+          "title": "KETO/Carnivore/Fasting Q&A",
+          "term": "creatinine",
+          "where": "description"
+        }
+      ],
+      "neutrophils": [
+        {
+          "source": "inventory",
+          "ref": "yt:5EsSQVK9tIE",
+          "title": "Improve Immune Function in 3 Days (Important Research)",
+          "term": "neutrophils",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Hfq_I3dM5TU",
+          "title": "Orange Juice WEAKENS Your Immune System (Proven) 2026",
+          "term": "neutrophils",
+          "where": "description"
+        }
+      ],
+      "urine-ph": [
+        {
+          "source": "inventory",
+          "ref": "yt:EeYyjXO5hHo",
+          "title": "KETO/Carnivore/Fasting Q & A",
+          "term": "urine ph",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Q0f2-c6bm14",
+          "title": "Health Benefits of an ALKALINE DIET? (What About ALKALINE WATER?) 2026",
+          "term": "urine ph",
+          "where": "description"
+        }
+      ],
+      "uacr": [
+        {
+          "source": "inventory",
+          "ref": "yt:FL0I3FlLqJ8",
+          "title": "How To Avoid Kidney Damage Forever!",
+          "term": "kidney damage",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:hPMaJONLXH8",
+          "title": "3 Ways to Tell if Your Teen is Insulin Resistant (This is Important)",
+          "term": "kidney damage",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:t9FrCTVOD8M",
+          "title": "KETO/Carnivore/Fasting Q&A Got questions?",
+          "term": "kidney damage",
+          "where": "description"
+        }
+      ]
+    },
+    "marker_affinity": [
+      "creatinine",
+      "neutrophils",
+      "uacr",
+      "urine-ph"
+    ]
+  },
+  {
+    "entity_key": "person:siim-land",
+    "channel_id": "",
+    "display_name": "Siim Land",
+    "entity_type": "person",
+    "surfaces": [],
+    "evidence": {
+      "creatinine": [
+        {
+          "source": "inventory",
+          "ref": "yt:3_k983KLwXs",
+          "title": "40 Minutes That Could Add Years to Your Life",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:RA4eU1mKVZI",
+          "title": "45 Minutes of Health Tips You Need to Know",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:SgKp5mm0ALI",
+          "title": "I Ranked 100 Health Markers (Most People Get These Wrong)",
+          "term": "creatinine",
+          "where": "description"
+        }
+      ],
+      "cystatin-c": [
+        {
+          "source": "inventory",
+          "ref": "yt:BCAr2u3XjlY",
+          "title": "If I Had to Take Only 5 Blood Tests These Would Be It",
+          "term": "cystatin c",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:SgKp5mm0ALI",
+          "title": "I Ranked 100 Health Markers (Most People Get These Wrong)",
+          "term": "cystatin c",
+          "where": "description"
+        }
+      ],
+      "homocysteine": [
+        {
+          "source": "inventory",
+          "ref": "yt:CvOZsuoJ3-s",
+          "title": "How to Prevent Heart Disease with Lifestyle Changes - Dr Paddy Barrett",
+          "term": "homocysteine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:SfH6YAHVqyY",
+          "title": "One Blood Marker That Predicts Stroke (Most People Never Test It)",
+          "term": "homocysteine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:SgKp5mm0ALI",
+          "title": "I Ranked 100 Health Markers (Most People Get These Wrong)",
+          "term": "homocysteine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:cd-IAu5DGBQ",
+          "title": "I Took TMG for 90 Days and Got Surprising Results!",
+          "term": "homocysteine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:rYqEwoE0boU",
+          "title": "Why Joe Cohen Takes 150 Supplements a Day and What Blood Tests to Do",
+          "term": "homocysteine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:vewlFfiVI50",
+          "title": "Glycine and Protein for Longevity; Genetic Bottlenecks and MTHFR - Chris Masterjohn PhD",
+          "term": "homocysteine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:wMd8jaxcYy4",
+          "title": "Avoid Protein Aging You Faster - Do This",
+          "term": "homocysteine",
+          "where": "description"
+        }
+      ],
+      "egfr": [
+        {
+          "source": "inventory",
+          "ref": "yt:RA4eU1mKVZI",
+          "title": "45 Minutes of Health Tips You Need to Know",
+          "term": "egfr",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:SgKp5mm0ALI",
+          "title": "I Ranked 100 Health Markers (Most People Get These Wrong)",
+          "term": "egfr",
+          "where": "description"
+        }
+      ]
+    },
+    "marker_affinity": [
+      "creatinine",
+      "cystatin-c",
+      "egfr",
+      "homocysteine"
+    ]
+  },
+  {
+    "entity_key": "company:levels-health",
+    "channel_id": "",
+    "display_name": "Levels Health",
+    "entity_type": "company",
+    "surfaces": [],
+    "evidence": {
+      "creatinine": [
+        {
+          "source": "inventory",
+          "ref": "yt:44JjnUWOm7g",
+          "title": "Kidney Health Blood Test Results Explained: Filtration, Function & What to Know | Dr. Anjali Dsouza",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:H2QvVDZQxHA",
+          "title": "The Top Two Causes of Kidney Disease | Dr. Rick Johnson",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Slx2csjndYc",
+          "title": "Kidney Damage Warning Signs You Shouldn\u2019t Ignore | Dr. Rick Johnson Explains the Symptoms",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:YGSpKT0epIw",
+          "title": "Lifestyle Factors Can Contribute To Age-Related Kidney Decline | Dr. Rick Johnson",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:e4ivJhpu_tQ",
+          "title": "Lifestyle Factors that May Worsen Kidney Health | Dr. Rick Johnson",
+          "term": "creatinine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:xqoCS9GZIjE",
+          "title": "KIDNEY FUNCTION Explained: Tests, Risks, and Habits That Protect Your Health | Dr. Richard Johnson",
+          "term": "creatinine",
+          "where": "description"
+        }
+      ],
+      "rbc-count": [
+        {
+          "source": "inventory",
+          "ref": "yt:44JjnUWOm7g",
+          "title": "Kidney Health Blood Test Results Explained: Filtration, Function & What to Know | Dr. Anjali Dsouza",
+          "term": "red blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:8Ifu2BRdchI",
+          "title": "Blood Health Test Results Explained: Anemia, Oxygen Delivery, and Immune Clues | Dr. Anjali Dsouza",
+          "term": "red blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:cpwB4-_7o-w",
+          "title": "UNDERSTANDING ELECTROLYTES: Decoding Blood & Urine Tests | Dr. Rich Joseph + Mike Haney",
+          "term": "red blood cells",
+          "where": "description"
+        }
+      ],
+      "uric-acid": [
+        {
+          "source": "inventory",
+          "ref": "yt:44JjnUWOm7g",
+          "title": "Kidney Health Blood Test Results Explained: Filtration, Function & What to Know | Dr. Anjali Dsouza",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:4l_nNdPhkqg",
+          "title": "36 grams of sugar in a glass of orange juice? Nothing natural about that (Dr. David Perlmutter)",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:6P8HVIbdDc0",
+          "title": "UNLOCK the Secret to Your Health: CHOLESTEROL Levels - Are You Really Healthy? | Dr. Robert Lustig",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:GTYHWXksts0",
+          "title": "The amount of sugar we need to eat is zero grams (Dr. David Perlmutter)",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:GpnjTN8PyVw",
+          "title": "Energy: Is Fructose a Driver of Alzheimer\u2019s Disease? | Dr. Richard Johnson & Dr. Robert Lustig",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:IZhi4JXxy6Y",
+          "title": "URIC ACID Foods to AVOID: KEY Cause of Weight Gain, Diabetes, & Heart Disease | Dr. David Perlmutter",
+          "term": "uric acid",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:JrIQCn9va2E",
+          "title": "A Small Amount of FRUCTOSE Lights Up Our WHOLE Physiology (Dr. David Perlmutter & Dr. Casey Means)",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:NbWE-J1JpKs",
+          "title": "Is Fructose a Driver of Alzheimer\u2019s Disease? | Dr. Richard Johnson & Dr. Robert Lustig",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:PAecXUoqsq4",
+          "title": "Why Your Uric Acid Level Matters for Metabolic Health | Dr. Robert Lustig",
+          "term": "uric acid",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:QZ6jPCcFNa8",
+          "title": "Uric Acid: A KEY Cause of Weight Gain, Diabetes, Heart Disease & Dementia | Dr. David Perlmutter",
+          "term": "uric acid",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:SRqNAruNPis",
+          "title": "We Want to Keep Our URIC ACID Levels Below 5.5 (Dr. David Perlmutter & Dr. Casey Means)",
+          "term": "uric acid",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:TEhfpHO7u9Q",
+          "title": "ATP: Is Fructose a Driver of Alzheimer\u2019s Disease? | Dr. Richard Johnson & Dr. Robert Lustig",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:V3-I2C15Bok",
+          "title": "A HIGH-SALT DIET Can Lead to INSULIN RESISTANCE",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:W6A3jTOO01A",
+          "title": "Sugar: Is Fructose a Driver of Alzheimer\u2019s Disease? | Dr. Richard Johnson & Dr. Robert Lustig",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:WuthVn5wZsk",
+          "title": "The Problem with High Uric Acid Levels | Dr. Robert Lustig, MD & Levels Advisor",
+          "term": "uric acid",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:XbjORE6D8UA",
+          "title": "How DIET Affects Joint Health, ARTHRITIS, and Longevity | Dr. Howard Luks & Dr. Casey Means",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:aFeykTsOyjY",
+          "title": "Why Fructose Is Bad for You | Dr. David Perlmutter and Dr. Casey Means",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:c-4mnFERn4A",
+          "title": "Blood Sugar & Insulin Resistance Key Blood Test Results Explained | Dr. Anjali Dsouza",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:cU74uTZoJQc",
+          "title": "Ultimate Guide to Blood Sugar, INSULIN RESISTANCE & Metabolic Health | Dr. Robert Lustig Music-Free",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:ckXQQyt6TiM",
+          "title": "Get the RIGHT Lab Tests for FREE & Know What Is Optimal | Dr. Casey Means",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:iJZZ93uBUdw",
+          "title": "Why Fructose Is a Problem | Dr. Robert Lustig Ultimate Guide",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:iNKMeoz_PnM",
+          "title": "Alcohol: Is Fructose a Driver of Alzheimer\u2019s Disease? | Dr. Richard Johnson & Dr. Robert Lustig",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:kK1vPH-8rKg",
+          "title": "Ultra-Processed Foods Raise Blood Sugar | Dr. David Perlmutter and Dr. Casey Means",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:lK7NsTJuEP0",
+          "title": "What Causes High Uric Acid Levels? | Dr. David Perlmutter and Dr. Casey Means",
+          "term": "uric acid",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:shnSww-csI8",
+          "title": "Why Fructose Is a Problem | Dr. Robert Lustig",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:zG4XD116uy8",
+          "title": "The ULTIMATE Guide to Blood Sugar, INSULIN RESISTANCE & Metabolic Health | Dr. Robert Lustig",
+          "term": "uric acid",
+          "where": "description"
+        }
+      ],
+      "wbc-count": [
+        {
+          "source": "inventory",
+          "ref": "yt:5t_MuFXKPTE",
+          "title": "Urinalysis Test Results & UTIs Explained: What Urine Color & Clarity Really Mean | Dr. Anjali Dsouza",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:8Ifu2BRdchI",
+          "title": "Blood Health Test Results Explained: Anemia, Oxygen Delivery, and Immune Clues | Dr. Anjali Dsouza",
+          "term": "white blood cell count",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:MWtDYEMxzRc",
+          "title": "The Ultimate Guide to Understanding Your Blood\u00a0Test\u00a0Results Explained | Dr. Anjali Dsouza",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Slx2csjndYc",
+          "title": "Kidney Damage Warning Signs You Shouldn\u2019t Ignore | Dr. Rick Johnson Explains the Symptoms",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:cpwB4-_7o-w",
+          "title": "UNDERSTANDING ELECTROLYTES: Decoding Blood & Urine Tests | Dr. Rich Joseph + Mike Haney",
+          "term": "white blood cells",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:k1XpdFGVx1o",
+          "title": "IMMUNE HEALTH: Inflammation, White Blood Cells & Resilience | Dr. Sharon Bergquist & Mike Haney",
+          "term": "white blood cells",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:ydFhTf_-Ddo",
+          "title": "Immune Health Tests Results Explained: White Blood Cells, Inflammation & Autoimmunity | Dr. Anjali",
+          "term": "white blood cells",
+          "where": "title"
+        }
+      ],
+      "glyphosate": [
+        {
+          "source": "inventory",
+          "ref": "yt:6VH0NxiWaBM",
+          "title": "Fast Food Swaps: Make the McDonald\u2019s Crispy Chicken Snack Wrap at Home for Stable Blood Sugar Levels",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:8YQvpH_wD6I",
+          "title": "There is GLYPHOSATE in Wheat Based Products: How Do You Afford Nutritious Food in a Food Desert?",
+          "term": "glyphosate",
+          "where": "title"
+        }
+      ],
+      "homocysteine": [
+        {
+          "source": "inventory",
+          "ref": "yt:MV_9nyAN1Vk",
+          "title": "BRAIN HEALTH: Insulin Resistance, Biomarkers & Alzheimer\u2019s Risk | Dr. David Perlmutter & Mike Haney",
+          "term": "homocysteine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:RqMl1UCSm-s",
+          "title": "The type of exercise that protects your brain",
+          "term": "homocysteine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:X-jIyogXZwc",
+          "title": "What ancient wisdom got right about brain health",
+          "term": "homocysteine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:dWhPhB5Tqo0",
+          "title": "How metabolism links diabetes, Parkinson\u2019s, and Alzheimer\u2019s",
+          "term": "homocysteine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:jBCaEaTgeBE",
+          "title": "Nutrient Blood Test Results Explained: What They Reveal About Energy, Immunity & Health | Dr. Dsouza",
+          "term": "homocysteine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:ozJ9wUpDPWQ",
+          "title": "The Alzheimer\u2019s prevention diet",
+          "term": "homocysteine",
+          "where": "description"
+        }
+      ],
+      "uacr": [
+        {
+          "source": "inventory",
+          "ref": "yt:Slx2csjndYc",
+          "title": "Kidney Damage Warning Signs You Shouldn\u2019t Ignore | Dr. Rick Johnson Explains the Symptoms",
+          "term": "kidney damage",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:twVUPk-B-vg",
+          "title": "Why Exercise is the Secret to Muscle Growth and Longevity | Dr. Stuart Phillips & Mike Haney",
+          "term": "kidney damage",
+          "where": "description"
+        }
+      ]
+    },
+    "marker_affinity": [
+      "creatinine",
+      "glyphosate",
+      "homocysteine",
+      "rbc-count",
+      "uacr",
+      "uric-acid",
+      "wbc-count"
+    ]
+  },
+  {
+    "entity_key": "person:physionic",
+    "channel_id": "",
+    "display_name": "Physionic",
+    "entity_type": "person",
+    "surfaces": [],
+    "evidence": {
+      "uacr": [
+        {
+          "source": "inventory",
+          "ref": "yt:AhbOGshlvj4",
+          "title": "My Supplement Routine - PhD in Molecular Medicine Explains",
+          "term": "kidney damage",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:VYjjLumJz7s",
+          "title": "Dr. Layne Norton: \u201cThe Mount Rushmore\u201d of Supplements",
+          "term": "kidney damage",
+          "where": "description"
+        }
+      ],
+      "body-mass-index": [
+        {
+          "source": "inventory",
+          "ref": "yt:_YPIO9CBuw8",
+          "title": "Pancreatic Cancer: 750% Increased Risk",
+          "term": "body mass index",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:eWMvKAnX-zY",
+          "title": "Dr. Boz: How to Reverse Insulin Resistance once and for All!",
+          "term": "body mass index",
+          "where": "description"
+        }
+      ]
+    },
+    "marker_affinity": [
+      "body-mass-index",
+      "uacr"
+    ]
+  },
+  {
+    "entity_key": "person:judy-cho",
+    "channel_id": "",
+    "display_name": "Judy Cho",
+    "entity_type": "person",
+    "surfaces": [],
+    "evidence": {
+      "glyphosate": [
+        {
+          "source": "inventory",
+          "ref": "yt:5lt1Vfp0EBk",
+          "title": "Should you eat fermented foods? Colonoscopies, PPIs, Antibiotics, H.Pylori \u2013 Dr. Neil Stollman",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:62opt9vbj48",
+          "title": "Carnivore Cure is LIVE! Carnivore Q&A",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:7-wzAvdoFTQ",
+          "title": "Why We get Sick: Germ vs. Terrain Theory. GAPS protocol \u2013 Dr. Natasha Campbell-McBride",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:ARynmW89byo",
+          "title": "How glyphosate impacts your gut microbiome. - Dr. Stephanie Seneff",
+          "term": "glyphosate",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:GLKDJ5_Y1EU",
+          "title": "Glyphosate's Effect on our Gut Health - Dr. Stephanie Seneff",
+          "term": "glyphosate",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:NLzfZjpeqo8",
+          "title": "The Other Toxins in Plants: Glyphosate - Dr. Stephanie Seneff",
+          "term": "glyphosate",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:XbSCb93NrtM",
+          "title": "How Glyphosate is Ruining our Health: Mold, CIRS, Thyroid, Gut Dysbiosis - Dr. Stephanie Seneff",
+          "term": "glyphosate",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:bXSEZ9inb9w",
+          "title": "Ideal Ketone Range, Cholesterol, and Mercury in Fish with Keto/Low-Carb - Dom D'Agostino",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:lHm5JcaZp60",
+          "title": "Hidden Ingredient Found in Honey - Dr. Stephanie Seneff",
+          "term": "glyphosate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:lJr0UJmOu4w",
+          "title": "A Look into Carnivore Cure: Chapter Review & FAQ",
+          "term": "glyphosate",
+          "where": "description"
+        }
+      ],
+      "uric-acid": [
+        {
+          "source": "inventory",
+          "ref": "yt:69Xam64mJoo",
+          "title": "I Did Fasting for 5 Days & This is What Happened  | Nutrition with Judy",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:BYzu0BS7loU",
+          "title": "How to Consume Salt and Support High Blood Pressure - Dr. Richard Johnson",
+          "term": "serum uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:BzwH-94vMis",
+          "title": "Expert Reveals Why Carnivore with Honey, Fruit & Liver May Make You Sick - Dr. Richard Johnson",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:I8GLKucI_Jc",
+          "title": "Thoughts on a Long Term Carnivore Diet: Lessons from Patients and Lab Work - Dr. Robert Cywes",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:KRML8F4DUJw",
+          "title": "Meaty Minute - Animal-Based: Is Fruit and Meat Healthy on a Carnivore Diet?",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:LGPOYkpeKyE",
+          "title": "The paradigm of high uric acid = gout is grossly misrepresenting the cause of gout.",
+          "term": "uric acid",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:V-ey02X04vQ",
+          "title": "Gout Flares on a Keto or Carnivore Diet \u2013 Dr. Peter Delannoy",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:Y_pifLdwBKQ",
+          "title": "How to Manage Uric Acid Levels - Dr. Richard Johnson",
+          "term": "uric acid",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:kEJSiIv5Mtk",
+          "title": "Top 10  Health Tips Learned From the Last 100 Interviews | Nutrition with Judy",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:kT3DDgqixIA",
+          "title": "Can Fruit, Liver & Alcohol on a Carnivore Diet Make me Sick? Thoughts on Dr. Perlmutter's Interview",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:sivgu813n_o",
+          "title": "Surprising New Science of Uric Acid \u2013 Drop Acid by Dr. David Perlmutter",
+          "term": "uric acid",
+          "where": "title"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:zBxQMe-ezc0",
+          "title": "Expert's Finding on the Cause of Insulin Resistance - Dr. Ben Bikman",
+          "term": "uric acid",
+          "where": "description"
+        }
+      ],
+      "urine-iodine": [
+        {
+          "source": "inventory",
+          "ref": "yt:Y6xWks9KUYc",
+          "title": "Tactical Tools to Heal Your Thyroid - Neisha Berry",
+          "term": "urine iodine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:epBUXWKFojk",
+          "title": "Personalization Is the Missing Piece to Your Carnivore Success",
+          "term": "urine iodine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:xfbLpU1ys48",
+          "title": "Risks of Bras and Mammograms for Breast Health - Patricia Bowen Luccardi",
+          "term": "urine iodine",
+          "where": "description"
+        }
+      ]
+    },
+    "marker_affinity": [
+      "glyphosate",
+      "uric-acid",
+      "urine-iodine"
+    ]
+  },
+  {
+    "entity_key": "person:andrew-huberman",
+    "channel_id": "",
+    "display_name": "Andrew Huberman",
+    "entity_type": "person",
+    "surfaces": [],
+    "evidence": {
+      "bisphenol-a": [
+        {
+          "source": "inventory",
+          "ref": "yt:6RZbGrq9BxE",
+          "title": "How to Limit Your Exposure to Endocrine Disruptors",
+          "term": "bisphenol a",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:i5611OvTFGM",
+          "title": "How to Safeguard Your Hormone Health & Fertility | Dr. Shanna Swan",
+          "term": "bisphenol a",
+          "where": "description"
+        }
+      ],
+      "osteocalcin": [
+        {
+          "source": "inventory",
+          "ref": "yt:J2oqi41dCNc",
+          "title": "How to Use Exercise to Improve Your Brain\u2019s Health, Longevity & Performance",
+          "term": "osteocalcin",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:U6dnOVth7-I",
+          "title": "Understand & Improve Memory Using Science-Based Tools | Huberman Lab Essentials",
+          "term": "osteocalcin",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:XcvhERcZpWw",
+          "title": "Micronutrients for Health & Longevity | Dr. Rhonda Patrick",
+          "term": "osteocalcin",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:szqPAPKE5tQ",
+          "title": "Understand & Improve Memory Using Science-Based Tools",
+          "term": "osteocalcin",
+          "where": "description"
+        }
+      ]
+    },
+    "marker_affinity": [
+      "bisphenol-a",
+      "osteocalcin"
+    ]
+  },
+  {
+    "entity_key": "person:william-davis",
+    "channel_id": "",
+    "display_name": "William Davis",
+    "entity_type": "person",
+    "surfaces": [],
+    "evidence": {
+      "homocysteine": [
+        {
+          "source": "inventory",
+          "ref": "yt:Z3uOab0U-1A",
+          "title": "Undoctored Advanced Concept: Preventing Migraine Headaches",
+          "term": "homocysteine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:a-ttNFtTNz0",
+          "title": "Weight loss: Why diet is NOT enough",
+          "term": "homocysteine",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:j4fxGQE5CrU",
+          "title": "Are you wasting your time taking B vitamins for a high homocysteine?",
+          "term": "homocysteine",
+          "where": "title"
+        }
+      ],
+      "bicarbonate": [
+        {
+          "source": "inventory",
+          "ref": "yt:ghyasvrWPW4",
+          "title": "Get Magnesium Right for Maximum Benefit",
+          "term": "bicarbonate",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:pdz9DuoBpHE",
+          "title": "The Trouble With Magnesium and Migraines",
+          "term": "bicarbonate",
+          "where": "description"
+        }
+      ]
+    },
+    "marker_affinity": [
+      "bicarbonate",
+      "homocysteine"
+    ]
+  },
+  {
+    "entity_key": "person:low-carb-down-under",
+    "channel_id": "",
+    "display_name": "Low Carb Down Under",
+    "entity_type": "person",
+    "surfaces": [],
+    "evidence": {
+      "uric-acid": [
+        {
+          "source": "inventory",
+          "ref": "yt:UTDWAN1G-nk",
+          "title": "Prof. Richard Johnson - 'Nature Wants Us To Be Fat - Part 3'",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:gAjC_BWMElk",
+          "title": "Prof. Richard Johnson - 'Nature Wants Us To Be Fat - Part 1'",
+          "term": "uric acid",
+          "where": "description"
+        },
+        {
+          "source": "inventory",
+          "ref": "yt:gl-Ugeau8mU",
+          "title": "Prof. Richard Johnson - 'Nature Wants Us To Be Fat - Part 2'",
+          "term": "uric acid",
+          "where": "description"
+        }
+      ]
+    },
+    "marker_affinity": [
+      "uric-acid"
+    ]
+  }
+]

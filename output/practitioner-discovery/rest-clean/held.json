@@ -1,0 +1,117 @@
+[
+  {
+    "entity_key": "channel:UCzoRyR_nlesKZuOlEjWRXQQ",
+    "channel_id": "UCzoRyR_nlesKZuOlEjWRXQQ",
+    "display_name": "Anthony Chaffee MD",
+    "entity_type": "channel",
+    "surfaces": [
+      {
+        "platform": "youtube",
+        "handle_or_url": "https://www.youtube.com/channel/UCzoRyR_nlesKZuOlEjWRXQQ",
+        "channel_id": "UCzoRyR_nlesKZuOlEjWRXQQ",
+        "discovery_mode": "auto_discovered"
+      }
+    ],
+    "evidence": {
+      "glyphosate": [
+        {
+          "source": "inventory",
+          "ref": "yt:C71Wu6YDadc",
+          "title": "\ud83d\udd34 Why Glyphosate Is DESTROYING Your Health! | Dr Stephanie Seneff",
+          "term": "glyphosate",
+          "where": "title"
+        }
+      ],
+      "rbc-count": [
+        {
+          "source": "inventory",
+          "ref": "yt:tICJUNXfaO0",
+          "title": "Dr Paul Mason: #1 Proven Way To Lose Weight FAST (Calories Doesn't Work)",
+          "term": "red blood cells",
+          "where": "description"
+        }
+      ]
+    }
+  },
+  {
+    "entity_key": "media:diet-doctor",
+    "channel_id": "",
+    "display_name": "Diet Doctor",
+    "entity_type": "media_platform",
+    "surfaces": [],
+    "evidence": {
+      "uric-acid": [
+        {
+          "source": "inventory",
+          "ref": "yt:NKK-ycm5c-M",
+          "title": "Low carb lowers uric acid levels by improving insulin resistance",
+          "term": "uric acid",
+          "where": "title"
+        }
+      ],
+      "body-mass-index": [
+        {
+          "source": "inventory",
+          "ref": "yt:SlWvB67Mf3A",
+          "title": "How to improve and measure your body composition",
+          "term": "body mass index",
+          "where": "description"
+        }
+      ],
+      "egfr": [
+        {
+          "source": "inventory",
+          "ref": "yt:hNnFRbpyMd8",
+          "title": "Keto diets and kidney health \u2013 Diet Doctor Podcast",
+          "term": "glomerular filtration rate",
+          "where": "description"
+        }
+      ]
+    }
+  },
+  {
+    "entity_key": "person:dave-feldman",
+    "channel_id": "",
+    "display_name": "Dave Feldman",
+    "entity_type": "person",
+    "surfaces": [],
+    "evidence": {
+      "pyruvate": [
+        {
+          "source": "inventory",
+          "ref": "yt:Qv5n7yYHuxU",
+          "title": "Lactic Acidosis, Black Mold & B1: What If It's All Connected? \u2013 TFP #014 | Darren Schmidt",
+          "term": "pyruvate",
+          "where": "description"
+        }
+      ]
+    }
+  },
+  {
+    "entity_key": "person:jason-fung",
+    "channel_id": "",
+    "display_name": "Jason Fung",
+    "entity_type": "person",
+    "surfaces": [],
+    "evidence": {
+      "uacr": [
+        {
+          "source": "inventory",
+          "ref": "yt:Uyjg5S_ef9k",
+          "title": "Fasting for Kidney Disease -  Surprising Benefits | Jason Fung",
+          "term": "kidney damage",
+          "where": "description"
+        }
+      ],
+      "body-mass-index": [
+        {
+          "source": "inventory",
+          "ref": "yt:kZsWHlAnQ6U",
+          "title": "How Doctors Lose Weight | Jason Fung",
+          "term": "body mass index",
+          "where": "description"
+        }
+      ]
+    }
+  }
+]

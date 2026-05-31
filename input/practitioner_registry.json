@@ -1641,6 +1641,7 @@
       "source_grade": "D1",
       "marker_affinity": [
         "amh",
+        "bisphenol-a",
         "cortisol-am",
         "dhea",
         "dht",
@@ -1649,6 +1650,7 @@
         "free-testosterone",
         "fsh",
         "lh",
+        "osteocalcin",
         "progesterone",
         "prolactin",
         "shbg",
@@ -1790,6 +1792,24 @@
             "yt:slUCmZJDXrk",
             "yt:vA50EK70whE",
             "yt:x7qbJeRxWGw"
+          ]
+        },
+        {
+          "marker": "bisphenol-a",
+          "evidence_count": 2,
+          "evidence": [
+            "yt:6RZbGrq9BxE",
+            "yt:i5611OvTFGM"
+          ]
+        },
+        {
+          "marker": "osteocalcin",
+          "evidence_count": 4,
+          "evidence": [
+            "yt:J2oqi41dCNc",
+            "yt:U6dnOVth7-I",
+            "yt:XcvhERcZpWw",
+            "yt:szqPAPKE5tQ"
           ]
         }
       ]
@@ -2490,10 +2510,12 @@
       "source_grade": "C2",
       "marker_affinity": [
         "fasting-insulin",
+        "glyphosate",
         "hba1c",
         "homa-ir",
         "hs-crp",
-        "progesterone"
+        "progesterone",
+        "uric-acid"
       ],
       "key_contribution": "Neurologist",
       "surfaces": [
@@ -2524,6 +2546,37 @@
           "evidence": [
             "yt:V0Ni3j3b6IQ",
             "yt:Y4uE2y-DLPI"
+          ]
+        },
+        {
+          "marker": "uric-acid",
+          "evidence_count": 15,
+          "evidence": [
+            "yt:0cj2eEHdv8s",
+            "yt:1F-CSfM5zbI",
+            "yt:5gqyroyD3Hc",
+            "yt:5jBsWbDGtWU",
+            "yt:8j4ATA28tlw",
+            "yt:AU3Fp7R11KQ",
+            "yt:JTxkAK82e0I",
+            "yt:Uo8_ikAdHs8",
+            "yt:ZU0rmr6vhlU",
+            "yt:Zf2XrIteKMw",
+            "yt:lc-qmG0DAXY",
+            "yt:nXGTFDVoTQM",
+            "yt:s-FTyh3qQgU",
+            "yt:tkfEul92peo",
+            "yt:ucXGCpLhomQ"
+          ]
+        },
+        {
+          "marker": "glyphosate",
+          "evidence_count": 4,
+          "evidence": [
+            "yt:EUzgUSmkjcc",
+            "yt:G-z-bFG0rU4",
+            "yt:Z8xuyoKZv4s",
+            "yt:i6j0wIhUr1M"
           ]
         }
       ]
@@ -3044,7 +3097,10 @@
       "source_grade": "D1",
       "marker_affinity": [
         "dhea",
-        "shbg"
+        "glyphosate",
+        "shbg",
+        "uric-acid",
+        "urine-iodine"
       ],
       "key_contribution": "Nutritionist",
       "surfaces": [
@@ -3072,6 +3128,49 @@
           "evidence": [
             "yt:bDaIhHbnuWk",
             "yt:wlQn9VoKBjg"
+          ]
+        },
+        {
+          "marker": "glyphosate",
+          "evidence_count": 10,
+          "evidence": [
+            "yt:5lt1Vfp0EBk",
+            "yt:62opt9vbj48",
+            "yt:7-wzAvdoFTQ",
+            "yt:ARynmW89byo",
+            "yt:GLKDJ5_Y1EU",
+            "yt:NLzfZjpeqo8",
+            "yt:XbSCb93NrtM",
+            "yt:bXSEZ9inb9w",
+            "yt:lHm5JcaZp60",
+            "yt:lJr0UJmOu4w"
+          ]
+        },
+        {
+          "marker": "uric-acid",
+          "evidence_count": 12,
+          "evidence": [
+            "yt:69Xam64mJoo",
+            "yt:BYzu0BS7loU",
+            "yt:BzwH-94vMis",
+            "yt:I8GLKucI_Jc",
+            "yt:KRML8F4DUJw",
+            "yt:LGPOYkpeKyE",
+            "yt:V-ey02X04vQ",
+            "yt:Y_pifLdwBKQ",
+            "yt:kEJSiIv5Mtk",
+            "yt:kT3DDgqixIA",
+            "yt:sivgu813n_o",
+            "yt:zBxQMe-ezc0"
+          ]
+        },
+        {
+          "marker": "urine-iodine",
+          "evidence_count": 3,
+          "evidence": [
+            "yt:Y6xWks9KUYc",
+            "yt:epBUXWKFojk",
+            "yt:xfbLpU1ys48"
           ]
         }
       ]
@@ -3178,8 +3277,12 @@
       "source_tier": "B",
       "source_grade": "D1",
       "marker_affinity": [
+        "creatinine",
+        "neutrophils",
         "progesterone",
-        "shbg"
+        "shbg",
+        "uacr",
+        "urine-ph"
       ],
       "key_contribution": "Family Medicine",
       "surfaces": [
@@ -3206,6 +3309,40 @@
           "evidence": [
             "yt:W8tWuhjZ4ls",
             "yt:bFKs65QsugA"
+          ]
+        },
+        {
+          "marker": "creatinine",
+          "evidence_count": 3,
+          "evidence": [
+            "yt:2kxlCd6AsOA",
+            "yt:EeYyjXO5hHo",
+            "yt:ZrTCjw-vr-g"
+          ]
+        },
+        {
+          "marker": "neutrophils",
+          "evidence_count": 2,
+          "evidence": [
+            "yt:5EsSQVK9tIE",
+            "yt:Hfq_I3dM5TU"
+          ]
+        },
+        {
+          "marker": "urine-ph",
+          "evidence_count": 2,
+          "evidence": [
+            "yt:EeYyjXO5hHo",
+            "yt:Q0f2-c6bm14"
+          ]
+        },
+        {
+          "marker": "uacr",
+          "evidence_count": 3,
+          "evidence": [
+            "yt:FL0I3FlLqJ8",
+            "yt:hPMaJONLXH8",
+            "yt:t9FrCTVOD8M"
           ]
         }
       ]
@@ -3383,10 +3520,17 @@
       "source_grade": "C1",
       "marker_affinity": [
         "cortisol-am",
+        "creatinine",
         "fasting-insulin",
         "free-testosterone",
+        "glyphosate",
         "hba1c",
-        "progesterone"
+        "homocysteine",
+        "progesterone",
+        "rbc-count",
+        "uacr",
+        "uric-acid",
+        "wbc-count"
       ],
       "key_contribution": "CGM-centric metabolic education",
       "surfaces": [
@@ -3459,6 +3603,100 @@
             "yt:NImh8C0Sdhk",
             "yt:Zs2CZC2GueA"
           ]
+        },
+        {
+          "marker": "creatinine",
+          "evidence_count": 6,
+          "evidence": [
+            "yt:44JjnUWOm7g",
+            "yt:H2QvVDZQxHA",
+            "yt:Slx2csjndYc",
+            "yt:YGSpKT0epIw",
+            "yt:e4ivJhpu_tQ",
+            "yt:xqoCS9GZIjE"
+          ]
+        },
+        {
+          "marker": "rbc-count",
+          "evidence_count": 3,
+          "evidence": [
+            "yt:44JjnUWOm7g",
+            "yt:8Ifu2BRdchI",
+            "yt:cpwB4-_7o-w"
+          ]
+        },
+        {
+          "marker": "uric-acid",
+          "evidence_count": 26,
+          "evidence": [
+            "yt:44JjnUWOm7g",
+            "yt:4l_nNdPhkqg",
+            "yt:6P8HVIbdDc0",
+            "yt:GTYHWXksts0",
+            "yt:GpnjTN8PyVw",
+            "yt:IZhi4JXxy6Y",
+            "yt:JrIQCn9va2E",
+            "yt:NbWE-J1JpKs",
+            "yt:PAecXUoqsq4",
+            "yt:QZ6jPCcFNa8",
+            "yt:SRqNAruNPis",
+            "yt:TEhfpHO7u9Q",
+            "yt:V3-I2C15Bok",
+            "yt:W6A3jTOO01A",
+            "yt:WuthVn5wZsk",
+            "yt:XbjORE6D8UA",
+            "yt:aFeykTsOyjY",
+            "yt:c-4mnFERn4A",
+            "yt:cU74uTZoJQc",
+            "yt:ckXQQyt6TiM",
+            "yt:iJZZ93uBUdw",
+            "yt:iNKMeoz_PnM",
+            "yt:kK1vPH-8rKg",
+            "yt:lK7NsTJuEP0",
+            "yt:shnSww-csI8",
+            "yt:zG4XD116uy8"
+          ]
+        },
+        {
+          "marker": "wbc-count",
+          "evidence_count": 7,
+          "evidence": [
+            "yt:5t_MuFXKPTE",
+            "yt:8Ifu2BRdchI",
+            "yt:MWtDYEMxzRc",
+            "yt:Slx2csjndYc",
+            "yt:cpwB4-_7o-w",
+            "yt:k1XpdFGVx1o",
+            "yt:ydFhTf_-Ddo"
+          ]
+        },
+        {
+          "marker": "glyphosate",
+          "evidence_count": 2,
+          "evidence": [
+            "yt:6VH0NxiWaBM",
+            "yt:8YQvpH_wD6I"
+          ]
+        },
+        {
+          "marker": "homocysteine",
+          "evidence_count": 6,
+          "evidence": [
+            "yt:MV_9nyAN1Vk",
+            "yt:RqMl1UCSm-s",
+            "yt:X-jIyogXZwc",
+            "yt:dWhPhB5Tqo0",
+            "yt:jBCaEaTgeBE",
+            "yt:ozJ9wUpDPWQ"
+          ]
+        },
+        {
+          "marker": "uacr",
+          "evidence_count": 2,
+          "evidence": [
+            "yt:Slx2csjndYc",
+            "yt:twVUPk-B-vg"
+          ]
         }
       ]
     },
@@ -3515,7 +3753,9 @@
       ],
       "source_tier": "B",
       "source_grade": "ungraded",
-      "marker_affinity": [],
+      "marker_affinity": [
+        "uric-acid"
+      ],
       "key_contribution": "Imported from social discovery practitioner registry",
       "surfaces": [
         {
@@ -3525,7 +3765,18 @@
           "priority": "primary"
         }
       ],
-      "commercial_interests": []
+      "commercial_interests": [],
+      "discovery_provenance": [
+        {
+          "marker": "uric-acid",
+          "evidence_count": 3,
+          "evidence": [
+            "yt:UTDWAN1G-nk",
+            "yt:gAjC_BWMElk",
+            "yt:gl-Ugeau8mU"
+          ]
+        }
+      ]
     },
     {
       "id": "company:low-carb-program",
@@ -3663,8 +3914,9 @@
       "source_tier": "B",
       "source_grade": "C1",
       "marker_affinity": [
+        "fasting-insulin",
         "hba1c",
-        "fasting-insulin"
+        "uric-acid"
       ],
       "key_contribution": "metabolic health conference network",
       "surfaces": [
@@ -3681,7 +3933,17 @@
           "priority": "primary"
         }
       ],
-      "commercial_interests": []
+      "commercial_interests": [],
+      "discovery_provenance": [
+        {
+          "marker": "uric-acid",
+          "evidence_count": 2,
+          "evidence": [
+            "yt:1bu9_UIX9vw",
+            "yt:N8Ij25ZSt8s"
+          ]
+        }
+      ]
     },
     {
       "id": "media:metodichu-bengedi-robi",
@@ -3807,8 +4069,14 @@
       "source_tier": "B",
       "source_grade": "ungraded",
       "marker_affinity": [
+        "bisphenol-a",
         "estradiol",
-        "progesterone"
+        "fibrinogen",
+        "glyphosate",
+        "monocytes",
+        "progesterone",
+        "pyruvate",
+        "rbc-count"
       ],
       "key_contribution": "Imported from social discovery practitioner registry",
       "surfaces": [
@@ -3852,6 +4120,82 @@
             "yt:qMWk6ntvq9Q",
             "yt:t8etsgJVCwY",
             "yt:v_-4Q1M1S6M"
+          ]
+        },
+        {
+          "marker": "glyphosate",
+          "evidence_count": 23,
+          "evidence": [
+            "yt:0PBJ6FsJbzY",
+            "yt:1JVNqEI4bPE",
+            "yt:27U2rOwcqWo",
+            "yt:2lOMWqS70N4",
+            "yt:4ZFqIggiSxc",
+            "yt:83VQshbEap4",
+            "yt:8PScKr5VAAk",
+            "yt:FBsKuB1BfhQ",
+            "yt:G41u5Z9yhEs",
+            "yt:IxLY9YAJRTQ",
+            "yt:Krm37WTjnZM",
+            "yt:M-1g0ZKCoRI",
+            "yt:MByb2Yj0dao",
+            "yt:Ou54h_y5xpU",
+            "yt:PCmEzOPkeMQ",
+            "yt:UmFOhUmSZUU",
+            "yt:Z13WTWeeoSo",
+            "yt:bUbK-96_okQ",
+            "yt:i-X2Uh4sy3s",
+            "yt:ivXb22beVI0",
+            "yt:rMVEAUSUTm8",
+            "yt:tkWQB7h-tJQ",
+            "yt:wcfXo_vWARY"
+          ]
+        },
+        {
+          "marker": "rbc-count",
+          "evidence_count": 5,
+          "evidence": [
+            "yt:1zi1iDUF0oQ",
+            "yt:Cb2KAMgHRm4",
+            "yt:fQXyUqsHVJw",
+            "yt:sRD2ax0hST4",
+            "yt:tUTcicGplys"
+          ]
+        },
+        {
+          "marker": "pyruvate",
+          "evidence_count": 4,
+          "evidence": [
+            "yt:5pUFgzTibuI",
+            "yt:6x0RlVBu-m0",
+            "yt:GzQd0lPuu04",
+            "yt:mQNPKjoHkps"
+          ]
+        },
+        {
+          "marker": "fibrinogen",
+          "evidence_count": 2,
+          "evidence": [
+            "yt:6B0rXzMsj9o",
+            "yt:HQPz8T1Il58"
+          ]
+        },
+        {
+          "marker": "monocytes",
+          "evidence_count": 4,
+          "evidence": [
+            "yt:8_gvPRnfCeU",
+            "yt:atXwQ_29EHo",
+            "yt:o9odYQx_FQU",
+            "yt:xnd9GFRhtkA"
+          ]
+        },
+        {
+          "marker": "bisphenol-a",
+          "evidence_count": 2,
+          "evidence": [
+            "yt:FNLH6p63Nfg",
+            "yt:cZrKaCLIh8E"
           ]
         }
       ]
@@ -4060,7 +4404,9 @@
       "source_tier": "B",
       "source_grade": "ungraded",
       "marker_affinity": [
-        "lh"
+        "body-mass-index",
+        "lh",
+        "uacr"
       ],
       "key_contribution": "Imported from social discovery practitioner registry",
       "surfaces": [
@@ -4080,6 +4426,22 @@
             "yt:6AUHMQzo5F4",
             "yt:JawPF4VwQg0",
             "yt:iILnDvAHruI"
+          ]
+        },
+        {
+          "marker": "uacr",
+          "evidence_count": 2,
+          "evidence": [
+            "yt:AhbOGshlvj4",
+            "yt:VYjjLumJz7s"
+          ]
+        },
+        {
+          "marker": "body-mass-index",
+          "evidence_count": 2,
+          "evidence": [
+            "yt:_YPIO9CBuw8",
+            "yt:eWMvKAnX-zY"
           ]
         }
       ]
@@ -4295,7 +4657,10 @@
       ],
       "source_tier": "B",
       "source_grade": "D1",
-      "marker_affinity": [],
+      "marker_affinity": [
+        "creatinine",
+        "glyphosate"
+      ],
       "key_contribution": "Orthopedic Surgeon",
       "surfaces": [
         {
@@ -4305,7 +4670,27 @@
           "priority": "primary"
         }
       ],
-      "commercial_interests": []
+      "commercial_interests": [],
+      "discovery_provenance": [
+        {
+          "marker": "glyphosate",
+          "evidence_count": 4,
+          "evidence": [
+            "yt:2XyRafspjmU",
+            "yt:AVLZ26X1GSs",
+            "yt:WSDbET6SM5Y",
+            "yt:i3bWJ4QEIG8"
+          ]
+        },
+        {
+          "marker": "creatinine",
+          "evidence_count": 2,
+          "evidence": [
+            "yt:9z2bytr0Zyc",
+            "yt:Yz7hgDMAuR0"
+          ]
+        }
+      ]
     },
     {
       "id": "person:siim-land",
@@ -4328,10 +4713,14 @@
       "source_tier": "B",
       "source_grade": "D1",
       "marker_affinity": [
+        "creatinine",
+        "cystatin-c",
         "dhea",
         "dhea-s",
         "dht",
+        "egfr",
         "estradiol",
+        "homocysteine",
         "progesterone",
         "shbg"
       ],
@@ -4400,6 +4789,44 @@
             "yt:SgKp5mm0ALI",
             "yt:t7afAdI88U4"
           ]
+        },
+        {
+          "marker": "creatinine",
+          "evidence_count": 3,
+          "evidence": [
+            "yt:3_k983KLwXs",
+            "yt:RA4eU1mKVZI",
+            "yt:SgKp5mm0ALI"
+          ]
+        },
+        {
+          "marker": "cystatin-c",
+          "evidence_count": 2,
+          "evidence": [
+            "yt:BCAr2u3XjlY",
+            "yt:SgKp5mm0ALI"
+          ]
+        },
+        {
+          "marker": "homocysteine",
+          "evidence_count": 7,
+          "evidence": [
+            "yt:CvOZsuoJ3-s",
+            "yt:SfH6YAHVqyY",
+            "yt:SgKp5mm0ALI",
+            "yt:cd-IAu5DGBQ",
+            "yt:rYqEwoE0boU",
+            "yt:vewlFfiVI50",
+            "yt:wMd8jaxcYy4"
+          ]
+        },
+        {
+          "marker": "egfr",
+          "evidence_count": 2,
+          "evidence": [
+            "yt:RA4eU1mKVZI",
+            "yt:SgKp5mm0ALI"
+          ]
         }
       ]
     },
@@ -4433,10 +4860,12 @@
         "hba1c",
         "hdl-cholesterol",
         "homa-ir",
+        "homocysteine",
         "ldl-cholesterol",
         "lpa",
         "tg-hdl-ratio",
-        "tsh"
+        "tsh",
+        "uacr"
       ],
       "key_contribution": "Chiropractor/Functional Medicine",
       "surfaces": [
@@ -4461,6 +4890,24 @@
           "evidence": [
             "yt:b0jYpbUAVz4",
             "yt:sI7m6qhGWi0"
+          ]
+        },
+        {
+          "marker": "uacr",
+          "evidence_count": 3,
+          "evidence": [
+            "yt:2N68d7hgpHA",
+            "yt:EeoQbovj8Rw",
+            "yt:PxXacC4C1WE"
+          ]
+        },
+        {
+          "marker": "homocysteine",
+          "evidence_count": 3,
+          "evidence": [
+            "yt:MiRS3_DQI58",
+            "yt:ew5ARPr8dW4",
+            "yt:ilzOgUDRQpk"
           ]
         }
       ]
@@ -4603,7 +5050,10 @@
       ],
       "source_tier": "B",
       "source_grade": "ungraded",
-      "marker_affinity": [],
+      "marker_affinity": [
+        "body-mass-index",
+        "glyphosate"
+      ],
       "key_contribution": "Imported from social discovery practitioner registry",
       "surfaces": [
         {
@@ -4613,7 +5063,27 @@
           "priority": "primary"
         }
       ],
-      "commercial_interests": []
+      "commercial_interests": [],
+      "discovery_provenance": [
+        {
+          "marker": "body-mass-index",
+          "evidence_count": 2,
+          "evidence": [
+            "yt:2QhRDiv5N0E",
+            "yt:Th1vs5EH0C0"
+          ]
+        },
+        {
+          "marker": "glyphosate",
+          "evidence_count": 4,
+          "evidence": [
+            "yt:9-ouDDIGo-8",
+            "yt:XpJkA-3XZlY",
+            "yt:hVpG-Z-PvKQ",
+            "yt:pfSkeKTDXDg"
+          ]
+        }
+      ]
     },
     {
       "id": "person:thomas-fordham-brewer",
@@ -4637,7 +5107,13 @@
       "source_tier": "B",
       "source_grade": "D1",
       "marker_affinity": [
-        "dhea"
+        "body-mass-index",
+        "creatinine",
+        "dhea",
+        "homocysteine",
+        "microalbumin",
+        "neutrophils",
+        "uric-acid"
       ],
       "key_contribution": "Physician",
       "surfaces": [
@@ -4656,6 +5132,92 @@
           "evidence": [
             "yt:59xaWoE3kpY",
             "yt:HZLtwCKwYYg"
+          ]
+        },
+        {
+          "marker": "creatinine",
+          "evidence_count": 13,
+          "evidence": [
+            "yt:0CA7Id3MHFg",
+            "yt:FYakli5eZjo",
+            "yt:G5dIHu4Ycx4",
+            "yt:Gq3hwV2Z5TQ",
+            "yt:LDHLq0aEHTQ",
+            "yt:_6V5f7cWJCI",
+            "yt:dfQGYpNMkRY",
+            "yt:fRXsHCexqlE",
+            "yt:iL7aMkY3ePU",
+            "yt:j30ID5a_FnI",
+            "yt:m-gY-Mgf4_8",
+            "yt:niriTOQxwdI",
+            "yt:x-Nu21eCLAA"
+          ]
+        },
+        {
+          "marker": "microalbumin",
+          "evidence_count": 11,
+          "evidence": [
+            "yt:0CA7Id3MHFg",
+            "yt:FYakli5eZjo",
+            "yt:G5dIHu4Ycx4",
+            "yt:Gq3hwV2Z5TQ",
+            "yt:LDHLq0aEHTQ",
+            "yt:dfQGYpNMkRY",
+            "yt:fRXsHCexqlE",
+            "yt:iL7aMkY3ePU",
+            "yt:j30ID5a_FnI",
+            "yt:m-gY-Mgf4_8",
+            "yt:x-Nu21eCLAA"
+          ]
+        },
+        {
+          "marker": "body-mass-index",
+          "evidence_count": 6,
+          "evidence": [
+            "yt:6zgTaLwsUqc",
+            "yt:B4cm_MO1pNQ",
+            "yt:HtJLvSBpkp8",
+            "yt:OxomFqLNawM",
+            "yt:a44NXfJqKbs",
+            "yt:ltdE0fjlprc"
+          ]
+        },
+        {
+          "marker": "homocysteine",
+          "evidence_count": 15,
+          "evidence": [
+            "yt:7FrG7uOgDyQ",
+            "yt:HoG0aSFkw-M",
+            "yt:_FxuMxKYiLU",
+            "yt:_IUWolgMbpY",
+            "yt:a6o53-MNqTg",
+            "yt:a_v49yaxRX8",
+            "yt:h3IipxdoxCc",
+            "yt:iRn7fLs-mgo",
+            "yt:ky-Mu5yVyuU",
+            "yt:qPDggB9CY4U",
+            "yt:spsl13o0feY",
+            "yt:uiV2hPuTRU8",
+            "yt:weVGlrUAGQk",
+            "yt:yA-z36ij_Wk",
+            "yt:zDY7YbRH5-0"
+          ]
+        },
+        {
+          "marker": "uric-acid",
+          "evidence_count": 2,
+          "evidence": [
+            "yt:9lh2H7R4kqw",
+            "yt:gL4KetUb8ds"
+          ]
+        },
+        {
+          "marker": "neutrophils",
+          "evidence_count": 3,
+          "evidence": [
+            "yt:LA5HafbgL6k",
+            "yt:ZjYo9Bry4PI",
+            "yt:hVEYYyD0PJM"
           ]
         }
       ]
@@ -4771,6 +5333,8 @@
       "source_grade": "C1-D1",
       "marker_affinity": [
         "apob",
+        "bicarbonate",
+        "homocysteine",
         "tg-hdl-ratio"
       ],
       "key_contribution": "grain elimination, small LDL, gut-health protocols",
@@ -4798,6 +5362,25 @@
           ],
           "disclosure_quality": "transparent",
           "severity": "generic"
+        }
+      ],
+      "discovery_provenance": [
+        {
+          "marker": "homocysteine",
+          "evidence_count": 3,
+          "evidence": [
+            "yt:Z3uOab0U-1A",
+            "yt:a-ttNFtTNz0",
+            "yt:j4fxGQE5CrU"
+          ]
+        },
+        {
+          "marker": "bicarbonate",
+          "evidence_count": 2,
+          "evidence": [
+            "yt:ghyasvrWPW4",
+            "yt:pdz9DuoBpHE"
+          ]
         }
       ]
     },
@@ -4947,17 +5530,36 @@
       "source_tier": "C",
       "source_grade": "E2",
       "marker_affinity": [
+        "aldosterone",
+        "ammonia",
+        "bicarbonate",
+        "bisphenol-a",
+        "body-mass-index",
         "cortisol-am",
+        "creatinine",
         "dhea",
         "dhea-s",
         "dht",
+        "egfr",
         "estradiol",
         "free-testosterone",
         "fsh",
+        "glyphosate",
+        "homocysteine",
         "lh",
+        "monocytes",
+        "neutrophils",
+        "platelet-count",
         "progesterone",
         "prolactin",
-        "shbg"
+        "rbc-count",
+        "rbc-magnesium",
+        "shbg",
+        "uacr",
+        "uric-acid",
+        "urine-ketones",
+        "urine-ph",
+        "wbc-count"
       ],
       "key_contribution": "Metabolic/keto health educator (YouTube)",
       "surfaces": [
@@ -5237,6 +5839,619 @@
           "evidence": [
             "yt:LYCHHYFS3gA",
             "yt:jo4MvvUQC2k"
+          ]
+        },
+        {
+          "marker": "uric-acid",
+          "evidence_count": 82,
+          "evidence": [
+            "yt:-7Hez86w7-I",
+            "yt:-FG6xjiREHc",
+            "yt:-cm-hpjK8gs",
+            "yt:-pBvIoTKNj4",
+            "yt:2Z6xbpuUsds",
+            "yt:38dp1LM5PpM",
+            "yt:3UH0jatfoQI",
+            "yt:3VkP4tqGhdY",
+            "yt:3hQ-KRFjSc0",
+            "yt:44Ak4mtPs18",
+            "yt:4BX8knu-RFc",
+            "yt:4VY_ehAMMTA",
+            "yt:4b0gY_jPTI0",
+            "yt:5B-eWnpK0cc",
+            "yt:5nOATly3j9U",
+            "yt:6HV_FR1PKrE",
+            "yt:7nH-xCegcYk",
+            "yt:7nwc3mTacrI",
+            "yt:7tHijDSVQrI",
+            "yt:96JXkd6JPjU",
+            "yt:9D2VwqySGwA",
+            "yt:9MdpfUGK1C4",
+            "yt:AnyFVWwzgJI",
+            "yt:BUiUZf0iXyU",
+            "yt:CoMRcsejMGc",
+            "yt:D-h4RKeR_sg",
+            "yt:DEiybCei-ls",
+            "yt:Fc--yIUWO8o",
+            "yt:GZhA-pItUo4",
+            "yt:GhGSLffZd0E",
+            "yt:GwDpBTxSYKM",
+            "yt:J6ldkOzBG5w",
+            "yt:JfOBh1cAArk",
+            "yt:KGIX50eYaGU",
+            "yt:LAtgt5NYygo",
+            "yt:LHn169caXDY",
+            "yt:Mxp6Q6O9Hxs",
+            "yt:NKx10Yq-15M",
+            "yt:Ni5Cb6FnX2E",
+            "yt:QExc9HVSwvU",
+            "yt:QKqcEb9tj_k",
+            "yt:Qz4DmHvRDgg",
+            "yt:R2BiVf25lhU",
+            "yt:R6siqTxxgdE",
+            "yt:RXsc_ESNESw",
+            "yt:Sai8pcnVQBY",
+            "yt:TQ5ovHN1O40",
+            "yt:Tn3lHConEDw",
+            "yt:UTmdWe8c5so",
+            "yt:X8rrGKGmDdo",
+            "yt:XgRiuJT_2ck",
+            "yt:Y54sBoT4UbI",
+            "yt:aVnEp5wYztw",
+            "yt:dvx9lXwvm84",
+            "yt:eDIrsV01SLI",
+            "yt:eLj2EAutaLw",
+            "yt:eU64_Ua0Brc",
+            "yt:fRKUqZai76E",
+            "yt:fSgmqsl3Twk",
+            "yt:gc7TxOzUSDA",
+            "yt:ip4KAIqgBII",
+            "yt:jJhbMUzCInM",
+            "yt:jivs8wYzNxw",
+            "yt:k9beFmo-bP0",
+            "yt:kBIxzPFLAT0",
+            "yt:kCd6oXZXaZM",
+            "yt:nDR6TM64xWc",
+            "yt:nfPhbmgf2wI",
+            "yt:po4p9LWGHG4",
+            "yt:ptNAKS9VdFs",
+            "yt:pzWZt-ZTAnM",
+            "yt:r76yLiy-bGg",
+            "yt:r_DDSMp3hZw",
+            "yt:s82Ooad0AJQ",
+            "yt:tYB9CGGSwFM",
+            "yt:u0TpL4HwcMA",
+            "yt:u0qaaaU9NPU",
+            "yt:uCO1-MwyrDw",
+            "yt:xcwUfybfRpo",
+            "yt:yabCpwLzFUs",
+            "yt:zT9JRopKVt8",
+            "yt:z_cIF3BGctM"
+          ]
+        },
+        {
+          "marker": "monocytes",
+          "evidence_count": 8,
+          "evidence": [
+            "yt:-IvJ15Ug6fc",
+            "yt:5KSi-yCa4hE",
+            "yt:R0kS26BA5BY",
+            "yt:XE4X926W6x8",
+            "yt:Y1qSA1Y8wT4",
+            "yt:cjNuUz1CWb0",
+            "yt:dBY86H9MuUc",
+            "yt:p2LnwX7BG9I"
+          ]
+        },
+        {
+          "marker": "creatinine",
+          "evidence_count": 82,
+          "evidence": [
+            "yt:-cwT4MN9cJA",
+            "yt:-f4XYmrWIas",
+            "yt:0Q0x3_X9NEY",
+            "yt:0uMUOf_BQo0",
+            "yt:11qN7GUuoy0",
+            "yt:29NS6PxfE2s",
+            "yt:2xY7Yxus8JU",
+            "yt:5xvGkDLjJkA",
+            "yt:6pZ5EuNXyrA",
+            "yt:8KUMT9PCwhs",
+            "yt:AXq2ZdXXFCU",
+            "yt:BFjcC6Htlig",
+            "yt:B_0swS5G3DU",
+            "yt:DvA-wpmuaCI",
+            "yt:EWZrSK4xtXs",
+            "yt:EvGH3kG5u4c",
+            "yt:F-d9qim8uow",
+            "yt:FqywVV5zQOs",
+            "yt:HAUdHuApCG4",
+            "yt:H_U5QRk_Wrc",
+            "yt:Hjlu-jIY9Ao",
+            "yt:IUGVoT9IwAI",
+            "yt:J4UzsjMzmRU",
+            "yt:J9ft6cPJWMQ",
+            "yt:JWl9vsVm3dw",
+            "yt:KqadPidFDmc",
+            "yt:N2DGrgMIcsE",
+            "yt:NFxQJmvgXOQ",
+            "yt:OWnUiSuVgj8",
+            "yt:OcMCBTDpDVU",
+            "yt:OlV-98bp7z4",
+            "yt:PUn3_n7Y4Ns",
+            "yt:Q2P6Q76rfEA",
+            "yt:QAQ7r6jLEww",
+            "yt:QUnf4OXDnCk",
+            "yt:QuyiwpPKiuU",
+            "yt:SXzZ1gm72dw",
+            "yt:Sn7T46fCjLE",
+            "yt:SqsK__FAEd0",
+            "yt:TLOtcX_WB8U",
+            "yt:ThDBb-QoqdU",
+            "yt:Uvh3m2pp1zc",
+            "yt:VvNxY8rThQM",
+            "yt:WJ7N_9UYK1Y",
+            "yt:X6WCY_tqys8",
+            "yt:XcTgFlM681E",
+            "yt:XgRiuJT_2ck",
+            "yt:YHL2s-FT5B8",
+            "yt:YeYR1C7NMUI",
+            "yt:Z0AmWd57pfg",
+            "yt:ZBcg6sNREXE",
+            "yt:ZRjBPuj4q6I",
+            "yt:Zgf4y9uG7BM",
+            "yt:aN7n7ZA-CPw",
+            "yt:b-YazbTc9Z8",
+            "yt:d-0vFQSqUXM",
+            "yt:fGv9KNtPmcE",
+            "yt:gdJDzdJjXXM",
+            "yt:gjJdzHIwDDU",
+            "yt:hrqr3IIoTOs",
+            "yt:lXZNQWtkrL8",
+            "yt:nEQi-jsRFK4",
+            "yt:nk4DAjtcviI",
+            "yt:pTVfEBjTWYE",
+            "yt:pZPq1mSgUlk",
+            "yt:q82KtaQsOBA",
+            "yt:qY8ypQGEhCA",
+            "yt:tPom4UOW1vU",
+            "yt:tw1lO0MXPzg",
+            "yt:txUuZFRnQMU",
+            "yt:uAfVC4l5uZ0",
+            "yt:uBqNYt6oGCc",
+            "yt:uYP-VTctWq4",
+            "yt:v7oxgqfUHaw",
+            "yt:vKf8K-Gc-vE",
+            "yt:w7uOACkLl8s",
+            "yt:wOK5PI2bz78",
+            "yt:wq1HcFAg4fQ",
+            "yt:xU9o6V0BIZc",
+            "yt:y0Wj0kU4-KQ",
+            "yt:zCmW5bLcE9s",
+            "yt:zMIHzJ6bGnU"
+          ]
+        },
+        {
+          "marker": "ammonia",
+          "evidence_count": 38,
+          "evidence": [
+            "yt:-dlBAKYue88",
+            "yt:1Im6I9gItjg",
+            "yt:2CONA2PNi8E",
+            "yt:2dox4_7b64I",
+            "yt:7y6LeqOzw5Y",
+            "yt:C99sgi_Vx_M",
+            "yt:Dz0-E6biHSw",
+            "yt:KC7s_i0Y4VE",
+            "yt:KxguzOyFxQA",
+            "yt:M-9GzRP904g",
+            "yt:MA1kTlrySaQ",
+            "yt:ME8jjIwYMRY",
+            "yt:MzPw7UvAcio",
+            "yt:SZnBfT96CFc",
+            "yt:TsoYREVnVH8",
+            "yt:WtNfraQ6Se8",
+            "yt:_xU_NUu3ey4",
+            "yt:a9wWC7M0QxI",
+            "yt:cUaOvdFhpyk",
+            "yt:dGM_5owfrc4",
+            "yt:eq_1O_J3Ud8",
+            "yt:gsifREzstI4",
+            "yt:iLjdlYBE8Gs",
+            "yt:iOO35cEQXfw",
+            "yt:iiDbC0KdSzk",
+            "yt:ik1AgqT_rms",
+            "yt:kJ3w-z8D4zs",
+            "yt:luOg2Ckr2Jc",
+            "yt:nDR6TM64xWc",
+            "yt:nQccMgrJoJ8",
+            "yt:nxL7ychvY5Y",
+            "yt:o6xh5DHbsiw",
+            "yt:p9Wyya44MD8",
+            "yt:qRgZWS5iScs",
+            "yt:sH74wcYwabQ",
+            "yt:ty6GzNa9SSs",
+            "yt:u_eEoe4gcs4",
+            "yt:ySmzyYOyrWE"
+          ]
+        },
+        {
+          "marker": "glyphosate",
+          "evidence_count": 95,
+          "evidence": [
+            "yt:-iSy1nDxovo",
+            "yt:06yJ9xDabFM",
+            "yt:2P_0yeymkjU",
+            "yt:37tz8sJlbZk",
+            "yt:3Mo1F8ce1yY",
+            "yt:3QePHCO8T8Q",
+            "yt:3iG8RYyumYE",
+            "yt:4DJG_FOQF5M",
+            "yt:4DdvOVv0JMA",
+            "yt:5-CwMkfUuS8",
+            "yt:7mzrAGfr3UM",
+            "yt:89jJ1JlNZlg",
+            "yt:9NILSBpvQB4",
+            "yt:A1BiWgHxSL0",
+            "yt:AwLbF2rnh20",
+            "yt:B69RS3cZJFk",
+            "yt:BAwthZkuB10",
+            "yt:BqYmrJcXGFg",
+            "yt:C8vItCic5sQ",
+            "yt:CQtX_Xu8H3Q",
+            "yt:Cjre0lLNfVY",
+            "yt:DAE9Uj603hA",
+            "yt:DDMGm-Qd3OM",
+            "yt:DUqVHZSFKZo",
+            "yt:DZB84A--178",
+            "yt:E2vfxw6pY3g",
+            "yt:E6SeA_J6Ov8",
+            "yt:EdVmQTCA9b4",
+            "yt:EgGeX-UxnoA",
+            "yt:FIgFTmThhYM",
+            "yt:Faup23zVDJU",
+            "yt:FcW3xFUCClQ",
+            "yt:Ga-0CHCrH0s",
+            "yt:GcRNVf9XU-M",
+            "yt:HH7etpYcv30",
+            "yt:IEMsExZdIZk",
+            "yt:IVe-fPBxacw",
+            "yt:IXHn7mWErDE",
+            "yt:IrStg3cn2u0",
+            "yt:J2uAyp6WCnA",
+            "yt:JDc9n6OcWZc",
+            "yt:JWl9vsVm3dw",
+            "yt:KXtnwwNNLv0",
+            "yt:KfLFFHnim7E",
+            "yt:LdR3gAzCdpU",
+            "yt:LeRzBOyTNOs",
+            "yt:MLJOXKY1SYs",
+            "yt:MzrPg6Gd8Ew",
+            "yt:NOV5vIsjQhg",
+            "yt:NSPWFz6Dn44",
+            "yt:O8qAjp3xVn4",
+            "yt:OaFwMS8-K-A",
+            "yt:PTgBa-Fpmlc",
+            "yt:PjmBV2SqY8k",
+            "yt:TYTsQbahME0",
+            "yt:Tc0ozMc0wZM",
+            "yt:TqqyvRKpu4E",
+            "yt:U-ZtDd-GC84",
+            "yt:UmAJrhsLub8",
+            "yt:UnkEcc3xwMI",
+            "yt:Vl_bzEBBnZA",
+            "yt:Vw6_o8457qA",
+            "yt:WM8fUVut1AA",
+            "yt:WwasJCB4FaA",
+            "yt:X6GMuG7NISQ",
+            "yt:ZAqb98mw4Xs",
+            "yt:ZGEWoPmvPJY",
+            "yt:cUaOvdFhpyk",
+            "yt:cz4V4W6ntGc",
+            "yt:d66BlatRA38",
+            "yt:dkv1rW6JQcM",
+            "yt:eDMTlWlTd4w",
+            "yt:eq_1O_J3Ud8",
+            "yt:h0BUbyXPgLk",
+            "yt:jR0G5b1vaa0",
+            "yt:k4oStGeSoK8",
+            "yt:kQKQ7pa5_ug",
+            "yt:lFlHdFd91JI",
+            "yt:lPpec_wVRa4",
+            "yt:mvHmYmQspNk",
+            "yt:nZV1oYv5Ddo",
+            "yt:nhMr8NXB3y8",
+            "yt:o6QVVwPOQwk",
+            "yt:pIsjyfPNLeQ",
+            "yt:r2JcmyEoKos",
+            "yt:tfmzFXjhOtI",
+            "yt:tjZTNezQTSI",
+            "yt:tqlMxfAECGg",
+            "yt:uhnPkgrOZys",
+            "yt:vNdpBvSCpyU",
+            "yt:vp8bpUrcvOg",
+            "yt:wBG8wWvModg",
+            "yt:wLl0OvB4d8A",
+            "yt:yODIiCvi0NY",
+            "yt:zXd86RvNzZA"
+          ]
+        },
+        {
+          "marker": "bicarbonate",
+          "evidence_count": 12,
+          "evidence": [
+            "yt:00sD_Y359xU",
+            "yt:4BjBPEx7OaQ",
+            "yt:GwDpBTxSYKM",
+            "yt:IvBQHDiCRqY",
+            "yt:Tn3lHConEDw",
+            "yt:Ubldzu5OsyE",
+            "yt:VKW99YifhHs",
+            "yt:X9hOOqgbuNM",
+            "yt:bz8nbOBPKWg",
+            "yt:nZo7c-nR1Ts",
+            "yt:pqXUCscvzGM",
+            "yt:udgEofYO4F4"
+          ]
+        },
+        {
+          "marker": "wbc-count",
+          "evidence_count": 53,
+          "evidence": [
+            "yt:06yJ9xDabFM",
+            "yt:3o7hfGXNAEU",
+            "yt:3rFnlRtGDZs",
+            "yt:4b0gY_jPTI0",
+            "yt:6IBdD_-wsjo",
+            "yt:9AfBCiFgWCY",
+            "yt:B7Cc7VGpIDw",
+            "yt:C99sgi_Vx_M",
+            "yt:EKBJrF6-3kw",
+            "yt:EvGH3kG5u4c",
+            "yt:Ezwe0hBdmSM",
+            "yt:FF4jZv8iJDI",
+            "yt:FObb4O0__EA",
+            "yt:FpjE4gJQ2e4",
+            "yt:GhGSLffZd0E",
+            "yt:HAUdHuApCG4",
+            "yt:I2yGieKZGHA",
+            "yt:N23dLLdxtiQ",
+            "yt:P4U6bhB9a4U",
+            "yt:Q-nnIHYo_Sg",
+            "yt:Q2P6Q76rfEA",
+            "yt:R0kS26BA5BY",
+            "yt:RhLVQ9Dyhf0",
+            "yt:SjbDiOMe2MY",
+            "yt:T99bxA2XQVk",
+            "yt:UdW6W3Yw12c",
+            "yt:VON01PTcu2g",
+            "yt:X9hOOqgbuNM",
+            "yt:_K-nq704I8E",
+            "yt:cjNuUz1CWb0",
+            "yt:dBY86H9MuUc",
+            "yt:g-cchLeHwrM",
+            "yt:gVFKqrfeyuY",
+            "yt:j5lShN1DmYo",
+            "yt:jai7WhaMIeE",
+            "yt:kMjpK_Iel0w",
+            "yt:lmH3k1bFERU",
+            "yt:mhDj0uORiQ4",
+            "yt:mqd-MdtES4s",
+            "yt:nmPJivMOvAM",
+            "yt:q9tgNrgYOPI",
+            "yt:qTzxfoL82n8",
+            "yt:qpb_tJN1wxs",
+            "yt:r9g3OO3hkL0",
+            "yt:rKOSf0BAzCg",
+            "yt:sFF5A99FCkQ",
+            "yt:spodpL6w4vo",
+            "yt:ultcbOkutcQ",
+            "yt:uscfirFx894",
+            "yt:vuSspHE3cuI",
+            "yt:xF0OJh19Ubw",
+            "yt:yy0Ki7z8Czs",
+            "yt:z_G2uljzhGs"
+          ]
+        },
+        {
+          "marker": "uacr",
+          "evidence_count": 38,
+          "evidence": [
+            "yt:1Im6I9gItjg",
+            "yt:1XcKLO0v3Mo",
+            "yt:1hd9djXb1RE",
+            "yt:2Ky81FPiMuA",
+            "yt:2LpVGct-ij8",
+            "yt:3S6NTcg3bFE",
+            "yt:67sCkku8u3o",
+            "yt:7FtBAr5sG8k",
+            "yt:9D2VwqySGwA",
+            "yt:GcRNVf9XU-M",
+            "yt:IGvw1UC7tro",
+            "yt:J9ft6cPJWMQ",
+            "yt:JnMCLAYkkXw",
+            "yt:LKlQm4Szqdw",
+            "yt:MBND6r5o4wI",
+            "yt:PUn3_n7Y4Ns",
+            "yt:TLOtcX_WB8U",
+            "yt:U2FUJqYkn5o",
+            "yt:Ub495mlpl5g",
+            "yt:Ul2MRZWnGCA",
+            "yt:X8rrGKGmDdo",
+            "yt:XmtPctX1Pqk",
+            "yt:ZHfzcBy52Hw",
+            "yt:_xU_NUu3ey4",
+            "yt:c-8padQuePs",
+            "yt:d-0vFQSqUXM",
+            "yt:e5rbb3jHiNs",
+            "yt:e9B4D7GBHNE",
+            "yt:eq_1O_J3Ud8",
+            "yt:ik1AgqT_rms",
+            "yt:knY-Foaeqlg",
+            "yt:loSpk_02OXc",
+            "yt:mDkGEO0anBI",
+            "yt:p9Wyya44MD8",
+            "yt:pqXUCscvzGM",
+            "yt:rrOdKMNQqRo",
+            "yt:tRPqYqa3oLA",
+            "yt:txfPDXqhXoo"
+          ]
+        },
+        {
+          "marker": "rbc-count",
+          "evidence_count": 38,
+          "evidence": [
+            "yt:2IE6i1Z8IC0",
+            "yt:3QVPkrYO57g",
+            "yt:3mVUO1LiqE8",
+            "yt:69eAWgXDGrs",
+            "yt:8yb6_8vrCtk",
+            "yt:ATGp0if2314",
+            "yt:CN5ekrfC4wY",
+            "yt:ChntJVuErlg",
+            "yt:DLwPMnFBwSA",
+            "yt:DUZgNCNlJLU",
+            "yt:DkIbqta-_MM",
+            "yt:H0bpMtMbZAE",
+            "yt:HfknEr2ctRI",
+            "yt:KzmVNovsSqM",
+            "yt:Px8V89FqJE0",
+            "yt:S4TW4wKRZmQ",
+            "yt:T99bxA2XQVk",
+            "yt:UUryv7amArU",
+            "yt:V7Ga0Cx0U1Q",
+            "yt:X9EbJRuC5_Y",
+            "yt:XE4X926W6x8",
+            "yt:YHH6B1ZqsLU",
+            "yt:_HmRSMINhiM",
+            "yt:apxk9RAEtAE",
+            "yt:exKzSs2aohI",
+            "yt:g6E8KigSZeU",
+            "yt:haVr3AAYC80",
+            "yt:ik1AgqT_rms",
+            "yt:jRger6l4rjc",
+            "yt:kQKQ7pa5_ug",
+            "yt:k_Mb7BIo6hA",
+            "yt:kiXbC0L-e4g",
+            "yt:liWi6AuQuUc",
+            "yt:pQaQin8NO2I",
+            "yt:pdMOxVRtCkc",
+            "yt:pl8Gdu2nZpY",
+            "yt:touPC69jMsg",
+            "yt:uscfirFx894"
+          ]
+        },
+        {
+          "marker": "homocysteine",
+          "evidence_count": 13,
+          "evidence": [
+            "yt:2o7EpKY4XgU",
+            "yt:8kB4DY8cWYk",
+            "yt:EN9e99iRTCQ",
+            "yt:GhGSLffZd0E",
+            "yt:Grrbekq-6kw",
+            "yt:K8VR7sOIZ6Y",
+            "yt:L76PaoGaPx0",
+            "yt:bFpwPrnOQoY",
+            "yt:fSgmqsl3Twk",
+            "yt:jRger6l4rjc",
+            "yt:k2yCpFqk-do",
+            "yt:oquJX1-g7lE",
+            "yt:wdArmQAwEVE"
+          ]
+        },
+        {
+          "marker": "rbc-magnesium",
+          "evidence_count": 4,
+          "evidence": [
+            "yt:2qu59nPJXcg",
+            "yt:OxCWlEJMS2U",
+            "yt:Ul2MRZWnGCA",
+            "yt:vJFozt4pytg"
+          ]
+        },
+        {
+          "marker": "platelet-count",
+          "evidence_count": 2,
+          "evidence": [
+            "yt:4Q255seVYoI",
+            "yt:IVe-fPBxacw"
+          ]
+        },
+        {
+          "marker": "aldosterone",
+          "evidence_count": 9,
+          "evidence": [
+            "yt:4SvDqPx-Fd4",
+            "yt:F_b4HOXs8ew",
+            "yt:XmebvEWOtzI",
+            "yt:YC7b3EfnmSw",
+            "yt:Z_XgLP45EcE",
+            "yt:qJiwXpLOaFI",
+            "yt:qR34AY8KUM4",
+            "yt:vXdR8zeEf1Y",
+            "yt:wZWzdJ03_Pc"
+          ]
+        },
+        {
+          "marker": "urine-ketones",
+          "evidence_count": 4,
+          "evidence": [
+            "yt:9NN6UfY8muA",
+            "yt:JMlYwtGhXl4",
+            "yt:RE8Xh8wEAMQ",
+            "yt:V7MZbnyPkf0"
+          ]
+        },
+        {
+          "marker": "neutrophils",
+          "evidence_count": 12,
+          "evidence": [
+            "yt:A2fGntTtSpY",
+            "yt:B7Cc7VGpIDw",
+            "yt:OlT2ToOPtco",
+            "yt:QguprEZvK0Y",
+            "yt:UdW6W3Yw12c",
+            "yt:Y1qSA1Y8wT4",
+            "yt:YuO2FwBrmqY",
+            "yt:cjNuUz1CWb0",
+            "yt:kMjpK_Iel0w",
+            "yt:p2LnwX7BG9I",
+            "yt:qpb_tJN1wxs",
+            "yt:xchbRAkdBXg"
+          ]
+        },
+        {
+          "marker": "body-mass-index",
+          "evidence_count": 2,
+          "evidence": [
+            "yt:EvFbDZrvfHo",
+            "yt:_CqXHYgKKtY"
+          ]
+        },
+        {
+          "marker": "bisphenol-a",
+          "evidence_count": 2,
+          "evidence": [
+            "yt:HAb5Oe18XHs",
+            "yt:HN0yEn4vbRw"
+          ]
+        },
+        {
+          "marker": "urine-ph",
+          "evidence_count": 2,
+          "evidence": [
+            "yt:QyFZuTnzhSc",
+            "yt:_sRyflXdBrw"
+          ]
+        },
+        {
+          "marker": "egfr",
+          "evidence_count": 3,
+          "evidence": [
+            "yt:TLOtcX_WB8U",
+            "yt:_xU_NUu3ey4",
+            "yt:ebHyaykbs54"
           ]
         }
       ]

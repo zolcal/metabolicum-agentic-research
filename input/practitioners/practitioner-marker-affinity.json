@@ -1,6 +1,6 @@
 {
   "schema_version": "2026-05-29",
-  "generated_at": "2026-05-31T00:06:41.331502+00:00",
+  "generated_at": "2026-05-31T00:39:04.213687+00:00",
   "canonical_source": true,
   "source_inputs": [
     "/media/zoltan/4TSSD/metabolicum-agentic-research/input/practitioner_registry.json",
@@ -25,10 +25,17 @@
       "canonical_name": "Levels Health",
       "marker_affinity": [
         "cortisol-am",
+        "creatinine",
         "fasting-insulin",
         "free-testosterone",
+        "glyphosate",
         "hba1c",
-        "progesterone"
+        "homocysteine",
+        "progesterone",
+        "rbc-count",
+        "uacr",
+        "uric-acid",
+        "wbc-count"
       ],
       "paradigm_affinity": [
         "MO"
@@ -63,8 +70,9 @@
       "practitioner_id": "conference:metabolic-health-summit",
       "canonical_name": "Metabolic Health Summit",
       "marker_affinity": [
+        "fasting-insulin",
         "hba1c",
-        "fasting-insulin"
+        "uric-acid"
       ],
       "paradigm_affinity": [
         "MO"
@@ -193,6 +201,7 @@
       "canonical_name": "Andrew Huberman",
       "marker_affinity": [
         "amh",
+        "bisphenol-a",
         "cortisol-am",
         "dhea",
         "dht",
@@ -201,6 +210,7 @@
         "free-testosterone",
         "fsh",
         "lh",
+        "osteocalcin",
         "progesterone",
         "prolactin",
         "shbg",
@@ -452,10 +462,12 @@
       "canonical_name": "David Perlmutter",
       "marker_affinity": [
         "fasting-insulin",
+        "glyphosate",
         "hba1c",
         "homa-ir",
         "hs-crp",
-        "progesterone"
+        "progesterone",
+        "uric-acid"
       ],
       "paradigm_affinity": [
         "MO"
@@ -509,17 +521,36 @@
       "practitioner_id": "person:eric-berg",
       "canonical_name": "Eric Berg",
       "marker_affinity": [
+        "aldosterone",
+        "ammonia",
+        "bicarbonate",
+        "bisphenol-a",
+        "body-mass-index",
         "cortisol-am",
+        "creatinine",
         "dhea",
         "dhea-s",
         "dht",
+        "egfr",
         "estradiol",
         "free-testosterone",
         "fsh",
+        "glyphosate",
+        "homocysteine",
         "lh",
+        "monocytes",
+        "neutrophils",
+        "platelet-count",
         "progesterone",
         "prolactin",
-        "shbg"
+        "rbc-count",
+        "rbc-magnesium",
+        "shbg",
+        "uacr",
+        "uric-acid",
+        "urine-ketones",
+        "urine-ph",
+        "wbc-count"
       ],
       "paradigm_affinity": [
         "MO"
@@ -754,7 +785,10 @@
       "canonical_name": "Judy Cho",
       "marker_affinity": [
         "dhea",
-        "shbg"
+        "glyphosate",
+        "shbg",
+        "uric-acid",
+        "urine-iodine"
       ],
       "paradigm_affinity": [
         "MO"
@@ -783,8 +817,12 @@
       "practitioner_id": "person:ken-berry",
       "canonical_name": "Ken Berry",
       "marker_affinity": [
+        "creatinine",
+        "neutrophils",
         "progesterone",
-        "shbg"
+        "shbg",
+        "uacr",
+        "urine-ph"
       ],
       "paradigm_affinity": [
         "MO"
@@ -848,7 +886,9 @@
     {
       "practitioner_id": "person:low-carb-down-under",
       "canonical_name": "Low Carb Down Under",
-      "marker_affinity": [],
+      "marker_affinity": [
+        "uric-acid"
+      ],
       "paradigm_affinity": [
         "MO"
       ],
@@ -955,8 +995,14 @@
       "practitioner_id": "person:mind-matter-podcast",
       "canonical_name": "Mind & Matter Podcast",
       "marker_affinity": [
+        "bisphenol-a",
         "estradiol",
-        "progesterone"
+        "fibrinogen",
+        "glyphosate",
+        "monocytes",
+        "progesterone",
+        "pyruvate",
+        "rbc-count"
       ],
       "paradigm_affinity": [
         "MO"
@@ -1082,7 +1128,9 @@
       "practitioner_id": "person:physionic",
       "canonical_name": "Physionic",
       "marker_affinity": [
-        "lh"
+        "body-mass-index",
+        "lh",
+        "uacr"
       ],
       "paradigm_affinity": [
         "MO"
@@ -1171,7 +1219,10 @@
     {
       "practitioner_id": "person:shawn-baker",
       "canonical_name": "Shawn Baker",
-      "marker_affinity": [],
+      "marker_affinity": [
+        "creatinine",
+        "glyphosate"
+      ],
       "paradigm_affinity": [
         "MO"
       ],
@@ -1181,10 +1232,14 @@
       "practitioner_id": "person:siim-land",
       "canonical_name": "Siim Land",
       "marker_affinity": [
+        "creatinine",
+        "cystatin-c",
         "dhea",
         "dhea-s",
         "dht",
+        "egfr",
         "estradiol",
+        "homocysteine",
         "progesterone",
         "shbg"
       ],
@@ -1204,10 +1259,12 @@
         "hba1c",
         "hdl-cholesterol",
         "homa-ir",
+        "homocysteine",
         "ldl-cholesterol",
         "lpa",
         "tg-hdl-ratio",
-        "tsh"
+        "tsh",
+        "uacr"
       ],
       "paradigm_affinity": [
         "MO"
@@ -1285,7 +1342,10 @@
     {
       "practitioner_id": "person:the-primal-podcast",
       "canonical_name": "The Primal Podcast",
-      "marker_affinity": [],
+      "marker_affinity": [
+        "body-mass-index",
+        "glyphosate"
+      ],
       "paradigm_affinity": [
         "MO"
       ],
@@ -1308,7 +1368,13 @@
       "practitioner_id": "person:thomas-fordham-brewer",
       "canonical_name": "Thomas Fordham Brewer",
       "marker_affinity": [
-        "dhea"
+        "body-mass-index",
+        "creatinine",
+        "dhea",
+        "homocysteine",
+        "microalbumin",
+        "neutrophils",
+        "uric-acid"
       ],
       "paradigm_affinity": [
         "MO"
@@ -1350,6 +1416,8 @@
       "canonical_name": "William Davis",
       "marker_affinity": [
         "apob",
+        "bicarbonate",
+        "homocysteine",
         "tg-hdl-ratio"
       ],
       "paradigm_affinity": [
