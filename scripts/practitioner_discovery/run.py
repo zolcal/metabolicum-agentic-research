@@ -19,10 +19,12 @@ REGISTRY_PATH = PROJECT_ROOT / "input" / "practitioner_registry.json"
 OUTPUT_ROOT = PROJECT_ROOT / "output" / "practitioner-discovery"
 
 
-def run_pipeline(markers, registry, policy, inventory_dir, n=2):
+def run_pipeline(markers, registry, policy, inventory_dir, n=2, fresh_signals=None):
     terms_by_marker = {m: terms.marker_terms(m, policy) for m in markers}
     terms_by_marker = {m: t for m, t in terms_by_marker.items() if t}
     signals = harvest_inventory.scan_inventory(terms_by_marker, inventory_dir=inventory_dir)
+    if fresh_signals:
+        signals = signals + fresh_signals
     new_candidates = extract_candidates.extract_candidates(signals, registry)
     enrichments = extract_candidates.extract_enrichments(signals, registry)
     q_new, held_new = threshold.apply_threshold(new_candidates, n=n)

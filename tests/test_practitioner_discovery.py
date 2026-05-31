@@ -303,3 +303,73 @@ def test_run_pipeline_enriches_existing_practitioner(tmp_path):
     assert result["summary"]["new_practitioners"] == 0
     assert result["summary"]["enriched"] == 1
     assert "Enriched existing practitioners" in result["audit_md"]
+
+from scripts.practitioner_discovery import harvest_fresh
+
+
+def test_scan_fresh_normalizes_harvester_output_to_signal_shape():
+    def fake_harvester(marker, terms):
+        # mimics social_pipeline returning raw video dicts
+        return [{"video_id": "vf1", "channel_id": "UCfresh", "channel": "Fresh MD",
+                 "title": "total testosterone optimization", "url": "uf1"}]
+    signals = harvest_fresh.scan_fresh(
+        {"total-testosterone": ["total testosterone"]}, harvester=fake_harvester)
+    assert len(signals) == 1
+    s = signals[0]
+    assert s["source"] == "youtube"
+    assert s["channel_id"] == "UCfresh"
+    assert s["marker"] == "total-testosterone"
+    assert s["term"] == "total testosterone"
+    assert s["where"] == "title"
+
+
+def test_scan_fresh_matches_description_and_skips_unmatched():
+    def fake_harvester(marker, terms):
+        return [
+            {"video_id": "vf2", "channel_id": "UCa", "channel": "A",
+             "title": "Q&A", "description": "we cover serum testosterone here", "url": "u2"},
+            {"video_id": "vf3", "channel_id": "UCb", "channel": "B",
+             "title": "random video", "description": "nothing relevant", "url": "u3"},
+        ]
+    signals = harvest_fresh.scan_fresh(
+        {"total-testosterone": ["serum testosterone"]}, harvester=fake_harvester)
+    assert len(signals) == 1
+    assert signals[0]["video_id"] == "vf2"
+    assert signals[0]["where"] == "description"
+
+
+def test_scan_fresh_uses_lookaround_matcher_for_parenthesized_terms():
+    def fake_harvester(marker, terms):
+        return [{"video_id": "vf4", "channel_id": "UCc", "channel": "C",
+                 "title": "All about cortisol (am) testing", "url": "u4"}]
+    signals = harvest_fresh.scan_fresh(
+        {"cortisol-am": ["cortisol (am)"]}, harvester=fake_harvester, source="podcast")
+    assert len(signals) == 1
+    assert signals[0]["term"] == "cortisol (am)"
+    assert signals[0]["source"] == "podcast"
+
+
+def test_run_pipeline_threads_fresh_signals_into_new_practitioner(tmp_path):
+    inv = tmp_path / "videos"; inv.mkdir()  # empty inventory -> all evidence comes from fresh
+    fresh_signals = [
+        {"source": "youtube", "marker": "total-testosterone", "video_id": "vf1",
+         "channel_id": "UCfresh", "channel": "Fresh MD", "title": "T1", "url": "uf1",
+         "term": "total testosterone", "where": "title"},
+        {"source": "youtube", "marker": "total-testosterone", "video_id": "vf2",
+         "channel_id": "UCfresh", "channel": "Fresh MD", "title": "T2", "url": "uf2",
+         "term": "total testosterone", "where": "title"},
+    ]
+    registry = {"practitioners": []}
+    policy = {"total-testosterone": {"tiers": {"T1": ["total testosterone"], "T2": []},
+                                     "excluded_terms": []}}
+
+    result = discovery_run.run_pipeline(
+        markers=["total-testosterone"], registry=registry, policy=policy,
+        inventory_dir=inv, n=2, fresh_signals=fresh_signals)
+
+    ids = [r["id"] for r in result["registry"]["practitioners"]]
+    assert "channel:UCfresh" in ids
+    new = next(r for r in result["registry"]["practitioners"] if r["id"] == "channel:UCfresh")
+    assert new["marker_affinity"] == ["total-testosterone"]
+    assert result["summary"]["new_practitioners"] == 1
+    assert result["summary"]["signals"] == 2

@@ -8,18 +8,12 @@ still match, while substring-in-word matches are still rejected.
 from __future__ import annotations
 
 import json
-import re
 from pathlib import Path
+
+from scripts.practitioner_discovery.match import first_match
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 INVENTORY_DIR = PROJECT_ROOT / "input" / "youtube-video-inventory" / "videos"
-
-
-def _first_match(text: str, terms: list[str]) -> str | None:
-    for term in terms:
-        if re.search(r"(?<!\w)" + re.escape(term) + r"(?!\w)", text, re.IGNORECASE):
-            return term
-    return None
 
 
 def scan_inventory(terms_by_marker: dict[str, list[str]],
@@ -33,10 +27,10 @@ def scan_inventory(terms_by_marker: dict[str, list[str]],
         title = v.get("title", "") or ""
         desc = v.get("description", "") or ""
         for marker, marker_terms in terms_by_marker.items():
-            term = _first_match(title, marker_terms)
+            term = first_match(title, marker_terms)
             where = "title"
             if not term:
-                term = _first_match(desc, marker_terms)
+                term = first_match(desc, marker_terms)
                 where = "description"
             if not term:
                 continue
