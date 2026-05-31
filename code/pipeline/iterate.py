@@ -28,8 +28,8 @@ sys.path.insert(0, str(PROJECT_ROOT))
 
 from code.discovery import web
 from code.llm_client import LLMClient
-from code.pipeline import assembly, brief, council, ingest, persist
-from code.pipeline.live_run import run_marker_live_session
+from code.pipeline import assembly, brief, content, council, ingest, persist
+from code.pipeline.live_run import make_role_caller, run_marker_live_session
 from code.state import PipelineRun
 
 BRIEFS = PROJECT_ROOT / "input" / "hermes-briefs"
@@ -157,11 +157,20 @@ def run_marker_iterative(marker: str, wave: str, *, write: bool = False,
                "rejected": len(rejection_log), "rounds": rnd, "sources_seen": len(seen),
                "terminal": "no_mo_support_found" if approved == 0 else "ok"}
 
+    # Stage-B: MO-specific prose (interpretation/limitations), grounded in claims
+    extra_sections = []
+    if combined["biomarker_claims"]:
+        try:
+            extra_sections = content.build_mo_content_sections(
+                marker, combined["biomarker_claims"], sm_rows, role_caller=make_role_caller(llm))
+        except Exception as e:
+            print(f"content writer skipped (non-fatal): {e}")
+
     # Export (always) + persist (when --write)
     OUT.joinpath(marker).mkdir(parents=True, exist_ok=True)
     mo_export = assembly.build_marker_export(
         marker, {**combined, "rejection_log": rejection_log}, sources_by_id,
-        batch_slug=f"{marker}-mo")
+        batch_slug=f"{marker}-mo", extra_sections=extra_sections)
     (OUT / marker / "mo_export.json").write_text(json.dumps(mo_export, indent=2, default=str))
     (OUT / marker / "range_facts.json").write_text(json.dumps(combined["range_facts"], indent=2, default=str))
     (OUT / marker / "rejection_log.json").write_text(json.dumps(rejection_log, indent=2, default=str))

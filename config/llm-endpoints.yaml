@@ -363,7 +363,7 @@ endpoints:
     family: deepseek
     api_style: openai_compatible
     active: true                      # Stage-3 council voice #1 (native DeepSeek API) + Stage-2 extractor failover
-    roles: [council_extractor, legal_reviewer, extractor, tagger, structurer]   # Stage 2 moved here 2026-05-31 (off slow local Gemma)
+    roles: [council_extractor, legal_reviewer, extractor, tagger, structurer, content_writer]   # Stage 2 + Stage-B MO content writer 2026-05-31
     failover_for: [extractor]         # if gemma4-local is down, extractor falls back here
     timeout_s: 180
     default_max_tokens: 4096          # non-thinking model, no reasoning token burn
