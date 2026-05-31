@@ -847,7 +847,7 @@
         },
         {
           "platform": "youtube",
-          "handle_or_url": "https://www.youtube.com/channel/UC2D2CMWXMOVWx7giW1n3LIg",
+          "handle_or_url": "https://www.youtube.com/channel/UC5IuDMmKWSsBFB0iKky6aEQ",
           "discovery_mode": "manual_seed",
           "priority": "primary"
         },
@@ -1029,7 +1029,7 @@
         },
         {
           "platform": "youtube",
-          "handle_or_url": "https://www.youtube.com/channel/UC3w193M5tYPJqF0Hi-7U-2g",
+          "handle_or_url": "https://www.youtube.com/channel/UC8kGsMa0LygSX9nkBcBH1Sg",
           "discovery_mode": "manual_seed",
           "priority": "primary"
         },
@@ -1654,7 +1654,7 @@
         },
         {
           "platform": "youtube",
-          "handle_or_url": "https://www.youtube.com/channel/UCMO_fIbfB0GaJ3vJtmxppQQ",
+          "handle_or_url": "https://www.youtube.com/channel/UC2D2CMWXMOVWx7giW1n3LIg",
           "discovery_mode": "manual_seed",
           "priority": "primary"
         },
@@ -4567,6 +4567,37 @@
           "handle_or_url": "manual:network:hungarian-low-carb-clinician-network",
           "discovery_mode": "manual_seed",
           "priority": "manual_only"
+        }
+      ],
+      "commercial_interests": []
+    },
+    {
+      "id": "person:eric-berg",
+      "canonical_name": "Eric Berg",
+      "aliases": [
+        "Eric Berg",
+        "Dr. Eric Berg",
+        "Dr. Eric Berg DC"
+      ],
+      "entity_type": "person",
+      "country": "USA",
+      "region": "USA",
+      "languages": [
+        "en"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "source_tier": "C",
+      "source_grade": "E2",
+      "marker_affinity": [],
+      "key_contribution": "Metabolic/keto health educator (YouTube)",
+      "surfaces": [
+        {
+          "platform": "youtube",
+          "handle_or_url": "https://www.youtube.com/channel/UC3w193M5tYPJqF0Hi-7U-2g",
+          "discovery_mode": "audit_repair",
+          "priority": "primary"
         }
       ],
       "commercial_interests": []
