@@ -39,7 +39,8 @@ recommended_youtube_video_ids:
 - N2DGrgMIcsE
 - NFxQJmvgXOQ
 - OlV-98bp7z4
-recommended_practitioner_ids: []
+recommended_practitioner_ids:
+- person:eric-berg
 recommended_pubmed_ids:
 - '18329892'
 recommended_dois: []

@@ -1,6 +1,6 @@
 {
   "schema_version": "2026-05-29",
-  "generated_at": "2026-05-31T00:39:04.213687+00:00",
+  "generated_at": "2026-05-31T00:44:41.630489+00:00",
   "canonical_source": true,
   "source_inputs": [
     "/media/zoltan/4TSSD/metabolicum-agentic-research/input/practitioner_registry.json",
@@ -8,6 +8,23 @@
   ],
   "description": "Canonical practitioner identity, aliases, credentials, region, tier, grade, and COI.",
   "practitioners": [
+    {
+      "id": "channel:UCzoRyR_nlesKZuOlEjWRXQQ",
+      "canonical_name": "Anthony Chaffee MD",
+      "aliases": [
+        "Anthony Chaffee MD"
+      ],
+      "entity_type": "channel",
+      "country": null,
+      "region": null,
+      "languages": [
+        "en"
+      ],
+      "credentials": null,
+      "source_tier": "C",
+      "source_grade": "E2",
+      "commercial_interests": []
+    },
     {
       "id": "company:defeat-diabetes",
       "canonical_name": "Defeat Diabetes",

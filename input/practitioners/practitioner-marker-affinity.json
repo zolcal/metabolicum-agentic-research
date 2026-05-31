@@ -1,6 +1,6 @@
 {
   "schema_version": "2026-05-29",
-  "generated_at": "2026-05-31T00:39:04.213687+00:00",
+  "generated_at": "2026-05-31T00:44:41.630489+00:00",
   "canonical_source": true,
   "source_inputs": [
     "/media/zoltan/4TSSD/metabolicum-agentic-research/input/practitioner_registry.json",
@@ -8,6 +8,19 @@
   ],
   "description": "Canonical practitioner marker and paradigm affinity.",
   "marker_affinities": [
+    {
+      "practitioner_id": "channel:UCzoRyR_nlesKZuOlEjWRXQQ",
+      "canonical_name": "Anthony Chaffee MD",
+      "marker_affinity": [
+        "bun",
+        "calcium",
+        "sodium"
+      ],
+      "paradigm_affinity": [
+        "MO"
+      ],
+      "key_contribution": null
+    },
     {
       "practitioner_id": "company:defeat-diabetes",
       "canonical_name": "Defeat Diabetes",
@@ -24,15 +37,23 @@
       "practitioner_id": "company:levels-health",
       "canonical_name": "Levels Health",
       "marker_affinity": [
+        "bun",
+        "calcium",
+        "chloride",
         "cortisol-am",
         "creatinine",
         "fasting-insulin",
         "free-testosterone",
         "glyphosate",
         "hba1c",
+        "hemoglobin",
         "homocysteine",
+        "phosphorus",
+        "potassium",
         "progesterone",
         "rbc-count",
+        "selenium",
+        "sodium",
         "uacr",
         "uric-acid",
         "wbc-count"
@@ -83,8 +104,12 @@
       "practitioner_id": "media:diet-doctor",
       "canonical_name": "Diet Doctor",
       "marker_affinity": [
+        "bun",
+        "calcium",
+        "fasting-insulin",
         "hba1c",
-        "fasting-insulin"
+        "potassium",
+        "sodium"
       ],
       "paradigm_affinity": [
         "MO"
@@ -200,8 +225,10 @@
       "practitioner_id": "person:andrew-huberman",
       "canonical_name": "Andrew Huberman",
       "marker_affinity": [
+        "alc",
         "amh",
         "bisphenol-a",
+        "calcium",
         "cortisol-am",
         "dhea",
         "dht",
@@ -211,9 +238,12 @@
         "fsh",
         "lh",
         "osteocalcin",
+        "potassium",
         "progesterone",
         "prolactin",
+        "selenium",
         "shbg",
+        "sodium",
         "total-testosterone",
         "vitamin-d"
       ],
@@ -423,10 +453,11 @@
       "canonical_name": "Dave Feldman",
       "marker_affinity": [
         "apob",
-        "lpa",
-        "tg-hdl-ratio",
+        "calcium",
         "hdl-cholesterol",
-        "ldl-cholesterol"
+        "ldl-cholesterol",
+        "lpa",
+        "tg-hdl-ratio"
       ],
       "paradigm_affinity": [
         "MO"
@@ -467,6 +498,7 @@
         "homa-ir",
         "hs-crp",
         "progesterone",
+        "sodium",
         "uric-acid"
       ],
       "paradigm_affinity": [
@@ -526,6 +558,9 @@
         "bicarbonate",
         "bisphenol-a",
         "body-mass-index",
+        "bun",
+        "calcium",
+        "chloride",
         "cortisol-am",
         "creatinine",
         "dhea",
@@ -536,16 +571,23 @@
         "free-testosterone",
         "fsh",
         "glyphosate",
+        "hemoglobin",
         "homocysteine",
         "lh",
         "monocytes",
         "neutrophils",
+        "phosphorus",
         "platelet-count",
+        "potassium",
         "progesterone",
         "prolactin",
+        "pth",
         "rbc-count",
         "rbc-magnesium",
+        "selenium",
         "shbg",
+        "sod",
+        "sodium",
         "uacr",
         "uric-acid",
         "urine-ketones",
@@ -784,9 +826,13 @@
       "practitioner_id": "person:judy-cho",
       "canonical_name": "Judy Cho",
       "marker_affinity": [
+        "calcium",
         "dhea",
         "glyphosate",
+        "potassium",
+        "selenium",
         "shbg",
+        "sodium",
         "uric-acid",
         "urine-iodine"
       ],
@@ -817,10 +863,17 @@
       "practitioner_id": "person:ken-berry",
       "canonical_name": "Ken Berry",
       "marker_affinity": [
+        "bun",
+        "calcium",
+        "chloride",
         "creatinine",
+        "hemoglobin",
         "neutrophils",
+        "potassium",
         "progesterone",
+        "selenium",
         "shbg",
+        "sodium",
         "uacr",
         "urine-ph"
       ],
@@ -887,6 +940,8 @@
       "practitioner_id": "person:low-carb-down-under",
       "canonical_name": "Low Carb Down Under",
       "marker_affinity": [
+        "calcium",
+        "sodium",
         "uric-acid"
       ],
       "paradigm_affinity": [
@@ -996,13 +1051,19 @@
       "canonical_name": "Mind & Matter Podcast",
       "marker_affinity": [
         "bisphenol-a",
+        "bun",
+        "calcium",
         "estradiol",
         "fibrinogen",
         "glyphosate",
+        "hemoglobin",
         "monocytes",
+        "potassium",
         "progesterone",
         "pyruvate",
-        "rbc-count"
+        "rbc-count",
+        "selenium",
+        "sodium"
       ],
       "paradigm_affinity": [
         "MO"
@@ -1129,7 +1190,10 @@
       "canonical_name": "Physionic",
       "marker_affinity": [
         "body-mass-index",
+        "calcium",
         "lh",
+        "potassium",
+        "sodium",
         "uacr"
       ],
       "paradigm_affinity": [
@@ -1220,8 +1284,11 @@
       "practitioner_id": "person:shawn-baker",
       "canonical_name": "Shawn Baker",
       "marker_affinity": [
+        "bun",
+        "calcium",
         "creatinine",
-        "glyphosate"
+        "glyphosate",
+        "hemoglobin"
       ],
       "paradigm_affinity": [
         "MO"
@@ -1232,6 +1299,7 @@
       "practitioner_id": "person:siim-land",
       "canonical_name": "Siim Land",
       "marker_affinity": [
+        "calcium",
         "creatinine",
         "cystatin-c",
         "dhea",
@@ -1239,9 +1307,11 @@
         "dht",
         "egfr",
         "estradiol",
+        "hemoglobin",
         "homocysteine",
         "progesterone",
-        "shbg"
+        "shbg",
+        "sodium"
       ],
       "paradigm_affinity": [
         "MO"
@@ -1253,15 +1323,19 @@
       "canonical_name": "Sten Ekberg",
       "marker_affinity": [
         "apob",
+        "calcium",
         "cortisol-am",
         "fasting-insulin",
         "free-t3",
         "hba1c",
         "hdl-cholesterol",
+        "hemoglobin",
         "homa-ir",
         "homocysteine",
         "ldl-cholesterol",
         "lpa",
+        "potassium",
+        "sodium",
         "tg-hdl-ratio",
         "tsh",
         "uacr"
@@ -1344,7 +1418,10 @@
       "canonical_name": "The Primal Podcast",
       "marker_affinity": [
         "body-mass-index",
-        "glyphosate"
+        "bun",
+        "calcium",
+        "glyphosate",
+        "sodium"
       ],
       "paradigm_affinity": [
         "MO"
@@ -1369,8 +1446,11 @@
       "canonical_name": "Thomas Fordham Brewer",
       "marker_affinity": [
         "body-mass-index",
+        "bun",
+        "calcium",
         "creatinine",
         "dhea",
+        "hemoglobin",
         "homocysteine",
         "microalbumin",
         "neutrophils",
@@ -1417,7 +1497,11 @@
       "marker_affinity": [
         "apob",
         "bicarbonate",
+        "calcium",
+        "hemoglobin",
         "homocysteine",
+        "potassium",
+        "sodium",
         "tg-hdl-ratio"
       ],
       "paradigm_affinity": [
