@@ -1,0 +1,62 @@
+[
+  {
+    "subject_slug": "fasting-insulin",
+    "entity_type": "marker",
+    "paradigm": "metabolic-optimization",
+    "range_version": "v1",
+    "range_order": 1,
+    "min_value": null,
+    "max_value": 5,
+    "unit": "mIU/L",
+    "status": "target",
+    "color": "#22c55e",
+    "gender": null,
+    "sex_for_lab_reference": null,
+    "stratum": null,
+    "age_min": null,
+    "age_max": null,
+    "evidence_sub_grade": "C1",
+    "evidence_grade": "C",
+    "review_status": "approved",
+    "public_display_approved": true,
+    "source_ids": [
+      "e8fcc8d4-09ab-5039-9dca-808ea700d772"
+    ],
+    "biomarker_claim_id": "20c2aabd-2be2-416e-abbf-6447b4908e28",
+    "provenance": {
+      "verbatim_quote": "While labs often list a \u201cnormal\u201d range of 5-20 mIU/L, experts including Dr Brukner recommend aiming for less than 8 mIU/L, with under 5 mIU/L being ideal.",
+      "source_pmid": null,
+      "source_doi": null
+    }
+  },
+  {
+    "subject_slug": "fasting-insulin",
+    "entity_type": "marker",
+    "paradigm": "metabolic-optimization",
+    "range_version": "v1",
+    "range_order": 2,
+    "min_value": null,
+    "max_value": 8,
+    "unit": "mIU/L",
+    "status": "target",
+    "color": "#22c55e",
+    "gender": null,
+    "sex_for_lab_reference": null,
+    "stratum": null,
+    "age_min": null,
+    "age_max": null,
+    "evidence_sub_grade": "C1",
+    "evidence_grade": "C",
+    "review_status": "approved",
+    "public_display_approved": true,
+    "source_ids": [
+      "e8fcc8d4-09ab-5039-9dca-808ea700d772"
+    ],
+    "biomarker_claim_id": "51dba68b-dcce-4264-8dec-58d5c7b73c74",
+    "provenance": {
+      "verbatim_quote": "While labs often list a \u201cnormal\u201d range of 5-20 mIU/L, experts including Dr Brukner recommend aiming for less than 8 mIU/L, with under 5 mIU/L being ideal.",
+      "source_pmid": null,
+      "source_doi": null
+    }
+  }
+]

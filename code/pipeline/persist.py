@@ -41,6 +41,12 @@ def persist_marker_result(db: Any, result: dict, *, dry_run: bool = False) -> di
             writer(row)
             written += 1
     if determination:
-        db.upsert_mo_determination(determination)
-        written += 1
+        # Non-critical record; some Supabase deployments lack the table. Never
+        # fail the whole persist over it — the claims/provenance/legal are the
+        # canonical data and are already written by this point.
+        try:
+            db.upsert_mo_determination(determination)
+            written += 1
+        except Exception as e:
+            print(f"[persist] mo_determination skipped (non-fatal): {e}")
     return {"dry_run": False, "counts": counts, "written": written}

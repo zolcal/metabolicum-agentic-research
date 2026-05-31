@@ -264,26 +264,49 @@ def llm_call(
     else:
         kwargs["response_format"] = {"type": "json_object"}
 
+    def _extract_json(text: str) -> tuple[str, Any]:
+        text = re.sub(r"<think>.*?</think>", "", text, flags=re.DOTALL).strip()
+        fence = re.search(r"```(?:json)?\s*\n(.*?)```", text, re.DOTALL)
+        if fence:
+            text = fence.group(1).strip()
+        if not text:
+            raise ValueError("empty content")
+        return text, json.loads(text)
+
     t0 = time.time()
-    resp = client.chat.completions.create(**kwargs)
+    resp = parsed = content = None
+    last_err: Exception | None = None
+    for _ in range(5):
+        try:
+            resp = client.chat.completions.create(**kwargs)
+            content, parsed = _extract_json(resp.choices[0].message.content or "")
+            break
+        except (json.JSONDecodeError, ValueError) as e:
+            # Transient malformed/empty/truncated JSON — some providers (notably
+            # Gemini) occasionally emit invalid JSON. Retry the same call.
+            last_err = e
+            continue
+        except Exception as e:
+            # Adapt provider/model parameter incompatibilities, then retry:
+            #  - Google Gemini rejects `seed`
+            #  - OpenAI reasoning models (gpt-5-*) require `max_completion_tokens`
+            #    instead of `max_tokens`, and only allow the default temperature
+            msg = str(e).lower()
+            if "seed" in msg and "seed" in kwargs:
+                kwargs.pop("seed", None)
+            elif "max_completion_tokens" in msg and "max_tokens" in kwargs:
+                kwargs["max_completion_tokens"] = kwargs.pop("max_tokens")
+            elif "temperature" in msg and "temperature" in kwargs:
+                kwargs.pop("temperature", None)
+            else:
+                raise
+    if parsed is None:
+        raise ValueError(f"llm_call failed after retries; last error: {last_err}")
     elapsed = time.time() - t0
-    content = resp.choices[0].message.content or ""
     usage = resp.usage
 
-    # Strip Qwen thinking tags if present
-    content = re.sub(r"<think>.*?</think>", "", content, flags=re.DOTALL).strip()
-    # Extract JSON from markdown fences if present
-    fence = re.search(r"```(?:json)?\s*\n(.*?)```", content, re.DOTALL)
-    if fence:
-        content = fence.group(1).strip()
-    if not content:
-        raise ValueError(
-            f"LLM returned empty content after stripping think tags. "
-            f"finish_reason={resp.choices[0].finish_reason}"
-        )
-
     return {
-        "content": json.loads(content),
+        "content": parsed,
         "raw": content,
         "elapsed_s": round(elapsed, 2),
         "input_tokens": usage.prompt_tokens if usage else None,
@@ -414,6 +437,20 @@ def run_extractor(
                 cid = (claim.get("claim_id") or "").strip()
                 if not cid or cid == "ex_" or not re.match(r"^ex_[A-Za-z0-9-]+$", cid):
                     claim["claim_id"] = f"ex_{uuid.uuid4().hex[:12]}"
+                # Backfill required metadata the extractor cannot derive from the
+                # transcript body — speaker/language/confidence are fixture- or
+                # default-sourced. Without this, one missing field fails the
+                # whole-source schema validation below and silently drops every
+                # valid claim from that source (observed: the Bikman/Brukner
+                # fasting-insulin "<5 mIU/L" claim was lost this way).
+                if not str(claim.get("speaker_or_author") or "").strip():
+                    claim["speaker_or_author"] = (
+                        fixture.get("speaker_or_author") or "unknown"
+                    )
+                if not str(claim.get("source_language") or "").strip():
+                    claim["source_language"] = fixture.get("source_language") or "en"
+                if not isinstance(claim.get("extraction_confidence"), (int, float)):
+                    claim["extraction_confidence"] = 0.7
                 all_claims.append(claim)
 
         total_input_tokens += chunk_result.get("input_tokens") or 0

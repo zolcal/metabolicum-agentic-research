@@ -13,6 +13,7 @@ LLM roles, DB writes) wraps this pure core in a later increment.
 from __future__ import annotations
 
 import json
+import uuid
 from pathlib import Path
 from typing import Any, Callable
 
@@ -186,7 +187,9 @@ def run_marker_live(
         return out  # not_supported pass-through — honor the determination, run no research
     range_order = 0
     for i, claim in enumerate(claims):
-        bcid = f"{marker}-bc-{i + 1}"
+        # Live ids must be real UUIDs (biomarker_claims.id is uuid; provenance/
+        # legal rows FK to it). The offline core uses deterministic ids instead.
+        bcid = str(uuid.uuid4())
         source = source_for(claim)
 
         outcome = council_llm.run_council_pass(claim, source, sm_rows, role_caller=role_caller)

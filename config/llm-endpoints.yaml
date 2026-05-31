@@ -64,7 +64,8 @@ endpoints:
       - extractor                # Stage 2 bulk extraction (free, 120-220 tok/s)
       - tagger                   # Stage 2 marker-tag attachment
       - structurer               # Stage 2 population qualifier + units
-      - legal_reviewer           # Stage 5
+      # legal_reviewer moved to deepseek-direct-chat 2026-05-31: local Gemma
+      # emits invalid JSON for the legal prompt (truncates/malforms reliably).
     timeout_s: 300
     default_max_tokens: 4096
     max_context: 16384            # 2026-05-26: bumped from 4096 — DFlash now launched with --max-ctx 16384
@@ -366,7 +367,7 @@ endpoints:
     family: deepseek
     api_style: openai_compatible
     active: true                      # Stage-3 council voice #1 (native DeepSeek API) + Stage-2 extractor failover
-    roles: [council_extractor]        # 2026-05-29 — moved here onto the native DEEPSEEK_API_KEY (not OpenRouter) per user directive
+    roles: [council_extractor, legal_reviewer]   # legal_reviewer added 2026-05-31 (off flaky local Gemma)
     failover_for: [extractor]         # if gemma4-local is down, extractor falls back here
     timeout_s: 180
     default_max_tokens: 4096          # non-thinking model, no reasoning token burn
