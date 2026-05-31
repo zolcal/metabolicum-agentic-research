@@ -13,6 +13,7 @@ tests remain valid without modification.
 
 from __future__ import annotations
 
+import functools
 import json
 import re
 import time
@@ -21,6 +22,7 @@ from pathlib import Path
 from typing import Any
 
 import jsonschema
+import yaml
 
 from code.pipeline.semantic_fallback import batch_semantic_fallback
 
@@ -48,6 +50,29 @@ def load_schema(name: str) -> dict:
 def load_prompt(name: str) -> str:
     """Load a prompt template from prompts/."""
     return (PROMPTS_DIR / name).read_text()
+
+
+@functools.lru_cache(maxsize=1)
+def _marker_units() -> dict[str, str]:
+    """marker_slug -> canonical unit, sourced from the Hermes briefs.
+
+    Lets the marker tagger disambiguate unit-only claims: a quote like
+    "5-20 mIU/L" names no marker term, but the unit `mIU/L` maps uniquely to
+    `fasting-insulin`. Built once per process from input/hermes-briefs/.
+    """
+    out: dict[str, str] = {}
+    briefs = PROJECT_ROOT / "input" / "hermes-briefs"
+    if not briefs.exists():
+        return out
+    for p in briefs.glob("*/*.yaml"):
+        try:
+            d = yaml.safe_load(p.read_text(encoding="utf-8")) or {}
+        except Exception:
+            continue
+        slug, unit = d.get("marker_slug"), d.get("unit")
+        if slug and unit and slug not in out:
+            out[slug] = unit
+    return out
 
 
 def _get_model_context_window(client, model: str) -> int | None:
@@ -532,12 +557,20 @@ def run_tagger(
     filtered_entries = [e for e in full_glossary.get("entries", []) if e.get("marker") in expected]
     filtered_glossary = {"entries": filtered_entries}
 
+    # marker -> canonical unit, for the offered markers only. Lets the tagger
+    # rescue unit-only claims (e.g. "5-20 mIU/L" -> fasting-insulin) where no
+    # glossary term is literally present. The prompt restricts this to units
+    # that map to a single offered marker (mg/dL, %, ratio stay ambiguous).
+    units_map = _marker_units()
+    marker_units = {m: units_map[m] for m in expected if m in units_map}
+
     # Phase 1: rigid glossary tagging
     tagged = []
     for claim in claims:
         user = json.dumps({
             "verbatim_claim": claim,
             "marker_glossary": filtered_glossary,
+            "marker_units": marker_units,
         }, indent=2)
         resp = _llm_call_with_fallback(
             client, model, system, user,
