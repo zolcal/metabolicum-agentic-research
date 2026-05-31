@@ -10,6 +10,8 @@ mo_supported: true
 mo_rationale: 'MO-relevant: category ''cardiovascular'''
 recommended_youtube_video_ids: []
 recommended_practitioner_ids:
+- company:levels-health
+- conference:metabolic-health-summit
 - person:allan-sniderman
 - person:anthony-chaffee
 - person:aseem-malhotra
@@ -20,9 +22,12 @@ recommended_practitioner_ids:
 - person:dave-feldman
 - person:david-perlmutter
 - person:david-unwin
+- person:eric-berg
 - person:grant-brinkworth
 - person:joseph-kraft
 - person:joseph-mercola
+- person:judy-cho
+- person:low-carb-down-under
 - person:margaret-ashwell
 - person:mark-hyman
 - person:michael-mosley
@@ -36,6 +41,7 @@ recommended_practitioner_ids:
 - person:steven-gundry
 - person:ted-naiman
 - person:thomas-dayspring
+- person:thomas-fordham-brewer
 - person:william-davis
 - person:zoe-harcombe
 - person:zoltan-szabo
@@ -44,6 +50,9 @@ recommended_pubmed_ids:
 - '37835886'
 recommended_dois: []
 recommended_source_urls:
+- https://www.levels.com/
+- https://levelshealth.com/
+- https://metabolichealthsummit.com/
 - https://dranthonychaffee.com/
 - https://podcasts.apple.com/au/podcast/the-plant-free-md-podcast/id1614546790
 - https://open.spotify.com/show/0WQtoPLuPMWWm3ZT3DYXzp

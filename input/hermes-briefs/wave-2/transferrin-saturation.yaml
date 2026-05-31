@@ -12,18 +12,29 @@ recommended_youtube_video_ids:
 - SgKp5mm0ALI
 - 3in3377V5kI
 recommended_practitioner_ids:
+- company:levels-health
 - person:andrew-huberman
 - person:dale-bredesen
+- person:eric-berg
 - person:joseph-mercola
+- person:judy-cho
+- person:ken-berry
 - person:mark-hyman
+- person:mind-matter-podcast
 - person:rhonda-patrick
+- person:siim-land
+- person:sten-ekberg
 - person:steven-gundry
+- person:thomas-fordham-brewer
+- person:william-davis
 recommended_pubmed_ids:
 - '23613366'
 - '24778671'
 - '27099596'
 recommended_dois: []
 recommended_source_urls:
+- https://www.levels.com/
+- https://levelshealth.com/
 - https://hubermanlab.com/
 - https://feeds.megaphone.fm/hubermanlab
 - https://drbredesen.com/
@@ -34,7 +45,9 @@ recommended_source_urls:
 - https://www.foundmyfitness.com/
 - https://foundmyfitness.com/
 - https://rss.libsyn.com/shows/51714/destinations/184296.xml
+- https://drsten.com/
 - https://gundrymd.com/
+- https://drdavisinfinitehealth.com/
 recommended_search_queries:
 - Transferrin Saturation practitioner optimal range
 - Transferrin Saturation metabolic optimization

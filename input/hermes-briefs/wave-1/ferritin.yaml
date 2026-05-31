@@ -40,12 +40,24 @@ recommended_youtube_video_ids:
 - 62opt9vbj48
 - lJr0UJmOu4w
 recommended_practitioner_ids:
+- company:levels-health
+- conference:metabolic-health-summit
 - person:andrew-huberman
 - person:dale-bredesen
+- person:david-perlmutter
+- person:eric-berg
 - person:joseph-mercola
+- person:judy-cho
+- person:ken-berry
+- person:low-carb-down-under
 - person:mark-hyman
+- person:mind-matter-podcast
 - person:rhonda-patrick
+- person:siim-land
+- person:sten-ekberg
 - person:steven-gundry
+- person:thomas-fordham-brewer
+- person:william-davis
 recommended_pubmed_ids:
 - '23613366'
 - '24778671'
@@ -63,11 +75,18 @@ recommended_source_urls:
 - https://hubermanlab.com/
 - https://feeds.megaphone.fm/hubermanlab
 - https://drbredesen.com/
+- https://www.levels.com/
+- https://levelshealth.com/
+- https://metabolichealthsummit.com/
+- https://drperlmutter.com/
+- https://anchor.fm/s/f102c71c/podcast/rss
 - https://www.mercola.com/
 - https://drhyman.me/
 - https://drhyman.com/
 - https://feeds.megaphone.fm/thedoctorsfarmacy
+- https://drsten.com/
 - https://gundrymd.com/
+- https://drdavisinfinitehealth.com/
 recommended_search_queries:
 - Ferritin practitioner optimal range
 - Ferritin metabolic optimization

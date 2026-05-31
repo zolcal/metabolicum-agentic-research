@@ -25,6 +25,8 @@ recommended_youtube_video_ids:
 - Y69rHEuocho
 - zC3eU0iiNno
 recommended_practitioner_ids:
+- company:levels-health
+- conference:metabolic-health-summit
 - person:allan-sniderman
 - person:andrew-huberman
 - person:anthony-chaffee
@@ -34,9 +36,13 @@ recommended_practitioner_ids:
 - person:casey-means
 - person:dale-bredesen
 - person:dave-feldman
+- person:david-perlmutter
 - person:david-unwin
+- person:eric-berg
 - person:grant-brinkworth
 - person:joseph-mercola
+- person:judy-cho
+- person:low-carb-down-under
 - person:margaret-ashwell
 - person:mark-hyman
 - person:michael-mosley
@@ -46,16 +52,21 @@ recommended_practitioner_ids:
 - person:peter-attia
 - person:rangan-chatterjee
 - person:rhonda-patrick
+- person:siim-land
 - person:sten-ekberg
 - person:steven-gundry
 - person:ted-naiman
 - person:thomas-dayspring
+- person:thomas-fordham-brewer
 - person:william-davis
 - person:zoe-harcombe
 - person:zoltan-szabo
 recommended_pubmed_ids: []
 recommended_dois: []
 recommended_source_urls:
+- https://www.levels.com/
+- https://levelshealth.com/
+- https://metabolichealthsummit.com/
 - https://hubermanlab.com/
 - https://feeds.megaphone.fm/hubermanlab
 - https://dranthonychaffee.com/
@@ -72,6 +83,8 @@ recommended_source_urls:
 - https://anchor.fm/s/48092b10/podcast/rss
 - https://drbredesen.com/
 - https://cholesterolcode.com/
+- https://drperlmutter.com/
+- https://anchor.fm/s/f102c71c/podcast/rss
 - https://phcuk.org/
 - https://www.mercola.com/
 - https://drhyman.me/

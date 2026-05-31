@@ -40,14 +40,29 @@ recommended_youtube_video_ids:
 - k8SBJzsIWAo
 - wRsX_ZkzxvQ
 recommended_practitioner_ids:
+- company:levels-health
 - person:andrew-huberman
+- person:david-perlmutter
+- person:eric-berg
+- person:judy-cho
+- person:ken-berry
+- person:mind-matter-podcast
+- person:physionic
+- person:siim-land
+- person:sten-ekberg
+- person:thomas-fordham-brewer
 recommended_pubmed_ids:
 - '33838041'
 - '39801930'
 recommended_dois: []
 recommended_source_urls:
+- https://www.levels.com/
+- https://levelshealth.com/
 - https://hubermanlab.com/
 - https://feeds.megaphone.fm/hubermanlab
+- https://drperlmutter.com/
+- https://anchor.fm/s/f102c71c/podcast/rss
+- https://drsten.com/
 recommended_search_queries:
 - Total Testosterone practitioner optimal range
 - Total Testosterone metabolic optimization

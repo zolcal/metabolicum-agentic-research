@@ -116,7 +116,7 @@ categories:
   - tyg-wc
   - uric-acid
   - urine-glucose
-  practitioner_count: 55
+  practitioner_count: 59
   practitioners:
   - company:defeat-diabetes
   - company:levels-health
@@ -143,6 +143,7 @@ categories:
   - person:david-perlmutter
   - person:david-unwin
   - person:dominic-dagostino
+  - person:eric-berg
   - person:evelyne-bourdua-roy
   - person:grant-brinkworth
   - person:jason-fung
@@ -150,6 +151,8 @@ categories:
   - person:jonathan-little
   - person:joseph-kraft
   - person:joseph-mercola
+  - person:judy-cho
+  - person:low-carb-down-under
   - person:margaret-ashwell
   - person:mark-hyman
   - person:megan-ramos
@@ -166,6 +169,7 @@ categories:
   - person:stephen-phinney
   - person:steven-gundry
   - person:ted-naiman
+  - person:thomas-fordham-brewer
   - person:tim-noakes
   - person:william-davis
   - person:zoe-harcombe
@@ -218,11 +222,21 @@ categories:
   - tumor-necrosis-factor-alpha
   - uric-acid
   - viscosity
-  practitioner_count: 3
+  practitioner_count: 13
   practitioners:
+  - company:levels-health
+  - conference:metabolic-health-summit
   - person:andrew-huberman
   - person:dale-bredesen
+  - person:david-perlmutter
+  - person:eric-berg
+  - person:judy-cho
+  - person:low-carb-down-under
   - person:rhonda-patrick
+  - person:siim-land
+  - person:sten-ekberg
+  - person:thomas-fordham-brewer
+  - person:william-davis
 - slug: liver-function
   name: Liver Function
   description: Liver enzyme and fibrosis markers
@@ -269,13 +283,14 @@ categories:
   - prealbumin
   - protein-total
   - tp
-  practitioner_count: 14
+  practitioner_count: 15
   practitioners:
   - person:allan-sniderman
   - person:anthony-chaffee
   - person:aseem-malhotra
   - person:bret-scher
   - person:dave-feldman
+  - person:eric-berg
   - person:nick-norwitz
   - person:paul-mason
   - person:paul-saladino
@@ -320,8 +335,27 @@ categories:
   - urine-protein
   - urine-total-protein
   - urine-uric-acid
-  practitioner_count: 0
-  practitioners: []
+  practitioner_count: 19
+  practitioners:
+  - channel:UCzoRyR_nlesKZuOlEjWRXQQ
+  - company:levels-health
+  - conference:metabolic-health-summit
+  - media:diet-doctor
+  - person:andrew-huberman
+  - person:dave-feldman
+  - person:david-perlmutter
+  - person:eric-berg
+  - person:judy-cho
+  - person:ken-berry
+  - person:low-carb-down-under
+  - person:mind-matter-podcast
+  - person:physionic
+  - person:shawn-baker
+  - person:siim-land
+  - person:sten-ekberg
+  - person:the-primal-podcast
+  - person:thomas-fordham-brewer
+  - person:william-davis
 - slug: thyroid
   name: Thyroid
   description: null
@@ -424,8 +458,19 @@ categories:
   - total-testosterone
   - tryptase
   - vasoactive-intestinal-peptide
-  practitioner_count: 0
-  practitioners: []
+  practitioner_count: 11
+  practitioners:
+  - company:levels-health
+  - person:andrew-huberman
+  - person:david-perlmutter
+  - person:eric-berg
+  - person:judy-cho
+  - person:ken-berry
+  - person:mind-matter-podcast
+  - person:physionic
+  - person:siim-land
+  - person:sten-ekberg
+  - person:thomas-fordham-brewer
 - slug: micronutrients
   name: Micronutrients
   description: Essential vitamins and minerals
@@ -470,14 +515,23 @@ categories:
   - vitamin-e
   - vitamin-k1
   - vitamin-k2
-  practitioner_count: 6
+  practitioner_count: 15
   practitioners:
+  - company:levels-health
   - person:andrew-huberman
   - person:dale-bredesen
+  - person:eric-berg
   - person:joseph-mercola
+  - person:judy-cho
+  - person:ken-berry
   - person:mark-hyman
+  - person:mind-matter-podcast
   - person:rhonda-patrick
+  - person:siim-land
+  - person:sten-ekberg
   - person:steven-gundry
+  - person:thomas-fordham-brewer
+  - person:william-davis
 - slug: blood-count
   name: Complete Blood Count
   description: null
@@ -526,8 +580,18 @@ categories:
   - sii
   - thrombopoietin
   - wbc-count
-  practitioner_count: 0
-  practitioners: []
+  practitioner_count: 10
+  practitioners:
+  - company:levels-health
+  - person:andrew-huberman
+  - person:eric-berg
+  - person:ken-berry
+  - person:mind-matter-podcast
+  - person:shawn-baker
+  - person:siim-land
+  - person:sten-ekberg
+  - person:thomas-fordham-brewer
+  - person:william-davis
 - slug: cardiovascular
   name: Cardiovascular Risk
   description: null
@@ -553,8 +617,10 @@ categories:
   - troponin-t-cardiac-2
   - tyg-index
   - uric-acid
-  practitioner_count: 29
+  practitioner_count: 35
   practitioners:
+  - company:levels-health
+  - conference:metabolic-health-summit
   - person:allan-sniderman
   - person:anthony-chaffee
   - person:aseem-malhotra
@@ -565,9 +631,12 @@ categories:
   - person:dave-feldman
   - person:david-perlmutter
   - person:david-unwin
+  - person:eric-berg
   - person:grant-brinkworth
   - person:joseph-kraft
   - person:joseph-mercola
+  - person:judy-cho
+  - person:low-carb-down-under
   - person:margaret-ashwell
   - person:mark-hyman
   - person:michael-mosley
@@ -581,6 +650,7 @@ categories:
   - person:steven-gundry
   - person:ted-naiman
   - person:thomas-dayspring
+  - person:thomas-fordham-brewer
   - person:william-davis
   - person:zoe-harcombe
   - person:zoltan-szabo
@@ -594,8 +664,12 @@ categories:
   - fli
   - waist-to-hip-ratio
   - whtr
-  practitioner_count: 0
-  practitioners: []
+  practitioner_count: 4
+  practitioners:
+  - person:eric-berg
+  - person:physionic
+  - person:the-primal-podcast
+  - person:thomas-fordham-brewer
 - slug: coagulation
   name: Coagulation
   description: null
@@ -652,8 +726,9 @@ categories:
   - von-willebrand-factor-ag-actual-normal
   - von-willebrand-factor-cleaving-protease-actual-normal
   - von-willebrand-factor-cleaving-protease-inhibitor-2
-  practitioner_count: 0
-  practitioners: []
+  practitioner_count: 1
+  practitioners:
+  - person:mind-matter-podcast
 - slug: autoimmune
   name: Autoimmune & Immunology
   description: null
@@ -785,8 +860,10 @@ categories:
   - urine-ph
   - urine-specific-gravity
   - vanillylmandelate-creatinine-urine
-  practitioner_count: 0
-  practitioners: []
+  practitioner_count: 2
+  practitioners:
+  - person:eric-berg
+  - person:ken-berry
 - slug: salivary
   name: Salivary Markers
   description: null
@@ -824,8 +901,17 @@ categories:
   - selenium-2
   - sod
   - thallium
-  practitioner_count: 0
-  practitioners: []
+  practitioner_count: 9
+  practitioners:
+  - company:levels-health
+  - person:andrew-huberman
+  - person:david-perlmutter
+  - person:eric-berg
+  - person:judy-cho
+  - person:ken-berry
+  - person:mind-matter-podcast
+  - person:shawn-baker
+  - person:the-primal-podcast
 - slug: allergy
   name: Allergy
   description: IgE allergen-specific and allergy markers
@@ -1336,8 +1422,23 @@ categories:
   - upo4
   - urine-iodine
   - zinc-transporter-8-ab
-  practitioner_count: 0
-  practitioners: []
+  practitioner_count: 15
+  practitioners:
+  - channel:UCzoRyR_nlesKZuOlEjWRXQQ
+  - company:levels-health
+  - media:diet-doctor
+  - person:andrew-huberman
+  - person:david-perlmutter
+  - person:eric-berg
+  - person:judy-cho
+  - person:ken-berry
+  - person:low-carb-down-under
+  - person:mind-matter-podcast
+  - person:physionic
+  - person:siim-land
+  - person:sten-ekberg
+  - person:the-primal-podcast
+  - person:william-davis
 - slug: iron-anemia
   name: Iron & Anemia
   description: Iron metabolism and anemia markers
@@ -1447,8 +1548,9 @@ categories:
   - p1np
   - porphyrins
   - procollagen-type-i-n-terminal-propeptide
-  practitioner_count: 0
-  practitioners: []
+  practitioner_count: 1
+  practitioners:
+  - person:andrew-huberman
 - slug: specialty
   name: Specialty
   description: Specialized and miscellaneous laboratory markers
@@ -1466,5 +1568,6 @@ categories:
   - pyruvate-3
   - referral-lab-test-reference-range
   - soluble-fms-like-tyrosine-kinase-1-placental-growth-factor
-  practitioner_count: 0
-  practitioners: []
+  practitioner_count: 1
+  practitioners:
+  - person:mind-matter-podcast

@@ -42,9 +42,11 @@ recommended_youtube_video_ids:
 recommended_practitioner_ids:
 - channel:UCzoRyR_nlesKZuOlEjWRXQQ
 - company:levels-health
+- conference:metabolic-health-summit
 - media:diet-doctor
 - person:andrew-huberman
 - person:dave-feldman
+- person:david-perlmutter
 - person:eric-berg
 - person:judy-cho
 - person:ken-berry
@@ -66,11 +68,14 @@ recommended_dois: []
 recommended_source_urls:
 - https://www.levels.com/
 - https://levelshealth.com/
+- https://metabolichealthsummit.com/
 - https://www.dietdoctor.com/
 - https://dietdoctor.com/
 - https://hubermanlab.com/
 - https://feeds.megaphone.fm/hubermanlab
 - https://cholesterolcode.com/
+- https://drperlmutter.com/
+- https://anchor.fm/s/f102c71c/podcast/rss
 - https://drsten.com/
 - https://drdavisinfinitehealth.com/
 recommended_search_queries:

@@ -23,26 +23,26 @@
     "11-deoxycorticosterone": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 11,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 7
     },
     "17-hydroxypregnenolone": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 11,
       "pubmed_ids": 1,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 7
     },
     "18-hydroxycorticosterone": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 11,
       "pubmed_ids": 1,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 7
     },
     "6-methylmercaptopurine": {
       "mo_supported": false,
@@ -191,7 +191,7 @@
     "aldolase": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 14,
+      "practitioners": 15,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 14
@@ -199,7 +199,7 @@
     "alkaline-phosphatase-bone": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 14,
+      "practitioners": 15,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 14
@@ -399,10 +399,10 @@
     "angiotensin-ii": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 19,
       "pubmed_ids": 1,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 12
     },
     "anthemis-cotula-ab-ige": {
       "mo_supported": false,
@@ -687,7 +687,7 @@
     "beta-hydroxybutyrate": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 55,
+      "practitioners": 59,
       "pubmed_ids": 3,
       "dois": 0,
       "source_urls": 48
@@ -711,7 +711,7 @@
     "bile-acid": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 14,
+      "practitioners": 15,
       "pubmed_ids": 3,
       "dois": 0,
       "source_urls": 14
@@ -719,10 +719,10 @@
     "biotinidase": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 6,
+      "practitioners": 15,
       "pubmed_ids": 2,
       "dois": 0,
-      "source_urls": 11
+      "source_urls": 15
     },
     "bismuth": {
       "mo_supported": false,
@@ -879,26 +879,26 @@
     "calcidiol-ercalcidiol": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 6,
+      "practitioners": 15,
       "pubmed_ids": 5,
       "dois": 0,
-      "source_urls": 11
+      "source_urls": 15
     },
     "calcidiol": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 6,
+      "practitioners": 15,
       "pubmed_ids": 4,
       "dois": 0,
-      "source_urls": 11
+      "source_urls": 15
     },
     "calcitonin": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 11,
       "pubmed_ids": 3,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 7
     },
     "camellia-sinensis-ab-ige": {
       "mo_supported": false,
@@ -1039,10 +1039,10 @@
     "carotene": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 6,
+      "practitioners": 15,
       "pubmed_ids": 1,
       "dois": 0,
-      "source_urls": 11
+      "source_urls": 15
     },
     "carum-carvi-ab-ige": {
       "mo_supported": false,
@@ -1143,7 +1143,7 @@
     "ceruloplasmin": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 14,
+      "practitioners": 15,
       "pubmed_ids": 1,
       "dois": 0,
       "source_urls": 14
@@ -1215,7 +1215,7 @@
     "cholinesterase": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 14,
+      "practitioners": 15,
       "pubmed_ids": 1,
       "dois": 0,
       "source_urls": 14
@@ -1223,10 +1223,10 @@
     "choriomammotropin": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 11,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 7
     },
     "chromogranin-a": {
       "mo_supported": false,
@@ -1271,10 +1271,10 @@
     "citrate": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 19,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 12
     },
     "citrullus-lanatus-ab-ige": {
       "mo_supported": false,
@@ -1583,10 +1583,10 @@
     "corticosterone": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 11,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 7
     },
     "corylus-avellana-ab-ige": {
       "mo_supported": false,
@@ -1639,26 +1639,26 @@
     "creatine-kinase-mb-creatine-kinase-total": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 29,
+      "practitioners": 35,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 28
+      "source_urls": 31
     },
     "creatine-kinase-mb": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 29,
+      "practitioners": 35,
       "pubmed_ids": 2,
       "dois": 0,
-      "source_urls": 28
+      "source_urls": 31
     },
     "creatine": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 19,
       "pubmed_ids": 1,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 12
     },
     "cryptomeria-japonica-ab-ige": {
       "mo_supported": false,
@@ -1799,10 +1799,10 @@
     "dehydroepiandrosterone-sulfate": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 11,
       "pubmed_ids": 1,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 7
     },
     "dermatophagoides-farinae-ab-ige": {
       "mo_supported": false,
@@ -1943,10 +1943,10 @@
     "dopamine-2": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 11,
       "pubmed_ids": 1,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 7
     },
     "doxepin": {
       "mo_supported": false,
@@ -2335,10 +2335,10 @@
     "glucagon": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 11,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 7
     },
     "glutamine-csf": {
       "mo_supported": false,
@@ -2655,18 +2655,18 @@
     "inhibin-a": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 11,
       "pubmed_ids": 2,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 7
     },
     "inhibin-b": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 11,
       "pubmed_ids": 2,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 7
     },
     "insulin-ab": {
       "mo_supported": false,
@@ -2687,34 +2687,34 @@
     "interleukin-2-receptor-soluble": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 3,
+      "practitioners": 13,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 6
+      "source_urls": 13
     },
     "interleukin-2": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 3,
+      "practitioners": 13,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 6
+      "source_urls": 13
     },
     "interleukin-4": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 3,
+      "practitioners": 13,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 6
+      "source_urls": 13
     },
     "interleukin-8": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 3,
+      "practitioners": 13,
       "pubmed_ids": 3,
       "dois": 0,
-      "source_urls": 6
+      "source_urls": 13
     },
     "ipomoea-batatas-ab-ige": {
       "mo_supported": false,
@@ -2831,7 +2831,7 @@
     "lactic-acid": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 14,
+      "practitioners": 15,
       "pubmed_ids": 1,
       "dois": 0,
       "source_urls": 14
@@ -3015,10 +3015,10 @@
     "lysozyme": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 3,
+      "practitioners": 13,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 6
+      "source_urls": 13
     },
     "macadamia-spp-ab-ige": {
       "mo_supported": false,
@@ -3055,10 +3055,10 @@
     "mannose-binding-protein": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 3,
+      "practitioners": 13,
       "pubmed_ids": 3,
       "dois": 0,
-      "source_urls": 6
+      "source_urls": 13
     },
     "medicago-sativa-ab-ige": {
       "mo_supported": false,
@@ -3535,10 +3535,10 @@
     "oxalate": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 19,
       "pubmed_ids": 1,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 12
     },
     "oxazepam": {
       "mo_supported": false,
@@ -3559,10 +3559,10 @@
     "pancreatic-polypeptide": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 11,
       "pubmed_ids": 1,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 7
     },
     "pandalus-borealis-ab-ige": {
       "mo_supported": false,
@@ -3591,18 +3591,18 @@
     "parathyrin-intact": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 11,
       "pubmed_ids": 5,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 7
     },
     "parathyrin-related-protein": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 11,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 7
     },
     "parietal-cell-ab-igg": {
       "mo_supported": false,
@@ -3999,10 +3999,10 @@
     "porphyrins": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 1,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 2
     },
     "posaconazole-serum-whole-blood-urine": {
       "mo_supported": false,
@@ -4023,10 +4023,10 @@
     "pregnenolone": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 11,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 7
     },
     "prekallikrein-activity-actual-normal": {
       "mo_supported": false,
@@ -4039,10 +4039,10 @@
     "procollagen-type-i-n-terminal-propeptide": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 1,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 2
     },
     "promethazine": {
       "mo_supported": false,
@@ -4127,7 +4127,7 @@
     "protein-total": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 14,
+      "practitioners": 15,
       "pubmed_ids": 1,
       "dois": 0,
       "source_urls": 14
@@ -4159,10 +4159,10 @@
     "provasopressin-c-terminal": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 11,
       "pubmed_ids": 5,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 7
     },
     "prunus-armeniaca-ab-ige": {
       "mo_supported": false,
@@ -4319,10 +4319,10 @@
     "retinol-binding-protein": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 6,
+      "practitioners": 15,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 11
+      "source_urls": 15
     },
     "rhizopus-nigricans-ab-ige": {
       "mo_supported": false,
@@ -4335,10 +4335,10 @@
     "riboflavin": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 6,
+      "practitioners": 15,
       "pubmed_ids": 1,
       "dois": 0,
-      "source_urls": 11
+      "source_urls": 15
     },
     "ribosomal-p-ab": {
       "mo_supported": false,
@@ -4687,10 +4687,10 @@
     "somatostatin": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 11,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 7
     },
     "sorghum-halepense-ab-ige": {
       "mo_supported": false,
@@ -5247,10 +5247,10 @@
     "vasoactive-intestinal-peptide": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 11,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 7
     },
     "vespula-spp-ab-ige": {
       "mo_supported": false,
@@ -5271,10 +5271,10 @@
     "viscosity": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 3,
+      "practitioners": 13,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 6
+      "source_urls": 13
     },
     "vitis-vinifera-ab-ige": {
       "mo_supported": false,

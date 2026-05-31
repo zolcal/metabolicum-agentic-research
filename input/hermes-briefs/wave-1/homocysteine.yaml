@@ -40,16 +40,28 @@ recommended_youtube_video_ids:
 - 7FrG7uOgDyQ
 - EN9e99iRTCQ
 recommended_practitioner_ids:
+- channel:UCzoRyR_nlesKZuOlEjWRXQQ
 - company:levels-health
+- conference:metabolic-health-summit
+- media:diet-doctor
 - person:andrew-huberman
 - person:dale-bredesen
+- person:dave-feldman
+- person:david-perlmutter
 - person:eric-berg
 - person:joseph-mercola
+- person:judy-cho
+- person:ken-berry
+- person:low-carb-down-under
 - person:mark-hyman
+- person:mind-matter-podcast
+- person:physionic
 - person:rhonda-patrick
+- person:shawn-baker
 - person:siim-land
 - person:sten-ekberg
 - person:steven-gundry
+- person:the-primal-podcast
 - person:thomas-fordham-brewer
 - person:william-davis
 recommended_pubmed_ids:
@@ -63,9 +75,15 @@ recommended_source_urls:
 - https://pmc.ncbi.nlm.nih.gov/articles/PMC12917553/
 - https://www.levels.com/
 - https://levelshealth.com/
+- https://metabolichealthsummit.com/
+- https://www.dietdoctor.com/
+- https://dietdoctor.com/
 - https://hubermanlab.com/
 - https://feeds.megaphone.fm/hubermanlab
 - https://drbredesen.com/
+- https://cholesterolcode.com/
+- https://drperlmutter.com/
+- https://anchor.fm/s/f102c71c/podcast/rss
 - https://www.mercola.com/
 - https://drhyman.me/
 - https://drhyman.com/

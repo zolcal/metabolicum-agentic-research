@@ -36,14 +36,28 @@ recommended_youtube_video_ids:
 - 1dnX-z-HJGA
 - LbSR0V7P3y0
 recommended_practitioner_ids:
+- company:levels-health
 - person:andrew-huberman
+- person:david-perlmutter
 - person:eric-berg
+- person:judy-cho
+- person:ken-berry
+- person:mind-matter-podcast
+- person:physionic
+- person:siim-land
+- person:sten-ekberg
+- person:thomas-fordham-brewer
 recommended_pubmed_ids: []
 recommended_dois: []
 recommended_source_urls:
 - https://pmc.ncbi.nlm.nih.gov/articles/PMC13072677/
+- https://www.levels.com/
+- https://levelshealth.com/
 - https://hubermanlab.com/
 - https://feeds.megaphone.fm/hubermanlab
+- https://drperlmutter.com/
+- https://anchor.fm/s/f102c71c/podcast/rss
+- https://drsten.com/
 recommended_search_queries:
 - Prolactin practitioner optimal range
 - Prolactin metabolic optimization

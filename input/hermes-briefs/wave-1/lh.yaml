@@ -24,15 +24,28 @@ recommended_youtube_video_ids:
 - BgWuP3MQ1jk
 - NfkX-B_20EY
 recommended_practitioner_ids:
+- company:levels-health
 - person:andrew-huberman
+- person:david-perlmutter
 - person:eric-berg
+- person:judy-cho
+- person:ken-berry
+- person:mind-matter-podcast
 - person:physionic
+- person:siim-land
+- person:sten-ekberg
+- person:thomas-fordham-brewer
 recommended_pubmed_ids:
 - '41183334'
 recommended_dois: []
 recommended_source_urls:
+- https://www.levels.com/
+- https://levelshealth.com/
 - https://hubermanlab.com/
 - https://feeds.megaphone.fm/hubermanlab
+- https://drperlmutter.com/
+- https://anchor.fm/s/f102c71c/podcast/rss
+- https://drsten.com/
 recommended_search_queries:
 - Lh practitioner optimal range
 - Lh metabolic optimization

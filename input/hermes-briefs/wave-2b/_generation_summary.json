@@ -7,7 +7,7 @@
     "1-5-anhydroglucitol": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 55,
+      "practitioners": 59,
       "pubmed_ids": 4,
       "dois": 0,
       "source_urls": 48
@@ -15,7 +15,7 @@
     "5-nt": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 14,
+      "practitioners": 15,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 14
@@ -23,7 +23,7 @@
     "5-nucleotidase": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 14,
+      "practitioners": 15,
       "pubmed_ids": 1,
       "dois": 0,
       "source_urls": 14
@@ -31,47 +31,47 @@
     "adenosine-deaminase-csf": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 3,
+      "practitioners": 13,
       "pubmed_ids": 6,
       "dois": 0,
-      "source_urls": 6
+      "source_urls": 13
     },
     "adenosine-deaminase-pericardial-fluid": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 3,
+      "practitioners": 13,
       "pubmed_ids": 5,
       "dois": 0,
-      "source_urls": 6
+      "source_urls": 13
     },
     "adenosine-deaminase-peritoneal-fluid": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 3,
+      "practitioners": 13,
       "pubmed_ids": 5,
       "dois": 0,
-      "source_urls": 6
+      "source_urls": 13
     },
     "adenosine-deaminase-pleural-fluid": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 3,
+      "practitioners": 13,
       "pubmed_ids": 5,
       "dois": 0,
-      "source_urls": 6
+      "source_urls": 13
     },
     "adenosine-deaminase": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 3,
+      "practitioners": 13,
       "pubmed_ids": 4,
       "dois": 0,
-      "source_urls": 6
+      "source_urls": 13
     },
     "albumin-2": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 14,
+      "practitioners": 15,
       "pubmed_ids": 2,
       "dois": 0,
       "source_urls": 14
@@ -79,7 +79,7 @@
     "albumin-3": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 14,
+      "practitioners": 15,
       "pubmed_ids": 3,
       "dois": 0,
       "source_urls": 14
@@ -87,18 +87,18 @@
     "aldosterone-2": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 11,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 7
     },
     "aldosterone": {
       "mo_supported": true,
       "videos": 13,
-      "practitioners": 1,
+      "practitioners": 19,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 12
     },
     "alpha-1-fetoprotein-csf": {
       "mo_supported": false,
@@ -143,7 +143,7 @@
     "ammonia-4": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 14,
+      "practitioners": 15,
       "pubmed_ids": 1,
       "dois": 0,
       "source_urls": 14
@@ -151,7 +151,7 @@
     "amylase-2": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 14,
+      "practitioners": 15,
       "pubmed_ids": 6,
       "dois": 0,
       "source_urls": 14
@@ -159,7 +159,7 @@
     "amylase": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 14,
+      "practitioners": 15,
       "pubmed_ids": 6,
       "dois": 0,
       "source_urls": 14
@@ -167,7 +167,7 @@
     "angiotensin-converting-enzyme-csf": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 14,
+      "practitioners": 15,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 14
@@ -175,7 +175,7 @@
     "angiotensin-converting-enzyme": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 14,
+      "practitioners": 15,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 14
@@ -255,10 +255,10 @@
     "choriogonadotropin-beta-subunit-csf": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 11,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 7
     },
     "chromium-2": {
       "mo_supported": false,
@@ -279,18 +279,18 @@
     "coq10": {
       "mo_supported": true,
       "videos": 30,
-      "practitioners": 6,
+      "practitioners": 15,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 11
+      "source_urls": 15
     },
     "cortisol-am": {
       "mo_supported": true,
       "videos": 30,
-      "practitioners": 4,
+      "practitioners": 11,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 5
+      "source_urls": 7
     },
     "cortisol-saliva": {
       "mo_supported": true,
@@ -375,7 +375,7 @@
     "glucose-2": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 55,
+      "practitioners": 59,
       "pubmed_ids": 2,
       "dois": 0,
       "source_urls": 48
@@ -383,7 +383,7 @@
     "glucose-csf": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 55,
+      "practitioners": 59,
       "pubmed_ids": 2,
       "dois": 0,
       "source_urls": 48
@@ -391,7 +391,7 @@
     "glucose-post-cfst": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 55,
+      "practitioners": 59,
       "pubmed_ids": 5,
       "dois": 0,
       "source_urls": 48
@@ -415,18 +415,18 @@
     "histamine-2": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 11,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 7
     },
     "histamine-3": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 11,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 7
     },
     "iga-csf": {
       "mo_supported": false,
@@ -479,7 +479,7 @@
     "insulin-post-cfst": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 55,
+      "practitioners": 59,
       "pubmed_ids": 3,
       "dois": 0,
       "source_urls": 48
@@ -487,15 +487,15 @@
     "interleukin-10-csf": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 3,
+      "practitioners": 13,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 6
+      "source_urls": 13
     },
     "lactate-2": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 14,
+      "practitioners": 15,
       "pubmed_ids": 3,
       "dois": 0,
       "source_urls": 14
@@ -503,7 +503,7 @@
     "lactate": {
       "mo_supported": true,
       "videos": 30,
-      "practitioners": 14,
+      "practitioners": 15,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 14
@@ -551,10 +551,10 @@
     "mma-2": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 19,
       "pubmed_ids": 2,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 12
     },
     "molybdenum-2": {
       "mo_supported": false,
@@ -591,10 +591,10 @@
     "procalcitonin": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 3,
+      "practitioners": 13,
       "pubmed_ids": 3,
       "dois": 0,
-      "source_urls": 6
+      "source_urls": 13
     },
     "pyruvate-3": {
       "mo_supported": false,
@@ -623,34 +623,34 @@
     "serotonin-2": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 11,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 7
     },
     "serotonin": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 11,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 7
     },
     "somatotropin-baseline": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 11,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 7
     },
     "somatotropin": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 11,
       "pubmed_ids": 1,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 7
     },
     "tobramycin-peak": {
       "mo_supported": false,
@@ -679,10 +679,10 @@
     "ubiquinone-10": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 6,
+      "practitioners": 15,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 11
+      "source_urls": 15
     },
     "vancomycin-peak": {
       "mo_supported": false,

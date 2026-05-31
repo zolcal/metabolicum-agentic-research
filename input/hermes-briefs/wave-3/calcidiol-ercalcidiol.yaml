@@ -10,12 +10,21 @@ mo_supported: true
 mo_rationale: 'MO-relevant: category ''micronutrients'''
 recommended_youtube_video_ids: []
 recommended_practitioner_ids:
+- company:levels-health
 - person:andrew-huberman
 - person:dale-bredesen
+- person:eric-berg
 - person:joseph-mercola
+- person:judy-cho
+- person:ken-berry
 - person:mark-hyman
+- person:mind-matter-podcast
 - person:rhonda-patrick
+- person:siim-land
+- person:sten-ekberg
 - person:steven-gundry
+- person:thomas-fordham-brewer
+- person:william-davis
 recommended_pubmed_ids:
 - '22319037'
 - '24106288'
@@ -24,6 +33,8 @@ recommended_pubmed_ids:
 - '35551015'
 recommended_dois: []
 recommended_source_urls:
+- https://www.levels.com/
+- https://levelshealth.com/
 - https://hubermanlab.com/
 - https://feeds.megaphone.fm/hubermanlab
 - https://drbredesen.com/
@@ -34,7 +45,9 @@ recommended_source_urls:
 - https://www.foundmyfitness.com/
 - https://foundmyfitness.com/
 - https://rss.libsyn.com/shows/51714/destinations/184296.xml
+- https://drsten.com/
 - https://gundrymd.com/
+- https://drdavisinfinitehealth.com/
 recommended_search_queries:
 - 25-Hydroxyvitamin D3+25-Hydroxyvitamin D2 practitioner optimal range
 - 25-Hydroxyvitamin D3+25-Hydroxyvitamin D2 metabolic optimization

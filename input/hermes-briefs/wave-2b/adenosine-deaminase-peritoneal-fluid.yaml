@@ -10,9 +10,19 @@ mo_supported: true
 mo_rationale: 'MO-relevant: category ''inflammatory'''
 recommended_youtube_video_ids: []
 recommended_practitioner_ids:
+- company:levels-health
+- conference:metabolic-health-summit
 - person:andrew-huberman
 - person:dale-bredesen
+- person:david-perlmutter
+- person:eric-berg
+- person:judy-cho
+- person:low-carb-down-under
 - person:rhonda-patrick
+- person:siim-land
+- person:sten-ekberg
+- person:thomas-fordham-brewer
+- person:william-davis
 recommended_pubmed_ids:
 - '27725052'
 - '30913213'
@@ -21,12 +31,19 @@ recommended_pubmed_ids:
 - '41311563'
 recommended_dois: []
 recommended_source_urls:
+- https://www.levels.com/
+- https://levelshealth.com/
+- https://metabolichealthsummit.com/
 - https://hubermanlab.com/
 - https://feeds.megaphone.fm/hubermanlab
 - https://drbredesen.com/
+- https://drperlmutter.com/
+- https://anchor.fm/s/f102c71c/podcast/rss
 - https://www.foundmyfitness.com/
 - https://foundmyfitness.com/
 - https://rss.libsyn.com/shows/51714/destinations/184296.xml
+- https://drsten.com/
+- https://drdavisinfinitehealth.com/
 recommended_search_queries:
 - Adenosine deaminase practitioner optimal range
 - Adenosine deaminase metabolic optimization

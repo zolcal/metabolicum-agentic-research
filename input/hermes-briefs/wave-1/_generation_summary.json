@@ -7,10 +7,10 @@
     "17-hydroxyprogesterone": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 11,
       "pubmed_ids": 2,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 7
     },
     "absolute-lymphocytes": {
       "mo_supported": false,
@@ -31,7 +31,7 @@
     "albumin": {
       "mo_supported": true,
       "videos": 21,
-      "practitioners": 14,
+      "practitioners": 15,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 15
@@ -39,7 +39,7 @@
     "alp": {
       "mo_supported": true,
       "videos": 7,
-      "practitioners": 14,
+      "practitioners": 15,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 15
@@ -47,15 +47,15 @@
     "alpha-1-acid-glycoprotein": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 3,
+      "practitioners": 13,
       "pubmed_ids": 4,
       "dois": 0,
-      "source_urls": 6
+      "source_urls": 13
     },
     "alpha-1-antitrypsin": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 14,
+      "practitioners": 15,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 14
@@ -63,7 +63,7 @@
     "alpha-2-macroglobulin-2": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 14,
+      "practitioners": 15,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 14
@@ -71,15 +71,15 @@
     "alpha-tocopherol": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 6,
+      "practitioners": 15,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 11
+      "source_urls": 15
     },
     "alt": {
       "mo_supported": true,
       "videos": 14,
-      "practitioners": 14,
+      "practitioners": 15,
       "pubmed_ids": 11,
       "dois": 0,
       "source_urls": 15
@@ -111,7 +111,7 @@
     "ast": {
       "mo_supported": true,
       "videos": 8,
-      "practitioners": 14,
+      "practitioners": 15,
       "pubmed_ids": 3,
       "dois": 0,
       "source_urls": 50
@@ -151,7 +151,7 @@
     "bilirubin-total": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 14,
+      "practitioners": 15,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 15
@@ -159,18 +159,18 @@
     "bun": {
       "mo_supported": true,
       "videos": 30,
-      "practitioners": 9,
+      "practitioners": 19,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 5
+      "source_urls": 13
     },
     "calcium": {
       "mo_supported": true,
       "videos": 30,
-      "practitioners": 17,
+      "practitioners": 19,
       "pubmed_ids": 4,
       "dois": 0,
-      "source_urls": 9
+      "source_urls": 12
     },
     "chloride": {
       "mo_supported": false,
@@ -207,10 +207,10 @@
     "ck-mb": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 29,
+      "practitioners": 35,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 28
+      "source_urls": 31
     },
     "cobalt": {
       "mo_supported": false,
@@ -223,39 +223,39 @@
     "creatinine-3": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 19,
       "pubmed_ids": 2,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 12
     },
     "creatinine": {
       "mo_supported": true,
       "videos": 30,
-      "practitioners": 6,
+      "practitioners": 19,
       "pubmed_ids": 1,
       "dois": 0,
-      "source_urls": 2
+      "source_urls": 12
     },
     "crp-standard": {
       "mo_supported": true,
       "videos": 30,
-      "practitioners": 3,
+      "practitioners": 13,
       "pubmed_ids": 3,
       "dois": 0,
-      "source_urls": 11
+      "source_urls": 16
     },
     "cystatin-c": {
       "mo_supported": true,
       "videos": 4,
-      "practitioners": 1,
+      "practitioners": 19,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 12
     },
     "direct-bilirubin": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 14,
+      "practitioners": 15,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 15
@@ -279,15 +279,15 @@
     "estradiol": {
       "mo_supported": true,
       "videos": 30,
-      "practitioners": 3,
+      "practitioners": 11,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 7
     },
     "fasting-glucose": {
       "mo_supported": true,
       "videos": 30,
-      "practitioners": 55,
+      "practitioners": 59,
       "pubmed_ids": 19,
       "dois": 0,
       "source_urls": 48
@@ -295,10 +295,10 @@
     "ferritin": {
       "mo_supported": true,
       "videos": 30,
-      "practitioners": 6,
+      "practitioners": 18,
       "pubmed_ids": 8,
       "dois": 0,
-      "source_urls": 11
+      "source_urls": 18
     },
     "fibrinogen": {
       "mo_supported": false,
@@ -311,10 +311,10 @@
     "folate-serum": {
       "mo_supported": true,
       "videos": 30,
-      "practitioners": 6,
+      "practitioners": 15,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 11
+      "source_urls": 15
     },
     "free-t3": {
       "mo_supported": true,
@@ -335,7 +335,7 @@
     "fructosamine": {
       "mo_supported": true,
       "videos": 1,
-      "practitioners": 55,
+      "practitioners": 59,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 48
@@ -343,15 +343,15 @@
     "fsh": {
       "mo_supported": true,
       "videos": 8,
-      "practitioners": 2,
+      "practitioners": 11,
       "pubmed_ids": 2,
       "dois": 0,
-      "source_urls": 2
+      "source_urls": 7
     },
     "ggt": {
       "mo_supported": true,
       "videos": 3,
-      "practitioners": 14,
+      "practitioners": 15,
       "pubmed_ids": 7,
       "dois": 0,
       "source_urls": 15
@@ -359,7 +359,7 @@
     "globulin": {
       "mo_supported": true,
       "videos": 11,
-      "practitioners": 14,
+      "practitioners": 15,
       "pubmed_ids": 7,
       "dois": 0,
       "source_urls": 14
@@ -367,7 +367,7 @@
     "glucose": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 55,
+      "practitioners": 59,
       "pubmed_ids": 26,
       "dois": 0,
       "source_urls": 48
@@ -375,10 +375,10 @@
     "hdl-cholesterol": {
       "mo_supported": true,
       "videos": 24,
-      "practitioners": 29,
+      "practitioners": 35,
       "pubmed_ids": 21,
       "dois": 0,
-      "source_urls": 28
+      "source_urls": 31
     },
     "hematocrit": {
       "mo_supported": false,
@@ -399,31 +399,31 @@
     "homocysteine": {
       "mo_supported": true,
       "videos": 30,
-      "practitioners": 12,
+      "practitioners": 24,
       "pubmed_ids": 5,
       "dois": 0,
-      "source_urls": 16
+      "source_urls": 22
     },
     "hscrp": {
       "mo_supported": true,
       "videos": 24,
-      "practitioners": 32,
+      "practitioners": 39,
       "pubmed_ids": 5,
       "dois": 0,
-      "source_urls": 34
+      "source_urls": 37
     },
     "igf-1": {
       "mo_supported": true,
       "videos": 30,
-      "practitioners": 0,
+      "practitioners": 11,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 1
+      "source_urls": 8
     },
     "insulin-like-growth-factor-i": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 55,
+      "practitioners": 59,
       "pubmed_ids": 1,
       "dois": 0,
       "source_urls": 49
@@ -431,7 +431,7 @@
     "insulin": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 55,
+      "practitioners": 59,
       "pubmed_ids": 16,
       "dois": 0,
       "source_urls": 48
@@ -439,7 +439,7 @@
     "ldh": {
       "mo_supported": true,
       "videos": 1,
-      "practitioners": 14,
+      "practitioners": 15,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 14
@@ -455,18 +455,18 @@
     "lh": {
       "mo_supported": true,
       "videos": 14,
-      "practitioners": 3,
+      "practitioners": 11,
       "pubmed_ids": 1,
       "dois": 0,
-      "source_urls": 2
+      "source_urls": 7
     },
     "magnesium-serum": {
       "mo_supported": true,
       "videos": 2,
-      "practitioners": 6,
+      "practitioners": 24,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 11
+      "source_urls": 21
     },
     "manganese": {
       "mo_supported": false,
@@ -527,10 +527,10 @@
     "myoglobin": {
       "mo_supported": true,
       "videos": 3,
-      "practitioners": 29,
+      "practitioners": 35,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 28
+      "source_urls": 31
     },
     "neutrophils": {
       "mo_supported": false,
@@ -575,7 +575,7 @@
     "prealbumin": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 14,
+      "practitioners": 15,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 14
@@ -583,18 +583,18 @@
     "progesterone": {
       "mo_supported": true,
       "videos": 30,
-      "practitioners": 7,
+      "practitioners": 11,
       "pubmed_ids": 3,
       "dois": 0,
-      "source_urls": 7
+      "source_urls": 8
     },
     "prolactin": {
       "mo_supported": true,
       "videos": 26,
-      "practitioners": 2,
+      "practitioners": 11,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 3
+      "source_urls": 8
     },
     "rbc-count": {
       "mo_supported": false,
@@ -607,10 +607,10 @@
     "rbc-folate": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 6,
+      "practitioners": 15,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 11
+      "source_urls": 15
     },
     "rdw": {
       "mo_supported": false,
@@ -631,18 +631,18 @@
     "serum-iron": {
       "mo_supported": true,
       "videos": 1,
-      "practitioners": 6,
+      "practitioners": 15,
       "pubmed_ids": 2,
       "dois": 0,
-      "source_urls": 11
+      "source_urls": 15
     },
     "shbg": {
       "mo_supported": true,
       "videos": 15,
-      "practitioners": 5,
+      "practitioners": 11,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 2
+      "source_urls": 7
     },
     "sodium": {
       "mo_supported": false,
@@ -655,10 +655,10 @@
     "testosterone": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 11,
       "pubmed_ids": 2,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 7
     },
     "total-cholesterol": {
       "mo_supported": true,
@@ -695,18 +695,18 @@
     "total-testosterone": {
       "mo_supported": true,
       "videos": 30,
-      "practitioners": 1,
+      "practitioners": 11,
       "pubmed_ids": 2,
       "dois": 0,
-      "source_urls": 2
+      "source_urls": 7
     },
     "transferrin": {
       "mo_supported": true,
       "videos": 1,
-      "practitioners": 6,
+      "practitioners": 15,
       "pubmed_ids": 1,
       "dois": 0,
-      "source_urls": 11
+      "source_urls": 15
     },
     "triglycerides": {
       "mo_supported": true,
@@ -735,7 +735,7 @@
     "uric-acid": {
       "mo_supported": true,
       "videos": 30,
-      "practitioners": 63,
+      "practitioners": 70,
       "pubmed_ids": 0,
       "dois": 0,
       "source_urls": 49
@@ -743,18 +743,18 @@
     "urine-iodine": {
       "mo_supported": true,
       "videos": 13,
-      "practitioners": 1,
+      "practitioners": 15,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 10
     },
     "urine-microalbumin": {
       "mo_supported": true,
       "videos": 0,
-      "practitioners": 0,
+      "practitioners": 19,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 0
+      "source_urls": 12
     },
     "urine-ph": {
       "mo_supported": false,
@@ -775,18 +775,18 @@
     "vitamin-a": {
       "mo_supported": true,
       "videos": 30,
-      "practitioners": 6,
+      "practitioners": 15,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 11
+      "source_urls": 15
     },
     "vitamin-b12": {
       "mo_supported": true,
       "videos": 30,
-      "practitioners": 6,
+      "practitioners": 15,
       "pubmed_ids": 10,
       "dois": 0,
-      "source_urls": 11
+      "source_urls": 15
     },
     "vitamin-b6-pyridoxal-5-phosphate": {
       "mo_supported": false,
@@ -799,42 +799,42 @@
     "vitamin-b6": {
       "mo_supported": true,
       "videos": 30,
-      "practitioners": 6,
+      "practitioners": 15,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 12
+      "source_urls": 16
     },
     "vitamin-c": {
       "mo_supported": true,
       "videos": 30,
-      "practitioners": 6,
+      "practitioners": 15,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 11
+      "source_urls": 15
     },
     "vitamin-d": {
       "mo_supported": true,
       "videos": 30,
-      "practitioners": 6,
+      "practitioners": 15,
       "pubmed_ids": 6,
       "dois": 0,
-      "source_urls": 11
+      "source_urls": 15
     },
     "vitamin-k1": {
       "mo_supported": true,
       "videos": 30,
-      "practitioners": 6,
+      "practitioners": 15,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 12
+      "source_urls": 16
     },
     "vitamin-k2": {
       "mo_supported": true,
       "videos": 30,
-      "practitioners": 6,
+      "practitioners": 15,
       "pubmed_ids": 0,
       "dois": 0,
-      "source_urls": 12
+      "source_urls": 16
     },
     "wbc-count": {
       "mo_supported": false,

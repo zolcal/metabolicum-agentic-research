@@ -40,12 +40,21 @@ recommended_youtube_video_ids:
 - yfXvQ19qrLM
 - -cwT4MN9cJA
 recommended_practitioner_ids:
+- company:levels-health
 - person:andrew-huberman
 - person:dale-bredesen
+- person:eric-berg
 - person:joseph-mercola
+- person:judy-cho
+- person:ken-berry
 - person:mark-hyman
+- person:mind-matter-podcast
 - person:rhonda-patrick
+- person:siim-land
+- person:sten-ekberg
 - person:steven-gundry
+- person:thomas-fordham-brewer
+- person:william-davis
 recommended_pubmed_ids:
 - '17634462'
 - '18180395'
@@ -66,6 +75,10 @@ recommended_source_urls:
 - https://drbredesen.com/
 - https://www.mercola.com/
 - https://gundrymd.com/
+- https://www.levels.com/
+- https://levelshealth.com/
+- https://drsten.com/
+- https://drdavisinfinitehealth.com/
 recommended_search_queries:
 - Vitamin D practitioner optimal range
 - Vitamin D metabolic optimization
