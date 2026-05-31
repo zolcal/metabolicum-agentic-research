@@ -1,7 +1,7 @@
 {
   "wave": "wave-2",
-  "markers_processed": 108,
-  "total_matches": 848,
+  "markers_processed": 65,
+  "total_matches": 714,
   "markers": {
     "1-25-dihydroxyvitamin-d": {
       "matches": 0,
@@ -10,18 +10,6 @@
       "top_tier": ""
     },
     "11-deoxycortisol": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "5-hydroxyindoleacetate-creatinine-urine": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "5-hydroxyindoleacetate-urine": {
       "matches": 0,
       "top_score": 0,
       "top_term": "",
@@ -39,19 +27,7 @@
       "top_term": "adiponectin",
       "top_tier": "T1"
     },
-    "alpha-galactosidase-a": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
     "alpha-melanocyte-stimulating-hormone": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "aluminum-creatinine-urine": {
       "matches": 0,
       "top_score": 0,
       "top_term": "",
@@ -62,30 +38,6 @@
       "top_score": 14,
       "top_term": "amh",
       "top_tier": "T1"
-    },
-    "anti-dsdna": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "aptt": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "arsenic-creatinine-urine": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "arsenic-inorganic-urine": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
     },
     "bilirubin-glucuronidated-bilirubin-albumin-bound": {
       "matches": 0,
@@ -105,55 +57,13 @@
       "top_term": "bnp",
       "top_tier": "T1"
     },
-    "buspirone": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
     "c-peptide-fasting": {
       "matches": 20,
       "top_score": 10,
       "top_term": "insulin production",
       "top_tier": "T2"
     },
-    "c-peptide-urine": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "calcium-ionized": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
     "calprotectin": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "cat": {
-      "matches": 22,
-      "top_score": 21,
-      "top_term": "cat",
-      "top_tier": "T1"
-    },
-    "cells-cd3-tcr-alpha-beta-cells": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "chloride-2": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "chromium-creatinine-urine": {
       "matches": 0,
       "top_score": 0,
       "top_term": "",
@@ -164,24 +74,6 @@
       "top_score": 19,
       "top_term": "ck",
       "top_tier": "T1"
-    },
-    "cobalt-creatinine-urine": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "collagen-crosslinked-n-telopeptide-creatinine-urine": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "complement-alternate-pathway-ah50-actual-normal": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
     },
     "cortisol-free-serum-whole-blood": {
       "matches": 0,
@@ -207,11 +99,11 @@
       "top_term": "",
       "top_tier": ""
     },
-    "delta-aminolevulinate-urine": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
+    "dhea": {
+      "matches": 33,
+      "top_score": 23,
+      "top_term": "dhea",
+      "top_tier": "T1"
     },
     "dhea-s": {
       "matches": 14,
@@ -219,29 +111,11 @@
       "top_term": "dhea-s",
       "top_tier": "T1"
     },
-    "dhea": {
-      "matches": 33,
-      "top_score": 23,
-      "top_term": "dhea",
-      "top_tier": "T1"
-    },
     "e1": {
       "matches": 2,
       "top_score": 18,
       "top_term": "e1",
       "top_tier": "T1"
-    },
-    "ecp": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "elastase-pancreatic": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
     },
     "fatty-acids-nonesterified": {
       "matches": 0,
@@ -255,18 +129,6 @@
       "top_term": "",
       "top_tier": ""
     },
-    "fibrin-fibrinogen-fragments": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "fibrinogen-ag": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
     "fibroblast-growth-factor-23-intact": {
       "matches": 0,
       "top_score": 0,
@@ -274,24 +136,18 @@
       "top_tier": ""
     },
     "free-carnitine": {
-      "matches": 23,
-      "top_score": 19,
-      "top_term": "carnitine",
-      "top_tier": "T3"
-    },
-    "galactose-1-phosphate": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "galectin-3-2": {
       "matches": 0,
       "top_score": 0,
       "top_term": "",
       "top_tier": ""
     },
     "galectin-3": {
+      "matches": 0,
+      "top_score": 0,
+      "top_term": "",
+      "top_tier": ""
+    },
+    "galectin-3-2": {
       "matches": 0,
       "top_score": 0,
       "top_term": "",
@@ -304,24 +160,6 @@
       "top_tier": ""
     },
     "glucose-6-phosphate-dehydrogenase": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "hemoglobin-pattern": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "histoplasma-capsulatum-ag-urine": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "homovanillate-creatinine-urine": {
       "matches": 0,
       "top_score": 0,
       "top_term": "",
@@ -344,12 +182,6 @@
       "top_score": 18,
       "top_term": "il-6",
       "top_tier": "T1"
-    },
-    "immunoglobulin-light-chains-lambda-free": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
     },
     "insulin-like-growth-factor-binding-protein-1": {
       "matches": 0,
@@ -393,12 +225,6 @@
       "top_term": "lp-ir",
       "top_tier": "T1"
     },
-    "mercury-blood": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
     "mma": {
       "matches": 10,
       "top_score": 28,
@@ -411,23 +237,11 @@
       "top_term": "niacin",
       "top_tier": "T1"
     },
-    "nickel-creatinine-urine": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
     "nt-probnp": {
       "matches": 1,
       "top_score": 18,
       "top_term": "nt-probnp",
       "top_tier": "T1"
-    },
-    "orotate-creatinine-urine": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
     },
     "osteocalcin": {
       "matches": 6,
@@ -453,53 +267,17 @@
       "top_term": "",
       "top_tier": ""
     },
-    "ph-urine": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "porphobilinogen-urine": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
     "proinsulin": {
       "matches": 1,
       "top_score": 13,
       "top_term": "proinsulin",
       "top_tier": "T1"
     },
-    "prostaglandin-d2-urine": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "protein-creatinine-urine": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "protein-urine": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
     "protoporphyrin-zinc-2": {
       "matches": 0,
       "top_score": 0,
       "top_term": "",
       "top_tier": ""
-    },
-    "pt": {
-      "matches": 88,
-      "top_score": 21,
-      "top_term": "pt",
-      "top_tier": "T1"
     },
     "pth": {
       "matches": 87,
@@ -525,25 +303,7 @@
       "top_term": "reverse t3",
       "top_tier": "T1"
     },
-    "rheumatoid-factor": {
-      "matches": 1,
-      "top_score": 21,
-      "top_term": "rheumatoid factor",
-      "top_tier": "T1"
-    },
-    "s100-calcium-binding-protein-b": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
     "stfr": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "sulfate-urine": {
       "matches": 0,
       "top_score": 0,
       "top_term": "",
@@ -561,22 +321,16 @@
       "top_term": "",
       "top_tier": ""
     },
-    "thallium-creatinine-urine": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
+    "thyroglobulin": {
+      "matches": 1,
+      "top_score": 7,
+      "top_term": "thyroglobulin",
+      "top_tier": "T1"
     },
     "thyroglobulin-antibodies": {
       "matches": 1,
       "top_score": 6,
       "top_term": "thyroglobulin antibodies",
-      "top_tier": "T1"
-    },
-    "thyroglobulin": {
-      "matches": 1,
-      "top_score": 7,
-      "top_term": "thyroglobulin",
       "top_tier": "T1"
     },
     "thyroxine-binding-globulin": {
@@ -622,18 +376,6 @@
       "top_tier": ""
     },
     "tumor-necrosis-factor-alpha": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "urea-nitrogen-urine": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "vanillylmandelate-creatinine-urine": {
       "matches": 0,
       "top_score": 0,
       "top_term": "",

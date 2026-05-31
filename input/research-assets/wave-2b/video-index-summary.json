@@ -1,7 +1,7 @@
 {
   "wave": "wave-2b",
-  "markers_processed": 90,
-  "total_matches": 451,
+  "markers_processed": 37,
+  "total_matches": 763,
   "markers": {
     "1-5-anhydroglucitol": {
       "matches": 0,
@@ -16,6 +16,12 @@
       "top_tier": ""
     },
     "5-nucleotidase": {
+      "matches": 0,
+      "top_score": 0,
+      "top_term": "",
+      "top_tier": ""
+    },
+    "adenosine-deaminase": {
       "matches": 0,
       "top_score": 0,
       "top_term": "",
@@ -45,12 +51,6 @@
       "top_term": "",
       "top_tier": ""
     },
-    "adenosine-deaminase": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
     "albumin-2": {
       "matches": 0,
       "top_score": 0,
@@ -63,43 +63,13 @@
       "top_term": "",
       "top_tier": ""
     },
-    "aldosterone-2": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
     "aldosterone": {
       "matches": 13,
       "top_score": 18,
       "top_term": "aldosterone",
       "top_tier": "T1"
     },
-    "alpha-1-fetoprotein-csf": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "alpha-1-fetoprotein": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "amikacin-peak": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "amikacin-trough": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "amikacin": {
+    "aldosterone-2": {
       "matches": 0,
       "top_score": 0,
       "top_term": "",
@@ -111,19 +81,13 @@
       "top_term": "",
       "top_tier": ""
     },
-    "amylase-2": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
     "amylase": {
       "matches": 0,
       "top_score": 0,
       "top_term": "",
       "top_tier": ""
     },
-    "angiotensin-converting-enzyme-csf": {
+    "amylase-2": {
       "matches": 0,
       "top_score": 0,
       "top_term": "",
@@ -135,73 +99,13 @@
       "top_term": "",
       "top_tier": ""
     },
-    "beryllium-2": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "beta-2-microglobulin-urine": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "beta2m-2": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "beta2m": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "bk-virus-dna-urine": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "bk-virus-dna": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "ca": {
-      "matches": 2,
-      "top_score": 12,
-      "top_term": "ionized calcium",
-      "top_tier": "T2"
-    },
-    "calcium-urine": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "chloride-3": {
+    "angiotensin-converting-enzyme-csf": {
       "matches": 0,
       "top_score": 0,
       "top_term": "",
       "top_tier": ""
     },
     "choriogonadotropin-beta-subunit-csf": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "chromium-2": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "cobalt-2": {
       "matches": 0,
       "top_score": 0,
       "top_term": "",
@@ -214,66 +118,12 @@
       "top_tier": "T1"
     },
     "cortisol-am": {
-      "matches": 205,
-      "top_score": 29,
+      "matches": 623,
+      "top_score": 28,
       "top_term": "cortisol",
       "top_tier": "T3"
     },
     "cortisol-saliva": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "cu-3": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "cu": {
-      "matches": 26,
-      "top_score": 21,
-      "top_term": "cu",
-      "top_tier": "T1"
-    },
-    "eastern-equine-encephalitis-virus-ab-igg-csf": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "eastern-equine-encephalitis-virus-ab-igg": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "enolase-neuron-specific-csf": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "enolase-neuron-specific": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "gentamicin-peak": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "gentamicin-trough": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "gentamicin": {
       "matches": 0,
       "top_score": 0,
       "top_term": "",
@@ -297,18 +147,6 @@
       "top_term": "",
       "top_tier": ""
     },
-    "glutamate-decarboxylase-65-ab-csf": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "hemoglobin-4": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
     "histamine-2": {
       "matches": 0,
       "top_score": 0,
@@ -316,42 +154,6 @@
       "top_tier": ""
     },
     "histamine-3": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "iga-csf": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "iga": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "igg-csf": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "igg": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "igm-csf": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "igm": {
       "matches": 0,
       "top_score": 0,
       "top_term": "",
@@ -369,43 +171,13 @@
       "top_term": "",
       "top_tier": ""
     },
-    "lactate-2": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
     "lactate": {
       "matches": 58,
       "top_score": 27,
       "top_term": "lactate",
       "top_tier": "T1"
     },
-    "magnesium-serum-2": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "magnesium": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "manganese-2": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "measles-virus-ab-igg-csf": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "measles-virus-ab-igg": {
+    "lactate-2": {
       "matches": 0,
       "top_score": 0,
       "top_term": "",
@@ -417,55 +189,7 @@
       "top_term": "",
       "top_tier": ""
     },
-    "molybdenum-2": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "molybdenum": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "plasminogen-activator-inhibitor-1-ag-2": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "plasminogen-activator-inhibitor-1-ag": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
     "procalcitonin": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "pyruvate-3": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "pyruvate": {
-      "matches": 7,
-      "top_score": 14,
-      "top_term": "pyruvate",
-      "top_tier": "T1"
-    },
-    "selenium-2": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "serotonin-2": {
       "matches": 0,
       "top_score": 0,
       "top_term": "",
@@ -477,7 +201,7 @@
       "top_term": "",
       "top_tier": ""
     },
-    "somatotropin-baseline": {
+    "serotonin-2": {
       "matches": 0,
       "top_score": 0,
       "top_term": "",
@@ -489,19 +213,7 @@
       "top_term": "",
       "top_tier": ""
     },
-    "tobramycin-peak": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "tobramycin-trough": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "tobramycin": {
+    "somatotropin-baseline": {
       "matches": 0,
       "top_score": 0,
       "top_term": "",
@@ -512,36 +224,6 @@
       "top_score": 0,
       "top_term": "",
       "top_tier": ""
-    },
-    "vancomycin-peak": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "vancomycin-trough": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "vancomycin": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "zn-2": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "zn": {
-      "matches": 71,
-      "top_score": 19,
-      "top_term": "zinc",
-      "top_tier": "T3"
     }
   }
 }

@@ -1,8 +1,6 @@
 {
   "1-25-dihydroxyvitamin-d": [],
   "11-deoxycortisol": [],
-  "5-hydroxyindoleacetate-creatinine-urine": [],
-  "5-hydroxyindoleacetate-urine": [],
   "acth": [
     {
       "video_id": "GhGSLffZd0E",
@@ -112,9 +110,7 @@
       }
     }
   ],
-  "alpha-galactosidase-a": [],
   "alpha-melanocyte-stimulating-hormone": [],
-  "aluminum-creatinine-urine": [],
   "amh": [
     {
       "video_id": "RTPNJgHeZBI",
@@ -243,10 +239,6 @@
       }
     }
   ],
-  "anti-dsdna": [],
-  "aptt": [],
-  "arsenic-creatinine-urine": [],
-  "arsenic-inorganic-urine": [],
   "bilirubin-glucuronidated-bilirubin-albumin-bound": [],
   "bio-t": [],
   "bnp": [
@@ -293,7 +285,6 @@
       }
     }
   ],
-  "buspirone": [],
   "c-peptide-fasting": [
     {
       "video_id": "DMcL6KiglvM",
@@ -716,476 +707,7 @@
       }
     }
   ],
-  "c-peptide-urine": [],
-  "calcium-ionized": [],
   "calprotectin": [],
-  "cat": [
-    {
-      "video_id": "SWvvhzPcQks",
-      "url": "https://www.youtube.com/watch?v=SWvvhzPcQks",
-      "title": "How to Feed Our Pets for Longevity, Health and Wellness - Paws of Prey, Mariah Pierson",
-      "channel": "Nutrition with Judy",
-      "channel_id": "UCgXrNUokx_Zgprns3z6zqSg",
-      "published_at": "2025-08-14",
-      "duration_seconds": 3686,
-      "score": 21,
-      "match_term": "cat",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 3,
-        "recency": 2,
-        "citation": 8,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "1rUsspHnlmk",
-      "url": "https://www.youtube.com/watch?v=1rUsspHnlmk",
-      "title": "🔴  You NEED To Have A Healthy Diet To LIVE OPTIMALLY | Carnivore Q&A April 2nd, 2024.",
-      "channel": "Anthony Chaffee MD",
-      "channel_id": "UCzoRyR_nlesKZuOlEjWRXQQ",
-      "published_at": "2024-04-10",
-      "duration_seconds": 7238,
-      "score": 17,
-      "match_term": "cat",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 1,
-        "authority": 3,
-        "recency": 0,
-        "citation": 8,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "_KjgqM2HkFI",
-      "url": "https://www.youtube.com/watch?v=_KjgqM2HkFI",
-      "title": "🔴  A Calorie Deficit Alone WILL NOT Work! Here's Why ... | Carnivore Q&A March 19th, 2024.",
-      "channel": "Anthony Chaffee MD",
-      "channel_id": "UCzoRyR_nlesKZuOlEjWRXQQ",
-      "published_at": "2024-03-27",
-      "duration_seconds": 7371,
-      "score": 17,
-      "match_term": "cat",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 1,
-        "authority": 3,
-        "recency": 0,
-        "citation": 8,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "-dJEWBlFcrs",
-      "url": "https://www.youtube.com/watch?v=-dJEWBlFcrs",
-      "title": "Skin the cat …..",
-      "channel": "Shawn Baker MD",
-      "channel_id": "UC5apkKkeZQXRSDbqSalG8CQ",
-      "published_at": "2026-02-11",
-      "duration_seconds": 47,
-      "score": 15,
-      "match_term": "cat",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": -5,
-        "authority": 3,
-        "recency": 2,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "5ZXqxlCVCmk",
-      "url": "https://www.youtube.com/watch?v=5ZXqxlCVCmk",
-      "title": "How to Never Get Cancer (30 Scientifically Proven Tips)",
-      "channel": "Dr. Eric Berg DC",
-      "channel_id": "UC3w193M5tYPJqF0Hi-7U-2g",
-      "published_at": "2025-08-30",
-      "duration_seconds": 1138,
-      "score": 15,
-      "match_term": "cat",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 5,
-        "recency": 2,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "r8AAYMpsF3k",
-      "url": "https://www.youtube.com/watch?v=r8AAYMpsF3k",
-      "title": "CT Scan (CAT Scan) versus MRI: How They Differ",
-      "channel": "Dr. Eric Berg DC",
-      "channel_id": "UC3w193M5tYPJqF0Hi-7U-2g",
-      "published_at": "2019-11-20",
-      "duration_seconds": 111,
-      "score": 14,
-      "match_term": "cat",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": -5,
-        "authority": 5,
-        "recency": -2,
-        "citation": 0,
-        "frequency": 1
-      }
-    },
-    {
-      "video_id": "7-wzAvdoFTQ",
-      "url": "https://www.youtube.com/watch?v=7-wzAvdoFTQ",
-      "title": "Why We get Sick: Germ vs. Terrain Theory. GAPS protocol – Dr. Natasha Campbell-McBride",
-      "channel": "Nutrition with Judy",
-      "channel_id": "UCgXrNUokx_Zgprns3z6zqSg",
-      "published_at": "2025-05-08",
-      "duration_seconds": 5487,
-      "score": 13,
-      "match_term": "cat",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 3,
-        "recency": 2,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "Xf8Shj9hjUc",
-      "url": "https://www.youtube.com/watch?v=Xf8Shj9hjUc",
-      "title": "Do THIS Right After Waking Up (Your Body Will Thank You)",
-      "channel": "Dr. Eric Berg DC",
-      "channel_id": "UC3w193M5tYPJqF0Hi-7U-2g",
-      "published_at": "2026-01-06",
-      "duration_seconds": 461,
-      "score": 13,
-      "match_term": "cat",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 0,
-        "authority": 5,
-        "recency": 2,
-        "citation": 0,
-        "frequency": 1
-      }
-    },
-    {
-      "video_id": "hy6ynfjYsIs",
-      "url": "https://www.youtube.com/watch?v=hy6ynfjYsIs",
-      "title": "Ranking the Best Exercises for Maximum Healthspan from Worst to Best",
-      "channel": "Siim Land",
-      "channel_id": "UCAohrrjG-3gEp5QF1WlM9_w",
-      "published_at": "2026-02-21",
-      "duration_seconds": 4407,
-      "score": 13,
-      "match_term": "cat",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 3,
-        "recency": 2,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "6n32DVD3CiM",
-      "url": "https://www.youtube.com/watch?v=6n32DVD3CiM",
-      "title": "7 Warning Signs of Parasites and How to Fight Back",
-      "channel": "Dr. Eric Berg DC",
-      "channel_id": "UC3w193M5tYPJqF0Hi-7U-2g",
-      "published_at": "2024-11-28",
-      "duration_seconds": 481,
-      "score": 12,
-      "match_term": "cat",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 0,
-        "authority": 5,
-        "recency": 2,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "PdG2bcvxuyE",
-      "url": "https://www.youtube.com/watch?v=PdG2bcvxuyE",
-      "title": "Is Kibble BAD for Cats/Dogs?? [Best Pet Food] Travis Einertson, DVM",
-      "channel": "KenDBerryMD",
-      "channel_id": "UCIma2WOQs1Mz2AuOt6wRSUw",
-      "published_at": "2022-11-14",
-      "duration_seconds": 4241,
-      "score": 11,
-      "match_term": "cat",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 3,
-        "recency": 0,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "3VkP4tqGhdY",
-      "url": "https://www.youtube.com/watch?v=3VkP4tqGhdY",
-      "title": "The #1 Best Protocol for Gout",
-      "channel": "Dr. Eric Berg DC",
-      "channel_id": "UC3w193M5tYPJqF0Hi-7U-2g",
-      "published_at": "2023-01-18",
-      "duration_seconds": 400,
-      "score": 10,
-      "match_term": "cat",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 0,
-        "authority": 5,
-        "recency": 0,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "olp1jJWdZRQ",
-      "url": "https://www.youtube.com/watch?v=olp1jJWdZRQ",
-      "title": "Eat Fat, Get Thin",
-      "channel": "Anthony Chaffee MD",
-      "channel_id": "UCzoRyR_nlesKZuOlEjWRXQQ",
-      "published_at": "2026-01-21",
-      "duration_seconds": 654,
-      "score": 10,
-      "match_term": "cat",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 0,
-        "authority": 3,
-        "recency": 2,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "91QupQ3VL5U",
-      "url": "https://www.youtube.com/watch?v=91QupQ3VL5U",
-      "title": "Folate Deficiency Creates the Same Damage as Radiation",
-      "channel": "Dr. Eric Berg DC",
-      "channel_id": "UC3w193M5tYPJqF0Hi-7U-2g",
-      "published_at": "2021-03-13",
-      "duration_seconds": 246,
-      "score": 8,
-      "match_term": "cat",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 0,
-        "authority": 5,
-        "recency": -2,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "AK5qHLpq408",
-      "url": "https://www.youtube.com/watch?v=AK5qHLpq408",
-      "title": "Left Side Abdominal Pain Under Ribs – Causes & Remedies Covered by Dr. Berg",
-      "channel": "Dr. Eric Berg DC",
-      "channel_id": "UC3w193M5tYPJqF0Hi-7U-2g",
-      "published_at": "2020-10-30",
-      "duration_seconds": 346,
-      "score": 8,
-      "match_term": "cat",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 0,
-        "authority": 5,
-        "recency": -2,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "SqkAJmXt9RE",
-      "url": "https://www.youtube.com/watch?v=SqkAJmXt9RE",
-      "title": "Dr. Zoë Harcombe - 'Should dietary fat guidelines have been introduced?'",
-      "channel": "Low Carb Down Under",
-      "channel_id": "UCcTTiHZtNpiqD2EubIO5HFw",
-      "published_at": "2017-03-12",
-      "duration_seconds": 2075,
-      "score": 7,
-      "match_term": "cat",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "UpRsmu9xfJA",
-      "url": "https://www.youtube.com/watch?v=UpRsmu9xfJA",
-      "title": "How to Read Your Dog's Emotions",
-      "channel": "Andrew Huberman",
-      "channel_id": "UC2D2CMWXMOVWx7giW1n3LIg",
-      "published_at": "2025-04-29",
-      "duration_seconds": 35,
-      "score": 7,
-      "match_term": "cat",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": -5,
-        "authority": 5,
-        "recency": 2,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "lutzMT0kahU",
-      "url": "https://www.youtube.com/watch?v=lutzMT0kahU",
-      "title": "Dr. Sheila Cook - 'Back to the Future: A low carbohydrate diet in Type 1 Diabetes'",
-      "channel": "Low Carb Down Under",
-      "channel_id": "UCcTTiHZtNpiqD2EubIO5HFw",
-      "published_at": "2018-11-09",
-      "duration_seconds": 2333,
-      "score": 7,
-      "match_term": "cat",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "qVHL-Ck8LUg",
-      "url": "https://www.youtube.com/watch?v=qVHL-Ck8LUg",
-      "title": "Dr. Zoë Harcombe - 'HPCSA vs. Professor Noakes: A bird's eye view'",
-      "channel": "Low Carb Down Under",
-      "channel_id": "UCcTTiHZtNpiqD2EubIO5HFw",
-      "published_at": "2017-04-21",
-      "duration_seconds": 1733,
-      "score": 7,
-      "match_term": "cat",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "uc56tTZs7a8",
-      "url": "https://www.youtube.com/watch?v=uc56tTZs7a8",
-      "title": "Nick Mailer - 'The Nature of Nature: Healthy Humans with Hobbes and Rousseau'",
-      "channel": "Low Carb Down Under",
-      "channel_id": "UCcTTiHZtNpiqD2EubIO5HFw",
-      "published_at": "2018-07-28",
-      "duration_seconds": 1746,
-      "score": 7,
-      "match_term": "cat",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "FvS3EQ4heyA",
-      "url": "https://www.youtube.com/watch?v=FvS3EQ4heyA",
-      "title": "What Is Mycoplasma? - Dr.Berg",
-      "channel": "Dr. Eric Berg DC",
-      "channel_id": "UC3w193M5tYPJqF0Hi-7U-2g",
-      "published_at": "2018-10-30",
-      "duration_seconds": 231,
-      "score": 6,
-      "match_term": "cat",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 0,
-        "authority": 5,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "6mXfQSL4I8w",
-      "url": "https://www.youtube.com/watch?v=6mXfQSL4I8w",
-      "title": "Do Microwaves Actually Lower Your Nutrients in Food?",
-      "channel": "Dr. Eric Berg DC",
-      "channel_id": "UC3w193M5tYPJqF0Hi-7U-2g",
-      "published_at": "2019-12-12",
-      "duration_seconds": 140,
-      "score": 3,
-      "match_term": "cat",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": -5,
-        "authority": 5,
-        "recency": -2,
-        "citation": 0,
-        "frequency": 0
-      }
-    }
-  ],
-  "cells-cd3-tcr-alpha-beta-cells": [],
-  "chloride-2": [],
-  "chromium-creatinine-urine": [],
   "ck": [
     {
       "video_id": "d_3H-9QpqBM",
@@ -1230,310 +752,10 @@
       }
     }
   ],
-  "cobalt-creatinine-urine": [],
-  "collagen-crosslinked-n-telopeptide-creatinine-urine": [],
-  "complement-alternate-pathway-ah50-actual-normal": [],
   "cortisol-free-serum-whole-blood": [],
   "ctni": [],
   "ctnt": [],
   "ctx": [],
-  "delta-aminolevulinate-urine": [],
-  "dhea-s": [
-    {
-      "video_id": "DvQQNr7dDNU",
-      "url": "https://www.youtube.com/watch?v=DvQQNr7dDNU",
-      "title": "Longevity Scientist Shares Steps to Slow Down Aging - Michael Lustgarten PhD",
-      "channel": "Siim Land",
-      "channel_id": "UCAohrrjG-3gEp5QF1WlM9_w",
-      "published_at": "2023-08-13",
-      "duration_seconds": 5316,
-      "score": 19,
-      "match_term": "dhea-s",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 3,
-        "recency": 0,
-        "citation": 8,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "SgKp5mm0ALI",
-      "url": "https://www.youtube.com/watch?v=SgKp5mm0ALI",
-      "title": "I Ranked 100 Health Markers (Most People Get These Wrong)",
-      "channel": "Siim Land",
-      "channel_id": "UCAohrrjG-3gEp5QF1WlM9_w",
-      "published_at": "2025-09-20",
-      "duration_seconds": 6191,
-      "score": 13,
-      "match_term": "dhea-s",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 3,
-        "recency": 2,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "950fbVKFwHM",
-      "url": "https://www.youtube.com/watch?v=950fbVKFwHM",
-      "title": "Natural Solution for Plaque, Cavities, and Gingivitis",
-      "channel": "Dr. Eric Berg DC",
-      "channel_id": "UC3w193M5tYPJqF0Hi-7U-2g",
-      "published_at": "2022-11-06",
-      "duration_seconds": 571,
-      "score": 8,
-      "match_term": "adrenal hormone",
-      "match_tier": "T2",
-      "breakdown": {
-        "match_base": 3,
-        "title_bonus": 0,
-        "depth": 0,
-        "authority": 5,
-        "recency": 0,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "HAUdHuApCG4",
-      "url": "https://www.youtube.com/watch?v=HAUdHuApCG4",
-      "title": "Cortisol (Stress) and Vitamin D Levels",
-      "channel": "Dr. Eric Berg DC",
-      "channel_id": "UC3w193M5tYPJqF0Hi-7U-2g",
-      "published_at": "2021-08-02",
-      "duration_seconds": 288,
-      "score": 8,
-      "match_term": "adrenal hormone",
-      "match_tier": "T2",
-      "breakdown": {
-        "match_base": 3,
-        "title_bonus": 0,
-        "depth": 0,
-        "authority": 5,
-        "recency": 0,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "1COqq37F82Q",
-      "url": "https://www.youtube.com/watch?v=1COqq37F82Q",
-      "title": "7 Reasons Why You Get Up During the Night – Dr.Berg On Sleep Apnea",
-      "channel": "Dr. Eric Berg DC",
-      "channel_id": "UC3w193M5tYPJqF0Hi-7U-2g",
-      "published_at": "2019-07-28",
-      "duration_seconds": 460,
-      "score": 6,
-      "match_term": "adrenal hormone",
-      "match_tier": "T2",
-      "breakdown": {
-        "match_base": 3,
-        "title_bonus": 0,
-        "depth": 0,
-        "authority": 5,
-        "recency": -2,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "OSwhSam_hLU",
-      "url": "https://www.youtube.com/watch?v=OSwhSam_hLU",
-      "title": "The Best PREDNISONE Alternative",
-      "channel": "Dr. Eric Berg DC",
-      "channel_id": "UC3w193M5tYPJqF0Hi-7U-2g",
-      "published_at": "2019-06-25",
-      "duration_seconds": 339,
-      "score": 6,
-      "match_term": "adrenal hormone",
-      "match_tier": "T2",
-      "breakdown": {
-        "match_base": 3,
-        "title_bonus": 0,
-        "depth": 0,
-        "authority": 5,
-        "recency": -2,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "xBzFo9EvCmw",
-      "url": "https://www.youtube.com/watch?v=xBzFo9EvCmw",
-      "title": "How Ketones Affect Hormones and the Endocrine System",
-      "channel": "Dr. Eric Berg DC",
-      "channel_id": "UC3w193M5tYPJqF0Hi-7U-2g",
-      "published_at": "2020-04-08",
-      "duration_seconds": 499,
-      "score": 6,
-      "match_term": "adrenal hormone",
-      "match_tier": "T2",
-      "breakdown": {
-        "match_base": 3,
-        "title_bonus": 0,
-        "depth": 0,
-        "authority": 5,
-        "recency": -2,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "RR1f8bNQQNc",
-      "url": "https://www.youtube.com/watch?v=RR1f8bNQQNc",
-      "title": "Stressors | Causes of Stress & How it affects your body – Dr. Berg",
-      "channel": "Dr. Eric Berg DC",
-      "channel_id": "UC3w193M5tYPJqF0Hi-7U-2g",
-      "published_at": "2016-09-05",
-      "duration_seconds": 549,
-      "score": 4,
-      "match_term": "adrenal hormone",
-      "match_tier": "T2",
-      "breakdown": {
-        "match_base": 3,
-        "title_bonus": 0,
-        "depth": 0,
-        "authority": 5,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "Z9FWsmmxO7c",
-      "url": "https://www.youtube.com/watch?v=Z9FWsmmxO7c",
-      "title": "Adrenal Discovery – High Cortisol Levels, Blood Sugar Levels & Adrenal Stress – Dr. Berg",
-      "channel": "Dr. Eric Berg DC",
-      "channel_id": "UC3w193M5tYPJqF0Hi-7U-2g",
-      "published_at": "2015-04-15",
-      "duration_seconds": 253,
-      "score": 4,
-      "match_term": "adrenal hormone",
-      "match_tier": "T2",
-      "breakdown": {
-        "match_base": 3,
-        "title_bonus": 0,
-        "depth": 0,
-        "authority": 5,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "mFozTOH5N0k",
-      "url": "https://www.youtube.com/watch?v=mFozTOH5N0k",
-      "title": "What's Really At The Core Cause Of Inflammation? – Dr. Berg",
-      "channel": "Dr. Eric Berg DC",
-      "channel_id": "UC3w193M5tYPJqF0Hi-7U-2g",
-      "published_at": "2018-02-09",
-      "duration_seconds": 211,
-      "score": 4,
-      "match_term": "adrenal hormone",
-      "match_tier": "T2",
-      "breakdown": {
-        "match_base": 3,
-        "title_bonus": 0,
-        "depth": 0,
-        "authority": 5,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "p8E32j-v0nI",
-      "url": "https://www.youtube.com/watch?v=p8E32j-v0nI",
-      "title": "3 Surprising Hidden Causes Of Inflammation Revealed by Dr. Berg",
-      "channel": "Dr. Eric Berg DC",
-      "channel_id": "UC3w193M5tYPJqF0Hi-7U-2g",
-      "published_at": "2019-02-09",
-      "duration_seconds": 541,
-      "score": 4,
-      "match_term": "adrenal hormone",
-      "match_tier": "T2",
-      "breakdown": {
-        "match_base": 3,
-        "title_bonus": 0,
-        "depth": 0,
-        "authority": 5,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "uYQVVSu5YGw",
-      "url": "https://www.youtube.com/watch?v=uYQVVSu5YGw",
-      "title": "Ignored Causes of Heart Disease - Heart Problems - Dr.Berg",
-      "channel": "Dr. Eric Berg DC",
-      "channel_id": "UC3w193M5tYPJqF0Hi-7U-2g",
-      "published_at": "2018-10-04",
-      "duration_seconds": 750,
-      "score": 4,
-      "match_term": "adrenal hormone",
-      "match_tier": "T2",
-      "breakdown": {
-        "match_base": 3,
-        "title_bonus": 0,
-        "depth": 0,
-        "authority": 5,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "vXdR8zeEf1Y",
-      "url": "https://www.youtube.com/watch?v=vXdR8zeEf1Y",
-      "title": "Low Salt Increases Your Risk of Heart Attacks",
-      "channel": "Dr. Eric Berg DC",
-      "channel_id": "UC3w193M5tYPJqF0Hi-7U-2g",
-      "published_at": "2021-09-30",
-      "duration_seconds": 175,
-      "score": 3,
-      "match_term": "adrenal hormone",
-      "match_tier": "T2",
-      "breakdown": {
-        "match_base": 3,
-        "title_bonus": 0,
-        "depth": -5,
-        "authority": 5,
-        "recency": 0,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "ElGcuU8-LAg",
-      "url": "https://www.youtube.com/watch?v=ElGcuU8-LAg",
-      "title": "False Hunger Pangs on Intermittent Fasting – Dr. Berg",
-      "channel": "Dr. Eric Berg DC",
-      "channel_id": "UC3w193M5tYPJqF0Hi-7U-2g",
-      "published_at": "2017-12-18",
-      "duration_seconds": 104,
-      "score": -1,
-      "match_term": "adrenal hormone",
-      "match_tier": "T2",
-      "breakdown": {
-        "match_base": 3,
-        "title_bonus": 0,
-        "depth": -5,
-        "authority": 5,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    }
-  ],
   "dhea": [
     {
       "video_id": "bY_GDsbvqXM",
@@ -2229,6 +1451,302 @@
       }
     }
   ],
+  "dhea-s": [
+    {
+      "video_id": "DvQQNr7dDNU",
+      "url": "https://www.youtube.com/watch?v=DvQQNr7dDNU",
+      "title": "Longevity Scientist Shares Steps to Slow Down Aging - Michael Lustgarten PhD",
+      "channel": "Siim Land",
+      "channel_id": "UCAohrrjG-3gEp5QF1WlM9_w",
+      "published_at": "2023-08-13",
+      "duration_seconds": 5316,
+      "score": 19,
+      "match_term": "dhea-s",
+      "match_tier": "T1",
+      "breakdown": {
+        "match_base": 5,
+        "title_bonus": 0,
+        "depth": 3,
+        "authority": 3,
+        "recency": 0,
+        "citation": 8,
+        "frequency": 0
+      }
+    },
+    {
+      "video_id": "SgKp5mm0ALI",
+      "url": "https://www.youtube.com/watch?v=SgKp5mm0ALI",
+      "title": "I Ranked 100 Health Markers (Most People Get These Wrong)",
+      "channel": "Siim Land",
+      "channel_id": "UCAohrrjG-3gEp5QF1WlM9_w",
+      "published_at": "2025-09-20",
+      "duration_seconds": 6191,
+      "score": 13,
+      "match_term": "dhea-s",
+      "match_tier": "T1",
+      "breakdown": {
+        "match_base": 5,
+        "title_bonus": 0,
+        "depth": 3,
+        "authority": 3,
+        "recency": 2,
+        "citation": 0,
+        "frequency": 0
+      }
+    },
+    {
+      "video_id": "950fbVKFwHM",
+      "url": "https://www.youtube.com/watch?v=950fbVKFwHM",
+      "title": "Natural Solution for Plaque, Cavities, and Gingivitis",
+      "channel": "Dr. Eric Berg DC",
+      "channel_id": "UC3w193M5tYPJqF0Hi-7U-2g",
+      "published_at": "2022-11-06",
+      "duration_seconds": 571,
+      "score": 8,
+      "match_term": "adrenal hormone",
+      "match_tier": "T2",
+      "breakdown": {
+        "match_base": 3,
+        "title_bonus": 0,
+        "depth": 0,
+        "authority": 5,
+        "recency": 0,
+        "citation": 0,
+        "frequency": 0
+      }
+    },
+    {
+      "video_id": "HAUdHuApCG4",
+      "url": "https://www.youtube.com/watch?v=HAUdHuApCG4",
+      "title": "Cortisol (Stress) and Vitamin D Levels",
+      "channel": "Dr. Eric Berg DC",
+      "channel_id": "UC3w193M5tYPJqF0Hi-7U-2g",
+      "published_at": "2021-08-02",
+      "duration_seconds": 288,
+      "score": 8,
+      "match_term": "adrenal hormone",
+      "match_tier": "T2",
+      "breakdown": {
+        "match_base": 3,
+        "title_bonus": 0,
+        "depth": 0,
+        "authority": 5,
+        "recency": 0,
+        "citation": 0,
+        "frequency": 0
+      }
+    },
+    {
+      "video_id": "1COqq37F82Q",
+      "url": "https://www.youtube.com/watch?v=1COqq37F82Q",
+      "title": "7 Reasons Why You Get Up During the Night – Dr.Berg On Sleep Apnea",
+      "channel": "Dr. Eric Berg DC",
+      "channel_id": "UC3w193M5tYPJqF0Hi-7U-2g",
+      "published_at": "2019-07-28",
+      "duration_seconds": 460,
+      "score": 6,
+      "match_term": "adrenal hormone",
+      "match_tier": "T2",
+      "breakdown": {
+        "match_base": 3,
+        "title_bonus": 0,
+        "depth": 0,
+        "authority": 5,
+        "recency": -2,
+        "citation": 0,
+        "frequency": 0
+      }
+    },
+    {
+      "video_id": "OSwhSam_hLU",
+      "url": "https://www.youtube.com/watch?v=OSwhSam_hLU",
+      "title": "The Best PREDNISONE Alternative",
+      "channel": "Dr. Eric Berg DC",
+      "channel_id": "UC3w193M5tYPJqF0Hi-7U-2g",
+      "published_at": "2019-06-25",
+      "duration_seconds": 339,
+      "score": 6,
+      "match_term": "adrenal hormone",
+      "match_tier": "T2",
+      "breakdown": {
+        "match_base": 3,
+        "title_bonus": 0,
+        "depth": 0,
+        "authority": 5,
+        "recency": -2,
+        "citation": 0,
+        "frequency": 0
+      }
+    },
+    {
+      "video_id": "xBzFo9EvCmw",
+      "url": "https://www.youtube.com/watch?v=xBzFo9EvCmw",
+      "title": "How Ketones Affect Hormones and the Endocrine System",
+      "channel": "Dr. Eric Berg DC",
+      "channel_id": "UC3w193M5tYPJqF0Hi-7U-2g",
+      "published_at": "2020-04-08",
+      "duration_seconds": 499,
+      "score": 6,
+      "match_term": "adrenal hormone",
+      "match_tier": "T2",
+      "breakdown": {
+        "match_base": 3,
+        "title_bonus": 0,
+        "depth": 0,
+        "authority": 5,
+        "recency": -2,
+        "citation": 0,
+        "frequency": 0
+      }
+    },
+    {
+      "video_id": "RR1f8bNQQNc",
+      "url": "https://www.youtube.com/watch?v=RR1f8bNQQNc",
+      "title": "Stressors | Causes of Stress & How it affects your body – Dr. Berg",
+      "channel": "Dr. Eric Berg DC",
+      "channel_id": "UC3w193M5tYPJqF0Hi-7U-2g",
+      "published_at": "2016-09-05",
+      "duration_seconds": 549,
+      "score": 4,
+      "match_term": "adrenal hormone",
+      "match_tier": "T2",
+      "breakdown": {
+        "match_base": 3,
+        "title_bonus": 0,
+        "depth": 0,
+        "authority": 5,
+        "recency": -4,
+        "citation": 0,
+        "frequency": 0
+      }
+    },
+    {
+      "video_id": "Z9FWsmmxO7c",
+      "url": "https://www.youtube.com/watch?v=Z9FWsmmxO7c",
+      "title": "Adrenal Discovery – High Cortisol Levels, Blood Sugar Levels & Adrenal Stress – Dr. Berg",
+      "channel": "Dr. Eric Berg DC",
+      "channel_id": "UC3w193M5tYPJqF0Hi-7U-2g",
+      "published_at": "2015-04-15",
+      "duration_seconds": 253,
+      "score": 4,
+      "match_term": "adrenal hormone",
+      "match_tier": "T2",
+      "breakdown": {
+        "match_base": 3,
+        "title_bonus": 0,
+        "depth": 0,
+        "authority": 5,
+        "recency": -4,
+        "citation": 0,
+        "frequency": 0
+      }
+    },
+    {
+      "video_id": "mFozTOH5N0k",
+      "url": "https://www.youtube.com/watch?v=mFozTOH5N0k",
+      "title": "What's Really At The Core Cause Of Inflammation? – Dr. Berg",
+      "channel": "Dr. Eric Berg DC",
+      "channel_id": "UC3w193M5tYPJqF0Hi-7U-2g",
+      "published_at": "2018-02-09",
+      "duration_seconds": 211,
+      "score": 4,
+      "match_term": "adrenal hormone",
+      "match_tier": "T2",
+      "breakdown": {
+        "match_base": 3,
+        "title_bonus": 0,
+        "depth": 0,
+        "authority": 5,
+        "recency": -4,
+        "citation": 0,
+        "frequency": 0
+      }
+    },
+    {
+      "video_id": "p8E32j-v0nI",
+      "url": "https://www.youtube.com/watch?v=p8E32j-v0nI",
+      "title": "3 Surprising Hidden Causes Of Inflammation Revealed by Dr. Berg",
+      "channel": "Dr. Eric Berg DC",
+      "channel_id": "UC3w193M5tYPJqF0Hi-7U-2g",
+      "published_at": "2019-02-09",
+      "duration_seconds": 541,
+      "score": 4,
+      "match_term": "adrenal hormone",
+      "match_tier": "T2",
+      "breakdown": {
+        "match_base": 3,
+        "title_bonus": 0,
+        "depth": 0,
+        "authority": 5,
+        "recency": -4,
+        "citation": 0,
+        "frequency": 0
+      }
+    },
+    {
+      "video_id": "uYQVVSu5YGw",
+      "url": "https://www.youtube.com/watch?v=uYQVVSu5YGw",
+      "title": "Ignored Causes of Heart Disease - Heart Problems - Dr.Berg",
+      "channel": "Dr. Eric Berg DC",
+      "channel_id": "UC3w193M5tYPJqF0Hi-7U-2g",
+      "published_at": "2018-10-04",
+      "duration_seconds": 750,
+      "score": 4,
+      "match_term": "adrenal hormone",
+      "match_tier": "T2",
+      "breakdown": {
+        "match_base": 3,
+        "title_bonus": 0,
+        "depth": 0,
+        "authority": 5,
+        "recency": -4,
+        "citation": 0,
+        "frequency": 0
+      }
+    },
+    {
+      "video_id": "vXdR8zeEf1Y",
+      "url": "https://www.youtube.com/watch?v=vXdR8zeEf1Y",
+      "title": "Low Salt Increases Your Risk of Heart Attacks",
+      "channel": "Dr. Eric Berg DC",
+      "channel_id": "UC3w193M5tYPJqF0Hi-7U-2g",
+      "published_at": "2021-09-30",
+      "duration_seconds": 175,
+      "score": 3,
+      "match_term": "adrenal hormone",
+      "match_tier": "T2",
+      "breakdown": {
+        "match_base": 3,
+        "title_bonus": 0,
+        "depth": -5,
+        "authority": 5,
+        "recency": 0,
+        "citation": 0,
+        "frequency": 0
+      }
+    },
+    {
+      "video_id": "ElGcuU8-LAg",
+      "url": "https://www.youtube.com/watch?v=ElGcuU8-LAg",
+      "title": "False Hunger Pangs on Intermittent Fasting – Dr. Berg",
+      "channel": "Dr. Eric Berg DC",
+      "channel_id": "UC3w193M5tYPJqF0Hi-7U-2g",
+      "published_at": "2017-12-18",
+      "duration_seconds": 104,
+      "score": -1,
+      "match_term": "adrenal hormone",
+      "match_tier": "T2",
+      "breakdown": {
+        "match_base": 3,
+        "title_bonus": 0,
+        "depth": -5,
+        "authority": 5,
+        "recency": -4,
+        "citation": 0,
+        "frequency": 0
+      }
+    }
+  ],
   "e1": [
     {
       "video_id": "8p1hX3Cjm2M",
@@ -2273,506 +1791,14 @@
       }
     }
   ],
-  "ecp": [],
-  "elastase-pancreatic": [],
   "fatty-acids-nonesterified": [],
   "fib-4": [],
-  "fibrin-fibrinogen-fragments": [],
-  "fibrinogen-ag": [],
   "fibroblast-growth-factor-23-intact": [],
-  "free-carnitine": [
-    {
-      "video_id": "TiJSmTNfGak",
-      "url": "https://www.youtube.com/watch?v=TiJSmTNfGak",
-      "title": "🔴AUTISM: What Role Diet Plays (ASD Food Choices) | Dr Anthony Chaffee",
-      "channel": "Anthony Chaffee MD",
-      "channel_id": "UCzoRyR_nlesKZuOlEjWRXQQ",
-      "published_at": "2024-08-25",
-      "duration_seconds": 1282,
-      "score": 19,
-      "match_term": "carnitine",
-      "match_tier": "T3",
-      "breakdown": {
-        "match_base": 3,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 3,
-        "recency": 2,
-        "citation": 8,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "Z23R3OAFLZ4",
-      "url": "https://www.youtube.com/watch?v=Z23R3OAFLZ4",
-      "title": "Dr. Lustig: ‘Fructose is Poison’",
-      "channel": "Physionic",
-      "channel_id": "UCj3p_1jOCJXB_L_we-DjLbA",
-      "published_at": "2026-02-14",
-      "duration_seconds": 1056,
-      "score": 19,
-      "match_term": "carnitine",
-      "match_tier": "T3",
-      "breakdown": {
-        "match_base": 3,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 3,
-        "recency": 2,
-        "citation": 8,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "17O5mgXZ9ZU",
-      "url": "https://www.youtube.com/watch?v=17O5mgXZ9ZU",
-      "title": "How Our Hormones Control Our Hunger, Eating & Satiety",
-      "channel": "Andrew Huberman",
-      "channel_id": "UC2D2CMWXMOVWx7giW1n3LIg",
-      "published_at": "2021-04-19",
-      "duration_seconds": 5983,
-      "score": 17,
-      "match_term": "carnitine",
-      "match_tier": "T3",
-      "breakdown": {
-        "match_base": 3,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 5,
-        "recency": -2,
-        "citation": 8,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "9FLssAeIbA0",
-      "url": "https://www.youtube.com/watch?v=9FLssAeIbA0",
-      "title": "Early Childhood Development and Nutrition, with Dr  Anthony Chaffee, MD",
-      "channel": "Anthony Chaffee MD",
-      "channel_id": "UCzoRyR_nlesKZuOlEjWRXQQ",
-      "published_at": "2021-12-10",
-      "duration_seconds": 950,
-      "score": 17,
-      "match_term": "carnitine",
-      "match_tier": "T3",
-      "breakdown": {
-        "match_base": 3,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 3,
-        "recency": 0,
-        "citation": 8,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "p9XuPr0f21k",
-      "url": "https://www.youtube.com/watch?v=p9XuPr0f21k",
-      "title": "How to Prevent Hair Loss, Optimal Glycine Protein Ratio - Q&A /w Siim Land",
-      "channel": "Siim Land",
-      "channel_id": "UCAohrrjG-3gEp5QF1WlM9_w",
-      "published_at": "2022-12-05",
-      "duration_seconds": 1831,
-      "score": 17,
-      "match_term": "carnitine",
-      "match_tier": "T3",
-      "breakdown": {
-        "match_base": 3,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 3,
-        "recency": 0,
-        "citation": 8,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "uYfp81XnUMU",
-      "url": "https://www.youtube.com/watch?v=uYfp81XnUMU",
-      "title": "Cholesterol is Good For You!",
-      "channel": "Anthony Chaffee MD",
-      "channel_id": "UCzoRyR_nlesKZuOlEjWRXQQ",
-      "published_at": "2021-12-22",
-      "duration_seconds": 1287,
-      "score": 17,
-      "match_term": "carnitine",
-      "match_tier": "T3",
-      "breakdown": {
-        "match_base": 3,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 3,
-        "recency": 0,
-        "citation": 8,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "vA50EK70whE",
-      "url": "https://www.youtube.com/watch?v=vA50EK70whE",
-      "title": "How to Increase Motivation & Drive",
-      "channel": "Andrew Huberman",
-      "channel_id": "UC2D2CMWXMOVWx7giW1n3LIg",
-      "published_at": "2021-03-22",
-      "duration_seconds": 5343,
-      "score": 17,
-      "match_term": "carnitine",
-      "match_tier": "T3",
-      "breakdown": {
-        "match_base": 3,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 5,
-        "recency": -2,
-        "citation": 8,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "1gFFm0lXSAg",
-      "url": "https://www.youtube.com/watch?v=1gFFm0lXSAg",
-      "title": "Fibromyalgia Relief: Diet & Supplements 2026",
-      "channel": "KenDBerryMD",
-      "channel_id": "UCIma2WOQs1Mz2AuOt6wRSUw",
-      "published_at": "2020-02-10",
-      "duration_seconds": 1212,
-      "score": 15,
-      "match_term": "carnitine",
-      "match_tier": "T3",
-      "breakdown": {
-        "match_base": 3,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 3,
-        "recency": -2,
-        "citation": 8,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "916vhhUsmgE",
-      "url": "https://www.youtube.com/watch?v=916vhhUsmgE",
-      "title": "Understanding & Controlling Aggression | Huberman Lab Essentials",
-      "channel": "Andrew Huberman",
-      "channel_id": "UC2D2CMWXMOVWx7giW1n3LIg",
-      "published_at": "2026-05-14",
-      "duration_seconds": 1999,
-      "score": 14,
-      "match_term": "carnitine",
-      "match_tier": "T3",
-      "breakdown": {
-        "match_base": 3,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 5,
-        "recency": 2,
-        "citation": 0,
-        "frequency": 1
-      }
-    },
-    {
-      "video_id": "vm1GbSPx48g",
-      "url": "https://www.youtube.com/watch?v=vm1GbSPx48g",
-      "title": "How to Control Your Sense of Pain & Pleasure | Huberman Lab Essentials",
-      "channel": "Andrew Huberman",
-      "channel_id": "UC2D2CMWXMOVWx7giW1n3LIg",
-      "published_at": "2025-06-19",
-      "duration_seconds": 1965,
-      "score": 13,
-      "match_term": "carnitine",
-      "match_tier": "T3",
-      "breakdown": {
-        "match_base": 3,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 5,
-        "recency": 2,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "yyxgFVGsZhc",
-      "url": "https://www.youtube.com/watch?v=yyxgFVGsZhc",
-      "title": "The Dr. Berg Show LIVE - October 11, 2024",
-      "channel": "Dr. Eric Berg DC",
-      "channel_id": "UC3w193M5tYPJqF0Hi-7U-2g",
-      "published_at": "2024-10-11",
-      "duration_seconds": 3640,
-      "score": 13,
-      "match_term": "carnitine",
-      "match_tier": "T3",
-      "breakdown": {
-        "match_base": 3,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 5,
-        "recency": 2,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "C0DMdUqF73Q",
-      "url": "https://www.youtube.com/watch?v=C0DMdUqF73Q",
-      "title": "The Best Vitality & Health Protocols | Dr. Rhonda Patrick",
-      "channel": "Andrew Huberman",
-      "channel_id": "UC2D2CMWXMOVWx7giW1n3LIg",
-      "published_at": "2026-03-23",
-      "duration_seconds": 12668,
-      "score": 11,
-      "match_term": "carnitine",
-      "match_tier": "T3",
-      "breakdown": {
-        "match_base": 3,
-        "title_bonus": 0,
-        "depth": 1,
-        "authority": 5,
-        "recency": 2,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "xmhsWAqP_0Y",
-      "url": "https://www.youtube.com/watch?v=xmhsWAqP_0Y",
-      "title": "How to Control Your Sense of Pain & Pleasure",
-      "channel": "Andrew Huberman",
-      "channel_id": "UC2D2CMWXMOVWx7giW1n3LIg",
-      "published_at": "2021-08-09",
-      "duration_seconds": 8172,
-      "score": 10,
-      "match_term": "carnitine",
-      "match_tier": "T3",
-      "breakdown": {
-        "match_base": 3,
-        "title_bonus": 0,
-        "depth": 1,
-        "authority": 5,
-        "recency": 0,
-        "citation": 0,
-        "frequency": 1
-      }
-    },
-    {
-      "video_id": "EhlIkzJwPlk",
-      "url": "https://www.youtube.com/watch?v=EhlIkzJwPlk",
-      "title": "Female Hormone Health, Fertility & Vitality | Dr. Natalie Crawford",
-      "channel": "Andrew Huberman",
-      "channel_id": "UC2D2CMWXMOVWx7giW1n3LIg",
-      "published_at": "2023-11-13",
-      "duration_seconds": 12454,
-      "score": 9,
-      "match_term": "carnitine",
-      "match_tier": "T3",
-      "breakdown": {
-        "match_base": 3,
-        "title_bonus": 0,
-        "depth": 1,
-        "authority": 5,
-        "recency": 0,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "GqPGXG5TlZw",
-      "url": "https://www.youtube.com/watch?v=GqPGXG5TlZw",
-      "title": "How to Lose Fat with Science-Based Tools",
-      "channel": "Andrew Huberman",
-      "channel_id": "UC2D2CMWXMOVWx7giW1n3LIg",
-      "published_at": "2021-05-24",
-      "duration_seconds": 6834,
-      "score": 9,
-      "match_term": "carnitine",
-      "match_tier": "T3",
-      "breakdown": {
-        "match_base": 3,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 5,
-        "recency": -2,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "K9lORz2_XSU",
-      "url": "https://www.youtube.com/watch?v=K9lORz2_XSU",
-      "title": "Tools to Reduce & Manage Pain | Dr. Sean Mackey",
-      "channel": "Andrew Huberman",
-      "channel_id": "UC2D2CMWXMOVWx7giW1n3LIg",
-      "published_at": "2024-01-15",
-      "duration_seconds": 10602,
-      "score": 9,
-      "match_term": "carnitine",
-      "match_tier": "T3",
-      "breakdown": {
-        "match_base": 3,
-        "title_bonus": 0,
-        "depth": 1,
-        "authority": 5,
-        "recency": 0,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "O1YRwWmue4Y",
-      "url": "https://www.youtube.com/watch?v=O1YRwWmue4Y",
-      "title": "How to Optimize Fertility in Males & Females",
-      "channel": "Andrew Huberman",
-      "channel_id": "UC2D2CMWXMOVWx7giW1n3LIg",
-      "published_at": "2023-01-23",
-      "duration_seconds": 15735,
-      "score": 9,
-      "match_term": "carnitine",
-      "match_tier": "T3",
-      "breakdown": {
-        "match_base": 3,
-        "title_bonus": 0,
-        "depth": 1,
-        "authority": 5,
-        "recency": 0,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "O640yAgq5f8",
-      "url": "https://www.youtube.com/watch?v=O640yAgq5f8",
-      "title": "Tools for Hormone Optimization in Males | Dr. Kyle Gillett",
-      "channel": "Andrew Huberman",
-      "channel_id": "UC2D2CMWXMOVWx7giW1n3LIg",
-      "published_at": "2022-12-12",
-      "duration_seconds": 8658,
-      "score": 9,
-      "match_term": "carnitine",
-      "match_tier": "T3",
-      "breakdown": {
-        "match_base": 3,
-        "title_bonus": 0,
-        "depth": 1,
-        "authority": 5,
-        "recency": 0,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "XfURDjegrAw",
-      "url": "https://www.youtube.com/watch?v=XfURDjegrAw",
-      "title": "How Foods and Nutrients Control Our Moods",
-      "channel": "Andrew Huberman",
-      "channel_id": "UC2D2CMWXMOVWx7giW1n3LIg",
-      "published_at": "2021-03-15",
-      "duration_seconds": 6248,
-      "score": 9,
-      "match_term": "carnitine",
-      "match_tier": "T3",
-      "breakdown": {
-        "match_base": 3,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 5,
-        "recency": -2,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "ncSoor2Iw8k",
-      "url": "https://www.youtube.com/watch?v=ncSoor2Iw8k",
-      "title": "How to Optimize Your Hormones for Health & Vitality | Dr. Kyle Gillett",
-      "channel": "Andrew Huberman",
-      "channel_id": "UC2D2CMWXMOVWx7giW1n3LIg",
-      "published_at": "2022-04-11",
-      "duration_seconds": 10762,
-      "score": 9,
-      "match_term": "carnitine",
-      "match_tier": "T3",
-      "breakdown": {
-        "match_base": 3,
-        "title_bonus": 0,
-        "depth": 1,
-        "authority": 5,
-        "recency": 0,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "tLS6t3FVOTI",
-      "url": "https://www.youtube.com/watch?v=tLS6t3FVOTI",
-      "title": "Developing a Rational Approach to Supplementation for Health & Performance | Huberman Lab Podcast",
-      "channel": "Andrew Huberman",
-      "channel_id": "UC2D2CMWXMOVWx7giW1n3LIg",
-      "published_at": "2023-01-09",
-      "duration_seconds": 7247,
-      "score": 9,
-      "match_term": "carnitine",
-      "match_tier": "T3",
-      "breakdown": {
-        "match_base": 3,
-        "title_bonus": 0,
-        "depth": 1,
-        "authority": 5,
-        "recency": 0,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "4QKAzU_iYHY",
-      "url": "https://www.youtube.com/watch?v=4QKAzU_iYHY",
-      "title": "Lp(a)- the new antisense drugs - the NEJM article",
-      "channel": "Thomas Fordham Brewer MD MPH",
-      "channel_id": "UCmoEsq6a6ePXxgZeA4CVrUw",
-      "published_at": "2020-01-22",
-      "duration_seconds": 4391,
-      "score": 7,
-      "match_term": "carnitine",
-      "match_tier": "T3",
-      "breakdown": {
-        "match_base": 3,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 3,
-        "recency": -2,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "J2dLIs6TmLM",
-      "url": "https://www.youtube.com/watch?v=J2dLIs6TmLM",
-      "title": "Tips to Heal Anxiety and Panic Attacks: How AncestralHealthGuy healed his anxiety with nutrition",
-      "channel": "Nutrition with Judy",
-      "channel_id": "UCgXrNUokx_Zgprns3z6zqSg",
-      "published_at": "2019-09-30",
-      "duration_seconds": 4118,
-      "score": 7,
-      "match_term": "carnitine",
-      "match_tier": "T3",
-      "breakdown": {
-        "match_base": 3,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 3,
-        "recency": -2,
-        "citation": 0,
-        "frequency": 0
-      }
-    }
-  ],
-  "galactose-1-phosphate": [],
-  "galectin-3-2": [],
+  "free-carnitine": [],
   "galectin-3": [],
+  "galectin-3-2": [],
   "gastrin": [],
   "glucose-6-phosphate-dehydrogenase": [],
-  "hemoglobin-pattern": [],
-  "histoplasma-capsulatum-ag-urine": [],
-  "homovanillate-creatinine-urine": [],
   "ibil": [],
   "il-1beta": [],
   "il-6": [
@@ -2924,7 +1950,6 @@
       }
     }
   ],
-  "immunoglobulin-light-chains-lambda-free": [],
   "insulin-like-growth-factor-binding-protein-1": [],
   "insulin-like-growth-factor-binding-protein-3": [],
   "iron": [],
@@ -4426,7 +3451,6 @@
       }
     }
   ],
-  "mercury-blood": [],
   "mma": [
     {
       "video_id": "ZQ9P0JCW8v0",
@@ -7896,7 +6920,6 @@
       }
     }
   ],
-  "nickel-creatinine-urine": [],
   "nt-probnp": [
     {
       "video_id": "utvQ7GBAVQQ",
@@ -7920,7 +6943,6 @@
       }
     }
   ],
-  "orotate-creatinine-urine": [],
   "osteocalcin": [
     {
       "video_id": "69Z0eCFegWk",
@@ -8368,8 +7390,6 @@
   ],
   "p1np": [],
   "pancreastatin": [],
-  "ph-urine": [],
-  "porphobilinogen-urine": [],
   "proinsulin": [
     {
       "video_id": "5RnEdiTRYfI",
@@ -8393,1860 +7413,7 @@
       }
     }
   ],
-  "prostaglandin-d2-urine": [],
-  "protein-creatinine-urine": [],
-  "protein-urine": [],
   "protoporphyrin-zinc-2": [],
-  "pt": [
-    {
-      "video_id": "2kgQpT9pQws",
-      "url": "https://www.youtube.com/watch?v=2kgQpT9pQws",
-      "title": "Glycine: The Secret to Less Inflammation",
-      "channel": "Physionic",
-      "channel_id": "UCj3p_1jOCJXB_L_we-DjLbA",
-      "published_at": "2026-01-31",
-      "duration_seconds": 1173,
-      "score": 21,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 3,
-        "recency": 2,
-        "citation": 8,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "Z4mHInH5BXc",
-      "url": "https://www.youtube.com/watch?v=Z4mHInH5BXc",
-      "title": "Dr. Lustig: Stop eating Fructose!",
-      "channel": "Physionic",
-      "channel_id": "UCj3p_1jOCJXB_L_we-DjLbA",
-      "published_at": "2026-02-07",
-      "duration_seconds": 2357,
-      "score": 21,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 3,
-        "recency": 2,
-        "citation": 8,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "gDIDDnhOKl4",
-      "url": "https://www.youtube.com/watch?v=gDIDDnhOKl4",
-      "title": "Targeting Cancer Metabolism: The Future of Oncology | Dr. Tomás Duraj | The Metabolic Link Ep. 61",
-      "channel": "Metabolic Health Summit",
-      "channel_id": "UCYHR-dn_ohWIoPt8LeumbNA",
-      "published_at": "2025-02-11",
-      "duration_seconds": 5542,
-      "score": 21,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 3,
-        "recency": 2,
-        "citation": 8,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "ZoqlhnFFNF0",
-      "url": "https://www.youtube.com/watch?v=ZoqlhnFFNF0",
-      "title": "Anti-Aging Pt 2 - Telomeres  - User Manual For Humans S1 E18 - Dr Ekberg",
-      "channel": "Dr. Sten Ekberg",
-      "channel_id": "UCIe2pR6PE0dae9BunJ38F7w",
-      "published_at": "2013-04-01",
-      "duration_seconds": 1744,
-      "score": 19,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 3,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 2
-      }
-    },
-    {
-      "video_id": "i8iZzMQk5XA",
-      "url": "https://www.youtube.com/watch?v=i8iZzMQk5XA",
-      "title": "Anti-Aging Pt 3 - Free Radicals  - User Manual For Humans S1 E19 - Dr Ekberg",
-      "channel": "Dr. Sten Ekberg",
-      "channel_id": "UCIe2pR6PE0dae9BunJ38F7w",
-      "published_at": "2013-04-18",
-      "duration_seconds": 1583,
-      "score": 19,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 3,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 2
-      }
-    },
-    {
-      "video_id": "z0LknqYN71U",
-      "url": "https://www.youtube.com/watch?v=z0LknqYN71U",
-      "title": "Anti-Aging Pt 1 - At The Cellular Level - User Manual For Humans S1 E17 - Dr Ekberg",
-      "channel": "Dr. Sten Ekberg",
-      "channel_id": "UCIe2pR6PE0dae9BunJ38F7w",
-      "published_at": "2013-04-01",
-      "duration_seconds": 2344,
-      "score": 19,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 3,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 2
-      }
-    },
-    {
-      "video_id": "0JGvrCe5H5M",
-      "url": "https://www.youtube.com/watch?v=0JGvrCe5H5M",
-      "title": "My Perspective on ApoB, LDL and Lpa PT 2",
-      "channel": "Thomas Fordham Brewer MD MPH",
-      "channel_id": "UCmoEsq6a6ePXxgZeA4CVrUw",
-      "published_at": "2023-06-29",
-      "duration_seconds": 446,
-      "score": 18,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 0,
-        "authority": 3,
-        "recency": 0,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "QsGlJrtnXj8",
-      "url": "https://www.youtube.com/watch?v=QsGlJrtnXj8",
-      "title": "WAR IS HELL, pt 2!!",
-      "channel": "Shawn Baker MD",
-      "channel_id": "UC5apkKkeZQXRSDbqSalG8CQ",
-      "published_at": "2023-09-18",
-      "duration_seconds": 524,
-      "score": 18,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 0,
-        "authority": 3,
-        "recency": 0,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "VCq4jUKSHbo",
-      "url": "https://www.youtube.com/watch?v=VCq4jUKSHbo",
-      "title": "Does FIBER Reduce CV RISK? PT 2: Recent COCHRANE \"Umbrella\" review",
-      "channel": "Thomas Fordham Brewer MD MPH",
-      "channel_id": "UCmoEsq6a6ePXxgZeA4CVrUw",
-      "published_at": "2019-03-04",
-      "duration_seconds": 1329,
-      "score": 18,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 3,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 1
-      }
-    },
-    {
-      "video_id": "VJ5DhuldByQ",
-      "url": "https://www.youtube.com/watch?v=VJ5DhuldByQ",
-      "title": "Anti-Aging Pt 4 - Mitochondria  - User Manual For Humans S1 E20 - Dr Ekberg",
-      "channel": "Dr. Sten Ekberg",
-      "channel_id": "UCIe2pR6PE0dae9BunJ38F7w",
-      "published_at": "2013-05-05",
-      "duration_seconds": 1477,
-      "score": 18,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 3,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 1
-      }
-    },
-    {
-      "video_id": "1G3mwvYE7YM",
-      "url": "https://www.youtube.com/watch?v=1G3mwvYE7YM",
-      "title": "Heart Failure pt 4 Diastolic Dysfunction - FORD BREWER MD MPH",
-      "channel": "Thomas Fordham Brewer MD MPH",
-      "channel_id": "UCmoEsq6a6ePXxgZeA4CVrUw",
-      "published_at": "2018-08-21",
-      "duration_seconds": 934,
-      "score": 17,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 3,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "FGW9Jev0GuU",
-      "url": "https://www.youtube.com/watch?v=FGW9Jev0GuU",
-      "title": "HE LOST 25 POUNDS IN 10 WEEKS: Here's How - James West pt 3",
-      "channel": "Thomas Fordham Brewer MD MPH",
-      "channel_id": "UCmoEsq6a6ePXxgZeA4CVrUw",
-      "published_at": "2019-04-01",
-      "duration_seconds": 988,
-      "score": 17,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 3,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "LhpNFvJLO9w",
-      "url": "https://www.youtube.com/watch?v=LhpNFvJLO9w",
-      "title": "AcetylCysteine & Glutathione; Sulfur Antioxidants pt 2- FORD BREWER MD MPH",
-      "channel": "Thomas Fordham Brewer MD MPH",
-      "channel_id": "UCmoEsq6a6ePXxgZeA4CVrUw",
-      "published_at": "2018-10-16",
-      "duration_seconds": 990,
-      "score": 17,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 3,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "OIKmxMXWxjw",
-      "url": "https://www.youtube.com/watch?v=OIKmxMXWxjw",
-      "title": "Shingrix pt 3, Shingrix - FORD BREWER MD MPH",
-      "channel": "Thomas Fordham Brewer MD MPH",
-      "channel_id": "UCmoEsq6a6ePXxgZeA4CVrUw",
-      "published_at": "2018-06-26",
-      "duration_seconds": 916,
-      "score": 17,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 3,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "XRvOMrsaF70",
-      "url": "https://www.youtube.com/watch?v=XRvOMrsaF70",
-      "title": "How to Avoid Your Heart Attack: TheHealthyLifeSummit.com : Pt 3: Ford's Content",
-      "channel": "Thomas Fordham Brewer MD MPH",
-      "channel_id": "UCmoEsq6a6ePXxgZeA4CVrUw",
-      "published_at": "2019-01-12",
-      "duration_seconds": 1759,
-      "score": 17,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 3,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "oV_J-Oz0KL8",
-      "url": "https://www.youtube.com/watch?v=oV_J-Oz0KL8",
-      "title": "TIME RESTRICTED EATING, IF, & FMD pt 2  - Valter Longo & S Panda",
-      "channel": "Thomas Fordham Brewer MD MPH",
-      "channel_id": "UCmoEsq6a6ePXxgZeA4CVrUw",
-      "published_at": "2018-11-06",
-      "duration_seconds": 1268,
-      "score": 17,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 3,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "pu_E7Xks8uw",
-      "url": "https://www.youtube.com/watch?v=pu_E7Xks8uw",
-      "title": "Low Carb or Not? - Glycemic Index from Food Surveys pt 1- FORD BREWER MD MPH",
-      "channel": "Thomas Fordham Brewer MD MPH",
-      "channel_id": "UCmoEsq6a6ePXxgZeA4CVrUw",
-      "published_at": "2018-11-19",
-      "duration_seconds": 954,
-      "score": 17,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 3,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "qDO4aq7CfDM",
-      "url": "https://www.youtube.com/watch?v=qDO4aq7CfDM",
-      "title": "Vit D Overdose pt 3: Full Story with Still's Disease",
-      "channel": "Thomas Fordham Brewer MD MPH",
-      "channel_id": "UCmoEsq6a6ePXxgZeA4CVrUw",
-      "published_at": "2019-05-03",
-      "duration_seconds": 1383,
-      "score": 17,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 3,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "3XRxYRn7X3g",
-      "url": "https://www.youtube.com/watch?v=3XRxYRn7X3g",
-      "title": "Vitamin K2 (Pt 4): Matrix Gla Protein Activation (Summary)",
-      "channel": "Thomas Fordham Brewer MD MPH",
-      "channel_id": "UCmoEsq6a6ePXxgZeA4CVrUw",
-      "published_at": "2019-09-20",
-      "duration_seconds": 234,
-      "score": 16,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 0,
-        "authority": 3,
-        "recency": -2,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "mZKaX3q83Kk",
-      "url": "https://www.youtube.com/watch?v=mZKaX3q83Kk",
-      "title": "Shingrix pt 4: A Self-directed Patient Experience, by Janice Derrickson with FORD BREWER MD MPH",
-      "channel": "Thomas Fordham Brewer MD MPH",
-      "channel_id": "UCmoEsq6a6ePXxgZeA4CVrUw",
-      "published_at": "2018-06-30",
-      "duration_seconds": 696,
-      "score": 15,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 0,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 1
-      }
-    },
-    {
-      "video_id": "0MSssAJFfvM",
-      "url": "https://www.youtube.com/watch?v=0MSssAJFfvM",
-      "title": "Reversing Heart Disease Through Metabolic Health | Philip Ovadia, MD | Ep.64",
-      "channel": "Metabolic Health Summit",
-      "channel_id": "UCYHR-dn_ohWIoPt8LeumbNA",
-      "published_at": "2025-03-25",
-      "duration_seconds": 3995,
-      "score": 14,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 3,
-        "recency": 2,
-        "citation": 0,
-        "frequency": 1
-      }
-    },
-    {
-      "video_id": "0PunnwFZ6jw",
-      "url": "https://www.youtube.com/watch?v=0PunnwFZ6jw",
-      "title": "Diabetic Glucose Spikes in \"Healthy\" Adults pt 2- FORD BREWER MD MPH",
-      "channel": "Thomas Fordham Brewer MD MPH",
-      "channel_id": "UCmoEsq6a6ePXxgZeA4CVrUw",
-      "published_at": "2018-10-20",
-      "duration_seconds": 737,
-      "score": 14,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 0,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "0bcILEh7Yhg",
-      "url": "https://www.youtube.com/watch?v=0bcILEh7Yhg",
-      "title": "The STROKE GENE 2019 (pt 1) - Do you have it?",
-      "channel": "Thomas Fordham Brewer MD MPH",
-      "channel_id": "UCmoEsq6a6ePXxgZeA4CVrUw",
-      "published_at": "2019-02-24",
-      "duration_seconds": 824,
-      "score": 14,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 0,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "3XUigBmcmUc",
-      "url": "https://www.youtube.com/watch?v=3XUigBmcmUc",
-      "title": "Colon Cancer Screening pt 1: age 45 or 50? - FORD BREWER",
-      "channel": "Thomas Fordham Brewer MD MPH",
-      "channel_id": "UCmoEsq6a6ePXxgZeA4CVrUw",
-      "published_at": "2018-07-16",
-      "duration_seconds": 691,
-      "score": 14,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 0,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "6h8C4tZsUHs",
-      "url": "https://www.youtube.com/watch?v=6h8C4tZsUHs",
-      "title": "New Model for Alzheimer's Disease - including biomarkers and related dementias pt 1 FORD BREWER",
-      "channel": "Thomas Fordham Brewer MD MPH",
-      "channel_id": "UCmoEsq6a6ePXxgZeA4CVrUw",
-      "published_at": "2018-05-25",
-      "duration_seconds": 684,
-      "score": 14,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 0,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "7ollRtaPnOk",
-      "url": "https://www.youtube.com/watch?v=7ollRtaPnOk",
-      "title": "Stay ahead of your Behind Pt 4 FECAL DNA TEST (Cologuard)- FORD BREWER MD MPH",
-      "channel": "Thomas Fordham Brewer MD MPH",
-      "channel_id": "UCmoEsq6a6ePXxgZeA4CVrUw",
-      "published_at": "2018-07-24",
-      "duration_seconds": 530,
-      "score": 14,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 0,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "862SL7JB_bg",
-      "url": "https://www.youtube.com/watch?v=862SL7JB_bg",
-      "title": "Healing the Brain: A Metabolic Approach to Mental Illness | Erin Bellamy, PhD | Ep.73",
-      "channel": "Metabolic Health Summit",
-      "channel_id": "UCYHR-dn_ohWIoPt8LeumbNA",
-      "published_at": "2025-08-04",
-      "duration_seconds": 4132,
-      "score": 14,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 3,
-        "recency": 2,
-        "citation": 0,
-        "frequency": 1
-      }
-    },
-    {
-      "video_id": "AbOlkg-Tvns",
-      "url": "https://www.youtube.com/watch?v=AbOlkg-Tvns",
-      "title": "Factor Xa Inhibitor Antidote - pt 2 (Xarelto/Eliquis) - FORD BREWER",
-      "channel": "Thomas Fordham Brewer MD MPH",
-      "channel_id": "UCmoEsq6a6ePXxgZeA4CVrUw",
-      "published_at": "2018-06-28",
-      "duration_seconds": 758,
-      "score": 14,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 0,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "DKucuoa2znA",
-      "url": "https://www.youtube.com/watch?v=DKucuoa2znA",
-      "title": "\"WHY IS MY DOC NEGLECTING MY DIABETES?\" A1c goals pt 4 - FORD BREWER",
-      "channel": "Thomas Fordham Brewer MD MPH",
-      "channel_id": "UCmoEsq6a6ePXxgZeA4CVrUw",
-      "published_at": "2018-08-19",
-      "duration_seconds": 752,
-      "score": 14,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 0,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "GmsbXzu2pGU",
-      "url": "https://www.youtube.com/watch?v=GmsbXzu2pGU",
-      "title": "Managing Stress pt 2 - Power of Now, by Eckhart Tolle - FORD BREWER MD MPH",
-      "channel": "Thomas Fordham Brewer MD MPH",
-      "channel_id": "UCmoEsq6a6ePXxgZeA4CVrUw",
-      "published_at": "2018-04-24",
-      "duration_seconds": 679,
-      "score": 14,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 0,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "Jtq6DXb8-bA",
-      "url": "https://www.youtube.com/watch?v=Jtq6DXb8-bA",
-      "title": "New Model for Alzheimer's, pt 2 - FORD BREWER MD MPH",
-      "channel": "Thomas Fordham Brewer MD MPH",
-      "channel_id": "UCmoEsq6a6ePXxgZeA4CVrUw",
-      "published_at": "2018-06-06",
-      "duration_seconds": 621,
-      "score": 14,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 0,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "KRxUCVB-gAA",
-      "url": "https://www.youtube.com/watch?v=KRxUCVB-gAA",
-      "title": "Big Fat Lies pt 3 -\"Indiana Jones and the Lost Study Results\"- FORD BREWER MD MPH",
-      "channel": "Thomas Fordham Brewer MD MPH",
-      "channel_id": "UCmoEsq6a6ePXxgZeA4CVrUw",
-      "published_at": "2018-03-01",
-      "duration_seconds": 632,
-      "score": 14,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 0,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "LgAufY8_-n0",
-      "url": "https://www.youtube.com/watch?v=LgAufY8_-n0",
-      "title": "WHY GOOD DOCS MISS DIABETES & WHAT TO DO FOR IT: OAG PT 3",
-      "channel": "Thomas Fordham Brewer MD MPH",
-      "channel_id": "UCmoEsq6a6ePXxgZeA4CVrUw",
-      "published_at": "2019-03-30",
-      "duration_seconds": 597,
-      "score": 14,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 0,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "MIeeTFIcshE",
-      "url": "https://www.youtube.com/watch?v=MIeeTFIcshE",
-      "title": "Another Hidden Case of Diabetes & A Rapid Response -OAG pt 2",
-      "channel": "Thomas Fordham Brewer MD MPH",
-      "channel_id": "UCmoEsq6a6ePXxgZeA4CVrUw",
-      "published_at": "2019-02-17",
-      "duration_seconds": 760,
-      "score": 14,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 0,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "MtL2Dqgcs5Y",
-      "url": "https://www.youtube.com/watch?v=MtL2Dqgcs5Y",
-      "title": "Do You Have the Stroke Gene: pt 2 - Discovery",
-      "channel": "Thomas Fordham Brewer MD MPH",
-      "channel_id": "UCmoEsq6a6ePXxgZeA4CVrUw",
-      "published_at": "2019-03-02",
-      "duration_seconds": 838,
-      "score": 14,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 0,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "N11rRh6OtaY",
-      "url": "https://www.youtube.com/watch?v=N11rRh6OtaY",
-      "title": "N Acetyl Cysteine, Glutathione, & Sulfur - AntiOxidants pt 1- FORD BREWER MD MPH",
-      "channel": "Thomas Fordham Brewer MD MPH",
-      "channel_id": "UCmoEsq6a6ePXxgZeA4CVrUw",
-      "published_at": "2018-10-12",
-      "duration_seconds": 846,
-      "score": 14,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 0,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "OPE4STqxlio",
-      "url": "https://www.youtube.com/watch?v=OPE4STqxlio",
-      "title": "ABBOTT FREESTYLE LIBRE PT 2- : affordable, needle-\"free\" continuous glucose monitoring",
-      "channel": "Thomas Fordham Brewer MD MPH",
-      "channel_id": "UCmoEsq6a6ePXxgZeA4CVrUw",
-      "published_at": "2017-12-07",
-      "duration_seconds": 308,
-      "score": 14,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 0,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "QSHEbk9saaM",
-      "url": "https://www.youtube.com/watch?v=QSHEbk9saaM",
-      "title": "BERBERINE vs METFORMIN (Pt 1) - Mechanisms & Biomarkers",
-      "channel": "Thomas Fordham Brewer MD MPH",
-      "channel_id": "UCmoEsq6a6ePXxgZeA4CVrUw",
-      "published_at": "2017-09-12",
-      "duration_seconds": 402,
-      "score": 14,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 0,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "SzghQN-E68I",
-      "url": "https://www.youtube.com/watch?v=SzghQN-E68I",
-      "title": "AREDS - Preventing blindness & Age-Related Eye Disease & Antioxidants pt 1 -",
-      "channel": "Thomas Fordham Brewer MD MPH",
-      "channel_id": "UCmoEsq6a6ePXxgZeA4CVrUw",
-      "published_at": "2017-12-31",
-      "duration_seconds": 553,
-      "score": 14,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 0,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "W3ytQTgKPFI",
-      "url": "https://www.youtube.com/watch?v=W3ytQTgKPFI",
-      "title": "DO YOU HAVE THE HEART ATTACK GENE? 2019: pt 1 the basics",
-      "channel": "Thomas Fordham Brewer MD MPH",
-      "channel_id": "UCmoEsq6a6ePXxgZeA4CVrUw",
-      "published_at": "2019-04-08",
-      "duration_seconds": 525,
-      "score": 14,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 0,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "_IISoED64mc",
-      "url": "https://www.youtube.com/watch?v=_IISoED64mc",
-      "title": "Stay 1 step ahead of your Behind (pt 2): Colon Cancer Screening Options - FORD BREWER",
-      "channel": "Thomas Fordham Brewer MD MPH",
-      "channel_id": "UCmoEsq6a6ePXxgZeA4CVrUw",
-      "published_at": "2018-07-18",
-      "duration_seconds": 753,
-      "score": 14,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 0,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "_S6-huO34xo",
-      "url": "https://www.youtube.com/watch?v=_S6-huO34xo",
-      "title": "Factor Xa Inhibitor Antidote - pt 1 (Xarelto/Eliquis) - FORD BREWER",
-      "channel": "Thomas Fordham Brewer MD MPH",
-      "channel_id": "UCmoEsq6a6ePXxgZeA4CVrUw",
-      "published_at": "2018-06-24",
-      "duration_seconds": 418,
-      "score": 14,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 0,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "bP5JcuRytU8",
-      "url": "https://www.youtube.com/watch?v=bP5JcuRytU8",
-      "title": "James West- Starting a Diet- pt 2 - FORD BREWER",
-      "channel": "Thomas Fordham Brewer MD MPH",
-      "channel_id": "UCmoEsq6a6ePXxgZeA4CVrUw",
-      "published_at": "2019-05-10",
-      "duration_seconds": 681,
-      "score": 14,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 0,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "cOVBOlZFc3g",
-      "url": "https://www.youtube.com/watch?v=cOVBOlZFc3g",
-      "title": "MANAGING YOUR CV RISK: the Obesity Paradox pt 1: What is it? Who cares?",
-      "channel": "Thomas Fordham Brewer MD MPH",
-      "channel_id": "UCmoEsq6a6ePXxgZeA4CVrUw",
-      "published_at": "2019-04-17",
-      "duration_seconds": 604,
-      "score": 14,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 0,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "fEqTvdXgo0Q",
-      "url": "https://www.youtube.com/watch?v=fEqTvdXgo0Q",
-      "title": "Diabetic-Level Glucose Spikes Seen Even in Healthy Adults pt 1- FORD BREWER MD MPH",
-      "channel": "Thomas Fordham Brewer MD MPH",
-      "channel_id": "UCmoEsq6a6ePXxgZeA4CVrUw",
-      "published_at": "2018-10-09",
-      "duration_seconds": 488,
-      "score": 14,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 0,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "isN89VDEuAU",
-      "url": "https://www.youtube.com/watch?v=isN89VDEuAU",
-      "title": "Do You Have The Stroke Gene? pt 3 :update 2019",
-      "channel": "Thomas Fordham Brewer MD MPH",
-      "channel_id": "UCmoEsq6a6ePXxgZeA4CVrUw",
-      "published_at": "2019-03-07",
-      "duration_seconds": 788,
-      "score": 14,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 0,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "iytotWctdjE",
-      "url": "https://www.youtube.com/watch?v=iytotWctdjE",
-      "title": "1 step ahead of your behind pt 3(colorectal cancer screens) SENSITIVTY/SPECIFICITY- FORD BREWER",
-      "channel": "Thomas Fordham Brewer MD MPH",
-      "channel_id": "UCmoEsq6a6ePXxgZeA4CVrUw",
-      "published_at": "2018-07-22",
-      "duration_seconds": 588,
-      "score": 14,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 0,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "j9YRcCZDtC8",
-      "url": "https://www.youtube.com/watch?v=j9YRcCZDtC8",
-      "title": "Choline (pt 2) - Dr Lee's Case for Supplementation- FORD BREWER MD MPH",
-      "channel": "Thomas Fordham Brewer MD MPH",
-      "channel_id": "UCmoEsq6a6ePXxgZeA4CVrUw",
-      "published_at": "2018-09-18",
-      "duration_seconds": 750,
-      "score": 14,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 0,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "kByVW9vCm3o",
-      "url": "https://www.youtube.com/watch?v=kByVW9vCm3o",
-      "title": "Is Your Doc Missing Your HEART FAILURE? (pt 6)",
-      "channel": "Thomas Fordham Brewer MD MPH",
-      "channel_id": "UCmoEsq6a6ePXxgZeA4CVrUw",
-      "published_at": "2019-03-27",
-      "duration_seconds": 743,
-      "score": 14,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 0,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "m4mQoxvTvas",
-      "url": "https://www.youtube.com/watch?v=m4mQoxvTvas",
-      "title": "Is Your Doc Missing Something - Like Your Heart Attack Risk? pt 1 Real Stats",
-      "channel": "Thomas Fordham Brewer MD MPH",
-      "channel_id": "UCmoEsq6a6ePXxgZeA4CVrUw",
-      "published_at": "2019-01-26",
-      "duration_seconds": 684,
-      "score": 14,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 0,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "nSMsIX4Ya2s",
-      "url": "https://www.youtube.com/watch?v=nSMsIX4Ya2s",
-      "title": "Iron Deficiency (pt 2): Cognitive Disability - FORD BREWER",
-      "channel": "Thomas Fordham Brewer MD MPH",
-      "channel_id": "UCmoEsq6a6ePXxgZeA4CVrUw",
-      "published_at": "2018-12-04",
-      "duration_seconds": 820,
-      "score": 14,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 0,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "pzN8Fn0DWlE",
-      "url": "https://www.youtube.com/watch?v=pzN8Fn0DWlE",
-      "title": "How Good is Your Doc (pt 4) Chronic Lung Disease",
-      "channel": "Thomas Fordham Brewer MD MPH",
-      "channel_id": "UCmoEsq6a6ePXxgZeA4CVrUw",
-      "published_at": "2019-02-03",
-      "duration_seconds": 334,
-      "score": 14,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 0,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "t5qwlIMcVio",
-      "url": "https://www.youtube.com/watch?v=t5qwlIMcVio",
-      "title": "NIACIN BIOMARKERS pt 1: Lists & Correlations:  FORD BREWER",
-      "channel": "Thomas Fordham Brewer MD MPH",
-      "channel_id": "UCmoEsq6a6ePXxgZeA4CVrUw",
-      "published_at": "2019-04-11",
-      "duration_seconds": 785,
-      "score": 14,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 0,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "touprbZfIK8",
-      "url": "https://www.youtube.com/watch?v=touprbZfIK8",
-      "title": "Ahead of your Behind pt 6 (tumor growth rate and FIT vs FOBT)- FORD BREWER",
-      "channel": "Thomas Fordham Brewer MD MPH",
-      "channel_id": "UCmoEsq6a6ePXxgZeA4CVrUw",
-      "published_at": "2018-07-30",
-      "duration_seconds": 597,
-      "score": 14,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 0,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "xtKqidriYZ8",
-      "url": "https://www.youtube.com/watch?v=xtKqidriYZ8",
-      "title": "Continued: James West- Starting a Diet- pt 2 - FORD BREWER",
-      "channel": "Thomas Fordham Brewer MD MPH",
-      "channel_id": "UCmoEsq6a6ePXxgZeA4CVrUw",
-      "published_at": "2019-05-16",
-      "duration_seconds": 277,
-      "score": 14,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 0,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "yyk1PAMIXPI",
-      "url": "https://www.youtube.com/watch?v=yyk1PAMIXPI",
-      "title": "Do You Have The HEART ATTACK GENE? 9p21: pt 2 - controller",
-      "channel": "Thomas Fordham Brewer MD MPH",
-      "channel_id": "UCmoEsq6a6ePXxgZeA4CVrUw",
-      "published_at": "2019-03-09",
-      "duration_seconds": 695,
-      "score": 14,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": 0,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "ImtYE621r74",
-      "url": "https://www.youtube.com/watch?v=ImtYE621r74",
-      "title": "How Could an Animal-Based Diet Impact Metabolic Health? | Anthony Chaffee, MD | Ep.69",
-      "channel": "Metabolic Health Summit",
-      "channel_id": "UCYHR-dn_ohWIoPt8LeumbNA",
-      "published_at": "2025-06-10",
-      "duration_seconds": 5344,
-      "score": 13,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 3,
-        "recency": 2,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "Up6rWkdtBOc",
-      "url": "https://www.youtube.com/watch?v=Up6rWkdtBOc",
-      "title": "Nick Norwitz, PhD | The Future of Medicine & Metabolic Health | The Metabolic Link Ep.48",
-      "channel": "Metabolic Health Summit",
-      "channel_id": "UCYHR-dn_ohWIoPt8LeumbNA",
-      "published_at": "2024-08-27",
-      "duration_seconds": 4788,
-      "score": 13,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 3,
-        "recency": 2,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "UyneMnERmnI",
-      "url": "https://www.youtube.com/watch?v=UyneMnERmnI",
-      "title": "How to Improve Your Vitality & Heal From Disease | Dr. Mark Hyman",
-      "channel": "Andrew Huberman",
-      "channel_id": "UC2D2CMWXMOVWx7giW1n3LIg",
-      "published_at": "2025-04-14",
-      "duration_seconds": 9741,
-      "score": 13,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 1,
-        "authority": 5,
-        "recency": 2,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "ZIIP2H7hm64",
-      "url": "https://www.youtube.com/watch?v=ZIIP2H7hm64",
-      "title": "What’s happening to my channel pt 2!",
-      "channel": "Shawn Baker MD",
-      "channel_id": "UC5apkKkeZQXRSDbqSalG8CQ",
-      "published_at": "2023-01-17",
-      "duration_seconds": 169,
-      "score": 13,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 10,
-        "title_bonus": 5,
-        "depth": -5,
-        "authority": 3,
-        "recency": 0,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "q0uYyi79vqA",
-      "url": "https://www.youtube.com/watch?v=q0uYyi79vqA",
-      "title": "Reversing Alzheimer's Disease | Dr. Dale Bredesen | The Metabolic Link Ep.74",
-      "channel": "Metabolic Health Summit",
-      "channel_id": "UCYHR-dn_ohWIoPt8LeumbNA",
-      "published_at": "2025-08-19",
-      "duration_seconds": 3793,
-      "score": 13,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 3,
-        "recency": 2,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "wRsX_ZkzxvQ",
-      "url": "https://www.youtube.com/watch?v=wRsX_ZkzxvQ",
-      "title": "Peptide & Hormone Therapies for Health, Performance & Longevity | Dr. Craig Koniver",
-      "channel": "Andrew Huberman",
-      "channel_id": "UC2D2CMWXMOVWx7giW1n3LIg",
-      "published_at": "2024-10-07",
-      "duration_seconds": 8954,
-      "score": 13,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 1,
-        "authority": 5,
-        "recency": 2,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "wu4rnQeoc7o",
-      "url": "https://www.youtube.com/watch?v=wu4rnQeoc7o",
-      "title": "The Metabolic Impact of GLP-1s on Obesity | Spencer Nadolsky, DO | Ep.65",
-      "channel": "Metabolic Health Summit",
-      "channel_id": "UCYHR-dn_ohWIoPt8LeumbNA",
-      "published_at": "2025-04-11",
-      "duration_seconds": 3578,
-      "score": 13,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 3,
-        "recency": 2,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "zU5EYw06wtw",
-      "url": "https://www.youtube.com/watch?v=zU5EYw06wtw",
-      "title": "Benefits & Risks of Peptide Therapeutics for Physical & Mental Health",
-      "channel": "Andrew Huberman",
-      "channel_id": "UC2D2CMWXMOVWx7giW1n3LIg",
-      "published_at": "2024-04-01",
-      "duration_seconds": 5202,
-      "score": 13,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 5,
-        "recency": 0,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "H3Nvtm_b1tk",
-      "url": "https://www.youtube.com/watch?v=H3Nvtm_b1tk",
-      "title": "Cholesterol Debate: What Would Falsify the Lipid Hypothesis? – TFP #019 | Josh Wageman PhD",
-      "channel": "The Feldman Protocol",
-      "channel_id": "UCLacwQCp7k4YscqoKxpwLFg",
-      "published_at": "2026-01-08",
-      "duration_seconds": 12138,
-      "score": 11,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 1,
-        "authority": 3,
-        "recency": 2,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "KUdK5vzAuNU",
-      "url": "https://www.youtube.com/watch?v=KUdK5vzAuNU",
-      "title": "Robert Greene: The Psychology of Power & Social Status | #66",
-      "channel": "Mind & Matter Podcast: Science, Health, Metabolism",
-      "channel_id": "UC_dJ5ThfEhj39zkEPQbNdPg",
-      "published_at": "2022-04-14",
-      "duration_seconds": 5575,
-      "score": 11,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 3,
-        "recency": 0,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "rvKltZUp0Ho",
-      "url": "https://www.youtube.com/watch?v=rvKltZUp0Ho",
-      "title": "Strength Training Tips for Men and Women - Menno Henselmans",
-      "channel": "Nutrition with Judy",
-      "channel_id": "UCgXrNUokx_Zgprns3z6zqSg",
-      "published_at": "2021-11-30",
-      "duration_seconds": 3457,
-      "score": 11,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 3,
-        "recency": 0,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "-i_40XvmJZs",
-      "url": "https://www.youtube.com/watch?v=-i_40XvmJZs",
-      "title": "Food Additives - User Manual For Humans S1 E12 - Dr Ekberg",
-      "channel": "Dr. Sten Ekberg",
-      "channel_id": "UCIe2pR6PE0dae9BunJ38F7w",
-      "published_at": "2011-07-30",
-      "duration_seconds": 2256,
-      "score": 8,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 1
-      }
-    },
-    {
-      "video_id": "0Q5-557Gtk0",
-      "url": "https://www.youtube.com/watch?v=0Q5-557Gtk0",
-      "title": "What Should Humans Eat? Food For Humans - User Manual For Humans S1 E03 - Dr Ekberg",
-      "channel": "Dr. Sten Ekberg",
-      "channel_id": "UCIe2pR6PE0dae9BunJ38F7w",
-      "published_at": "2011-07-10",
-      "duration_seconds": 2013,
-      "score": 8,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 1
-      }
-    },
-    {
-      "video_id": "896dFhWkLGc",
-      "url": "https://www.youtube.com/watch?v=896dFhWkLGc",
-      "title": "Stress And Disease Connection - User Manual For Humans S1 E02 - Dr Ekberg",
-      "channel": "Dr. Sten Ekberg",
-      "channel_id": "UCIe2pR6PE0dae9BunJ38F7w",
-      "published_at": "2011-07-07",
-      "duration_seconds": 2607,
-      "score": 8,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 1
-      }
-    },
-    {
-      "video_id": "8pu7QiuY8CE",
-      "url": "https://www.youtube.com/watch?v=8pu7QiuY8CE",
-      "title": "Brain, Ego & Happiness  - User Manual For Humans S1 E14 - Dr Ekberg",
-      "channel": "Dr. Sten Ekberg",
-      "channel_id": "UCIe2pR6PE0dae9BunJ38F7w",
-      "published_at": "2011-09-01",
-      "duration_seconds": 2077,
-      "score": 8,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 1
-      }
-    },
-    {
-      "video_id": "FbrNHpXaWkE",
-      "url": "https://www.youtube.com/watch?v=FbrNHpXaWkE",
-      "title": "Supplements  - User Manual For Humans S1 E11 - Dr Ekberg",
-      "channel": "Dr. Sten Ekberg",
-      "channel_id": "UCIe2pR6PE0dae9BunJ38F7w",
-      "published_at": "2011-07-24",
-      "duration_seconds": 2677,
-      "score": 8,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 1
-      }
-    },
-    {
-      "video_id": "L7zD3y5nmI0",
-      "url": "https://www.youtube.com/watch?v=L7zD3y5nmI0",
-      "title": "DNA & Heredity  - User Manual For Humans S1 E08 - Dr Ekberg",
-      "channel": "Dr. Sten Ekberg",
-      "channel_id": "UCIe2pR6PE0dae9BunJ38F7w",
-      "published_at": "2011-07-05",
-      "duration_seconds": 2783,
-      "score": 8,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 1
-      }
-    },
-    {
-      "video_id": "RfRzdpRexJ8",
-      "url": "https://www.youtube.com/watch?v=RfRzdpRexJ8",
-      "title": "Heart Rate Variability Explained  - User Manual For Humans S1 E04 - Dr Ekberg",
-      "channel": "Dr. Sten Ekberg",
-      "channel_id": "UCIe2pR6PE0dae9BunJ38F7w",
-      "published_at": "2011-07-12",
-      "duration_seconds": 1617,
-      "score": 8,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 1
-      }
-    },
-    {
-      "video_id": "Xda7B2KrqR0",
-      "url": "https://www.youtube.com/watch?v=Xda7B2KrqR0",
-      "title": "Stress And Health - User Manual For Humans S1 E01 - Dr Ekberg",
-      "channel": "Dr. Sten Ekberg",
-      "channel_id": "UCIe2pR6PE0dae9BunJ38F7w",
-      "published_at": "2011-07-06",
-      "duration_seconds": 2767,
-      "score": 8,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 1
-      }
-    },
-    {
-      "video_id": "YMn-eGLp_7A",
-      "url": "https://www.youtube.com/watch?v=YMn-eGLp_7A",
-      "title": "How To Feel Happy All The Time  - User Manual For Humans S1 E15 - Dr Ekberg",
-      "channel": "Dr. Sten Ekberg",
-      "channel_id": "UCIe2pR6PE0dae9BunJ38F7w",
-      "published_at": "2011-09-01",
-      "duration_seconds": 1950,
-      "score": 8,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 1
-      }
-    },
-    {
-      "video_id": "ZIg6uf3oPCM",
-      "url": "https://www.youtube.com/watch?v=ZIg6uf3oPCM",
-      "title": "How To Relax - User Manual For Humans S1 E10 - Dr Ekberg",
-      "channel": "Dr. Sten Ekberg",
-      "channel_id": "UCIe2pR6PE0dae9BunJ38F7w",
-      "published_at": "2011-07-15",
-      "duration_seconds": 2634,
-      "score": 8,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 1
-      }
-    },
-    {
-      "video_id": "bynue9m54L0",
-      "url": "https://www.youtube.com/watch?v=bynue9m54L0",
-      "title": "Body Symptoms And Diagnosis - User Manual For Humans S1 E09 - Dr Ekberg",
-      "channel": "Dr. Sten Ekberg",
-      "channel_id": "UCIe2pR6PE0dae9BunJ38F7w",
-      "published_at": "2011-07-10",
-      "duration_seconds": 1911,
-      "score": 8,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 1
-      }
-    },
-    {
-      "video_id": "e_g4JkP8mpA",
-      "url": "https://www.youtube.com/watch?v=e_g4JkP8mpA",
-      "title": "ADD And Depression And Chronic Pain, Etc - User Manual For Humans S1 E06 - Dr Ekberg",
-      "channel": "Dr. Sten Ekberg",
-      "channel_id": "UCIe2pR6PE0dae9BunJ38F7w",
-      "published_at": "2011-07-13",
-      "duration_seconds": 1773,
-      "score": 8,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 1
-      }
-    },
-    {
-      "video_id": "fnAAa3DyA6E",
-      "url": "https://www.youtube.com/watch?v=fnAAa3DyA6E",
-      "title": "How To Exercise - Why, How & What?  - User Manual For Humans S1 E07 - Dr Ekberg",
-      "channel": "Dr. Sten Ekberg",
-      "channel_id": "UCIe2pR6PE0dae9BunJ38F7w",
-      "published_at": "2011-06-24",
-      "duration_seconds": 2582,
-      "score": 8,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 1
-      }
-    },
-    {
-      "video_id": "gb1O5zXGxHM",
-      "url": "https://www.youtube.com/watch?v=gb1O5zXGxHM",
-      "title": "Lower Blood Sugar Naturally   - User Manual For Humans S1 E05 - Dr Ekberg",
-      "channel": "Dr. Sten Ekberg",
-      "channel_id": "UCIe2pR6PE0dae9BunJ38F7w",
-      "published_at": "2011-07-12",
-      "duration_seconds": 2786,
-      "score": 8,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 1
-      }
-    },
-    {
-      "video_id": "oJD8UBleHh0",
-      "url": "https://www.youtube.com/watch?v=oJD8UBleHh0",
-      "title": "Eat, Move & Feel Better  - User Manual For Humans S1 E13 - Dr Ekberg",
-      "channel": "Dr. Sten Ekberg",
-      "channel_id": "UCIe2pR6PE0dae9BunJ38F7w",
-      "published_at": "2013-03-27",
-      "duration_seconds": 2866,
-      "score": 8,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 1
-      }
-    },
-    {
-      "video_id": "oRWqTNAHH-0",
-      "url": "https://www.youtube.com/watch?v=oRWqTNAHH-0",
-      "title": "Lower High Cholesterol - User Manual For Humans S1 E16 - Dr Ekberg",
-      "channel": "Dr. Sten Ekberg",
-      "channel_id": "UCIe2pR6PE0dae9BunJ38F7w",
-      "published_at": "2013-05-05",
-      "duration_seconds": 1747,
-      "score": 7,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "gBQGDAjSJoU",
-      "url": "https://www.youtube.com/watch?v=gBQGDAjSJoU",
-      "title": "Exploring the Metabolic Drivers of Vascular Health Live Q&A with Dr. Lily Johnston",
-      "channel": "Metabolic Health Summit",
-      "channel_id": "UCYHR-dn_ohWIoPt8LeumbNA",
-      "published_at": "2026-02-25",
-      "duration_seconds": 94,
-      "score": 5,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": -5,
-        "authority": 3,
-        "recency": 2,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "JVO2fr-MLqQ",
-      "url": "https://www.youtube.com/watch?v=JVO2fr-MLqQ",
-      "title": "Real Doctor Reacts To Dr. Oz Question About Excessive Sweat (Hyperhidrosis) - Dr Ekberg",
-      "channel": "Dr. Sten Ekberg",
-      "channel_id": "UCIe2pR6PE0dae9BunJ38F7w",
-      "published_at": "2011-06-22",
-      "duration_seconds": 217,
-      "score": 4,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 0,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "XjBbC6ap2Nc",
-      "url": "https://www.youtube.com/watch?v=XjBbC6ap2Nc",
-      "title": "Age-Related Eye Disease & Antioxidants - AREDs 10 years later",
-      "channel": "Thomas Fordham Brewer MD MPH",
-      "channel_id": "UCmoEsq6a6ePXxgZeA4CVrUw",
-      "published_at": "2018-03-07",
-      "duration_seconds": 440,
-      "score": 4,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 0,
-        "authority": 3,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "DLD4BkNik5c",
-      "url": "https://www.youtube.com/watch?v=DLD4BkNik5c",
-      "title": "An EXCLUSIVE 4-Week Journey",
-      "channel": "Levels | Health, Metabolism & Human Performance",
-      "channel_id": "UClwMr26t47qS1L9S59P35Mg",
-      "published_at": "2023-02-03",
-      "duration_seconds": 58,
-      "score": 3,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": -5,
-        "authority": 3,
-        "recency": 0,
-        "citation": 0,
-        "frequency": 0
-      }
-    },
-    {
-      "video_id": "tY0ndiNYQ08",
-      "url": "https://www.youtube.com/watch?v=tY0ndiNYQ08",
-      "title": "Big News! A new medical education platform dedicated to metabolic health & therapy is HERE!",
-      "channel": "Metabolic Health Summit",
-      "channel_id": "UCYHR-dn_ohWIoPt8LeumbNA",
-      "published_at": "2023-08-08",
-      "duration_seconds": 55,
-      "score": 3,
-      "match_term": "pt",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": -5,
-        "authority": 3,
-        "recency": 0,
-        "citation": 0,
-        "frequency": 0
-      }
-    }
-  ],
   "pth": [
     {
       "video_id": "vJFozt4pytg",
@@ -12438,58 +9605,9 @@
       }
     }
   ],
-  "rheumatoid-factor": [
-    {
-      "video_id": "ztQphqkwLNU",
-      "url": "https://www.youtube.com/watch?v=ztQphqkwLNU",
-      "title": "An Anti-Arthritis Super Supplement! [30 Studies Later!]",
-      "channel": "Physionic",
-      "channel_id": "UCj3p_1jOCJXB_L_we-DjLbA",
-      "published_at": "2025-02-19",
-      "duration_seconds": 939,
-      "score": 21,
-      "match_term": "rheumatoid factor",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 3,
-        "authority": 3,
-        "recency": 2,
-        "citation": 8,
-        "frequency": 0
-      }
-    }
-  ],
-  "s100-calcium-binding-protein-b": [],
   "stfr": [],
-  "sulfate-urine": [],
   "t3-uptake": [],
   "testosterone-free": [],
-  "thallium-creatinine-urine": [],
-  "thyroglobulin-antibodies": [
-    {
-      "video_id": "6nZwa1qLvLs",
-      "url": "https://www.youtube.com/watch?v=6nZwa1qLvLs",
-      "title": "Why Selenium for Hashimoto’s (Autoimmune Hypothyroid)? – Dr. Berg",
-      "channel": "Dr. Eric Berg DC",
-      "channel_id": "UC3w193M5tYPJqF0Hi-7U-2g",
-      "published_at": "2018-06-28",
-      "duration_seconds": 187,
-      "score": 6,
-      "match_term": "thyroglobulin antibodies",
-      "match_tier": "T1",
-      "breakdown": {
-        "match_base": 5,
-        "title_bonus": 0,
-        "depth": 0,
-        "authority": 5,
-        "recency": -4,
-        "citation": 0,
-        "frequency": 0
-      }
-    }
-  ],
   "thyroglobulin": [
     {
       "video_id": "6nZwa1qLvLs",
@@ -12510,6 +9628,29 @@
         "recency": -4,
         "citation": 0,
         "frequency": 1
+      }
+    }
+  ],
+  "thyroglobulin-antibodies": [
+    {
+      "video_id": "6nZwa1qLvLs",
+      "url": "https://www.youtube.com/watch?v=6nZwa1qLvLs",
+      "title": "Why Selenium for Hashimoto’s (Autoimmune Hypothyroid)? – Dr. Berg",
+      "channel": "Dr. Eric Berg DC",
+      "channel_id": "UC3w193M5tYPJqF0Hi-7U-2g",
+      "published_at": "2018-06-28",
+      "duration_seconds": 187,
+      "score": 6,
+      "match_term": "thyroglobulin antibodies",
+      "match_tier": "T1",
+      "breakdown": {
+        "match_base": 5,
+        "title_bonus": 0,
+        "depth": 0,
+        "authority": 5,
+        "recency": -4,
+        "citation": 0,
+        "frequency": 0
       }
     }
   ],
@@ -12944,8 +10085,6 @@
   "troponin-t-cardiac-2": [],
   "tryptase": [],
   "tumor-necrosis-factor-alpha": [],
-  "urea-nitrogen-urine": [],
-  "vanillylmandelate-creatinine-urine": [],
   "vitamin-b2": [
     {
       "video_id": "1vCaFzqB6iA",

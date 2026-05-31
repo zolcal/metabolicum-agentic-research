@@ -1,21 +1,9 @@
 {
   "wave": "wave-1",
-  "markers_processed": 105,
-  "total_matches": 8627,
+  "markers_processed": 69,
+  "total_matches": 6920,
   "markers": {
     "17-hydroxyprogesterone": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "absolute-lymphocytes": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "absolute-neutrophils": {
       "matches": 0,
       "top_score": 0,
       "top_term": "",
@@ -75,50 +63,20 @@
       "top_term": "",
       "top_tier": ""
     },
-    "arsenic-urine": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
     "ast": {
       "matches": 8,
       "top_score": 17,
       "top_term": "ast",
       "top_tier": "T1"
     },
-    "basophils-absolute": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "basophils": {
-      "matches": 1,
-      "top_score": 11,
-      "top_term": "basophils",
-      "top_tier": "T1"
-    },
-    "beryllium-urine": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "bicarbonate": {
-      "matches": 17,
-      "top_score": 14,
-      "top_term": "bicarbonate",
-      "top_tier": "T1"
-    },
     "bilirubin-total": {
-      "matches": 3,
-      "top_score": 13,
-      "top_term": "bilirubin",
-      "top_tier": "T3"
+      "matches": 0,
+      "top_score": 0,
+      "top_term": "",
+      "top_tier": ""
     },
     "bun": {
-      "matches": 77,
+      "matches": 87,
       "top_score": 26,
       "top_term": "kidney function",
       "top_tier": "T2"
@@ -129,25 +87,13 @@
       "top_term": "calcium",
       "top_tier": "T1"
     },
-    "chloride": {
-      "matches": 35,
-      "top_score": 21,
-      "top_term": "chloride",
-      "top_tier": "T1"
-    },
-    "cholesterol-in-ldl": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
     "cholesterol": {
       "matches": 0,
       "top_score": 0,
       "top_term": "",
       "top_tier": ""
     },
-    "chromium": {
+    "cholesterol-in-ldl": {
       "matches": 0,
       "top_score": 0,
       "top_term": "",
@@ -159,11 +105,11 @@
       "top_term": "",
       "top_tier": ""
     },
-    "cobalt": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
+    "creatinine": {
+      "matches": 112,
+      "top_score": 19,
+      "top_term": "creatinine",
+      "top_tier": "T1"
     },
     "creatinine-3": {
       "matches": 0,
@@ -171,14 +117,8 @@
       "top_term": "",
       "top_tier": ""
     },
-    "creatinine": {
-      "matches": 112,
-      "top_score": 19,
-      "top_term": "creatinine",
-      "top_tier": "T1"
-    },
     "crp-standard": {
-      "matches": 50,
+      "matches": 38,
       "top_score": 20,
       "top_term": "c-reactive protein",
       "top_tier": "T2"
@@ -195,20 +135,8 @@
       "top_term": "",
       "top_tier": ""
     },
-    "eosinophils-absolute": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "eosinophils": {
-      "matches": 1,
-      "top_score": 11,
-      "top_term": "eosinophils",
-      "top_tier": "T1"
-    },
     "estradiol": {
-      "matches": 122,
+      "matches": 388,
       "top_score": 29,
       "top_term": "estrogen",
       "top_tier": "T3"
@@ -225,14 +153,8 @@
       "top_term": "ferritin",
       "top_tier": "T1"
     },
-    "fibrinogen": {
-      "matches": 5,
-      "top_score": 19,
-      "top_term": "clotting factor",
-      "top_tier": "T2"
-    },
     "folate-serum": {
-      "matches": 67,
+      "matches": 48,
       "top_score": 22,
       "top_term": "folic acid",
       "top_tier": "T2"
@@ -285,18 +207,6 @@
       "top_term": "hdl cholesterol",
       "top_tier": "T1"
     },
-    "hematocrit": {
-      "matches": 2,
-      "top_score": 13,
-      "top_term": "hematocrit",
-      "top_tier": "T1"
-    },
-    "hemoglobin": {
-      "matches": 56,
-      "top_score": 16,
-      "top_term": "hemoglobin",
-      "top_tier": "T1"
-    },
     "homocysteine": {
       "matches": 54,
       "top_score": 24,
@@ -315,13 +225,13 @@
       "top_term": "igf-1",
       "top_tier": "T1"
     },
-    "insulin-like-growth-factor-i": {
+    "insulin": {
       "matches": 0,
       "top_score": 0,
       "top_term": "",
       "top_tier": ""
     },
-    "insulin": {
+    "insulin-like-growth-factor-i": {
       "matches": 0,
       "top_score": 0,
       "top_term": "",
@@ -346,87 +256,15 @@
       "top_tier": "T1"
     },
     "magnesium-serum": {
-      "matches": 254,
-      "top_score": 25,
-      "top_term": "magnesium",
-      "top_tier": "T3"
-    },
-    "manganese": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "mch": {
-      "matches": 3,
-      "top_score": 15,
-      "top_term": "mch",
-      "top_tier": "T1"
-    },
-    "mchc": {
-      "matches": 1,
-      "top_score": 11,
-      "top_term": "mchc",
-      "top_tier": "T1"
-    },
-    "mcv": {
-      "matches": 5,
-      "top_score": 16,
-      "top_term": "mcv",
-      "top_tier": "T1"
-    },
-    "monocytes-absolute": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "monocytes": {
-      "matches": 14,
-      "top_score": 21,
-      "top_term": "monocytes",
-      "top_tier": "T1"
-    },
-    "mpv": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
+      "matches": 2,
+      "top_score": 19,
+      "top_term": "serum magnesium",
+      "top_tier": "T2"
     },
     "myoglobin": {
       "matches": 3,
       "top_score": 13,
       "top_term": "myoglobin",
-      "top_tier": "T1"
-    },
-    "neutrophils": {
-      "matches": 19,
-      "top_score": 14,
-      "top_term": "neutrophils",
-      "top_tier": "T1"
-    },
-    "observation-urine": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "phosphorus": {
-      "matches": 47,
-      "top_score": 18,
-      "top_term": "phosphorus",
-      "top_tier": "T1"
-    },
-    "platelet-count": {
-      "matches": 2,
-      "top_score": 15,
-      "top_term": "platelet count",
-      "top_tier": "T1"
-    },
-    "potassium": {
-      "matches": 639,
-      "top_score": 29,
-      "top_term": "potassium",
       "top_tier": "T1"
     },
     "prealbumin": {
@@ -447,29 +285,11 @@
       "top_term": "prolactin",
       "top_tier": "T1"
     },
-    "rbc-count": {
-      "matches": 50,
-      "top_score": 17,
-      "top_term": "red blood cells",
-      "top_tier": "T2"
-    },
     "rbc-folate": {
       "matches": 0,
       "top_score": 0,
       "top_term": "",
       "top_tier": ""
-    },
-    "rdw": {
-      "matches": 1,
-      "top_score": 14,
-      "top_term": "rdw",
-      "top_tier": "T1"
-    },
-    "selenium": {
-      "matches": 193,
-      "top_score": 28,
-      "top_term": "selenium",
-      "top_tier": "T1"
     },
     "serum-iron": {
       "matches": 1,
@@ -481,12 +301,6 @@
       "matches": 15,
       "top_score": 21,
       "top_term": "shbg",
-      "top_tier": "T1"
-    },
-    "sodium": {
-      "matches": 311,
-      "top_score": 27,
-      "top_term": "sodium",
       "top_tier": "T1"
     },
     "testosterone": {
@@ -501,12 +315,6 @@
       "top_term": "total cholesterol",
       "top_tier": "T1"
     },
-    "total-protein": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
     "total-t3": {
       "matches": 0,
       "top_score": 0,
@@ -520,8 +328,8 @@
       "top_tier": ""
     },
     "total-testosterone": {
-      "matches": 147,
-      "top_score": 30,
+      "matches": 58,
+      "top_score": 24,
       "top_term": "testosterone",
       "top_tier": "T3"
     },
@@ -556,24 +364,12 @@
       "top_tier": "T1"
     },
     "urine-iodine": {
-      "matches": 124,
-      "top_score": 28,
-      "top_term": "iodine",
-      "top_tier": "T3"
-    },
-    "urine-microalbumin": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
-    },
-    "urine-ph": {
-      "matches": 4,
-      "top_score": 21,
-      "top_term": "urine ph",
+      "matches": 13,
+      "top_score": 26,
+      "top_term": "urine-iodine",
       "top_tier": "T1"
     },
-    "urine-specific-gravity": {
+    "urine-microalbumin": {
       "matches": 0,
       "top_score": 0,
       "top_term": "",
@@ -586,16 +382,10 @@
       "top_tier": "T1"
     },
     "vitamin-b12": {
-      "matches": 138,
+      "matches": 113,
       "top_score": 23,
       "top_term": "vitamin b12",
       "top_tier": "T1"
-    },
-    "vitamin-b6-pyridoxal-5-phosphate": {
-      "matches": 0,
-      "top_score": 0,
-      "top_term": "",
-      "top_tier": ""
     },
     "vitamin-b6": {
       "matches": 60,
@@ -626,12 +416,6 @@
       "top_score": 28,
       "top_term": "vitamin k2",
       "top_tier": "T1"
-    },
-    "wbc-count": {
-      "matches": 66,
-      "top_score": 21,
-      "top_term": "white blood cells",
-      "top_tier": "T2"
     }
   }
 }

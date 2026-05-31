@@ -8,10 +8,7 @@ sm_reference:
 unit: mg/dL
 mo_supported: true
 mo_rationale: 'MO-relevant: category ''liver-function'''
-recommended_youtube_video_ids:
-- dGM_5owfrc4
-- 5r0i30nBhHQ
-- uSZnJaCXCYo
+recommended_youtube_video_ids: []
 recommended_practitioner_ids:
 - person:allan-sniderman
 - person:anthony-chaffee

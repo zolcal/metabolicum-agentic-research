@@ -8,30 +8,7 @@ sm_reference:
 unit: μmol/L
 mo_supported: true
 mo_rationale: 'MO-relevant: category ''micronutrients'''
-recommended_youtube_video_ids:
-- TiJSmTNfGak
-- Z23R3OAFLZ4
-- 17O5mgXZ9ZU
-- 9FLssAeIbA0
-- p9XuPr0f21k
-- uYfp81XnUMU
-- vA50EK70whE
-- 1gFFm0lXSAg
-- 916vhhUsmgE
-- vm1GbSPx48g
-- yyxgFVGsZhc
-- C0DMdUqF73Q
-- xmhsWAqP_0Y
-- EhlIkzJwPlk
-- GqPGXG5TlZw
-- K9lORz2_XSU
-- O1YRwWmue4Y
-- O640yAgq5f8
-- XfURDjegrAw
-- ncSoor2Iw8k
-- tLS6t3FVOTI
-- 4QKAzU_iYHY
-- J2dLIs6TmLM
+recommended_youtube_video_ids: []
 recommended_practitioner_ids:
 - person:andrew-huberman
 - person:dale-bredesen

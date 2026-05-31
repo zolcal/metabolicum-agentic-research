@@ -150,7 +150,7 @@
     },
     "bilirubin-total": {
       "mo_supported": true,
-      "videos": 3,
+      "videos": 0,
       "practitioners": 14,
       "pubmed_ids": 0,
       "dois": 0,
@@ -462,7 +462,7 @@
     },
     "magnesium-serum": {
       "mo_supported": true,
-      "videos": 30,
+      "videos": 2,
       "practitioners": 6,
       "pubmed_ids": 0,
       "dois": 0,
@@ -742,7 +742,7 @@
     },
     "urine-iodine": {
       "mo_supported": true,
-      "videos": 30,
+      "videos": 13,
       "practitioners": 1,
       "pubmed_ids": 0,
       "dois": 0,
