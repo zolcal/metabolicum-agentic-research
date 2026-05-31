@@ -110,6 +110,35 @@ def evaluate_envelope_alignment(claim: dict, sm_rows: list[dict]) -> dict[str, A
     }
 
 
+def sm_sanity_check(claim: dict, sm_rows: list[dict]) -> str | None:
+    """SM-as-sanity-bound gate (2026-05-30 design). Returns a reject reason
+    string when a claim's value is *implausible*, else None.
+
+    SM is a sanity bound, NOT a conformance target: an aggressive MO value that
+    merely diverges from the SM range (e.g. fasting insulin < 5 vs SM < 25) is
+    fine and passes. Only genuine garbage is rejected:
+      - wrong sign  (negative value for a physically-positive marker)
+      - order of magnitude off  (any bound > 10x SM upper or < SM lower / 10)
+      - (absurd values are caught by the 10x rule against the SM envelope)
+    No SM envelope available -> sign check only.
+    """
+    vals = [float(v) for k in ("target_value", "target_range_low", "target_range_high")
+            if isinstance((v := claim.get(k)), (int, float))]
+    if not vals:
+        return None
+    if any(v < 0 for v in vals):
+        return "negative value for a physically-positive marker"
+    band = _sm_band(sm_rows or [])
+    if band is None:
+        return None
+    sm_lo, sm_hi = band
+    if sm_hi and sm_hi > 0 and any(v > 10 * sm_hi for v in vals):
+        return f"value exceeds 10x the SM upper bound ({sm_hi}) — likely unit/transcription error"
+    if sm_lo and sm_lo > 0 and any(0 < v < sm_lo / 10 for v in vals):
+        return f"value below SM lower bound / 10 ({sm_lo}) — likely unit/transcription error"
+    return None
+
+
 # ── Row builders (project into the migration shapes) ──────────────────
 
 def build_biomarker_claim_row(
