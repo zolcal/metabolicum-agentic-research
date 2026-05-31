@@ -1,4 +1,4 @@
-# Wave-0 acceptance sample — Apolipoprotein B (apob)
+# Wave-0 acceptance sample — Lipoprotein(a) (lpa)
 #
 # Purpose: gold-standard end-product reference for the Hermes MO research pipeline.
 # This file shows the §18 export shape Hermes-produced biomarker_claims must project
@@ -21,7 +21,7 @@
 schema_version: "1"
 
 batch:
-  batch_slug: <TBD: assigned at export, e.g. "wave-0-apob-2026-XX-XX">
+  batch_slug: <TBD: assigned at export, e.g. "wave-0-lpa-2026-XX-XX">
   paradigm: metabolic-optimization
   source_kind: <TBD: aggregate label, e.g. "mo_practitioner_review_2026">
   importer_version: <TBD: tag of the exporter that produced this artifact>
@@ -83,7 +83,7 @@ batch:
 
 range_facts:
   # Row 1 — primary MO target, one-sided upper bound (typical MO shape)
-  - subject_slug: apob
+  - subject_slug: lpa
     entity_type: evaluator
     paradigm: metabolic-optimization
     range_version: <TBD: version tag, e.g. "mo_2026_xx_xx_v1">
@@ -129,7 +129,7 @@ range_facts:
       extraction_notes: <TBD>
 
   # Row 2 — supporting MO band, between-shape (acceptable range above the primary target)
-  - subject_slug: apob
+  - subject_slug: lpa
     entity_type: evaluator
     paradigm: metabolic-optimization
     range_version: <TBD: same version as row 1>
@@ -175,7 +175,7 @@ range_facts:
       extraction_notes: <TBD>
 
   # Row 3 — supporting sex-stratified variant (illustrates population-qualifier use)
-  - subject_slug: apob
+  - subject_slug: lpa
     entity_type: evaluator
     paradigm: metabolic-optimization
     range_version: <TBD: same version as row 1>
@@ -259,7 +259,7 @@ range_fact_sources:
 # section_type from the §04 enum. Citation keys inside content.citations must
 # resolve to a research_study slug below.
 marker_content_sections:
-  - marker_slug: apob
+  - marker_slug: lpa
     marker_type: evaluator
     language: en
     section_type: why_matters
@@ -278,24 +278,7 @@ marker_content_sections:
     status: draft
     version: 1
 
-  - marker_slug: apob
-    marker_type: evaluator
-    language: en
-    section_type: paradigm_thresholds
-    section_order: 2
-    paradigm: metabolic-optimization
-    content:
-      title: <TBD>
-      thresholds: <TBD: structured threshold list referencing range_facts above>
-      citations: []
-    source_type: pipeline
-    evidence_grade: <TBD>
-    source_url: <TBD>
-    content_hash: <TBD>
-    status: draft
-    version: 1
-
-  - marker_slug: apob
+  - marker_slug: lpa
     marker_type: evaluator
     language: en
     section_type: mechanism
@@ -312,7 +295,7 @@ marker_content_sections:
     status: draft
     version: 1
 
-  - marker_slug: apob
+  - marker_slug: lpa
     marker_type: evaluator
     language: en
     section_type: interpretation
@@ -329,7 +312,7 @@ marker_content_sections:
     status: draft
     version: 1
 
-  - marker_slug: apob
+  - marker_slug: lpa
     marker_type: evaluator
     language: en
     section_type: limitations
@@ -346,7 +329,7 @@ marker_content_sections:
     status: draft
     version: 1
 
-  - marker_slug: apob
+  - marker_slug: lpa
     marker_type: evaluator
     language: en
     section_type: evidence_badge
@@ -364,7 +347,7 @@ marker_content_sections:
     status: draft
     version: 1
 
-  - marker_slug: apob
+  - marker_slug: lpa
     marker_type: evaluator
     language: en
     section_type: references
@@ -405,21 +388,8 @@ research_studies:
     doi_url: <TBD>
     full_text_url: <TBD: only if PMC OA Commercial-Use-Allowed subset>
     topics: [<TBD>]
-    biomarkers: [apob]
+    biomarkers: [lpa]
     status: draft
-
-# ─── research_study_translations ─────────────────────────────────────────────
-# Localized summaries. At minimum one English row per study. Hungarian and
-# other languages added later under the multilingual roadmap.
-research_study_translations:
-  - study_slug: <TBD: matches research_study.slug above>
-    language: en
-    title: <TBD>
-    summary_plain: <TBD: plain-language summary>
-    key_finding: <TBD: one-sentence key takeaway>
-    key_findings: [<TBD>]
-    content: {}
-    content_source: pipeline_research
 
 # ─── research_citations ──────────────────────────────────────────────────────
 # Links between marker_content_sections and research_studies. citation_key on
@@ -427,7 +397,7 @@ research_study_translations:
 # content.citations[] above.
 research_citations:
   - study_slug: <TBD: matches a research_studies.slug above>
-    source_page: /learn/markers/apob
+    source_page: /learn/markers/lpa
     display_order: 1
     citation_context: <TBD: why this study appears on this page>
     citation_key: <TBD: matches the inline citation_key used in section content>
