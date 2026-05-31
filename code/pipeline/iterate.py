@@ -168,15 +168,14 @@ def run_marker_iterative(marker: str, wave: str, *, write: bool = False,
         except Exception as e:
             print(f"content writer skipped (non-fatal): {e}")
 
-    # Export (always) + persist (when --write)
+    # Export (always) + persist (when --write). ONE artifact per marker:
+    # mo_export.json is the full §18 export — it already contains range_facts and
+    # rejected_items; the run summary is the return value (printed by main).
     OUT.joinpath(marker).mkdir(parents=True, exist_ok=True)
     mo_export = assembly.build_marker_export(
         marker, {**combined, "rejection_log": rejection_log}, sources_by_id,
         batch_slug=f"{marker}-mo", extra_sections=extra_sections)
     (OUT / marker / "mo_export.json").write_text(json.dumps(mo_export, indent=2, default=str))
-    (OUT / marker / "range_facts.json").write_text(json.dumps(combined["range_facts"], indent=2, default=str))
-    (OUT / marker / "rejection_log.json").write_text(json.dumps(rejection_log, indent=2, default=str))
-    (OUT / marker / "iterate_summary.json").write_text(json.dumps(summary, indent=2, default=str))
 
     if write and combined["biomarker_claims"]:
         from code import db as dbmod
