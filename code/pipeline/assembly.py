@@ -150,6 +150,22 @@ def _content_hash(content: dict) -> str:
     return hashlib.sha256(json.dumps(content, sort_keys=True, default=str).encode()).hexdigest()
 
 
+def _prune(obj: Any) -> Any:
+    """Recursively drop None values, empty dicts, and empty lists so the export
+    carries only fields that actually have data — no null/{}/[] placeholder litter."""
+    if isinstance(obj, dict):
+        out = {}
+        for k, v in obj.items():
+            pv = _prune(v)
+            if pv is None or pv == {} or pv == []:
+                continue
+            out[k] = pv
+        return out
+    if isinstance(obj, list):
+        return [pv for pv in (_prune(x) for x in obj) if pv not in (None, {}, [])]
+    return obj
+
+
 def build_marker_export(
     marker: str,
     result: dict,
@@ -244,7 +260,7 @@ def build_marker_export(
         for i, s in enumerate(studies)
     ]
 
-    return {
+    return _prune({
         "schema_version": "1",
         "batch": {"batch_slug": batch_slug, "paradigm": "metabolic-optimization",
                   "status": "review", "generated_at": generated_at},
@@ -255,4 +271,4 @@ def build_marker_export(
         "research_studies": studies,
         "research_citations": research_citations,
         "rejected_items": rejected,
-    }
+    })
