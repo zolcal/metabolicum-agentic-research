@@ -9,9 +9,14 @@ surface is `range_facts`, not the legacy `paradigm_ranges`.
 
 from __future__ import annotations
 
+import hashlib
+import json
 from typing import Any
 
 from code import range_color_policy
+
+_SOURCE_FAMILIES = {"pubmed", "pmc", "doi", "guideline", "practitioner_surface",
+                    "podcast", "video", "blog", "social"}
 
 _PARADIGM_LABEL = {
     "SM": "standard-medical",
@@ -120,4 +125,134 @@ def build_range_fact(
             "source_pmid": cited.get("pmid"),
             "source_doi": cited.get("doi"),
         },
+    }
+
+
+# ── §18 MO export projection (revised-A: deterministic, no LLM) ────────
+
+def _source_family(source_type: str | None) -> str:
+    st = (source_type or "").lower()
+    return st if st in _SOURCE_FAMILIES else "other"
+
+
+def _supports_bound(rf: dict) -> str:
+    lo, hi = rf.get("min_value"), rf.get("max_value")
+    if lo is not None and hi is not None:
+        return "value" if lo == hi else "both"
+    if hi is not None:
+        return "max"
+    if lo is not None:
+        return "min"
+    return "none"
+
+
+def _content_hash(content: dict) -> str:
+    return hashlib.sha256(json.dumps(content, sort_keys=True, default=str).encode()).hexdigest()
+
+
+def build_marker_export(
+    marker: str,
+    result: dict,
+    source_fixtures: dict[str, dict] | None = None,
+    *,
+    batch_slug: str | None = None,
+    generated_at: str | None = None,
+    marker_type: str = "marker",
+    language: str = "en",
+    extra_sections: list[dict] | None = None,
+) -> dict[str, Any]:
+    """Deterministic §18 MO export object for one marker (revised-A scope).
+
+    Projects the pipeline result + source fixtures into the export contract — no
+    LLM, no reinterpretation: range_facts (already built), range_source_artifacts,
+    range_fact_sources, deterministic content sections (evidence_badge, references),
+    research_studies, research_citations. `extra_sections` lets Stage-B inject the
+    MO-specific prose sections (interpretation/limitations). Translations are NOT
+    produced here — MetaSync localizes after ingestion. paradigm_thresholds is NOT
+    produced — it is a downstream cross-paradigm render of range_facts.
+    """
+    source_fixtures = source_fixtures or {}
+    claims = result.get("biomarker_claims", []) or []
+    range_facts = result.get("range_facts", []) or []
+    studies = result.get("research_studies", []) or []
+    rejected = result.get("rejection_log") or result.get("quarantine") or []
+
+    # one source_artifact per source referenced by an approved claim
+    source_artifacts, seen = [], []
+    for sid in (c.get("source_id") for c in claims):
+        if not sid or sid in seen:
+            continue
+        seen.append(sid)
+        fx = source_fixtures.get(sid, {})
+        pub = fx.get("published_at") or ""
+        source_artifacts.append({
+            "source_id": sid,
+            "source_family": _source_family(fx.get("source_type")),
+            "source_url": fx.get("source_url"),
+            "source_title": fx.get("title"),
+            "source_authors": fx.get("speaker_or_author"),
+            "source_year": pub[:4] if isinstance(pub, str) and len(pub) >= 4 else None,
+            "source_license": fx.get("license"),
+            "raw_artifact_ref": None,
+            "raw_sha256": fx.get("transcript_sha256"),
+            "retrieved_at": fx.get("retrieved_at"),
+            "review_status": "unreviewed",
+            "evidence_grade": None,
+            "source_quality": None,
+            "source_bounds": {"supports_min": None, "supports_max": None, "supports_value": None},
+            "provenance": {},
+        })
+
+    range_fact_sources = [
+        {"range_order": rf.get("range_order"), "source_id": sid,
+         "source_role": "supports_range", "supports_bound": _supports_bound(rf),
+         "evidence_grade": rf.get("evidence_grade")}
+        for rf in range_facts for sid in (rf.get("source_ids") or [])
+    ]
+
+    # deterministic content sections: evidence_badge + references
+    content_sections = []
+    graded = sorted(c["evidence_sub_grade"] for c in claims if c.get("evidence_sub_grade"))
+    sub = graded[0] if graded else None
+    speakers = sorted({c.get("speaker_or_author") for c in claims if c.get("speaker_or_author")})
+    if claims:
+        badge = {
+            "grade": sub[0] if sub else None, "sub_grade": sub, "label": None,
+            "rationale": (f"{len(claims)} council-approved, legal-cleared MO claim(s) from "
+                          f"{', '.join(speakers) or 'practitioner sources'}; graded {sub or 'ungraded'}."),
+        }
+        content_sections.append({
+            "marker_slug": marker, "marker_type": marker_type, "language": language,
+            "section_type": "evidence_badge", "section_order": 1, "paradigm": "metabolic-optimization",
+            "content": badge, "source_type": "pipeline", "evidence_grade": sub[0] if sub else None,
+            "source_url": None, "content_hash": _content_hash(badge), "status": "draft", "version": 1,
+        })
+    for s in (extra_sections or []):  # Stage-B prose (interpretation/limitations)
+        content_sections.append(s)
+    refs = {"title": "References", "entries": [{"citation_key": s.get("slug"), "study_slug": s.get("slug")} for s in studies]}
+    content_sections.append({
+        "marker_slug": marker, "marker_type": marker_type, "language": language,
+        "section_type": "references", "section_order": len(content_sections) + 1,
+        "paradigm": "metabolic-optimization", "content": refs, "source_type": "pipeline",
+        "evidence_grade": None, "source_url": None, "content_hash": _content_hash(refs),
+        "status": "draft", "version": 1,
+    })
+
+    research_citations = [
+        {"study_slug": s.get("slug"), "source_page": f"/learn/markers/{marker}",
+         "display_order": i + 1, "citation_context": None, "citation_key": s.get("slug")}
+        for i, s in enumerate(studies)
+    ]
+
+    return {
+        "schema_version": "1",
+        "batch": {"batch_slug": batch_slug, "paradigm": "metabolic-optimization",
+                  "status": "review", "generated_at": generated_at},
+        "range_facts": range_facts,
+        "range_source_artifacts": source_artifacts,
+        "range_fact_sources": range_fact_sources,
+        "marker_content_sections": content_sections,
+        "research_studies": studies,
+        "research_citations": research_citations,
+        "rejected_items": rejected,
     }

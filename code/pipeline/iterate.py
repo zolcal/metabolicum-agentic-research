@@ -28,7 +28,7 @@ sys.path.insert(0, str(PROJECT_ROOT))
 
 from code.discovery import web
 from code.llm_client import LLMClient
-from code.pipeline import brief, council, ingest, persist
+from code.pipeline import assembly, brief, council, ingest, persist
 from code.pipeline.live_run import run_marker_live_session
 from code.state import PipelineRun
 
@@ -159,6 +159,10 @@ def run_marker_iterative(marker: str, wave: str, *, write: bool = False,
 
     # Export (always) + persist (when --write)
     OUT.joinpath(marker).mkdir(parents=True, exist_ok=True)
+    mo_export = assembly.build_marker_export(
+        marker, {**combined, "rejection_log": rejection_log}, sources_by_id,
+        batch_slug=f"{marker}-mo")
+    (OUT / marker / "mo_export.json").write_text(json.dumps(mo_export, indent=2, default=str))
     (OUT / marker / "range_facts.json").write_text(json.dumps(combined["range_facts"], indent=2, default=str))
     (OUT / marker / "rejection_log.json").write_text(json.dumps(rejection_log, indent=2, default=str))
     (OUT / marker / "iterate_summary.json").write_text(json.dumps(summary, indent=2, default=str))
