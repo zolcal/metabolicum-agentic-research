@@ -21,6 +21,7 @@ from __future__ import annotations
 import argparse
 import json
 import sys
+import uuid
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
@@ -95,6 +96,7 @@ def run_marker_iterative(marker: str, wave: str, *, write: bool = False,
     sources_by_id: dict[str, dict] = {}
     seen: set[str] = set()
     approved = 0
+    run_stamp = uuid.uuid4().hex[:6]  # unique per invocation — no run-id collision across re-runs
 
     # Optional fast path: reuse fixtures already on disk (skip live discovery).
     preset = None
@@ -122,7 +124,7 @@ def run_marker_iterative(marker: str, wave: str, *, write: bool = False,
             seen.add(fx["source_id"])
             sources_by_id[fx["source_id"]] = fx
 
-        run = PipelineRun.create(run_id=f"iter-{marker}-r{rnd}")
+        run = PipelineRun.create(run_id=f"iter-{marker}-{run_stamp}-r{rnd}")
         pairs = _extract(fixtures, run, clients, models)
         mo = [(rec, fx) for rec, fx in pairs
               if rec.get("paradigm") == "MO" and marker in (rec.get("applies_to_markers") or [])]
