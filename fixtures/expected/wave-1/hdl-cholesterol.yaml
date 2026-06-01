@@ -1,0 +1,438 @@
+# Wave-0 acceptance sample — HDL Cholesterol (hdl-cholesterol)
+#
+# Purpose: gold-standard end-product reference for the Hermes MO research pipeline.
+# This file shows the §18 export shape Hermes-produced biomarker_claims must project
+# into. The expected/wave-0/ samples are the qualifying requirement for Hermes.
+#
+# IMPORTANT: this is a PLACEHOLDER template. No values inside are real research data.
+# Every <TBD> marker must be replaced with validated MO research before this file
+# can be treated as an actual gold standard. The retired legacy research and output trees were intentionally NOT used as sources because:
+#   - 64% of prior LLM-assigned PMIDs were fabricated (session-34 finding)
+#   - legacy MO sections have no verbatim quotes or fetchable URLs
+#   - legacy ApoB output has 0 MO range rows (only narrative)
+#
+# Scope: METABOLIC OPTIMIZATION (MO) only. SM and RC are produced by their own
+# non-agentic pipelines and do not appear here. The agentic pipeline researches MO.
+#
+# Structural fields (real, sourced from registry + wave-0 input YAML):
+#   marker_slug, entity_type, paradigm, units, marker_type, language enums
+# All other fields are <TBD> until validated MO research lands.
+
+schema_version: "1"
+
+batch:
+  batch_slug: <TBD: assigned at export, e.g. "wave-0-hdl-cholesterol-2026-XX-XX">
+  paradigm: metabolic-optimization
+  source_kind: <TBD: aggregate label, e.g. "mo_practitioner_review_2026">
+  importer_version: <TBD: tag of the exporter that produced this artifact>
+  status: review
+  notes: <TBD: free-text run-context summary>
+  generated_at: <TBD: ISO timestamp at export time>
+
+# ─── range_facts ──────────────────────────────────────────────────────────────
+# Block may contain MANY rows. One row per approved MO range claim, scoped by
+# population (sex, age, comorbidity), specimen, method, or endpoint. Three valid
+# row shapes:
+#
+#   1. One-sided upper bound (most common MO shape): "ApoB below 80 mg/dL"
+#      → min_value: null, max_value: 80, status: optimal
+#   2. Between two bounds (banded MO range): "HOMA-IR 0.5–1.0 optimal"
+#      → min_value: 0.5, max_value: 1.0, status: optimal
+#   3. One-sided lower bound (rare for risk markers): "vitamin D above 50 nmol/L"
+#      → min_value: 50, max_value: null, status: sufficient
+#
+# display_role values (§04 + §18 enum; only the last four apply to MO output):
+#   primary_metabolic_optimization_target  — the canonical MO display row
+#   supporting                             — additional MO rows (variants, bands)
+#   comparison_only                        — shown for context, not primary
+#   internal_research_gate                 — internal-only, never displayed
+#
+# Field semantics (per §04 + §18; the three notes columns are spec ambiguities):
+#   method_note      — how the assay/measurement is done (e.g. "fasting required")
+#   derivation_note  — how the threshold was derived (e.g. "Attia clinical
+#                       practice; supported by Sniderman 2019 meta-analysis")
+#   context_note     — additional context that doesn't fit a structured field
+#                       (e.g. "applies during low-carb diet")
+#
+# `color` is NOT emitted by the agent. The exporter resolves it via
+# canonical_color(status) per docs/policies/RANGE-STATUS-COLOR-POLICY.md
+# (vendored into this repository). The 7-bucket canonical palette is
+# paradigm-agnostic and CHECK-constrained at the DB:
+#   optimal       → #22c55e   (green-500)    optimal | normal | good | healthy | sufficient | negative | ideal | target | optimal_high | optimal_low | lmhr
+#   near_optimal  → #84cc16   (lime-500)     near_optimal | acceptable | adequate | low_normal | high_normal | below_optimal
+#   borderline    → #eab308   (yellow-500)   borderline | borderline_high | borderline_low | moderate | concerning | suboptimal | mildly_elevated | monitor | caution
+#   elevated      → #f97316   (orange-500)   elevated | elevated_risk | high | above_optimal | above_optimal_high | low | low_risk | acute | trough | poor
+#   critical      → #ef4444   (red-500)      very_high | very_low | deficient | abnormal | excessive | insufficient | high_risk
+#   severe        → #dc2626   (red-600)      critical | critical_high | critical_low | severe
+#   indeterminate → #9ca3af   (gray-400)     indeterminate | not_applicable | insufficient_evidence | subtherapeutic | unknown
+# Status strings must come from the alias table in that spec. canonical_color()
+# raises on unmapped values, so the agent cannot invent free-form status.
+# Note: `low` always maps to elevated orange. For "low is good" markers
+# (HOMA-IR, TG/HDL, etc.), use `optimal_low` / `low_normal` / `near_optimal`.
+#
+# The export-shape renderer recognises three display states (policy §"Three
+# display states"): State A (defined_range — colored segment), State B
+# (no_range_defined — hatched zone, paradigm has data but not at this value),
+# State C (paradigm_unavailable — no bar rendered). Each wave-0 marker is in
+# State C for MO until the first MO range_fact lands; populating these
+# expected files is what trips State C → A at the renderer level.
+#
+# verified_present is set by the Stage 3 council reviewer after re-fetching
+# the source URL and confirming the verbatim quote is still present (§05).
+# In a freshly-emitted claim it is null; the council sets it true/false.
+
+range_facts:
+  # Row 1 — primary MO target, one-sided upper bound (typical MO shape)
+  - subject_slug: hdl-cholesterol
+    entity_type: evaluator
+    paradigm: metabolic-optimization
+    range_version: <TBD: version tag, e.g. "mo_2026_xx_xx_v1">
+    range_order: 1
+    min_value: null
+    max_value: <TBD: MO upper bound for primary target>
+    unit: mg/dL
+    status: optimal                       # alias-table bucket: optimal
+    label: <TBD: display label, e.g. "MO optimal">
+    color: "#22c55e"                      # derived from status='optimal' (green-500)
+    gender: all
+    sex_for_lab_reference: null
+    stratum: null
+    age_min: null
+    age_max: null
+    variant: null
+    specimen: <TBD: e.g. "serum">
+    population_scope: <TBD: e.g. "general adult">
+    endpoint: <TBD: e.g. "ASCVD risk reduction">
+    outcome_target: <TBD>
+    endpoint_note: <TBD>
+    evidence_grade: <TBD: parent letter A-E or P>
+    evidence_sub_grade: <TBD: full code, e.g. "C2">
+    validation_grade: <TBD>
+    validation_tier: <TBD>
+    source_quality: <TBD>
+    extraction_confidence: <TBD: low | medium | high | number>
+    display_role: primary_metabolic_optimization_target
+    primary_display: true
+    public_display_approved: false
+    method_note: <TBD: assay/measurement notes>
+    derivation_note: <TBD: how the threshold was derived>
+    context_note: <TBD: additional context if any>
+    source_ids:
+      - <TBD: matches a range_source_artifacts.source_id below>
+    review_status: unreviewed
+    provenance:
+      verbatim_quote: <TBD: verbatim sentence from the cited practitioner source>
+      source_pmid: <TBD: PMID if cited paper resolves, else null>
+      source_doi: <TBD: DOI if cited paper resolves, else null>
+      source_url: <TBD: fetchable URL where the verbatim quote appears>
+      verified_present: null
+      extraction_notes: <TBD>
+
+  # Row 2 — supporting MO band, between-shape (acceptable range above the primary target)
+  - subject_slug: hdl-cholesterol
+    entity_type: evaluator
+    paradigm: metabolic-optimization
+    range_version: <TBD: same version as row 1>
+    range_order: 2
+    min_value: <TBD: lower bound of acceptable band>
+    max_value: <TBD: upper bound of acceptable band>
+    unit: mg/dL
+    status: near_optimal                  # alias-table bucket: near_optimal (band above primary target)
+    label: <TBD: display label, e.g. "MO acceptable">
+    color: "#84cc16"                      # derived from status='near_optimal' (lime-500)
+    gender: all
+    sex_for_lab_reference: null
+    stratum: null
+    age_min: null
+    age_max: null
+    variant: null
+    specimen: <TBD>
+    population_scope: <TBD>
+    endpoint: <TBD>
+    outcome_target: <TBD>
+    endpoint_note: <TBD>
+    evidence_grade: <TBD>
+    evidence_sub_grade: <TBD>
+    validation_grade: <TBD>
+    validation_tier: <TBD>
+    source_quality: <TBD>
+    extraction_confidence: <TBD>
+    display_role: supporting
+    primary_display: false
+    public_display_approved: false
+    method_note: <TBD>
+    derivation_note: <TBD>
+    context_note: <TBD>
+    source_ids:
+      - <TBD: matches a range_source_artifacts.source_id below>
+    review_status: unreviewed
+    provenance:
+      verbatim_quote: <TBD>
+      source_pmid: <TBD>
+      source_doi: <TBD>
+      source_url: <TBD>
+      verified_present: null
+      extraction_notes: <TBD>
+
+  # Row 3 — supporting sex-stratified variant (illustrates population-qualifier use)
+  - subject_slug: hdl-cholesterol
+    entity_type: evaluator
+    paradigm: metabolic-optimization
+    range_version: <TBD: same version as row 1>
+    range_order: 3
+    min_value: null
+    max_value: <TBD: sex-stratified MO target if any practitioner gives one>
+    unit: mg/dL
+    status: optimal                       # alias-table bucket: optimal
+    label: <TBD>
+    color: "#22c55e"                      # derived from status='optimal' (green-500)
+    gender: <TBD: female | male>
+    sex_for_lab_reference: <TBD: female | male>
+    stratum: <TBD: e.g. "female_postmenopausal">
+    age_min: <TBD>
+    age_max: <TBD>
+    variant: null
+    specimen: <TBD>
+    population_scope: <TBD>
+    endpoint: <TBD>
+    outcome_target: <TBD>
+    endpoint_note: <TBD>
+    evidence_grade: <TBD>
+    evidence_sub_grade: <TBD>
+    validation_grade: <TBD>
+    validation_tier: <TBD>
+    source_quality: <TBD>
+    extraction_confidence: <TBD>
+    display_role: supporting
+    primary_display: false
+    public_display_approved: false
+    method_note: <TBD>
+    derivation_note: <TBD>
+    context_note: <TBD>
+    source_ids:
+      - <TBD: matches a range_source_artifacts.source_id below>
+    review_status: unreviewed
+    provenance:
+      verbatim_quote: <TBD>
+      source_pmid: <TBD>
+      source_doi: <TBD>
+      source_url: <TBD>
+      verified_present: null
+      extraction_notes: <TBD>
+
+# ─── range_source_artifacts ──────────────────────────────────────────────────
+# One per unique source backing any range_fact above. Practitioner podcasts,
+# videos, blog posts, papers — anything Hermes Stage 2 extracted from.
+range_source_artifacts:
+  - source_id: <TBD: stable id, e.g. "pmid:12345678" or "url:<sha>">
+    source_family: <TBD: pubmed | pmc | doi | guideline | practitioner_surface | podcast | video | blog | social | other>
+    source_url: <TBD>
+    source_title: <TBD>
+    source_authors: <TBD>
+    source_year: <TBD>
+    source_license: <TBD: CC-BY | CC-BY-NC | proprietary | etc.>
+    raw_artifact_ref: <TBD: path to cached transcript/PDF if any>
+    raw_sha256: <TBD>
+    retrieved_at: <TBD: ISO timestamp>
+    review_status: unreviewed
+    evidence_grade: <TBD>
+    source_quality: <TBD>
+    source_bounds:
+      supports_min: null
+      supports_max: null
+      supports_value: null
+    provenance: {}
+
+# ─── range_fact_sources ──────────────────────────────────────────────────────
+# Many-to-many between range_facts and range_source_artifacts. Required when
+# a range_fact has any source_ids; explains which part of the fact each source
+# supports (min, max, both, value, context, or contradiction).
+range_fact_sources:
+  - range_order: 1
+    source_id: <TBD: matches a range_source_artifacts.source_id above>
+    source_role: supports_range          # supports_range | supports_min | supports_max | supports_context | contradicts_range | background
+    supports_bound: max                  # min | max | both | value | context | none
+    evidence_grade: <TBD>
+
+# ─── marker_content_sections ─────────────────────────────────────────────────
+# Learn-page narrative for the marker. MO-paradigm content only. One row per
+# section_type from the §04 enum. Citation keys inside content.citations must
+# resolve to a research_study slug below.
+marker_content_sections:
+  - marker_slug: hdl-cholesterol
+    marker_type: evaluator
+    language: en
+    section_type: why_matters
+    section_order: 1
+    paradigm: metabolic-optimization
+    content:
+      title: <TBD: short section title>
+      body: <TBD: 2-4 paragraphs, MO framing, citation keys inline>
+      citations:
+        - citation_key: <TBD: matches research_citation.citation_key below>
+          source_id: <TBD: matches a range_source_artifacts.source_id above>
+    source_type: pipeline
+    evidence_grade: <TBD>
+    source_url: <TBD>
+    content_hash: <TBD: sha256 of canonicalized content for change detection>
+    status: draft
+    version: 1
+
+  - marker_slug: hdl-cholesterol
+    marker_type: evaluator
+    language: en
+    section_type: paradigm_thresholds
+    section_order: 2
+    paradigm: metabolic-optimization
+    content:
+      title: <TBD>
+      thresholds: <TBD: structured threshold list referencing range_facts above>
+      citations: []
+    source_type: pipeline
+    evidence_grade: <TBD>
+    source_url: <TBD>
+    content_hash: <TBD>
+    status: draft
+    version: 1
+
+  - marker_slug: hdl-cholesterol
+    marker_type: evaluator
+    language: en
+    section_type: mechanism
+    section_order: 3
+    paradigm: metabolic-optimization
+    content:
+      title: <TBD>
+      body: <TBD: mechanism explanation>
+      citations: []
+    source_type: pipeline
+    evidence_grade: <TBD>
+    source_url: <TBD>
+    content_hash: <TBD>
+    status: draft
+    version: 1
+
+  - marker_slug: hdl-cholesterol
+    marker_type: evaluator
+    language: en
+    section_type: interpretation
+    section_order: 4
+    paradigm: metabolic-optimization
+    content:
+      title: <TBD>
+      body: <TBD: how to interpret results within MO framing>
+      citations: []
+    source_type: pipeline
+    evidence_grade: <TBD>
+    source_url: <TBD>
+    content_hash: <TBD>
+    status: draft
+    version: 1
+
+  - marker_slug: hdl-cholesterol
+    marker_type: evaluator
+    language: en
+    section_type: limitations
+    section_order: 5
+    paradigm: metabolic-optimization
+    content:
+      title: <TBD>
+      body: <TBD: caveats, MO-specific edge cases, LMHR phenotype, etc.>
+      citations: []
+    source_type: pipeline
+    evidence_grade: <TBD>
+    source_url: <TBD>
+    content_hash: <TBD>
+    status: draft
+    version: 1
+
+  - marker_slug: hdl-cholesterol
+    marker_type: evaluator
+    language: en
+    section_type: evidence_badge
+    section_order: 6
+    paradigm: metabolic-optimization
+    content:
+      grade: <TBD: parent letter from evidence_sub_grade above>
+      sub_grade: <TBD: e.g. "C2">
+      label: <TBD>
+      rationale: <TBD>
+    source_type: pipeline
+    evidence_grade: <TBD>
+    source_url: null
+    content_hash: <TBD>
+    status: draft
+    version: 1
+
+  - marker_slug: hdl-cholesterol
+    marker_type: evaluator
+    language: en
+    section_type: references
+    section_order: 7
+    paradigm: metabolic-optimization
+    content:
+      title: References
+      entries: <TBD: list of citation_key + research_study slug pairs>
+    source_type: pipeline
+    evidence_grade: null
+    source_url: null
+    content_hash: <TBD>
+    status: draft
+    version: 1
+
+# ─── research_studies ────────────────────────────────────────────────────────
+# Reference-library entries. One per resolved PMID or DOI cited in any MO
+# narrative section or supporting any MO range_fact. Slug is deterministic
+# (`pmid-<id>` preferred when PMID exists).
+research_studies:
+  - slug: <TBD: e.g. "pmid-12345678">
+    pmid: <TBD>
+    doi: <TBD>
+    original_title: <TBD: exact title from PubMed/Crossref>
+    authors_short: <TBD: e.g. "Smith J, et al.">
+    journal: <TBD>
+    publication_year: <TBD>
+    study_type: <TBD: rct | cohort | meta_analysis | review | etc.>
+    evidence_grade: <TBD: parent letter>
+    evidence_sub_grade: <TBD: full code>
+    sample_size: <TBD>
+    grading_confidence: <TBD: low | medium | high>
+    auto_graded: false
+    paradigm_standard: false
+    paradigm_research: false
+    paradigm_optimization: true
+    pubmed_url: <TBD>
+    doi_url: <TBD>
+    full_text_url: <TBD: only if PMC OA Commercial-Use-Allowed subset>
+    topics: [<TBD>]
+    biomarkers: [hdl-cholesterol]
+    status: draft
+
+# ─── research_study_translations ─────────────────────────────────────────────
+# Localized summaries. At minimum one English row per study. Hungarian and
+# other languages added later under the multilingual roadmap.
+research_study_translations:
+  - study_slug: <TBD: matches research_study.slug above>
+    language: en
+    title: <TBD>
+    summary_plain: <TBD: plain-language summary>
+    key_finding: <TBD: one-sentence key takeaway>
+    key_findings: [<TBD>]
+    content: {}
+    content_source: pipeline_research
+
+# ─── research_citations ──────────────────────────────────────────────────────
+# Links between marker_content_sections and research_studies. citation_key on
+# this row must match a citation_key used inside a marker_content_section's
+# content.citations[] above.
+research_citations:
+  - study_slug: <TBD: matches a research_studies.slug above>
+    source_page: /learn/markers/hdl-cholesterol
+    display_order: 1
+    citation_context: <TBD: why this study appears on this page>
+    citation_key: <TBD: matches the inline citation_key used in section content>
+
+# ─── rejected_item ───────────────────────────────────────────────────────────
+# Quarantine entries for items that failed extraction, council, provenance,
+# legal, or assembly. Empty list when nothing failed in this batch.
+rejected_items: []

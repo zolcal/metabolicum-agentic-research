@@ -50,6 +50,22 @@ if [[ ! -f "$HERMES_HOME/SOUL.md" ]]; then
     echo "Initialized $HERMES_HOME/SOUL.md from project template"
 fi
 
+# Load project secrets first, then user-level secrets. This keeps refreshed
+# credentials in ~/.secrets out of the repo while letting them override stale
+# project-local values inherited by worker homes.
+if [[ -f "$PROJECT_ROOT/secrets/.env" ]]; then
+    set -a
+    # shellcheck disable=SC1091
+    source "$PROJECT_ROOT/secrets/.env"
+    set +a
+fi
+if [[ -f "$HOME/.secrets" ]]; then
+    set -a
+    # shellcheck disable=SC1090
+    source "$HOME/.secrets"
+    set +a
+fi
+
 # Export environment so Hermes finds our home
 export HERMES_HOME
 export UV_NO_CONFIG=1

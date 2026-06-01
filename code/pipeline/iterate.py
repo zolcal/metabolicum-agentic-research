@@ -22,6 +22,7 @@ import argparse
 import json
 import sys
 import uuid
+from datetime import datetime, timezone
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
@@ -29,12 +30,11 @@ sys.path.insert(0, str(PROJECT_ROOT))
 
 from code.discovery import web
 from code.llm_client import LLMClient
-from code.pipeline import assembly, brief, content, council, ingest, persist
+from code.pipeline import assembly, brief, content, council, handoff, ingest, persist
 from code.pipeline.live_run import make_role_caller, run_marker_live_session
 from code.state import PipelineRun
 
 BRIEFS = PROJECT_ROOT / "input" / "hermes-briefs"
-OUT = PROJECT_ROOT / "output" / "markers"
 
 STOP_COUNT = 2      # approved MO claims that ends the search
 MAX_ROUNDS = 3      # widening rounds
@@ -83,8 +83,10 @@ def _extract(fixtures: list[dict], run: PipelineRun, clients, models) -> list[tu
 
 
 def run_marker_iterative(marker: str, wave: str, *, write: bool = False,
-                         fixtures_dir: str | None = None,
+                         fixtures_dir: str | None = None, batch_slug: str | None = None,
                          max_sources: int = MAX_SOURCES) -> dict:
+    if batch_slug is None:
+        batch_slug = f"mo-research-{wave}-{datetime.now(timezone.utc).date().isoformat()}"
     b = brief.load_brief(BRIEFS / wave / f"{marker}.yaml")
     sm_rows = brief.resolve_council_sm_rows(b)
     llm = LLMClient()
@@ -159,23 +161,25 @@ def run_marker_iterative(marker: str, wave: str, *, write: bool = False,
                "rejected": len(rejection_log), "rounds": rnd, "sources_seen": len(seen),
                "terminal": "no_mo_support_found" if approved == 0 else "ok"}
 
-    # Stage-B: MO-specific prose (interpretation/limitations), grounded in claims
+    # Stage-B: MO-specific prose from ACCEPTED (numeric) claims only — conceptual
+    # claims don't drive content; they are recorded as rejected_items.
+    accepted = [c for c in combined["biomarker_claims"] if not assembly.range_reject_reason(c)]
     extra_sections = []
-    if combined["biomarker_claims"]:
+    if accepted:
         try:
             extra_sections = content.build_mo_content_sections(
-                marker, combined["biomarker_claims"], sm_rows, role_caller=make_role_caller(llm))
+                marker, accepted, sm_rows, role_caller=make_role_caller(llm))
         except Exception as e:
             print(f"content writer skipped (non-fatal): {e}")
 
-    # Export (always) + persist (when --write). ONE artifact per marker:
-    # mo_export.json is the full §18 export — it already contains range_facts and
-    # rejected_items; the run summary is the return value (printed by main).
-    OUT.joinpath(marker).mkdir(parents=True, exist_ok=True)
+    # Frozen MetaSync handoff package: output/mo-handoffs/{batch_slug}/markers/<marker>/mo_export.json
+    # + a batch manifest.json (counts + per-file SHA-256). No SQL, no DB write here.
     mo_export = assembly.build_marker_export(
         marker, {**combined, "rejection_log": rejection_log}, sources_by_id,
-        batch_slug=f"{marker}-mo", extra_sections=extra_sections)
-    (OUT / marker / "mo_export.json").write_text(json.dumps(mo_export, indent=2, default=str))
+        batch_slug=batch_slug, extra_sections=extra_sections)
+    handoff.write_marker_export(batch_slug, marker, mo_export)
+    handoff.build_manifest(batch_slug)
+    summary["batch_slug"] = batch_slug
 
     if write and combined["biomarker_claims"]:
         from code import db as dbmod
@@ -203,10 +207,12 @@ def main() -> None:
     ap.add_argument("--wave", default="wave-0")
     ap.add_argument("--write", action="store_true", help="persist to agentic Supabase")
     ap.add_argument("--fixtures-dir", help="reuse existing fixtures instead of live discovery (fast test)")
+    ap.add_argument("--batch-slug", help="handoff batch slug (default: mo-research-<wave>-<date>)")
     ap.add_argument("--max-sources", type=int, default=MAX_SOURCES)
     args = ap.parse_args()
     summary = run_marker_iterative(args.marker, args.wave, write=args.write,
-                                   fixtures_dir=args.fixtures_dir, max_sources=args.max_sources)
+                                   fixtures_dir=args.fixtures_dir, batch_slug=args.batch_slug,
+                                   max_sources=args.max_sources)
     print(json.dumps(summary, indent=2, default=str))
 
 
