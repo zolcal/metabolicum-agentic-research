@@ -16,7 +16,16 @@ from typing import Any
 from code import range_color_policy
 
 _SOURCE_FAMILIES = {"pubmed", "pmc", "doi", "guideline", "practitioner_surface",
-                    "podcast", "video", "blog", "social"}
+                    "podcast", "video", "blog", "social", "paper"}
+
+_STATUS_LABEL = {"target": "Target", "optimal": "Optimal", "normal": "Normal",
+                 "low_risk": "Low Risk", "high_risk": "High Risk", "borderline": "Borderline"}
+
+
+def _status_label(status: str | None) -> str | None:
+    if not status:
+        return None
+    return _STATUS_LABEL.get(status, status.replace("_", " ").title())
 
 _PARADIGM_LABEL = {
     "SM": "standard-medical",
@@ -95,9 +104,10 @@ def build_range_fact(
 
     pop = bc.get("population") or {}
     sub_grade = bc.get("evidence_sub_grade")
-    public_ok = bc.get("legal_status") == "approved" and bc.get("approval_status") == "approved"
     cited = bc.get("cited_paper") or {}
 
+    # MetaSync handoff defaults (per 2026-05-31 MO handoff process doc): the
+    # research export is review-only — never public, never approved.
     return {
         "subject_slug": bc["marker"],
         "entity_type": entity_type,
@@ -108,20 +118,23 @@ def build_range_fact(
         "max_value": hi,
         "unit": bc.get("units"),
         "status": status,
+        "label": _status_label(status),
         "color": range_color_policy.canonical_color(status),
         "gender": pop.get("gender"),
         "sex_for_lab_reference": pop.get("sex_for_lab_reference") or pop.get("sex"),
         "stratum": pop.get("stratum"),
         "age_min": pop.get("age_min"),
         "age_max": pop.get("age_max"),
-        "evidence_sub_grade": sub_grade,
         "evidence_grade": sub_grade[0] if sub_grade else None,
-        "review_status": bc.get("approval_status"),
-        "public_display_approved": public_ok,
+        "display_role": "mo_research_handoff",
+        "primary_display": True,
+        "review_status": "review",
+        "public_display_approved": False,
         "source_ids": [bc["source_id"]] if bc.get("source_id") else [],
         "biomarker_claim_id": biomarker_claim_id,
         "provenance": {
             "verbatim_quote": bc.get("verbatim_quote"),
+            "evidence_sub_grade": sub_grade,
             "source_pmid": cited.get("pmid"),
             "source_doi": cited.get("doi"),
         },
@@ -129,6 +142,20 @@ def build_range_fact(
 
 
 # ── §18 MO export projection (revised-A: deterministic, no LLM) ────────
+
+def range_reject_reason(bc: dict) -> str | None:
+    """None if `bc` projects to a valid numeric range_fact; else the reject reason.
+
+    MO handoff doc: only numeric MO targets enter range_facts. Conceptual claims
+    (no numeric boundary / unmappable shape) and blank-unit claims stay out and
+    are recorded as rejected_items.
+    """
+    if build_range_fact(bc, biomarker_claim_id="_", range_order=1) is None:
+        return "conceptual_claim_no_numeric_target"
+    if not str(bc.get("units") or "").strip():
+        return "blank_unit"
+    return None
+
 
 def _source_family(source_type: str | None) -> str:
     st = (source_type or "").lower()
@@ -188,12 +215,24 @@ def build_marker_export(
     produced — it is a downstream cross-paradigm render of range_facts.
     """
     source_fixtures = source_fixtures or {}
-    claims = result.get("biomarker_claims", []) or []
-    range_facts = result.get("range_facts", []) or []
     studies = result.get("research_studies", []) or []
-    rejected = result.get("rejection_log") or result.get("quarantine") or []
+    rejected = list(result.get("rejection_log") or result.get("quarantine") or [])
 
-    # one source_artifact per source referenced by an approved claim
+    # Numeric-only gate (MO handoff doc): only claims with a numeric boundary AND
+    # a unit become range_facts. Conceptual / blank-unit claims are excluded from
+    # range_facts and recorded in rejected_items (kept, never silently dropped).
+    range_facts, claims = [], []
+    for bc in result.get("biomarker_claims", []) or []:
+        reason = range_reject_reason(bc)
+        if reason:
+            rejected.append({"reason_code": reason, "marker": marker,
+                             "verbatim_quote": bc.get("verbatim_quote"), "source_id": bc.get("source_id")})
+            continue
+        range_facts.append(build_range_fact(bc, biomarker_claim_id=bc.get("id"),
+                                            range_order=len(range_facts) + 1))
+        claims.append(bc)  # source_artifacts + evidence_badge derive from accepted claims only
+
+    # one source_artifact per source referenced by an accepted claim
     source_artifacts, seen = [], []
     for sid in (c.get("source_id") for c in claims):
         if not sid or sid in seen:
